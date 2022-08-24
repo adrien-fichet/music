@@ -1,0 +1,25 @@
+body {
+    font-size: xx-small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid black;
+}
+
+th, td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fav {
+    background-color: rgb(245, 245, 245);
+}
+
+.centered {
+    text-align: center;
+}
