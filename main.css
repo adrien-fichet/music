@@ -23,3 +23,11 @@ th, td {
 .centered {
     text-align: center;
 }
+
+.not-listened {
+    color: gray;
+}
+
+.red {
+    color: red;
+}

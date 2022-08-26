@@ -8,9 +8,12 @@
 </head>
 <body>
     <p>Number of albums: <span id="albums-number"></span></p>
-    <p>One random album (not yet listened to): <span id="random-album"></span></p>
+    <p>
+        One random album (not yet listened to): <span id="random-album"></span> 
+        <button onclick="get_random_album();">Update</button>
+    </p>
     <table id="albums">
-        <tr><th>Title</th><th>Artist</th><th>Year</th><th>Listened?</th></tr>
+        <tr><th>Title</th><th>Artist</th><th>Year</th></tr>
     </table>
     <p>Sources:</p>
     <ul>
@@ -20,6 +23,7 @@
         <li>Reddit /r/mu recommandations</li>
         <li>vip.aersia.net - Video Games BGMs</li>
         <li>Motown 1's and James Jamerson</li>
+        <li>Bandcamp</li>
     </ul>
     <p>Number of albums by decade:</p>
     <ul id="decade-numbers"></ul>
