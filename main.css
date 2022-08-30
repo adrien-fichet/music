@@ -1,5 +1,5 @@
 body {
-    font-size: xx-small;
+    font-size: x-small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -30,4 +30,9 @@ th, td {
 
 .red {
     color: red;
+}
+
+.meh {
+    text-decoration: line-through;
+    color: gray;
 }
