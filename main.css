@@ -28,8 +28,12 @@ th, td {
     color: gray;
 }
 
-.red {
+.heart {
     color: red;
+}
+
+.star {
+    color: blue;
 }
 
 .meh {
