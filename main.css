@@ -3,12 +3,16 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    color: black;
+}
+
 table {
     border-collapse: collapse;
 }
 
 tr {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gray;
 }
 
 th, td {
@@ -28,7 +32,7 @@ th, td {
     color: gray;
 }
 
-.heart {
+.heart { 
     color: red;
 }
 
@@ -39,4 +43,30 @@ th, td {
 .meh {
     text-decoration: line-through;
     color: gray;
+}
+
+.classical { color: lightgreen; }
+.swing { color: sandybrown; }
+.rock-n-roll { color: brown; }
+.country { color: green; }
+.jazz { color: bisque; }
+.folk { color: cadetblue; }
+.rock { color: red; }
+.soul { color: darkviolet; }
+.funk { color: lime; }
+.disco { color: hotpink; }
+.world { color: yellow; }
+.reggae { color: lawngreen; }
+.punk { color: orange; }
+.pop { color: deeppink; }
+.hard-rock { color: brown; }
+.rap { color: black; }
+.grunge { color: purple; }
+.trip-hop { color: darkblue; }
+.electro { color: cornflowerblue; }
+.metal { color: silver; }
+
+.flag {
+    vertical-align: middle;
+    width: 13px;
 }
