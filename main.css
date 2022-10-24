@@ -45,26 +45,36 @@ th, td {
     color: gray;
 }
 
-.classical { color: lightgreen; }
-.swing { color: sandybrown; }
-.rock-n-roll { color: brown; }
-.country { color: green; }
-.jazz { color: bisque; }
-.folk { color: cadetblue; }
+.genre {
+    font-weight: normal;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
 .rock { color: red; }
-.soul { color: darkviolet; }
-.funk { color: lime; }
-.disco { color: hotpink; }
-.world { color: yellow; }
-.reggae { color: lawngreen; }
+.hard-rock { color: black; }
+.rock-n-roll { color: burlywood; }
 .punk { color: orange; }
-.pop { color: deeppink; }
-.hard-rock { color: brown; }
-.rap { color: black; }
 .grunge { color: purple; }
-.trip-hop { color: darkblue; }
-.electro { color: cornflowerblue; }
-.metal { color: silver; }
+.metal { color: gray; }
+.country { color: darkcyan; }
+
+.soul { color: purple; }
+.trip-hop { color: blue; }
+.pop { color: hotpink; }
+.funk { color: lime;  }
+
+.jazz { color: blue; }
+.disco { color: hotpink; }
+.reggae { color: limegreen; }
+
+.world { color: red; }
+.classical { color: limegreen; }
+.swing { color: orange; }
+.blues { color: blue; }
+
+.folk { color: darkcyan; }
+.electro { color: cyan; }
+.rap { color: black; }
 
 .flag {
     vertical-align: middle;
