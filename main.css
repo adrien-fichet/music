@@ -18,6 +18,7 @@ tr {
 th, td {
     padding-left: 10px;
     padding-right: 10px;
+    max-width: 500px;
 }
 
 .fav {
@@ -50,9 +51,17 @@ th, td {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
 
+.comment {
+    font-style: italic;
+}
+
+.emoticon {
+    font-size: 8px;
+}
+
 .rock { color: red; }
 .hard-rock { color: black; }
-.rock-n-roll { color: burlywood; }
+.rock-n-roll { color: bisque; }
 .punk { color: orange; }
 .grunge { color: purple; }
 .metal { color: gray; }
@@ -67,7 +76,7 @@ th, td {
 .disco { color: hotpink; }
 .reggae { color: limegreen; }
 
-.world { color: red; }
+.world { color: yellow; }
 .classical { color: limegreen; }
 .swing { color: orange; }
 .blues { color: blue; }
@@ -75,6 +84,7 @@ th, td {
 .folk { color: darkcyan; }
 .electro { color: cyan; }
 .rap { color: black; }
+.chanson { color: hotpink; }
 
 .flag {
     vertical-align: middle;
