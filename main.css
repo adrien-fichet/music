@@ -60,11 +60,11 @@ th, td {
 }
 
 .rock { color: red; }
-.hard-rock { color: black; }
+.hard-rock { color: silver; }
 .rock-n-roll { color: bisque; }
 .punk { color: orange; }
 .grunge { color: purple; }
-.metal { color: gray; }
+.metal { color: black; }
 .country { color: darkcyan; }
 
 .soul { color: purple; }
