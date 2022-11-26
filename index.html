@@ -9,7 +9,68 @@
 <body>
     <p>Number of items: <span id="items-number"></span></p>
     <p>
-        <a href="#" onclick="get_random_item();">One random item (not yet listened):</a> <span id="random-item"></span> 
+        <a href="#/" onclick="get_random_item();">One random item (not yet listened):</a> <span id="random-item"></span> 
+    </p>
+    <p>
+        Filters: <span onclick="filter_items();"><a href="#/">[reset all]</a></span>
+        <br />
+        Listened: 
+        <span onclick="filter_items('listened', true);"><a href="#/">[yes]</a></span>
+        <span onclick="filter_items('listened', null);"><a href="#/">[no]</a></span>
+        <br />
+        Stars: 
+        <span onclick="filter_items('stars', null);"><a href="#/">[ ]</a></span>
+        <span onclick="filter_items('stars', 1);"><a href="#/">[<span class="star">&#9733;</span>]</a></span>
+        <span onclick="filter_items('stars', 2);"><a href="#/">[<span class="star">&#9733;&#9733;</span>]</a></span>
+        <span onclick="filter_items('stars', 3);"><a href="#/">[<span class="star">&#9733;&#9733;&#9733;</span>]</a></span>
+        <br />
+        Fav:
+        <span onclick="filter_items('fav', true);"><a href="#/">[yes]</a></span>
+        <span onclick="filter_items('fav', null);"><a href="#/">[no]</a></span>
+        Meh:
+        <span onclick="filter_items('meh', true);"><a href="#/">[yes]</a></span>
+        <span onclick="filter_items('meh', null);"><a href="#/">[no]</a></span>
+        <br />
+        Perso:
+        <span onclick="filter_items('perso', true);"><a href="#/">[yes]</a></span>
+        <span onclick="filter_items('perso', null);"><a href="#/">[no]</a></span>
+        Fr:
+        <span onclick="filter_items('fr', true);"><a href="#/">[yes]</a></span>
+        <span onclick="filter_items('fr', null);"><a href="#/">[no]</a></span>
+        <br />
+        Standard:
+        <span onclick="filter_items('standard', true);"><a href="#/">[yes]</a></span>
+        <br />
+        Genre:
+        <span onclick="filter_items('genre', null);"><a href="#/">[none]</a></span>
+        <br />
+        <span onclick="filter_items('genre', 'rock');"><a href="#/">[<span class="genre rock">&#9650;</span> rock]</a></span>
+        <span onclick="filter_items('genre', 'hard-rock');"><a href="#/">[<span class="genre hard-rock">&#9650;</span> hard-rock]</a></span>
+        <span onclick="filter_items('genre', 'rock-n-roll');"><a href="#/">[<span class="genre rock-n-roll">&#9650;</span> rock-n-roll]</a></span>
+        <br />
+        <span onclick="filter_items('genre', 'punk');"><a href="#/">[<span class="genre punk">&#9650;</span> punk]</a></span>
+        <span onclick="filter_items('genre', 'grunge');"><a href="#/">[<span class="genre grunge">&#9650;</span> grunge]</a></span>
+        <span onclick="filter_items('genre', 'metal');"><a href="#/">[<span class="genre metal">&#9650;</span> metal]</a></span>
+        <span onclick="filter_items('genre', 'country');"><a href="#/">[<span class="genre country">&#9650;</span> country]</a></span>
+        <br />
+        <span onclick="filter_items('genre', 'soul');"><a href="#/">[<span class="genre soul">&#11043;</span> soul]</a></span>
+        <span onclick="filter_items('genre', 'trip-hop');"><a href="#/">[<span class="genre trip-hop">&#11043;</span> trip-hop]</a></span>
+        <span onclick="filter_items('genre', 'pop');"><a href="#/">[<span class="genre pop">&#11043;</span> pop]</a></span>
+        <span onclick="filter_items('genre', 'funk');"><a href="#/">[<span class="genre funk">&#11043;</span> funk]</a></span>
+        <br />
+        <span onclick="filter_items('genre', 'jazz');"><a href="#/">[<span class="genre jazz">&#9670;</span> jazz]</a></span>
+        <span onclick="filter_items('genre', 'disco');"><a href="#/">[<span class="genre disco">&#9670;</span> disco]</a></span>
+        <span onclick="filter_items('genre', 'reggae');"><a href="#/">[<span class="genre reggae">&#9670;</span> reggae]</a></span>
+        <br />
+        <span onclick="filter_items('genre', 'world');"><a href="#/">[<span class="genre world">&#9632;</span> world]</a></span>
+        <span onclick="filter_items('genre', 'classical');"><a href="#/">[<span class="genre classical">&#9632;</span> classical]</a></span>
+        <span onclick="filter_items('genre', 'swing');"><a href="#/">[<span class="genre swing">&#9632;</span> swing]</a></span>
+        <span onclick="filter_items('genre', 'blues');"><a href="#/">[<span class="genre blues">&#9632;</span> blues]</a></span>
+        <br />
+        <span onclick="filter_items('genre', 'folk');"><a href="#/">[<span class="genre folk">&#9658;</span> folk]</a></span>
+        <span onclick="filter_items('genre', 'electro');"><a href="#/">[<span class="genre electro">&#9658;</span> electro]</a></span>
+        <span onclick="filter_items('genre', 'rap');"><a href="#/">[<span class="genre rap">&#9658;</span> rap]</a></span>
+        <span onclick="filter_items('genre', 'chanson');"><a href="#/">[<span class="genre chanson">&#9658;</span> chanson]</a></span>
     </p>
     <table id="items">
         <tr><th>Title</th><th>Artist</th><th>Year</th></tr>
@@ -44,6 +105,7 @@
         <li>Blues Standards</li>
         <li>Albums of songs I play(ed) on bass / guitar</li>
         <li>Spotify playlists (pop-rock, electro 2000, rock 70s / 80s), etc.</li>
+        <li>Chansons françaises de la collection Diapason Rouge</li>
     </ul>
     <p>Number of items by decade:</p>
     <ul id="decade-numbers"></ul>
