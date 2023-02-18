@@ -64,11 +64,11 @@ th, td {
 }
 
 .rock { color: red; }
-.hard-rock { color: silver; }
+.hard-rock { color: black; }
 .rock-n-roll { color: bisque; }
 .punk { color: orange; }
 .grunge { color: purple; }
-.metal { color: black; }
+.metal { color: silver; }
 .country { color: darkcyan; }
 
 .soul { color: purple; }
@@ -79,6 +79,7 @@ th, td {
 .jazz { color: blue; }
 .disco { color: hotpink; }
 .reggae { color: limegreen; }
+.r-n-b { color: purple; }
 
 .world { color: yellow; }
 .classical { color: limegreen; }
@@ -89,8 +90,18 @@ th, td {
 .electro { color: cyan; }
 .rap { color: black; }
 .chanson { color: hotpink; }
+.bluegrass { color: blue; }
+.new-wave { color: yellow; }
 
 .flag {
     vertical-align: middle;
     width: 13px;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.not-selected {
+    color: gray;
 }

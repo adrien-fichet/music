@@ -79,6 +79,7 @@ const items = [
     { "title": "Les Planètes", "artist": "Holst", "year": 1914, "listened": true, "genre": "classical" },
     { "title": "Vocalise, op. 34 No. 14", "artist": "Rachmaninov", "year": 1915, "listened": true, "genre": "classical" },
     { "title": "Rhapsody in Blue", "artist": "Gershwin", "year": 1924 },
+    { "title": "Tea for Two", "artist": "Vincent Youmans / Marion Harris", "year": 1924, "genre": "jazz", "listened": true, "standard": true },
     { "title": "Stardust", "artist": "Hoagy Carmichael and His Pals", "year": 1927, "genre": "jazz", "listened": false, "standard": true },
     { "title": "Boléro", "artist": "Ravel", "year": 1928, "fr": true },
     { "title": "Carmina Burana", "artist": "Orff", "year": 1935, "listened": true, "genre": "classical" },
@@ -88,91 +89,108 @@ const items = [
     { "title": "Caravan", "artist": "Juan Tizol / Duke Ellington", "year": 1936, "listened": true, "genre": "jazz", "standard": true },
     { "title": "Adagio pour cordes, op. 11", "artist": "Barber", "year": 1938, "listened": true, "genre": "classical" },
     { "title": "You Go to My Head", "artist": "J. Fred Coots", "year": 1938, "listened": true, "genre": "jazz", "standard": true },
-    { "title": "Djangologie Vol9 / 1939-1940", "artist": "Django Reinhardt", "year": 1939, "listened": true, "stars": 1, "genre": "jazz" },
+    { "title": "Djangologie Vol. 9 / 1939-1940", "artist": "Django Reinhardt", "year": 1939, "listened": true, "genre": "jazz" },
     { "title": "Cotton Tail", "artist": "Duke Ellington", "year": 1940, "genre": "jazz", "listened": false, "standard": true },
     { "title": 'Take the "A" Train', "artist": "Billy Strayhorn / Duke Ellington", "year": 1941, "genre": "jazz", "listened": true, "standard": true },
     { "title": "'Round Midnight", "artist": "Thelonious Monk", "year": 1944, "genre": "jazz", "listened": true, "standard": true },
+    { "title": "The King Cole Trio", "artist": "Nat King Cole", "year": 1944, "genre": "jazz" },
+    { "title": "I'm Beginning to See the Light", "artist": "Duke Ellington, Johny Hodges, Harry James, Don George", "year": 1944, "genre": "jazz", "listened": false, "standard": true },
+    { "title": "Autumn Leaves", "artist": "Joseph Kosma", "year": 1945, "genre": "jazz", "listened": true, "standard": true },
+    { "title": "Stormy Monday (Call It Stormy Monday (But Tuesday is Just as Bad))", "artist": "T-Bone Walker", "year": 1947, "genre": "blues", "listened": true, "standard": true },
 
-    // 1953+
+    // 1950+
+    { "title": "Lullaby of Birdland", "artist": "George Shearing", "year": 1952, "genre": "jazz", "standard": true },
+    { "title": "The Birth of Soul", "artist": "Ray Charles", "year": 1952, "listened": true, "genre": "soul", "comment": "3-CD box set compilation released in 1991, recorded from 1952 to 1959" },
+
     { "title": "La Mauvaise Réputation (Georges Brassens chante les chansons poétiques (... et souvent gaillardes) de... Georges Brassens", "artist": "Georges Brassens", "year": 1953, "listened": true, "genre": "chanson", "fr": true },
-    { "title": "La vie en rose", "artist": "Edith Piaf", "year": 1953 },
+    { "title": "La vie en rose", "artist": "Edith Piaf", "year": 1953, "fr": true },
 
-    { "title": "Le Vent", "artist": "Georges Brassens", "year": 1954 },
-    { "title": "Les Sabots d'Hélène", "artist": "Georges Brassens", "year": 1954 },
+    { "title": "Le Vent", "artist": "Georges Brassens", "year": 1954, "fr": true },
+    { "title": "Les Sabots d'Hélène", "artist": "Georges Brassens", "year": 1954, "fr": true },
+    { "title": "Blue Monk", "artist": "Thelonious Monk", "year": 1954, "genre": "jazz", "standard": true },
 
     { "title": "In the Wee Small Hours", "artist": "Frank Sinatra", "year": 1955, "listened": true, "stars": 1, "genre": "swing" },
 
     { "title": "Valse No. 2", "artist": "Chostakovitch", "year": 1956, "listened": true, "genre": "classical" },
-    { "title": "Elvis Presley", "artist": "Elvis Presley", "year": 1956, "listened": true, "stars": 1, "genre": "rock-n-roll" },
-    { "title": "Tragic Songs of Life", "artist": "The Louvin Brothers", "year": 1956, "listened": true, "genre": "country" },
+    { "title": "Elvis Presley", "artist": "Elvis Presley", "year": 1956, "listened": true, "stars": 1, "genre": "rock-n-roll", "comment": '"Blue Suede Shoes"' },
+    { "title": "Tragic Songs of Life", "artist": "The Louvin Brothers", "year": 1956, "listened": true, "genre": "country", "comment": "Kentuuuuckyyyy" },
     { "title": "Songs for Swingin' Lovers", "artist": "Frank Sinatra", "year": 1956, "listened": true, "stars": 1, "genre": "swing" },
-    { "title": "The Wildest!", "artist": "Louis Prima Featuring Keely Smith With Sam Butera and the Witnesses", "year": 1956, "listened": true, "stars": 1, "genre": "swing" },
+    { "title": "Cuban Fire!", "artist": "Stan Kenton", "year": 1956, "genre": "jazz" },
+    { "title": "El Loco Cha Cha", "artist": "René Touzet", "year": 1956, "genre": "world", "listened": true, "comment": "Single, Cha Cha Cha" },
+    { "title": "The Wildest!", "artist": "Louis Prima Featuring Keely Smith With Sam Butera and the Witnesses", "year": 1956, "listened": true, "stars": 1, "genre": "swing", "comment": '"Just a Gigolo"' },
 
-    { "title": "Kenya", "artist": "Machito", "year": 1957 },
+    { "title": "Kenya", "artist": "Machito", "year": 1957, "comment": "Afro-Cuban Jazz, Big Band", "listened": true, "genre": "jazz" },
     { "title": "April in Paris: The Genius of Charlie Parker #2", "artist": "Charlie Parker", "year": 1957, "listened": true, "genre": "jazz" },
     { "title": "This is Fats", "artist": "Fats Domino", "year": 1957 },
+    { "title": "Louie Louie", "artist": "Richard Berry", "year": 1957, "listened": true, "genre": "r-n-b", "comment": 'Single, riff from "El Loco Cha Cha"' },
     { "title": "Ellington at Newport", "artist": "Duke Ellington and his Orchestra", "year": 1957 },
     { "title": "Brilliant Corners", "artist": "Thelonious Monk", "year": 1957 },
     { "title": 'The "Chirping Crickets"', "artist": "The Crickets", "year": 1957 },
     { "title": "Palo Congo", "artist": "Sabu", "year": 1957 },
     { "title": "Got My Mojo Working", "artist": "Muddy Waters", "year": 1957 },
     { "title": "Birth of the Cool", "artist": "Miles Davis", "year": 1957 },
+    { "title": "'Round About Midnight", "artist": "Miles Davis", "year": 1957, "listened": true, "genre": "jazz" },
 
     { "title": "Lady in Satin", "artist": "Billie Holiday", "year": 1958 },
     { "title": "Adagio en sol mineur", "artist": "Giazotto", "year": 1958, "listened": true, "genre": "classical" },
     { "title": "The Sounds Of India", "artist": "Ravi Shankar", "year": 1958 },
     { "title": "The Atomic Mr. Basie", "artist": "Count Basie", "year": 1958, "listened": true, "genre": "jazz" },
-    { "title": "Bo Diddley/Go Bo Diddley", "artist": "Bo Diddley", "year": 1958 },
     { "title": "Jack Takes the Floor", "artist": "Jack Elliot", "year": 1958, "listened": true, "genre": "folk" },
     { "title": "Blue Train", "artist": "John Coltrane", "year": 1958, "listened": true, "genre": "jazz", "stars": 1 },
     { "title": "Reunion With Chet Baker", "artist": "Gerry Mulligan and Chet Baker", "year": 1958 },
+    { "title": "To Know Him Is to Love Him", "artist": "The Teddy Bears / Phil Spector", "year": 1958, "comment": "Single", "listened": true, "genre": "pop" },
+    { "title": "Bo Diddley", "artist": "Bo Diddley", "year": 1958, "listened": true, "genre": "rock-n-roll", "comment": '"I\'m a Man", "Before You Accuse Me"' },
 
     { "title": "Here's Little Richard", "artist": "Little Richard", "year": 1959, "listened": true, "genre": "rock-n-roll", "stars": 1 },
-    { "title": "Ella Fitzgerald Sings the Gershwin Song Book Vol. 1", "artist": "Ella Fitzgerald", "year": 1959 },
+    { "title": "Ella Fitzgerald Sings the George and Ira Gershwin Song Book", "artist": "Ella Fitzgerald", "year": 1959, "listened": true, "genre": "jazz", "comment": '"Let\'s Call the Whole Thing Off", "Slap That Bass"', "stars": 1 },
     { "title": "Time Out", "artist": "The Dave Brubeck Quartet", "year": 1959, "genre": "jazz", "listened": true, "stars": 1, "comment": '"Take Five"' },
     { "title": "Take Five", "artist": "Paul Desmond / The Dave Brubeck Quartet", "year": 1959, "genre": "jazz", "listened": true, "standard": true },
     { "title": "The Shape of Jazz to Come", "artist": "Ornette Coleman", "year": 1959 },
     { "title": "Mingus Ah Um", "artist": "Charles Mingus", "year": 1959 },
+    { "title": "Go Bo Diddley", "artist": "Bo Diddley", "year": 1959, "listened": true, "genre": "rock-n-roll", "comment": '"Say Man"' },
+    { "title": "Back in the U.S.A.", "artist": "Chuck Berry", "year": 1959, "comment": "Single", "listened": true, "genre": "rock-n-roll" },
     { "title": "Howling in the Moonlight", "artist": "Howlin' Wolf", "year": 1959, "listened": true, "genre": "blues" },
-    { "title": "Kind of Blue", "artist": "Miles Davis", "year": 1959 },
+    { "title": "Kind of Blue", "artist": "Miles Davis", "year": 1959, "listened": true, "genre": "jazz", "comment": '"So What", "Freddie Freeloader", "All Blues"', "stars": 1 },
     { "title": "The Genius of Ray Charles", "artist": "Ray Charles", "year": 1959 },
     { "title": "Gunfighter Ballads and Trail Songs", "artist": "Marty Robbins", "year": 1959 },
     { "title": "Ricky Sings Again", "artist": "Ricky Nelson", "year": 1959 },
 
     { "title": "Sketches of Spain", "artist": "Miles Davis", "year": 1960 },
-    { "title": "The Wonderful World of Sam Cooke", "artist": "Sam Cooke", "year": 1960 },
+    { "title": "The Wonderful World of Sam Cooke", "artist": "Sam Cooke", "year": 1960, "listened": true, "genre": "soul", "comment": 'Compilation album, "(What A) Wonderful World"', "stars": 1 },
     { "title": "Oscar Peterson Plays the Duke Ellington Song Book", "artist": "Oscar Peterson", "year": 1960 },
-    { "title": "Apache", "artist": "The Shadows", "year": 1960, "listened": true, "stars": 1, "genre": "rock" },
-    { "title": "Elvis Is Back!", "artist": "Elvis Presley", "year": 1960 },
+    { "title": "Apache", "artist": "The Shadows", "year": 1960, "listened": true, "stars": 1, "genre": "rock", "fav": true },
+    { "title": "Elvis Is Back!", "artist": "Elvis Presley", "year": 1960, "listened": true, "genre": "rock-n-roll", "comment": '"Fever"' },
     { "title": "Miriam Makeba", "artist": "Miriam Makeba", "year": 1960 },
     { "title": "Giant Steps", "artist": "John Coltrane", "year": 1960, "listened": true, "genre": "jazz", "stars": 1 },
     { "title": "Joan Baez", "artist": "Joan Baez", "year": 1960, "listened": true, "stars": 1, "genre": "folk" },
     { "title": "It's Everly Time / A Date With The Everly Brothers", "artist": "Everly Brothers", "year": 1960 },
 
-    { "title": "At Last!", "artist": "Etta James", "year": 1961 },
-    { "title": "Charles Aznavour (Je m'voyais déjà)", "artist": "Charles Aznavour", "year": 1961 },
+    { "title": "At Last!", "artist": "Etta James", "year": 1961, "listened": true, "stars": 1, "genre": "blues" },
+    { "title": "Charles Aznavour (Je m'voyais déjà)", "artist": "Charles Aznavour", "year": 1961, "fr": true },
     { "title": "Green Street", "artist": "Grant Green", "year": 1961 },
     { "title": "Please Mr. Postman", "artist": "The Marvelettes", "year": 1961 },
     { "title": "King of the Delta Blues Singers", "artist": "Robert Johnson", "year": 1961 },
     { "title": "Sunday At the Village Vanguard", "artist": "Bill Evans Trio Featuring Scott La Faro", "year": 1961 },
 
     { "title": "Modern Sounds in Country and Western Music", "artist": "Ray Charles", "year": 1962, "listened": true, "stars": 1, "genre": "soul" },
-    { "title": "N°4", "artist": "Serge Gainsbourg", "year": 1962 },
+    { "title": "N°4", "artist": "Serge Gainsbourg", "year": 1962, "listened": true, "genre": "chanson", "comment": '"Les goémons"', "fr": true },
     { "title": "Surfer's Choice", "artist": "Dick Dale and His Del-Tones", "year": 1962 },
     { "title": "Big Band Bossa Nova", "artist": "Quincy Jones", "year": 1962 },
     { "title": "Burnin'", "artist": "John Lee Hooker", "year": 1962 },
-    { "title": "Green Onions", "artist": "Booker T. &amp; The M.G.s.", "year": 1962, "listened": true, "stars": 1, "genre": "soul" },
+    { "title": "Green Onions", "artist": "Booker T. &amp; The M.G.s.", "year": 1962, "listened": true, "stars": 1, "genre": "r-n-b" },
     { "title": "Jazz Samba", "artist": "Stan Getz / Charlie Byrd", "year": 1962, "listened": true, "genre": "jazz", "stars": 1, "fav": true },
 
-    { "title": "Ella and Basie!", "artist": "Ella Fitzgerald and Count Basie", "year": 1963 },
+    { "title": "Ella and Basie!", "artist": "Ella Fitzgerald, Count Basie", "year": 1963, "listened": true, "genre": "jazz", "stars": 1, "comment": '"Tea for Two", "Dream a Little Dream of Me", "I\'m Beginning to See the Light", arrangements by Quincy Jones' },
     { "title": "Yakety Sax!", "artist": "Boots Randolph", "year": 1963 },
     { "title": "Live at the Apollo", "artist": "James Brown", "year": 1963 },
+    { "title": "She Loves You", "artist": "The Beatles", "year": 1963, "listened": true, "genre": "pop", "comment": "Single", "stars": 1 },
     { "title": "Please Please Me", "artist": "The Beatles", "year": 1963 },
-    { "title": "With The Beatles", "artist": "The Beatles", "year": 1963 },
+    { "title": "With The Beatles", "artist": "The Beatles", "year": 1963, "listened": true, "fav": true, "stars": 2, "genre": "pop", "comment": '"It won\'t be long", "All I\'ve Got to Do", "All My Loving"' },
     { "title": "Meet the Beatles!", "artist": "The Beatles", "year": 1963 },
+    { "title": "I Want to Hold Your Hand", "artist": "The Beatles", "year": 1963, "listened": true, "genre": "pop", "comment": "Single", "stars": 1 },
     { "title": "Night Life", "artist": "Ray Price", "year": 1963 },
     { "title": "Heat Wave", "artist": "Martha and the Vandellas", "year": 1963 },
-    { "title": "The Freewheelin' Bob Dylan", "artist": "Bob Dylan", "year": 1963, "listened": true, "genre": "folk", "stars": 1 },
+    { "title": "The Freewheelin' Bob Dylan", "artist": "Bob Dylan", "year": 1963, "listened": true, "genre": "folk", "stars": 1, "comment": '"Blowin\' in the Wind", "Don\'t Think Twice, It\'s All Right"' },
     { "title": "A Christmas Gift For You From Philles Records", "artist": "Various Artists", "year": 1963 },
     { "title": "Back At The Chicken Shack", "artist": "The Incredible Jimmy Smith", "year": 1963 },
     { "title": "The Black Saint and the Sinner Lady", "artist": "Mingus", "year": 1963 },
@@ -200,7 +218,7 @@ const items = [
     { "title": "Elgar: Cello Concerto", "artist": "Edward Elgar, Jacqueline du Pré", "year": 1965 },
     { "title": "Here Are the Sonics!!!", "artist": "The Sonics", "year": 1965 },
     { "title": "Brazilian Byrd", "artist": "Charlie Byrd", "year": 1965, "genre": "jazz", "listened": true, "stars": 1, "fav": true },
-    { "title": "People Get Ready", "artist": "The Impressions", "year": 1965 },
+    { "title": "People Get Ready", "artist": "The Impressions", "year": 1965, "listened": true, "genre": "soul", "comment": '"People Get Ready", Curtis Mayfield on vocals' },
     { "title": "Treat Her Right", "artist": "Roy Head and the Traits", "year": 1965 },
     { "title": "I've Got a Tiger By the Tail", "artist": "Buck Owens and His Buckaroos", "year": 1965 },
     { "title": "Muddy Waters At Newport 1960", "artist": "Muddy Waters", "year": 1965 },
@@ -216,14 +234,14 @@ const items = [
     { "title": "Live at the Regal", "artist": "B.B. King", "year": 1965, "listened": true, "genre": "blues", "fav": true, "stars": 2 },
     { "title": "Otis Blue / Otis Redding Sings Soul", "artist": "Otis Redding", "year": 1965 },
     { "title": "Bringing It All Back Home", "artist": "Bob Dylan", "year": 1965 },
-    { "title": "Highway 61 Revisited", "artist": "Bob Dylan", "year": 1965, "listened": true, "genre": "folk", "stars": 1 },
+    { "title": "Highway 61 Revisited", "artist": "Bob Dylan", "year": 1965, "listened": true, "genre": "folk", "stars": 1, "comment": '"Like a Rolling Stone", "Ballad of a Thin Man"' },
     { "title": "Bert Jansch", "artist": "Bert Jansch", "year": 1965 },
     { "title": "My Generation", "artist": "The Who", "year": 1965 },
     { "title": "Rubber Soul", "artist": "The Beatles", "year": 1965, "listened": true, "fav": true, "perso": true, "stars": 2, "genre": "rock" },
 
     { "title": "Pet Sounds", "artist": "The Beach Boys", "year": 1966, "listened": true, "stars": 1, "genre": "rock" },
     { "title": "If You Can Believe Your Eyes and Ears", "artist": "The Mama's and the Papa's", "year": 1966 },
-    { "title": "Where Were You When I Needed You", "artist": "The Grass Roots", "year": 1966 },
+    { "title": "Where Were You When I Needed You", "artist": "The Grass Roots", "year": 1966, "listened": true, "genre": "pop" },
     { "title": "A' Go-Go", "artist": "The Supremes", "year": 1966 },
     { "title": "Boots", "artist": "Nancy Sinatra", "year": 1966, "listened": true, "genre": "pop", "stars": 1 },
     { "title": "How Does That Grab You?", "artist": "Nancy Sinatra", "year": 1966 },
@@ -232,20 +250,20 @@ const items = [
     { "title": "Fred Neil", "artist": "Fred Neil", "year": 1966 },
     { "title": "Freak Out!", "artist": "The Mothers Of Invention", "year": 1966 },
     { "title": "Black Monk Time", "artist": "Monks", "year": 1966 },
-    { "title": "Fifth Dimension", "artist": "The Byrds", "year": 1966 },
+    { "title": "Fifth Dimension", "artist": "The Byrds", "year": 1966, "listened": true, "genre": "folk", "meh": true },
     { "title": "Face To Face", "artist": "The Kinks", "year": 1966 },
     { "title": "Up-Tight", "artist": "Stevie Wonder", "year": 1966 },
     { "title": "Gettin' Ready", "artist": "The Temptations", "year": 1966 },
     { "title": "Dictionary of Soul", "artist": "Otis Redding", "year": 1966 },
-    { "title": "Aftermath", "artist": "The Rolling Stones", "year": 1966 },
+    { "title": "Aftermath", "artist": "The Rolling Stones", "year": 1966, "listened": true, "genre": "rock", "stars": 1, "comment": '"Paint It Black", "Under My Thumb"' },
     { "title": "Parsley, Sage, Rosemary and Thyme", "artist": "Simon and Garfunkel", "year": 1966 },
     { "title": "The Psychedelic Sounds of the 13th Floor Elevators", "artist": "The 13th Floor Elevators", "year": 1966 },
     { "title": "Wild Is the Wind", "artist": "Nina Simone", "year": 1966 },
     { "title": "Yardbirds", "artist": "Yardbirds", "year": 1966 },
     { "title": "Revolver", "artist": "The Beatles", "year": 1966, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
-    { "title": "Blonde on Blonde", "artist": "Bob Dylan", "year": 1966 },
+    { "title": "Blonde on Blonde", "artist": "Bob Dylan", "year": 1966, "listened": true, "genre": "folk", "comment": 'Double album, "Just Like a Woman", "One of Us Must Know (Sooner or Later)", "I Want You", "Stuck Inside of Mobile with the Memphis Blues Again"', "stars": 1 },
     { "title": "Da Capo", "artist": "Love", "year": 1966 },
-    { "title": "Sunny", "artist": "Bobby Hebb", "year": 1966 },
+    { "title": "Sunny", "artist": "Bobby Hebb", "year": 1966, "listened": true, "genre": "soul", "stars": 2, "fav": true, "comment": '"Sunny", "Love, Love, Love", "A Satisfied Mind"' },
     { "title": "The Wicked Pickett", "artist": "Wilson Pickett", "year": 1966 },
     { "title": "Sunshine Superman", "artist": "Donovan", "year": 1966 },
     { "title": "I Had Too Much To Dream (Last Night)", "artist": "The Electric Prunes", "year": 1966 },
@@ -274,11 +292,12 @@ const items = [
     { "title": "Safe As Milk", "artist": "Captain Beefheart and His Magic Band", "year": 1967 },
     { "title": "Magical Mystery Tour", "artist": "The Beatles", "year": 1967 },
     { "title": "Moby Grape", "artist": "Moby Grape", "year": 1967 },
-    { "title": "United", "artist": "Marvin Gaye and Tammi Terrell", "year": 1967, "listened": true, "stars": 1, "genre": "soul", "comment": "Ain't No Mountain High Enough" },
+    { "title": "United", "artist": "Marvin Gaye and Tammi Terrell", "year": 1967, "listened": true, "stars": 1, "genre": "soul", "comment": 'Motown, "Ain\'t No Mountain High Enough"' },
     { "title": "The Who Sell Out", "artist": "The Who", "year": 1967 },
     { "title": "Wild Honey", "artist": "The Beach Boys", "year": 1967 },
+    { "title": "Days of Future Passed", "artist": "The Moody Blues", "year": 1967, "comment": '"Nights in White Satin"' },
     { "title": "Surrealistic Pillow", "artist": "Jefferson Airplane", "year": 1967 },
-    { "title": "Reach Out", "artist": "The Four Tops", "year": 1967 },
+    { "title": "Reach Out", "artist": "The Four Tops", "year": 1967, "listened": true, "genre": "soul", "stars": 1, "comment": 'Motown, "Reach Out I\'ll Be There", "Bernadette", "I\'ll Turn To Stone", "I\'m a Believer"', "fav": true },
     { "title": "Canned Heat", "artist": "Canned Heat", "year": 1967 },
     { "title": "Younger Than Yesterday", "artist": "The Byrds", "year": 1967 },
     { "title": "Groovin'", "artist": "The Young Rascals", "year": 1967 },
@@ -287,17 +306,18 @@ const items = [
     { "title": "I Was Made to Love Her", "artist": "Stevie Wonder", "year": 1967 },
     { "title": "Francis Albert Sinatra &amp; Antonio Carlos Jobim", "artist": "Francis Albert Sinatra &amp; Antonio Carlos Jobim", "year": 1967 },
     { "title": "Forever Changes", "artist": "Love", "year": 1967 },
-    { "title": "Are You Experienced", "artist": "The Jimi Hendrix Experience", "year": 1967, "listened": true, "genre": "rock", "stars": 3, "fav": true },
+    { "title": "Are You Experienced", "artist": "The Jimi Hendrix Experience", "year": 1967, "listened": true, "genre": "rock", "stars": 3, "fav": true, "comment": '"Foxy Lady", "Red House", "Can You See Me"' },
     { "title": "Axis: Bold as Love", "artist": "The Jimi Hendrix Experience", "year": 1967 },
     { "title": "The Doors", "artist": "The Doors", "year": 1967 },
     { "title": "Strange Days", "artist": "The Doors", "year": 1967 },
     { "title": "The Velvet Underground and Nico", "artist": "The Velvet Underground", "year": 1967 },
-    { "title": "Sgt. Pepper's Lonely Hearts Club Band", "artist": "The Beatles", "year": 1967, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
-    { "title": "Disraeli Gears", "artist": "Cream", "year": 1967, "listened": true, "stars": 1, "genre": "rock" },
+    { "title": "Sgt. Pepper's Lonely Hearts Club Band", "artist": "The Beatles", "year": 1967, "listened": true, "fav": true, "stars": 2, "genre": "rock", "comment": '"Lucy in the Sky with Diamonds", "Getting Better", "When I\'m Sixty-Four", "A Day in the Life"' },
+    { "title": "Disraeli Gears", "artist": "Cream", "year": 1967, "listened": true, "stars": 1, "genre": "rock", "fav": true, "comment": '"Strange Brew", "Sunshine of Your Love", "Tales of Brave Ulysses", "Outside Woman Blues"' },
     { "title": "Make It Happen/The Tears of a Clown", "artist": "Smokey Robinson and the Miracles", "year": 1967 },
     { "title": "A Day In the Life", "artist": "Wes Montgomery", "year": 1967, "listened": true, "stars": 1, "genre": "jazz" },
+    { "title": "California Soul", "artist": "The Messengers", "year": 1967, "listened": true, "genre": "soul", "comment": "Single, better version by Marlena Shaw" },
 
-    { "title": "Lady Soul", "artist": "Aretha Franklin", "year": 1968, "listened": true, "stars": 1, "genre": "soul" },
+    { "title": "Lady Soul", "artist": "Aretha Franklin", "year": 1968, "listened": true, "stars": 1, "genre": "soul", "comment": '"Chain of Fools", "Groovin", "(You Make Me Feel Like) A Natural Woman"' },
     { "title": "Peter Green's Fleetwood Mac", "artist": "Fleetwood Mac", "year": 1968, "listened": true, "genre": "blues", "stars": 1 },
     { "title": "Golden Grass", "artist": "The Grass Roots", "year": 1968 },
     { "title": "Mr. Wonderful", "artist": "Fleetwood Mac", "year": 1968 },
@@ -310,13 +330,13 @@ const items = [
     { "title": "Vincebus Eruptum", "artist": "Blue Cheer", "year": 1968 },
     { "title": "The Notorious Byrd Brothers", "artist": "The Byrds", "year": 1968 },
     { "title": "The United States Of America", "artist": "The United States Of America", "year": 1968, "listened": true, "meh": true, "genre": "rock" },
-    { "title": "Aretha Now", "artist": "Aretha Franklin", "year": 1968, "listened": true, "stars": 1, "genre": "soul" },
+    { "title": "Aretha Now", "artist": "Aretha Franklin", "year": 1968, "listened": true, "stars": 1, "genre": "soul", "comment": '"Think", "I Say a Little Prayer"' },
     { "title": "Initials B.B.", "artist": "Serge Gainsbourg", "year": 1968 },
     { "title": "Wheels of Fire", "artist": "Cream", "year": 1968 },
     { "title": "In the Groove", "artist": "Marvin Gaye", "year": 1968 },
     { "title": "You're All I Need", "artist": "Marvin Gaye &amp; Tammi Terrell", "year": 1968 },
     { "title": "For Once In My Life", "artist": "Stevie Wonder", "year": 1968 },
-    { "title": 'The Beatles ("The White Album")', "artist": "The Beatles", "year": 1968, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
+    { "title": 'The Beatles ("The White Album")', "artist": "The Beatles", "year": 1968, "listened": true, "fav": true, "stars": 2, "genre": "rock", "comment": '"Back in the U.S.S.R.", "Dear Prudence", "Glass Onion", "Ob-La-Di, Ob-La-Da", "While My Guitar Gently Weeps", "Blackbird", "Sexy Sadie"' },
     { "title": "Music From Big Pink", "artist": "The Band", "year": 1968, "listened": true, "genre": "rock" },
     { "title": "Truth", "artist": "Jeff Back", "year": 1968 },
     { "title": "Waiting for the Sun", "artist": "The Doors", "year": 1968 },
@@ -334,8 +354,8 @@ const items = [
     { "title": "Beggars Banquet", "artist": "The Rolling Stones", "year": 1968 },
     { "title": "Electric Ladyland", "artist": "The Jimi Hendrix Experience", "year": 1968 },
     { "title": "Astral Weeks", "artist": "Van Morrison", "year": 1968 },
-    { "title": "Traffic", "artist": "Traffic", "year": 1968 },
-    { "title": "Creedence Clearwater Revival", "artist": "Creedence Clearwater Revival", "year": 1968 },
+    { "title": "Traffic", "artist": "Traffic", "year": 1968, "listened": true, "genre": "rock", "comment": "Dave Mason and Steve Winwood on vocals, blues rock", "stars": 1 },
+    { "title": "Creedence Clearwater Revival", "artist": "Creedence Clearwater Revival", "year": 1968, "listened": true, "genre": "rock", "stars": 1, "comment": '"Susie Q."' },
     { "title": "The Hangman's Beautiful Daughter", "artist": "The Incredible String Band", "year": 1968 },
     { "title": "At Folsom Prison", "artist": "Johny Cash", "year": 1968 },
     { "title": "Cheap Thrills", "artist": "Big Brother and the Holding Company", "year": 1968 },
@@ -345,7 +365,7 @@ const items = [
     { "title": "With a Little Help From My Friends", "artist": "Joe Cocker", "year": 1969 },
     { "title": "David Bowie", "artist": "David Bowie", "year": 1969 },
     { "title": "Laughing Cavalier and Wallace Collection", "artist": "Wallace Collection", "year": 1969, "comment": '"Daydream", covered by Claude François "Rêveries"' },
-    { "title": "The Spice of Life", "artist": "Marlena Shaw", "year": 1969 },
+    { "title": "The Spice of Life", "artist": "Marlena Shaw", "year": 1969, "listened": true, "genre": "soul", "comment": '"California Soul"', "stars": 1 },
     { "title": "Ramblin' Gamblin' Man", "artist": "the Bob Seger System", "year": 1969 },
     { "title": "Walking in Space", "artist": "Quincy Jones", "year": 1969 },
     { "title": "Blind Faith", "artist": "Blind Faith", "year": 1969, "listened": true, "stars": 1, "genre": "rock" },
@@ -358,7 +378,7 @@ const items = [
     { "title": "Tons of Sobs", "artist": "Free", "year": 1969 },
     { "title": "From Elvis in Memphis", "artist": "Elvis Presley", "year": 1969 },
     { "title": "Loo-Ka Py Py", "artist": "The Meters", "year": 1969 },
-    { "title": "Blood, Sweat &amp; Tears", "artist": "Blood, Sweat &amp; Tears", "year": 1969 },
+    { "title": "Blood, Sweat &amp; Tears", "artist": "Blood, Sweat &amp; Tears", "year": 1969, "listened": true, "genre": "rock", "comment": 'Mix of jazz, blues, classical and rock, "More and More", "And When I Die", "You\'ve Made Me So Very Happy"', "stars": 1 },
     { "title": "The Stooges", "artist": "The Stooges", "year": 1969 },
     { "title": "Trout Mask Replica", "artist": "Captain Beefheart &amp; His Magic Band", "year": 1969 },
     { "title": "The Gilded Palace of Sin", "artist": "The Flying Burrito Brothers", "year": 1969 },
@@ -367,12 +387,12 @@ const items = [
     { "title": "Bayou Country", "artist": "Creedence Clearwater Revival", "year": 1969, "listened": true, "genre": "rock", "stars": 1, "comment": '"Proud Mary"' },
     { "title": "Green River", "artist": "Creedence Clearwater Revival", "year": 1969, "listened": true, "genre": "rock", "stars": 1 },
     { "title": "Willy and the Poor Boys", "artist": "Creedence Clearwater Revival", "year": 1969 },
-    { "title": "Kick Out the Jams", "artist": "MC5", "year": 1969 },
+    { "title": "Kick Out the Jams", "artist": "MC5", "year": 1969, "perso": true },
     { "title": "Everybody Knows This Is Nowhere", "artist": "Neil Young", "year": 1969 },
     { "title": "Hot Buttered Soul", "artist": "Isaac Hayes", "year": 1969, "listened": true, "stars": 1, "genre": "soul" },
     { "title": "At San Quentin", "artist": "Johny Cash", "year": 1969, "listened": true, "stars": 1, "genre": "folk" },
     { "title": "Led Zeppelin", "artist": "Led Zeppelin", "year": 1969 },
-    { "title": "Led Zeppelin II", "artist": "Led Zeppelin", "year": 1969, "listened": true, "fav": true, "stars": 2, "genre": "hard-rock" },
+    { "title": "Led Zeppelin II", "artist": "Led Zeppelin", "year": 1969, "listened": true, "fav": true, "stars": 2, "genre": "hard-rock", "comment": '"Heartbreaker", "Whole Lotta Love", "The Lemon Song", "Moby Dick"' },
     { "title": "Tommy", "artist": "The Who", "year": 1969 },
     { "title": "Odessa", "artist": "The Bee Gees", "year": 1969 },
     { "title": "In A Silent Way", "artist": "Miles Davis", "year": 1969 },
@@ -381,7 +401,7 @@ const items = [
     { "title": "Dusty in Memphis", "artist": "Dusty Springfield", "year": 1969 },
     { "title": "Abbey Road", "artist": "The Beatles", "year": 1969 },
     { "title": "The Band", "artist": "The Band", "year": 1969 },
-    { "title": "Let It Bleed", "artist": "The Rolling Stones", "year": 1969, "listened": true, "stars": 1, "genre": "rock" },
+    { "title": "Let It Bleed", "artist": "The Rolling Stones", "year": 1969, "listened": true, "stars": 1, "genre": "rock", "comment": '"Gimme Shelter", "You Can\'t Always Get What You Want"' },
     { "title": "Cloud Nine", "artist": "The Temptations", "year": 1969 },
     { "title": "Happy Trails (Live)", "artist": "Quicksilver Messenger Service", "year": 1969 },
     { "title": "Elephant Mountain", "artist": "The Youngbloods", "year": 1969 },
@@ -393,20 +413,21 @@ const items = [
     { "title": "Five Leaves Left", "artist": "Nick Drake", "year": 1969 },
     { "title": "Basket Of Light", "artist": "The Pentangle", "year": 1969 },
     { "title": "Oar", "artist": 'Alexander "Skip" Spence', "year": 1969 },
-    { "title": "Hot Rats", "artist": "Frank Zappa", "year": 1969 },
+    { "title": "Hot Rats", "artist": "Frank Zappa", "year": 1969, "listened": true, "perso": true, "genre": "rock", "stars": 1, "comment": 'Médiathèque Port du Canal, Jazz fusion / prog rock, "Peaches En Regalia"' },
     { "title": "Liege &amp; Lief", "artist": "Fairport Convention", "year": 1969 },
     { "title": "Live/Dead (Live)", "artist": "Grateful Dead", "year": 1969, "listened": true, "genre": "rock", "meh": true },
     { "title": "Arthur (or the Decline and Fall of the British Empire)", "artist": "The Kinks", "year": 1969, "listened": true, "genre": "rock", "stars": 1 },
     { "title": "Spirit in the Sky", "artist": "Norman Greenbaum", "year": 1969 },
     { "title": "Kool and the Gang", "artist": "Kool and the Gang", "year": 1969 },
-    { "title": "Freddie King Is A Blues Master", "artist": "Freddie King", "year": 1969, "listened": true, "genre": "blues", "stars": 1 },
+    { "title": "Freddie King Is A Blues Master", "artist": "Freddie King", "year": 1969, "listened": true, "genre": "blues", "stars": 1, "comment": '"Hideaway (Cotillion Version)"' },
 
-    { "title": "Led Zeppelin III", "artist": "Led Zeppelin", "year": 1970, "listened": true, "genre": "hard-rock", "stars": 2, "fav": true },
+    { "title": "Led Zeppelin III", "artist": "Led Zeppelin", "year": 1970, "listened": true, "genre": "hard-rock", "stars": 2, "fav": true, "comment": '"Immigrant Song"' },
     { "title": "The Delfonics", "artist": "The Delfonics", "year": 1970 },
-    { "title": "L'aigle noir", "artist": "Barbara", "year": 1970 },
+    { "title": "L'aigle noir", "artist": "Barbara", "year": 1970, "fr": true },
+    { "title": "Funky Drummer (Part 1 &amp; 2)", "artist": "James Brown", "year": 1970 },
     { "title": "Express Yourself", "artist": "Charles Wright &amp; the Watts 103rd Street Rhythm Band", "year": 1970 },
     { "title": "Little Green Bag", "artist": "George Baker Selection", "year": 1970 },
-    { "title": "Cavatina", "artist": "Stanley Myers", "year": 1970, "listened": true, "genre": "classical" },
+    { "title": "Cavatina", "artist": "Stanley Myers", "year": 1970, "listened": true, "genre": "classical", "comment": "Classical Guitar" },
     { "title": "Let It Be", "artist": "The Beatles", "year": 1970 },
     { "title": "Curtis", "artist": "Curtis Mayfield", "year": 1970, "listened": true, "genre": "soul" },
     { "title": "War &amp; Peace", "artist": "Edwin Starr", "year": 1970 },
@@ -414,28 +435,28 @@ const items = [
     { "title": "East Bay Grease", "artist": "Tower of Power", "year": 1970, "listened": true, "genre": "funk", "stars": 1 },
     { "title": "The Madcap Laughs", "artist": "Syd Barett", "year": 1970 },
     { "title": "Ananda Shankar", "artist": "Ananda Shankar", "year": 1970 },
-    { "title": "Morrison Hotel", "artist": "The Doors", "year": 1970 },
+    { "title": "Morrison Hotel", "artist": "The Doors", "year": 1970, "listened": true, "genre": "rock", "comment": '"Roadhouse Blues", "Waiting for the Sun", "Peace Frog", "The Spy"', "fav": true, "stars": 1 },
     { "title": "Sweet Baby James", "artist": "James Taylor", "year": 1970, "listened": true, "genre": "folk" },
     { "title": "Workingman's Dead", "artist": "Grateful Dead", "year": 1970 },
     { "title": "Cosmo's Factory", "artist": "Creedence Clearwater Revival", "year": 1970, "listened": true, "genre": "rock", "stars": 1 },
-    { "title": "Pendulum", "artist": "Creedence Clearwater Revival", "year": 1970, "listened": true, "fav": true, "stars": 1, "genre": "rock" },
-    { "title": "2nd Time Around", "artist": "The Spinners", "year": 1970 },
+    { "title": "Pendulum", "artist": "Creedence Clearwater Revival", "year": 1970, "listened": true, "fav": true, "stars": 1, "genre": "rock", "comment": '"Chameleon"' },
+    { "title": "2nd Time Around", "artist": "The Spinners", "year": 1970, "listened": true, "genre": "soul", "comment": '"It\'s a Shame"', "stars": 1 },
     { "title": "John Barleycorn Must Die", "artist": "Traffic", "year": 1970 },
     { "title": "Sex Machine", "artist": "James Brown", "year": 1970 },
-    { "title": "Gula Matari", "artist": "Quincy Jones", "year": 1970 },
+    { "title": "Gula Matari", "artist": "Quincy Jones", "year": 1970, "listened": true, "genre": "jazz", "stars": 1 },
     { "title": "The Man Who Sold the World", "artist": "David Bowie", "year": 1970 },
     { "title": "Black Sabbath", "artist": "Black Sabbath", "year": 1970 },
     { "title": "Close To You", "artist": "The Carpenters", "year": 1970, "listened": true, "genre": "rock" },
     { "title": "Live at Leeds", "artist": "The Who", "year": 1970 },
-    { "title": "Tea for the Tillerman", "artist": "Cat Stevens", "year": 1970, "listened": true, "stars": 1, "genre": "folk" },
+    { "title": "Tea for the Tillerman", "artist": "Cat Stevens", "year": 1970, "listened": true, "stars": 1, "genre": "folk", "comment": '"Wild World"' },
     { "title": "Déjà Vu", "artist": "Crosby, Stills, Nash, and Young", "year": 1970 },
-    { "title": "Layla and Other Assorted Love Songs", "artist": "Derek and the Dominos", "year": 1970, "listened": true, "fav": true, "stars": 3, "genre": "rock" },
+    { "title": "Layla and Other Assorted Love Songs", "artist": "Derek and the Dominos", "year": 1970, "listened": true, "fav": true, "stars": 3, "genre": "rock", "comment": '"Layla", "Bell Bottom Blues", "Nobody Knows You When You\'re Down and Out"' },
     { "title": "Loaded", "artist": "The Velvet Underground", "year": 1970 },
-    { "title": "Bryter Layter", "artist": "Nick Drake", "year": 1970 },
+    { "title": "Bryter Layter", "artist": "Nick Drake", "year": 1970, "listened": true, "genre": "folk", "stars": 1 },
     { "title": "Stephen Stills", "artist": "Stephen Stills", "year": 1970 },
-    { "title": "Moondance", "artist": "Van Morrison", "year": 1970 },
+    { "title": "Moondance", "artist": "Van Morrison", "year": 1970, "listened": true, "genre": "folk", "comment": '"Moondance"', "stars": 1, "fav": true },
     { "title": "Paranoid", "artist": "Black Sabbath", "year": 1970 },
-    { "title": "Bridge Over Troubled Water", "artist": "Simon and Garfunkel", "year": 1970 },
+    { "title": "Bridge Over Troubled Water", "artist": "Simon and Garfunkel", "year": 1970, "listened": true, "genre": "folk", "comment": '"Bridge Over Troubled Water", "The Boxer"', "stars": 1 },
     { "title": "Plastic Ono Band", "artist": "John Lennon", "year": 1970 },
     { "title": "All Things Must Pass", "artist": "George Harrison", "year": 1970 },
     { "title": "After the Gold Rush", "artist": "Neil Young", "year": 1970 },
@@ -449,16 +470,16 @@ const items = [
     { "title": "In Rock", "artist": "Deep Purple", "year": 1970 },
     { "title": "Third", "artist": "Soft Machine", "year": 1970 },
 
-    { "title": "Led Zeppelin IV", "artist": "Led Zeppelin", "year": 1971 },
-    { "title": "Puzzle", "artist": "Michel Berger", "year": 1971 },
-    { "title": "Métronomie", "artist": "Nino Ferrer", "year": 1971 },
+    { "title": "Led Zeppelin IV", "artist": "Led Zeppelin", "year": 1971, "genre": "hard-rock" },
+    { "title": "Puzzle", "artist": "Michel Berger", "year": 1971, "fr": true },
+    { "title": "Métronomie", "artist": "Nino Ferrer", "year": 1971, "fr": true },
     { "title": "Mr. Big Stuff", "artist": "Jean Knight", "year": 1971 },
-    { "title": "L.A. Woman", "artist": "The Doors", "year": 1971 },
+    { "title": "L.A. Woman", "artist": "The Doors", "year": 1971, "genre": "rock" },
     { "title": "Pearl", "artist": "Janis Joplin", "year": 1971 },
-    { "title": "Blue", "artist": "Joni Mitchell", "year": 1971 },
-    { "title": "I Saw the Light With Some Help From My Friends", "artist": "Earl Scruggs", "year": 1971 },
+    { "title": "Blue", "artist": "Joni Mitchell", "year": 1971, "genre": "folk" },
+    { "title": "I Saw the Light With Some Help From My Friends", "artist": "Earl Scruggs", "year": 1971, "genre": "bluegrass" },
     { "title": "Coal Miner's Daughter", "artist": "Loretta Lynn", "year": 1971 },
-    { "title": "Naturally", "artist": "J.J. Cale", "year": 1971, "listened": true, "stars": 1, "genre": "rock" },
+    { "title": "Naturally", "artist": "J.J. Cale", "year": 1971, "listened": true, "stars": 1, "genre": "rock-n-roll" },
     { "title": "America", "artist": "America", "year": 1971, "listened": true, "stars": 1, "genre": "rock" },
     { "title": "Purdie Good!", "artist": 'Bernard "Pretty" Purdie', "year": 1971, "listened": true, "fav": true, "stars": 1, "genre": "soul" },
     { "title": "Journey in Satchidanada", "artist": "Alice Coltrane", "year": 1971 },
@@ -473,8 +494,8 @@ const items = [
     { "title": "Histoire de Melody Nelson", "artist": "Serge Gainsbourg", "year": 1971, "fr": true, "genre": "pop", "listened": true, "stars": 1 },
     { "title": "Just As I Am", "artist": "Bill Withers", "year": 1971, "listened": true, "genre": "soul", "stars": 1, "fav": true },
     { "title": "Coat of Many Colors", "artist": "Dolly Parton", "year": 1971, "listened": true, "genre": "country" },
-    { "title": "Nilsson Schmilsson", "artist": "Harry Nilsson", "year": 1971, "listened": true, "genre": "folk" },
-    { "title": "American Pie", "artist": "Don McLean", "year": 1971 },
+    { "title": "Nilsson Schmilsson", "artist": "Harry Nilsson", "year": 1971, "listened": true, "genre": "folk", "comment": '"Coconut"' },
+    { "title": "American Pie", "artist": "Don McLean", "year": 1971, "listened": true, "genre": "folk", "stars": 1 },
     { "title": "Sticky Fingers", "artist": "The Rolling Stones", "year": 1971, "listened": true, "stars": 1, "genre": "rock" },
     { "title": "Teenage Head", "artist": "Flamin' Groovies", "year": 1971, "listened": true, "stars": 1, "genre": "rock" },
     { "title": "Aqualung", "artist": "Jethro Tull", "year": 1971, "listened": true, "stars": 1, "genre": "rock" },
@@ -484,11 +505,11 @@ const items = [
     { "title": "If I Could Only Remember My Name", "artist": "David Crosby", "year": 1971 },
     { "title": "A Nod's as Good as a Wink... To a Blind Horse", "artist": "Faces", "year": 1971 },
     { "title": "Imagine", "artist": "John Lennon", "year": 1971 },
-    { "title": "Master of Reality", "artist": "Black Sabbath", "year": 1971 },
+    { "title": "Master of Reality", "artist": "Black Sabbath", "year": 1971, "listened": true, "genre": "hard-rock", "stars": 1, "comment": '"Orchid", "Into the Void"' },
     { "title": "Tarkus", "artist": "Emerson, Lake &amp; Palmer", "year": 1971, "listened": true, "genre": "rock" },
     { "title": "Pictures at an Exhibition", "artist": "Emerson, Lake &amp; Palmer", "year": 1971 },
     { "title": "Maggot Brain", "artist": "Funkadelic", "year": 1971 },
-    { "title": "John Prine", "artist": "John Prine", "year": 1971 },
+    { "title": "John Prine", "artist": "John Prine", "year": 1971, "listened": true, "genre": "folk", "stars": 1, "comment": '"Pretty Good"' },
     { "title": "Surf's Up", "artist": "The Beach Boys", "year": 1971, "listened": true, "meh": true, "genre": "rock" },
     { "title": "Fragile", "artist": "Yes", "year": 1971 },
     { "title": "Tago Mago", "artist": "Can", "year": 1971 },
@@ -499,8 +520,8 @@ const items = [
     { "title": "Hunky Dory", "artist": "David Bowie", "year": 1971 },
     { "title": "What's Going On", "artist": "Marvin Gaye", "year": 1971 },
     { "title": "Tapestry", "artist": "Carole King", "year": 1971 },
-    { "title": "Who's Next", "artist": "The Who", "year": 1971, "listened": true, "genre": "rock", "fav": true, "stars": 3, "perso": true },
-    { "title": "At Fillmore East", "artist": "The Allman Brothers Band", "year": 1971, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
+    { "title": "Who's Next", "artist": "The Who", "year": 1971, "listened": true, "genre": "rock", "fav": true, "stars": 3, "perso": true, "comment": '"Baba O\'Riley", "Bargain", "Love Ain\'t for Keeping", "Behind Blue Eyes", "Won\'t Get Fooled Again"' },
+    { "title": "At Fillmore East", "artist": "The Allman Brothers Band", "year": 1971, "listened": true, "fav": true, "stars": 2, "genre": "rock", "comment": 'Live' },
     { "title": "There's a Riot Goin' On", "artist": "Sly and the Family Stone", "year": 1971, "listened": true, "genre": "funk" },
     { "title": "Stand By Me (Watcha See Is Whatcha Get)", "artist": 'Bernard "Pretty" Purdie and the Playboys', "year": 1971 },
 
@@ -509,7 +530,7 @@ const items = [
     { "title": "Maxime Le Forestier (Mon frère)", "artist": "Maxime Le Forestier", "year": 1972, "fr": true, "genre": "chanson", "listened": false },
     { "title": "Mardi Gras", "artist": "Creedence Clearwater Revival", "year": 1972 },
     { "title": "Be Altitude: Respect Yourself", "artist": "The Staple Singers", "year": 1972 },
-    { "title": "360 Degrees of Billy Paul", "artist": "Billy Paul", "year": 1972 },
+    { "title": "360 Degrees of Billy Paul", "artist": "Billy Paul", "year": 1972, "comment": '"Your Song" better version than Elton John\'s?, "Me and Mrs. Jones")' },
     { "title": "Roberta Flack &amp; Donny Hathaway", "artist": "Roberta Flack and Donny Hathaway", "year": 1972 },
     { "title": "Across 110th Street OST", "artist": "Bobby Womack and J. J. Johnson", "year": 1972 },
     { "title": "I Gotcha", "artist": "Joe Tex", "year": 1972 },
@@ -527,7 +548,7 @@ const items = [
     { "title": "Ege Bamyasi", "artist": "Can", "year": 1972 },
     { "title": "Back Stabbers", "artist": "The O'Jays", "year": 1972, "listened": true, "genre": "soul", "stars": 1, "fav": true },
     { "title": "Looking Glass", "artist": "Looking Glass", "year": 1972 },
-    { "title": "#1 Record", "artist": "Big Star", "year": 1972 },
+    { "title": "#1 Record", "artist": "Big Star", "year": 1972, "listened": true, "genre": "rock", "stars": 1 },
     { "title": "Close to the Edge", "artist": "Yes", "year": 1972 },
     { "title": "Young, Gifted and Black", "artist": "Aretha Franklin", "year": 1972, "listened": true, "genre": "soul", "stars": 1 },
     { "title": "Something/Anything?", "artist": "Todd Rundgren", "year": 1972, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
@@ -555,23 +576,24 @@ const items = [
     { "title": "Still Bill", "artist": "Bill Withers", "year": 1972, "listened": true, "genre": "soul", "stars": 1 },
     { "title": "The World Is a Ghetto", "artist": "War", "year": 1972 },
     { "title": "Let's Stay Together", "artist": "Al Green", "year": 1972 },
-    { "title": "Stealers Wheel", "artist": "Stealers Wheel", "year": 1972 },
+    { "title": "Stealers Wheel", "artist": "Stealers Wheel", "year": 1972, "comment": '"Stuck in the Middle with You"' },
     { "title": "Can't Buy a Thrill", "artist": "Steely Dan", "year": 1972, "listened": true, "stars": 1, "genre": "rock", "fav": true },
     { "title": "The Harder They Come: Original Soundtrack", "artist": "Jimmy Cliff and Various Artists", "year": 1972 },
     { "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars", "artist": "David Bowie", "year": 1972 },
     { "title": "Soul Is... Pretty Purdie", "artist": 'Bernard "Pretty" Purdie', "year": 1972, "listened": true, "fav": true, "stars": 1, "genre": "soul" },
 
     { "title": "The Dark Side of the Moon", "artist": "Pink Floyd", "year": 1973, "listened": true, "fav": true, "stars": 2, "genre": "rock", "perso": true },
-    { "title": "Head Hunters", "artist": "Herbie Hancock", "year": 1973 },
-    { "title": "Aquashow", "artist": "Elliott Murphy", "year": 1973, "comment": "Festival Binic 2004 avec Buddy Guy" },
+    { "title": "Head Hunters", "artist": "Herbie Hancock", "year": 1973, "listened": true, "genre": "jazz", "comment": 'Jazz fusion, "Chameleon", "Watermelon Man" (beer bottle blowing)', "stars": 1, "fav": true },
+    { "title": "Aquashow", "artist": "Elliott Murphy", "year": 1973, "listened": true, "genre": "rock" },
     { "title": "Stone Gon'", "artist": "Barry White", "year": 1973 },
+    { "title": "20th Century Boy", "artist": "T. Rex", "year": 1973, "listened": true, "genre": "rock", "comment": "Single", "stars": 1 },
     { "title": "Imagination", "artist": "Gladys Knight &amp; the Pips", "year": 1973 },
     { "title": "Abandoned Luncheonette", "artist": "Daryl Hall &amp; John Oates", "year": 1973 },
     { "title": "Michel Berger", "artist": "Michel Berger", "year": 1973 },
     { "title": "Who Do We Think We Are", "artist": "Deep Purple", "year": 1973 },
     { "title": "Band on the Run", "artist": "Paul McCartney and Wings", "year": 1973 },
     { "title": "Houses of the Holy", "artist": "Led Zeppelin", "year": 1973 },
-    { "title": "A Wizard, A True Star", "artist": "Todd Rundgren", "year": 1973 },
+    { "title": "A Wizard, A True Star", "artist": "Todd Rundgren", "year": 1973, "listened": true, "genre": "pop", "comment": "a little bit gloubi-boulga" },
     { "title": "The Captain and Me", "artist": "The Doobie Brothers", "year": 1973 },
     { "title": "Birds of Fire", "artist": "Mahavishnu Orchestra", "year": 1973 },
     { "title": "10cc", "artist": "10cc", "year": 1973 },
@@ -579,7 +601,7 @@ const items = [
     { "title": "Wild and Peaceful", "artist": "Kool and the Gang", "year": 1973, "listened": true, "genre": "funk", "stars": 1, "fav": true },
     { "title": "Wovoka", "artist": "Redbone", "year": 1973 },
     { "title": "Prelude", "artist": "Deodato", "year": 1973 },
-    { "title": "Deodato 2", "artist": "Deodato", "year": 1973 },
+    { "title": "Deodato 2", "artist": "Deodato", "year": 1973, "listened": true, "genre": "funk", "stars": 1, "fav": true },
     { "title": "Next", "artist": "The Sensational Alex Harvey Band", "year": 1973 },
     { "title": "Billion Dollar Babies", "artist": "Alice Cooper", "year": 1973 },
     { "title": "Raw Power", "artist": "Iggy and the Stooges", "year": 1973 },
@@ -613,8 +635,8 @@ const items = [
     { "title": "Selling England By the Pound", "artist": "Genesis", "year": 1973 },
     { "title": "Innervisions", "artist": "Stevie Wonder", "year": 1973 },
     { "title": "Court and Spark", "artist": "Joni Mitchell", "year": 1973 },
-    { "title": "Lake Shore Drive", "artist": "Alliota Haynes Jeremiah", "year": 1973, "listened": true, "stars": 1, "genre": "rock" },
-    { "title": "Tubular Bells", "artist": "Mike Oldfield", "year": 1973, "listened": true, "stars": 1, "genre": "rock" },
+    { "title": "Lake Shore Drive", "artist": "Alliota Haynes Jeremiah", "year": 1973, "listened": true, "stars": 1, "genre": "rock", "comment": '"Lake Shore Drive"' },
+    { "title": "Tubular Bells", "artist": "Mike Oldfield", "year": 1973, "listened": true, "stars": 1, "genre": "rock", "comment": "Opening theme = The Exorcist" },
 
     { "title": "Pretzel Logic", "artist": "Steely Dan", "year": 1974, "listened": true, "fav": true, "stars": 1, "genre": "rock", "fav": true },
     { "title": "Red", "artist": "King Crimson", "year": 1974 },
@@ -631,7 +653,7 @@ const items = [
     { "title": "Body Heat", "artist": "Quincy Jones", "year": 1974 },
     { "title": "Country Life", "artist": "Roxy Music", "year": 1974 },
     { "title": "Phaedra", "artist": "Tangerine Dream", "year": 1974 },
-    { "title": "Queen II", "artist": "Queen", "year": 1974 },
+    { "title": "Queen II", "artist": "Queen", "year": 1974, "listened": true, "genre": "rock", "comment": '"The March of the Black Queen", "Seven Seas of Rhye"' },
     { "title": "Sheer Heart Attack", "artist": "Queen", "year": 1974 },
     { "title": "Sheet Music", "artist": "10cc", "year": 1974, "listened": true, "stars": 1, "genre": "rock" },
     { "title": "Bad Co", "artist": "Bad Company", "year": 1974 },
@@ -648,7 +670,7 @@ const items = [
     { "title": "It's Too Late To Stop Now", "artist": "Van Morrison", "year": 1974 },
     { "title": "Kimono My House", "artist": "Sparks", "year": 1974 },
     { "title": "Crime of the Century", "artist": "Supertramp", "year": 1974 },
-    { "title": "Diamond Dogs", "artist": "David Bowie", "year": 1974 },
+    { "title": "Diamond Dogs", "artist": "David Bowie", "year": 1974, "listened": true, "genre": "rock", "comment": '"Diamond Dogs", "Rebel Rebel"', "stars": 1 },
     { "title": "The Grand Tour", "artist": "George Jones", "year": 1974 },
     { "title": "Here Come the Warm Jets", "artist": "Brian Eno", "year": 1974, "listened": true, "genre": "rock" },
     { "title": "Radio City", "artist": "Big Star", "year": 1974 },
@@ -656,8 +678,11 @@ const items = [
     { "title": "Virtuoso", "artist": "Joe Pass", "year": 1974 },
     { "title": "Winter In America", "artist": "Gil Scott-Heron / Brian Jackson", "year": 1974 },
     { "title": "I Want to See the Bright Lights Tonight", "artist": "Richard and Linda Thompson", "year": 1974 },
+    { "title": "Heart Like a Wheel", "artist": "Linda Ronstadt", "year": 1974, "listened": true, "genre": "country", "comment": '"You\'re No Good"' },
 
     { "title": "Physical Graffiti", "artist": "Led Zeppelin", "year": 1975 },
+    { "title": "Inseparable", "artist": "Natalie Cole", "year": 1975 },
+    { "title": "The Legendary Zing Album", "artist": "The Trammps", "year": 1975, "genre": "soul", "listened": true, "stars": 1, "fav": true, "comment": '"Rubber Band"' },
     { "title": "Young Americans", "artist": "David Bowie", "year": 1975 },
     { "title": "Heureusement en France on ne se drogue pas", "artist": "Alain Kan", "year": 1975 },
     { "title": "Feel Like Makin' Love", "artist": "Roberta Flack", "year": 1975 },
@@ -667,7 +692,7 @@ const items = [
     { "title": "Daryl Hall &amp; John Oates", "artist": "Hall &amp; Oates", "year": 1975 },
     { "title": "Spirit of the Boogie", "artist": "Kool and the Gang", "year": 1975 },
     { "title": "The Köln Concert", "artist": "Keith Jarrett", "year": 1975 },
-    { "title": "Toys In the Attic", "artist": "Aerosmith", "year": 1975, "listened": true, "genre": "hard-rock", "stars": 2, "fav": true },
+    { "title": "Toys In the Attic", "artist": "Aerosmith", "year": 1975, "listened": true, "genre": "hard-rock", "stars": 2, "fav": true, "comment": '"Walk This Way", "Sweet Emotion"' },
     { "title": "Shalimar / College Girl", "artist": "R.D. Burman / Bappi Lahiri", "year": 1975 },
     { "title": "Trammps", "artist": "The Trammps", "year": 1975, "listened": true, "genre": "disco" },
     { "title": "Why Can't We Be Friends?", "artist": "War", "year": 1975, "listened": true, "genre": "funk", "stars": 1 },
@@ -682,7 +707,6 @@ const items = [
     { "title": "Forest of Feelings", "artist": "David Sancious", "year": 1975, "listened": true, "fav": true, "stars": 1, "genre": "funk" },
     { "title": "Diamonds &amp; Rust", "artist": "Joan Baez", "year": 1975 },
     { "title": "Mellow Madness", "artist": "Quincy Jones", "year": 1975 },
-    { "title": "Heart Like a Wheel", "artist": "Linda Ronstadt", "year": 1975 },
     { "title": "Expensive Shit", "artist": "Fela Kuti and Africa 70", "year": 1975, "listened": true, "genre": "world" },
     { "title": "That's the Way of the World", "artist": "Earth, Wind and Fire", "year": 1975, "listened": true, "fav": true, "stars": 1, "genre": "funk" },
     { "title": "Tonight's the Night", "artist": "Neil Young", "year": 1975 },
@@ -694,7 +718,7 @@ const items = [
     { "title": "Bad Girls", "artist": "Donna Summer", "year": 1975 },
     { "title": "Red Headed Stranger", "artist": "Willie Nelson", "year": 1975 },
     { "title": "There's No Place Like America Today", "artist": "Curtis Mayfield", "year": 1975 },
-    { "title": "A Night at the Opera", "artist": "Queen", "year": 1975 },
+    { "title": "A Night at the Opera", "artist": "Queen", "year": 1975, "listened": true, "genre": "rock", "stars": 3, "comment": '"Death on Two Legs (Dedicated to...)", "Lazing on a Sunday Afternoon", "You\'re My Best Friend", "\'39", "The Prophet\'s Song", "Love of My Life", "Bohemian Rhapsody", "God Save the Queen"', "fav": true },
     { "title": "Blood on the Tracks", "artist": "Bob Dylan", "year": 1975, "listened": true, "genre": "folk", "fav": true, "stars": 1 },
     { "title": "Born to Run", "artist": "Bruce Springsteen", "year": 1975 },
     { "title": "Pieces Of the Sky", "artist": "Emmylou Harris", "year": 1975 },
@@ -706,27 +730,29 @@ const items = [
     { "title": "Fleetwood Mac (the White Album)", "artist": "Fleetwood Mac", "year": 1975 },
     { "title": "The Original Soundtrack", "artist": "10cc", "year": 1975 },
 
-    { "title": "The Royal Scam", "artist": "Steely Dan", "year": 1976, "listened": true, "fav": true, "perso": true, "stars": 2, "genre": "rock" },
+    { "title": "The Royal Scam", "artist": "Steely Dan", "year": 1976, "listened": true, "fav": true, "perso": true, "stars": 2, "genre": "rock", "comment": '"Kid Charlemagne"' },
     { "title": "Those Southern Knights", "artist": "The Crusaders", "year": 1976, "listened": true, "fav": true, "stars": 2, "genre": "funk" },
     { "title": "Tom Petty &amp; the Heartbreakers", "artist": "Tom Petty and the Heartbreakers", "year": 1976, "listened": true, "stars": 1, "genre": "rock" },
     { "title": "Presence", "artist": "Led Zeppelin", "year": 1976 },
+    { "title": "Children of the World", "artist": "The Bee Gees", "year": 1976, "comment": '"You Should Be Dancing"', "genre": "disco" },
     { "title": "Black Market", "artist": "Weather Report", "year": 1976, "listened": true, "genre": "jazz", "comment": "Jazz fusion" },
     { "title": "Wired", "artist": "Jeff Beck", "year": 1976 },
-    { "title": "Boston", "artist": "Boston", "year": 1976 },
+    { "title": "Drama Suite Part II", "artist": "Alan Tew", "year": 1976, "listened": true, "genre": "funk", "stars": 1, "comment": 'Instrumental' },
+    { "title": "Boston", "artist": "Boston", "year": 1976, "listened": true, "genre": "rock", "stars": 2, "fav": true, "comment": '"More Than A Feeling", "Foreplay"' },
     { "title": "Take the Heat Off Me", "artist": "Boney M.", "year": 1976 },
     { "title": "The Runaways", "artist": "The Runaways", "year": 1976 },
     { "title": "Struttin' My Stuff", "artist": "Elvin Bishop", "year": 1976, "listened": true, "genre": "funk" },
     { "title": "Jaco Pastorius", "artist": "Jaco Pastorius", "year": 1976 },
     { "title": "Silk Degrees", "artist": "Boz Scaggs", "year": 1976 },
-    { "title": "Rocks", "artist": "Aerosmith", "year": 1976 },
-    { "title": "Look Out for #1", "artist": "The Brothers Johnson", "year": 1976 },
+    { "title": "Rocks", "artist": "Aerosmith", "year": 1976, "listened": true, "genre": "hard-rock", "comment": '"Nobody\'s Fault"' },
+    { "title": "Look Out for #1", "artist": "The Brothers Johnson", "year": 1976, "listened": true, "genre": "funk", "stars": 1, "comment": '"I\'ll Be Good To You", "Get the Funk Out Ma Face"', "fav": true },
     { "title": "Stuff", "artist": "Stuff", "year": 1976, "listened": true, "fav": true, "stars": 2, "genre": "funk" },
     { "title": "Mon piano danse", "artist": "Michel Berger", "year": 1976 },
     { "title": "The Modern Lovers", "artist": "The Modern Lovers", "year": 1976 },
     { "title": "Hotel California", "artist": "The Eagles", "year": 1976 },
     { "title": "Hejira", "artist": "Joni Mitchell", "year": 1976 },
-    { "title": "A Day at the Races", "artist": "Queen", "year": 1976 },
-    { "title": "Arrival", "artist": "ABBA", "year": 1976, "listened": true, "stars": 1, "genre": "disco" },
+    { "title": "A Day at the Races", "artist": "Queen", "year": 1976, "listened": true, "genre": "rock", "comment": '"Tie Your Mother Down", "Somebody To Love", "The Millionaire Waltz", "You and I", "Good Old-Fashioned Lover Boy"', "stars": 2, "fav": true },
+    { "title": "Arrival", "artist": "ABBA", "year": 1976, "listened": true, "stars": 1, "genre": "disco", "comment": '"Dancing Queen", "Knowing Me, Knowing You", "Money, Money, Money"' },
     { "title": "Destroyer", "artist": "Kiss", "year": 1976 },
     { "title": "I Heard That!", "artist": "Quincy Jones", "year": 1976 },
     { "title": "Station to Station", "artist": "David Bowie", "year": 1976 },
@@ -748,7 +774,9 @@ const items = [
 
     { "title": "Aja", "artist": "Steely Dan", "year": 1977, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
     { "title": "Low", "artist": "David Bowie", "year": 1977, "listened": true, "stars": 1, "genre": "rock" },
+    { "title": '"Heroes"', "artist": "David Bowie", "year": 1977, "listened": true, "genre": "rock", "stars": 1, "comment": '"Beauty and the Beast", "\'Heroes\'"' },
     { "title": "More Stuff", "artist": "Stuff", "year": 1977 },
+    { "title": "Supernature (Cerrone 3)", "artist": "Cerrone", "year": 1977, "fr": true, "genre": "disco", "comment": '"Supernature", "Give Me Love" (décembre 2022, animations de Noël au château de Saint-Priest)', "listened": true, "stars": 1, "fav": true },
     { "title": "Back Together Again", "artist": "Alphonse Mouzon", "year": 1977 },
     { "title": "Ram Jam", "artist": "Ram Jam", "year": 1977 },
     { "title": "Floaters", "artist": "The Floaters", "year": 1977 },
@@ -772,11 +800,10 @@ const items = [
     { "title": "Before and After Science", "artist": "Brian Eno", "year": 1977 },
     { "title": "Zombie", "artist": "Fela and Africa 70", "year": 1977 },
     { "title": "Ahh... The Name Is Bootsy, Baby!", "artist": "Bootsy Collins", "year": 1977 },
-    { "title": "Cats on the Coast", "artist": "Sea Level", "year": 1977 },
+    { "title": "Cats on the Coast", "artist": "Sea Level", "year": 1977, "listened": true, "genre": "funk", "stars": 1, "comment": '"Storm Warning"' },
     { "title": "Lust for Life", "artist": "Iggy Pop", "year": 1977 },
     { "title": "New Boots and Panties!!", "artist": "Ian Dury", "year": 1977 },
     { "title": "Blondie", "artist": "Blondie", "year": 1977 },
-    { "title": '"Heroes"', "artist": "David Bowie", "year": 1977, "listened": true, "genre": "rock", "stars": 1 },
     { "title": "The Idiot", "artist": "Iggy Pop", "year": 1977, "listened": true, "stars": 1, "genre": "rock" },
     { "title": "Ask Rufus", "artist": "Rufus, Chaka Khan", "year": 1977 },
     { "title": "Suicide", "artist": "Suicide", "year": 1977 },
@@ -784,8 +811,8 @@ const items = [
     { "title": "Rocket to Russia", "artist": "Ramones", "year": 1977 },
     { "title": "Pink Flag", "artist": "Wire", "year": 1977 },
     { "title": "One World", "artist": "John Martyn", "year": 1977 },
-    { "title": "My Aim is True", "artist": "Elvis Costello", "year": 1977 },
-    { "title": "News of the World", "artist": "Queen", "year": 1977, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
+    { "title": "My Aim is True", "artist": "Elvis Costello", "year": 1977, "listened": true, "genre": "rock" },
+    { "title": "News of the World", "artist": "Queen", "year": 1977, "listened": true, "fav": true, "stars": 2, "genre": "rock", "comment": '"We Will Rock You", "We Are the Champions"' },
     { "title": "Never Mind the Bollocks Here's the Sex Pistols", "artist": "The Sex Pistols", "year": 1977 },
     { "title": "Trans Europe Express", "artist": "Kraftwerk", "year": 1977 },
     { "title": "The Clash", "artist": "The Clash", "year": 1977, "listened": true, "genre": "punk", "stars": 1 },
@@ -800,29 +827,31 @@ const items = [
     { "title": "Commodores", "artist": "Commodores", "year": 1977 },
 
     { "title": "20 Golden Greats", "artist": "Buddy Holly", "year": 1978 },
-    { "title": "Cosmic Messenger", "artist": "Jean-Luc Ponty", "year": 1978, "listened": true, "genre": "jazz", "fr": true },
+    { "title": "Chase", "artist": "Giorgio Moroder", "year": 1978, "listened": true, "genre": "electro", "comment": 'Single from "Midnight Express" OST' },
+    { "title": "Cosmic Messenger", "artist": "Jean-Luc Ponty", "year": 1978, "listened": true, "genre": "jazz", "fr": true, "comment": "Electric violin" },
     { "title": "Dschinghis Khan", "artist": "Dschinghis Khan", "year": 1978 },
-    { "title": "But Seriously, Folks...", "artist": "Joe Walsh", "year": 1978, "listened": true, "genre": "rock", "stars": 1 },
+    { "title": "But Seriously, Folks...", "artist": "Joe Walsh", "year": 1978, "listened": true, "genre": "rock", "stars": 1, "comment": '"Life\'s Been Good"' },
     { "title": "Cruisin'", "artist": "Village People", "year": 1978 },
-    { "title": "Blam!", "artist": "The Brothers Johnson", "year": 1978 },
+    { "title": "T'as beau être pas beau", "artist": "Louis Chedid", "year": 1978, "fr": true, "listened": true, "genre": "pop", "comment": '"T\'as beau être pas beau" wooooh oh oh oh monde cinglé hééé hé hé hé' },
+    { "title": "Blam!", "artist": "The Brothers Johnson", "year": 1978, "listened": true, "stars": 1, "genre": "funk" },
     { "title": "Heaven Tonight", "artist": "Cheap Trick", "year": 1978, "listened": true, "meh": true, "genre": "rock" },
     { "title": "Cheryl Lynn", "artist": "Cheryl Lynn", "year": 1978 },
     { "title": "Germfree Adolescents", "artist": "X-Ray Spex", "year": 1978 },
     { "title": "Toto", "artist": "Toto", "year": 1978, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
     { "title": "Natural High", "artist": "Commodores", "year": 1978 },
-    { "title": "Some Girls", "artist": "The Rolling Stones", "year": 1978 },
+    { "title": "Some Girls", "artist": "The Rolling Stones", "year": 1978, "listened": true, "genre": "rock", "stars": 1, "fav": true, "comment": '"Miss You", "When the Whip Comes Down", "Just My Imagination (Running Away with Me)", "Beast of Burden"' },
     { "title": "Here, My Dear", "artist": "Marvin Gaye", "year": 1978, "listened": true, "genre": "soul" },
     { "title": "More Songs About Buildings and Food", "artist": "Talking Heads", "year": 1978 },
     { "title": "Ambient 1: Music for Airports", "artist": "Brian Eno", "year": 1978, "perso": true, "listened": true, "genre": "electro" },
     { "title": "Q: Are We Not Men? A: We Are Devo!", "artist": "Devo", "year": 1978 },
     { "title": "Third/Sister Lovers", "artist": "Big Star", "year": 1978 },
     { "title": "Van Halen", "artist": "Van Halen", "year": 1978 },
-    { "title": "Jazz", "artist": "Queen", "year": 1978 },
+    { "title": "Jazz", "artist": "Queen", "year": 1978, "listened": true, "genre": "rock", "stars": 2, "fav": true, "comment": '"Fat Bottomed Girls", "Bicycle Race", "Don\'t Stop Me Now"' },
     { "title": "Sounds... and Stuff Like That!", "artist": "Quincy Jones", "year": 1978 },
     { "title": "One Nation Under a Groove", "artist": "Funkadelic", "year": 1978 },
     { "title": "This Year's Model", "artist": "Elvis Costello", "year": 1978 },
     { "title": "40 Greatest Hits", "artist": "Hank Williams", "year": 1978 },
-    { "title": "Dire Straits", "artist": "Dire Straits", "year": 1978 },
+    { "title": "Dire Straits", "artist": "Dire Straits", "year": 1978, "listened": true, "genre": "rock", "stars": 2, "fav": true, "comment": '"Down To the Waterline", "Water of Love", "Setting Me Up", "Six Blade Knife", "Sultans of Swing", "Southbound Again"' },
     { "title": "Live Stuff", "artist": "Stuff", "year": 1978 },
     { "title": "Parallel Lines", "artist": "Blondie", "year": 1978 },
     { "title": "The Modern Dance", "artist": "Pere Ubu", "year": 1978, "listened": true, "genre": "rock", "meh": true },
@@ -853,7 +882,7 @@ const items = [
     { "title": "The Wall", "artist": "Pink Floyd", "year": 1979 },
     { "title": "Crache ton venin", "artist": "Téléphone", "year": 1979, "listened": true, "genre": "rock", "fr": true },
     { "title": "Songs of Love", "artist": "Anita Ward", "year": 1979 },
-    { "title": "Communiqué", "artist": "Dire Straits", "year": 1979, "listened": true, "fav": true, "perso": true, "stars": 2, "genre": "rock" },
+    { "title": "Communiqué", "artist": "Dire Straits", "year": 1979, "listened": true, "fav": true, "perso": true, "stars": 2, "genre": "rock", "comment": '"Once Upon a Time in the West", "Lady Writer"' },
     { "title": "Off the Wall", "artist": "Michael Jackson", "year": 1979, "listened": true, "genre": "disco", "stars": 1, "fav": true },
     { "title": "Stuff It", "artist": "Stuff", "year": 1979 },
     { "title": "Ladies' Night", "artist": "Kool and the Gang", "year": 1979, "listened": true, "genre": "funk", "fav": true, "stars": 1 },
@@ -867,7 +896,7 @@ const items = [
     { "title": "Specials", "artist": "The Specials", "year": 1979 },
     { "title": "The Pleasure Principle", "artist": "Gary Numan", "year": 1979 },
     { "title": "Machine Gun Etiquette", "artist": "The Damned", "year": 1979, "listened": true, "genre": "punk" },
-    { "title": "Metal Box", "artist": "PiL", "year": 1979, "listened": true, "genre": "punk" },
+    { "title": "Metal Box", "artist": "PiL", "year": 1979, "listened": true, "genre": "punk", "comment": '"Albatross"' },
     { "title": "Eat to the Beat", "artist": "Blondie", "year": 1979 },
     { "title": "Lodger", "artist": "David Bowie", "year": 1979, "listened": true, "genre": "rock" },
     { "title": "Armed Forces", "artist": "Elvis Costello and the Attractions", "year": 1979 },
@@ -880,8 +909,8 @@ const items = [
     { "title": "Germs", "artist": "(GI)", "year": 1979 },
     { "title": "Highway To Hell", "artist": "AC/DC", "year": 1979 },
     { "title": "We Are Family", "artist": "Sister Sledge", "year": 1979 },
-    { "title": "Get The Knack", "artist": "The Knack", "year": 1979 },
-    { "title": "Happy Holidays to You", "artist": "The Whispers", "year": 1979 },
+    { "title": "Get The Knack", "artist": "The Knack", "year": 1979, "listened": true, "genre": "rock", "comment": '"Let Me Out", "My Sharona"', "stars": 1 },
+    { "title": "Happy Holidays to You", "artist": "The Whispers", "year": 1979, "listened": true, "genre": "soul", "comment": "Christmas songs" },
     { "title": "Reggatta de Blanc", "artist": "The Police", "year": 1979, "listened": true, "genre": "rock", "comment": '"Message in a bottle", "Walking on the Moon", "Bring on the night"', "fav": true, "stars": 2 },
     { "title": "Hydra", "artist": "Toto", "year": 1979 },
     { "title": "Tusk", "artist": "Fleetwood Mac", "year": 1979, "listened": true, "genre": "rock" },
@@ -894,13 +923,13 @@ const items = [
     { "title": "Street Life", "artist": "The Crusaders", "year": 1979 },
     { "title": "Pink Moon", "artist": "Nick Drake", "year": 1979, "listened": true, "genre": "folk" },
     { "title": "Damn the Torpedoes", "artist": "Tom Petty and the Heartbreakers", "year": 1979 },
-    { "title": "Singles Going Steady", "artist": "Buzzcocks", "year": 1979 },
+    { "title": "Singles Going Steady", "artist": "Buzzcocks", "year": 1979, "listened": true, "genre": "punk", "comment": 'Double compilation album, "Ever Fallen in Love (With Someone You Shouldn\'n\'t\'ve)"', "stars": 1 },
 
     { "title": "Heaven and Hell", "artist": "Black Sabbath", "year": 1980 },
     { "title": "Wild Planet", "artist": "The B-52's", "year": 1980 },
     { "title": "The Age of Plastic", "artist": "The Buggles", "year": 1980 },
     { "title": "Le retour de Gérard Lambert", "artist": "Renaud", "year": 1980 },
-    { "title": "Give Me the Night", "artist": "George Benson", "year": 1980 },
+    { "title": "Give Me the Night", "artist": "George Benson", "year": 1980, "listened": true, "genre": "funk", "stars": 1, "fav": true, "comment": '"Give Me the Night", "Love X Love", produced by Quincy Jones' },
     { "title": "Sugarhill Gang", "artist": "Sugarhill Gang", "year": 1980 },
     { "title": "Au coeur de la nuit", "artist": "Téléphone", "year": 1980 },
     { "title": "Organisation", "artist": "Orchestral Manoeuvres in the Dark", "year": 1980 },
@@ -924,10 +953,10 @@ const items = [
     { "title": "Songs the Lord Taught Us", "artist": "The Cramps", "year": 1980 },
     { "title": "Searching For the Young Soul Rebels", "artist": "Dexys Midnight Runners", "year": 1980 },
     { "title": "The Game", "artist": "Queen", "year": 1980 },
-    { "title": "Un autre monde", "artist": "Daniel Balavoine", "year": 1980, "listened": true, "stars": 1, "genre": "rock", "fr": true, "fav": true },
-    { "title": "Beauséjour", "artist": "Michel Berger", "year": 1980, "listened": true, "fav": true, "stars": 2, "genre": "pop", "fr": true },
+    { "title": "Un autre monde", "artist": "Daniel Balavoine", "year": 1980, "listened": true, "stars": 1, "genre": "rock", "fr": true, "fav": true, "comment": '"Mon fils ma bataille", "10 000 mètres", "Je ne suis pas un héros", "La vie ne m\'apprend rien"' },
+    { "title": "Beauséjour", "artist": "Michel Berger", "year": 1980, "listened": true, "fav": true, "stars": 2, "genre": "pop", "fr": true, "comment": '"La groupie du pianiste", "Celui qui chante", "Quelques mots d\'amour", "Jouer du banjo"'},
     { "title": "Arc of a Diver", "artist": "Steve Winwood", "year": 1980, "listened": true, "genre": "rock" },
-    { "title": "McCartney II", "artist": "Paul McCartney", "year": 1980, "listened": true, "genre": "pop" },
+    { "title": "McCartney II", "artist": "Paul McCartney", "year": 1980, "listened": true, "genre": "pop", "comment": '"Coming Up"' },
     { "title": "Zenyatta Mondatta", "artist": "The Police", "year": 1980 },
     { "title": "Iron Maiden", "artist": "Iron Maiden", "year": 1980 },
     { "title": "Sound Affects", "artist": "The Jam", "year": 1980, "listened": true, "meh": true, "genre": "rock" },
@@ -935,19 +964,20 @@ const items = [
     { "title": "Flash Gordon", "artist": "Queen", "year": 1980 },
     { "title": "Ace of Spades", "artist": "Motörhead", "year": 1980 },
     { "title": "Scary Monsters (and Super Creeps)", "artist": "David Bowie", "year": 1980 },
-    { "title": "Diana", "artist": "Diana Ross", "year": 1980, "listened": true, "genre": "disco" },
+    { "title": "Diana", "artist": "Diana Ross", "year": 1980, "listened": true, "genre": "disco", "comment": 'Motown, "Upside Down", "I\'m Coming Out"', "stars": 1, "fav": true },
     { "title": "Closer", "artist": "Joy Division", "year": 1980 },
     { "title": "Sandinista!", "artist": "The Clash", "year": 1980 },
     { "title": "Unknown Pleasures", "artist": "Joy Division", "year": 1980 },
     { "title": "Dirty Mind", "artist": "Prince", "year": 1980 },
     { "title": "Pretenders", "artist": "The Pretenders", "year": 1980 },
-    { "title": "Making Movies", "artist": "Dire Straits", "year": 1980 },
-    { "title": "Back in Black", "artist": "AC/DC", "year": 1980, "listened": true, "genre": "hard-rock", "stars": 1, "fav": true },
+    { "title": "Making Movies", "artist": "Dire Straits", "year": 1980, "listened": true, "fav": true, "stars": 2, "genre": "rock", "comment": '"Tunnel of Love", "Romeo and Juliet", "Skateaway", "Expresso Love", "Solid Rock"' },
+    { "title": "Back in Black", "artist": "AC/DC", "year": 1980, "listened": true, "genre": "hard-rock", "stars": 1, "fav": true, "comment": '"Hells Bells", "Shoot to Thrill", "Back in Black", "You Shook Me All Night Long"' },
 
-    { "title": "Fire of Unknown Origin", "artist": "Blue Öyster Cult", "year": 1981, "listened": true, "fav": true, "stars": 1, "genre": "rock" },
+    { "title": "Fire of Unknown Origin", "artist": "Blue Öyster Cult", "year": 1981, "listened": true, "fav": true, "stars": 1, "genre": "hard-rock", "comment": '"Burnin\' For You"' },
     { "title": "Business as Usual", "artist": "Men at Work", "year": 1981, "listened": true, "genre": "rock", "stars": 1, "fav": true, "comment": '"Down Under"' },
-    { "title": "Jean-Jacques Goldman (Démodé)", "artist": "Jean-Jacques Goldman", "year": 1981 },
+    { "title": "Jean-Jacques Goldman (Démodé / A l'envers)", "artist": "Jean-Jacques Goldman", "year": 1981, "listened": true, "genre": "rock", "fr": true, "comment": '"Il suffira d\'un signe"', "stars": 1 },
     { "title": "The Dude", "artist": "Quincy Jones", "year": 1981 },
+    { "title": "Fate", "artist": "Chaka Khan", "year": 1981, "listened": true, "genre": "disco", "comment": "Single" },
     { "title": "Mistaken Identity", "artist": "Kim Carnes", "year": 1981, "comment": '"Bette Davis Eyes"' },
     { "title": "Face Value", "artist": "Phil Collins", "year": 1981 },
     { "title": "Ghost in the Machine", "artist": "The Police", "year": 1981, "listened": true, "genre": "rock", "fav": true, "stars": 1, "comment": '"Spirits in the Material World", "Every Little Thing She Does Is Magic", "Invisible Sun"' },
@@ -960,42 +990,43 @@ const items = [
     { "title": "Fire Of Love", "artist": "The Gun Club", "year": 1981 },
     { "title": "Dare", "artist": "The Human League", "year": 1981 },
     { "title": "Talk Talk Talk", "artist": "The Psychedelic Furs", "year": 1981 },
-    { "title": "Wild Gift", "artist": "X", "year": 1981 },
+    { "title": "Wild Gift", "artist": "X", "year": 1981, "listened": true, "genre": "punk", "stars": 1 },
     { "title": "My Life in the Bush of Ghosts", "artist": "Brian Eno, David Byrne", "year": 1981 },
     { "title": "Architecture &amp; Morality", "artist": "Orchestral Manoeuvres in the Dark", "year": 1981 },
-    { "title": "I Love Rock 'n' Roll", "artist": "Joan Jett &amp; the Blackhearts", "year": 1981 },
+    { "title": "I Love Rock 'n' Roll", "artist": "Joan Jett &amp; the Blackhearts", "year": 1981, "listened": true, "genre": "rock", "comment": '"I Love Rock \'n\' Roll", "Victim of Circumstance", "Oh Woe Is Me", "Louie Louie"', "stars": 1 },
     { "title": "Non-Stop Erotic Cabaret", "artist": "Soft Cell", "year": 1981 },
     { "title": "No Sleep 'Til Hammersmith", "artist": "Motörhead", "year": 1981 },
     { "title": "Penthouse and Pavement", "artist": "Heaven 17", "year": 1981, "listened": true, "meh": true, "genre": "rock" },
     { "title": "Juju", "artist": "Siouxsie and the Banshees", "year": 1981, "listened": true, "genre": "rock" },
     { "title": "Kollaps", "artist": "Einstürzende Neubauten", "year": 1981 },
-    { "title": "Killers", "artist": "Iron Maiden", "year": 1981 },
+    { "title": "Killers", "artist": "Iron Maiden", "year": 1981, "listened": true, "genre": "hard-rock", "stars": 2, "fav": true, "comment": 'Paul Di\'Anno on vocals and not Bruce Dickinson, "Wrathchild", "Murders in the Rue Morgue", "Killers", "Prodigal Son"' },
     { "title": "Moving Pictures", "artist": "Rush", "year": 1981 },
     { "title": "Damaged", "artist": "Black Flag", "year": 1981 },
-    { "title": "Beauty and the Beat", "artist": "The Go-Go's", "year": 1981 },
+    { "title": "Beauty and the Beat", "artist": "The Go-Go's", "year": 1981, "listened": true, "genre": "new-wave" },
     { "title": "Never Too Much", "artist": "Luther Vandross", "year": 1981 },
     { "title": "Turn Back", "artist": "Toto", "year": 1981 },
     { "title": "Escape", "artist": "Journey", "year": 1981, "listened": true, "stars": 1, "genre": "rock" },
 
     { "title": "The Nightfly", "artist": "Donald Fagen", "year": 1982, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
-    { "title": "Tug of War", "artist": "Paul McCartney", "year": 1982, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
+    { "title": "Tug of War", "artist": "Paul McCartney", "year": 1982, "listened": true, "fav": true, "stars": 2, "genre": "rock", "comment": '"Tug of War", "Take It Away", "Ballroom Dancing", "Ebony and Ivory"' },
     { "title": "So Excited!", "artist": "The Pointer Sisters", "year": 1982, "perso": true },
-    { "title": "Grasshopper", "artist": "J.J. Cale", "year": 1982, "listened": true, "genre": "rock" },
+    { "title": "Grasshopper", "artist": "J.J. Cale", "year": 1982, "listened": true, "genre": "rock-n-roll" },
     { "title": "Lionel Richie", "artist": "Lionel Richie", "year": 1982 },
-    { "title": "Coda", "artist": "Led Zeppelin", "year": 1982 },
+    { "title": "Coda", "artist": "Led Zeppelin", "year": 1982, "genre": "rock", "listened": true, "genre": "rock", "stars": 2, "fav": true, "comment": 'Compilation of bootleg tracks, "We\'re Gonna Groove", "Poor Tom", "Ozone Baby", "Darlene", "Bonzo\'s Montreux", "Wearing and Tearing"' },
+    { "title": "Tenebre OST", "artist": "Simonetti-Morante-Pignatelli (Goblin)", "year": 1982, "comment": 'Justice "Phantom" sample' },
     { "title": "If That's What It Takes", "artist": "Michael McDonald", "year": 1982 },
-    { "title": "L'aventurier", "artist": "Indochine", "year": 1982 },
+    { "title": "L'aventurier", "artist": "Indochine", "year": 1982, "fr": true, "genre": "rock" },
     { "title": "Talking Back to the Night", "artist": "Steve Winwood", "year": 1982 },
     { "title": "Dure Limite", "artist": "Téléphone", "year": 1982 },
     { "title": "The Great Twenty-Eight", "artist": "Chuck Berry", "year": 1982 },
     { "title": "Straight From the Heart", "artist": "Patrice Rushen", "year": 1982 },
     { "title": "In the Heat of the Night", "artist": "Imagination", "year": 1982 },
-    { "title": "The Number of the Beast", "artist": "Iron Maiden", "year": 1982 },
-    { "title": "Combat Rock", "artist": "The Clash", "year": 1982 },
+    { "title": "The Number of the Beast", "artist": "Iron Maiden", "year": 1982, "genre": "hard-rock" },
+    { "title": "Combat Rock", "artist": "The Clash", "year": 1982, "genre": "punk", "listened": true, "stars": 1, "fav": true, "comment": '"Should I Stay or Should I Go", "Rock the Casbah", "Straight to Hell"' },
     { "title": "1999", "artist": "Prince", "year": 1982 },
     { "title": "Rio", "artist": "Duran Duran", "year": 1982 },
     { "title": "Sulk", "artist": "Associates", "year": 1982 },
-    { "title": "Jean-Jacques Goldman (Minoritaire)", "artist": "Jean-Jacques Goldman", "year": 1981 },
+    { "title": "Jean-Jacques Goldman (Minoritaire)", "artist": "Jean-Jacques Goldman", "year": 1981, "fr": true },
     { "title": "Black Metal", "artist": "Venom", "year": 1982 },
     { "title": "Junkyard", "artist": "The Birthday Party", "year": 1982 },
     { "title": "Rip It Up", "artist": "Orange Juice", "year": 1982 },
@@ -1011,7 +1042,7 @@ const items = [
     { "title": "Dreams in Stone", "artist": "Michel Berger", "year": 1982 },
     { "title": "The Concert in Central Park", "artist": "Simon &amp; Garfunkel", "year": 1982, "listened": true, "stars": 1, "genre": "folk" },
     { "title": "Avalon", "artist": "Roxy Music", "year": 1982 },
-    { "title": "Love over Gold", "artist": "Dire Straits", "year": 1982 },
+    { "title": "Love over Gold", "artist": "Dire Straits", "year": 1982, "listened": true, "genre": "rock", "stars": 2, "fav": true, "comment": '"Telegraph Road", "Private Investigations", "Industrial Disease"' },
     { "title": "Nebraska", "artist": "Bruce Springsteen", "year": 1982 },
     { "title": "Zapp II", "artist": "Zapp", "year": 1982 },
     { "title": "Toto IV", "artist": "Toto", "year": 1982, "listened": true, "fav": true, "stars": 1, "genre": "rock" },
@@ -1019,6 +1050,7 @@ const items = [
 
     { "title": "She's So Unusual", "artist": "Cindy Lauper", "year": 1983 },
     { "title": "Juicy Fruit", "artist": "Mtume", "year": 1983 },
+    { "title": '"Weird Al" Yankovic', "artist": '"Weird Al" Yankovic', "year": 1983, "listened": true, "genre": "rock", "comment": '"Ricky", "I Love Rocky Road", "My Bologna", "Another One Rides the Bus", "I\'ll Be Mellow When I\'m Dead"', "stars": 1 },
     { "title": "An Innocent Man", "artist": "Billy Joel", "year": 1983 },
     { "title": "War", "artist": "U2", "year": 1983 },
     { "title": "The Stompin' at the Savoy", "artist": "Rufus and Chka Khan", "year": 1983 },
@@ -1036,7 +1068,7 @@ const items = [
     { "title": "Duck Rock", "artist": "Malcolm McLaren", "year": 1983, "listened": true, "genre": "world", "stars": 1, "fav": true },
     { "title": "Crises", "artist": "Mike Oldfield", "year": 1983 },
     { "title": "Voyou", "artist": "Michel Berger", "year": 1983 },
-    { "title": "New Gold Dream (81-82-83-84)", "artist": "Simple Minds", "year": 1983 },
+    { "title": "New Gold Dream (81-82-83-84)", "artist": "Simple Minds", "year": 1983, "listened": true, "genre": "new-wave" },
     { "title": "Violent Femmes", "artist": "Violent Femmes", "year": 1983 },
     { "title": "Dance Mania", "artist": "Tito Puente And His Orchestra", "year": 1983 },
     { "title": "Texas Flood", "artist": "Stevie Ray Vaughan", "year": 1983, "listened": true, "genre": "blues", "stars": 1, "fav": true, "comment": '"Pride and Joy", "Mary Had a Little Lamb"' },
@@ -1046,7 +1078,7 @@ const items = [
     { "title": "Kill 'Em All", "artist": "Metallica", "year": 1983, "perso": true, "comment": "Médiathèque Port du Canal" },
     { "title": "Pipes of Peace", "artist": "Paul McCartney", "year": 1983, "listened": true, "genre": "rock", "stars": 1, "comment": '"Say Say Say" w/ Michael Jackson' },
     { "title": "Synchronicity", "artist": "The Police", "year": 1983, "listened": true, "genre": "rock", "fav": true, "stars": 2 },
-    { "title": "Murmur", "artist": "R.E.M.", "year": 1983 },
+    { "title": "Murmur", "artist": "R.E.M.", "year": 1983, "listened": true, "genre": "rock" },
     { "title": "Piece of Mind", "artist": "Iron Maiden", "year": 1983, "listened": true, "genre": "hard-rock", "stars": 1 },
     { "title": "Let's Dance", "artist": "David Bowie", "year": 1983 },
     { "title": "Run-D.M.C.", "artist": "Run-D.M.C.", "year": 1983 },
@@ -1062,16 +1094,18 @@ const items = [
     { "title": "Red Hot Chili Peppers", "artist": "Red Hot Chili Peppers", "year": 1984 },
     { "title": "Un autre monde", "artist": "Téléphone", "year": 1984, "listened": true, "stars": 1, "genre": "rock", "fr": true },
     { "title": "The Works", "artist": "Queen", "year": 1984 },
+    { "title": "Alchemy: Dire Straits Live", "artist": "Dire Straits", "year": 1984, "listened": true, "genre": "rock", "stars": 3, "fav": true, "comment": "Favourite Live Album?" },
     { "title": "Rattlesnakes", "artist": "Lloyd Cole and the Commotions", "year": 1984 },
     { "title": "Ocean Rain", "artist": "Echo &amp; the Bunnymen", "year": 1984 },
+    { "title": '"Weird Al" Yankovic in 3-D', "artist": '"Weird Al" Yankovic', "year": 1984 },
     { "title": "Private Dancer", "artist": "Tina Turner", "year": 1984 },
     { "title": "Treasure", "artist": "Cocteau Twins", "year": 1984 },
-    { "title": "Positif", "artist": "Jean-Jacques Goldman", "year": 1984 },
+    { "title": "Positif", "artist": "Jean-Jacques Goldman", "year": 1984, "fr": true },
     { "title": "Welcome to the Pleasuredome", "artist": "Frankie Goes To Hollywood", "year": 1984 },
     { "title": "Meat Puppets II", "artist": "Meat Puppets", "year": 1984 },
-    { "title": "One Night In Bangkok (from Chess OST)", "artist": "Murray Head", "year": 1984, "listened": true, "genre": "pop", "fav": true, "stars": 1 },
+    { "title": "One Night In Bangkok", "artist": "Murray Head", "year": 1984, "listened": true, "genre": "pop", "fav": true, "stars": 1, "comment": "Single from Chess OST" },
     { "title": "Double Nickels on the Dime", "artist": "Minutemen", "year": 1984 },
-    { "title": "Ride the Lightning", "artist": "Metallica", "year": 1984, "perso": true },
+    { "title": "Ride the Lightning", "artist": "Metallica", "year": 1984, "perso": true, "comment": "MP3 CD player" },
     { "title": "Born in the U.S.A.", "artist": "Bruce Springsteen", "year": 1984 },
     { "title": "Let It Be", "artist": "The Replacements", "year": 1984 },
     { "title": "1984", "artist": "Van Halen", "year": 1984 },
@@ -1079,23 +1113,26 @@ const items = [
     { "title": "Diamond Life", "artist": "Sade", "year": 1984, "listened": true, "genre": "soul", "stars": 1 },
     { "title": "Isolation", "artist": "Toto", "year": 1984, "listened": true, "genre": "hard-rock", "stars": 1 },
     { "title": "How Will the Wolf Survive?", "artist": "Los Lobos", "year": 1984 },
-    { "title": "Legend", "artist": "Bob Marley and the Wailers", "year": 1984 },
+    { "title": "Legend", "artist": "Bob Marley and the Wailers", "year": 1984, "genre": "reggae" },
     { "title": "Works", "artist": "Pat Metheny", "year": 1984, "listened": true, "perso": true, "stars": 1, "genre": "jazz", "comment": "Médiathèque Mansart" },
 
     { "title": "Freaky Styley", "artist": "Red Hot Chili Peppers", "year": 1985, "listened": true, "genre": "funk", "stars": 1, "fav": true },
     { "title": "Hounds of Love", "artist": "Kate Bush", "year": 1985 },
     { "title": "Nightshift", "artist": "Commodores", "year": 1985 },
+    { "title": "Don't You (Forget About Me)", "artist": "Simple Minds", "year": 1985, "comment": 'Single from "The Breakfast Club" OST', "genre": "new-wave", "listened": true },
+    { "title": "Soul to Soul", "artist": "Stevie Ray Vaughan", "year": 1985 },
     { "title": "Picture Book", "artist": "Simply Red", "year": 1985, "listened": true, "genre": "rock" },
-    { "title": "3", "artist": "Indochine", "year": 1985 },
+    { "title": "Dare to Be Stupid", "artist": '"Weird Al" Yankovic', "year": 1985 },
+    { "title": "3", "artist": "Indochine", "year": 1985, "fr": true },
     { "title": "World Machine", "artist": "Level 42", "year": 1985, "listened": true, "genre": "funk", "stars": 1 },
-    { "title": "Concerto pour détraqués", "artist": "Bérurier Noir", "year": 1985 },
+    { "title": "Concerto pour détraqués", "artist": "Bérurier Noir", "year": 1985, "fr": true },
     { "title": "Songs From the Big Chair", "artist": "Tears For Fears", "year": 1985 },
-    { "title": "Non homologué", "artist": "Jean-Jacques Goldman", "year": 1985 },
+    { "title": "Non homologué", "artist": "Jean-Jacques Goldman", "year": 1985, "fr": true },
     { "title": "Stella", "artist": "Yello", "year": 1985 },
-    { "title": "Différences", "artist": "Michel Berger", "year": 1985 },
+    { "title": "Différences", "artist": "Michel Berger", "year": 1985, "fr": true },
     { "title": "Cupid &amp; Psyche 85", "artist": "Scritti Politti", "year": 1985 },
     { "title": "Don't Stand Me Down", "artist": "Dexys Midnight Runners", "year": 1985 },
-    { "title": "Low-life", "artist": "New Order", "year": 1985, "listened": true, "genre": "pop", "stars": 1 },
+    { "title": "Low-life", "artist": "New Order", "year": 1985, "listened": true, "genre": "new-wave", "stars": 1 },
     { "title": "Psycho-candy", "artist": "The Jesus and Mary Chain", "year": 1985, "listened": false },
     { "title": "Meat is Murder", "artist": "The Smiths", "year": 1985 },
     { "title": "Rum Sodomy &amp; the Lash", "artist": "The Pogues", "year": 1985 },
@@ -1104,7 +1141,7 @@ const items = [
     { "title": "Steve McQueen", "artist": "Prefab Sprout", "year": 1985 },
     { "title": "Hunting High and Low", "artist": "a-ha", "year": 1985 },
     { "title": "This Nation's Saving Grace", "artist": "The Fall", "year": 1985 },
-    { "title": "No Jacket Required", "artist": "Phil Collins", "year": 1985 },
+    { "title": "No Jacket Required", "artist": "Phil Collins", "year": 1985, "listened": true, "genre": "pop", "comment": '"Sussudio", "One More Night", "Don\'t Lose My Number", "Take Me Home"', "stars": 1 },
     { "title": "Rhythm of the Night", "artist": "DeBarge", "year": 1985 },
     { "title": "We Care a Lot", "artist": "Faith No More", "year": 1985 },
     { "title": "Flash", "artist": "Jeff Beck", "year": 1985 },
@@ -1115,10 +1152,10 @@ const items = [
     { "title": "Live at the Harlem Square Club, 1963", "artist": "Sam Cooke", "year": 1985 },
     { "title": "Whitney Houston", "artist": "Whitney Houston", "year": 1985 },
     { "title": "The New Zapp IV U", "artist": "Zapp", "year": 1985, "listened": true, "genre": "funk" },
-    { "title": "Brothers in Arms", "artist": "Dire Straits", "year": 1985, "listened": true, "fav": true, "stars": 2, "perso": true, "genre": "rock" },
+    { "title": "Brothers in Arms", "artist": "Dire Straits", "year": 1985, "listened": true, "fav": true, "stars": 2, "perso": true, "genre": "rock", "comment": '"So Far Away", "Money for Nothing", "Walk of Life", "Brothers in Arms"' },
 
-    { "title": "Master Of Puppets", "artist": "Metallica", "year": 1986, "listened": true, "fav": true, "stars": 2, "genre": "hard-rock" },
-    { "title": "Somewhere in Time", "artist": "Iron Maiden", "year": 1986, "listened": true, "fav": true, "perso": true, "stars": 3, "genre": "hard-rock" },
+    { "title": "Master Of Puppets", "artist": "Metallica", "year": 1986, "listened": true, "fav": true, "stars": 2, "genre": "hard-rock", "comment": '"Battery", "Master of Puppets", "Welcome Home (Sanitarium)"' },
+    { "title": "Somewhere in Time", "artist": "Iron Maiden", "year": 1986, "listened": true, "fav": true, "perso": true, "stars": 3, "genre": "hard-rock", "comment": '"Caught Somewhere in Time", "Wasted Years", "Sea of Madness", "The Loneliness of the Long Distance Runner", "Stranger in a Strange Land"' },
     { "title": "So", "artist": "Peter Gabriel", "year": 1986 },
     { "title": "Gang", "artist": "Johny Hallyday", "year": 1986 },
     { "title": "Parade", "artist": "Prince", "year": 1986, "comment": '"Kiss"' },
@@ -1132,6 +1169,7 @@ const items = [
     { "title": "Evol", "artist": "Sonic Youth", "year": 1986 },
     { "title": "Peace Sells... But Who's Buying?", "artist": "Megadeth", "year": 1986 },
     { "title": "The Colour of Spring", "artist": "Talk Talk", "year": 1986 },
+    { "title": "Polka Party!", "artist": '"Weird Al" Yankovic', "year": 1986 },
     { "title": "Talking with the Taxman About Poetry", "artist": "Billy Bragg", "year": 1986 },
     { "title": "Last of the True Believers", "artist": "Nanci Griffith", "year": 1986 },
     { "title": "Infected", "artist": "The The", "year": 1986 },
@@ -1140,44 +1178,45 @@ const items = [
     { "title": "Blood &amp; Chocolate", "artist": "Elvis Costello and the Attractions", "year": 1986 },
     { "title": "Water From An Ancient Well", "artist": "Abdullah Ibrahim", "year": 1986 },
     { "title": "Invisible Touch", "artist": "Genesis", "year": 1986 },
-    { "title": "A Kind of Magic", "artist": "Queen", "year": 1986 },
+    { "title": "A Kind of Magic", "artist": "Queen", "year": 1986, "listened": true, "genre": "rock", "stars": 2, "fav": true, "comment": '"One Vision", "A Kind of Magic", "Pain Is So Close to Pleasure", "Friends Will Be Friends", "Who Wants to Live Forever"' },
     { "title": "Slippery When Wet", "artist": "Bon Jovi", "year": 1986 },
     { "title": "Fahrenheit", "artist": "Toto", "year": 1986 },
     { "title": "Rapture", "artist": "Anita Baker", "year": 1986 },
-    { "title": "Raising Hell", "artist": "Run-D.M.C.", "year": 1986, "listened": true, "stars": 1, "genre": "rap" },
+    { "title": "Raising Hell", "artist": "Run-D.M.C.", "year": 1986, "listened": true, "stars": 1, "genre": "rap", "comment": '"Walk This Way"' },
     { "title": "Control", "artist": "Janet Jackson", "year": 1986 },
     { "title": "The Queen Is Dead", "artist": "The Smiths", "year": 1986 },
     { "title": "Graceland", "artist": "Paul Simon", "year": 1986 },
     { "title": "Licensed to Ill", "artist": "Beastie Boys", "year": 1986 },
     { "title": "Paid in Full", "artist": "Eric B. and Rakim", "year": 1986 },
 
-    { "title": "Whenever You Need Somebody", "artist": "Rick Astley", "year": 1987 },
-    { "title": "Plâtre et ciment", "artist": "Jean-Louis Aubert", "year": 1987 },
+    { "title": "Whenever You Need Somebody", "artist": "Rick Astley", "year": 1987, "comment": "Meme" },
+    { "title": "Plâtre et ciment", "artist": "Jean-Louis Aubert", "year": 1987, "fr": true },
     { "title": "A Momentary Lapse of Reason", "artist": "Pink Floyd", "year": 1987, "perso": true },
     { "title": "Chic Planète", "artist": "L'affaire Louis' Trio", "year": 1987, "perso": true, "listened": true, "genre": "pop", "stars": 1, "fr": true },
     { "title": "The New Tango", "artist": "Astor Piazzolla and Gary Burton", "year": 1987 },
-    { "title": "Tango in the Night", "artist": "Fleetwood Mac", "year": 1987 },
-    { "title": "Kick", "artist": "INXS", "year": 1987, "listened": true, "stars": 1, "genre": "pop" },
+    { "title": "Tango in the Night", "artist": "Fleetwood Mac", "year": 1987, "comment": 'Todd Howard "Little Lies"', "listened": true, "genre": "rock" },
+    { "title": "Kick", "artist": "INXS", "year": 1987, "listened": true, "stars": 1, "genre": "pop", "comment": '"Need You Tonight"' },
     { "title": "Sign O' the Times", "artist": "Prince", "year": 1987 },
     { "title": "Hysteria", "artist": "Def Leppard", "year": 1987 },
     { "title": "Diesel and Dust", "artist": "Midnight Oil", "year": 1987 },
     { "title": "Calenture", "artist": "The Triffids", "year": 1987 },
-    { "title": "Entre gris clair et gris foncé", "artist": "Jean-Jacques Goldman", "year": 1987 },
+    { "title": "Entre gris clair et gris foncé", "artist": "Jean-Jacques Goldman", "year": 1987, "fr": true },
     { "title": "Running in the Family", "artist": "Level 42", "year": 1987 },
     { "title": "Sister", "artist": "Sonic Youth", "year": 1987 },
     { "title": "Scum", "artist": "Napalm Death", "year": 1987 },
     { "title": "Opus Dei", "artist": "Laibach", "year": 1987 },
-    { "title": "Où veux-tu qu'je r'garde ?", "artist": "Noir Désir", "year": 1987 },
+    { "title": "Où veux-tu qu'je r'garde ?", "artist": "Noir Désir", "year": 1987, "fr": true },
     { "title": "Shaka Zulu", "artist": "Ladysmith Black Mambazo", "year": 1987 },
     { "title": "Darklands", "artist": "The Jesus and Mary Chain", "year": 1987 },
     { "title": "Strangeways, Here We Come", "artist": "The Smiths", "year": 1987 },
+    { "title": "Babacar", "artist": "France Gall", "year": 1987, "fr": true },
     { "title": "Locust Abortion Technician", "artist": "Butthole Surfers", "year": 1987 },
     { "title": "Warehouse: Songs and Stories", "artist": "Hüsker Dü", "year": 1987 },
     { "title": "Floodland", "artist": "The Sisters of Mercy", "year": 1987 },
     { "title": "Music for the Masses", "artist": "Depeche Mode", "year": 1987 },
-    { "title": "Electric", "artist": "The Cult", "year": 1987 },
+    { "title": "Electric", "artist": "The Cult", "year": 1987, "listened": true, "genre": "hard-rock", "stars": 1 },
     { "title": "Document", "artist": "R.E.M.", "year": 1987 },
-    { "title": "Trio", "artist": "Dolly Parton, Linda Ronstadt &amp; Emmy Lou Harris", "year": 1987 },
+    { "title": "Trio", "artist": "Dolly Parton, Linda Ronstadt &amp; Emmy Lou Harris", "year": 1987, "listened": true, "genre": "country", "comment": '"To Know Him is to Love Him"', "stars": 1 },
     { "title": "Café Bleu", "artist": "The Style Council", "year": 1987 },
     { "title": "...Nothing Like the Sun", "artist": "Sting", "year": 1987 },
     { "title": "Introduce Yourself", "artist": "Faith No More", "year": 1987 },
@@ -1191,14 +1230,17 @@ const items = [
     { "title": "Appetite for Destruction", "artist": "Guns N' Roses", "year": 1987, "listened": true, "genre": "hard-rock", "stars": 1, "fav": true },
 
     { "title": "It Takes A Nation Of Millions To Hold Us Back", "artist": "Public Enemy", "year": 1988 },
-    { "title": "Tracy Chapman", "artist": "Tracy Chapman", "year": 1988, "listened": true, "genre": "folk", "stars": 1 },
-    { "title": "Nobody's Perfect", "artist": "Deep Purple", "year": 1988, "perso": true, "listened": true, "genre": "hard-rock", "fav": true, "stars": 2 },
+    { "title": "Tracy Chapman", "artist": "Tracy Chapman", "year": 1988, "listened": true, "genre": "folk", "stars": 1, "comment": '"Talkin\' \'bout a Revolution"' },
+    { "title": "Nobody's Perfect", "artist": "Deep Purple", "year": 1988, "perso": true, "listened": true, "genre": "hard-rock", "fav": true, "stars": 2, "comment": 'Live, "Strange Kind of Woman", "Perfect Strangers"' },
     { "title": "Mùsica de America", "artist": "Mariachi Vargas De Tecalitiàn", "year": 1988 },
-    { "title": "Sunshine on Leith", "artist": "The Proclaimers", "year": 1988 },
+    { "title": "Heart Break", "artist": "New Edition", "year": 1988 },
+    { "title": "Sunshine on Leith", "artist": "The Proclaimers", "year": 1988, "listened": true, "genre": "rock", "comment": '"I\'m Gonna Be (500 Miles)", Scottish songs', "stars": 1 },
     { "title": "The Traveling Wilburys Vol. 1", "artist": "The Traveling Wilburys", "year": 1988 },
     { "title": "Ainsi sois je", "artist": "Mylène Farmer", "year": 1988, "listened": true, "genre": "pop", "stars": 1, "fr": true },
     { "title": "Lucinda Williams", "artist": "Lucinda Williams", "year": 1988 },
     { "title": "Surfer Rosa", "artist": "Pixies", "year": 1988 },
+    { "title": "Mlah", "artist": "Les Négresses Vertes", "year": 1988, "fr": true, "genre": "chanson", "listened": true, "comment": '"Zobi la mouche", "Voilà l\'été", Helno = Joe Strummer?' },
+    { "title": "Even Worse", "artist": '"Weird Al" Yankovic', "year": 1988 },
     { "title": "Nothing's Shocking", "artist": "Jane's Addiction", "year": 1988 },
     { "title": "Buenas Noches From a Lonely Room", "artist": "Dwight Yoakam", "year": 1988, "listened": true, "genre": "country" },
     { "title": "Life's Too Good", "artist": "The Sugarcubes", "year": 1988 },
@@ -1222,9 +1264,9 @@ const items = [
     { "title": "The Seventh One", "artist": "Toto", "year": 1988 },
     { "title": "Daydream Nation", "artist": "Sonic Youth", "year": 1988 },
     { "title": "Straight Outta Compton", "artist": "N.W.A.", "year": 1988 },
-    { "title": "...And Justice for All", "artist": "Metallica", "year": 1988 },
+    { "title": "...And Justice for All", "artist": "Metallica", "year": 1988, "listened": true, "genre": "metal", "comment": '"...And Justice for All", "Blackened", "One", "Harvester of Sorrow"', "stars": 2, "fav": true },
 
-    { "title": "Bleu Blanc Vert", "artist": "Jean-Louis Aubert", "year": 1989 },
+    { "title": "Bleu Blanc Vert", "artist": "Jean-Louis Aubert", "year": 1989, "fr": true },
     { "title": "Bleach", "artist": "Nirvana", "year": 1989 },
     { "title": "Sarbacane", "artist": "Francis Cabrel", "year": 1989 },
     { "title": "Mother's Milk", "artist": "Red Hot Chili Peppers", "year": 1989 },
@@ -1241,7 +1283,7 @@ const items = [
     { "title": "The Offspring", "artist": "The Offspring", "year": 1989 },
     { "title": "Full Moon Fever", "artist": "Tom Petty", "year": 1989 },
     { "title": "Rhythm Nation 1814", "artist": "Janet Jackson", "year": 1989 },
-    { "title": "Veuillez rendre l'âme (à qui elle appartient)", "artist": "Noir Désir", "year": 1989 },
+    { "title": "Veuillez rendre l'âme (à qui elle appartient)", "artist": "Noir Désir", "year": 1989, "fr": true },
     { "title": "3 Feet High and Rising", "artist": "De La Soul", "year": 1989 },
     { "title": "Disintegration", "artist": "The Cure", "year": 1989, "listened": true, "stars": 1, "genre": "rock" },
     { "title": "Doolittle", "artist": "Pixies", "year": 1989 },
@@ -1259,16 +1301,16 @@ const items = [
     { "title": "Technique", "artist": "Neworder", "year": 1989 },
     { "title": "The Healer", "artist": "John Lee Hooker", "year": 1989 },
     { "title": "Let Love Rule", "artist": "Lenny Kravitz", "year": 1989 },
-    { "title": "Club Classics Vol. One", "artist": "Soul II Soul", "year": 1989 },
+    { "title": "Club Classics Vol. One", "artist": "Soul II Soul", "year": 1989, "listened": true, "genre": "r-n-b", "comment": '"Back to Life (However Do You Want Me)"' },
 
     { "title": "Violator", "artist": "Depeche Mode", "year": 1990, "listened": true, "stars": 1, "genre": "pop" },
     { "title": "Repeater", "artist": "Fugazi", "year": 1990, "listened": false, "genre": "punk" },
-    { "title": "Fredericks Goldman Jones", "artist": "Jean-Jacques Goldman", "year": 1990 },
+    { "title": "Fredericks Goldman Jones", "artist": "Jean-Jacques Goldman", "year": 1990, "fr": true },
     { "title": "The Brand New Heavies", "artist": "The Brand New Heavies", "year": 1990 },
     { "title": "Pod", "artist": "The Breeders", "year": 1990 },
     { "title": "Pocket Full of Kryptonite", "artist": "Spin Doctors", "year": 1990 },
     { "title": "Passion and Warfare", "artist": "Steve Vai", "year": 1990, "perso": true },
-    { "title": "Nowhere", "artist": "Ride", "year": 1990 },
+    { "title": "Nowhere", "artist": "Ride", "year": 1990, "listened": true, "genre": "rock", "comment": "Indie rock / shoegaze" },
     { "title": "People's Instinctive Travels and the Paths of Rythm", "artist": "A Tribe Called Quest", "year": 1990 },
     { "title": "Fear of a Black Planet", "artist": "Public Enemy", "year": 1990 },
     { "title": "Ragged Glory", "artist": "Neil Young &amp; Crazy Horse", "year": 1990 },
@@ -1283,7 +1325,7 @@ const items = [
     { "title": "The La's", "artist": "The La's", "year": 1990 },
     { "title": "World Clique", "artist": "Deee-Lite", "year": 1990 },
     { "title": "En-Tact", "artist": "The Shamen", "year": 1990, "listened": true, "genre": "electro" },
-    { "title": "Ritual De Lo Habitual", "artist": "Jane's Addiction", "year": 1990 },
+    { "title": "Ritual De Lo Habitual", "artist": "Jane's Addiction", "year": 1990, "listened": true, "genre": "rock", "meh": true },
     { "title": "Please Hammer Don't Hurt 'Em", "artist": "MC Hammer", "year": 1990 },
     { "title": "No Fences", "artist": "Garth Brooks", "year": 1990 },
     { "title": "Sentinelles", "artist": "Axel Bauer", "year": 1990 },
@@ -1299,11 +1341,11 @@ const items = [
     { "title": "Innuendo", "artist": "Queen", "year": 1991, "perso": true },
     { "title": "The Low End Theory", "artist": "A Tribe Called Quest", "year": 1991 },
     { "title": "Dee Nasty", "artist": "Dee Nasty", "year": 1991 },
+    { "title": "Dangerous", "artist": "Michael Jackson", "year": 1991 },
     { "title": "Mama Said", "artist": "Lenny Kravitz", "year": 1991 },
     { "title": "Unforgettable... with Love", "artist": "Natalie Cole", "year": 1991 },
     { "title": "Famille nombreuse", "artist": "Les Négresses vertes", "year": 1991 },
     { "title": "Fourplay", "artist": "Fourplay", "year": 1991 },
-    { "title": "The Birth of Soul", "artist": "Ray Charles", "year": 1991 },
     { "title": "The Soul Cages", "artist": "Sting", "year": 1991 },
     { "title": "We Can't Dance", "artist": "Genesis", "year": 1991 },
     { "title": "Back to Mono (1958-1969)", "artist": "Phil Spector and Various Artists", "year": 1991 },
@@ -1335,28 +1377,31 @@ const items = [
     { "title": "Bandwagonesque", "artist": "Teenage Fanclub", "year": 1991 },
     { "title": "The White Room", "artist": "The KLF", "year": 1991 },
     { "title": "Apocalypse 91... The Enemy Strikes Black", "artist": "Public Enemy", "year": 1991 },
-    { "title": "Every Good Boy Deserves Fudge", "artist": "Mudhoney", "year": 1991 },
+    { "title": "Every Good Boy Deserves Fudge", "artist": "Mudhoney", "year": 1991, "listened": true, "genre": "grunge" },
     { "title": "Rising Above Bedlam", "artist": "Jah Wobble's Invaders of the Heart", "year": 1991 },
     { "title": "Peggy Suicide", "artist": "Julian Cope", "year": 1991 },
     { "title": "O.G. Original Gangster", "artist": "Ice-T", "year": 1991 },
     { "title": "Qui sème le vent récolte le tempo", "artist": "MC Solaar", "year": 1991, "listened": true, "genre": "rap", "fr": true, "stars": 1, "fav": true },
 
-    { "title": "Tostaky", "artist": "Noir Désir", "year": 1992 },
+    { "title": "Tostaky", "artist": "Noir Désir", "year": 1992, "fr": true },
+    { "title": "Happy Nation", "artist": "Ace of Base", "year": 1992 },
+    { "title": "The Bodyguard", "artist": "Whitney Houston", "year": 1992 },
     { "title": "Life On Planet Groove", "artist": "Maceo Parker", "year": 1992 },
     { "title": "What Hits!?", "artist": "Red Hot Chili Peppers", "year": 1992, "perso": true },
     { "title": "Ignition", "artist": "The Offspring", "year": 1992, "perso": true },
-    { "title": "Rage Against the Machine", "artist": "Rage Against the Machine", "year": 1992 },
-    { "title": "Unplugged", "artist": "Eric Clapton", "year": 1992, "listened": true, "fav": true, "stars": 3, "genre": "rock" },
+    { "title": "Rage Against the Machine", "artist": "Rage Against the Machine", "year": 1992, "listened": true, "genre": "metal", "comment": '"Bombtrack", "Killing in the Name", "Take the Power Back", "Know Your Enemy", "Wake Up", "Freedom"', "stars": 2, "fav": true },
+    { "title": "Unplugged", "artist": "Eric Clapton", "year": 1992, "listened": true, "fav": true, "stars": 3, "genre": "rock", "comment": 'Live, "Before You Accuse Me", "Tears in Heaven", "Nobody Knows You When You\'re Down and Out", "Layla", "Rollin\' and Tumblin\'"' },
     { "title": "Live at Donington", "artist": "AC/DC", "year": 1992, "listened": true, "perso": true, "stars": 1, "genre": "hard-rock" },
     { "title": "The Chronic", "artist": "Dr. Dre", "year": 1992 },
     { "title": "Ingénue", "artist": "k.d. lang", "year": 1992 },
     { "title": "Double Jeu", "artist": "Michel Berger, France Gall", "year": 1992, "listened": true, "genre": "pop", "fr": true, "stars": 1 },
     { "title": "Tomb of the Mutilated", "artist": "Cannibal Corpse", "year": 1992 },
     { "title": "Hypocrisy Is The Greatest Luxury", "artist": "The Disposable Heroes of Hiphoprisy", "year": 1992 },
-    { "title": "No Doubt", "artist": "No Doubt", "year": 1992 },
+    { "title": "No Doubt", "artist": "No Doubt", "year": 1992, "listened": true, "genre": "pop", "comment": "Ska" },
     { "title": "Angel Dust", "artist": "Faith No More", "year": 1992 },
     { "title": "Fear of the Dark", "artist": "Iron Maiden", "year": 1992 },
     { "title": "Kingdom of Desire", "artist": "Toto", "year": 1992 },
+    { "title": "Off the Deep End", "artist": '"Weird Al" Yankovic', "year": 1992 },
     { "title": "Haut de Gamme - Koweit, Rive Gauche", "artist": "Koffi Olomide", "year": 1992 },
     { "title": "Bizarre Ride II the Pharcyde", "artist": "The Pharcyde", "year": 1992 },
     { "title": "Check Your Head", "artist": "Beastie Boys", "year": 1992 },
@@ -1374,11 +1419,11 @@ const items = [
     { "title": "Bone Machine", "artist": "Tom Waits", "year": 1992, "listened": true, "genre": "rock" },
     { "title": "Dirty", "artist": "Sonic Youth", "year": 1992 },
     { "title": "Connected", "artist": "Stereo MC's", "year": 1992 },
-    { "title": "KEFALHSO", "artist": "Ministry", "year": 1992 },
+    { "title": "ΚΕΦΑΛΗΞΘ (Psalm 69: the Way to Succeed and the Way to Suck Eggs)", "artist": "Ministry", "year": 1992, "listened": true, "genre": "metal", "comment": 'Industrial metal, "Just One Fix" == Du Hast?' },
     { "title": "Lazer Guided Melodies", "artist": "Spiritualized", "year": 1992 },
     { "title": "3 Years, 5 Months and 2 Days in the Life Of", "artist": "Arrested Development", "year": 1992 },
     { "title": "Selected Ambient Works 85-92", "artist": "Aphex Twin", "year": 1992 },
-    { "title": "In the Hell of Patchinko", "artist": "Mano Negra", "year": 1992, "listened": true, "perso": true, "fav": true, "stars": 1, "genre": "rock", "fr": true },
+    { "title": "In the Hell of Patchinko", "artist": "Mano Negra", "year": 1992, "listened": true, "perso": true, "fav": true, "stars": 1, "genre": "rock", "fr": true, "comment": "Live" },
     { "title": "Automatic for the People", "artist": "R.E.M.", "year": 1992 },
     { "title": "Reservoir Dogs OST", "artist": "Various Artists", "year": 1992 },
     { "title": "Tribes Vibes and Scribes", "artist": "Incognito", "year": 1992, "listened": true, "genre": "funk" },
@@ -1402,7 +1447,8 @@ const items = [
     { "title": "Wild Wood", "artist": "Paul Weller", "year": 1993 },
     { "title": "New Wave", "artist": "The Auteurs", "year": 1993 },
     { "title": "Fuzzy", "artist": "Grant Lee Buffalo", "year": 1993, "listened": false, "genre": "rock" },
-    { "title": "Rouge", "artist": "Jean-Jacques Goldman", "year": 1993 },
+    { "title": "Rouge", "artist": "Jean-Jacques Goldman", "year": 1993, "fr": true },
+    { "title": "Alapalooza", "artist": '"Weird Al" Yankovic', "year": 1993 },
     { "title": "Whatever", "artist": "Aimee Mann", "year": 1993, "listened": true, "genre": "rock", "stars": 1 },
     { "title": "Debut", "artist": "Björk", "year": 1993, "perso": true, "listened": true, "stars": 1, "genre": "pop" },
     { "title": "The Infotainment Scan", "artist": "The Fall", "year": 1993 },
@@ -1412,19 +1458,19 @@ const items = [
     { "title": "Gentlemen", "artist": "The Afghan Whigs", "year": 1993 },
     { "title": "It's a Shame About Ray", "artist": "Lemonheads", "year": 1993 },
     { "title": "Enter the Wu-Tang (36 Chambers)", "artist": "Wu-Tang Clan", "year": 1993, "listened": true, "genre": "rap", "stars": 1 },
-    { "title": "C'est déjà ça", "artist": "Alain Souchon", "year": 1993 },
+    { "title": "C'est déjà ça", "artist": "Alain Souchon", "year": 1993, "fr": true, "listened": true, "genre": "chanson", "comment": '"Foule sentimentale", "L\'amour à la machine", "Sous les jupes des filles", "C\'est déjà ça"', "stars": 1, "fav": true },
     { "title": "All Killer No Filler!", "artist": "Jerry Lee Lewis", "year": 1993 },
     { "title": "Siamese Dream", "artist": "The Smashing Pumpkins", "year": 1993 },
     { "title": "Rid of Me", "artist": "PJ Harvey", "year": 1993 },
     { "title": "Doggystyle", "artist": "Snoop Doggy Dogg", "year": 1993 },
-    { "title": "In Utero", "artist": "Nirvana", "year": 1993, "listened": true, "genre": "grunge", "stars": 1 },
+    { "title": "In Utero", "artist": "Nirvana", "year": 1993, "listened": true, "genre": "grunge", "stars": 1, "comment": '"Heart-Shaped Box", "Dumb", "Pennyroyal Tea", "All Apologies"' },
     { "title": "Midnight Marauders", "artist": "A Tribe Called Quest", "year": 1993, "listened": true, "stars": 1, "genre": "rap" },
     { "title": "Slanted and Enchanted", "artist": "Pavement", "year": 1993 },
     { "title": "Exile in Guyville", "artist": "Liz Phair", "year": 1993, "listened": true, "genre": "rock" },
     { "title": "Last Splash", "artist": "The Breeders", "year": 1993 },
 
     { "title": "The Return of the Space Cowboy", "artist": "Jamiroquai", "year": 1994 },
-    { "title": "Stoner Witch", "artist": "The Melvins", "year": 1994 },
+    { "title": "Stoner Witch", "artist": "The Melvins", "year": 1994, "listened": true, "perso": true, "genre": "grunge", "stars": 1, "comment": '"Revolve", "June Bug"', "fav": true },
     { "title": "Move It!", "artist": "Reel 2 Real", "year": 1994 },
     { "title": "Philadelphia OST", "artist": "Various Artists", "year": 1994 },
     { "title": "Gorgeous George", "artist": "Edwyn Collins", "year": 1994 },
@@ -1441,7 +1487,7 @@ const items = [
     { "title": "Superunknown", "artist": "Soundgarden", "year": 1994 },
     { "title": "The Sun Rises In The East", "artist": "Jeru the Damaja", "year": 1994 },
     { "title": "From the Cradle", "artist": "Eric Clapton", "year": 1994, "listened": true, "genre": "blues" },
-    { "title": "Emmerdale", "artist": "The Cardigans", "year": 1994, "listened": true, "stars": 1, "genre": "rock" },
+    { "title": "Emmerdale", "artist": "The Cardigans", "year": 1994, "listened": true, "stars": 1, "genre": "rock", "comment": '"Sick &amp; Tired"' },
     { "title": "Parklife", "artist": "Blur", "year": 1994, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
     { "title": "Amor Prohibido", "artist": "Selena", "year": 1994 },
     { "title": "Crooked Rain, Crooked Rain", "artist": "Pavement", "year": 1994 },
@@ -1452,11 +1498,11 @@ const items = [
     { "title": "The Holy Bible", "artist": "Manic Street Preachers", "year": 1994 },
     { "title": "Protection", "artist": "Massive Attack", "year": 1994 },
     { "title": "Talking Timbuktu", "artist": "Ali Farka Toure with Ry Cooder", "year": 1994 },
-    { "title": "G. Love and Special Sauce", "artist": "G. Love and Special Sauce", "year": 1994 },
+    { "title": "G. Love and Special Sauce", "artist": "G. Love and Special Sauce", "year": 1994, "listened": true, "genre": "rap", "comment": "Jazz/funk/blues/rap" },
     { "title": "Yank Crime", "artist": "Drive Like Jehu", "year": 1994, "listened": false },
     { "title": "Vauxhall and I", "artist": "Morrissey", "year": 1994 },
-    { "title": "Dies irae", "artist": "Noir Désir", "year": 1994 },
-    { "title": "Brutal Youth", "artist": "Elvis Costello", "year": 1994 },
+    { "title": "Dies irae", "artist": "Noir Désir", "year": 1994, "fr": true },
+    { "title": "Brutal Youth", "artist": "Elvis Costello", "year": 1994, "listened": true, "genre": "rock", "meh": true },
     { "title": "Ill Communication", "artist": "Beastie Boys", "year": 1994 },
     { "title": "Wildflowers", "artist": "Tom Petty", "year": 1994, "listened": true, "genre": "rock" },
     { "title": "Prose Combat", "artist": "MC Solaar", "year": 1994 },
@@ -1471,8 +1517,10 @@ const items = [
     { "title": "Music For the Jilted Generation", "artist": "The Prodigy", "year": 1994 },
     { "title": "Grace", "artist": "Jeff Buckley", "year": 1994, "listened": true, "stars": 1, "genre": "rock", "fav": true },
 
-    { "title": "Life", "artist": "The Cardigans", "year": 1995 },
+    { "title": "Life", "artist": "The Cardigans", "year": 1995, "listened": true, "genre": "pop", "comment": '"Carnival"', "meh": true },
+    { "title": "Tragic Kingdom", "artist": "No Doubt", "year": 1995, "comment": '"Just a Girl", "Don\'t Speak"' },
     { "title": "Scatman's World", "artist": "Scatman John", "year": 1995 },
+    { "title": "Toy Story OST", "artist": "Randy Newman", "year": 1995 },
     { "title": "Boulevard", "artist": "St Germain", "year": 1995, "listened": false, "genre": "electro", "fr": true },
     { "title": "Shin Kidousenki Gundam Wing: Operation 1 OST", "artist": "Kow Otani, Two-Mix, Rumi Ooishi", "year": 1995, "perso": true },
     { "title": "Gangsta's Paradise", "artist": "Coolio", "year": 1995 },
@@ -1492,9 +1540,9 @@ const items = [
     { "title": "Garbage", "artist": "Garbage", "year": 1995 },
     { "title": "Timeless", "artist": "Goldie", "year": 1995, "listened": true, "genre": "electro", "comment": "Drum &amp; bass", "stars": 1 },
     { "title": "Leftism", "artist": "Leftfield", "year": 1995 },
-    { "title": "A Northern Soul", "artist": "The Verve", "year": 1995 },
+    { "title": "A Northern Soul", "artist": "The Verve", "year": 1995, "listened": true, "genre": "rock", "meh": true },
     { "title": "Femi Kuti", "artist": "Femi Kuti", "year": 1995 },
-    { "title": "Alien Lanes", "artist": "Guided By Voices", "year": 1995 },
+    { "title": "Alien Lanes", "artist": "Guided By Voices", "year": 1995, "listened": true, "genre": "rock", "comment": "Lo-Fi", "meh": true },
     { "title": "Elastica", "artist": "Elastica", "year": 1995 },
     { "title": "I Should Coco", "artist": "Supergrass", "year": 1995 },
     { "title": "Me Against the World", "artist": "2Pac", "year": 1995 },
@@ -1509,13 +1557,14 @@ const items = [
     { "title": "Brown Sugar", "artist": "D'Angelo", "year": 1995 },
     { "title": "Herzeleid", "artist": "Rammstein", "year": 1995 },
     { "title": "Made In Heaven", "artist": "Queen", "year": 1995 },
-    { "title": "California Love", "artist": "2Pac, Dr. Dre, Roger Troutman", "year": 1995, "listened": true, "genre": "rap", "stars": 1, "fav": true },
+    { "title": "California Love", "artist": "2Pac, Dr. Dre, Roger Troutman", "year": 1995, "listened": true, "genre": "rap", "stars": 1, "fav": true, "comment": "Single" },
     { "title": "Jagged Little Pill", "artist": "Alanis Morissette", "year": 1995 },
-    { "title": "Mellon Collie and the Infinite Sadness", "artist": "The Smashing Pumpkins", "year": 1995, "listened": true, "stars": 1, "genre": "rock" },
+    { "title": "Mellon Collie and the Infinite Sadness", "artist": "The Smashing Pumpkins", "year": 1995, "listened": true, "stars": 1, "genre": "rock", "comment": 'Double album, "Bullet with Butterfly Wings"' },
 
     { "title": "Travelling Without Moving", "artist": "Jamiroquai", "year": 1996 },
     { "title": "Stag", "artist": "The Melvins", "year": 1996, "perso": true },
     { "title": "Endtroducing...", "artist": "DJ Shadow", "year": 1996 },
+    { "title": "Spice", "artist": "Spice Girls", "year": 1996 },
     { "title": "Bad Hair Day", "artist": '"Weird Al" Yankovic', "year": 1996 },
     { "title": "Down Every Road 1962-1994", "artist": "Merle Haggard", "year": 1996 },
     { "title": "Leave the Story Untold", "artist": "Soulwax", "year": 1996 },
@@ -1547,10 +1596,10 @@ const items = [
     { "title": "Better Living Through Chemistry", "artist": "Fatboy Slim", "year": 1996 },
     { "title": "Fuzzy Logic", "artist": "Super Furry Animals", "year": 1996 },
     { "title": "Dust", "artist": "Screaming Trees", "year": 1996 },
-    { "title": "First Band on the Moon", "artist": "The Cardigans", "year": 1996 },
-    { "title": "Sheryl Crow", "artist": "Sheryl Crow", "year": 1996, "listened": true, "genre": "rock", "stars": 1 },
+    { "title": "First Band on the Moon", "artist": "The Cardigans", "year": 1996, "comment": '"Lovefool"' },
+    { "title": "Sheryl Crow", "artist": "Sheryl Crow", "year": 1996, "listened": true, "genre": "rock", "stars": 1, "comment": '"If It Makes You Happy", "Everyday is a Winding Road"' },
     { "title": "If You're Feeling Sinister", "artist": "Belle and Sebastian", "year": 1996 },
-    { "title": "666.667 Club", "artist": "Noir Désir", "year": 1996 },
+    { "title": "666.667 Club", "artist": "Noir Désir", "year": 1996, "fr": true },
     { "title": "The Score", "artist": "Fugees", "year": 1996 },
     { "title": "Evil Empire", "artist": "Rage Against the Machine", "year": 1996 },
     { "title": "Load", "artist": "Metallica", "year": 1996 },
@@ -1558,6 +1607,8 @@ const items = [
     { "title": "Reasonable Doubt", "artist": "Jay-Z", "year": 1996 },
 
     { "title": "Either/Or", "artist": "Elliott Smith", "year": 1997 },
+    { "title": "Era", "artist": "Era", "year": 1997, "fr": true },
+    { "title": "Come Into My Life", "artist": "Gala", "year": 1997, "comment": '"Freed From Desire" (na na na na na naaa na, na naa na, na naaa)' },
     { "title": "Le Baptême", "artist": "-M-", "year": 1997, "fr": true, "listened": true, "genre": "pop", "stars": 1 },
     { "title": "The Mollusk", "artist": "Ween", "year": 1997 },
     { "title": "Aquarium", "artist": "Aqua", "year": 1997 },
@@ -1565,7 +1616,7 @@ const items = [
     { "title": "Vento De Maio", "artist": "Elis Regina", "year": 1997 },
     { "title": "Blur", "artist": "Blur", "year": 1997 },
     { "title": "Left of the Middle", "artist": "Natalie Imbruglia", "year": 1997 },
-    { "title": "En passant", "artist": "Jean-Jacques Goldman", "year": 1997 },
+    { "title": "En passant", "artist": "Jean-Jacques Goldman", "year": 1997, "fr": true },
     { "title": "The Dandy Warhols Come Down", "artist": "The Dandy Warhols", "year": 1997 },
     { "title": "Ladies and Gentlemen We Are Floating In Space", "artist": "Spiritualized", "year": 1997 },
     { "title": "Urban Hymns", "artist": "The Verve", "year": 1997 },
@@ -1587,14 +1638,14 @@ const items = [
     { "title": "The Curse of Monkey Island OST", "artist": "Michael Land", "year": 1997 },
     { "title": "Let's Talk About Love", "artist": "Céline Dion", "year": 1997 },
     { "title": "One Day At A Time", "artist": "Symposium", "year": 1997, "perso": true },
-    { "title": "Louise Attaque", "artist": "Louise Attaque", "year": 1997 },
+    { "title": "Louise Attaque", "artist": "Louise Attaque", "year": 1997, "fr": true, "listened": true, "genre": "chanson", "comment": 'Michel et Evelyne, "J\'t\'emmène au vent", "Ton invitation", "Les nuits parisiennes", "Léa"', "stars": 1, "perso": true },
     { "title": "Sehnsucht", "artist": "Rammstein", "year": 1997 },
-    { "title": "Homework", "artist": "Daft Punk", "year": 1997 },
+    { "title": "Homework", "artist": "Daft Punk", "year": 1997, "fr": true },
     { "title": "Dig Your Own Hole", "artist": "The Chemical Brothers", "year": 1997 },
     { "title": "Shadow of the Moon", "artist": "Blackmore's Night", "year": 1997, "listened": true, "genre": "rock", "stars": 1, "fav": true },
     { "title": "Tellin' Stories", "artist": "The Charlatans", "year": 1997 },
     { "title": "It's My Life", "artist": "Sash!", "year": 1997 },
-    { "title": "L'école du micro d'argent", "artist": "IAM", "year": 1997 },
+    { "title": "L'école du micro d'argent", "artist": "IAM", "year": 1997, "fr": true, "genre": "rap" },
     { "title": "Earthling", "artist": "David Bowie", "year": 1997 },
     { "title": "The Velvet Rope", "artist": "Janet Jackson", "year": 1997 },
     { "title": "I Can Hear the Heart Beating As One", "artist": "Yo La Tengo", "year": 1997 },
@@ -1615,10 +1666,12 @@ const items = [
 
     { "title": "Symphony of Enchanted Lands", "artist": "Rhapsody", "year": 1998, "fav": true, "perso": true, "listened": true, "stars": 1, "genre": "metal" },
     { "title": "System Of A Down", "artist": "System Of A Down", "year": 1998 },
+    { "title": "Panique celtique", "artist": "Manau", "year": 1998, "perso": true, "fr": true, "genre": "rap", "comment": 'Rap celtique, "La Tribu de Dana", "Mais qui est la belette ?"' },
+    { "title": "Flying Dog", "artist": "Paul Gilbert", "year": 1998, "listened": true, "genre": "pop", "comment": 'Power pop, "Down to Mexico"' },
     { "title": "Big Calm", "artist": "Morcheeba", "year": 1998, "listened": true, "genre": "trip-hop", "stars": 2, "fav": true, "perso": true },
-    { "title": "Fantaisie Militaire", "artist": "Alain Bashung", "year": 1998 },
-    { "title": "Super Discount", "artist": "Etienne de Crécy", "year": 1998, "fr": true },
-    { "title": "Music Sounds Better With You", "artist": "Stardust", "year": 1998, "fr": true },
+    { "title": "Fantaisie Militaire", "artist": "Alain Bashung", "year": 1998, "listened": true, "fr": true, "genre": "rock", "comment": '"La nuit je mens", "Mes prisons"', "stars": 1, "fav": true },
+    { "title": "Super Discount", "artist": "Etienne de Crécy", "year": 1998, "fr": true, "listened": true, "genre": "electro", "meh": true },
+    { "title": "Music Sounds Better With You", "artist": "Stardust", "year": 1998, "fr": true, "listened": true, "genre": "electro", "comment": 'Single, sample from "Fate" (Chaka Khan), Thomas Bangalter', "stars": 1, "fav": true },
     { "title": "If You Need Me / Rock 'N Soul", "artist": "Solomon Burke", "year": 1998 },
     { "title": "Mamagubida", "artist": "Tryo", "year": 1998 },
     { "title": "Much Against Everyone's Advice", "artist": "Soulwax", "year": 1998 },
@@ -1629,11 +1682,11 @@ const items = [
     { "title": "Pilgrim", "artist": "Eric Clapton", "year": 1998 },
     { "title": "Follow the Leader", "artist": "Korn", "year": 1998 },
     { "title": "A Go Go", "artist": "John Scofield", "year": 1998 },
-    { "title": "Gran Turismo", "artist": "The Cardigans", "year": 1998, "listened": true, "genre": "rock", "fav": true, "perso": true, "stars": 2 },
+    { "title": "Gran Turismo", "artist": "The Cardigans", "year": 1998, "listened": true, "genre": "rock", "fav": true, "perso": true, "stars": 2, "comment": '"My Favourite Game"' },
     { "title": "Dònde Estàn los Ladrones", "artist": "Shakira", "year": 1998 },
     { "title": "Hellbilly Deluxe", "artist": "Rob Zombie", "year": 1998 },
     { "title": "SUPER EUROBEAT presents INITIAL D ~D SELECTION~", "artist": "Various Artists", "year": 1998 },
-    { "title": "You Don't Know Me", "artist": "Armand Van Helden", "year": 1998, "comment": 'Single from "2 Future 4 U" album', "fav": true, "stars": 1 },
+    { "title": "You Don't Know Me", "artist": "Armand Van Helden", "year": 1998, "comment": 'Single from "2 Future 4 U" album, "tin tin tin tiiiin tiiiin tiiiin"', "fav": true, "stars": 1, "listened": true, "genre": "electro" },
     { "title": "Americana", "artist": "The Offspring", "year": 1998, "perso": true },
     { "title": "Ray of Light", "artist": "Madonna", "year": 1998 },
     { "title": "Aquemini", "artist": "OutKast", "year": 1998 },
@@ -1649,7 +1702,7 @@ const items = [
     { "title": "Clandestino", "artist": "Manu Chao", "year": 1998 },
     { "title": "Car Wheels on a Gravel Road", "artist": "Lucinda Williams", "year": 1998, "listened": true, "genre": "country" },
     { "title": "The Miseducation of Lauryn Hill", "artist": "Lauren Hill", "year": 1998, "listened": true, "genre": "rap", "stars": 1 },
-    { "title": "One Trip/One Noise", "artist": "Noir Désir", "year": 1998, "perso": true },
+    { "title": "One Trip/One Noise", "artist": "Noir Désir", "year": 1998, "perso": true, "fr": true },
     { "title": "Moon Safari", "artist": "Air", "year": 1998, "listened": true, "fav": true, "perso": true, "stars": 1, "genre": "pop", "fr": true },
     { "title": "In the Aeroplane Over The Sea", "artist": "Neutral Milk Hotel", "year": 1998, "listened": true, "genre": "rock" },
     { "title": "Music has the right to children", "artist": "Boards of Canada", "year": 1998 },
@@ -1658,7 +1711,9 @@ const items = [
     { "title": "I See a Darkness", "artist": "Bonnie 'Prince' Billy", "year": 1998 },
 
     { "title": "Synkronized", "artist": "Jamiroquai", "year": 1999 },
+    { "title": "We Are! (ウィーアー！)", "artist": "Hiroshi Kitadani", "year": 1999, "listened": true, "genre": "pop", "comment": "Opening 1 of One Piece", "stars": 1, "fav": true },
     { "title": "Astro Lounge", "artist": "Smash Mouth", "year": 1999 },
+    { "title": "Les Princes de la ville", "artist": "113", "year": 1999, "fr": true, "genre": "rap" },
     { "title": "Now Phats What I Small Music", "artist": "Phats &amp; Small", "year": 1999, "comment": '"Turn Around"' },
     { "title": "No Angel", "artist": "Dido", "year": 1999 },
     { "title": "You My Baby and I", "artist": "Alex Gopher", "year": 1999, "fr": true },
@@ -1672,6 +1727,7 @@ const items = [
     { "title": "The Hush", "artist": "Texas", "year": 1999 },
     { "title": "1999", "artist": "Cassius", "year": 1999 },
     { "title": "Agaetis Byrjun", "artist": "Sigur Ros", "year": 1999 },
+    { "title": "Running with Scissors", "artist": '"Weird Al" Yankovic', "year": 1999 },
     { "title": "Remedy", "artist": "Basement Jaxx", "year": 1999 },
     { "title": "H.M.S. Fable", "artist": "Shack", "year": 1999 },
     { "title": "S&amp;M", "artist": "Metallica with Michael Kamen Conducting the San Francisco Symphony Orchestra", "year": 1999 },
@@ -1690,7 +1746,7 @@ const items = [
     { "title": "Hooray for Boobies", "artist": "Bloodhound Gang", "year": 1999, "listened": true, "genre": "punk", "stars": 1 },
     { "title": "Millennium", "artist": "Backstreet Boys", "year": 1999 },
     { "title": "Supernatural", "artist": "Santana", "year": 1999 },
-    { "title": "Je dis aime", "artist": "-M-", "year": 1999 },
+    { "title": "Je dis aime", "artist": "-M-", "year": 1999, "fr": true },
     { "title": "Zooma", "artist": "John Paul Jones", "year": 1999 },
     { "title": "Mindfields", "artist": "Toto", "year": 1999 },
     { "title": "Significant Other", "artist": "Limp Bizkit", "year": 1999, "perso": true, "comment": "Médiathèque Port du Canal" },
@@ -1704,13 +1760,15 @@ const items = [
     { "title": "Californication", "artist": "Red Hot Chili Peppers", "year": 1999 },
     { "title": "The Writing's on the Wall", "artist": "Destiny's Child", "year": 1999 },
     { "title": "The Battle of Los Angeles", "artist": "Rage Against the Machine", "year": 1999 },
-    { "title": "Enema of the State", "artist": "Blink-182", "year": 1999 },
+    { "title": "Enema of the State", "artist": "Blink-182", "year": 1999, "listened": true, "genre": "punk", "comment": '"What\'s My Name Again?", "All the Small Things", "Adam\'s Song", nurse &amp; glove album cover, Travis Barker on drums', "fav": true, "stars": 2 },
     { "title": "Slipknot", "artist": "Slipknot", "year": 1999 },
-    { "title": "Au ras des pâquerettes", "artist": "Alain Souchon", "year": 1999 },
+    { "title": "Au ras des pâquerettes", "artist": "Alain Souchon", "year": 1999, "fr": true },
 
     { "title": "Tony Hawk Pro Skater 2 OST", "artist": "Various Artists", "year": 2000, "listened": true, "fav": true, "perso": true, "stars": 1, "genre": "punk" },
     { "title": "Mother Earth", "artist": "Within Temptation", "year": 2000, "perso": true },
+    { "title": "Bowie at the Beeb", "artist": "David Bowie", "year": 2000, "perso": true },
     { "title": "Dawn of Victory", "artist": "Rhapsody", "year": 2000 },
+    { "title": "CAB", "artist": "CAB", "year": 2000 },
     { "title": "Patchwork électrique", "artist": "Paul Personne", "year": 2000, "perso": true },
     { "title": "Corps et armes", "artist": "Etienne Daho", "year": 2000 },
     { "title": "Lovers Rock", "artist": "Sade", "year": 2000, "listened": true, "genre": "soul" },
@@ -1741,35 +1799,38 @@ const items = [
     { "title": "Lost Souls", "artist": "Doves", "year": 2000, "listened": true, "meh": true, "genre": "rock" },
     { "title": "Heartbreaker", "artist": "Ryan Adams", "year": 2000 },
     { "title": "The Virgin Suicides OST", "artist": "Air", "year": 2000 },
-    { "title": "No Strings Attached", "artist": "NSYNC", "year": 2000 },
+    { "title": "No Strings Attached", "artist": "NSYNC", "year": 2000, "listened": true, "genre": "pop", "comment": '"Bye Bye Bye", "Bringin\' Da Noise"' },
     { "title": "Oops!... I Did It Again", "artist": "Britney Spears", "year": 2000 },
-    { "title": "Personne n'est parfait", "artist": "Axel Bauer", "year": 2000 },
+    { "title": "Personne n'est parfait", "artist": "Axel Bauer", "year": 2000, "fr": true },
     { "title": "Kid A", "artist": "Radiohead", "year": 2000, "listened": true, "genre": "pop", "stars": 1 },
-    { "title": "Riding with the King", "artist": "Eric Clapton and B.B. King", "year": 2000 },
-    { "title": "Hybrid Theory", "artist": "Linkin Park", "year": 2000 },
+    { "title": "Riding with the King", "artist": "Eric Clapton and B.B. King", "year": 2000, "genre": "blues" },
+    { "title": "Hybrid Theory", "artist": "Linkin Park", "year": 2000, "genre": "metal" },
     { "title": "Two Against Nature", "artist": "Steely Dan", "year": 2000 },
-    { "title": "Conspiracy of One", "artist": "The Offspring", "year": 2000, "perso": true },
+    { "title": "Conspiracy of One", "artist": "The Offspring", "year": 2000, "perso": true, "comment": 'Acheté sur Ebay, "Come Out Swinging", "Original Prankster", "One Fine Day", "Vultures" (cours de guitare à Fontaine-lès-Dijon, centre d\'animation Pierre Jacques)', "listened": true, "genre": "punk", "fav": true, "stars": 1 },
     { "title": "Rated R", "artist": "Queens of the Stone Age", "year": 2000, "listened": true, "genre": "hard-rock", "stars": 1 },
     { "title": "The Ultimate Collection", "artist": "Patsy Cline", "year": 2000 },
-    { "title": "Sailing to Philadelphia", "artist": "Mark Knopfler", "year": 2000, "listened": true, "fav": true, "perso": true, "stars": 2, "genre": "rock" },
+    { "title": "Sailing to Philadelphia", "artist": "Mark Knopfler", "year": 2000, "listened": true, "fav": true, "perso": true, "stars": 2, "genre": "rock", "comment": '"What It Is", "Sailing to Philadelphia", "Speedway at Nazareth", etc.' },
     { "title": "The Marshall Mathers LP", "artist": "Eminem", "year": 2000 },
     { "title": "Mama's Gun", "artist": "Erykah Badu", "year": 2000 },
     { "title": "Voodoo", "artist": "D'Angelo", "year": 2000 },
     { "title": "Supreme Clientele", "artist": "Ghostface Killah", "year": 2000 },
     { "title": "O Brother, Where Art Thou? OST", "artist": "Various Artists", "year": 2000 },
     { "title": "Stankonia", "artist": "OutKast", "year": 2000 },
-    { "title": "Stories From the City, Stories From the Sea", "artist": "PJ Harvey", "year": 2000, "listened": true, "genre": "rock", "comment": "Oou-ouuh Locakase" },
+    { "title": "Stories From the City, Stories From the Sea", "artist": "PJ Harvey", "year": 2000, "listened": true, "genre": "rock", "comment": "Oou-ouuh Locakase Manissieux" },
 
     { "title": "A Funk Odyssey", "artist": "Jamiroquai", "year": 2001, "listened": true, "genre": "funk", "fav": true, "stars": 2 },
-    { "title": "CAB 2", "artist": "CAB", "year": 2001 },
+    { "title": "CAB 2", "artist": "CAB", "year": 2001, "listened": true, "genre": "jazz", "comment": "Jazz Fusion / Instrumental rock", "stars": 1, "fav": true },
+    { "title": "Eternal Flame", "artist": "Atomic Kitten", "year": 2001, "comment": "Single", "listened": true, "genre": "pop", "stars": 1 },
+    { "title": "Chambre avec vue", "artist": "Henri Salvador", "year": 2001, "fr": true },
+    { "title": "Take Off Your Pants and Jacket", "artist": "Blink-182", "year": 2001, "genre": "punk", "comment": '"First Date", "The Rock Show"', "listened": true, "fav": true, "stars": 1 },
     { "title": "The Thunderthief", "artist": "John Paul Jones", "year": 2001, "listened": true, "genre": "hard-rock" },
-    { "title": "La Zizanie", "artist": "Zazie", "year": 2001 },
+    { "title": "La Zizanie", "artist": "Zazie", "year": 2001, "fr": true },
     { "title": "The Golden Hum", "artist": "Remy Zero", "year": 2001 },
     { "title": "10 000 Hz Legend", "artist": "Air", "year": 2001, "fr": true },
     { "title": "Weezer (The Green Album)", "artist": "Weezer", "year": 2001, "listened": true, "stars": 1, "fav": true, "genre": "punk" },
     { "title": "The Invisible Band", "artist": "Travis", "year": 2001 },
     { "title": "Fever", "artist": "Killie Minogue", "year": 2001 },
-    { "title": "Discovery", "artist": "Daft Punk", "year": 2001, "fav": true, "listened": true, "perso": true, "stars": 3, "genre": "electro", "fr": true },
+    { "title": "Discovery", "artist": "Daft Punk", "year": 2001, "fav": true, "listened": true, "perso": true, "stars": 3, "genre": "electro", "fr": true, "comment": '"Voyager", "Something About Us", "One More Time", "Aerodynamic", "Harder, Better, Faster, Stronger"' },
     { "title": "Gorillaz", "artist": "Gorillaz", "year": 2001, "fav": true, "listened": true, "perso": true, "stars": 2, "genre": "rock" },
     { "title": "G-Sides", "artist": "Gorillaz", "year": 2001, "perso": true },
     { "title": "Toxicity", "artist": "System Of A Down", "year": 2001, "fav": true, "listened": true, "perso": true, "stars": 2, "genre": "metal" },
@@ -1778,7 +1839,7 @@ const items = [
     { "title": "The Player", "artist": "The Supermen Lovers", "year": 2001 },
     { "title": "Mutter", "artist": "Rammstein", "year": 2001 },
     { "title": "Rain of a Thousand Flames", "artist": "Rhapsody", "year": 2001 },
-    { "title": "Chanson pour les pieds", "artist": "Jean-Jacques Goldman", "year": 2001 },
+    { "title": "Chanson pour les pieds", "artist": "Jean-Jacques Goldman", "year": 2001, "fr": true },
     { "title": "Iowa", "artist": "Slipknot", "year": 2001, "listened": true, "genre": "metal" },
     { "title": "A Little Deeper", "artist": "Ms. Dynamite", "year": 2001, "listened": true, "meh": true, "genre": "rap" },
     { "title": "Power In Numbers", "artist": "Jurassic 5", "year": 2001 },
@@ -1801,7 +1862,7 @@ const items = [
     { "title": "The Definite Collection", "artist": "ABBA", "year": 2001 },
     { "title": "Time (The Revelator)", "artist": "Gillian Welch", "year": 2001, "listened": true, "genre": "folk" },
     { "title": "Yankee Hotel Foxtrot", "artist": "Wilco", "year": 2001 },
-    { "title": "Des visages des figures", "artist": "Noir Désir", "year": 2001, "perso": true },
+    { "title": "Des visages des figures", "artist": "Noir Désir", "year": 2001, "perso": true, "fr": true },
     { "title": "Since I Left You", "artist": "The Avalanches", "year": 2001, "listened": true, "genre": "funk" },
     { "title": "The Blueprint", "artist": "Jay-Z", "year": 2001, "listened": true, "genre": "rap", "stars": 1 },
     { "title": "White Blood Cells", "artist": "The White Stripes", "year": 2001 },
@@ -1810,7 +1871,7 @@ const items = [
 
     { "title": "Power of the Dragonflame", "artist": "Rhapsody", "year": 2002 },
     { "title": "A Thousand Miles", "artist": "Vanessa Carlton", "year": 2002, "listened": true, "genre": "pop" },
-    { "title": "A Little Less Conversation: Elvis vs JXL", "artist": "Elvis Presley, Junkie XL", "year": 2002, "listened": true, "genre": "electro", "stars": 1 },
+    { "title": "A Little Less Conversation: Elvis vs JXL", "artist": "Elvis Presley, Junkie XL", "year": 2002, "listened": true, "genre": "electro", "stars": 1, "comment": 'Single, remix from the 1968 song from the movie "Live a Little, Love a Little"' },
     { "title": "Paradize", "artist": "Indochine", "year": 2002 },
     { "title": "Quelqu'un m'a dit", "artist": "Carla Bruni", "year": 2002 },
     { "title": "Love For The Streets", "artist": "Caesars", "year": 2002 },
@@ -1818,6 +1879,7 @@ const items = [
     { "title": "We Are Your Friends", "artist": "Simian", "year": 2002 },
     { "title": "Just a Little More Love", "artist": "David Guetta", "year": 2002 },
     { "title": "The Private Press", "artist": "DJ Shadow", "year": 2002 },
+    { "title": "113 fout la merde", "artist": "113", "year": 2002, "comment": "Single feat. Thomas Bangalter", "genre": "rap", "listened": true, "fr": "true" },
     { "title": "Uninvisible", "artist": "Medeski, Martin &amp; Wood", "year": 2002 },
     { "title": "Come Away With Me", "artist": "Norah Jones", "year": 2002 },
     { "title": "The Eminem Show", "artist": "Eminem", "year": 2002, "listened": true, "perso": true, "stars": 1, "genre": "rap" },
@@ -1844,15 +1906,17 @@ const items = [
     { "title": "Qui de nous deux ?", "artist": "-M-", "year": 2003, "listened": true, "genre": "pop", "fr": true, "stars": 2, "fav": true },
     { "title": "Hypnotica", "artist": "Benny Benassi", "year": 2003, "perso": true },
     { "title": "Elephunk", "artist": "Black Eyed Peas", "year": 2003 },
+    { "title": "Blink-182", "artist": "Blink-182", "year": 2003, "genre": "punk", "comment": '"Miss You"' },
+    { "title": "Strings of the Storm", "artist": "Elliott Murphy", "year": 2003, "perso": true, "comment": '"Green River", Festival Binic 2004 w/ Buddy Guy' },
     { "title": "Old World Underground, Where Are You Now?", "artist": "Metric", "year": 2003, "perso": true },
     { "title": "Fallen", "artist": "Evanescence", "year": 2003 },
     { "title": "3.6.3 (Live 2003)", "artist": "Indochine", "year": 2003, "perso": true },
     { "title": "Think Tank", "artist": "Blur", "year": 2003, "perso": true, "comment": 'Maison allée des champs fleuris à Fontaines-lès-Dijon, 2D = Damon Albarn, "Moroccan Peoples Revolutionary Bowls Club"', "listened": true, "genre": "pop", "stars": 2, "fav": true },
     { "title": "Diamonds on the Inside", "artist": "Ben Harper", "year": 2003 },
     { "title": "The One-T ODC", "artist": "One-T &amp; Cool-T", "year": 2003, "perso": true },
-    { "title": "Live in Texas", "artist": "Linkin Park", "year": 2003, "perso": true },
+    { "title": "Live in Texas", "artist": "Linkin Park", "year": 2003, "perso": true, "comment": "second album bought" },
     { "title": "Everything Must Go", "artist": "Steely Dan", "year": 2003, "listened": true, "genre": "rock", "stars": 1, "fav": true },
-    { "title": "Splinter", "artist": "The Offspring", "year": 2003, "perso": true, "listened": true, "genre": "punk" },
+    { "title": "Splinter", "artist": "The Offspring", "year": 2003, "perso": true, "listened": true, "genre": "punk", "comment": "first album bought" },
     { "title": "CAB 4", "artist": "CAB", "year": 2003 },
     { "title": "The Matrix Reloaded: The Album OST", "artist": "Various Artists", "year": 2003 },
     { "title": "The Diary of Alicia Keys", "artist": "Alicia Keys", "year": 2003 },
@@ -1865,7 +1929,7 @@ const items = [
     { "title": "Fever to Tell", "artist": "Yeah Yeah Yeahs", "year": 2003 },
     { "title": "The Best of the Classic Years", "artist": "King Sunny Adé", "year": 2003 },
     { "title": "Speakerboxxx/The Love Below", "artist": "OutKast", "year": 2003 },
-    { "title": "St. Anger", "artist": "Metallica", "year": 2003 },
+    { "title": "St. Anger", "artist": "Metallica", "year": 2003, "perso": true, "comment": "Médiathèque Mansart" },
     { "title": "Portrait of a Legend", "artist": "Sam Cooke", "year": 2003 },
     { "title": "The Black Album", "artist": "Jay-Z", "year": 2003 },
     { "title": "Kill Bill: Volume 1 OST", "artist": "Various Artists", "year": 2003 },
@@ -1885,23 +1949,23 @@ const items = [
     { "title": "Genius Loves Company", "artist": "Ray Charles", "year": 2004, "listened": true, "stars": 1, "genre": "soul" },
     { "title": "Fresh", "artist": "Teddybears", "year": 2004, "listened": true, "stars": 1, "genre": "electro", "comment": '"Little Stereo"' },
     { "title": "Any Minute Now", "artist": "Soulwax", "year": 2004 },
-    { "title": "She's in Control", "artist": "Chromeo", "year": 2004 },
+    { "title": "She's in Control", "artist": "Chromeo", "year": 2004, "listened": true, "genre": "new-wave", "stars": 1, "comment": '"Needy Girl", "Rage!"' },
     { "title": "Franz Ferdinand", "artist": "Franz Ferdinand", "year": 2004, "listened": true, "genre": "rock", "stars": 2, "fav": true },
     { "title": "Musicology", "artist": "Prince", "year": 2004 },
     { "title": "Street Signs", "artist": "Ozomatli", "year": 2004 },
-    { "title": "Hot Fuss", "artist": "The Killers", "year": 2004 },
+    { "title": "Hot Fuss", "artist": "The Killers", "year": 2004, "listened": true, "genre": "new-wave", "comment": 'Forum lycée Montchapet, "Somebody Told Me", "Smile Like You Mean It", end of the album = meh', "perso": true },
     { "title": "Want Two", "artist": "Rufus Wainwright", "year": 2004, "listened": true, "genre": "folk" },
     { "title": "A Grand Don't Come For Free", "artist": "The Streets", "year": 2004, "listened": true, "genre": "rap", "stars": 1, "comment": "British rap opera concept album" },
     { "title": "They Were Wrong, So We Drowned", "artist": "Liars", "year": 2004 },
-    { "title": "Desperate Youth, Blood Thirsty Babes", "artist": "TV On the Radio", "year": 2004 },
+    { "title": "Desperate Youth, Blood Thirsty Babes", "artist": "TV On the Radio", "year": 2004, "listened": true, "genre": "rock", "meh": true },
     { "title": "Cee-Lo Green... Is the Soul Machine", "artist": "Cee-Lo Green", "year": 2004 },
     { "title": "Abattoir Blues / The Lyre of Orpheus", "artist": "Nick Cave &amp; the Bad Seeds", "year": 2004, "listened": true, "genre": "rock" },
     { "title": "Rejoicing In the Hands of the Golden Empress", "artist": "Devendra Banhart", "year": 2004, "listened": true, "genre": "folk", "meh": true },
     { "title": "Penance Soirée", "artist": "The Icarus Line", "year": 2004 },
     { "title": "Scissor Sisters", "artist": "Scissor Sisters", "year": 2004 },
     { "title": "Destroy Rock &amp; Roll", "artist": "Mylo", "year": 2004, "listened": true, "genre": "electro", "comment": '"Drop the Pressure"' },
-    { "title": "Medulla", "artist": "Björk", "year": 2004 },
-    { "title": "Four to the Floor", "artist": "Starsailor, Thin White Duke", "year": 2004 },
+    { "title": "Medùlla", "artist": "Björk", "year": 2004, "listened": true, "genre": "pop", "meh": true },
+    { "title": "Four to the Floor (Thin White Duke mix)", "artist": "Starsailor", "year": 2004, "listened": true, "genre": "electro", "comment": "Single", "stars": 1, "fav": true },
     { "title": "You Are the Quarry", "artist": "Morrissey", "year": 2004 },
     { "title": "Vol.3: The Subliminal Verses", "artist": "Slipknot", "year": 2004 },
     { "title": "Absolution", "artist": "Muse", "year": 2004 },
@@ -1921,6 +1985,7 @@ const items = [
     { "title": "Dynamite", "artist": "Jamiroquai", "year": 2005, "listened": true, "fav": true, "stars": 2, "genre": "funk" },
     { "title": "Mezmerize", "artist": "System Of A Down", "year": 2005, "perso": true, "listened": true, "genre": "metal", "fav": true, "stars": 2 },
     { "title": "Hypnotize", "artist": "System Of A Down", "year": 2005 },
+    { "title": "Hate It or Love It", "artist": "The Game feat. 50 Cent", "year": 2005, "listened": true, "genre": "rap", "stars": 1, "comment": 'Single, sample from "Rubber Band" by the Trammps' },
     { "title": "My My My", "artist": "Armand Van Helden", "year": 2005, "comment": 'Single from "Nympho" LP', "listened": true, "genre": "electro", "stars": 1, "fav": true },
     { "title": "Galvanize", "artist": "The Chemical Brothers", "year": 2005, "comment": 'Single from "Push The Button" LP', "listened": true, "genre": "electro", "stars": 1, "fav": true },
     { "title": "Hold Your Color", "artist": "Pendulum", "year": 2005 },
@@ -1931,13 +1996,13 @@ const items = [
     { "title": "In Orbit", "artist": "September", "year": 2005 },
     { "title": "Network", "artist": "Global Deejays", "year": 2005 },
     { "title": "Lullabies To Paralyze", "artist": "Queens of the Stone Age", "year": 2005, "perso": true },
-    { "title": "Human After All", "artist": "Daft Punk", "year": 2005 },
+    { "title": "Human After All", "artist": "Daft Punk", "year": 2005, "fr": true },
     { "title": "Hedonist", "artist": "Martin Solveig", "year": 2005, "listened": true, "fr": true, "genre": "electro", "stars": 1 },
     { "title": "Demon days", "artist": "Gorillaz", "year": 2005, "fav": true , "listened": true, "perso": true, "stars": 3, "genre": "rock", "comment": "Médiathèque Henri Vincenot" },
     { "title": "Takk...", "artist": "Sigur Rós", "year": 2005 },
     { "title": "Silent Alarm", "artist": "Bloc Party", "year": 2005, "listened": true, "genre": "rock", "comment": '"Banquet", "Helicopter"', "stars": 1 },
-    { "title": "Birdy Nam Nam", "artist": "Birdy Nam Nam", "year": 2005 },
-    { "title": "En tête-à-tête", "artist": "-M-", "year": 2005 },
+    { "title": "Birdy Nam Nam", "artist": "Birdy Nam Nam", "year": 2005, "listened": true, "fr": true, "genre": "electro", "comment": '"Abesses"' },
+    { "title": "En tête-à-tête", "artist": "-M-", "year": 2005, "fr": true, "comment": "Live" },
     { "title": "Live It Out", "artist": "Metric", "year": 2005 },
     { "title": "Rosenrot", "artist": "Rammstein", "year": 2005 },
     { "title": "Modal Soul", "artist": "Nujabes", "year": 2005, "listened": true, "genre": "rap", "stars": 1 },
@@ -1951,8 +2016,8 @@ const items = [
     { "title": "Extraordinary Machine", "artist": "Fiona Apple", "year": 2005, "listened": true, "genre": "pop" },
     { "title": "Tha Carter II", "artist": "Lil Wayne", "year": 2005 },
     { "title": "The Emancipation of Mimi", "artist": "Mariah Carey", "year": 2005, "listened": true, "genre": "pop" },
-    { "title": "Noir Désir en public", "artist": "Noir Désir", "year": 2005 },
-    { "title": "Late Registration", "artist": "Kanye West", "year": 2005 },
+    { "title": "Noir Désir en public", "artist": "Noir Désir", "year": 2005, "fr": true, "comment": "Live" },
+    { "title": "Late Registration", "artist": "Kanye West", "year": 2005, "listened": true, "genre": "rap", "comment": '"Touch the Sky"', "stars": 1 },
     { "title": "Arular", "artist": "M.I.A.", "year": 2005 },
 
     { "title": "Back to Black", "artist": "Amy Winehouse", "year": 2006, "listened": true, "stars": 1, "genre": "soul" },
@@ -1961,6 +2026,8 @@ const items = [
     { "title": "Stadium Arcadium", "artist": "Red Hot Chili Peppers", "year": 2006 },
     { "title": "Classics", "artist": "Ratatat", "year": 2006, "listened": true, "fav": true, "stars": 3, "genre": "rock" },
     { "title": "The Outsider", "artist": "DJ Shadow", "year": 2006 },
+    { "title": "Straight Outta Lynwood", "artist": '"Weird Al" Yankovic', "year": 2006 },
+    { "title": "Johnson Grass", "artist": "David Johnson", "year": 2006, "comment": '"Boil That Cabbage Down"', "genre": "bluegrass" },
     { "title": "Dans ma bulle", "artist": "DIAM'S", "year": 2006 },
     { "title": "Ergo Proxy OST opus01", "artist": "Yoshihiro Ike", "year": 2006 },
     { "title": "Ergo Proxy OST opus02", "artist": "Yoshihiro Ike", "year": 2006 },
@@ -1979,7 +2046,7 @@ const items = [
     { "title": "Ys", "artist": "Joanna Newsom", "year": 2006 },
     { "title": "Back to Basics", "artist": "Christina Aguilera", "year": 2006 },
     { "title": "Fishscale", "artist": "Ghostface Killah", "year": 2006 },
-    { "title": "Lupe Fiasco's Food Liquor", "artist": "Lupe Fiasco", "year": 2006, "listened": true, "genre": "rap", "stars": 1 },
+    { "title": "Lupe Fiasco's Food Liquor", "artist": "Lupe Fiasco", "year": 2006, "listened": true, "genre": "rap", "stars": 1, "comment": '"Kick, Push"' },
     { "title": "The Village Lanterne", "artist": "Blackmore's Night", "year": 2006, "listened": true, "genre": "rock", "stars": 2, "fav": true },
     { "title": "Morph the Cat", "artist": "Donald Fagen", "year": 2006 },
     { "title": "Continuum", "artist": "John Mayer", "year": 2006, "listened": true, "genre": "pop", "stars": 1 },
@@ -1989,6 +2056,7 @@ const items = [
 
     { "title": "Favourite Worst Nightmare", "artist": "Arctic Monkeys", "year": 2007, "listened": true, "genre": "rock", "fav": true, "stars": 2, "comment": '"Brianstorm", "Teddy Picker", "Fluorescent Adolescent"' },
     { "title": "Era Vulgaris", "artist": "Queens of the Stone Age", "year": 2007 },
+    { "title": "Carry On", "artist": "Chris Cornell", "year": 2007, "comment": '"You Know My Name" (James Bond Casino Royale)' },
     { "title": "Ghettoblaster", "artist": "Armand Van Helden", "year": 2007 },
     { "title": "HAARP (Live from Wembley Stadium)", "artist": "Muse", "year": 2007 },
     { "title": "Alive 2007", "artist": "Daft Punk", "year": 2007, "comment": "Live", "fr": true, "genre": "electro", "listened": false },
@@ -2006,7 +2074,7 @@ const items = [
     { "title": "Oracular Spectacular", "artist": "MGMT", "year": 2007, "listened": true, "perso": true, "genre": "pop", "comment": 'Appartement rue Guillaume Tell à Belfort, "Electric Feel", "Kids"', "fav": true, "stars": 1 },
     { "title": "Rainbow Man", "artist": "Busy P", "year": 2007 },
     { "title": "The Headbangers", "artist": "Busy P", "year": 2007 },
-    { "title": "Transformation", "artist": "Tal Wilkenfeld", "year": 2007, "listened": true, "genre": "jazz", "comment": "BASS, Jazz Fusion" },
+    { "title": "Transformation", "artist": "Tal Wilkenfeld", "year": 2007, "listened": true, "genre": "jazz", "comment": 'Bass, Jazz Fusion, "Table For One"', "stars": 1 },
     { "title": "Dark Passion Play", "artist": "Nightwish", "year": 2007 },
     { "title": "D-Sides", "artist": "Gorillaz", "year": 2007 },
     { "title": "The Good, the Bad &amp; the Queen", "artist": "The Good, the Bad &amp; the Queen", "year": 2007 },
@@ -2026,7 +2094,8 @@ const items = [
     { "title": "Dance Love Pop", "artist": "Agnes", "year": 2008 },
     { "title": "No Stress", "artist": "Laurent Wolf", "year": 2008 },
     { "title": "Infinity 2008", "artist": "Guru Josh Project", "year": 2008 },
-    { "title": "Planisphère", "artist": "Justice", "year": 2008, "listened": true, "fav": true, "stars": 1, "genre": "electro", "fr": true },
+    { "title": "Death Magnetic", "artist": "Metallica", "year": 2008 },
+    { "title": "Planisphère", "artist": "Justice", "year": 2008, "listened": true, "fav": true, "stars": 1, "genre": "electro", "fr": true, "comment": "EP" },
     { "title": "Caravan Palace", "artist": "Caravan Palace", "year": 2008 },
     { "title": "LP3", "artist": "Ratatat", "year": 2008 },
     { "title": "Tha Carter III", "artist": "Lil Wayne", "year": 2008 },
@@ -2040,17 +2109,19 @@ const items = [
     { "title": "Where the Light Is: John Mayer Live in Los Angeles", "artist": "John Mayer", "year": 2008 },
     { "title": "Secret Voyage", "artist": "Blackmore's Night", "year": 2008 },
     { "title": "For Emma, Forever Ago", "artist": "Bon Iver", "year": 2008, "listened": true, "genre": "folk" },
-    { "title": "Esperanza", "artist": "Esperanza Spalding", "year": 2008 },
+    { "title": "Esperanza", "artist": "Esperanza Spalding", "year": 2008, "listened": true, "genre": "jazz", "stars": 1, "comment": '"I Know You Know"' },
     { "title": "Imagine", "artist": "Armin van Buuren", "year": 2008, "listened": true, "genre": "electro", "stars": 1 },
     { "title": "Bravado", "artist": "Miami Horror", "year": 2008 },
-    { "title": "Invasion", "artist": "Joachim Garraud", "year": 2008 },
+    { "title": "Invasion", "artist": "Joachim Garraud", "year": 2008, "listened": true, "genre": "electro", "fr": true, "meh": true },
 
     { "title": "BLACKsummers'night", "artist": "Maxwell", "year": 2009 },
     { "title": "Humbug", "artist": "Arctic Monkeys", "year": 2009 },
+    { "title": "Theatre de Marionnettes", "artist": "CAB", "year": 2009 },
+    { "title": "Manual for Successful Rioting", "artist": "Birdy Nam Nam", "year": 2009, "fr": true, "genre": "electro", "comment": '"The Parachute Ending"' },
     { "title": "Tongue n' Cheek", "artist": "Dizee Rascal", "year": 2009 },
-    { "title": "Mister Mystère", "artist": "-M-", "year": 2009 },
+    { "title": "Mister Mystère", "artist": "-M-", "year": 2009, "fr": true },
     { "title": "Ocean Eyes", "artist": "Owl City", "year": 2009 },
-    { "title": "La superbe", "artist": "Benjamin Biolay", "year": 2009 },
+    { "title": "La superbe", "artist": "Benjamin Biolay", "year": 2009, "fr": true },
     { "title": "Metropolitain", "artist": "Kyle Eastwood", "year": 2009 },
     { "title": "Inglourious Basterds OST", "artist": "Various Artists", "year": 2009 },
     { "title": "Them Crooked Vultures", "artist": "Them Crooked Vultures", "year": 2009 },
@@ -2077,7 +2148,7 @@ const items = [
     { "title": "xx", "artist": "The xx", "year": 2009, "listened": true, "genre": "pop" },
     { "title": "Liebe ist für alle da", "artist": "Rammstein", "year": 2009 },
     { "title": "Two Dancers", "artist": "Wild Beasts", "year": 2009 },
-    { "title": "It's Blitz!", "artist": "Yeah Yeah Yeahs", "year": 2009, "listened": true, "genre": "rock", "stars": 1, "fav": true },
+    { "title": "It's Blitz!", "artist": "Yeah Yeah Yeahs", "year": 2009, "listened": true, "genre": "rock", "stars": 1, "fav": true, "comment": '"Heads Will Roll"' },
     { "title": "The B-Suite", "artist": "Krazy Baldhead", "year": 2009 },
     { "title": "Black Black &amp; Black", "artist": "DJ Mehdi", "year": 2009 },
     { "title": "Red Black &amp; Blue", "artist": "DJ Mehdi", "year": 2009 },
@@ -2087,6 +2158,7 @@ const items = [
     { "title": "Illumination", "artist": "Miami Horror", "year": 2010, "perso": true },
     { "title": "My Beautiful Dark Twisted Fantasy", "artist": "Kanye West", "year": 2010, "listened": true, "genre": "rap" },
     { "title": "Body Talk", "artist": "Robyn", "year": 2010 },
+    { "title": "Scary Monsters and Nice Sprites", "artist": "Skrillex", "year": 2010 },
     { "title": "Super chansons", "artist": "Andréas &amp; Nicolas", "year": 2010, "perso": true, "fr": true },
     { "title": "Immersion", "artist": "Pendulum", "year": 2010 },
     { "title": "Teen Dream", "artist": "Beach House", "year": 2010, "listened": true, "genre": "rock" },
@@ -2113,6 +2185,7 @@ const items = [
     { "title": "Mit Peck", "artist": "Vulfpeck", "year": 2011, "listened": true, "genre": "funk", "stars": 1, "fav": true },
     { "title": "Pop Culture", "artist": "Madeon", "year": 2011, "listened": true, "genre": "electro", "stars": 1 },
     { "title": "I'm With You", "artist": "Red Hot Chili Peppers", "year": 2011 },
+    { "title": "Give the Drummer Some", "artist": "Travis Barker", "year": 2011 },
     { "title": "Let the Children Techno", "artist": "Busy P &amp; DJ Mehdi", "year": 2011 },
     { "title": "Congratulations", "artist": "MGMT", "year": 2011 },
     { "title": "Saxobeats", "artist": "Alexandra Stan", "year": 2011 },
@@ -2123,7 +2196,7 @@ const items = [
     { "title": "Le chant des sirènes", "artist": "Orelsan", "year": 2011 },
     { "title": "Total", "artist": "SebastiAn", "year": 2011 },
     { "title": "Suck It and See", "artist": "Arctic Monkeys", "year": 2011 },
-    { "title": "TRON: Legacy Reconfigured", "artist": "Daft Punk", "year": 2011 },
+    { "title": "TRON: Legacy Reconfigured", "artist": "Daft Punk", "year": 2011, "fr": true },
     { "title": "Hurry Up, We're Dreaming", "artist": "M83", "year": 2011, "listened": true, "genre": "electro", "fr": true, "stars": 1 },
     { "title": "21", "artist": "Adele", "year": 2011 },
     { "title": "Don't Explain", "artist": "Joe Bonamassa, Beth Hart", "year": 2011 },
@@ -2138,9 +2211,9 @@ const items = [
     { "title": "Stade 2", "artist": "Mr. Oizo", "year": 2011 },
     { "title": "And the Time-Axis Manipulation Corporation", "artist": "Mickey Moonlight", "year": 2011 },
 
-    { "title": "Vollmich", "artist": "Vulfpeck", "year": 2012, "listened": true, "genre": "funk", "stars": 1, "fav": true },
+    { "title": "Vollmilch", "artist": "Vulfpeck", "year": 2012, "listened": true, "genre": "funk", "stars": 1, "fav": true },
     { "title": "PANIC", "artist": "Caravan Palace", "year": 2012 },
-    { "title": "Il", "artist": "-M-", "year": 2012 },
+    { "title": "Il", "artist": "-M-", "year": 2012, "fr": true },
     { "title": "Django Unchained OST", "artist": "Various Artists", "year": 2012 },
     { "title": "Army of Mushrooms", "artist": "Infected Mushroom", "year": 2012, "listened": true, "genre": "electro", "stars": 1, "fav": true },
     { "title": "The Noise in the Sky", "artist": "Krazy Baldhead", "year": 2012 },
@@ -2164,10 +2237,11 @@ const items = [
     { "title": "My First Car", "artist": "Vulpeck", "year": 2013, "listened": true, "genre": "funk", "fav": true, "stars": 1 },
     { "title": "Rocking", "artist": "Teen Top", "year": 2013, "genre": "pop", "listened": true, "comment": "KPOP dance choregraphy" },
     { "title": "Indiamore", "artist": "CHASSOL", "year": 2013 },
-    { "title": "Racine carrée", "artist": "Stromae", "year": 2013 },
+    { "title": "Old Sock", "artist": "Eric Clapton", "year": 2013, "listened": true, "genre": "blues" },
+    { "title": "Racine carrée", "artist": "Stromae", "year": 2013, "comment": "Belgique" },
     { "title": "Run the Jewels", "artist": "Run the Jewels", "year": 2013 },
     { "title": "...Like Clockwork", "artist": "Queens of the Stone Age", "year": 2013 },
-    { "title": "Orelsan et Gringe sont les Casseurs Flowters", "artist": "Casseurs Flowters", "year": 2013 },
+    { "title": "Orelsan et Gringe sont les Casseurs Flowters", "artist": "Casseurs Flowters", "year": 2013, "fr": true },
     { "title": "The Wack Album", "artist": "The Lonely Island", "year": 2013 },
     { "title": "Aleph", "artist": "Gesaffelstein", "year": 2013 },
     { "title": "After", "artist": "DSL", "year": 2013 },
@@ -2188,7 +2262,9 @@ const items = [
     { "title": "GAS GAS GAS", "artist": "Manuel", "year": 2013, "listened": true, "fav": true, "stars": 1, "genre": "electro", "comment": "Meme" },
 
     { "title": "Fugue State", "artist": "Vulpeck", "year": 2014 },
+    { "title": "Run the Jewels 2", "artist": "Run the Jewels", "year": 2014 },
     { "title": "Music to Delight", "artist": "Kevin MacLeod", "year": 2014 },
+    { "title": "Quack", "artist": "Duck Sauce", "year": 2014, "comment": '"Barbra Streisand"' },
     { "title": "Mystery", "artist": "Kevin MacLeod", "year": 2014 },
     { "title": "You Reposted in the Wrong Neighborhood | Glue70 Mashup", "artist": "Shokk", "year": 2014, "listened": true, "genre": "electro", "comment": "Meme" },
     { "title": "Heyyeyaaeyaaaaeyaeyaa (Fabulous Secret Powers)", "artist": "SLACKCiRCUS", "year": 2014, "listened": true, "genre": "electro", "comment": "Meme" },
@@ -2216,7 +2292,7 @@ const items = [
     { "title": "Wii Turn Up (Wii Menu Remix)", "artist": "Murcy", "year": 2015, "listened": true, "genre": "electro", "comment": "Meme" },
     { "title": "From Darkness", "artist": "Avishai Cohen", "year": 2015, "listened": true, "genre": "jazz", "stars": 1, "fav": true },
     { "title": "The Magic Whip", "artist": "Blur", "year": 2015 },
-    { "title": "Ancient Future", "artist": "Protoje", "year": 2015 },
+    { "title": "Ancient Future", "artist": "Protoje", "year": 2015, "listened": true, "genre": "reggae", "comment": "Badaz" },
     { "title": "<|°_°|>", "artist": "Caravan Palace", "year": 2015, "listened": true, "genre": "swing", "stars": 1 },
     { "title": "The Hateful Eight OST", "artist": "Various Artists", "year": 2015 },
     { "title": "Nyan Cat Theme", "artist": "Digidudes", "year": 2015, "listened": true, "genre": "electro", "comment": "Meme" },
@@ -2247,7 +2323,7 @@ const items = [
     { "title": "All Wet", "artist": "Mr. Oizo", "year": 2016 },
     { "title": "Still Waters", "artist": "Breakbot", "year": 2016, "fr": true, "listened": true, "genre": "electro", "stars": 1, "fav": true },
     { "title": "The Mountain Will Fall", "artist": "DJ Shadow", "year": 2016, "listened": true, "stars": 1, "genre": "electro", "comment": '"Nobody Speak" feat. Run the Jewels' },
-    { "title": "Nobody Picks Teddy (Run the Jewels &amp; DJ Shadow vs. Arctic Monkeys mashup)", "artist": "ToTom (Youtube)", "year": 2016, "listened": true, "stars": 1, "genre": "mashup", "fav": true },
+    { "title": "Nobody Picks Teddy (Run the Jewels &amp; DJ Shadow vs. Arctic Monkeys mashup)", "artist": "ToTom [YT]", "year": 2016, "listened": true, "stars": 1, "genre": "rap", "fav": true },
     { "title": "Culcha Vulcha", "artist": "Snarky Puppy", "year": 2016, "listened": true, "fav": true, "stars": 1, "genre": "funk" },
     { "title": "Loud Hailer", "artist": "Jeff Beck", "year": 2016, "listened": true, "stars": 1, "genre": "hard-rock" },
     { "title": "The Olympians", "artist": "The Olympians", "year": 2016, "listened": true, "fav": true, "stars": 1, "genre": "funk" },
@@ -2256,6 +2332,7 @@ const items = [
     { "title": "Woman", "artist": "Justice", "year": 2016 },
     { "title": "The Calling", "artist": "The Fat Rat", "year": 2016, "listened": true, "genre": "electro", "stars": 1 },
     { "title": "Lemonade", "artist": "Beyoncé", "year": 2016 },
+    { "title": "Run the Jewels 3", "artist": "Run the Jewels", "year": 2016 },
     { "title": "The Getaway", "artist": "Red Hot Chili Peppers", "year": 2016 },
     { "title": "150.900", "artist": "FAUVE", "year": 2016, "fr": true },
     { "title": "I Still Do", "artist": "Eric Clapton", "year": 2016 },
@@ -2280,48 +2357,48 @@ const items = [
     { "title": "La fête est finie", "artist": "Orelsan", "year": 2017 },
     { "title": "Golden Hour", "artist": "Kacey Musgraves", "year": 2017, "listened": true, "genre": "pop", "stars": 1 },
     { "title": "Ctrl", "artist": "SZA", "year": 2017 },
-    { "title": "The Shapes", "artist": "Miami Horror", "year": 2017 },
+    { "title": "The Shapes", "artist": "Miami Horror", "year": 2017, "listened": true, "genre": "pop" },
     { "title": "Melodrama", "artist": "Lorde", "year": 2017 },
     { "title": "Genie", "artist": "Busy P", "year": 2017 },
     { "title": "Ladyworld", "artist": "TWRP", "year": 2017 },
-    { "title": "Humanz", "artist": "Gorillaz", "year": 2017 },
+    { "title": "Humanz", "artist": "Gorillaz", "year": 2017, "genre": "pop" },
     { "title": "The Burning Spider", "artist": "Parov Stelar", "year": 2017, "listened": true, "fav": true, "perso": true, "stars": 1, "genre": "electro" },
     { "title": "Automaton", "artist": "Jamiroquai", "year": 2017, "listened": true, "stars": 1, "genre": "funk" },
 
-    { "title": "Hill Climber", "artist": "Vulfpeck", "year": 2018 },
+    { "title": "Hill Climber", "artist": "Vulfpeck", "year": 2018, "genre": "funk", "listened": true, "fav": true, "stars": 2, "comment": '"Darwin Derby", "It Gets Funkier IV", "Lost My Treble Long Ago"' },
     { "title": "10th Anniversary Bad Apple!! feat.nomico PHASE3", "artist": "Alstroemeria Records", "year": 2018, "perso": true, "listened": true, "genre": "metal" },
-    { "title": "Dance Til Your Dead", "artist": "Lil Memer", "year": 2018, "listened": true, "genre": "electro" },
+    { "title": "Dance Til Your Dead", "artist": "Lil Memer [YT]", "year": 2018, "listened": true, "genre": "electro", "comment": "Meme" },
     { "title": "Crab Rave", "artist": "Noisestorm", "year": 2018, "listened": true, "genre": "electro", "stars": 1, "comment": "Meme" },
     { "title": "Juniper", "artist": "Slowly Rolling Camera", "year": 2018, "listened": true, "genre": "jazz", "stars": 1 },
     { "title": "Adventure", "artist": "Lydian Collective", "year": 2018, "listened": true, "fav": true, "stars": 1, "genre": "funk" },
-    { "title": "The Fearless Flyers", "artist": "The Fearless Flyers", "year": 2018 },
+    { "title": "The Fearless Flyers", "artist": "The Fearless Flyers", "year": 2018, "genre": "funk" },
     { "title": "El Mal Querer", "artist": "Rosalìa", "year": 2018 },
-    { "title": "Little Dark Age", "artist": "MGMT", "year": 2018 },
+    { "title": "Little Dark Age", "artist": "MGMT", "year": 2018, "genre": "pop" },
     { "title": "Merrie Land", "artist": "The Good, The Bad &amp; the Queen", "year": 2018 },
-    { "title": "Time", "artist": "Louis Cole", "year": 2018 },
+    { "title": "Time", "artist": "Louis Cole", "year": 2018, "genre": "funk" },
     { "title": "Cool Patrol", "artist": "Ninja Sex Party", "year": 2018 },
-    { "title": "X 100pre", "artist": "Bad Bunny", "year": 2018 },
-    { "title": "Tranquility Base Hotel &amp; Casino", "artist": "Arctic Monkeys", "year": 2018 },
-    { "title": "10LEC6", "artist": "Bone Bame", "year": 2018 },
-    { "title": "Woman Worldwide", "artist": "Justice", "year": 2018 },
+    { "title": "X 100pre", "artist": "Bad Bunny", "year": 2018, "listened": true, "genre": "rap", "comment": "Latin trap", "meh": true },
+    { "title": "Tranquility Base Hotel &amp; Casino", "artist": "Arctic Monkeys", "year": 2018, "listened": true, "genre": "pop", "comment": '"Tranquility Base Hotel &amp; Casino", "Four Out Of Five"' },
+    { "title": "Bone Bame", "artist": "10LEC6", "year": 2018, "genre": "world", "meh": true },
+    { "title": "Woman Worldwide", "artist": "Justice", "year": 2018, "genre": "electro", "comment": "Live" },
     { "title": "The Now Now", "artist": "Gorillaz", "year": 2018, "listened": true, "genre": "pop", "stars": 1 },
     { "title": "Together Through Time", "artist": "TWRP", "year": 2018 },
-    { "title": "The Optimist", "artist": "Cory Wong", "year": 2018 },
+    { "title": "The Optimist", "artist": "Cory Wong", "year": 2018, "genre": "funk" },
 
     { "title": "The Fearless Flyers II", "artist": "The Fearless Flyers", "year": 2019 },
-    { "title": "Chronologic", "artist": "Caravan Palace", "year": 2019 },
-    { "title": "Lettre infinie", "artist": "-M-", "year": 2019 },
+    { "title": "Chronologic", "artist": "Caravan Palace", "year": 2019, "fr": true },
+    { "title": "Lettre infinie", "artist": "-M-", "year": 2019, "fr": true, "listened": true, "genre": "pop" },
     { "title": "Spooky Scary Skeletons - Undead Tombstone Remix", "artist": "Andrew Gold", "year": 2019, "comment": "Meme", "listened": true, "genre": "electro" },
     { "title": "Immigrance", "artist": "Snarky Puppy", "year": 2019, "listened": true, "genre": "funk", "stars": 1, "fav": true },
     { "title": "Untitled album", "artist": "Rammstein", "year": 2019 },
     { "title": "Once Upon a Time in Hollywood OST", "artist": "Various Artists", "year": 2019 },
-    { "title": "Our Pathetic Age", "artist": "DJ Shadow", "year": 2019 },
+    { "title": "Our Pathetic Age", "artist": "DJ Shadow", "year": 2019, "listened": true, "genre": "rap", "comment": "First half meh, second half ok" },
     { "title": "Live in Minneapolis", "artist": "Cory Wong", "year": 2019 },
     { "title": "Norman Fucking Rockwell!", "artist": "Lana Del Rey", "year": 2019, "listened": true, "genre": "pop", "stars": 1, "fav": true },
     { "title": "Fine Line", "artist": "Harry Styles", "year": 2019, "listened": true, "genre": "pop" },
     { "title": "Return to Wherever", "artist": "TWRP", "year": 2019 },
     { "title": "When We All Fall Asleep, Where Do We Go?", "artist": "Billie Eilish", "year": 2019, "listened": true, "stars": 1, "genre": "pop" },
-    { "title": "Beautiful Vinyl Hunter", "artist": "Ashley Henry", "year": 2019, "listened": true, "stars": 1, "genre": "jazz" },
+    { "title": "Beautiful Vinyl Hunter", "artist": "Ashley Henry", "year": 2019, "listened": true, "stars": 1, "genre": "jazz", "comment": '"THE MIGHTY"' },
     { "title": "The TryForce", "artist": "Starbomb", "year": 2019, "listened": true, "genre": "rap", "fav": true, "stars": 1 },
     { "title": "Dub Tunes", "artist": "Tommy Guerrero / Trevor Jackson", "year": 2019 },
     { "title": "Thirst", "artist": "SebastiAn", "year": 2019, "listened": true, "genre": "electro", "fr": true, "stars": 1 },
@@ -2340,10 +2417,12 @@ const items = [
     { "title": "Trail Songs (Dawn)", "artist": "Cory Wong", "year": 2020, "listened": true, "genre": "folk" },
     { "title": "Trail Songs: Dusk", "artist": "Cory Wong", "year": 2020, "listened": true, "genre": "folk" },
     { "title": "The Striped Album", "artist": "Cory Wong", "year": 2020, "listened": true, "genre": "funk" },
+    { "title": "RTJ4", "artist": "Run the Jewels", "year": 2020 },
 
     { "title": "A State Of Trance 1000 - Celebration Mix", "artist": "Armin van Buuren", "year": 2021, "listened": true, "stars": 1, "genre": "electro" },
     { "title": "Zeal", "artist": "Bill Laurance", "year": 2021, "listened": true, "stars": 1, "genre": "jazz" },
-    { "title": "Crystal Throne", "artist": "Crystal Throne", "year": 2021, "listened": true, "genre": "metal", "fr": true },
+    { "title": "Brilliant Adventure (1992-2001)", "artist": "David Bowie", "year": 2021, "comment": 'Compilation, contains "Live at BBC Radio Theatre, London, 27th June 2000" (uncut bonus CD 3 from "Bowie at the Beeb"), "Ashes to Ashes" best version', "genre": "rock", "fav": true, "stars": 1, "listened": true, "perso": true },
+    { "title": "Crystal Throne", "artist": "Crystal Throne", "year": 2021, "listened": true, "genre": "metal", "fr": true, "comment": "YT MaxYME" },
     { "title": "Escapades", "artist": "Gaspard Augé", "year": 2021, "listened": true, "genre": "electro", "fr": true },
     { "title": "HALOHEAD", "artist": "KUNZITE, Ratatat", "year": 2021, "listened": true, "genre": "electro" },
     { "title": "Northeast Corridor: Steely Dan Live!", "artist": "Steely Dan", "year": 2021, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
@@ -2355,8 +2434,8 @@ const items = [
     { "title": "Monogramme", "artist": "Magenta", "year": 2021, "listened": true, "genre": "electro", "fr": true },
     { "title": "Born a Loser", "artist": "Myd", "year": 2021, "listened": true, "genre": "electro", "fr": true, "stars": 1 },
     { "title": "The Nearer the Fountain, More Pure the Stream Flows", "artist": "Damon Albarn", "year": 2021, "listened": true, "genre": "pop" },
-    { "title": "Meanwhile", "artist": "Gorillaz", "year": 2021, "listened": true, "genre": "rap" },
-    { "title": "Still Got It", "artist": "Alex Frankel", "year": 2021, "listened": true, "genre": "electro" },
+    { "title": "Meanwhile", "artist": "Gorillaz", "year": 2021, "listened": true, "genre": "rap", "comment": "EP" },
+    { "title": "Still Got It", "artist": "Alex Frankel", "year": 2021, "listened": true, "genre": "electro", "comment": "Single" },
 
     { "title": "The Fearless Flyers III", "artist": "The Fearless Flyers", "year": 2022, "listened": true, "stars": 1, "genre": "funk" },
     { "title": "Wong's Cafe", "artist": "Cory Wong", "year": 2022, "listened": true, "stars": 1, "genre": "funk" },
@@ -2369,8 +2448,13 @@ const items = [
     { "title": "Voilà (Instrumental tracks only)", "artist": "Mr. Oizo &amp; Phra", "year": 2022, "listened": true, "genre": "electro", "fr": true },
     { "title": "The Car", "artist": "Arctic Monkeys", "year": 2022, "listened": true, "genre": "pop" },
     { "title": "Rêvalité", "artist": "-M-", "year": 2022, "fr": true, "listened": true, "genre": "pop", "stars": 1, "comment": "Gail Ann Dorsey on bass" },
+    { "title": "Portals", "artist": "Kirk Hammett", "year": 2022, "comment": "EP", "listened": true, "genre": "metal", "stars": 1 },
+    { "title": "A Fusion of Two Hemispheres", "artist": "Sphere", "year": 2022, "listened": true, "genre": "pop", "comment": "Japan noise", "meh": true },
+    { "title": "Spirit of the Sea (Ritchie &amp; Candice Anniversary Home Session)", "artist": "Blackmore's Night", "year": 2022, "listened": true, "genre": "folk", "comment": "Single" },
+    { "title": "Schvitz", "artist": "Vulfpeck", "year": 2022, "genre": "funk" },
 
     { "title": "Cracker Island", "artist": "Gorillaz", "year": 2023 },
+    { "title": "72 Seasons", "artist": "Metallica", "year": 2023 },
 ];
 
 function generateLine(item) {
@@ -2401,7 +2485,7 @@ function generateLine(item) {
         tr.setAttribute('class', 'not-listened');
     }
     if (item['standard'] == true) {
-        title_td.innerHTML += ' <span class="jazz">&#10022;</span>';
+        title_td.innerHTML += ' <span class="jazz">&sung;</span>';
     }
     if (item['comment'] != null) {
         title_td.innerHTML += ' <span class="comment">[' + item['comment'] + ']</span>';
@@ -2422,13 +2506,13 @@ function generateLine(item) {
             else if (genre == 'soul' || genre == 'trip-hop' || genre == 'pop' || genre == 'funk') {
                 icon = '&#11043;';  // hexagon
             }
-            else if (genre == 'jazz' || genre == 'disco' || genre == 'reggae') {
+            else if (genre == 'jazz' || genre == 'disco' || genre == 'reggae' || genre == 'r-n-b') {
                 icon = '&#9670;';  // diamond
             }
             else if (genre == 'world' || genre == 'classical' || genre == 'swing' || genre == 'blues') {
                 icon = '&#9632;';  // square
             }
-            else if (genre == 'folk' || genre == 'electro' || genre == 'rap' || genre == 'chanson') {
+            else if (genre == 'folk' || genre == 'electro' || genre == 'rap' || genre == 'chanson' || genre == 'bluegrass' || genre == 'new-wave') {
                 icon = '&#9658;';  // triangle right
             }
             title_td.innerHTML = '<span class="genre ' + genre + '">' + icon + '</span> ' + title_td.innerHTML;
@@ -2451,24 +2535,239 @@ function get_random_item() {
     }
 }
 
-function filter_items(key, value) {
-    if (key == null && value == null) {
-        update_table(items);
-        current_filters = [];
-    } else {
-        current_filters = current_filters.filter(key_value => key_value[0] != key);
-        current_filters.push([key, value]);
-        var res = items;
-        current_filters.forEach(key_value => {
-            res = res.filter(function(item) {
-                if (key_value[1] == false || key_value[1] == null) {
-                    return item[key_value[0]] == false || item[key_value[0]] == null;
-                }
-                return item[key_value[0]] == key_value[1];
-            });
-        });
-        update_table(res);
+function filter_items(filter_item, value) {
+    var filter_span = document.getElementById(filter_item + '-filter');
+    if (filter_item == 'genres') {
+        filter_span = document.getElementById('genres-filter-multiple');
     }
+    var innerHTML_value = value;
+    if (filter_item == 'stars') {
+        if (value == 0) {
+            innerHTML_value = 'none';
+        } else if (value == 1) {
+            innerHTML_value = '★';
+        } else if (value == 2) {
+            innerHTML_value = '★★';
+        } else if (value == 3) {
+            innerHTML_value = '★★★';
+        }
+    }
+
+    // update selected filter link
+    if (filter_item == 'genres') {
+        const filter_links = document.querySelectorAll('[id="genres-filter-multiple"] a');
+        filter_links.forEach(filter_link => {
+            if (value == 'all') {
+                filter_link.setAttribute('class', '');
+                if (filter_link.innerHTML == 'all') {
+                    filter_link.setAttribute('class', 'selected');
+                }
+            } else {
+                var current_genre = filter_link.innerHTML;
+                if (filter_link.innerHTML != 'all' && filter_link.innerHTML != 'none') {
+                    current_genre = filter_link.innerHTML.split('</span>')[1].replace(' ', '');
+                }
+                if (current_genre == value) {
+                    filter_link.setAttribute('class', 'selected');
+                } else {
+                    filter_link.setAttribute('class', 'not-selected');
+                }
+            }
+        });
+        var current_genres_selected = document.querySelectorAll('[id="genres-filter-multiple"] a.selected');
+        var current_genres = [];
+        if (value != 'all') {
+            current_genres_selected.forEach(item => {
+                if (item.innerHTML == 'none') {
+                    current_genres.push('none');
+                } else {
+                    current_genres.push(item.innerHTML.split('</span>')[1].replace(' ', ''));
+                }
+            });
+        }
+    } else {
+        for (var i=0; i < filter_span.children.length; i++) {
+            const filter_link = filter_span.children[i];
+            if (filter_item == 'stars') {
+                if (filter_link.innerHTML == 'all' || filter_link.innerHTML == 'none') {
+                    filter_link.setAttribute('class', '');
+                } else {
+                    filter_link.setAttribute('class', 'star');
+                }
+            } else {
+                filter_link.setAttribute('class', '');
+            }
+            if (filter_link.innerHTML == innerHTML_value) {
+                filter_link.setAttribute('class', filter_link.getAttribute('class') + ' selected');
+            }
+        };
+    }
+
+    current_filters = current_filters.filter(item => item[0] != filter_item);
+    if (value != 'all') {
+        if (filter_item == 'genres') {
+            current_filters.push([filter_item, current_genres]);
+        } else {
+            current_filters.push([filter_item, value]);
+        }
+    }
+    var res = items;
+    for (var i=0; i < current_filters.length; i++) {
+        const current_filter = current_filters[i];
+        const filter_key = current_filter[0];
+        const filter_value = current_filter[1];
+        res = res.filter(function (item) {
+            if (filter_value == 'yes') {
+                return item[filter_key] == true;
+            } else if (filter_value == 'no') {
+                return item[filter_key] == false || item[filter_key] == null;
+            } else if (filter_key == 'stars') {
+                if (filter_value == 0) {
+                    return item['stars'] == 0 || item['stars'] == null;
+                } else {
+                    return item['stars'] == filter_value;
+                }
+            } else if (filter_key == 'genres') {
+                var genre_found = false;
+                filter_value.forEach(genre => {
+                    if (genre == 'none' && item['genre'] == null) {
+                        genre_found = true;
+                    } else if (genre == item['genre']) {
+                        genre_found = true;
+                    }
+                });
+                return genre_found;
+            }
+        });
+    }
+    update_table(res);
+}
+
+function add_filter_all_yes_no(filter_item) {
+    const filters_p = document.getElementById('filters');
+    const filter_span = document.createElement('span');
+    filter_span.setAttribute('id', filter_item + '-filter');
+    var filter_title = filter_item.charAt(0).toUpperCase() + filter_item.slice(1);
+    if (filter_item == 'fr') {
+        filter_title += ' <img class="flag" src="flag-fr.png" />';
+    } else if (filter_item == 'perso') {
+        filter_title += ' <span class="heart">&hearts;</span>';
+    } else if (filter_item == 'standard') {
+        filter_title += ' <span class="jazz">&sung;</span>';
+    }
+    filter_span.innerHTML = filter_title + ': ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'' + filter_item + '\', \'all\');" class="selected">all</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'' + filter_item + '\', \'yes\');">yes</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'' + filter_item + '\', \'no\');">no</a>] ';
+    filters_p.appendChild(filter_span);
+}
+
+function reset_all_filters() {
+    const filter_spans = document.querySelectorAll("[id$=-filter]");
+    filter_spans.forEach(item => {
+        for (var i=0; i < item.children.length; i++) {
+            const filter_link = item.children[i];
+            const filter_class = filter_link.getAttribute('class');
+            if (filter_class != null) {
+                if (filter_class.includes('star')) {
+                    filter_link.setAttribute('class', 'star');
+                } else if (filter_class.includes('perso')) {
+                    filter_link.setAttribute('class', 'perso');
+                } else if (filter_class.includes('flag')) {
+                    filter_link.setAttribute('class', 'flag');
+                }
+            } else {
+                filter_link.setAttribute('class', '');
+            }
+            if (filter_link.innerHTML == 'all') {
+                filter_link.setAttribute('class', 'selected');
+            }
+        }
+    });
+    var genres_selected = document.querySelectorAll('[id="genres-filter-multiple"] a.selected');
+    genres_selected.forEach(item => {
+        item.setAttribute('class', '');
+    });
+    var genres_not_selected = document.querySelectorAll('[id="genres-filter-multiple"] a.not-selected');
+    genres_not_selected.forEach(item => {
+        item.setAttribute('class', '');
+    });
+    var genres_links = document.querySelectorAll('[id="genres-filter-multiple"] a');
+    genres_links.forEach(item => {
+        if (item.innerHTML == 'all') {
+            item.setAttribute('class', 'selected');
+        }
+    });
+
+    current_filters = [];
+    update_table(items);
+}
+
+function add_stars_filter() {
+    const filters_p = document.getElementById('filters');
+    const filter_span = document.createElement('span');
+    filter_span.setAttribute('id', 'stars-filter');
+    filter_span.innerHTML = 'Stars: ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'stars\', \'all\');" class="selected">all</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'stars\', 0);">none</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'stars\', 1);" class="star">&#9733;</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'stars\', 2);" class="star">&#9733;&#9733;</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'stars\', 3);" class="star">&#9733;&#9733;&#9733;</a>] ';
+    filters_p.appendChild(filter_span);
+}
+
+function add_genres_filter() {
+    const filters_p = document.getElementById('filters');
+    const filter_span = document.createElement('span');
+    filter_span.setAttribute('id', 'genres-filter-multiple');
+    filter_span.innerHTML = 'Genres: ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'all\');" class="selected">all</a>]<br />';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'none\');">none</a>]';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'rock\');"><span class="genre rock">&#9650;</span> rock</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'hard-rock\');"><span class="genre hard-rock">&#9650;</span> hard-rock</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'rock-n-roll\');"><span class="genre rock-n-roll">&#9650;</span> rock-n-roll</a>]<br />';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'punk\');"><span class="genre punk">&#9650;</span> punk</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'grunge\');"><span class="genre grunge">&#9650;</span> grunge</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'metal\');"><span class="genre metal">&#9650;</span> metal</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'country\');"><span class="genre country">&#9650;</span> country</a>]<br />';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'soul\');"><span class="genre soul">&#11043;</span> soul</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'trip-hop\');"><span class="genre trip-hop">&#11043;</span> trip-hop</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'pop\');"><span class="genre pop">&#11043;</span> pop</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'funk\');"><span class="genre funk">&#11043;</span> funk</a>]<br />';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'jazz\');"><span class="genre jazz">&#9670;</span> jazz</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'disco\');"><span class="genre disco">&#9670;</span> disco</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'reggae\');"><span class="genre reggae">&#9670;</span> reggae</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'r-n-b\');"><span class="genre r-n-b">&#9670;</span> r-n-b</a>]<br />';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'world\');"><span class="genre world">&#9632;</span> world</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'classical\');"><span class="genre classical">&#9632;</span> classical</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'swing\');"><span class="genre swing">&#9632;</span> swing</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'blues\');"><span class="genre blues">&#9632;</span> blues</a>]<br />';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'folk\');"><span class="genre folk">&#9658;</span> folk</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'electro\');"><span class="genre electro">&#9658;</span> electro</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'rap\');"><span class="genre rap">&#9658;</span> rap</a>] ';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'chanson\');"><span class="genre chanson">&#9658;</span> chanson</a>]<br />';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'piano\');"><span class="emoticon piano">&#127929;</span> piano</a>]';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'bluegrass\');"><span class="genre bluegrass">&#9658;</span> bluegrass</a>]';
+    filter_span.innerHTML += '[<a href="#/" onclick="filter_items(\'genres\', \'new-wave\');"><span class="genre new-wave">&#9658;</span> new-wave</a>]';
+    filters_p.appendChild(filter_span);
+}
+
+function update_filters() {
+    const filters_p = document.getElementById('filters');
+    filters_p.innerHTML = 'Filters: [<a href="#/" onclick="reset_all_filters();">reset all</a>]<br />';
+    add_filter_all_yes_no('listened');
+    filters_p.innerHTML += '<br />';
+    add_stars_filter();
+    filters_p.innerHTML += '<br />';
+    add_filter_all_yes_no('fav');
+    add_filter_all_yes_no('meh');
+    filters_p.innerHTML += '<br />';
+    add_filter_all_yes_no('perso');
+    add_filter_all_yes_no('fr');
+    filters_p.innerHTML += '<br />';
+    add_filter_all_yes_no('standard');
+    filters_p.innerHTML += '<br />';
+    add_genres_filter();
 }
 
 const items_table = document.getElementById('items');
@@ -2501,6 +2800,7 @@ function update_table(item_list) {
     });
 }
 update_table(items);
+update_filters();
 
 // Number of items in total
 const items_number = document.getElementById('items-number');
