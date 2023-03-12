@@ -1,0 +1,17 @@
+<p>Sources:</p>
+<ul>
+    <li>Personal favorites</li>
+    <li>RollingStone.com - "The 500 Greatest Albums of All Time"</li>
+    <li>1001 Albums You Must Hear Before You Die - Robert Dimery</li>
+    <li>Reddit /r/music recommandations</li>
+    <li>Motown 1's, James Jamerson bass lines</li>
+    <li>Albums on Bandcamp (virt, LAPFOX, etc.)</li>
+    <li>Guardians of the Galaxy tapes</li>
+    <li>Time.com All-TIME 100 (2006)</li>
+    <li>The 50 Greatest Pieces of Classical Music</li>
+    <li>Ed Banger Records LPs</li>
+    <li>Meme songs</li>
+    <li>Tarantino films OSTs</li>
+    <li>Spotify Sweet Soul Chillout playlist</li>
+    <li>Incontournables de la chanson française</li>
+</ul>

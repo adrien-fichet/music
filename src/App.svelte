@@ -1,0 +1,29 @@
+<script lang="ts">
+  import Sources from './lib/Sources.svelte'
+  import Todo from './lib/Todo.svelte'
+  import NumberOfItems from './lib/NumberOfItems.svelte'
+  import RandomItem from './lib/RandomItem.svelte'
+  import Filters from './lib/Filters.svelte'
+  import NumberOfItemsByDecade from './lib/NumberOfItemsByDecade.svelte'
+  import Table from './lib/Table.svelte'
+  import { items } from './data'
+  import type Item from './item'
+
+  let current_items: Item[] = items
+
+  const items_not_listened_yet: Item[] = items.filter(item => {
+    return item.listened == null || item.listened == false
+  })
+</script>
+
+<main>
+  <NumberOfItems items={items} /> 
+  <RandomItem {items_not_listened_yet} />
+  <Filters 
+    bind:current_items={current_items} 
+    items={items} />
+  <Table bind:current_items={current_items} /> 
+  <Sources /> 
+  <Todo /> 
+  <NumberOfItemsByDecade {items} /> 
+</main>
