@@ -16,5 +16,5 @@
 </script>
 
 <p>
-  <a href="#/" on:click={get_random_item}>One random item (not yet listened):</a> {random_item} 
+  <a href="#/" on:click={get_random_item}>One random item (not yet listened)</a>: {random_item}
 </p>

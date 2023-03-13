@@ -1,11 +1,26 @@
+$font-size: 0.9rem;
+$font-size-comment: 0.75rem;
+$color: black;
+$border-color: silver;
+
+@font-face {
+    font-family: "Inter var";
+    font-weight: 300;
+    font-display: block;
+    font-style: normal;
+    font-named-instance: "Regular";
+    src:url("./Inter-roman-latin.var.woff2") format("woff2");
+}
+
 body {
-    font-size: x-small;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: $font-size;
+    font-family: "Inter var", Verdana, Geneva, Tahoma, sans-serif;
     margin: 3px;
+    color: $color;
 }
 
 a {
-    color: black;
+    color: $color;
 }
 
 table {
@@ -13,7 +28,7 @@ table {
 }
 
 tr {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid $border-color;
 }
 
 th, td {
@@ -49,13 +64,13 @@ th, td {
 
 .genre {
     font-weight: normal;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    /*text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;*/
 }
 
 .comment {
     font-style: italic;
     font-weight: normal;
-    font-size: xx-small;
+    font-size: $font-size-comment;
     color: gray;
 }
 
