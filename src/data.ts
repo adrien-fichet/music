@@ -777,7 +777,7 @@ const items: Item[] = [
     { "title": "Aja", "artist": "Steely Dan", "year": 1977, "listened": true, "fav": true, "stars": 2, "genre": "rock" },
     { "title": "Low", "artist": "David Bowie", "year": 1977, "listened": true, "stars": 1, "genre": "rock" },
     { "title": '"Heroes"', "artist": "David Bowie", "year": 1977, "listened": true, "genre": "rock", "stars": 1, "comment": `"Beauty and the Beast", "'Heroes'"` },
-    { "title": "More Stuff", "artist": "Stuff", "year": 1977 },
+    { "title": "More Stuff", "artist": "Stuff", "year": 1977, "listened": true, "genre": "funk", "stars": 2, "fav": true, "comment": '"Subway"' },
     { "title": "Supernature (Cerrone 3)", "artist": "Cerrone", "year": 1977, "fr": true, "genre": "disco", "comment": '"Supernature", "Give Me Love" (décembre 2022, animations de Noël au château de Saint-Priest)', "listened": true, "stars": 1, "fav": true },
     { "title": "Back Together Again", "artist": "Alphonse Mouzon", "year": 1977 },
     { "title": "Ram Jam", "artist": "Ram Jam", "year": 1977, "comment": '"Black Betty"' },
