@@ -4,17 +4,17 @@ $color: black;
 $border-color: silver;
 
 @font-face {
-    font-family: "Roboto";
+    font-family: "Inter var";
     font-weight: 300;
     font-display: block;
     font-style: normal;
     font-named-instance: "Regular";
-    src:url("./roboto-regular.woff2") format("woff2");
+    src:url("./Inter-roman-latin.var.woff2") format("woff2");
 }
 
 body {
     font-size: $font-size;
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Inter var", Verdana, Geneva, Tahoma, sans-serif;
     margin: 3px;
     color: $color;
 }
