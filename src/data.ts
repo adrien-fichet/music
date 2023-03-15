@@ -886,7 +886,7 @@ const items: Item[] = [
     { "title": "Songs of Love", "artist": "Anita Ward", "year": 1979 },
     { "title": "Communiqué", "artist": "Dire Straits", "year": 1979, "listened": true, "fav": true, "perso": true, "stars": 2, "genre": "rock", "comment": '"Once Upon a Time in the West", "Lady Writer"' },
     { "title": "Off the Wall", "artist": "Michael Jackson", "year": 1979, "listened": true, "genre": "disco", "stars": 1, "fav": true },
-    { "title": "Stuff It", "artist": "Stuff", "year": 1979 },
+    { "title": "Stuff It", "artist": "Stuff", "year": 1979, "listened": true, "genre": "funk", "stars": 2, "fav": true, "comment": `"Since You've Been Gone (Baby, Baby, Sweet Baby)", "Always"` },
     { "title": "Ladies' Night", "artist": "Kool and the Gang", "year": 1979, "listened": true, "genre": "funk", "fav": true, "stars": 1 },
     { "title": "The B-52's", "artist": "The B-52's", "year": 1979, "listened": true, "genre": "rock" },
     { "title": "Discovery", "artist": "Electric Light Orchestra", "year": 1979 },
