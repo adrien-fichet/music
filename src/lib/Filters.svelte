@@ -25,7 +25,13 @@
 
     // Apply filters
     for (const [key, value] of Object.entries(current_filters)) {
-      if (value == false || value == "none" || value == 0) {
+      if (key == "year") {
+        if (value == "0") {
+          current_items = current_items.filter(item => item[key] < 1950)
+        } else {
+          current_items = current_items.filter(item => ("" + item[key]).startsWith("" + value))
+        }
+      } else if (value == false || value == "none" || value == 0) {
         current_items = current_items.filter(item => {
           return item[key] == null || item[key] == false || item[key] == 0
         })
@@ -85,36 +91,51 @@
   [<a href="#/" id="filter-genre-all" on:click={() => filter_items("genre", "all")} class="selected">all</a>]
   [<a href="#/" id="filter-genre-none" on:click={() => filter_items("genre", "none")}>none</a>]
   <br />
-  [<a href="#/" id="filter-genre-rock"on:click={() => filter_items("genre", "rock")}><span class="genre rock">&#9650;</span> rock</a>]
-  [<a href="#/" id="filter-genre-hard-rock"on:click={() => filter_items("genre", "hard-rock")}><span class="genre hard-rock">&#9650;</span> hard-rock</a>]
-  [<a href="#/" id="filter-genre-rock-n-roll"on:click={() => filter_items("genre", "rock-n-roll")}><span class="genre rock-n-roll">&#9650;</span> rock-n-roll</a>]
+  [<a href="#/" id="filter-genre-rock" on:click={() => filter_items("genre", "rock")}><span class="genre rock">&#9650;</span> rock</a>]
+  [<a href="#/" id="filter-genre-hard-rock" on:click={() => filter_items("genre", "hard-rock")}><span class="genre hard-rock">&#9650;</span> hard-rock</a>]
+  [<a href="#/" id="filter-genre-rock-n-roll" on:click={() => filter_items("genre", "rock-n-roll")}><span class="genre rock-n-roll">&#9650;</span> rock-n-roll</a>]
   <br />
-  [<a href="#/" id="filter-genre-punk"on:click={() => filter_items("genre", "punk")}><span class="genre punk">&#9650;</span> punk</a>]
-  [<a href="#/" id="filter-genre-grunge"on:click={() => filter_items("genre", "grunge")}><span class="genre grunge">&#9650;</span> grunge</a>]
-  [<a href="#/" id="filter-genre-metal"on:click={() => filter_items("genre", "metal")}><span class="genre metal">&#9650;</span> metal</a>]
-  [<a href="#/" id="filter-genre-country"on:click={() => filter_items("genre", "country")}><span class="genre country">&#9650;</span> country</a>]
+  [<a href="#/" id="filter-genre-punk" on:click={() => filter_items("genre", "punk")}><span class="genre punk">&#9650;</span> punk</a>]
+  [<a href="#/" id="filter-genre-grunge" on:click={() => filter_items("genre", "grunge")}><span class="genre grunge">&#9650;</span> grunge</a>]
+  [<a href="#/" id="filter-genre-metal" on:click={() => filter_items("genre", "metal")}><span class="genre metal">&#9650;</span> metal</a>]
+  [<a href="#/" id="filter-genre-country" on:click={() => filter_items("genre", "country")}><span class="genre country">&#9650;</span> country</a>]
   <br />
-  [<a href="#/" id="filter-genre-soul"on:click={() => filter_items("genre", "soul")}><span class="genre soul">&#11043;</span> soul</a>]
-  [<a href="#/" id="filter-genre-trip-hop"on:click={() => filter_items("genre", "trip-hop")}><span class="genre trip-hop">&#11043;</span> trip-hop</a>]
-  [<a href="#/" id="filter-genre-pop"on:click={() => filter_items("genre", "pop")}><span class="genre pop">&#11043;</span> pop</a>]
-  [<a href="#/" id="filter-genre-funk"on:click={() => filter_items("genre", "funk")}><span class="genre funk">&#11043;</span> funk</a>]
+  [<a href="#/" id="filter-genre-soul" on:click={() => filter_items("genre", "soul")}><span class="genre soul">&#11043;</span> soul</a>]
+  [<a href="#/" id="filter-genre-trip-hop" on:click={() => filter_items("genre", "trip-hop")}><span class="genre trip-hop">&#11043;</span> trip-hop</a>]
+  [<a href="#/" id="filter-genre-pop" on:click={() => filter_items("genre", "pop")}><span class="genre pop">&#11043;</span> pop</a>]
+  [<a href="#/" id="filter-genre-funk" on:click={() => filter_items("genre", "funk")}><span class="genre funk">&#11043;</span> funk</a>]
   <br />
-  [<a href="#/" id="filter-genre-jazz"on:click={() => filter_items("genre", "jazz")}><span class="genre jazz">&#9670;</span> jazz</a>]
-  [<a href="#/" id="filter-genre-disco"on:click={() => filter_items("genre", "disco")}><span class="genre disco">&#9670;</span> disco</a>]
-  [<a href="#/" id="filter-genre-reggae"on:click={() => filter_items("genre", "reggae")}><span class="genre reggae">&#9670;</span> reggae</a>]
-  [<a href="#/" id="filter-genre-r-n-b"on:click={() => filter_items("genre", "r-n-b")}><span class="genre r-n-b">&#9670;</span> r-n-b</a>]
+  [<a href="#/" id="filter-genre-jazz" on:click={() => filter_items("genre", "jazz")}><span class="genre jazz">&#9670;</span> jazz</a>]
+  [<a href="#/" id="filter-genre-disco" on:click={() => filter_items("genre", "disco")}><span class="genre disco">&#9670;</span> disco</a>]
+  [<a href="#/" id="filter-genre-reggae" on:click={() => filter_items("genre", "reggae")}><span class="genre reggae">&#9670;</span> reggae</a>]
+  [<a href="#/" id="filter-genre-r-n-b" on:click={() => filter_items("genre", "r-n-b")}><span class="genre r-n-b">&#9670;</span> r-n-b</a>]
   <br />
-  [<a href="#/" id="filter-genre-world"on:click={() => filter_items("genre", "world")}><span class="genre world">&#9632;</span> world</a>]
-  [<a href="#/" id="filter-genre-classical"on:click={() => filter_items("genre", "classical")}><span class="genre classical">&#9632;</span> classical</a>]
-  [<a href="#/" id="filter-genre-swing"on:click={() => filter_items("genre", "swing")}><span class="genre swing">&#9632;</span> swing</a>]
-  [<a href="#/" id="filter-genre-blues"on:click={() => filter_items("genre", "blues")}><span class="genre blues">&#9632;</span> blues</a>]
+  [<a href="#/" id="filter-genre-world" on:click={() => filter_items("genre", "world")}><span class="genre world">&#9632;</span> world</a>]
+  [<a href="#/" id="filter-genre-classical" on:click={() => filter_items("genre", "classical")}><span class="genre classical">&#9632;</span> classical</a>]
+  [<a href="#/" id="filter-genre-swing" on:click={() => filter_items("genre", "swing")}><span class="genre swing">&#9632;</span> swing</a>]
+  [<a href="#/" id="filter-genre-blues" on:click={() => filter_items("genre", "blues")}><span class="genre blues">&#9632;</span> blues</a>]
   <br />
-  [<a href="#/" id="filter-genre-folk"on:click={() => filter_items("genre", "folk")}><span class="genre folk">&#9658;</span> folk</a>]
-  [<a href="#/" id="filter-genre-electro"on:click={() => filter_items("genre", "electro")}><span class="genre electro">&#9658;</span> electro</a>]
-  [<a href="#/" id="filter-genre-rap"on:click={() => filter_items("genre", "rap")}><span class="genre rap">&#9658;</span> rap</a>]
-  [<a href="#/" id="filter-genre-chanson"on:click={() => filter_items("genre", "chanson")}><span class="genre chanson">&#9658;</span> chanson</a>]
+  [<a href="#/" id="filter-genre-folk" on:click={() => filter_items("genre", "folk")}><span class="genre folk">&#9658;</span> folk</a>]
+  [<a href="#/" id="filter-genre-electro" on:click={() => filter_items("genre", "electro")}><span class="genre electro">&#9658;</span> electro</a>]
+  [<a href="#/" id="filter-genre-rap" on:click={() => filter_items("genre", "rap")}><span class="genre rap">&#9658;</span> rap</a>]
+  [<a href="#/" id="filter-genre-chanson" on:click={() => filter_items("genre", "chanson")}><span class="genre chanson">&#9658;</span> chanson</a>]
   <br />
-  [<a href="#/" id="filter-genre-piano"on:click={() => filter_items("genre", "piano")}><span class="emoticon piano">&#127929;</span> piano</a>]
-  [<a href="#/" id="filter-genre-bluegrass"on:click={() => filter_items("genre", "bluegrass")}><span class="genre bluegrass">&#9658;</span> bluegrass</a>]
-  [<a href="#/" id="filter-genre-new-wave"on:click={() => filter_items("genre", "new-wave")}><span class="genre new-wave">&#9658;</span> new-wave</a>]
+  [<a href="#/" id="filter-genre-piano" on:click={() => filter_items("genre", "piano")}><span class="emoticon piano">&#127929;</span> piano</a>]
+  [<a href="#/" id="filter-genre-bluegrass" on:click={() => filter_items("genre", "bluegrass")}><span class="genre bluegrass">&#9658;</span> bluegrass</a>]
+  [<a href="#/" id="filter-genre-new-wave" on:click={() => filter_items("genre", "new-wave")}><span class="genre new-wave">&#9658;</span> new-wave</a>]
+  <br />
+  Year:
+  [<a href="#/" id="filter-year-all" on:click={() => filter_items("year", "all")} class="selected">all</a>]
+  <br />
+  [<a href="#/" id="filter-year-0" on:click={() => filter_items("year", "0")}>&lt; 1950</a>]
+  [<a href="#/" id="filter-year-195" on:click={() => filter_items("year", "195")}>1950s</a>]
+  [<a href="#/" id="filter-year-196" on:click={() => filter_items("year", "196")}>1960s</a>]
+  <br />
+  [<a href="#/" id="filter-year-197" on:click={() => filter_items("year", "197")}>1970s</a>]
+  [<a href="#/" id="filter-year-198" on:click={() => filter_items("year", "198")}>1980s</a>]
+  [<a href="#/" id="filter-year-199" on:click={() => filter_items("year", "199")}>1990s</a>]
+  <br />
+  [<a href="#/" id="filter-year-200" on:click={() => filter_items("year", "200")}>2000s</a>]
+  [<a href="#/" id="filter-year-201" on:click={() => filter_items("year", "201")}>2010s</a>]
+  [<a href="#/" id="filter-year-202" on:click={() => filter_items("year", "202")}>2020s</a>]
 </p>
