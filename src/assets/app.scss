@@ -5,7 +5,7 @@ $border-color: silver;
 
 @font-face {
     font-family: "Inter var";
-    font-weight: 300;
+    font-weight: 350;
     font-display: block;
     font-style: normal;
     font-named-instance: "Regular";
@@ -118,4 +118,9 @@ th, td {
 
 .not-selected {
     color: gray;
+}
+
+.spotify {
+    width: 15px;
+    height: 15px;
 }
