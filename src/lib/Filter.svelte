@@ -13,4 +13,7 @@
     id={"filter-" + id} 
     on:click={onclick} 
     class={selected ? class_name + " selected" : class_name}
->{#if id.startsWith("genre-")}<span class="{Icon.class_from_genre(text)} {text}">{Icon.from_genre(text)} </span>{/if}{text}</a>]
+>
+{#if id.startsWith("genre-") && !(text.endsWith("all") || text.endsWith("none"))}
+<span class="{Icon.class_from_genre(text)} {text}">{Icon.from_genre(text)} </span>
+{/if}{text}</a>]
