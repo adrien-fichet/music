@@ -10,7 +10,7 @@
   import type Item from './item'
   import { onMount } from 'svelte'
 
-  let current_items: Item[] = items
+  let current_items: Item[] = items.filter(item => ("" + item.year).startsWith("202"))
 
   const items_not_listened_yet: Item[] = items.filter(item => {
     return item.listened == null || item.listened == false

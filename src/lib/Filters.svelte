@@ -125,7 +125,7 @@
   [<a href="#/" id="filter-genre-new-wave" on:click={() => filter_items("genre", "new-wave")}><span class="genre new-wave">&#9658;</span> new-wave</a>]
   <br />
   Year:
-  [<a href="#/" id="filter-year-all" on:click={() => filter_items("year", "all")} class="selected">all</a>]
+  [<a href="#/" id="filter-year-all" on:click={() => filter_items("year", "all")}>all</a>]
   <br />
   [<a href="#/" id="filter-year-0" on:click={() => filter_items("year", "0")}>&lt; 1950</a>]
   [<a href="#/" id="filter-year-195" on:click={() => filter_items("year", "195")}>1950s</a>]
@@ -137,5 +137,5 @@
   <br />
   [<a href="#/" id="filter-year-200" on:click={() => filter_items("year", "200")}>2000s</a>]
   [<a href="#/" id="filter-year-201" on:click={() => filter_items("year", "201")}>2010s</a>]
-  [<a href="#/" id="filter-year-202" on:click={() => filter_items("year", "202")}>2020s</a>]
+  [<a href="#/" id="filter-year-202" on:click={() => filter_items("year", "202")} class="selected">2020s</a>]
 </p>
