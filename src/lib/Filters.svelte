@@ -1,11 +1,12 @@
 <script lang="ts">
   import flag_fr from '../assets/flag-fr.png'
+  import Filter from './Filter.svelte'
   import type Item from '../item'
 
   export let items: Item[]
   export let current_items: Item[]
 
-  let current_filters = {}
+  let current_filters = {"year": "202"}
 
   function filter_items(key: string, value: boolean|string|number) {
     // Reset the list of items
@@ -50,92 +51,92 @@
 </script>
 
 <p>
-  Filters: [<a href="#/" on:click={reset_filters}>Reset all</a>]
+  Filters: <Filter id="reset" onclick={reset_filters} text={"Reset all"} />
   <br />
   Listened:
-  [<a href="#/" id="filter-listened-all" on:click={() => filter_items("listened", "all")} class="selected">all</a>]
-  [<a href="#/" id="filter-listened-true" on:click={() => filter_items("listened", true)}>yes</a>]
-  [<a href="#/" id="filter-listened-false" on:click={() => filter_items("listened", false)}>no</a>]
+  <Filter id="listened-all" onclick={() => filter_items("listened", "all")} text={"all"} selected={true} />
+  <Filter id="listened-true" onclick={() => filter_items("listened", true)} text={"yes"} />
+  <Filter id="listened-false" onclick={() => filter_items("listened", false)} text={"no"} />
   <br />
   Stars:
-  [<a href="#/" id="filter-stars-all" on:click={() => filter_items("stars", "all")} class="selected">all</a>]
-  [<a href="#/" id="filter-stars-none" on:click={() => filter_items("stars", "none")}>none</a>]
-  [<a href="#/" id="filter-stars-1" on:click={() => filter_items("stars", 1)} class="star">★</a>]
-  [<a href="#/" id="filter-stars-2" on:click={() => filter_items("stars", 2)} class="star">★★</a>]
-  [<a href="#/" id="filter-stars-3" on:click={() => filter_items("stars", 3)} class="star">★★★</a>]
+  <Filter id="stars-all" onclick={() => filter_items("stars", "all")} text={"all"} selected={true} />
+  <Filter id="stars-none" onclick={() => filter_items("stars", "none")} text={"none"} />
+  <Filter id="stars-1" onclick={() => filter_items("stars", 1)} class_name={"star"} text={"★"} />
+  <Filter id="stars-2" onclick={() => filter_items("stars", 2)} class_name={"star"} text={"★★"} />
+  <Filter id="stars-3" onclick={() => filter_items("stars", 3)} class_name={"star"} text={"★★★"} />
   <br />
   Fav:
-  [<a href="#/" id="filter-fav-all" on:click={() => filter_items("fav", "all")} class="selected">all</a>]
-  [<a href="#/" id="filter-fav-true" on:click={() => filter_items("fav", true)}>yes</a>]
-  [<a href="#/" id="filter-fav-false" on:click={() => filter_items("fav", false)}>no</a>]
+  <Filter id="fav-all" onclick={() => filter_items("fav", "all")} text={"all"} selected={true} />
+  <Filter id="fav-true" onclick={() => filter_items("fav", true)} text={"yes"} />
+  <Filter id="fav-false" onclick={() => filter_items("fav", false)} text={"no"} />
   Meh:
-  [<a href="#/" id="filter-meh-all" on:click={() => filter_items("meh", "all")} class="selected">all</a>]
-  [<a href="#/" id="filter-meh-true" on:click={() => filter_items("meh", true)}>yes</a>]
-  [<a href="#/" id="filter-meh-false" on:click={() => filter_items("meh", false)}>no</a>]
+  <Filter id="meh-all" onclick={() => filter_items("meh", "all")} text={"all"} selected={true} />
+  <Filter id="meh-true" onclick={() => filter_items("meh", true)} text={"yes"} />
+  <Filter id="meh-false" onclick={() => filter_items("meh", false)} text={"no"} />
   <br />
   Perso <span class="heart">&hearts;</span>:
-  [<a href="#/" id="filter-perso-all" on:click={() => filter_items("perso", "all")} class="selected">all</a>]
-  [<a href="#/" id="filter-perso-true" on:click={() => filter_items("perso", true)}>yes</a>]
-  [<a href="#/" id="filter-perso-false" on:click={() => filter_items("perso", false)}>no</a>]
+  <Filter id="perso-all" onclick={() => filter_items("perso", "all")} text={"all"} selected={true} />
+  <Filter id="perso-true" onclick={() => filter_items("perso", true)} text={"yes"} />
+  <Filter id="perso-false" onclick={() => filter_items("perso", false)} text={"no"} />
   Fr <img class="flag" src={flag_fr} alt="fr" />:
-  [<a href="#/" id="filter-fr-all" on:click={() => filter_items("fr", "all")} class="selected">all</a>]
-  [<a href="#/" id="filter-fr-true" on:click={() => filter_items("fr", true)}>yes</a>]
-  [<a href="#/" id="filter-fr-false" on:click={() => filter_items("fr", false)}>no</a>]
+  <Filter id="fr-all" onclick={() => filter_items("fr", "all")} text={"all"} selected={true} />
+  <Filter id="fr-true" onclick={() => filter_items("fr", true)} text={"yes"} />
+  <Filter id="fr-false" onclick={() => filter_items("fr", false)} text={"no"} />
   <br />
   Standard <span class="jazz">&sung;</span>:
-  [<a href="#/" id="filter-standard-all" on:click={() => filter_items("standard", "all")} class="selected">all</a>]
-  [<a href="#/" id="filter-standard-true" on:click={() => filter_items("standard", true)}>yes</a>]
-  [<a href="#/" id="filter-standard-false" on:click={() => filter_items("standard", false)}>no</a>]
+  <Filter id="standard-all" onclick={() => filter_items("standard", "all")} text={"all"} selected={true} />
+  <Filter id="standard-true" onclick={() => filter_items("standard", true)} text={"yes"} />
+  <Filter id="standard-false" onclick={() => filter_items("standard", false)} text={"no"} />
   <br />
   Genres:
-  [<a href="#/" id="filter-genre-all" on:click={() => filter_items("genre", "all")} class="selected">all</a>]
-  [<a href="#/" id="filter-genre-none" on:click={() => filter_items("genre", "none")}>none</a>]
+  <Filter id="genre-all" onclick={() => filter_items("genre", "all")} text={"all"} selected={true} />
+  <Filter id="genre-none" onclick={() => filter_items("genre", "none")} text={"none"} />
   <br />
-  [<a href="#/" id="filter-genre-rock" on:click={() => filter_items("genre", "rock")}><span class="genre rock">&#9650;</span> rock</a>]
-  [<a href="#/" id="filter-genre-hard-rock" on:click={() => filter_items("genre", "hard-rock")}><span class="genre hard-rock">&#9650;</span> hard-rock</a>]
-  [<a href="#/" id="filter-genre-rock-n-roll" on:click={() => filter_items("genre", "rock-n-roll")}><span class="genre rock-n-roll">&#9650;</span> rock-n-roll</a>]
+  <Filter id="genre-rock" onclick={() => filter_items("genre", "rock")} text={"rock"} />
+  <Filter id="genre-hard-rock" onclick={() => filter_items("genre", "hard-rock")} text={"hard-rock"} />
+  <Filter id="genre-rock-n-roll" onclick={() => filter_items("genre", "rock-n-roll")} text={"rock-n-roll"} />
   <br />
-  [<a href="#/" id="filter-genre-punk" on:click={() => filter_items("genre", "punk")}><span class="genre punk">&#9650;</span> punk</a>]
-  [<a href="#/" id="filter-genre-grunge" on:click={() => filter_items("genre", "grunge")}><span class="genre grunge">&#9650;</span> grunge</a>]
-  [<a href="#/" id="filter-genre-metal" on:click={() => filter_items("genre", "metal")}><span class="genre metal">&#9650;</span> metal</a>]
-  [<a href="#/" id="filter-genre-country" on:click={() => filter_items("genre", "country")}><span class="genre country">&#9650;</span> country</a>]
+  <Filter id="genre-punk" onclick={() => filter_items("genre", "punk")} text={"punk"} />
+  <Filter id="genre-grunge" onclick={() => filter_items("genre", "grunge")} text={"grunge"} />
+  <Filter id="genre-metal" onclick={() => filter_items("genre", "metal")} text={"metal"} />
+  <Filter id="genre-country" onclick={() => filter_items("genre", "country")} text={"country"} />
   <br />
-  [<a href="#/" id="filter-genre-soul" on:click={() => filter_items("genre", "soul")}><span class="genre soul">&#11043;</span> soul</a>]
-  [<a href="#/" id="filter-genre-trip-hop" on:click={() => filter_items("genre", "trip-hop")}><span class="genre trip-hop">&#11043;</span> trip-hop</a>]
-  [<a href="#/" id="filter-genre-pop" on:click={() => filter_items("genre", "pop")}><span class="genre pop">&#11043;</span> pop</a>]
-  [<a href="#/" id="filter-genre-funk" on:click={() => filter_items("genre", "funk")}><span class="genre funk">&#11043;</span> funk</a>]
+  <Filter id="genre-soul" onclick={() => filter_items("genre", "soul")} text={"soul"} />
+  <Filter id="genre-trip-hop" onclick={() => filter_items("genre", "trip-hop")} text={"trip-hop"} />
+  <Filter id="genre-pop" onclick={() => filter_items("genre", "pop")} text={"pop"} />
+  <Filter id="genre-funk" onclick={() => filter_items("genre", "funk")} text={"funk"} />
   <br />
-  [<a href="#/" id="filter-genre-jazz" on:click={() => filter_items("genre", "jazz")}><span class="genre jazz">&#9670;</span> jazz</a>]
-  [<a href="#/" id="filter-genre-disco" on:click={() => filter_items("genre", "disco")}><span class="genre disco">&#9670;</span> disco</a>]
-  [<a href="#/" id="filter-genre-reggae" on:click={() => filter_items("genre", "reggae")}><span class="genre reggae">&#9670;</span> reggae</a>]
-  [<a href="#/" id="filter-genre-r-n-b" on:click={() => filter_items("genre", "r-n-b")}><span class="genre r-n-b">&#9670;</span> r-n-b</a>]
+  <Filter id="genre-jazz" onclick={() => filter_items("genre", "jazz")} text={"jazz"} />
+  <Filter id="genre-disco" onclick={() => filter_items("genre", "disco")} text={"disco"} />
+  <Filter id="genre-reggae" onclick={() => filter_items("genre", "reggae")} text={"reggae"} />
+  <Filter id="genre-r-n-b" onclick={() => filter_items("genre", "r-n-b")} text={"r-n-b"} />
   <br />
-  [<a href="#/" id="filter-genre-world" on:click={() => filter_items("genre", "world")}><span class="genre world">&#9632;</span> world</a>]
-  [<a href="#/" id="filter-genre-classical" on:click={() => filter_items("genre", "classical")}><span class="genre classical">&#9632;</span> classical</a>]
-  [<a href="#/" id="filter-genre-swing" on:click={() => filter_items("genre", "swing")}><span class="genre swing">&#9632;</span> swing</a>]
-  [<a href="#/" id="filter-genre-blues" on:click={() => filter_items("genre", "blues")}><span class="genre blues">&#9632;</span> blues</a>]
+  <Filter id="genre-world" onclick={() => filter_items("genre", "world")} text={"world"} />
+  <Filter id="genre-classical" onclick={() => filter_items("genre", "classical")} text={"classical"} />
+  <Filter id="genre-swing" onclick={() => filter_items("genre", "swing")} text={"swing"} />
+  <Filter id="genre-blues" onclick={() => filter_items("genre", "blues")} text={"blues"} />
   <br />
-  [<a href="#/" id="filter-genre-folk" on:click={() => filter_items("genre", "folk")}><span class="genre folk">&#9658;</span> folk</a>]
-  [<a href="#/" id="filter-genre-electro" on:click={() => filter_items("genre", "electro")}><span class="genre electro">&#9658;</span> electro</a>]
-  [<a href="#/" id="filter-genre-rap" on:click={() => filter_items("genre", "rap")}><span class="genre rap">&#9658;</span> rap</a>]
-  [<a href="#/" id="filter-genre-chanson" on:click={() => filter_items("genre", "chanson")}><span class="genre chanson">&#9658;</span> chanson</a>]
+  <Filter id="genre-folk" onclick={() => filter_items("genre", "folk")} text={"folk"} />
+  <Filter id="genre-electro" onclick={() => filter_items("genre", "electro")} text={"electro"} />
+  <Filter id="genre-rap" onclick={() => filter_items("genre", "rap")} text={"rap"} />
+  <Filter id="genre-chanson" onclick={() => filter_items("genre", "chanson")} text={"chanson"} />
   <br />
-  [<a href="#/" id="filter-genre-piano" on:click={() => filter_items("genre", "piano")}><span class="emoticon piano">&#127929;</span> piano</a>]
-  [<a href="#/" id="filter-genre-bluegrass" on:click={() => filter_items("genre", "bluegrass")}><span class="genre bluegrass">&#9658;</span> bluegrass</a>]
-  [<a href="#/" id="filter-genre-new-wave" on:click={() => filter_items("genre", "new-wave")}><span class="genre new-wave">&#9658;</span> new-wave</a>]
+  <Filter id="genre-piano" onclick={() => filter_items("genre", "piano")} text={"piano"} />
+  <Filter id="genre-bluegrass" onclick={() => filter_items("genre", "bluegrass")} text={"bluegrass"} />
+  <Filter id="genre-new-wave" onclick={() => filter_items("genre", "new-wave")} text={"new-wave"} />
   <br />
   Year:
-  [<a href="#/" id="filter-year-all" on:click={() => filter_items("year", "all")}>all</a>]
+  <Filter id="year-all" onclick={() => filter_items("year", "all")} text={"all"} />
   <br />
-  [<a href="#/" id="filter-year-0" on:click={() => filter_items("year", "0")}>&lt; 1950</a>]
-  [<a href="#/" id="filter-year-195" on:click={() => filter_items("year", "195")}>1950s</a>]
-  [<a href="#/" id="filter-year-196" on:click={() => filter_items("year", "196")}>1960s</a>]
+  <Filter id="year-0" onclick={() => filter_items("year", "0")} text={"< 1950"} />
+  <Filter id="year-195" onclick={() => filter_items("year", "195")} text={"1950s"} />
+  <Filter id="year-196" onclick={() => filter_items("year", "196")} text={"1960s"} />
   <br />
-  [<a href="#/" id="filter-year-197" on:click={() => filter_items("year", "197")}>1970s</a>]
-  [<a href="#/" id="filter-year-198" on:click={() => filter_items("year", "198")}>1980s</a>]
-  [<a href="#/" id="filter-year-199" on:click={() => filter_items("year", "199")}>1990s</a>]
+  <Filter id="year-197" onclick={() => filter_items("year", "197")} text={"1970s"} />
+  <Filter id="year-198" onclick={() => filter_items("year", "198")} text={"1980s"} />
+  <Filter id="year-199" onclick={() => filter_items("year", "199")} text={"1990s"} />
   <br />
-  [<a href="#/" id="filter-year-200" on:click={() => filter_items("year", "200")}>2000s</a>]
-  [<a href="#/" id="filter-year-201" on:click={() => filter_items("year", "201")}>2010s</a>]
-  [<a href="#/" id="filter-year-202" on:click={() => filter_items("year", "202")} class="selected">2020s</a>]
+  <Filter id="year-200" onclick={() => filter_items("year", "200")} text={"2000s"} />
+  <Filter id="year-201" onclick={() => filter_items("year", "201")} text={"2010s"} />
+  <Filter id="year-202" onclick={() => filter_items("year", "202")} text={"2020s"} selected={true} />
 </p>
