@@ -2426,7 +2426,7 @@ const items: Item[] = [
     { "title": "Trail Songs (Dawn)", "artist": "Cory Wong", "year": 2020, "listened": true, "genre": "folk" },
     { "title": "Trail Songs: Dusk", "artist": "Cory Wong", "year": 2020, "listened": true, "genre": "folk" },
     { "title": "The Striped Album", "artist": "Cory Wong", "year": 2020, "listened": true, "genre": "funk" },
-    { "title": "RTJ4", "artist": "Run the Jewels", "year": 2020 },
+    { "title": "RTJ4", "artist": "Run the Jewels", "year": 2020, "listened": true, "genre": "rap" },
 
     { "title": "A State Of Trance 1000 - Celebration Mix", "artist": "Armin van Buuren", "year": 2021, "listened": true, "stars": 1, "genre": "electro" },
     { "title": "Zeal", "artist": "Bill Laurance", "year": 2021, "listened": true, "stars": 1, "genre": "jazz" },
