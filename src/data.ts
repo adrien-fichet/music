@@ -1353,7 +1353,7 @@ const items: Item[] = [
     { "title": "Famille nombreuse", "artist": "Les Négresses vertes", "year": 1991 },
     { "title": "Fourplay", "artist": "Fourplay", "year": 1991 },
     { "title": "The Soul Cages", "artist": "Sting", "year": 1991, "listened": true, "genre": "pop", "stars": 1, "fav": true, "comment": '"All This Time", "Mad About You", "The Soul Cages"' },
-    { "title": "We Can't Dance", "artist": "Genesis", "year": 1991 },
+    { "title": "We Can't Dance", "artist": "Genesis", "year": 1991, "listened": true, "genre": "rock", "stars": 2, "fav": true, "comment": `"No Son of Mine", "Jesus He Knows Me", "I Can't Dance"` },
     { "title": "Back to Mono (1958-1969)", "artist": "Phil Spector and Various Artists", "year": 1991 },
     { "title": "Screamadelica", "artist": "Primal Scream", "year": 1991 },
     { "title": "First Take", "artist": "Roberta Flack", "year": 1991 },
