@@ -1,20 +1,21 @@
 <script lang="ts">
+  import SpotifyLink from "./SpotifyLink.svelte"
+  import type Item from "../item"
+
   export let items_not_listened_yet: Object[]
 
-  let random_item: string
+  let item: Item
 
   function get_random_item() {
-    if (items_not_listened_yet.length == 0) {
-      random_item = ''
-    } else {
-      let item = items_not_listened_yet[Math.floor(Math.random() * items_not_listened_yet.length)]
-      random_item = '"' + item['title'] + '" - ' + item['artist'] + ' (' + item['year'] + ')'
-    }
+    item = items_not_listened_yet[Math.floor(Math.random() * items_not_listened_yet.length)]
   }
 
   get_random_item()
 </script>
 
+{#if items_not_listened_yet.length > 0}
 <p>
-  <a href="#/" on:click={get_random_item}>One random item (not yet listened)</a>: {random_item}
+  <a href="#/" on:click={get_random_item}>One random item (not yet listened)</a>:
+  "{item.title}" - {item.artist} ({item.year}) <SpotifyLink {item} />
 </p>
+{/if}
