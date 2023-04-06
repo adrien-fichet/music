@@ -2285,7 +2285,7 @@ const items: Item[] = [
     { "title": "Down to Earth", "artist": "Flight Facilities", "year": 2014 },
     { "title": "Abandon Ship", "artist": "Knife Party", "year": 2014 },
     { "title": "We Like It Here", "artist": "Snarky Puppy", "year": 2014, "listened": true, "fav": true, "stars": 2, "genre": "funk" },
-    { "title": "Flint", "artist": "Bill Laurance", "year": 2014 },
+    { "title": "Flint", "artist": "Bill Laurance", "year": 2014, "listened": true, "genre": "jazz", "stars": 1, "fav": true },
     { "title": "Instant Alpha", "artist": "Feadz", "year": 2014 },
     { "title": "Singes du futur", "artist": "Andréas & Nicolas", "year": 2014, "fr": true },
     { "title": "Sonic Crusader", "artist": "Mr. Flash", "year": 2014 },
