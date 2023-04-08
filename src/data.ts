@@ -1527,7 +1527,7 @@ const items: Item[] = [
     { "title": "Grace", "artist": "Jeff Buckley", "year": 1994, "listened": true, "stars": 1, "genre": "rock", "fav": true },
 
     { "title": "Life", "artist": "The Cardigans", "year": 1995, "listened": true, "genre": "pop", "comment": '"Carnival"', "meh": true },
-    { "title": "Tragic Kingdom", "artist": "No Doubt", "year": 1995, "comment": `"Just a Girl", "Don't Speak"` },
+    { "title": "Tragic Kingdom", "artist": "No Doubt", "year": 1995, "comment": `Ska pop-rock, "Just a Girl", "Don't Speak", "Spiderwebs"`, "listened": true, "genre": "rock", "stars": 1 },
     { "title": "Scatman's World", "artist": "Scatman John", "year": 1995 },
     { "title": "Toy Story OST", "artist": "Randy Newman", "year": 1995 },
     { "title": "Boulevard", "artist": "St Germain", "year": 1995, "listened": false, "genre": "electro", "fr": true },
@@ -1805,7 +1805,7 @@ const items: Item[] = [
     { "title": "Chocolate Starfish and the Hot Dog Flavored Water", "artist": "Limp Bizkit", "year": 2000 },
     { "title": "Red Dirt Girl", "artist": "Emmylou Harris", "year": 2000 },
     { "title": "Sincere", "artist": "MJ Cole", "year": 2000 },
-    { "title": "Tanto Tempo", "artist": "Bebel Gilberto", "year": 2000 },
+    { "title": "Tanto Tempo", "artist": "Bebel Gilberto", "year": 2000, "listened": true, "genre": "jazz", "comment": "Brazilian bossa nova", "stars": 1 },
     { "title": "Lost Souls", "artist": "Doves", "year": 2000, "listened": true, "meh": true, "genre": "rock" },
     { "title": "Heartbreaker", "artist": "Ryan Adams", "year": 2000 },
     { "title": "The Virgin Suicides OST", "artist": "Air", "year": 2000, "fr": true },
