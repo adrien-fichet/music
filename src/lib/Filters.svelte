@@ -122,7 +122,7 @@
   <Filter id="genre-chanson" onclick={() => filter_items("genre", "chanson")} text={"chanson"} />
   <br />
   <Filter id="genre-piano" onclick={() => filter_items("genre", "piano")} text={"piano"} />
-  <Filter id="genre-bluegrass" onclick={() => filter_items("genre", "bluegrass")} text={"bluegrass"} />
+  <Filter id="genre-meme" onclick={() => filter_items("genre", "meme")} text={"meme"} />
   <Filter id="genre-new-wave" onclick={() => filter_items("genre", "new-wave")} text={"new-wave"} />
   <br />
   Year:

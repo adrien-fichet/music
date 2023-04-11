@@ -1,5 +1,6 @@
 <script lang="ts">
   import Icon from '../icon'  
+  import trollface from '../assets/trollface.svg'
 
   export let id: string = ""
   export let onclick
@@ -14,6 +15,8 @@
     on:click={onclick} 
     class={selected ? class_name + " selected" : class_name}
 >
-{#if id.startsWith("genre-") && !(text.endsWith("all") || text.endsWith("none"))}
+{#if id === "genre-meme"}
+<span class="meme"><img src={trollface} alt="meme" /> </span>
+{:else if id.startsWith("genre-") && !(text.endsWith("all") || text.endsWith("none"))}
 <span class="{Icon.class_from_genre(text)} {text}">{Icon.from_genre(text)} </span>
 {/if}{text}</a>]

@@ -10,7 +10,7 @@ class Icon {
             case "grunge":
             case "metal":
             case "country":
-                 return "▲"
+                return "▲"
             case "soul":
             case "trip-hop":
             case "pop":
@@ -30,7 +30,6 @@ class Icon {
             case "electro":
             case "rap":
             case "chanson":
-            case "bluegrass":
             case "new-wave":
                 return "►"
             default: 

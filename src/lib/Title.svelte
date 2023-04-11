@@ -2,6 +2,7 @@
   import type Item from '../item'
   import Icon from '../icon'
   import { beforeUpdate } from 'svelte'
+  import trollface from '../assets/trollface.svg'
 
   export let item: Item
 
@@ -22,7 +23,9 @@
   })
 </script>
 
-{#if item.genre != null}
+{#if item.genre === "meme"}
+  <span class="meme"><img src="{trollface}" alt="meme" /></span>
+{:else if item.genre != null}
   <span class="{icon_class} {item.genre}">{icon}</span>
 {/if}
 
