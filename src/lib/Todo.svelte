@@ -15,4 +15,5 @@
     <li>Albums from artists cited in "Destroy Rock &amp; Roll (Mylo)</li>
     <li><a href="https://en.wikipedia.org/wiki/List_of_jazz_fusion_musicians">Jazz fusion bands/musicians</a></li>
     <li>Songs sampled in Daft Punk "Discovery"</li>
+    <li><a href="https://en.wikipedia.org/wiki/DJ-Kicks">DJ-KiCKS</a></li>
 </ul>
