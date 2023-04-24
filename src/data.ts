@@ -2061,7 +2061,7 @@ const items: Item[] = [
     { "title": "The Village Lanterne", "artist": "Blackmore's Night", "year": 2006, "listened": true, "genre": "rock", "stars": 2, "fav": true },
     { "title": "Morph the Cat", "artist": "Donald Fagen", "year": 2006 },
     { "title": "Continuum", "artist": "John Mayer", "year": 2006, "listened": true, "genre": "pop", "stars": 1 },
-    { "title": "The Black Parade", "artist": "My Chemical Romance", "year": 2006 },
+    { "title": "The Black Parade", "artist": "My Chemical Romance", "year": 2006, "listened": true, "genre": "punk" },
     { "title": "Völkerball", "artist": "Rammstein", "year": 2006 },
     { "title": "Lucky Boy", "artist": "DJ Mehdi", "year": 2006 },
 
@@ -2242,7 +2242,7 @@ const items: Item[] = [
     { "title": "Sunken Condos", "artist": "Donald Fagen", "year": 2012 },
     { "title": "The Idler Wheel", "artist": "Fiona Apple", "year": 2012 },
     { "title": "Django Django", "artist": "Django Django", "year": 2012, "listened": true, "genre": "pop" },
-    { "title": "good kid, m.A.A.d city", "artist": "Kendrick Lamar", "year": 2012, "listened": true, "genre": "rap" },
+    { "title": "good kid, m.A.A.d city", "artist": "Kendrick Lamar", "year": 2012, "listened": true, "genre": "rap", "stars": 1 },
     { "title": "Channel Orange", "artist": "Frank Ocean", "year": 2012 },
     { "title": "In Our Heads", "artist": "Hot Chip", "year": 2012 },
     { "title": "Blunderbuss", "artist": "Jack White", "year": 2012 },
