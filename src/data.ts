@@ -687,7 +687,7 @@ const items: Item[] = [
     { "title": "Heart Like a Wheel", "artist": "Linda Ronstadt", "year": 1974, "listened": true, "genre": "country", "comment": `"You're No Good"` },
 
     { "title": "Physical Graffiti", "artist": "Led Zeppelin", "year": 1975 },
-    { "title": "Inseparable", "artist": "Natalie Cole", "year": 1975 },
+    { "title": "Inseparable", "artist": "Natalie Cole", "year": 1975, "listened": true, "genre": "soul", "fav": true, "stars": 1 },
     { "title": "The Legendary Zing Album", "artist": "The Trammps", "year": 1975, "genre": "soul", "listened": true, "stars": 1, "fav": true, "comment": '"Rubber Band"' },
     { "title": "Young Americans", "artist": "David Bowie", "year": 1975 },
     { "title": "Heureusement en France on ne se drogue pas", "artist": "Alain Kan", "year": 1975, "fr": true },
@@ -1544,7 +1544,7 @@ const items: Item[] = [
     { "title": "King for a Day... Fool for a Lifetime", "artist": "Faith No More", "year": 1995, "perso": true },
     { "title": "Tambu", "artist": "Toto", "year": 1995, "listened": true, "stars": 1, "genre": "rock" },
     { "title": "Elixir", "artist": "Fourplay", "year": 1995 },
-    { "title": "Paris Sous Les Bombes", "artist": "Suprême NTM", "year": 1995, "fr": true },
+    { "title": "Paris Sous Les Bombes", "artist": "Suprême NTM", "year": 1995, "fr": true, "listened": true, "genre": "rap", "fav": true, "stars": 1, "comment": '"La fièvre"' },
     { "title": "The Infamous", "artist": "Mobb Deep", "year": 1995 },
     { "title": "Wowee Zowee", "artist": "Pavement", "year": 1995, "listened": true, "meh": true, "genre": "rock" },
     { "title": "The Bends", "artist": "Radiohead", "year": 1995, "listened": true, "genre": "rock", "stars": 2, "fav": true, "comment": '"Planet Telex", "The Bends", "High and Dry", "Just"' },
