@@ -1168,7 +1168,7 @@ const items: Item[] = [
     { "title": "Master Of Puppets", "artist": "Metallica", "year": 1986, "listened": true, "fav": true, "stars": 2, "genre": "hard-rock", "comment": '"Battery", "Master of Puppets", "Welcome Home (Sanitarium)"' },
     { "title": "Somewhere in Time", "artist": "Iron Maiden", "year": 1986, "listened": true, "fav": true, "perso": true, "stars": 3, "genre": "hard-rock", "comment": '"Caught Somewhere in Time", "Wasted Years", "Sea of Madness", "The Loneliness of the Long Distance Runner", "Stranger in a Strange Land"' },
     { "title": "Reign In Blood", "artist": "Slayer", "year": 1986, "listened": true, "genre": "metal", "comment": '"Reign In Blood"' },
-    { "title": "Peace Sells... But Who's Buying?", "artist": "Megadeth", "year": 1986, "perso": true, "genre": "hard-rock", "stars": 1, "fav": true, "comment": '"Wake Up Dead", "Peace Sells"' },
+    { "title": "Peace Sells... But Who's Buying?", "artist": "Megadeth", "year": 1986, "listened": true, "perso": true, "genre": "hard-rock", "stars": 1, "fav": true, "comment": '"Wake Up Dead", "Peace Sells"' },
     { "title": "So", "artist": "Peter Gabriel", "year": 1986 },
     { "title": "Gang", "artist": "Johny Hallyday", "year": 1986, "fr": true },
     { "title": "Parade", "artist": "Prince", "year": 1986, "comment": '"Kiss"' },
