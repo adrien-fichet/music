@@ -6,18 +6,10 @@
 
   export let item: Item
 
-  let stars: number[]
   let icon: string
   let icon_class: string
 
   beforeUpdate(() => {
-    stars = new Array()
-    if (item.stars != null) {
-      for (let i=0; i < item.stars; i++) {
-        stars.push(i)
-      }
-    }
-
     icon = Icon.from_genre(item.genre)
     icon_class = Icon.class_from_genre(item.genre)
   })
@@ -35,8 +27,8 @@
   [<span class="heart">&hearts;</span>]
 {/if}
 
-{#if stars.length > 0}
-  [{#each stars as star}<span class="star">★</span>{/each}]
+{#if item.stars > 0}
+[{#each {length: item.stars} as _}<span class="star">★</span>{/each}]
 {/if}
 
 {#if item.standard == true}
