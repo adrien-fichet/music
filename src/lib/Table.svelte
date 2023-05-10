@@ -30,7 +30,7 @@
     <tr class="{get_tr_class(item)}">
       <td><Title {item} /></td>
       <td><Artist {item} /></td>
-      <td>{item['year']}</td>
+      <td>{item.year}</td>
       <td><SpotifyLink {item} /></td>
     </tr>
   {/each}

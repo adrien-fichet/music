@@ -25,21 +25,29 @@
     }
 
     // Apply filters
-    for (const [key, value] of Object.entries(current_filters)) {
-      if (key == "year") {
-        if (value == "0") {
-          current_items = current_items.filter(item => item[key] < 1950)
+    current_items = current_items.filter(item => {
+      for (const [key, value] of Object.entries(current_filters)) {
+        let display_item = true
+
+        if (key == "year") {
+          if (value == "0") {
+            display_item = item[key] < 1950
+          } else {
+            display_item = ("" + item[key]).startsWith("" + value)
+          }
+        } else if (value == false || value == "none" || value == 0) {
+            display_item = item[key] == null || item[key] == false || item[key] == 0
         } else {
-          current_items = current_items.filter(item => ("" + item[key]).startsWith("" + value))
+          display_item = item[key] == value
         }
-      } else if (value == false || value == "none" || value == 0) {
-        current_items = current_items.filter(item => {
-          return item[key] == null || item[key] == false || item[key] == 0
-        })
-      } else {
-        current_items = current_items.filter(item => item[key] == value)
+
+        if (display_item === false) {
+          return false
+        }
       }
-    }
+
+      return true
+    })
   }
 
   function reset_filters() {
