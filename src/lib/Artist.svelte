@@ -5,8 +5,8 @@
   export let item: Item
 </script>
 
-{item['artist']}
+{item.artist}
 
-{#if item.fr == true}
+{#if !!item.fr}
 <img class="flag" src={flag_fr} alt="fr" />
 {/if}

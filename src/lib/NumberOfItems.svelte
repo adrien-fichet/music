@@ -1,10 +1,8 @@
 <script lang="ts">
-  import type Item from '../item'
+  import { items } from '../stores'
 
-  export let items: Item[]
-
-  let number_listened: number = items.filter(item => item.listened == true).length
-  let items_length: number = items.length
+  let number_listened: number = $items.filter(item => item.listened == true).length
+  let items_length: number = $items.length
   let percentage: number = Math.floor(number_listened / items_length * 100 * 100) / 100
 </script>
 

@@ -1,10 +1,9 @@
 <script lang="ts">
-  import type Item from '../item'
-
-  export let items: Item[]
+  import { items } from '../stores'
 
   let items_by_decade = {}
-  items.forEach(item => {
+
+  $items.forEach(item => {
     let decade = Math.floor(item.year / 10) * 10
     if (decade >= 1950) {
       if (items_by_decade[decade] == null) {
@@ -18,7 +17,7 @@
 
 <p>Number of items by decade:</p>
 <ul>
-  {#each Object.entries(items_by_decade) as [key, value]}
-    <li>{key}s: {value}</li>
+  {#each Object.entries(items_by_decade) as [decade, number_of_items]}
+    <li>{decade}s: {number_of_items}</li>
   {/each}
 </ul>

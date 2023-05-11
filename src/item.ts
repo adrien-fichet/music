@@ -11,6 +11,12 @@ interface Item {
   standard?: boolean,
   stars?: number,
   perso?: boolean,
+
+  // Additional properties computed at runtime
+  tr_class?: string,
+  icon?: string,
+  icon_class?: string,
+  spotify_url?: string,
 }
 
 export default Item

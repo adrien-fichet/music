@@ -1,30 +1,20 @@
 <script lang="ts">
   import type Item from '../item'
-  import Icon from '../icon'
-  import { beforeUpdate } from 'svelte'
   import trollface from '../assets/trollface.svg'
 
   export let item: Item
-
-  let icon: string
-  let icon_class: string
-
-  beforeUpdate(() => {
-    icon = Icon.from_genre(item.genre)
-    icon_class = Icon.class_from_genre(item.genre)
-  })
 </script>
 
-{#if item.genre === "meme"}
+{#if item.genre === 'meme'}
   <span class="meme"><img src="{trollface}" alt="meme" /></span>
 {:else if item.genre != null}
-  <span class="{icon_class} {item.genre}">{icon}</span>
+  <span class="{item.icon_class} {item.genre}">{item.icon}</span>
 {/if}
 
 {item['title']}
 
-{#if item.perso == true}
-  [<span class="heart">&hearts;</span>]
+{#if !!item.perso}
+  [<span class="heart">♥</span>]
 {/if}
 
 {#if item.stars > 0}
@@ -32,9 +22,9 @@
 {/if}
 
 {#if item.standard == true}
-  <span class="jazz">&sung;</span>
+  <span class="jazz">♪</span>
 {/if}
 
-{#if item.comment != null}
+{#if !!item.comment}
   <span class="comment">[{item.comment}]</span>
 {/if}

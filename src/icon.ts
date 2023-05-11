@@ -1,5 +1,5 @@
 class Icon {
-    static from_genre(genre: string) {
+    static from_genre(genre: string): string {
         switch (genre) {
             case "piano":
                 return "🎹"
@@ -37,7 +37,7 @@ class Icon {
         }
     }
 
-    static class_from_genre(genre: string) {
+    static class_from_genre(genre: string): string {
         switch (genre) {
             case "piano":
                 return "emoticon"
