@@ -15,8 +15,8 @@
       if ($filters[key] !== undefined) {
         delete $filters[key]
         $filters = $filters // force assignation to update derived stores
-        document.querySelector(`[id="filter-${key}-${value}"]`).classList.add('selected')
       }
+      document.querySelector(`[id="filter-${key}-${value}"]`).classList.add('selected')
     } else {
       $filters[key] = value
       document.querySelector(`[id="filter-${key}-${value}"]`).classList.add('selected')
