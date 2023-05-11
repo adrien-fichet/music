@@ -1619,7 +1619,7 @@ const data: Item[] = [
   { "title": "Reasonable Doubt", "artist": "Jay-Z", "year": 1996 },
 
   { "title": "Either/Or", "artist": "Elliott Smith", "year": 1997 },
-  { "title": "Era", "artist": "Era", "year": 1997, "fr": true },
+  { "title": "Era", "artist": "Era", "year": 1997, "fr": true, "listened": true, "genre": "world", "comment": "C'est des malades !" },
   { "title": "Come Into My Life", "artist": "Gala", "year": 1997, "comment": '"Freed From Desire" (na na na na na naaa na, na naa na, na naaa)' },
   { "title": "Le Baptême", "artist": "-M-", "year": 1997, "fr": true, "listened": true, "genre": "pop", "stars": 1 },
   { "title": "The Mollusk", "artist": "Ween", "year": 1997 },
@@ -2177,7 +2177,7 @@ const data: Item[] = [
   { "title": "Body Talk", "artist": "Robyn", "year": 2010 },
   { "title": "Scary Monsters and Nice Sprites EP", "artist": "Skrillex", "year": 2010, "listened": true, "genre": "electro", "comment": "Dubstep", "stars": 1, "fav": true },
   { "title": "Super chansons", "artist": "Andréas & Nicolas", "year": 2010, "perso": true, "fr": true, "comment": "Le Transbordeur, 23 nov 2016 avec Laura et Gougou" },
-  { "title": "Immersion", "artist": "Pendulum", "year": 2010 },
+  { "title": "Immersion", "artist": "Pendulum", "year": 2010, "listened": true, "genre": "electro", "stars": 2, "fav": true },
   { "title": "Teen Dream", "artist": "Beach House", "year": 2010, "listened": true, "genre": "rock" },
   { "title": "Brothers", "artist": "The Black Keys", "year": 2010 },
   { "title": "Halcyon Digest", "artist": "Deerhunter", "year": 2010 },
