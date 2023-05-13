@@ -583,7 +583,7 @@ const data: Item[] = [
   { "title": "Still Bill", "artist": "Bill Withers", "year": 1972, "listened": true, "genre": "soul", "stars": 1 },
   { "title": "The World Is a Ghetto", "artist": "War", "year": 1972 },
   { "title": "Let's Stay Together", "artist": "Al Green", "year": 1972 },
-  { "title": "Stealers Wheel", "artist": "Stealers Wheel", "year": 1972, "comment": '"Stuck in the Middle with You"' },
+  { "title": "Stealers Wheel", "artist": "Stealers Wheel", "year": 1972, "comment": '"Stuck in the Middle with You"', "listened": true, "genre": "rock", "stars": 1 },
   { "title": "Can't Buy a Thrill", "artist": "Steely Dan", "year": 1972, "listened": true, "stars": 1, "genre": "rock", "fav": true, "comment": `"Dirty Work", "Only a Fool Would Say That", "Reelin' in the Years"` },
   { "title": "The Harder They Come: Original Soundtrack", "artist": "Jimmy Cliff and Various Artists", "year": 1972 },
   { "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars", "artist": "David Bowie", "year": 1972 },
