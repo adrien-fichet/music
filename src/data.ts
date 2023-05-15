@@ -493,7 +493,7 @@ const data: Item[] = [
   { "title": "Ram", "artist": "Paul and Linda McCartney", "year": 1971 },
   { "title": "Sky's the Limit", "artist": "The Temptations", "year": 1971 },
   { "title": "White Light", "artist": "Gene Clark", "year": 1971 },
-  { "title": "Shaft", "artist": "Isaac Hayes", "year": 1971 },
+  { "title": "Shaft", "artist": "Isaac Hayes", "year": 1971, "listened": true, "genre": "soul", "comment": "OST" },
   { "title": "Chicago", "artist": "Chicago", "year": 1971 },
   { "title": "Al Green Gets Next To You", "artist": "Al Green", "year": 1971 },
   { "title": "The Yes Album", "artist": "Yes", "year": 1971 },
