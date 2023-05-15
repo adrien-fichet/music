@@ -493,7 +493,7 @@ const data: Item[] = [
   { "title": "Ram", "artist": "Paul and Linda McCartney", "year": 1971 },
   { "title": "Sky's the Limit", "artist": "The Temptations", "year": 1971 },
   { "title": "White Light", "artist": "Gene Clark", "year": 1971 },
-  { "title": "Shaft", "artist": "Isaac Hayes", "year": 1971, "listened": true, "genre": "soul", "comment": "OST" },
+  { "title": "Shaft", "artist": "Isaac Hayes", "year": 1971, "listened": true, "genre": "soul", "comment": "OST, mostly instrumental" },
   { "title": "Chicago", "artist": "Chicago", "year": 1971 },
   { "title": "Al Green Gets Next To You", "artist": "Al Green", "year": 1971 },
   { "title": "The Yes Album", "artist": "Yes", "year": 1971 },
@@ -505,7 +505,7 @@ const data: Item[] = [
   { "title": "American Pie", "artist": "Don McLean", "year": 1971, "listened": true, "genre": "folk", "stars": 1 },
   { "title": "Sticky Fingers", "artist": "The Rolling Stones", "year": 1971, "listened": true, "stars": 1, "genre": "rock", "comment": '"Brown Sugar", "Wild Horses"' },
   { "title": "Teenage Head", "artist": "Flamin' Groovies", "year": 1971, "listened": true, "stars": 1, "genre": "rock" },
-  { "title": "Aqualung", "artist": "Jethro Tull", "year": 1971, "listened": true, "stars": 1, "genre": "rock" },
+  { "title": "Aqualung", "artist": "Jethro Tull", "year": 1971, "listened": true, "stars": 1, "genre": "rock", "comment": '"Aqualung"' },
   { "title": "Trafalgar", "artist": "The Bee Gees", "year": 1971 },
   { "title": "Songs Of Love and Hate", "artist": "Leonard Cohen", "year": 1971, "listened": true, "genre": "folk" },
   { "title": "Live!", "artist": "Fela Ransome-Kuti and the Africa '70 with Ginger Baker", "year": 1971 },
@@ -2484,7 +2484,7 @@ const data: Item[] = [
 
   { "title": "Cracker Island", "artist": "Gorillaz", "year": 2023, "listened": true, "genre": "pop", "stars": 1 },
   { "title": "Mythologies", "artist": "Thomas Bangalter", "year": 2023, "genre": "classical", "listened": true },
-  { "title": "72 Seasons", "artist": "Metallica", "year": 2023, "genre": "metal" },
+  { "title": "72 Seasons", "artist": "Metallica", "year": 2023, "genre": "metal", "listened": true },
   { "title": "Six", "artist": "Extreme", "year": 2023, "genre": "hard-rock" },
 ]
 
