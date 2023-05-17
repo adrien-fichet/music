@@ -14,4 +14,5 @@
     <li>Tarantino films OSTs</li>
     <li>Spotify Sweet Soul Chillout playlist</li>
     <li>Incontournables de la chanson française</li>
+    <li><a href="https://www.metacritic.com/browse/albums/score/metascore/all?sort=desc">Metacritic All-Time High Scores</a></li>
 </ul>
