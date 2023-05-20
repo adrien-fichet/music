@@ -10,7 +10,7 @@
     <li>Time.com All-TIME 100 (2006)</li>
     <li>The 50 Greatest Pieces of Classical Music</li>
     <li>Ed Banger Records LPs</li>
-    <li>Meme songs</li>
+    <li>Meme and mainstream songs</li>
     <li>Tarantino films OSTs</li>
     <li>Spotify Sweet Soul Chillout playlist</li>
     <li>Incontournables de la chanson française</li>
