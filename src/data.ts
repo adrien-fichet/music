@@ -488,7 +488,7 @@ const data: Item[] = [
   { title: "The Cry of Love", artist: "Jimi Hendrix", year: 1971 },
   { title: "Métronomie", artist: "Nino Ferrer", year: 1971, fr: true },
   { title: "Mr. Big Stuff", artist: "Jean Knight", year: 1971 },
-  { title: "Electronically Tested", artist: "Mungo Jerry", year: 1971, listened: false, genre: "rock", comment: '"In the Summertime"' },
+  { title: "Electronically Tested", artist: "Mungo Jerry", year: 1971, listened: true, genre: "rock", comment: '"In the Summertime"' },
   { title: "L.A. Woman", artist: "The Doors", year: 1971, genre: "rock", listened: true, stars: 2, fav: true, comment: '"The Changeling", "Love Her Madly", "Been Down So Long", "L.A. Woman", "Riders on the Storm"' },
   { title: "Pearl", artist: "Janis Joplin", year: 1971 },
   { title: "Blue", artist: "Joni Mitchell", year: 1971, genre: "folk" },
@@ -2696,7 +2696,7 @@ const data: Item[] = [
   { title: "Dawn FM", artist: "The Weeknd", year: 2022, listened: true, genre: "pop" },
   { title: "Motomami", artist: "Rosalía", year: 2022, listened: true, meh: true, genre: "pop" },
   { title: "Renaissance", artist: "Beyoncé", year: 2022 },
-  { title: "Supernova", artist: "Nova Twins", year: 2022 },
+  { title: "Supernova", artist: "Nova Twins", year: 2022, listened: true, genre: "hard-rock" },
   { title: "S.O.S.", artist: "SZA", year: 2022 },
   { title: "Ants From Up There", artist: "Black Country, New Road", year: 2022 },
 
