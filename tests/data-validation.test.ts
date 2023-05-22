@@ -34,3 +34,19 @@ it('should have a genre if listened', () => {
     }
   }
 })
+
+it('should not have item duplicates', () => {
+  const titles_and_artists = data.map(
+    function (item: Item): string {
+      return `${item.title.toLowerCase()} ${item.artist.toLowerCase()}`
+    }
+  )
+  var seen = {}
+  for (const item of titles_and_artists) {
+    if (seen.hasOwnProperty(item)) {
+      throw new Error(`Found duplicate: ${item}`)
+    } else {
+      seen[item] = true
+    }
+  }
+})
