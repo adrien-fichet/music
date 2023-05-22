@@ -29,7 +29,7 @@ it('fav should be true if stars >= 2', () => {
 
 it('should have a genre if listened', () => {
   for (const item of data) {
-    if (!!item.listened) {
+    if (item.listened) {
       expect(item.genre, msg(item)).toBeDefined()
     }
   }
@@ -38,12 +38,12 @@ it('should have a genre if listened', () => {
 it('should not have item duplicates', () => {
   const titles_and_artists = data.map(
     function (item: Item): string {
-      return `${item.title.toLowerCase()} ${item.artist.toLowerCase()}`
+      return `${item.title.toLowerCase()} - ${item.artist.toLowerCase()}`
     }
   )
-  var seen = {}
+  const seen = {}
   for (const item of titles_and_artists) {
-    if (seen.hasOwnProperty(item)) {
+    if (item in seen) {
       throw new Error(`Found duplicate: ${item}`)
     } else {
       seen[item] = true

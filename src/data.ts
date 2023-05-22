@@ -2715,10 +2715,10 @@ const data: Item[] = [
 const set_item_tr_class = (item: Item) => {
   let tr_class = ''
 
-  if (!!item.listened) {
-    if (!!item.fav) {
+  if (item.listened) {
+    if (item.fav) {
       tr_class = 'fav'
-    } else if (!!item.meh) {
+    } else if (item.meh) {
       tr_class = 'meh'
     }
   } else {

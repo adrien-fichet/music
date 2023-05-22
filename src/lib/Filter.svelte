@@ -2,11 +2,11 @@
   import Icon from '../icon'  
   import trollface from '../assets/trollface.svg'
 
-  export let id: string = ''
+  export let id = ''
   export let onclick
   export let text: string
-  export let selected: boolean = false
-  export let class_name: string = ''
+  export let selected = false
+  export let class_name = ''
 </script>
 
 [<a 
