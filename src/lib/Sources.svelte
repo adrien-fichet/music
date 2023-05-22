@@ -15,4 +15,6 @@
     <li>Spotify Sweet Soul Chillout playlist</li>
     <li>Incontournables de la chanson française</li>
     <li><a href="https://www.metacritic.com/browse/albums/score/metascore/all?sort=desc">Metacritic All-Time High Scores</a></li>
+    <li>"Star of a Hero" playlist by Guy-Manuel de Homem-Christo</li>
+    <li>Songs sampled in "Pop Culture" by Madeon</li>
 </ul>

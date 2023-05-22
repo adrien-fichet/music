@@ -11,6 +11,8 @@ interface Item {
   standard?: boolean,
   stars?: number,
   perso?: boolean,
+  single?: boolean,
+  ep?: boolean,
 
   // Additional properties computed at runtime
   tr_class?: string,

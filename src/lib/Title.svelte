@@ -21,8 +21,16 @@
 [{#each {length: item.stars} as _}<span class="star">★</span>{/each}]
 {/if}
 
-{#if item.standard == true}
+{#if !!item.standard}
   <span class="jazz">♪</span>
+{/if}
+
+{#if !!item.single}
+  <span class="comment">[Single]</span>
+{/if}
+
+{#if !!item.ep}
+  <span class="comment">[EP]</span>
 {/if}
 
 {#if !!item.comment}
