@@ -16,6 +16,6 @@
 {#if !!item}
 <p>
   <a href="#/" on:click={get_random_item}>One random item (not yet listened)</a>:
-  "{item.title}" - {item.artist} ({item.year}) <SpotifyLink {item} />
+  <a target="_blank" href="{item.spotify_url}">"{item.title}" - {item.artist} ({item.year})</a> <SpotifyLink {item} />
 </p>
 {/if}
