@@ -33,6 +33,10 @@
   <span class="comment">[EP]</span>
 {/if}
 
+{#if !!item.live && !item.title.includes("Live")}
+  <span class="comment">[Live]</span>
+{/if}
+
 {#if !!item.comment}
   <span class="comment">[{item.comment}]</span>
 {/if}

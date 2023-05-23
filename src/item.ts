@@ -13,8 +13,9 @@ interface Item {
   perso?: boolean,
   single?: boolean,
   ep?: boolean,
+  live?: boolean,
 
-  // Additional properties computed at runtime
+  // Additional properties computed only once at runtime
   tr_class?: string,
   icon?: string,
   icon_class?: string,

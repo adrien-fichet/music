@@ -1,5 +1,5 @@
 <script lang="ts">
-  import flag_fr from '../assets/flag-fr.png'
+  import flag_fr from '../assets/flag-fr.svg'
   import type Item from '../item'
 
   export let item: Item

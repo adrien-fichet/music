@@ -1,5 +1,5 @@
 <script lang="ts">
-  import flag_fr from '../assets/flag-fr.png'
+  import flag_fr from '../assets/flag-fr.svg'
   import Filter from './Filter.svelte'
   import { filters } from '../stores'
 
@@ -61,6 +61,10 @@
   <Filter id="standard-all" onclick={() => set_filter('standard', 'all')} text={'all'} selected={true} />
   <Filter id="standard-true" onclick={() => set_filter('standard', true)} text={'yes'} />
   <Filter id="standard-false" onclick={() => set_filter('standard', false)} text={'no'} />
+  Live:
+  <Filter id="live-all" onclick={() => set_filter('live', 'all')} text={'all'} selected={true} />
+  <Filter id="live-true" onclick={() => set_filter('live', true)} text={'yes'} />
+  <Filter id="live-false" onclick={() => set_filter('live', false)} text={'no'} />
   <br />
   Genres:
   <Filter id="genre-all" onclick={() => set_filter('genre', 'all')} text={'all'} selected={true} />
