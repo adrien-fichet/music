@@ -14,11 +14,18 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 19
-    - name: Install dependencies
+
+    - name: Clean install
       run: npm ci
-    - name: npm audit
+
+    - name: Packages audit
       run: npm audit
-    - name: Run eslint
+
+    - name: Eslint
       run: npx eslint . --ext .ts,.svelte
-    - name: Run vitest
+
+    - name: Vitest
       run: npx vitest run
+
+    - name: Build
+      run: npm run build
