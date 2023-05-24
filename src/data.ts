@@ -1514,7 +1514,7 @@ const data: Item[] = [
 
   { title: "Emergency on Planet Earth", artist: "Jamiroquai", year: 1993 },
   { title: "Kamakiriad", artist: "Donald Fagen", year: 1993 },
-  { title: "Minikeums Génération", artist: "Les Minikeums", year: 1993, fr: true, listened: true, perso: true },
+  { title: "Minikeums Génération", artist: "Les Minikeums", year: 1993, fr: true, listened: true, perso: true, genre: "chanson" },
   { title: "I Like to Move It", artist: "Reel 2 Real", year: 1993, single: true, genre: "rap", listened: true },
   { title: "Mystic Mile", artist: "Robben Ford", year: 1993 },
   { title: "Ring", artist: "The Connells", year: 1993 },
@@ -2414,7 +2414,6 @@ const data: Item[] = [
   { title: "D", artist: "White Denim", year: 2011 },
   { title: "Recovery", artist: "Eminem", year: 2011, listened: true, genre: "rap", stars: 1 },
   { title: "The Geeks and the Jerkin' Socks", artist: "Shaka Ponk", year: 2011, fr: true },
-  { title: "Turtleneck & Chain", artist: "The Lonely Island", year: 2011 },
   { title: "Born This Way", artist: "Lady Gaga", year: 2011, listened: true, genre: "pop", meh: true },
   { title: "Chief", artist: "Eric Church", year: 2011 },
   { title: "Take Care", artist: "Drake", year: 2011 },
