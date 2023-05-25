@@ -31,6 +31,7 @@ class Icon {
             case "rap":
             case "chanson":
             case "new-wave":
+            case "vgm":
                 return "►"
             default: 
                 return "■"

@@ -102,6 +102,7 @@
   <Filter id="genre-piano" onclick={() => set_filter('genre', 'piano')} text={'piano'} />
   <Filter id="genre-meme" onclick={() => set_filter('genre', 'meme')} text={'meme'} />
   <Filter id="genre-new-wave" onclick={() => set_filter('genre', 'new-wave')} text={'new-wave'} />
+  <Filter id="genre-vgm" onclick={() => set_filter('genre', 'vgm')} text={'vgm'} />
   <br />
   Year:
   <Filter id="year-all" onclick={() => set_filter('year', 'all')} text={'all'} />
