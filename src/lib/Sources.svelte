@@ -17,4 +17,5 @@
     <li><a href="https://www.metacritic.com/browse/albums/score/metascore/all?sort=desc">Metacritic All-Time High Scores</a></li>
     <li>"Star of a Hero" playlist by Guy-Manuel de Homem-Christo</li>
     <li>Songs sampled in "Pop Culture" by Madeon</li>
+    <li>Albums from artists cited in "Destroy Rock &amp; Roll (Mylo)</li>
 </ul>
