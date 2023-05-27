@@ -1380,7 +1380,7 @@ const data: Item[] = [
   { title: "fROMOHIO", artist: "fIREHOSE", year: 1989 },
   { title: "Playing With Fire", artist: "Spacemen 3", year: 1989, listened: true, meh: true, genre: "rock" },
   { title: "All Hail the Queen", artist: "Queen Latifah", year: 1989, listened: true, genre: "rap", stars: 1 },
-  { title: "Technique", artist: "Neworder", year: 1989 },
+  { title: "Technique", artist: "New Order", year: 1989 },
   { title: "The Healer", artist: "John Lee Hooker", year: 1989 },
   { title: "Let Love Rule", artist: "Lenny Kravitz", year: 1989 },
   { title: "Club Classics Vol. One", artist: "Soul II Soul", year: 1989, listened: true, genre: "r-n-b", comment: '"Back to Life (However Do You Want Me)"' },
