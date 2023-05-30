@@ -13,6 +13,6 @@
     <li>Spotify playlists (pop-rock, electro 2000, rock 70s / 80s), etc.</li>
     <li>Chansons françaises de la collection Diapason Rouge</li>
     <li><a href="https://en.wikipedia.org/wiki/List_of_jazz_fusion_musicians">Jazz fusion bands/musicians</a></li>
-    <li>Songs sampled in Daft Punk "Discovery"</li>
     <li><a href="https://en.wikipedia.org/wiki/DJ-Kicks">DJ-KiCKS</a></li>
+    <li>More Stax & Motown records</li>
 </ul>
