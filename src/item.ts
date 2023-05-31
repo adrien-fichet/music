@@ -14,6 +14,8 @@ interface Item {
   single?: boolean,
   ep?: boolean,
   live?: boolean,
+  motown?: boolean,
+  stax?: boolean,
 
   // Additional properties computed only once at runtime
   tr_class?: string,

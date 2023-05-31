@@ -66,6 +66,15 @@
   <Filter id="live-true" onclick={() => set_filter('live', true)} text={'yes'} />
   <Filter id="live-false" onclick={() => set_filter('live', false)} text={'no'} />
   <br />
+  Motown:
+  <Filter id="motown-all" onclick={() => set_filter('motown', 'all')} text={'all'} selected={true} />
+  <Filter id="motown-true" onclick={() => set_filter('motown', true)} text={'yes'} />
+  <Filter id="motown-false" onclick={() => set_filter('motown', false)} text={'no'} />
+  Stax:
+  <Filter id="stax-all" onclick={() => set_filter('stax', 'all')} text={'all'} selected={true} />
+  <Filter id="stax-true" onclick={() => set_filter('stax', true)} text={'yes'} />
+  <Filter id="stax-false" onclick={() => set_filter('stax', false)} text={'no'} />
+  <br />
   Genres:
   <Filter id="genre-all" onclick={() => set_filter('genre', 'all')} text={'all'} selected={true} />
   <Filter id="genre-false" onclick={() => set_filter('genre', false)} text={'none'} />
