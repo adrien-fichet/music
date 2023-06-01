@@ -17,7 +17,9 @@
 <main>
   <NumberOfItems /> 
   <RandomItem />
+  <p></p>
   <Filters />
+  <p></p>
   <Table />
   <Sources /> 
   <Todo /> 

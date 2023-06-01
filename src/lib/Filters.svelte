@@ -24,9 +24,8 @@
   }
 </script>
 
-<p>
-  Filters: <Filter id="reset" onclick={reset_filters} text={'Reset all'} />
-  <br />
+<fieldset>
+  <legend>Filters <Filter id="reset" onclick={reset_filters} text={'Reset all'} /></legend>
   Listened:
   <Filter id="listened-all" onclick={() => set_filter('listened', 'all')} text={'all'} selected={true} />
   <Filter id="listened-true" onclick={() => set_filter('listened', true)} text={'yes'} />
@@ -65,20 +64,13 @@
   <Filter id="live-all" onclick={() => set_filter('live', 'all')} text={'all'} selected={true} />
   <Filter id="live-true" onclick={() => set_filter('live', true)} text={'yes'} />
   <Filter id="live-false" onclick={() => set_filter('live', false)} text={'no'} />
-  <br />
-  Motown:
-  <Filter id="motown-all" onclick={() => set_filter('motown', 'all')} text={'all'} selected={true} />
-  <Filter id="motown-true" onclick={() => set_filter('motown', true)} text={'yes'} />
-  <Filter id="motown-false" onclick={() => set_filter('motown', false)} text={'no'} />
-  Stax:
-  <Filter id="stax-all" onclick={() => set_filter('stax', 'all')} text={'all'} selected={true} />
-  <Filter id="stax-true" onclick={() => set_filter('stax', true)} text={'yes'} />
-  <Filter id="stax-false" onclick={() => set_filter('stax', false)} text={'no'} />
-  <br />
-  Genres:
-  <Filter id="genre-all" onclick={() => set_filter('genre', 'all')} text={'all'} selected={true} />
-  <Filter id="genre-false" onclick={() => set_filter('genre', false)} text={'none'} />
-  <br />
+</fieldset>
+<fieldset>
+  <legend>
+    Genres
+    <Filter id="genre-all" onclick={() => set_filter('genre', 'all')} text={'all'} selected={true} />
+    <Filter id="genre-false" onclick={() => set_filter('genre', false)} text={'none'} />
+  </legend>
   <Filter id="genre-rock" onclick={() => set_filter('genre', 'rock')} text={'rock'} />
   <Filter id="genre-hard-rock" onclick={() => set_filter('genre', 'hard-rock')} text={'hard-rock'} />
   <Filter id="genre-rock-n-roll" onclick={() => set_filter('genre', 'rock-n-roll')} text={'rock-n-roll'} />
@@ -112,10 +104,9 @@
   <Filter id="genre-meme" onclick={() => set_filter('genre', 'meme')} text={'meme'} />
   <Filter id="genre-new-wave" onclick={() => set_filter('genre', 'new-wave')} text={'new-wave'} />
   <Filter id="genre-vgm" onclick={() => set_filter('genre', 'vgm')} text={'vgm'} />
-  <br />
-  Year:
-  <Filter id="year-all" onclick={() => set_filter('year', 'all')} text={'all'} />
-  <br />
+</fieldset>
+<fieldset>
+  <legend>Year <Filter id="year-all" onclick={() => set_filter('year', 'all')} text={'all'} /></legend>
   <Filter id="year-lt-1950" onclick={() => set_filter('year', 'lt-1950')} text={'< 1950'} />
   <Filter id="year-1950" onclick={() => set_filter('year', '1950')} text={'1950s'} />
   <Filter id="year-1960" onclick={() => set_filter('year', '1960')} text={'1960s'} />
@@ -127,4 +118,4 @@
   <Filter id="year-2000" onclick={() => set_filter('year', '2000')} text={'2000s'} />
   <Filter id="year-2010" onclick={() => set_filter('year', '2010')} text={'2010s'} />
   <Filter id="year-2020" onclick={() => set_filter('year', '2020')} text={'2020s'} selected={true} />
-</p>
+</fieldset>
