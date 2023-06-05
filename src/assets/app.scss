@@ -2,6 +2,7 @@ $font-size: 0.9rem;
 $font-size-comment: 0.75rem;
 $color: black;
 $border-color: silver;
+$bg-color: white;
 
 @font-face {
     font-family: "Inter var";
@@ -9,7 +10,7 @@ $border-color: silver;
     font-display: block;
     font-style: normal;
     font-named-instance: "Regular";
-    src:url("./Inter-roman-latin.var.woff2") format("woff2");
+    src: url("./Inter-roman-latin.var.woff2") format("woff2");
 }
 
 body {
@@ -17,6 +18,7 @@ body {
     font-family: "Inter var", Verdana, Geneva, Tahoma, sans-serif;
     margin: 3px;
     color: $color;
+    background-color: $bg-color;
 }
 
 a {

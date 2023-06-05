@@ -50,3 +50,15 @@ it('should not have item duplicates', () => {
     }
   }
 })
+
+it('should have at least one star if favorited', () => {
+  for (const item of data) {
+    if (item.genre === "classical") {
+      continue // classical items are not starred, skip them
+    }
+    if (item.fav) {
+      expect(item.stars, msg(item)).toBeDefined()
+      expect(item.stars, msg(item)).toBeGreaterThan(0)
+    }
+  }
+})
