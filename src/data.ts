@@ -2271,6 +2271,7 @@ const data: Item[] = [
   { title: "Illinois", artist: "Sufjan Stevens", year: 2005 },
   { title: "I Am a Bird Now", artist: "Antony and the Johnsons", year: 2005 },
   { title: "Coles Corner", artist: "Richard Hawley", year: 2005 },
+  { title: "Schnappi", artist: "Black Ingvars", year: 2005, listened: true, single: true, genre: "metal", perso: true },
   { title: "9.0 Live", artist: "Slipknot", year: 2005, live: true },
   { title: "Canon Rock", artist: "funtwo", year: 2005, genre: "meme", listened: true },
   { title: "Royal Albert Hall London May 2-3-5-6, 2005", artist: "Cream", year: 2005, listened: true, stars: 1, genre: "rock" },
