@@ -138,7 +138,7 @@ const data: Item[] = [
   { title: "'Round About Midnight", artist: "Miles Davis", year: 1957, listened: true, genre: "jazz" },
 
   { title: "Lady in Satin", artist: "Billie Holiday", year: 1958 },
-  { title: "Fever", artist: "Peggy Lee", year: 1958, single: true, comment: "cover of Little Willie John", listened: true },
+  { title: "Fever", artist: "Peggy Lee", year: 1958, single: true, comment: "cover of Little Willie John", listened: true, genre: "jazz" },
   { title: "Adagio en sol mineur", artist: "Giazotto", year: 1958, listened: true, genre: "classical" },
   { title: "The Sounds Of India", artist: "Ravi Shankar", year: 1958 },
   { title: "The Atomic Mr. Basie", artist: "Count Basie", year: 1958, listened: true, genre: "jazz" },
@@ -246,7 +246,7 @@ const data: Item[] = [
   { title: "My Generation", artist: "The Who", year: 1965 },
   { title: "Jackson C. Frank", artist: "Jackson C. Frank", year: 1965 },
   { title: "Rubber Soul", artist: "The Beatles", year: 1965, listened: true, fav: true, perso: true, stars: 2, genre: "rock", comment: '"Norvegian Wood (This Bird Has Flown)", "Michelle", "In My Life"' },
-  { title: "Help!", artist: "The Beatles", year: 1965, comment: `"Help!", "Ticket To Ride", "Yesterday", "I've Just Seen a Face"`, listened: true, stars: 2, fav: true },
+  { title: "Help!", artist: "The Beatles", year: 1965, comment: `"Help!", "Ticket To Ride", "Yesterday", "I've Just Seen a Face"`, listened: true, stars: 2, fav: true, genre: "rock" },
 
   { title: "Pet Sounds", artist: "The Beach Boys", year: 1966, listened: true, stars: 1, genre: "rock" },
   { title: "If You Can Believe Your Eyes and Ears", artist: "The Mama's and the Papa's", year: 1966, listened: true, genre: "pop", comment: `"California Dreamin'"` },
