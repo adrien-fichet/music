@@ -62,3 +62,9 @@ it('should have at least one star if favorited', () => {
     }
   }
 })
+
+it.runIf(process.env.DEBUG === "true")('print singles not listened', () => {
+  for (const item of data.filter(item => !!item.single && !item.listened)) {
+    console.log(`${item.title} - ${item.artist} (${item.year})`)
+  }
+})

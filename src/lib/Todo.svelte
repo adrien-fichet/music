@@ -1,6 +1,6 @@
 <p>Todo:</p>
 <ul>
-    <li><a href="https://vipvgm.net">Video Games BGMs</a> from VIP Aersia.net</li>
+    <li>More Video Games BGMs from <a href="https://vipvgm.net">VIP Aersia.net</a></li>
     <li>John Williams OSTs</li>
     <li>Jazz Standards
         <ul>
