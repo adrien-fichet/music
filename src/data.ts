@@ -262,6 +262,7 @@ const data: Item[] = [
 
   { title: "A Love Supreme", artist: "John Coltrane", year: 1965, listened: true, genre: "jazz", stars: 1 },
   { title: "Here Are the Sonics!!!", artist: "The Sonics", year: 1965 },
+  { title: "Métaboles", artist: "Henri Dutilleux", year: 1965, genre: "classical" },
   { title: "(I Can't Get No) Satisfaction", artist: "The Rolling Stones", year: 1965, single: true, listened: true, genre: "rock", stars: 1, perso: true },
   { title: "Papa's Got a Brand New Bag", artist: "James Brown and the Famous Flames", year: 1965, single: true, listened: true, genre: "funk", stars: 1, fav: true },
   { title: "In the Midnight Hour", artist: "Wilson Pickett", year: 1965 },
@@ -2006,6 +2007,7 @@ const data: Item[] = [
 
   { title: "Symphony of Enchanted Lands", artist: "Rhapsody", year: 1998, fav: true, perso: true, listened: true, stars: 1, genre: "metal", comment: 'CD passé par Antoine au collège avec Cannibal Corpse et Children of Bodom, "Emerald Sword"' },
   { title: "System Of A Down", artist: "System Of A Down", year: 1998 },
+  { title: "Point Blank", artist: "Dub Pistols", year: 1998, comment: '"Cyclone" (THPS 2)' },
   { title: "Mi Vida Es Cantar", artist: "Celia Cruz", year: 1998 },
   { title: "Running in the 90s", artist: "Max Coveri", year: 1998, listened: true, genre: "meme" },
   { title: "Walking into Clarksdale", artist: "Page & Plant", year: 1998 },
@@ -2104,6 +2106,7 @@ const data: Item[] = [
   { title: "Je dis aime", artist: "-M-", year: 1999, fr: true },
   { title: "Zooma", artist: "John Paul Jones", year: 1999 },
   { title: "Mindfields", artist: "Toto", year: 1999 },
+  { title: "Sugar's Boogaloo", artist: "The Sugarman 3", year: 1999 },
   { title: "Significant Other", artist: "Limp Bizkit", year: 1999, perso: true, comment: "Médiathèque Port du Canal" },
   { title: "The Man Who", artist: "Travis", year: 1999 },
   { title: "Under a Violet Moon", artist: "Blackmore's Night", year: 1999, listened: true, genre: "rock", stars: 1, fav: true },
@@ -2256,6 +2259,7 @@ const data: Item[] = [
 
   { title: "Power of the Dragonflame", artist: "Rhapsody", year: 2002 },
   { title: "Alice", artist: "Tom Waits", year: 2002 },
+  { title: "Dap Dippin' with Sharon Jones and the Dap-Kings", artist: "Sharon Jones and the Dap-Kings", year: 2002, comment: "Daptone Records" },
   { title: "8 Mile OST", artist: "Various Artists", year: 2002, comment: '"Lose Yourself"' },
   { title: "Lord Willin'", artist: "Clipse", year: 2002 },
   { title: "Evolution", artist: "Liquid Soul", year: 2002 },
@@ -2610,6 +2614,7 @@ const data: Item[] = [
   { title: "Bravado", artist: "Miami Horror", year: 2008, ep: true, genre: "pop", comment: '"Bellevue", "Illumination"', perso: true, stars: 2, fav: true },
   { title: "Random Album Title", artist: "Deadmau5", year: 2008, genre: "electro" },
   { title: "Invasion", artist: "Joachim Garraud", year: 2008, listened: true, genre: "electro", fr: true, meh: true },
+  { title: "Make the Road By Walking", artist: "Menahan Street Band", year: 2008 },
   { title: "Fame", artist: "Lady Gaga", year: 2008 },
 
   { title: "The Fame Monster", artist: "Lady Gaga", year: 2009, ep: true, comment: '"Bad Romance"'},
@@ -2717,6 +2722,7 @@ const data: Item[] = [
   { title: "I'm With You", artist: "Red Hot Chili Peppers", year: 2011 },
   { title: "House of Balloons", artist: "the Weeknd", year: 2011 },
   { title: "Torches", artist: "Foster the People", year: 2011 },
+  { title: "No Time For Dreaming", artist: "Charles Bradley", year: 2011 },
   { title: "Welcome Reality", artist: "Nero", year: 2011, listened: true, genre: "electro", comment: 'Dubstep, "Must Be the Feeling" ("Time to Move" sample)' },
   { title: "Angles", artist: "The Strokes", year: 2011, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Part IV", artist: "Fred Falke", year: 2011, fr: true, genre: "electro" },
@@ -3070,6 +3076,7 @@ const data: Item[] = [
 
   { title: "The Joy Of Music, The Jobs Of Real Estate", artist: "Vulfpeck", year: 2020, listened: true, genre: "funk" },
   { title: "The Hang", artist: "Redtenbacher's Funkestra", year: 2020 },
+  { title: "Fu Chronicles", artist: "Antibalas", year: 2020 },
   { title: "Fetch the Bolt Cutters", artist: "Fiona Apple", year: 2020, listened: true, genre: "pop" },
   { title: "Gun Metal Grey", artist: "The Budos Band", year: 2020, single: true, listened: true, genre: "funk", comment: "instrumental" },
   { title: "Resonate", artist: "Lettuce", year: 2020 },
@@ -3101,13 +3108,13 @@ const data: Item[] = [
   { title: "Rough and Rowdy Ways", artist: "Bob Dylan", year: 2020 },
   { title: "Suga", artist: "Megan Thee Stallion", year: 2020, ep: true },
   { title: "Dynamite", artist: "BTS", year: 2020, single: true, listened: true, genre: "pop", meh: true },
-  { title: "YHLQMDLG", artist: "Bad Bunny", year: 2020 },
+  { title: "YHLQMDLG", artist: "Bad Bunny", year: 2020, listened: true, genre: "r-n-b", meh: true },
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
   { title: "A State Of Trance 1000 - Celebration Mix", artist: "Armin van Buuren", year: 2021, listened: true, stars: 1, genre: "electro", fav: true },
   { title: "Conflicts of Interest", artist: "Ghetts", year: 2021 },
   { title: "Sunday Afternoon", artist: "True Loves", year: 2021 },
-  { title: "The Exciting Sounds of Menahan Street Band", artist: "Menahan Street Band", year: 2021 },
+  { title: "The Exciting Sounds of Menahan Street Band", artist: "Menahan Street Band", year: 2021, listened: true, genre: "funk", stars: 1 },
   { title: "Blue Weekend", artist: "Wolf Alice", year: 2021 },
   { title: "Got Ya Movin'", artist: "Funky Times", year: 2021 },
   { title: "I Told You So", artist: "Delvon Lamarr Organ Trio", year: 2021 },
@@ -3124,6 +3131,7 @@ const data: Item[] = [
   { title: "New & Improved", artist: "TWRP", year: 2021, listened: true, genre: "funk" },
   { title: "Happier Than Ever", artist: "Billie Eilish", year: 2021, listened: true, genre: "pop" },
   { title: "We Are", artist: "Jon Batiste", year: 2021, listened: true, genre: "soul" },
+  { title: "Bocosaurus", artist: "Arc De Soleil", year: 2021, listened: true, genre: "funk", ep: true, stars: 1 },
   { title: "Monogramme", artist: "Magenta", year: 2021, listened: true, genre: "electro", fr: true },
   { title: "Voyage", artist: "ABBA", year: 2021, listened: true, genre: "disco" },
   { title: "Born a Loser", artist: "Myd", year: 2021, listened: true, genre: "electro", fr: true, stars: 1 },
@@ -3141,7 +3149,7 @@ const data: Item[] = [
   { title: "Zeit", artist: "Rammstein", year: 2022, listened: true, genre: "metal", stars: 1, fav: true },
   { title: "Formentera", artist: "Metric", year: 2022, listened: true, genre: "pop" },
   { title: "South Park the 25th Anniversary Concert", artist: "Primus, Ween, Trey Parker & Matt Stone", year: 2022, live: true },
-  { title: "Body Double", artist: "The Supermen Lovers", year: 2022, fr: true },
+  { title: "Body Double", artist: "The Supermen Lovers", year: 2022, fr: true, listened: true, genre: "electro" },
   { title: "Elden Ring OST", artist: "Tsukasa Saitoh, Shoi Miyazawa, Tai Tomisawa, Yuka Kitamura, Yoshimi Kudo", year: 2022, genre: "vgm", listened: true },
   { title: "Quality Over Opinion", artist: "Louis Cole", year: 2022, listened: true, genre: "funk" },
   { title: "Step By Step", artist: "Alan Braxe & DJ Falcon", year: 2022, ep: true, fr: true, genre: "electro", listened: true },
@@ -3178,6 +3186,7 @@ const data: Item[] = [
   { title: "Six", artist: "Extreme", year: 2023, genre: "hard-rock", listened: true, stars: 1 },
   { title: "In Times New Roman...", artist: "Queens of the Stone Age", year: 2023, genre: "hard-rock", listened: true },
   { title: "I Can Say To You", artist: "Butcher Brown", year: 2023, genre: "jazz", listened: true, single: true },
+  { title: "Limiter", artist: "TrackTribe", year: 2023, genre: "trip-hop", listened: true, ep: true, comment: '"I Had a Feeling" (Only Up speedrun)' },
 ]
 
 const item_tr_class = (item: Item): string => {
