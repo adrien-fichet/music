@@ -7,7 +7,7 @@
 </script>
 
 <p>
-    Number of items: {number_listened} listened 
+    <b>Number of items</b>: {number_listened} listened 
     out of {items_length} in total 
     ({percentage}%)
 </p>

@@ -33,6 +33,8 @@ class Icon {
             case "new-wave":
             case "vgm":
                 return "►"
+            case "meme":
+                return "☺"
             default: 
                 return "■"
         }

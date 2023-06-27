@@ -1,13 +1,10 @@
 <script lang="ts">
   import type Item from '../item'
-  import trollface from '../assets/trollface.svg'
 
   export let item: Item
 </script>
 
-{#if item.genre === 'meme'}
-  <span class="meme"><img src="{trollface}" alt="meme" /></span>
-{:else if item.genre != null}
+{#if !!item.genre}
   <span class="{item.icon_class} {item.genre}">{item.icon}</span>
 {/if}
 
@@ -21,9 +18,7 @@
 [{#each {length: item.stars} as _}<span class="star">★</span>{/each}]
 {/if}
 
-{#if !!item.standard}
-  <span class="jazz">♪</span>
-{/if}
+{#if !!item.standard}♪{/if}
 
 {#if !!item.single}
   <span class="comment">[Single]</span>

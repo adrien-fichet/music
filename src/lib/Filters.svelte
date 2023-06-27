@@ -25,49 +25,49 @@
 </script>
 
 <fieldset>
-  <legend>Filters <Filter id="reset" onclick={reset_filters} text={'Reset all'} /></legend>
-  Listened:
-  <Filter id="listened-all" onclick={() => set_filter('listened', 'all')} text={'all'} selected={true} />
-  <Filter id="listened-true" onclick={() => set_filter('listened', true)} text={'yes'} />
-  <Filter id="listened-false" onclick={() => set_filter('listened', false)} text={'no'} />
-  <br />
-  Stars:
-  <Filter id="stars-all" onclick={() => set_filter('stars', 'all')} text={'all'} selected={true} />
-  <Filter id="stars-false" onclick={() => set_filter('stars', false)} text={'none'} />
-  <Filter id="stars-1" onclick={() => set_filter('stars', 1)} class_name={'star'} text={'★'} />
-  <Filter id="stars-2" onclick={() => set_filter('stars', 2)} class_name={'star'} text={'★★'} />
-  <Filter id="stars-3" onclick={() => set_filter('stars', 3)} class_name={'star'} text={'★★★'} />
-  <br />
-  Fav:
-  <Filter id="fav-all" onclick={() => set_filter('fav', 'all')} text={'all'} selected={true} />
-  <Filter id="fav-true" onclick={() => set_filter('fav', true)} text={'yes'} />
-  <Filter id="fav-false" onclick={() => set_filter('fav', false)} text={'no'} />
-  Meh:
-  <Filter id="meh-all" onclick={() => set_filter('meh', 'all')} text={'all'} selected={true} />
-  <Filter id="meh-true" onclick={() => set_filter('meh', true)} text={'yes'} />
-  <Filter id="meh-false" onclick={() => set_filter('meh', false)} text={'no'} />
-  <br />
-  Perso <span class="heart">♥</span>:
-  <Filter id="perso-all" onclick={() => set_filter('perso', 'all')} text={'all'} selected={true} />
-  <Filter id="perso-true" onclick={() => set_filter('perso', true)} text={'yes'} />
-  <Filter id="perso-false" onclick={() => set_filter('perso', false)} text={'no'} />
-  Fr <img class="flag" src={flag_fr} alt='fr' />:
-  <Filter id="fr-all" onclick={() => set_filter('fr', 'all')} text={'all'} selected={true} />
-  <Filter id="fr-true" onclick={() => set_filter('fr', true)} text={'yes'} />
-  <Filter id="fr-false" onclick={() => set_filter('fr', false)} text={'no'} />
-  <br />
-  Standard <span class="jazz">♪</span>:
-  <Filter id="standard-all" onclick={() => set_filter('standard', 'all')} text={'all'} selected={true} />
-  <Filter id="standard-true" onclick={() => set_filter('standard', true)} text={'yes'} />
-  <Filter id="standard-false" onclick={() => set_filter('standard', false)} text={'no'} />
-  Live:
-  <Filter id="live-all" onclick={() => set_filter('live', 'all')} text={'all'} selected={true} />
-  <Filter id="live-true" onclick={() => set_filter('live', true)} text={'yes'} />
-  <Filter id="live-false" onclick={() => set_filter('live', false)} text={'no'} />
+<legend><b>Filters</b> <Filter id="reset" onclick={reset_filters} text={'Reset all'} /></legend>
+Listened:
+<Filter id="listened-all" onclick={() => set_filter('listened', 'all')} text={'all'} selected={true} />
+<Filter id="listened-true" onclick={() => set_filter('listened', true)} text={'yes'} />
+<Filter id="listened-false" onclick={() => set_filter('listened', false)} text={'no'} />
+<br />
+Stars:
+<Filter id="stars-all" onclick={() => set_filter('stars', 'all')} text={'all'} selected={true} />
+<Filter id="stars-false" onclick={() => set_filter('stars', false)} text={'none'} />
+<Filter id="stars-1" onclick={() => set_filter('stars', 1)} class_name={'star'} text={'★'} />
+<Filter id="stars-2" onclick={() => set_filter('stars', 2)} class_name={'star'} text={'★★'} />
+<Filter id="stars-3" onclick={() => set_filter('stars', 3)} class_name={'star'} text={'★★★'} />
+<br />
+Fav:
+<Filter id="fav-all" onclick={() => set_filter('fav', 'all')} text={'all'} selected={true} />
+<Filter id="fav-true" onclick={() => set_filter('fav', true)} text={'yes'} />
+<Filter id="fav-false" onclick={() => set_filter('fav', false)} text={'no'} />
+Meh:
+<Filter id="meh-all" onclick={() => set_filter('meh', 'all')} text={'all'} selected={true} />
+<Filter id="meh-true" onclick={() => set_filter('meh', true)} text={'yes'} />
+<Filter id="meh-false" onclick={() => set_filter('meh', false)} text={'no'} />
+<br />
+Perso <span class="heart">♥</span>:
+<Filter id="perso-all" onclick={() => set_filter('perso', 'all')} text={'all'} selected={true} />
+<Filter id="perso-true" onclick={() => set_filter('perso', true)} text={'yes'} />
+<Filter id="perso-false" onclick={() => set_filter('perso', false)} text={'no'} />
+Fr <img class="flag" src={flag_fr} alt='fr' />:
+<Filter id="fr-all" onclick={() => set_filter('fr', 'all')} text={'all'} selected={true} />
+<Filter id="fr-true" onclick={() => set_filter('fr', true)} text={'yes'} />
+<Filter id="fr-false" onclick={() => set_filter('fr', false)} text={'no'} />
+<br />
+Standard ♪:
+<Filter id="standard-all" onclick={() => set_filter('standard', 'all')} text={'all'} selected={true} />
+<Filter id="standard-true" onclick={() => set_filter('standard', true)} text={'yes'} />
+<Filter id="standard-false" onclick={() => set_filter('standard', false)} text={'no'} />
+Live:
+<Filter id="live-all" onclick={() => set_filter('live', 'all')} text={'all'} selected={true} />
+<Filter id="live-true" onclick={() => set_filter('live', true)} text={'yes'} />
+<Filter id="live-false" onclick={() => set_filter('live', false)} text={'no'} />
 </fieldset>
 <fieldset>
   <legend>
-    Genres
+    <b>Genres</b>
     <Filter id="genre-all" onclick={() => set_filter('genre', 'all')} text={'all'} selected={true} />
     <Filter id="genre-false" onclick={() => set_filter('genre', false)} text={'none'} />
   </legend>
@@ -106,7 +106,7 @@
   <Filter id="genre-vgm" onclick={() => set_filter('genre', 'vgm')} text={'vgm'} />
 </fieldset>
 <fieldset>
-  <legend>Year <Filter id="year-all" onclick={() => set_filter('year', 'all')} text={'all'} /></legend>
+  <legend><b>Year</b> <Filter id="year-all" onclick={() => set_filter('year', 'all')} text={'all'} /></legend>
   <Filter id="year-lt-1950" onclick={() => set_filter('year', 'lt-1950')} text={'< 1950'} />
   <Filter id="year-1950" onclick={() => set_filter('year', '1950')} text={'1950s'} />
   <Filter id="year-1960" onclick={() => set_filter('year', '1960')} text={'1960s'} />

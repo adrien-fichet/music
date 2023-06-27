@@ -1,12 +1,27 @@
 $font-size: 0.9rem;
 $font-size-comment: 0.75rem;
-$color: black;
-$border-color: silver;
-$bg-color: white;
+
+$main-color: #a9b7c6;
+$front-color: #3c89d5;
+$back-color: #87888f;
+$background-color: #2b2b2b;
+
+$red: #dd0000;
+$orange: darkorange;
+$pink: hotpink;
+$yellow: #e2bd00;
+$purple: darkorchid;
+$grey: silver;
+$blue: #5050ff;
+$cyan: #00e4e4;
+$teal: darkcyan;
+$lime: #00e700;
+$green: limegreen;
+$black: black;
 
 @font-face {
     font-family: "Inter var";
-    font-weight: 350;
+    font-weight: 300;
     font-display: block;
     font-style: normal;
     font-named-instance: "Regular";
@@ -17,12 +32,12 @@ body {
     font-size: $font-size;
     font-family: "Inter var", Verdana, Geneva, Tahoma, sans-serif;
     margin: 3px;
-    color: $color;
-    background-color: $bg-color;
+    color: $main-color;
+    background-color: $background-color;
 }
 
 a {
-    color: $color;
+    color: $main-color;
 }
 
 table {
@@ -30,7 +45,7 @@ table {
 }
 
 tr {
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid $back-color;
 }
 
 th, td {
@@ -49,7 +64,7 @@ ul {
 
 fieldset {
     max-width: 350px;
-    border: 1px solid $border-color;
+    border: 1px solid $back-color;
     margin-bottom: 5px;
 }
 
@@ -62,20 +77,20 @@ fieldset {
 }
 
 .not-listened {
-    color: gray;
+    color: $back-color;
 }
 
 .heart { 
-    color: red;
+    color: $red;
 }
 
 .star {
-    color: blue;
+    color: $yellow;
 }
 
 .meh {
     text-decoration: line-through;
-    color: silver;
+    color: $back-color;
 }
 
 .genre {
@@ -86,55 +101,53 @@ fieldset {
     font-style: italic;
     font-weight: normal;
     font-size: $font-size-comment;
-    color: gray;
+    color: $back-color;
 }
 
 .emoticon {
-    font-size: 8px;
+    font-size: 9px;
 }
 
-.rock { color: red; }
-.hard-rock { color: black; }
-.rock-n-roll { color: gold; }
-.punk { color: darkorange; }
-.grunge { color: purple; }
-.metal { color: silver; }
-.country { color: darkcyan; }
+.rock { color: $red; }
+.hard-rock { color: $black; -webkit-text-stroke: 1px $grey; }
+.rock-n-roll { color: $yellow; }
+.punk { color: $orange; }
+.grunge { color: $purple; }
+.metal { color: $grey; }
+.country { color: $teal; }
 
-.soul { color: purple; }
-.trip-hop { color: blue; }
-.pop { color: hotpink; }
-.funk { color: lime;  }
+.soul { color: $purple; }
+.trip-hop { color: $blue; }
+.pop { color: $pink; }
+.funk { color: $lime;  }
 
-.jazz { color: blue; }
-.disco { color: hotpink; }
-.reggae { color: limegreen; }
-.r-n-b { color: purple; }
+.jazz { color: $blue; }
+.disco { color: $pink; }
+.reggae { color: $green; }
+.r-n-b { color: $purple; }
 
-.world { color: gold; }
-.classical { color: limegreen; }
-.swing { color: darkorange; }
-.blues { color: blue; }
+.world { color: $yellow; }
+.classical { color: $green; }
+.swing { color: $orange; }
+.blues { color: $blue; }
 
-.folk { color: darkcyan; }
-.electro { color: cyan; }
-.rap { color: black; }
-.chanson { color: hotpink; }
-.meme img { width: 15px; }
-.new-wave { color: gold; }
-.vgm { color: lime; }
+.folk { color: $teal; }
+.electro { color: $cyan; }
+.rap { color: $black; -webkit-text-stroke: 1px $grey; }
+.chanson { color: $pink; }
+.meme { color: $main-color; }
+.new-wave { color: $yellow; }
+.vgm { color: $lime; }
 
 .flag {
     vertical-align: middle;
     width: 13px;
+    opacity: 0.7;
 }
 
 .selected {
     font-weight: bold;
-}
-
-.not-selected {
-    color: gray;
+    color: $front-color;
 }
 
 .spotify {
