@@ -1,10 +1,10 @@
 $font-size: 0.9rem;
 $font-size-comment: 0.75rem;
 
-$main-color: #a9b7c6;
+$main-color: #b5b5b5;
 $front-color: #3c89d5;
 $back-color: #87888f;
-$background-color: #2b2b2b;
+$background-color: #181818;
 
 $red: #dd0000;
 $orange: darkorange;
@@ -12,7 +12,7 @@ $pink: hotpink;
 $yellow: #e2bd00;
 $purple: darkorchid;
 $grey: silver;
-$blue: #5050ff;
+$blue: #174dff;
 $cyan: #00e4e4;
 $teal: darkcyan;
 $lime: #00e700;
@@ -69,7 +69,7 @@ fieldset {
 }
 
 .fav {
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .centered {
@@ -142,11 +142,11 @@ fieldset {
 .flag {
     vertical-align: middle;
     width: 13px;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .selected {
-    font-weight: bold;
+    font-weight: 800;
     color: $front-color;
 }
 

@@ -1699,7 +1699,7 @@ const data: Item[] = [
   { title: "Unplugged", artist: "Eric Clapton", year: 1992, listened: true, fav: true, stars: 3, genre: "rock", comment: `"Before You Accuse Me", "Tears in Heaven", "Nobody Knows You When You're Down and Out", "Layla", "Rollin' and Tumblin'"`, live: true },
   { title: "Live at Donington", artist: "AC/DC", year: 1992, listened: true, perso: true, stars: 1, genre: "hard-rock", live: true },
   { title: "The Chronic", artist: "Dr. Dre", year: 1992, listened: true, genre: "rap", stars: 1 },
-  { title: "Ingénue", artist: "k.d. lang", year: 1992, listened: true, genre: "country" },
+  { title: "Ingénue", artist: "k.d. lang", year: 1992, listened: true, genre: "folk" },
   { title: "Double Jeu", artist: "Michel Berger, France Gall", year: 1992, listened: true, genre: "pop", fr: true },
   { title: "Tomb of the Mutilated", artist: "Cannibal Corpse", year: 1992 },
   { title: "Hypocrisy Is The Greatest Luxury", artist: "The Disposable Heroes of Hiphoprisy", year: 1992 },
