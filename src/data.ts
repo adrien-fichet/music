@@ -1693,7 +1693,7 @@ const data: Item[] = [
   { title: "The Bodyguard OST", artist: "Whitney Houston & Various Artists", year: 1992, listened: true, genre: "r-n-b", comment: '"I Will Always Love You"' },
   { title: `The Age of Love - Jam & Spoon "Watch Out For Stella" Mix`, artist: "Age of Love", year: 1990, listened: true, genre: "electro", single: true },
   { title: "Life On Planet Groove", artist: "Maceo Parker", year: 1992 },
-  { title: "What Hits!?", artist: "Red Hot Chili Peppers", year: 1992, perso: true, listened: true, comment: "Compilation album" },
+  { title: "What Hits!?", artist: "Red Hot Chili Peppers", year: 1992, perso: true, listened: true, comment: "Compilation album", genre: "funk" },
   { title: "Ignition", artist: "The Offspring", year: 1992, perso: true, listened: true, genre: "punk", comment: '"Dirty Magic", "L.A.P.D."', stars: 1 },
   { title: "Rage Against the Machine", artist: "Rage Against the Machine", year: 1992, listened: true, genre: "metal", comment: '"Bombtrack", "Killing in the Name", "Take the Power Back", "Know Your Enemy", "Wake Up", "Freedom"', stars: 2, fav: true },
   { title: "Unplugged", artist: "Eric Clapton", year: 1992, listened: true, fav: true, stars: 3, genre: "rock", comment: `"Before You Accuse Me", "Tears in Heaven", "Nobody Knows You When You're Down and Out", "Layla", "Rollin' and Tumblin'"`, live: true },
