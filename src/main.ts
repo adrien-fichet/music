@@ -1,4 +1,7 @@
-import './assets/Inter-roman-latin.var.woff2'
+import './assets/Inter-Light.woff2'
+import './assets/Inter-LightItalic.woff2'
+import './assets/Inter-SemiBold.woff2'
+
 import './assets/app.scss'
 import App from './App.svelte'
 
