@@ -34,7 +34,7 @@ class Icon {
             case "vgm":
                 return "►"
             case "meme":
-                return "☺"
+                return "( ͡° ͜ʖ ͡°)"
             default: 
                 return "■"
         }
