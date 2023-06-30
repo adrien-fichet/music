@@ -1321,6 +1321,7 @@ const data: Item[] = [
 
   { title: "Purple Rain", artist: "Prince and the Revolution", year: 1984, perso: true },
   { title: "Agent Provocateur", artist: "Foreigner", year: 1984 },
+  { title: "The Age of Consent", artist: "Bronski Beat", year: 1984, comment: '"Smalltown Boy"' },
   { title: "This Is Spinal Tap OST", artist: "Spinal Tap", year: 1984, perso: true },
   { title: "Building the Perfect Beast", artist: "Don Henley", year: 1984 },
   { title: "Hatful of Sorrow", artist: "The Smiths", year: 1984 },
@@ -1684,7 +1685,7 @@ const data: Item[] = [
   { title: "Tostaky", artist: "Noir Désir", year: 1992, fr: true, genre: "rock", comment: '"Here It Comes Slowly", "Ici Paris", "Oublié" (end drum sample), "One Trip One Noise", "Tostaky (Le continent)", "Marlène", "Lolita nie en bloc"', listened: true, stars: 3, fav: true, perso: true },
   { title: "Back to the Light", artist: "Brian May", year: 1992 },
   { title: "Core", artist: "Stone Temple Pilots", year: 1992, genre: "grunge", listened: true, stars: 1 },
-  { title: "Mecca and the Soul Brother", artist: "Pete Rock & CL Smooth", year: 1992 },
+  { title: "Mecca and the Soul Brother", artist: "Pete Rock & CL Smooth", year: 1992, listened: true, genre: "rap", stars: 1, comment: '"They Reminisce Over You (T.R.O.Y.)"' },
   { title: "Standards", artist: "Biréli Lagrène", year: 1992, fr: true, genre: "jazz", listened: true, comment: "Jazz Guitar" },
   { title: "Las Vegas", artist: "Barry Leitch", year: 1992, genre: "vgm", listened: true, comment: "Top Gear" },
   { title: "Jump Around", artist: "House of Pain", year: 1992, single: true, genre: "rap", listened: true },
@@ -1706,7 +1707,7 @@ const data: Item[] = [
   { title: "Tomb of the Mutilated", artist: "Cannibal Corpse", year: 1992, listened: true, genre: "metal", perso: true, comment: '"Hammer Smashed Face"' },
   { title: "Hypocrisy Is The Greatest Luxury", artist: "The Disposable Heroes of Hiphoprisy", year: 1992 },
   { title: "No Doubt", artist: "No Doubt", year: 1992, listened: true, genre: "pop", comment: "Ska" },
-  { title: "Angel Dust", artist: "Faith No More", year: 1992, listened: true, genre: "hard-rock", stars: 1 },
+  { title: "Angel Dust", artist: "Faith No More", year: 1992, listened: true, genre: "hard-rock", stars: 1, fav: true, comment: '"Jizzlobber" organ sample' },
   { title: "Fear of the Dark", artist: "Iron Maiden", year: 1992, listened: true, genre: "hard-rock", fav: true, stars: 3, comment: `"Be Quick or Be Dead", "From Here to Eternity", "Afraid to Shoot Strangers", "Childhood's End", "Chains of Misery", "Fear of the Dark"` },
   { title: "Kingdom of Desire", artist: "Toto", year: 1992 },
   { title: "Get Ready!", artist: "2 Unlimited", year: 1992 },
@@ -1715,7 +1716,7 @@ const data: Item[] = [
   { title: "Bizarre Ride II the Pharcyde", artist: "The Pharcyde", year: 1992 },
   { title: "Check Your Head", artist: "Beastie Boys", year: 1992 },
   { title: "What's the 411?", artist: "Mary J. Blige", year: 1992, listened: true, genre: "r-n-b" },
-  { title: "Little Earthquakes", artist: "Tori Amos", year: 1992 },
+  { title: "Little Earthquakes", artist: "Tori Amos", year: 1992, listened: true, genre: "pop" },
   { title: "Love Deluxe", artist: "Sade", year: 1992, listened: true, genre: "soul", comment: '"No Ordinary Love"' },
   { title: "Your Arsenal", artist: "Morrissey", year: 1992, listened: true, genre: "rock" },
   { title: "The Predator", artist: "Ice Cube", year: 1992, comment: '"It Was a Good Day"' },
@@ -1741,6 +1742,7 @@ const data: Item[] = [
 
   { title: "Emergency on Planet Earth", artist: "Jamiroquai", year: 1993, listened: true, genre: "funk", stars: 2, fav: true, perso: true, comment: '"Blow Your Mind", "Revolution 1993", Cabal Online bg music' },
   { title: "Kamakiriad", artist: "Donald Fagen", year: 1993 },
+  { title: "Ten Summoner's Tales", artist: "Sting", year: 1993, comment: '"Shape Of My Heart"' },
   { title: "Pablo Honey", artist: "Radiohead", year: 1993 },
   { title: "Yeah Yeah Yeah", artist: "Bikini Kill", year: 1993 },
   { title: "So Tonight That I Might See", artist: "Mazzy Star", year: 1993 },
@@ -2443,7 +2445,6 @@ const data: Item[] = [
   { title: "From Mars to Sirius", artist: "Gojira", year: 2005, fr: true },
   { title: "Chop Suey", artist: "Busy P", year: 2005, fr: true, genre: "electro", listened: true, single: true },
   { title: "OK Cowboy", artist: "Vitalic", year: 2005, fr: true, genre: "electro" },
-  { title: "In Orbit", artist: "September", year: 2005 },
   { title: "Daniel Powter", artist: "Daniel Powter", year: 2005, listened: true, genre: "pop", meh: true, comment: '"Bad Day" (Dim keyboard meme)' },
   { title: "Touhou: Phantasmagoria of Flower View OST", artist: "ZUN", year: 2005, genre: "vgm" },
   { title: "The Trinity", artist: "Sean Paul", year: 2005 },
@@ -2540,6 +2541,7 @@ const data: Item[] = [
   { title: "Keyboard Cat", artist: "Fatso", year: 2007, genre: "meme", listened: true },
   { title: "X", artist: "Kylie Minogue", year: 2007 },
   { title: "Alphabeat", artist: "Alphabeat", year: 2007 },
+  { title: "Cry For You", artist: "September", year: 2007, listened: true, single: true, genre: "electro", comment: `Remixed version from "Dancing Shoes" LP, Sample from "Smalltown Boy", You'll never see me agaaaaain` },
   { title: "What What (In the Butt)", artist: "Samwell", year: 2007, genre: "meme", listened: true },
   { title: "There Will Be Blood OST", artist: "Jonny Greenwood", year: 2007, perso: true },
   { title: "Carry On", artist: "Chris Cornell", year: 2007, comment: '"You Know My Name" (James Bond Casino Royale)' },
@@ -3197,7 +3199,7 @@ const data: Item[] = [
   { title: "In Times New Roman...", artist: "Queens of the Stone Age", year: 2023, genre: "hard-rock", listened: true },
   { title: "I Can Say To You", artist: "Butcher Brown", year: 2023, genre: "jazz", listened: true, single: true },
   { title: "Limiter", artist: "TrackTribe", year: 2023, genre: "trip-hop", listened: true, ep: true, comment: '"I Had a Feeling" (Only Up speedrun)' },
-  { title: "Live at Bonnaroo", artist: "Vulfpeck", year: 2023, genre: "funk", live: true },
+  { title: "Live at Bonnaroo", artist: "Vulfpeck", year: 2023, genre: "funk", live: true, listened: true, stars: 1, fav: true, comment: '"Dean Town" additional keyboard part' },
 ]
 
 const item_tr_class = (item: Item): string => {
