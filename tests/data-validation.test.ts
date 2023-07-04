@@ -63,8 +63,16 @@ it('should have at least one star if favorited', () => {
   }
 })
 
-it.runIf(process.env.DEBUG === "true")('print singles not listened', () => {
-  for (const item of data.filter(item => !!item.single && !item.listened)) {
+it.runIf(process.env.DEBUG === "true")('print singles and standards not yet listened', () => {
+  for (const item of data.filter(item => (!!item.single || !!item.standard) && !item.listened)) {
     console.log(`${item.title} - ${item.artist} (${item.year})`)
+  }
+})
+
+it('should not marked as "single" if it is a standard', () => {
+  for (const item of data) {
+    if (item.standard) {
+      expect(item.single, msg(item)).toBeUndefined()
+    }
   }
 })
