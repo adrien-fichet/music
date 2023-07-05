@@ -33,4 +33,6 @@ const current_items = derived(
   }
 )
 
-export { items, filters, current_items }
+const loading = writable(false)
+
+export { items, filters, current_items, loading }

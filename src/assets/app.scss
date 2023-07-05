@@ -58,6 +58,9 @@ a {
 
 table {
     border-collapse: collapse;
+    max-width: 1000px;
+    table-layout: fixed;
+    width: 100%;
 }
 
 tr {
@@ -65,9 +68,7 @@ tr {
 }
 
 th, td {
-    padding-left: 10px;
-    padding-right: 10px;
-    max-width: 500px;
+    padding: 1px 5px;
 }
 
 p {
@@ -173,4 +174,22 @@ fieldset {
     width: 15px;
     height: 15px;
     vertical-align: text-top;
+}
+
+#year-th { 
+    width: 4em; 
+}
+
+#spotify-th { 
+    width: 15px; 
+}
+
+#filler { 
+    height: 1000px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#filler p {
+    margin-top: 30px;
 }

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon from '../icon'  
+  import Icon from '../icon'
 
   export let id = ''
   export let onclick

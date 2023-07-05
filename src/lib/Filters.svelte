@@ -1,26 +1,41 @@
 <script lang="ts">
   import flag_fr from '../assets/flag-fr.svg'
   import Filter from './Filter.svelte'
-  import { filters } from '../stores'
+  import { filters, loading } from '../stores'
+
+  function load(fn) {
+    // https://stackoverflow.com/a/57659500
+    $loading = true
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        fn()
+        $loading = false
+      })
+    })
+  }
 
   function reset_filters() {
-    $filters = {}
     document.querySelectorAll(`[id^="filter-"]`).forEach(el => el.classList.remove('selected'))
     document.querySelectorAll(`[id$="-all"]`).forEach(el => el.classList.add('selected'))
+    load(() => {
+      // @ts-ignore
+      $filters = {}
+    })
   }
 
   function set_filter(key: string, value: string|boolean|number) {
     document.querySelectorAll(`[id^="filter-${key}-"]`).forEach(el => el.classList.remove('selected'))
-    if (value === 'all') {
-      if ($filters[key] !== undefined) {
-        delete $filters[key]
-        $filters = $filters // force assignation to update derived stores
+    document.querySelector(`[id="filter-${key}-${value}"]`).classList.add('selected')
+    load(() => {
+      if (value === 'all') {
+        if ($filters[key] !== undefined) {
+          delete $filters[key]
+        }
+      } else {
+        $filters[key] = value
       }
-      document.querySelector(`[id="filter-${key}-${value}"]`).classList.add('selected')
-    } else {
-      $filters[key] = value
-      document.querySelector(`[id="filter-${key}-${value}"]`).classList.add('selected')
-    }
+      $filters = $filters // force assignation to update derived stores
+    })
   }
 </script>
 
