@@ -69,10 +69,18 @@ it.runIf(process.env.DEBUG === "true")('print singles and standards not yet list
   }
 })
 
-it('should not marked as "single" if it is a standard', () => {
+it('should not be marked as "single" if it is a standard', () => {
   for (const item of data) {
     if (item.standard) {
       expect(item.single, msg(item)).toBeUndefined()
     }
+  }
+})
+
+it('items should be ordered by years in chronological order', () => {
+  let previous_year = 0
+  for (const item of data) {
+    expect(item.year, msg(item)).toBeGreaterThanOrEqual(previous_year)
+    previous_year = item.year
   }
 })
