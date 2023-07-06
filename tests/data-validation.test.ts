@@ -8,7 +8,7 @@ const msg = (item: Item): string => `Error on item: ${JSON.stringify(item)}`
 it('should not use fields with single or double quotes', async () => {
   const data_file = await open('./src/data.ts')
   const item_fields = [
-    'title', 'artist', 'year', 'genre', 'comment', 'listened', 'fav', 'meh', 'fr', 
+    'title', 'artist', 'year', 'genre', 'comment', 'listened', 'fav', 'meh', 'fr',
     'standard', 'stars', 'perso', 'single', 'ep', 'live'
   ]
   for await (const line of data_file.readLines()) {
@@ -82,5 +82,13 @@ it('items should be ordered by years in chronological order', () => {
   for (const item of data) {
     expect(item.year, msg(item)).toBeGreaterThanOrEqual(previous_year)
     previous_year = item.year
+  }
+})
+
+it('should be marked as listened if it has stars, is fav or meh', () => {
+  for (const item of data) {
+    if (!!item.stars || !!item.fav || !!item.meh) {
+      expect(item.listened, msg(item)).toBeTruthy()
+    }
   }
 })
