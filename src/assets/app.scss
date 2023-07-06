@@ -58,8 +58,11 @@ a {
 
 table {
     border-collapse: collapse;
-    max-width: 1000px;
     table-layout: fixed;
+}
+
+table:first-of-type {
+    max-width: 1000px;
     width: 100%;
 }
 
@@ -101,7 +104,7 @@ fieldset {
     color: $back-color;
 }
 
-.heart { 
+.heart {
     color: $red;
 }
 
@@ -176,15 +179,15 @@ fieldset {
     vertical-align: text-top;
 }
 
-#year-th { 
-    width: 4em; 
+#year-th {
+    width: 4em;
 }
 
-#spotify-th { 
-    width: 15px; 
+#spotify-th {
+    width: 15px;
 }
 
-#filler { 
+#filler {
     height: 1000px;
     vertical-align: top;
     text-align: center;
