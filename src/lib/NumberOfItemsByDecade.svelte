@@ -1,5 +1,6 @@
 <script lang="ts">
   import { items } from '../stores'
+  import { percentage, percentage_class } from '../percentage'
 
   let items_by_decade = {}
 
@@ -18,16 +19,17 @@
   }
 </script>
 
-<p>Number of items listened by decade:</p>
 <table>
-  <tr><th>Decade</th><th>Listened</th><th>Not listened</th><th>Total</th><th>Percentage</th></tr>
+  <tr><th>Decade</th><th>✓</th><th>✗</th><th>Total</th><th>%</th></tr>
   {#each Object.entries(items_by_decade) as [decade, number_of_items]}
     <tr>
-      <td>{ decade }s</td>
-      <td>{ number_of_items["listened"] }</td>
-      <td>{ number_of_items["total"] - number_of_items["listened"] }</td>
-      <td>{ number_of_items["total"] }</td>
-      <td>{ Math.floor(number_of_items["listened"] / number_of_items["total"] * 100) }%</td>
+      <td class="centered">{ decade }s</td>
+      <td class="align-right">{ number_of_items["listened"] }</td>
+      <td class="align-right">{ number_of_items["total"] - number_of_items["listened"] }</td>
+      <td class="align-right">{ number_of_items["total"] }</td>
+      <td class={ `centered ${percentage_class(number_of_items["listened"], number_of_items["total"])}` }>
+        { percentage(number_of_items["listened"], number_of_items["total"]) }%
+      </td>
     </tr>
   {/each}
 </table>

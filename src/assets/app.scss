@@ -21,114 +21,114 @@ $green: limegreen;
 $black: black;
 
 @font-face {
-    font-family: "Inter";
-    font-style:  normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url("./Inter-Light.woff2") format("woff2");
+  font-family: "Inter";
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./Inter-Light.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "Inter";
-    font-style:  italic;
-    font-weight: 300;
-    font-display: swap;
-    src: url("./Inter-LightItalic.woff2") format("woff2");
+  font-family: "Inter";
+  font-style:  italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./Inter-LightItalic.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "Inter";
-    font-style:  normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url("./Inter-SemiBold.woff2") format("woff2");
+  font-family: "Inter";
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./Inter-SemiBold.woff2") format("woff2");
 }
 
 body {
-    font-size: $font-size;
-    font-family: "Inter", sans-serif;
-    margin: 3px;
-    color: $main-color;
-    background-color: $background-color;
+  font-size: $font-size;
+  font-family: "Inter", sans-serif;
+  margin: 3px;
+  color: $main-color;
+  background-color: $background-color;
 }
 
 a {
-    color: $main-color;
+  color: $main-color;
 }
 
 table {
-    border-collapse: collapse;
-    table-layout: fixed;
+  border-collapse: collapse;
+  table-layout: fixed;
 }
 
 table:first-of-type {
-    max-width: 1000px;
-    width: 100%;
+  max-width: 1000px;
+  width: 100%;
 }
 
 tr {
-    border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
 }
 
 th, td {
-    padding: 1px 5px;
+  padding: 1px 5px;
 }
 
 p {
-    margin-bottom: 0.3em;
+  margin-bottom: 0.3em;
 }
 
 ul {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 fieldset {
-    max-width: 350px;
-    border: 1px solid $border-color;
-    margin-bottom: 5px;
+  max-width: 350px;
+  border: 1px solid $border-color;
+  margin-bottom: 5px;
 }
 
 .fav {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .fav .comment {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 .not-listened {
-    color: $back-color;
+  color: $back-color;
 }
 
 .heart {
-    color: $red;
+  color: $red;
 }
 
 .star {
-    color: $yellow;
+  color: $yellow;
 }
 
 .meh {
-    text-decoration: line-through;
-    color: $back-color;
+  text-decoration: line-through;
+  color: $back-color;
 }
 
 .genre {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .comment {
-    font-style: italic;
-    font-size: $font-size-comment;
-    color: $back-color;
+  font-style: italic;
+  font-size: $font-size-comment;
+  color: $back-color;
 }
 
 .emoticon {
-    font-size: 9px;
+  font-size: 9px;
 }
 
 .rock { color: $red; }
@@ -163,36 +163,46 @@ fieldset {
 .vgm { color: $lime; }
 
 .flag {
-    vertical-align: middle;
-    width: 13px;
-    opacity: 0.8;
+  vertical-align: middle;
+  width: 13px;
+  opacity: 0.8;
 }
 
 .selected {
-    font-weight: bold;
-    color: $front-color;
+  font-weight: bold;
+  color: $front-color;
 }
 
 .spotify {
-    width: 15px;
-    height: 15px;
-    vertical-align: text-top;
+  width: 15px;
+  height: 15px;
+  vertical-align: text-top;
 }
 
 #year-th {
-    width: 4em;
+  width: 4em;
 }
 
 #spotify-th {
-    width: 15px;
+  width: 15px;
 }
 
 #filler {
-    height: 1000px;
-    vertical-align: top;
-    text-align: center;
+  height: 1000px;
+  vertical-align: top;
+  text-align: center;
 }
 
 #filler p {
-    margin-top: 30px;
+  margin-top: 30px;
 }
+
+.align-right {
+  text-align: right;
+}
+
+.percent-lt-25 { color: $red; }
+.percent-lt-50 { color: $orange; }
+.percent-lt-75 { color: $yellow; }
+.percent-lt-100 { color: $lime; }
+.percent-eq-100 { color: $cyan; }

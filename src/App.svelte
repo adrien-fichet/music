@@ -15,13 +15,13 @@
 </script>
 
 <main>
-  <NumberOfItems /> 
+  <NumberOfItems />
   <RandomItem />
   <p></p>
   <Filters />
   <p></p>
   <Table />
-  <Sources /> 
-  <Todo /> 
+  <Sources />
+  <Todo />
   <NumberOfItemsByDecade />
 </main>

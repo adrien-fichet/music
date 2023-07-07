@@ -20,4 +20,5 @@
     <li>Albums from artists cited in "Destroy Rock &amp; Roll (Mylo)</li>
     <li>Songs sampled in Daft Punk "Discovery"</li>
     <li>Spotify "Instrumental Funk" playlist</li>
+    <li>Full (Jazz) Crusaders discography</li>
 </ul>
