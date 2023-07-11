@@ -4,7 +4,7 @@
     <li>John Williams OSTs</li>
     <li>Jazz Standards
         <ul>
-            <li><a href="https://www.shermusic.com/indices.php">The Real Book</a></li>
+            <li><a href="https://ronhackettmusic.com/data/searchRB.php">The Real Book</a></li>
             <li><a href="https://en.wikipedia.org/wiki/Jazz_standard">Wikipedia</a></li>
         </ul>
     </li>

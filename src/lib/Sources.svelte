@@ -21,4 +21,5 @@
     <li>Songs sampled in Daft Punk "Discovery"</li>
     <li>Spotify "Instrumental Funk" playlist</li>
     <li>Full (Jazz) Crusaders discography</li>
+    <li>Tom Waits top 20 favourite albums of all time</li>
 </ul>
