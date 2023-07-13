@@ -69,9 +69,9 @@ it.runIf(process.env.DEBUG === "true")('print singles and standards not yet list
   }
 })
 
-it('should not be marked as "single" if it is a standard', () => {
+it('should not be marked as "single" if it is a standard or vgm', () => {
   for (const item of data) {
-    if (item.standard) {
+    if (!!item.standard || item.genre === "vgm") {
       expect(item.single, msg(item)).toBeUndefined()
     }
   }
