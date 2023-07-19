@@ -1,6 +1,6 @@
 <script lang="ts">
   import SpotifyLink from './SpotifyLink.svelte'
-  import type Item from '../item'
+  import { type Item } from '../item'
   import { items } from '../stores'
 
   let item: Item

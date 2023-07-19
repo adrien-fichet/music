@@ -1,7 +1,7 @@
 import { expect, it } from 'vitest'
 import { data } from '../src/data'
 import { open } from 'node:fs/promises'
-import type Item from '../src/item'
+import { type Item } from '../src/item'
 
 const msg = (item: Item): string => `Error on item: ${JSON.stringify(item)}`
 

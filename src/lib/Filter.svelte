@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon from '../icon'
+  import { Icon } from '../icon'
 
   export let id = ''
   export let onclick
@@ -10,9 +10,9 @@
 
 [{#if id.startsWith('genre-') && !(text.endsWith('all') || text.endsWith('none'))}
 <span class="{Icon.class_from_genre(text)} {text}">{Icon.from_genre(text)} </span>
-{/if}<a 
-    href="#/" 
-    id={"filter-" + id} 
-    on:click={onclick} 
+{/if}<a
+    href="#/"
+    id={"filter-" + id}
+    on:click={onclick}
     class={selected ? class_name + ' selected' : class_name}
 >{text}</a>]
