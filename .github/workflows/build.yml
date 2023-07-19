@@ -21,8 +21,14 @@ jobs:
     - name: Packages audit
       run: npm audit
 
+    - name: Typescript compilation
+      run: npx tsc --noEmit
+
     - name: Eslint
       run: npx eslint . --ext .ts,.svelte
+
+    - name: Svelte check
+      run: npx svelte-check
 
     - name: Vitest
       run: npx vitest run
