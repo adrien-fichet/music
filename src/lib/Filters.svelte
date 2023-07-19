@@ -58,9 +58,9 @@ Fav:
 <Filter id="fav-true" onclick={() => set_filter('fav', true)} text={'yes'} />
 <Filter id="fav-false" onclick={() => set_filter('fav', false)} text={'no'} />
 Meh:
-<Filter id="meh-all" onclick={() => set_filter('meh', 'all')} text={'all'} selected={true} />
+<Filter id="meh-all" onclick={() => set_filter('meh', 'all')} text={'all'} />
 <Filter id="meh-true" onclick={() => set_filter('meh', true)} text={'yes'} />
-<Filter id="meh-false" onclick={() => set_filter('meh', false)} text={'no'} />
+<Filter id="meh-false" onclick={() => set_filter('meh', false)} text={'no'} selected={true} />
 <br />
 Perso <span class="heart">♥</span>:
 <Filter id="perso-all" onclick={() => set_filter('perso', 'all')} text={'all'} selected={true} />
