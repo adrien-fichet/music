@@ -1,7 +1,7 @@
-import type Item from './item'
-import Icon from './icon'
+import { type Item } from './item'
+import { Icon } from './icon'
 
-const data: Item[] = [
+const data_lt_1950: Item[] = [
   // Older than 1600
   { title: "Seikilos epitaph", artist: "-", year: 128, genre: "world", listened: true },
 
@@ -129,8 +129,9 @@ const data: Item[] = [
   { title: "Stormy Monday (Call It Stormy Monday (But Tuesday is Just as Bad))", artist: "T-Bone Walker", year: 1947, genre: "blues", listened: true, standard: true },
   { title: "Donna Lee", artist: "Miles Davis", year: 1947, genre: "jazz", standard: true },
   { title: "The Anthology", artist: "Muddy Waters", year: 1948, comment: "Greatest hits album released in 2001, recorded from 1948 to 1972", genre: "blues" },
+]
 
-  // 1950+
+const data_1950s: Item[] = [
   { title: "Dust My Broom", artist: "Elmore James", year: 1951, genre: "blues", single: true, listened: true },
 
   { title: "Lullaby of Birdland", artist: "George Shearing", year: 1952, genre: "jazz", standard: true, listened: true },
@@ -212,7 +213,9 @@ const data: Item[] = [
   { title: "Gunfighter Ballads and Trail Songs", artist: "Marty Robbins", year: 1959 },
   { title: "Ricky Sings Again", artist: "Ricky Nelson", year: 1959 },
   { title: "Flamingo Serenade", artist: "The Flamingos", year: 1959 },
+]
 
+const data_1960s: Item[] = [
   { title: "Sketches of Spain", artist: "Miles Davis", year: 1960 },
   { title: "Spoonful", artist: "Howlin' Wolf", year: 1960, listened: true, genre: "blues", standard: true },
   { title: "Tonight's the Night", artist: "The Shirelles", year: 1960 },
@@ -574,11 +577,13 @@ const data: Item[] = [
   { title: "Freddie King Is A Blues Master", artist: "Freddie King", year: 1969, listened: true, genre: "blues", stars: 1, comment: '"Hideaway (Cotillion Version)"' },
   { title: "The Age of Aquarius", artist: "The 5th Dimension", year: 1969 },
   { title: "Zoo", artist: "Zoo", year: 1969, fr: true },
+]
 
+const data_1970s: Item[] = [
   { title: "Led Zeppelin III", artist: "Led Zeppelin", year: 1970, listened: true, genre: "hard-rock", stars: 2, fav: true, comment: '"Immigrant Song"' },
   { title: "The Delfonics", artist: "The Delfonics", year: 1970, listened: true, genre: "soul", stars: 1, comment: `"Didn't I (Blow Your Mind This Time)"` },
   { title: "L'aigle noir", artist: "Barbara", year: 1970, fr: true, listened: true, genre: "chanson", comment: '"Hop là", "Le Zinzin"' },
-  { title: "Amour Anarchie", artist: "Léo Ferré", year: 1970, fr: true, listened: true, genre: "chanson" },
+  { title: "Amour Anarchie", artist: "Léo Ferré", year: 1970, fr: true, listened: true, genre: "chanson", meh: true },
   { title: "Sunflower", artist: "The Beach Boys", year: 1970 },
   { title: "Ladies of the Canyon", artist: "Joni Mitchell", year: 1970 },
   { title: "Get Up (I Feel Like Being A) Sex Machine", artist: "James Brown", year: 1970, single: true, listened: true, genre: "funk", stars: 1 },
@@ -1211,7 +1216,9 @@ const data: Item[] = [
   { title: "Pink Moon", artist: "Nick Drake", year: 1979, listened: true, genre: "folk" },
   { title: "Damn the Torpedoes", artist: "Tom Petty and the Heartbreakers", year: 1979 },
   { title: "Singles Going Steady", artist: "Buzzcocks", year: 1979, listened: true, genre: "punk", comment: `Double compilation album, "Ever Fallen in Love (With Someone You Shouldn'n't've)"`, stars: 1 },
+]
 
+const data_1980s: Item[] = [
   { title: "Heaven and Hell", artist: "Black Sabbath", year: 1980, listened: true, genre: "hard-rock", stars: 2, fav: true, comment: 'Dio on vocals, "Neon Knights" guitar solo, "Children of the Sea" (Look Out!)' },
   { title: "Wild Planet", artist: "The B-52's", year: 1980 },
   { title: "Répression", artist: "Antisocial", year: 1980, fr: true },
@@ -1430,7 +1437,7 @@ const data: Item[] = [
   { title: "Let's Dance", artist: "David Bowie", year: 1983, comment: 'SRV on lead guitar' },
   { title: "Run-D.M.C.", artist: "Run-D.M.C.", year: 1983 },
   { title: "Success", artist: "The Weather Girls", year: 1983, comment: `"It's Raining Men"` },
-  { title: "Eliminator", artist: "ZZ Top", year: 1983, perso: true },
+  { title: "Eliminator", artist: "ZZ Top", year: 1983, perso: true, genre: "hard-rock", listened: true, stars: 2, fav: true, comment: `"Gimme All Your Lovin'", "Got Me Under Pressure", "Sharp Dressed Man", "I Need You Tonight", "Legs"` },
 
   { title: "Purple Rain", artist: "Prince and the Revolution", year: 1984, perso: true },
   { title: "Agent Provocateur", artist: "Foreigner", year: 1984 },
@@ -1725,7 +1732,9 @@ const data: Item[] = [
   { title: "The Healer", artist: "John Lee Hooker", year: 1989, listened: true, genre: "blues", stars: 1 },
   { title: "Let Love Rule", artist: "Lenny Kravitz", year: 1989 },
   { title: "Club Classics Vol. One", artist: "Soul II Soul", year: 1989, listened: true, genre: "r-n-b", comment: '"Back to Life (However Do You Want Me)"' },
+]
 
+const data_1990s: Item[] = [
   { title: "Pornograffiti", artist: "Extreme", year: 1990, perso: true, listened: true, fav: true, stars: 2, genre: "hard-rock", comment: "Médiathèque Mansart" },
   { title: "Passion and Warfare", artist: "Steve Vai", year: 1990, perso: true, listened: true, genre: "hard-rock", stars: 2, fav: true, comment: '"Erotic Nightmares", "The Animal", "For the Love of God"' },
   { title: "Goo", artist: "Sonic Youth", year: 1990, listened: true, genre: "rock" },
@@ -1941,8 +1950,10 @@ const data: Item[] = [
   { title: "Slanted and Enchanted", artist: "Pavement", year: 1993 },
   { title: "Exile in Guyville", artist: "Liz Phair", year: 1993, listened: true, genre: "rock" },
   { title: "Last Splash", artist: "The Breeders", year: 1993, comment: '"Cannonball"' },
+  { title: "Chaos A.D.", artist: "Sepultura", year: 1993, genre: "metal" },
 
   { title: "The Return of the Space Cowboy", artist: "Jamiroquai", year: 1994 },
+  { title: "Wildhoney", artist: "Tiamat", year: 1994 },
   { title: "Stoner Witch", artist: "The Melvins", year: 1994, listened: true, perso: true, genre: "grunge", stars: 1, comment: '"Revolve", "June Bug"', fav: true },
   { title: "Punk in Drublic", artist: "NOFX", year: 1994, genre: "punk" },
   { title: "Mortal Kombat: The Album", artist: "The Immortals", year: 1994, genre: "vgm" },
@@ -2006,6 +2017,7 @@ const data: Item[] = [
   { title: "Scatman's World", artist: "Scatman John", year: 1995 },
   { title: "Tapion Ocarina Theme", artist: "Shunsuke Kikuchi", year: 1995, perso: true, listened: true, genre: "world", comment: 'from DBZ: Wrath of the Dragon OST' },
   { title: "Urban Renewal", artist: "Funk Inc.", year: 1995 },
+  { title: "Draconian Times", artist: "Paradise Lost", year: 1995 },
   { title: "Tales from the Punchbowl", artist: "Primus", year: 1995 },
   { title: "Daydream", artist: "Mariah Carey", year: 1995 },
   { title: "Toy Story OST", artist: "Randy Newman", year: 1995 },
@@ -2066,6 +2078,7 @@ const data: Item[] = [
   { title: "Space Jam OST", artist: "Various Artists", year: 1996 },
   { title: "Bad Hair Day", artist: '"Weird Al" Yankovic', year: 1996 },
   { title: "Down Every Road 1962-1994", artist: "Merle Haggard", year: 1996 },
+  { title: "October Rust", artist: "Type O Negative", year: 1996, genre: "metal" },
   { title: "Leave the Story Untold", artist: "Soulwax", year: 1996 },
   { title: "All Eyez on Me", artist: "2Pac", year: 1996, listened: true, genre: "rap", stars: 1, fav: true },
   { title: "Falling Into You", artist: "Céline Dion", year: 1996 },
@@ -2106,6 +2119,7 @@ const data: Item[] = [
   { title: "Reasonable Doubt", artist: "Jay-Z", year: 1996 },
 
   { title: "Either/Or", artist: "Elliott Smith", year: 1997 },
+  { title: "Biomechanik", artist: "Manu le malin", year: 1997, fr: true },
   { title: "Rant in E-Minor", artist: "Bill Hicks", year: 1997, live: true },
   { title: "Paradisio", artist: "Paradisio", year: 1997, comment: '"Baïlando" TU, i YO, A LA FIESTA', perso: true },
   { title: "40 succès en or", artist: "Dalida", year: 1997, comment: "C'est la base" },
@@ -2179,6 +2193,8 @@ const data: Item[] = [
 
   { title: "Symphony of Enchanted Lands", artist: "Rhapsody", year: 1998, fav: true, perso: true, listened: true, stars: 1, genre: "metal", comment: 'CD passé par Antoine au collège avec Cannibal Corpse et Children of Bodom, "Emerald Sword"' },
   { title: "System Of A Down", artist: "System Of A Down", year: 1998 },
+  { title: "Equalize It", artist: "EZ3kiel", year: 1998, fr: true },
+  { title: "Chaosphere", artist: "Meshuggah", year: 1998, genre: "metal" },
   { title: "Painted from Memory", artist: "Elvis Costello and Burt Bacharach", year: 1998 },
   { title: "Spirit", artist: "Jewel", year: 1998, comment: 'mastered by Bob Ludwig' },
   { title: "Essence ordinaire", artist: "Zebda", year: 1998, fr: true },
@@ -2229,7 +2245,7 @@ const data: Item[] = [
   { title: "Apocalypse Dudes", artist: "Turbonegro", year: 1998 },
   { title: "Mermaid Avenue", artist: "Billy Bragg & Wilco", year: 1998 },
   { title: "400 Degreez", artist: "Juvenile", year: 1998, comment: '"Back That Azz Up"' },
-  { title: "Clandestino", artist: "Manu Chao", year: 1998, fr: true },
+  { title: "Clandestino", artist: "Manu Chao", year: 1998, fr: true, listened: true, genre: "world", comment: `"Clandestino", "Bongo Bong", "Je ne t'aime plus", "Mentira", "Minha galera"`, stars: 2, fav: true, perso: true },
   { title: "Car Wheels on a Gravel Road", artist: "Lucinda Williams", year: 1998, listened: true, genre: "country" },
   { title: "The Miseducation of Lauryn Hill", artist: "Lauren Hill", year: 1998, listened: true, genre: "rap", stars: 1 },
   { title: "One Trip/One Noise", artist: "Noir Désir", year: 1998, perso: true, fr: true },
@@ -2264,7 +2280,7 @@ const data: Item[] = [
   { title: "The Riddle", artist: "Gigi D'Agostino", year: 1999, listened: true, genre: "electro", perso: true, single: true },
   { title: "Midnight Funk", artist: "DEMON", year: 1999, fr: true, listened: true, genre: "electro", comment: '"You Are My High"', stars: 1 },
   { title: "Fly", artist: "Dixie Chicks", year: 1999, comment: '"Goodbye Earl"' },
-  { title: "1999", artist: "Cassius", year: 1999 },
+  { title: "1999", artist: "Cassius", year: 1999, fr: true },
   { title: "2001", artist: "Dr. Dre", year: 1999 },
   { title: "The Hush", artist: "Texas", year: 1999 },
   { title: "Agaetis Byrjun", artist: "Sigur Ros", year: 1999 },
@@ -2311,10 +2327,13 @@ const data: Item[] = [
   { title: "Au ras des pâquerettes", artist: "Alain Souchon", year: 1999, fr: true, perso: true, listened: true, genre: "chanson", comment: '"Le baiser", "Rive Gauche", "Caterpillar"', stars: 1, fav: true },
   { title: "Hello My Name Is", artist: "DJ Falcon", year: 1999, fr: true, genre: "electro" },
   { title: "A2G", artist: "Blackalicious", year: 1999, genre: "rap", ep: true, comment: '"Alphabet Aerobics", Quannum Projects', stars: 2, fav: true, listened: true },
+]
 
+const data_2000s: Item[] = [
   { title: "Tony Hawk Pro Skater 2 OST", artist: "Various Artists", year: 2000, listened: true, fav: true, perso: true, stars: 1, genre: "punk" },
   { title: "Mother Earth", artist: "Within Temptation", year: 2000, perso: true },
   { title: "Dawn of Victory", artist: "Rhapsody", year: 2000 },
+  { title: "Opus Incertum", artist: "High Tone", year: 2000, fr: true },
   { title: "Born to Do It", artist: "Craig David", year: 2000 },
   { title: "For the Damaged Coda", artist: "Blonde Redhead", year: 2000, genre: "meme", listened: true },
   { title: "Prelude", artist: "Nobuo Uematsu", year: 2000, comment: "Final Fantasy IX", genre: "vgm", listened: true },
@@ -2388,6 +2407,7 @@ const data: Item[] = [
   { title: "Stage 4 (Reality)", artist: "Hiroshi Iuchi", year: 2001, comment: 'Ikaruga', listened: true, genre: "vgm" },
   { title: "Welcome 2 Detroit", artist: "J Dilla", year: 2001 },
   { title: "Kanaria", artist: "Rikki", year: 2001 },
+  { title: "First Album", artist: "The Hacker & Miss Kittin", year: 2001, fr: true },
   { title: "Land of the Free?", artist: "Pennywise", year: 2001, genre: "punk" },
   { title: "M²", artist: "Marcus Miller", year: 2001, genre: "jazz" },
   { title: "7th Element", artist: "Vitas", year: 2001, genre: "meme", listened: true },
@@ -2617,6 +2637,8 @@ const data: Item[] = [
   { title: "Dynamite", artist: "Jamiroquai", year: 2005, listened: true, fav: true, stars: 2, genre: "funk" },
   { title: "Mezmerize", artist: "System Of A Down", year: 2005, perso: true, listened: true, genre: "metal", fav: true, stars: 2 },
   { title: "Hypnotize", artist: "System Of A Down", year: 2005 },
+  { title: "June", artist: "Mansfield.TYA", year: 2005, fr: true },
+  { title: "ales of the Forgotten Melodies", artist: "Wax Tailor", year: 2005, fr: true },
   { title: "Musunu Shima He", artist: "Rikki", year: 2005 },
   { title: "Party Animals", artist: "Turbonegro", year: 2005 },
   { title: "X&Y", artist: "Coldplay", year: 2005, listened: true, genre: "pop", comment: '"Talk"' },
@@ -2678,6 +2700,7 @@ const data: Item[] = [
   { title: "Stadium Arcadium", artist: "Red Hot Chili Peppers", year: 2006, listened: true, perso: true, genre: "funk", stars: 1, comment: "Double-album" },
   { title: "FutureSex/LoveSounds", artist: "Justin Timberlake", year: 2006 },
   { title: "Konvicted", artist: "Akon", year: 2006 },
+  { title: "Epiphanie", artist: "Para One", year: 2006, fr: true },
   { title: "Moskau Barrell Roll", artist: "necrosaro", year: 2006, listened: true, genre: "meme" },
   { title: "Crime Slunk Scene", artist: "Buckethead", year: 2006, comment: '"Soothsayer"' },
   { title: "10,000 Days", artist: "Tool", year: 2006 },
@@ -2726,6 +2749,7 @@ const data: Item[] = [
   { title: "Favourite Worst Nightmare", artist: "Arctic Monkeys", year: 2007, listened: true, genre: "rock", fav: true, stars: 2, comment: '"Brianstorm", "Teddy Picker", "Fluorescent Adolescent"' },
   { title: "Era Vulgaris", artist: "Queens of the Stone Age", year: 2007 },
   { title: "Life in Cartoon Motion", artist: "Mika", year: 2007 },
+  { title: "Shadows of the Sun", artist: "Ulver", year: 2007 },
   { title: "We All Love Ennio Morricone", artist: "Various Artists", year: 2007 },
   { title: "Psychostar World", artist: "Kamini", year: 2007, fr: true, comment: '"Marly-Gomont"', genre: "rap", listened: true, meh: true },
   { title: "Untrue", artist: "Burial", year: 2007 },
@@ -2781,6 +2805,8 @@ const data: Item[] = [
   { title: "The Plain and the Sky", artist: "Yoshino Aoki, Norikazu Miura, Masaharu Iwata, Kaori Komuro, Hiroaki Tomuno", year: 2008, genre: "vgm", listened: true, comment: 'Suikoden Tierkreis' },
   { title: "Cooking By The Book", artist: "LazyTown", year: 2008, listened: true, genre: "meme" },
   { title: "Day & Age", artist: "The Killers", year: 2008 },
+  { title: "Crystal Castles", artist: "Crystal Castles", year: 2008, genre: "electro" },
+  { title: "Music Components", artist: "Arnaud Rebotini", year: 2008, fr: true },
   { title: "The Black Mages III: Darkness and Starlight", artist: "The Black Mages", year: 2008 },
   { title: "Live From Texas", artist: "ZZ Top", year: 2008, live: true, genre: "blues", listened: true, perso: true, comment: "The blue concert" },
   { title: "Bacano", artist: "Orgone", year: 2008 },
@@ -2830,6 +2856,8 @@ const data: Item[] = [
 
   { title: "The Fame Monster", artist: "Lady Gaga", year: 2009, ep: true, comment: '"Bad Romance"'},
   { title: "BLACKsummers'night", artist: "Maxwell", year: 2009 },
+  { title: "Moderat", artist: "Moderat", year: 2009 },
+  { title: "Scandal", artist: "The Shoes", year: 2009, fr: true },
   { title: "Walk the Line (remix)", artist: "Laurent Wolf", year: 2009, genre: "electro", single: true, fr: true, perso: true, listened: true, comment: "Tignes réveillon 2009 -> 2010" },
   { title: "My Heart Will Go On (ShittyFlute)", artist: "Matt Mulholland [YT]", year: 2009, genre: "meme", listened: true, perso: true },
   { title: "Revolution", artist: "Miranda Lambert", year: 2009 },
@@ -2880,7 +2908,9 @@ const data: Item[] = [
   { title: "Red Black & Blue", artist: "DJ Mehdi", year: 2009, fr: true, genre: "electro" },
   { title: "Waking Up", artist: "OneRepublic", year: 2009 },
   { title: "For Lack of a Better Name", artist: "Deadmau5", year: 2009, perso: true, genre: "electro" },
+]
 
+const data_2010s: Item[] = [
   { title: "Rock Dust Light Star", artist: "Jamiroquai", year: 2010, listened: true, stars: 1, genre: "funk" },
   { title: "Illumination", artist: "Miami Horror", year: 2010, perso: true, listened: true, genre: "pop", fav: true, stars: 2, comment: '"I Look to You", "Summersun", "Sometimes", "Echoplex"' },
   { title: "My Beautiful Dark Twisted Fantasy", artist: "Kanye West", year: 2010, listened: true, genre: "rap" },
@@ -2900,7 +2930,7 @@ const data: Item[] = [
   { title: "Pink Friday", artist: "Nicki Minaj", year: 2010, listened: true, genre: "rap", meh: true },
   { title: "The Guitar Song", artist: "Jamey Johnson", year: 2010 },
   { title: "Cosmogramma", artist: "Flying Lotus", year: 2010 },
-  { title: "The Defamation of Strickland Banks", artist: "Plan B", year: 2010 },
+  { title: "The Defamation of Strickland Banks", artist: "Plan B", year: 2010, listened: true, genre: "soul", stars: 1 },
   { title: "PPPPPP", artist: "SoulEye", year: 2010, comment: 'VVVVVV OST, "Positive Force"', genre: "vgm", listened: true, stars: 1 },
   { title: "Run Away", artist: "Sunstroke Project", year: 2010, listened: true, genre: "meme", stars: 1, comment: "Epic Sax Guy" },
   { title: "Knell of Ar Ciel", artist: "KOKIA", year: 2010, listened: true, genre: "vgm", comment: 'Ar Tonelico Qoga' },
@@ -2932,7 +2962,11 @@ const data: Item[] = [
   { title: "Pop Culture", artist: "Madeon [YT]", year: 2011, listened: true, genre: "electro", stars: 1, single: true, fav: true },
   { title: "I'm With You", artist: "Red Hot Chili Peppers", year: 2011 },
   { title: "House of Balloons", artist: "the Weeknd", year: 2011 },
+  { title: "Racing with the Sun", artist: "Chinese Man", year: 2011, fr: true },
+  { title: "Living on the Edge of Time", artist: "Yuksek", year: 2011, fr: true },
   { title: "Octave Theory", artist: "Earthbound Papas", year: 2011 },
+  { title: "Angst", artist: "The Toxic Avenger", year: 2011, fr: true },
+  { title: "Room With View", artist: "Joris Delacroix", year: 2011, fr: true },
   { title: "Torches", artist: "Foster the People", year: 2011, listened: true, genre: "pop", comment: '"Helena Beat", "Pumped Up Kicks", "Waste" == MGMT?' },
   { title: "Radial Nerve", artist: "The Laszlo Project", year: 2011, listened: true, genre: "jazz" },
   { title: "No Time For Dreaming", artist: "Charles Bradley", year: 2011 },
@@ -2977,7 +3011,10 @@ const data: Item[] = [
   { title: "And the Time-Axis Manipulation Corporation", artist: "Mickey Moonlight", year: 2011 },
 
   { title: "Vollmilch", artist: "Vulfpeck", year: 2012, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
-  { title: "PANIC", artist: "Caravan Palace", year: 2012 },
+  { title: "PANIC", artist: "Caravan Palace", year: 2012, fr: true },
+  { title: "Hallelujah", artist: "Igorrr", year: 2012, fr: true },
+  { title: "Polymorphic Code", artist: "The Algorithm", year: 2012, fr: true },
+  { title: "Live in Paris", artist: "Electro Deluxe", year: 2012, fr: true, live: true },
   { title: "Can Be Late", artist: "Skip the Use", year: 2012, fr: true, comment: '"Ghost"', genre: "rock" },
   { title: "Born to Die", artist: "Lana Del Rey", year: 2012, comment: '"Summertime Sadness"' },
   { title: "The Fox", artist: "The Filthy Six", year: 2012 },
@@ -3015,16 +3052,20 @@ const data: Item[] = [
   { title: "Channel Orange", artist: "Frank Ocean", year: 2012 },
   { title: "In Our Heads", artist: "Hot Chip", year: 2012 },
   { title: "Blunderbuss", artist: "Jack White", year: 2012 },
+  { title: "Hotline Miami OST", artist: "Various Artists", year: 2012, genre: "vgm" },
+  { title: "EP I", artist: "Carpenter Brut", year: 2012, fr: true, genre: "electro" },
 
   { title: "My First Car", artist: "Vulpeck", year: 2013, listened: true, genre: "funk", fav: true, stars: 1, ep: true, comment: '"The Speedwalker"' },
   { title: "Level Five Stage One", artist: "The Laszlo Project", year: 2013 },
   { title: "Sound City: Real to Reel", artist: "Dave Grohl & various artists", year: 2013 },
   { title: "Rocking", artist: "Teen Top", year: 2013, genre: "pop", listened: true, comment: "K-pop dance choregraphy", single: true },
-  { title: "Indiamore", artist: "CHASSOL", year: 2013 },
+  { title: "Indiamore", artist: "Christophe Chassol", year: 2013, fr: true },
+  { title: "Sexualizer", artist: "Perturbator", year: 2013, fr: true, ep: true, genre: "electro", listened: true },
   { title: "Two Step Jam", artist: "Butcher Brown [YT]", year: 2013, perso: true, single: true, genre: "jazz", listened: true, stars: 1, fav: true },
   { title: "I Knew You Were a Goat When You Walked In", artist: "Goosik [YT]", year: 2013, genre: "meme", listened: true, stars: 1 },
   { title: "Indéfinitivement", artist: "mistermv", year: 2013, fr: true, listened: true, genre: "meme" },
   { title: "Dancing Dad", artist: "Earthbound Papas", year: 2013 },
+  { title: "Kaleo", artist: "Kaleo", year: 2013 },
   { title: "Lot de fichiers", artist: "Salut c'est cool", year: 2013, fr: true, genre: "electro" },
   { title: "Signed and Sealed in Blood", artist: "Dropkick Murphys", year: 2013, comment: '"Rose Tattoo"' },
   { title: "Like a Rose", artist: "Ashley Monroe", year: 2013 },
@@ -3065,6 +3106,8 @@ const data: Item[] = [
   { title: "Fugue State", artist: "Vulpeck", year: 2014, ep: true, listened: true, genre: "funk", stars: 2, fav: true, comment: '"Fugue State", "1612"' },
   { title: "Corazón", artist: "Santana", year: 2014, comment: 'Latin rock, "Iron Lion Zion"', listened: true, genre: "rock" },
   { title: "St. Vincent", artist: "St. Vincent", year: 2014 },
+  { title: "195", artist: "OGRE Sound", year: 2014, listened: true, genre: "electro", stars: 1 },
+  { title: "Motifs", artist: "20syl", year: 2014, ep: true, fr: true },
   { title: "Four Foot Shack", artist: "Duo de Twang", year: 2014 },
   { title: "All Purpose Music", artist: "Butcher Brown", year: 2014 },
   { title: "Broke With Expensive Taste", artist: "Azealia Banks", year: 2014, comment: '"212"' },
@@ -3087,7 +3130,7 @@ const data: Item[] = [
   { title: "You Reposted in the Wrong Neighborhood | Glue70 Mashup", artist: "Shokk", year: 2014, listened: true, genre: "meme" },
   { title: "Heyyeyaaeyaaaaeyaeyaa (Fabulous Secret Powers)", artist: "SLACKCiRCUS", year: 2014, listened: true, genre: "meme" },
   { title: "Everyday Robots", artist: "Damon Albarn", year: 2014 },
-  { title: "New Game", artist: "Nitro Fun", year: 2014, listened: true, fav: true, stars: 2, genre: "electro" },
+  { title: "New Game", artist: "Nitro Fun", year: 2014, listened: true, fav: true, stars: 2, genre: "electro", single: true },
   { title: "Player Select", artist: "Starbomb", year: 2014, listened: true, fav: true, stars: 1, genre: "rap" },
   { title: "Down to Earth", artist: "Flight Facilities", year: 2014 },
   { title: "Abandon Ship", artist: "Knife Party", year: 2014 },
@@ -3120,13 +3163,16 @@ const data: Item[] = [
   { title: "Undertale OST", artist: "Toby Fox", year: 2015, genre: "vgm" },
   { title: "See You Again", artist: "Wiz Khalifa feat. Charlie Puth", year: 2015, genre: "meme", listened: true },
   { title: "Apex Predator - Easy Meat", artist: "Napalm Death", year: 2015 },
+  { title: "Hotline Miami 2: Wrong Number OST", artist: "Various Artists", year: 2015, genre: "vgm" },
+  { title: "EP III", artist: "Carpenter Brut", year: 2015, fr: true, genre: "electro" },
   { title: "No Cities To Love", artist: "Sleater-Kinney", year: 2015 },
   { title: "Wii Turn Up (Wii Menu Remix)", artist: "Murcy", year: 2015, listened: true, genre: "meme" },
   { title: "From Darkness", artist: "Avishai Cohen", year: 2015, listened: true, genre: "jazz", stars: 1, fav: true },
   { title: "Meow the Jewels", artist: "Run the Jewels", year: 2015, comment: 'RTJ2 Remixes' },
   { title: "The Magic Whip", artist: "Blur", year: 2015 },
   { title: "Ancient Future", artist: "Protoje", year: 2015, listened: true, genre: "reggae", comment: "Badaz" },
-  { title: "<|°_°|>", artist: "Caravan Palace", year: 2015, listened: true, genre: "swing", stars: 1, comment: '"Lone Digger"' },
+  { title: "<|°_°|>", artist: "Caravan Palace", year: 2015, listened: true, genre: "swing", stars: 1, comment: '"Lone Digger"', fr: true },
+  { title: "Brava", artist: "Brodinski", year: 2015, fr: true },
   { title: "The Hateful Eight OST", artist: "Various Artists", year: 2015 },
   { title: "Comment c'est loin OST", artist: "Casseurs Flowters", year: 2015, fr: true },
   { title: "Magnifique", artist: "Ratatat", year: 2015, listened: true, fav: true, perso: true, stars: 2, genre: "rock" },
@@ -3151,7 +3197,9 @@ const data: Item[] = [
 
   { title: "The Beautiful Game", artist: "Vulfpeck", year: 2016, listened: true, genre: "funk", stars: 2, fav: true, comment: '"Dean Town", "Cory Wong"' },
   { title: "Points of Interest", artist: "glue70", year: 2016, listened: true, genre: "electro", stars: 1, fav: true, comment: '"Casin", gotta love side chain compression' },
-  { title: "Ibifornia", artist: "Cassius", year: 2016 },
+  { title: "Ibifornia", artist: "Cassius", year: 2016, fr: true },
+  { title: "Furi OST", artist: "Carpenter Brut, Lorn, Danger, Scattle, Kn1ght, Waveshaper and The Toxic Avenger", year: 2016, genre: "vgm" },
+  { title: "Olympic", artist: "French 79", year: 2016, fr: true, genre: "electro" },
   { title: "Persona 5 OST", artist: "Shoji Meguro", year: 2016, genre: "vgm", comment: '"Life Will Change"' },
   { title: "In My Room", artist: "Jacob Collier", year: 2016, genre: "jazz", comment: "mastered by Bernie Grundman" },
   { title: '"Awaken, My Love!"', artist: "Childish Gambino", year: 2016 },
@@ -3198,7 +3246,9 @@ const data: Item[] = [
   { title: "Eternity, in Your Arms", artist: "Creeper", year: 2017 },
   { title: "Parking Lot Symphony", artist: "Trombone Shorty", year: 2017 },
   { title: "Trypnotyx", artist: "Victor Wooten", year: 2017 },
+  { title: "CARPENTERBRUTLIVE", artist: "Carpenter Brut", year: 2017, fr: true, live: true, genre: "electro" },
   { title: "Culture", artist: "Migos", year: 2017 },
+  { title: "太鼓 (Taiko)", artist: "Danger", year: 2017, fr: true },
   { title: "Sonic Mania OST", artist: "Tee Lopes", year: 2017, genre: "vgm" },
   { title: "Kinfolk: Postcards from Everywhere", artist: "Nate Smith", year: 2017, genre: "jazz" },
   { title: "U Got That", artist: "Halogen", year: 2017, genre: "meme", listened: true, comment: 'Ricardo' },
@@ -3235,6 +3285,8 @@ const data: Item[] = [
   { title: "Adventure", artist: "Lydian Collective", year: 2018, listened: true, fav: true, stars: 1, genre: "funk" },
   { title: "The Fearless Flyers", artist: "The Fearless Flyers", year: 2018, genre: "funk", comment: '"Aces of Aces"', listened: true, stars: 2, fav: true, ep: true },
   { title: "El Mal Querer", artist: "Rosalìa", year: 2018 },
+  { title: "Leather Teeth", artist: "Carpenter Brut", year: 2018, fr: true, genre: "electro" },
+  { title: "Dancehall", artist: "The Blaze", year: 2018, fr: true },
   { title: "Invasion of Privacy", artist: "Cardi B", year: 2018, genre: "rap" },
   { title: "We Are All Shining Stars", artist: "Funky Destination", year: 2018 },
   { title: "Laid Black", artist: "Marcus Miller", year: 2018 },
@@ -3263,7 +3315,11 @@ const data: Item[] = [
   { title: "The Fearless Flyers II", artist: "The Fearless Flyers", year: 2019, listened: true, genre: "funk", ep: true, stars: 1 },
   { title: "Chronologic", artist: "Caravan Palace", year: 2019, fr: true },
   { title: "Ghosteen", artist: "Nick Cave & the Bad Seeds", year: 2019 },
+  { title: "The Last Spell OST", artist: "The Algorithm", year: 2019, genre: "vgm", fr: true },
   { title: "Feelings", artist: "Kinga Głyk", year: 2019 },
+  { title: "Sight, Sound and Space", artist: "Jeff Mills", year: 2019, comment: 'Compilation' },
+  { title: "Traum und Existenz", artist: "Kompromat", year: 2019, fr: true },
+  { title: "Hyper Cristal", artist: "Irène Drésel", year: 2019, fr: true },
   { title: "Live at Madison Square Garden", artist: "Vulfpeck", year: 2019, live: true, genre: "funk" },
   { title: "Elevate", artist: "Lettuce", year: 2019 },
   { title: "Cuz I Love You", artist: "Lizzo", year: 2019, comment: '"Truth Hurts"' },
@@ -3297,10 +3353,13 @@ const data: Item[] = [
   { title: "Dub Tunes", artist: "Tommy Guerrero / Trevor Jackson", year: 2019 },
   { title: "Thirst", artist: "SebastiAn", year: 2019, listened: true, genre: "electro", fr: true, stars: 1 },
   { title: "Doing the Things", artist: "Louis Cole", year: 2019, listened: true, genre: "funk", stars: 1 },
+]
 
+const data_2020s: Item[] = [
   { title: "Press Start", artist: "The Laszlo Project", year: 2020, ep: true, listened: true, genre: "jazz" },
   { title: "The Joy Of Music, The Jobs Of Real Estate", artist: "Vulfpeck", year: 2020, listened: true, genre: "funk" },
   { title: "The Hang", artist: "Redtenbacher's Funkestra", year: 2020 },
+  { title: "Timeless", artist: "Thylacine", year: 2020, fr: true },
   { title: "Fu Chronicles", artist: "Antibalas", year: 2020 },
   { title: "Fetch the Bolt Cutters", artist: "Fiona Apple", year: 2020, listened: true, genre: "pop" },
   { title: "Gun Metal Grey", artist: "The Budos Band", year: 2020, single: true, listened: true, genre: "funk", comment: "instrumental" },
@@ -3376,6 +3435,7 @@ const data: Item[] = [
   { title: "ANTIGRAVITY", artist: 'KUNZITE, Ratatat, Lee "Scratch" Perry', year: 2022, listened: true, genre: "electro" },
   { title: "Zeit", artist: "Rammstein", year: 2022, listened: true, genre: "metal", stars: 1, fav: true },
   { title: "Formentera", artist: "Metric", year: 2022, listened: true, genre: "pop" },
+  { title: "Leather Terror", artist: "Carpenter Brut", year: 2022, genre: "electro", fr: true },
   { title: "South Park the 25th Anniversary Concert", artist: "Primus, Ween, Trey Parker & Matt Stone", year: 2022, live: true, listened: true, genre: "rock", stars: 1 },
   { title: "Body Double", artist: "The Supermen Lovers", year: 2022, fr: true, listened: true, genre: "electro" },
   { title: "Elden Ring OST", artist: "Tsukasa Saitoh, Shoi Miyazawa, Tai Tomisawa, Yuka Kitamura, Yoshimi Kudo", year: 2022, genre: "vgm", listened: true },
@@ -3418,6 +3478,14 @@ const data: Item[] = [
   { title: "Live at Bonnaroo", artist: "Vulfpeck", year: 2023, genre: "funk", live: true, listened: true, stars: 1, fav: true, comment: '"Dean Town" additional keyboard part' },
   { title: "48H", artist: "MRZ", year: 2023, genre: "rap", ep: true, listened: true, fr: true },
   { title: "Shadow Kingdom", artist: "Bob Dylan", year: 2023, genre: "folk" },
+  { title: "Une nouvelle chance", artist: "Ascendant Vierge", year: 2023, fr: true },
+  { title: "Jungle", artist: "The Blaze", year: 2023, fr: true },
+]
+
+// Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
+const data: Item[] = [
+  ...data_lt_1950, ...data_1950s, ...data_1960s, ...data_1970s, ...data_1980s,
+  ...data_1990s, ...data_2000s, ...data_2010s, ...data_2020s
 ]
 
 const item_tr_class = (item: Item): string => {
