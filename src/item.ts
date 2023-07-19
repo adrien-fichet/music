@@ -1,8 +1,10 @@
+import { type Genre } from './genre'
+
 interface Item {
   title: string,
   artist: string,
   year: number,
-  genre?: string,
+  genre?: Genre,
   comment?: string,
   listened?: boolean,
   fav?: boolean,
@@ -22,4 +24,4 @@ interface Item {
   spotify_url?: string,
 }
 
-export default Item
+export { type Item }

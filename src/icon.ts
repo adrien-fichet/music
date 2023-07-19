@@ -1,5 +1,7 @@
+import { type Genre } from './genre'
+
 class Icon {
-    static from_genre(genre: string): string {
+    static from_genre(genre: Genre | string): string {
         switch (genre) {
             case "piano":
                 return "🎹"
@@ -35,19 +37,19 @@ class Icon {
                 return "►"
             case "meme":
                 return "( ͡° ͜ʖ ͡°)"
-            default: 
+            default:
                 return "■"
         }
     }
 
-    static class_from_genre(genre: string): string {
+    static class_from_genre(genre: Genre | string): string {
         switch (genre) {
             case "piano":
                 return "emoticon"
-            default: 
+            default:
                 return "genre"
         }
     }
 }
 
-export default Icon
+export { Icon }
