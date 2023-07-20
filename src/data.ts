@@ -2424,7 +2424,7 @@ const data_2000s: Item[] = [
   { title: "Tenacious D", artist: "Tenacious D", year: 2001 },
   { title: "Laundry Service", artist: "Shakira", year: 2001, listened: true, genre: "pop", comment: '"Whenever, Wherever", "Underneath your Clothes" == Eternal Flame?' },
   { title: "Silver Side Up", artist: "Nickelback", year: 2001 },
-  { title: "M!ssundaztood", artist: "Pink", year: 2001, listened: true, comment: '"Get the Party Started"', listened: true, genre: "pop", meh: true },
+  { title: "M!ssundaztood", artist: "Pink", year: 2001, listened: true, comment: '"Get the Party Started"', genre: "pop", meh: true },
   { title: "Canto", artist: "Los Super Seven", year: 2001 },
   { title: "10 000 Hz Legend", artist: "Air", year: 2001, fr: true },
   { title: "Weezer (The Green Album)", artist: "Weezer", year: 2001, listened: true, stars: 1, fav: true, genre: "punk" },
