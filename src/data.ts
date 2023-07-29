@@ -711,7 +711,7 @@ const data_1970s: Item[] = [
   { title: "At Fillmore East", artist: "The Allman Brothers Band", year: 1971, listened: true, fav: true, stars: 2, genre: "rock", live: true },
   { title: "There's a Riot Goin' On", artist: "Sly and the Family Stone", year: 1971, listened: true, genre: "funk" },
   { title: "Stand By Me (Watcha See Is Whatcha Get)", artist: 'Bernard "Pretty" Purdie and the Playboys', year: 1971 },
-  { title: "Pieces of a Man", artist: "Gil Scott-Heron", year: 1971 },
+  { title: "Pieces of a Man", artist: "Gil Scott-Heron", year: 1971, listened: true, genre: "soul", stars: 2, fav: true, comment: 'Ron Carter on bass' },
 
   { title: "Exile on Main Street", artist: "The Rolling Stones", year: 1972 },
   { title: "There's a Party Goin' On", artist: "Jodi Miller", year: 1972 },
@@ -1433,7 +1433,7 @@ const data_1980s: Item[] = [
   { title: "90125", artist: "Yes", year: 1983, listened: true, genre: "rock", comment: '"Owner of a Lonely Heart", "Cinema"', stars: 1, fav: true },
   { title: "Dance Mania", artist: "Tito Puente And His Orchestra", year: 1983 },
   { title: "Texas Flood", artist: "Stevie Ray Vaughan and Double Trouble", year: 1983, listened: true, genre: "blues", stars: 1, fav: true, comment: '"Pride and Joy", "Mary Had a Little Lamb"' },
-  { title: "Zapp III", artist: "Zapp", year: 1983 },
+  { title: "Zapp III", artist: "Zapp", year: 1983, listened: true, genre: "funk" },
   { title: "Power, Corruption & Lies", artist: "New Order", year: 1983, comment: '"Blue Monday"' },
   { title: "Secret Messages", artist: "Electric Light Orchestra", year: 1983, listened: true, stars: 1, genre: "rock" },
   { title: "Kill 'Em All", artist: "Metallica", year: 1983, perso: true, comment: "Médiathèque Port du Canal" },
