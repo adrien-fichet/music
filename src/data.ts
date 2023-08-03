@@ -3067,7 +3067,7 @@ const data_2010s: Item[] = [
   { title: "Django Django", artist: "Django Django", year: 2012, listened: true, genre: "pop" },
   { title: "good kid, m.A.A.d city", artist: "Kendrick Lamar", year: 2012, listened: true, genre: "rap", stars: 1 },
   { title: "Channel Orange", artist: "Frank Ocean", year: 2012 },
-  { title: "In Our Heads", artist: "Hot Chip", year: 2012 },
+  { title: "In Our Heads", artist: "Hot Chip", year: 2012, listened: true, genre: "pop", meh: true },
   { title: "Blunderbuss", artist: "Jack White", year: 2012 },
   { title: "Hotline Miami OST", artist: "Various Artists", year: 2012, genre: "vgm" },
   { title: "EP I", artist: "Carpenter Brut", year: 2012, fr: true, genre: "electro" },
