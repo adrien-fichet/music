@@ -52,6 +52,7 @@ Stars:
 <Filter id="stars-1" onclick={() => set_filter('stars', 1)} class_name={'star'} text={'★'} />
 <Filter id="stars-2" onclick={() => set_filter('stars', 2)} class_name={'star'} text={'★★'} />
 <Filter id="stars-3" onclick={() => set_filter('stars', 3)} class_name={'star'} text={'★★★'} />
+<Filter id="stars-4" onclick={() => set_filter('stars', 4)} class_name={'star'} text={'★★★★'} />
 <br />
 Fav:
 <Filter id="fav-all" onclick={() => set_filter('fav', 'all')} text={'all'} selected={true} />
