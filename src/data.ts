@@ -854,6 +854,7 @@ const data_1970s: Item[] = [
 
   { title: "Pretzel Logic", artist: "Steely Dan", year: 1974, listened: true, fav: true, stars: 1, genre: "rock", comment: `"Rikki Don't Lose That Number", "Night By Night", "Any Major Dude Will Tell You"` },
   { title: "Red", artist: "King Crimson", year: 1974 },
+  { title: "Graham Central Station", artist: "Graham Central Station", year: 1974, genre: "funk", comment: '"Hair"' },
   { title: "Hooked on a Feeling", artist: "Blue Swede", year: 1974 },
   { title: "I Can't Stand the Rain", artist: "Ann Peebles", year: 1974 },
   { title: "Frolic", artist: "Luciano Michelini", year: 1974, listened: true, genre: "meme" },
@@ -1292,6 +1293,7 @@ const data_1980s: Item[] = [
   { title: "Jean-Jacques Goldman (Démodé / A l'envers)", artist: "Jean-Jacques Goldman", year: 1981, listened: true, genre: "rock", fr: true, comment: `"Il suffira d'un signe"`, stars: 1 },
   { title: "The Dude", artist: "Quincy Jones", year: 1981, listened: true, genre: "funk", fav: true, stars: 2, comment: '"Ai No Corrida", "The Dude"' },
   { title: "The Many Faces of Roger", artist: "Roger Troutman", year: 1981 },
+  { title: "Voyeur", artist: "David Sanborn", year: 1981, comment: '"Run for Cover" (Marcus Miller)', genre: "jazz" },
   { title: "Lounge Lizards", artist: "The Lounge Lizards", year: 1981 },
   { title: "Rue de Siam", artist: "Marquis de Sade", year: 1981, fr: true },
   { title: "Radio Free Europe", artist: "R.E.M.", year: 1981 },
