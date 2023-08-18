@@ -1165,7 +1165,7 @@ const data_1970s: Item[] = [
   { title: "Summer Night City", artist: "ABBA", year: 1978, listened: true, genre: "disco", single: true, comment: "in-your-face compression" },
 
   { title: "London Calling", artist: "The Clash", year: 1979, perso: true, listened: true, genre: "rock", comment: `Offert en cadeau (2-CD box set), "London Calling", "Brand New Cadillac", "Hateful", "Rudy Can't Fail", "Clampdown", "The Guns of Brixton", "I'm Not Down", "Train in Vain (Stand By Me)"`, stars: 4, fav: true },
-  { title: "The Wall", artist: "Pink Floyd", year: 1979, perso: true, comment: '"Comfortably Numb", "Hey You", "Another Brick in the Wall"'},
+  { title: "The Wall", artist: "Pink Floyd", year: 1979, perso: true, comment: '"Comfortably Numb", "Hey You", "Another Brick in the Wall"', listened: true, genre: "rock", stars: 3, fav: true},
   { title: "Don't Hold Back", artist: "Chanson", year: 1979, single: true, listened: true, genre: "funk" },
   { title: "More Spell on You", artist: "Eddie Johns", year: 1979, listened: true, genre: "soul", comment: '"More Spell On You"' },
   { title: "Carrie Lucas in Danceland", artist: "Carrie Lucas", year: 1979 },
@@ -2278,6 +2278,7 @@ const data_1990s: Item[] = [
   { title: "... And Then There Was X", artist: "DMX", year: 1999 },
   { title: "KLR", artist: "Saïan Supa Crew", year: 1999, comment: '"Angela"' },
   { title: "Reload", artist: "Tom Jones", year: 1999 },
+  { title: "13", artist: "Blur", year: 1999, comment: '"Coffee & TV"' },
   { title: "Houndog", artist: "Houndog", year: 1999 },
   { title: "Millenium", artist: "Backstreet Boys", year: 1999, listened: true, genre: "pop", meh: true },
   { title: "Les Princes de la ville", artist: "113", year: 1999, fr: true, genre: "rap" },
@@ -2587,6 +2588,7 @@ const data_2000s: Item[] = [
 
   { title: "Symphony of Enchanted Lands II (The Dark Secret)", artist: "Rhapsody of Fire", year: 2004, listened: true, perso: true, genre: "metal", stars: 1, comment: '"Unholy Warcry"' },
   { title: "The College Dropout", artist: "Kanye West", year: 2004 },
+  { title: "Droit de réponse", artist: "Francky Vincent", year: 2004, fr: true, genre: "chanson", listened: true, perso: true, comment: "Francky Vincent le restaurant, c'était un rêve à réaliser", single: true },
   { title: "Suddenly I See", artist: "KT Tunstall", year: 2004, single: true, listened: true, genre: "rock" },
   { title: "Kill Bill: Volume 2 OST", artist: "Various Artists", year: 2004 },
   { title: "Encore", artist: "Eminem", year: 2004, genre: "rap" },
@@ -3191,7 +3193,7 @@ const data_2010s: Item[] = [
   { title: "Wii Turn Up (Wii Menu Remix)", artist: "Murcy", year: 2015, listened: true, genre: "meme" },
   { title: "From Darkness", artist: "Avishai Cohen", year: 2015, listened: true, genre: "jazz", stars: 1, fav: true },
   { title: "Meow the Jewels", artist: "Run the Jewels", year: 2015, comment: 'RTJ2 Remixes' },
-  { title: "The Magic Whip", artist: "Blur", year: 2015 },
+  { title: "The Magic Whip", artist: "Blur", year: 2015, listened: true, genre: "rock" },
   { title: "Ancient Future", artist: "Protoje", year: 2015, listened: true, genre: "reggae", comment: "Badaz" },
   { title: "<|°_°|>", artist: "Caravan Palace", year: 2015, listened: true, genre: "swing", stars: 1, comment: '"Lone Digger"', fr: true },
   { title: "Brava", artist: "Brodinski", year: 2015, fr: true },
