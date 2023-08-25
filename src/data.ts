@@ -43,6 +43,7 @@ const data_lt_1950: Item[] = [
   { title: "Nabuchodonosor", artist: "Verdi", year: 1842, listened: true, genre: "classical" },
   { title: "La Marche de Radetzky", artist: "Johann Strauss I", year: 1848 },
   { title: "Album pour la jeunesse, op. 68", artist: "Robert Schumann", year: 1848, listened: true, genre: "piano" },
+  { title: "Camptown Races", artist: "Stephen Foster", year: 1850, listened: true, genre: "folk", comment: 'Doo-dah! doo-dah!', perso: true },
   { title: "Ave Maria", artist: "Gounod", year: 1859, fr: true, listened: true, genre: "classical" },
   { title: "Le beau Danube bleu", artist: "Johann Strauss II", year: 1866, listened: true, genre: "classical" },
   { title: "Danses Hongroises", artist: "Brahms", year: 1867, listened: true, genre: "classical" },
@@ -75,6 +76,7 @@ const data_lt_1950: Item[] = [
   { title: "Concerto pour violoncelle, op. 104", artist: "Dvorak", year: 1895 },
   { title: "L'apprenti sorcier", artist: "Dukas", year: 1897, fr: true, listened: true, genre: "classical" },
   { title: "Finlandia, op. 26", artist: "Sibelius", year: 1899 },
+  { title: "Le Vol du bourdon", artist: "Rimski-Korsakov", year: 1899, listened: true, genre: "classical" },
 
   // 1900s (XXe siècle)
   { title: "Pomp and Circumstance Military Marches, op. 39", artist: "Elgar", year: 1901, listened: true, genre: "classical" },
@@ -784,6 +786,7 @@ const data_1970s: Item[] = [
   { title: "Head Hunters", artist: "Herbie Hancock", year: 1973, listened: true, genre: "jazz", comment: 'Jazz fusion, "Chameleon", "Watermelon Man" (beer bottle blowing)', stars: 1, fav: true },
   { title: "Aquashow", artist: "Elliott Murphy", year: 1973, listened: true, genre: "rock" },
   { title: "Stone Gon'", artist: "Barry White", year: 1973 },
+  { title: "Message personnel", artist: "Françoise Hardy", year: 1973, genre: "chanson", fr: true },
   { title: "Les Paradis perdus", artist: "Christophe", year: 1973, fr: true },
   { title: "Insolitudes", artist: "Johnny Hallyday", year: 1973, fr: true },
   { title: "Mekanïk Destruktïw Kommandöh", artist: "Magma", year: 1973, fr: true },
@@ -854,6 +857,7 @@ const data_1970s: Item[] = [
 
   { title: "Pretzel Logic", artist: "Steely Dan", year: 1974, listened: true, fav: true, stars: 1, genre: "rock", comment: `"Rikki Don't Lose That Number", "Night By Night", "Any Major Dude Will Tell You"` },
   { title: "Red", artist: "King Crimson", year: 1974 },
+  { title: "Le Maudit", artist: "Véronique Sanson", year: 1974, fr: true, genre: "chanson" },
   { title: "Graham Central Station", artist: "Graham Central Station", year: 1974, genre: "funk", comment: '"Hair"' },
   { title: "Hooked on a Feeling", artist: "Blue Swede", year: 1974 },
   { title: "I Can't Stand the Rain", artist: "Ann Peebles", year: 1974 },
@@ -1165,7 +1169,7 @@ const data_1970s: Item[] = [
   { title: "Summer Night City", artist: "ABBA", year: 1978, listened: true, genre: "disco", single: true, comment: "in-your-face compression" },
 
   { title: "London Calling", artist: "The Clash", year: 1979, perso: true, listened: true, genre: "rock", comment: `Offert en cadeau (2-CD box set), "London Calling", "Brand New Cadillac", "Hateful", "Rudy Can't Fail", "Clampdown", "The Guns of Brixton", "I'm Not Down", "Train in Vain (Stand By Me)"`, stars: 4, fav: true },
-  { title: "The Wall", artist: "Pink Floyd", year: 1979, perso: true, comment: '"Comfortably Numb", "Hey You", "Another Brick in the Wall"', listened: true, genre: "rock", stars: 3, fav: true},
+  { title: "The Wall", artist: "Pink Floyd", year: 1979, perso: true, comment: '"Comfortably Numb", "Hey You", "Another Brick in the Wall", "Young Lust", "Mother"', listened: true, genre: "rock", stars: 4, fav: true},
   { title: "Don't Hold Back", artist: "Chanson", year: 1979, single: true, listened: true, genre: "funk" },
   { title: "More Spell on You", artist: "Eddie Johns", year: 1979, listened: true, genre: "soul", comment: '"More Spell On You"' },
   { title: "Carrie Lucas in Danceland", artist: "Carrie Lucas", year: 1979 },
@@ -1555,6 +1559,7 @@ const data_1980s: Item[] = [
   { title: "Somewhere in Time", artist: "Iron Maiden", year: 1986, listened: true, fav: true, perso: true, stars: 4, genre: "hard-rock", comment: '"Caught Somewhere in Time", "Wasted Years", "Sea of Madness", "The Loneliness of the Long Distance Runner", "Stranger in a Strange Land"' },
   { title: "Reign In Blood", artist: "Slayer", year: 1986, listened: true, genre: "metal", comment: '"Reign In Blood"' },
   { title: "The Good and Bad Times", artist: "The Crusaders", year: 1986 },
+  { title: "Voyage, Voyage", artist: "Desireless", year: 1986, fr: true, single: true, genre: "pop", listened: true },
   { title: "Peace Sells... But Who's Buying?", artist: "Megadeth", year: 1986, listened: true, perso: true, genre: "hard-rock", stars: 1, fav: true, comment: '"Wake Up Dead", "Peace Sells"' },
   { title: "So", artist: "Peter Gabriel", year: 1986, listened: true, genre: "pop", comment: '"Sledgehammer", "In Your Eyes"', stars: 1, fav: true },
   { title: "Gratuit : 2 morceaux en moins !", artist: "Parabellum", year: 1986, ep: true, fr: true, listened: true, genre: "punk" },
@@ -1796,6 +1801,7 @@ const data_1990s: Item[] = [
 
   { title: "Innuendo", artist: "Queen", year: 1991, perso: true, listened: true, genre: "rock", stars: 2, fav: true, comment: '"Innuendo", "Ride the Wild Wind", "The Show Must Go On"' },
   { title: "The Low End Theory", artist: "A Tribe Called Quest", year: 1991 },
+  { title: "Guile's Theme", artist: "Yoko Shimomura / Isao Abe", year: 1991, comment: 'Street Fighter II: The World Warrior', listened: true, genre: "vgm" },
   { title: "Osez Joséphine", artist: "Alain Bashung", year: 1991, fr: true },
   { title: "Slave to the Grind", artist: "Skid Row", year: 1991 },
   { title: "The Sky Is Crying", artist: "Stevie Ray Vaughan and Double Trouble", year: 1991 },
