@@ -58,6 +58,7 @@ const data_lt_1950: Item[] = [
   { title: "Danse Macabre, op. 40", artist: "Saint-Saëns", year: 1875, listened: true, fr: true, genre: "classical" },
   { title: "Concerto pour violon en ré majeur, op. 35", artist: "Tchaïkovski", year: 1878 },
   { title: "La Moldau", artist: "Smetana", year: 1879, listened: true, genre: "classical" },
+  { title: "1812 Overture", artist: "Tchaïkovski", year: 1880, listened: true, genre: "classical" },
   { title: "Les contes d'Hoffmann", artist: "Offenbach", year: 1881, listened: true, genre: "classical" },
   { title: "Le carnaval des animaux", artist: "Saint-Saëns", year: 1886, listened: true, fr: true, genre: "classical" },
   { title: 'Symphonie No. 3, op. 78 "Symphonie avec orgue"', artist: "Saint-Saëns", year: 1886, fav: true, listened: true, fr: true, genre: "classical" },
