@@ -2453,7 +2453,7 @@ const data_2000s: Item[] = [
   { title: "Can't Get You out of My Head", artist: "Kylie Minogue", year: 2001, listened: true, genre: "pop", perso: true, single: true },
   { title: "Discovery", artist: "Daft Punk", year: 2001, fav: true, listened: true, perso: true, stars: 4, genre: "electro", fr: true, comment: '"Voyager", "Something About Us", "One More Time", "Aerodynamic", "Harder, Better, Faster, Stronger"' },
   { title: "Gorillaz", artist: "Gorillaz", year: 2001, fav: true, listened: true, perso: true, stars: 3, genre: "rock" },
-  { title: "G-Sides", artist: "Gorillaz", year: 2001, perso: true, comment: '"19-2000" (Soulchild Remix)', listened: true, stars: 1, fav: true },
+  { title: "G-Sides", artist: "Gorillaz", year: 2001, perso: true, comment: '"19-2000" (Soulchild Remix)', listened: true, stars: 1, fav: true, genre: "pop" },
   { title: "Toxicity", artist: "System Of A Down", year: 2001, fav: true, listened: true, perso: true, stars: 3, genre: "metal", comment: '"Chop Suey!", "Toxicity"' },
   { title: "Is This It", artist: "The Strokes", year: 2001, listened: true, stars: 1, genre: "rock", fav: true },
   { title: "Thunder Chicken", artist: "The Mighty Imperials", year: 2001 },
