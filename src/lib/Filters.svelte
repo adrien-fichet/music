@@ -3,7 +3,7 @@
   import Filter from './Filter.svelte'
   import { filters, loading } from '../stores'
 
-  function load(fn: Function) {
+  function load(fn: () => void) {
     // https://stackoverflow.com/a/57659500
     $loading = true
     requestAnimationFrame(() => {
