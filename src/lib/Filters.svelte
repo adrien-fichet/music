@@ -3,7 +3,7 @@
   import Filter from './Filter.svelte'
   import { filters, loading } from '../stores'
 
-  function load(fn) {
+  function load(fn: Function) {
     // https://stackoverflow.com/a/57659500
     $loading = true
     requestAnimationFrame(() => {
@@ -25,13 +25,14 @@
 
   function set_filter(key: string, value: string|boolean|number) {
     document.querySelectorAll(`[id^="filter-${key}-"]`).forEach(el => el.classList.remove('selected'))
-    document.querySelector(`[id="filter-${key}-${value}"]`).classList.add('selected')
+    document.querySelector(`[id="filter-${key}-${value}"]`)?.classList.add('selected')
     load(() => {
       if (value === 'all') {
-        if ($filters[key] !== undefined) {
-          delete $filters[key]
+        if (key in $filters) {
+          delete $filters[key as keyof typeof $filters]
         }
       } else {
+        // @ts-ignore
         $filters[key] = value
       }
       $filters = $filters // force assignation to update derived stores

@@ -14,7 +14,7 @@
   [<span class="heart">♥</span>]
 {/if}
 
-{#if item.stars > 0}
+{#if item.stars && item.stars > 0}
 [{#each {length: item.stars} as _}<span class="star">★</span>{/each}]
 {/if}
 

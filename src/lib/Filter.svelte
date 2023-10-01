@@ -1,8 +1,9 @@
 <script lang="ts">
+  import type { MouseEventHandler } from 'svelte/elements'
   import { Icon } from '../icon'
 
   export let id = ''
-  export let onclick
+  export let onclick: MouseEventHandler<HTMLAnchorElement>
   export let text: string
   export let selected = false
   export let class_name = ''

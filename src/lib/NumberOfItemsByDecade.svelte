@@ -2,7 +2,8 @@
   import { items } from '../stores'
   import { percentage, percentage_class } from '../percentage'
 
-  let items_by_decade = {}
+  type ItemsByDecade = { [decade: number]: { listened: number, total: number }}
+  let items_by_decade = {} as ItemsByDecade
 
   for (const item of $items) {
     let decade = Math.floor(item.year / 10) * 10
