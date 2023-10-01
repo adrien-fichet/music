@@ -18,9 +18,9 @@ const current_items = derived(
             display_item = ("" + item[key]).startsWith("" + (value as string).slice(0, 3))
           }
         } else if (!value) {
-            display_item = !item[key]
+          display_item = !item[key as keyof typeof item]
         } else {
-          display_item = item[key] === value
+          display_item = item[key as keyof typeof item] === value
         }
 
         if (display_item === false) {

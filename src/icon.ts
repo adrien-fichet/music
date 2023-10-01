@@ -1,7 +1,7 @@
 import { type Genre } from './genre'
 
 class Icon {
-    static from_genre(genre: Genre | string): string {
+    static from_genre(genre: Genre | string | undefined): string {
         switch (genre) {
             case "piano":
                 return "🎹"
@@ -42,7 +42,7 @@ class Icon {
         }
     }
 
-    static class_from_genre(genre: Genre | string): string {
+    static class_from_genre(genre: Genre | string | undefined): string {
         switch (genre) {
             case "piano":
                 return "emoticon"
