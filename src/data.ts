@@ -645,7 +645,7 @@ const data_1970s: Item[] = [
   { title: "Fun House", artist: "The Stooges", year: 1970 },
   { title: "American Beauty", artist: "Grateful Dead", year: 1970 },
   { title: "Bitches Brew", artist: "Miles Davis", year: 1970, listened: true, genre: "jazz", comment: "Experimental jazz" },
-  { title: "Abraxas", artist: "Santana", year: 1970, comment: '"Black Magic Woman", "Oye Cómo Va"' },
+  { title: "Abraxas", artist: "Santana", year: 1970, comment: '"Black Magic Woman", "Oye Cómo Va"', listened: true, genre: "rock", stars: 4, fav: true },
   { title: "Gasoline Alley", artist: "Rod Stewart", year: 1970, listened: true, genre: "rock" },
   { title: "In Rock", artist: "Deep Purple", year: 1970, listened: true, genre: "hard-rock", stars: 2, fav: true, comment: '"Speed King", "Child in Time", "Into the Fire", "Black Night"' },
   { title: "Third", artist: "Soft Machine", year: 1970 },
@@ -2208,7 +2208,7 @@ const data_1990s: Item[] = [
   { title: "Dig Me Out", artist: "Sleater-Kinney", year: 1997 },
   { title: "Angels Fall First", artist: "Nightwish", year: 1997 },
   { title: "Buena Vista Social Club", artist: "Buena Vista Social Club", year: 1997, listened: true, genre: "world", fav: true, stars: 1, comment: "Son Cubano" },
-  { title: "White On Blonde", artist: "Texas", year: 1997 },
+  { title: "White On Blonde", artist: "Texas", year: 1997, listened: true, genre: "pop", fav: true, stars: 1, comment: '"Say What You Want", "Halo", "Black Eyed Boy"' },
   { title: "Everybody (Backstreet's Back)", artist: "Backstreet Boys", year: 1997, listened: true, genre: "meme", stars: 1, comment: 'moymoypalaboy/anime lipsync [YT]' },
   { title: "Thubthumper", artist: "Chumbawamba", year: 1997 },
 
