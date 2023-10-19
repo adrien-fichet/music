@@ -1475,7 +1475,7 @@ const data_1980s: Item[] = [
   { title: "West End Girls", artist: "Pet Shop Boys", year: 1984, single: true, listened: true, genre: "pop" },
   { title: "The Woman In Red OST", artist: "Stevie Wonder, Dionne Warwick", year: 1984 },
   { title: "Make It Big", artist: "Wham!", year: 1984 },
-  { title: "It's My Life", artist: "Talk Talk", year: 1984, comment: '"Such a Shame"' },
+  { title: "It's My Life", artist: "Talk Talk", year: 1984, comment: '"Such a Shame", "Call In the Night Boy"', listened: true, genre: "new-wave", fav: true, stars: 2 },
   { title: "Like a Virgin", artist: "Madonna", year: 1984, listened: true, genre: "pop" },
   { title: "Ghostbusters OST", artist: "Various Artists", year: 1984 },
   { title: "Plays the Blues for You", artist: "Melvin Taylor", year: 1984, genre: "blues", listened: true, perso: true, comment: '"Cadillac Assembly Line", "Voodoo Daddy"', stars: 2, fav: true },
