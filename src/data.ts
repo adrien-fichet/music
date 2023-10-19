@@ -1490,7 +1490,7 @@ const data_1980s: Item[] = [
   { title: "Rattlesnakes", artist: "Lloyd Cole and the Commotions", year: 1984 },
   { title: "Ocean Rain", artist: "Echo & the Bunnymen", year: 1984 },
   { title: '"Weird Al" Yankovic in 3-D', artist: '"Weird Al" Yankovic', year: 1984 },
-  { title: "Private Dancer", artist: "Tina Turner", year: 1984, comment: `"What's Love Got to Do With It", "Let's Stay Together"` },
+  { title: "Private Dancer", artist: "Tina Turner", year: 1984, comment: `"What's Love Got to Do With It", "Let's Stay Together"`, listened: true, genre: "pop", stars: 1, fav: true },
   { title: "Treasure", artist: "Cocteau Twins", year: 1984 },
   { title: "Positif", artist: "Jean-Jacques Goldman", year: 1984, fr: true, listened: true, genre: "rock", comment: '"Envole-moi", "Encore un matin"', stars: 1, fav: true },
   { title: "Welcome to the Pleasuredome", artist: "Frankie Goes To Hollywood", year: 1984, listened: true, genre: "new-wave", comment: '"Relax"' },
