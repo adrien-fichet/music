@@ -2835,7 +2835,7 @@ const data_2000s: Item[] = [
   { title: "The Plain and the Sky", artist: "Yoshino Aoki, Norikazu Miura, Masaharu Iwata, Kaori Komuro, Hiroaki Tomuno", year: 2008, genre: "vgm", listened: true, comment: 'Suikoden Tierkreis' },
   { title: "Cooking By The Book", artist: "LazyTown", year: 2008, listened: true, genre: "meme" },
   { title: "Day & Age", artist: "The Killers", year: 2008 },
-  { title: "Papillon de lumière", artist: "Cindy Sander", year: 2008, single: true, genre: "meme", listened: true, fr: true },
+  { title: "Papillon de lumière", artist: "Cindy Sander", year: 2008, genre: "meme", listened: true, fr: true },
   { title: "Crystal Castles", artist: "Crystal Castles", year: 2008, genre: "electro" },
   { title: "Music Components", artist: "Arnaud Rebotini", year: 2008, fr: true },
   { title: "The Black Mages III: Darkness and Starlight", artist: "The Black Mages", year: 2008 },
