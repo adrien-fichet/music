@@ -1543,7 +1543,7 @@ const data_1980s: Item[] = [
   { title: "Suzanne Vega", artist: "Suzanne Vega", year: 1985, listened: true, genre: "folk" },
   { title: "Fear and Whiskey", artist: "Mekons", year: 1985 },
   { title: "Steve McQueen", artist: "Prefab Sprout", year: 1985 },
-  { title: "Hunting High and Low", artist: "a-ha", year: 1985 },
+  { title: "Hunting High and Low", artist: "a-ha", year: 1985, listened: true, genre: "new-wave", comment: '"Take On Me", "Train of Thought"' },
   { title: "This Nation's Saving Grace", artist: "The Fall", year: 1985 },
   { title: "No Jacket Required", artist: "Phil Collins", year: 1985, listened: true, genre: "pop", comment: `"Sussudio", "One More Night", "Don't Lose My Number", "Take Me Home"`, stars: 1 },
   { title: "Rhythm of the Night", artist: "DeBarge", year: 1985, listened: true, genre: "pop" },
