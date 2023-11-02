@@ -1497,6 +1497,7 @@ const data_1980s: Item[] = [
   { title: "Positif", artist: "Jean-Jacques Goldman", year: 1984, fr: true, listened: true, genre: "rock", comment: '"Envole-moi", "Encore un matin"', stars: 1, fav: true },
   { title: "Welcome to the Pleasuredome", artist: "Frankie Goes To Hollywood", year: 1984, listened: true, genre: "new-wave", comment: '"Relax"' },
   { title: "Meat Puppets II", artist: "Meat Puppets", year: 1984 },
+  { title: "Café Bleu", artist: "The Style Council", year: 1984, listened: true, genre: "new-wave", comment: 'Half jazz, half new-wave' },
   { title: "One Night In Bangkok", artist: "Murray Head", year: 1984, listened: true, genre: "pop", fav: true, stars: 1, single: true, comment: '"Chess" OST' },
   { title: "Double Nickels on the Dime", artist: "Minutemen", year: 1984 },
   { title: "Ride the Lightning", artist: "Metallica", year: 1984, perso: true, listened: true, genre: "metal", fav: true, stars: 2, comment: '"Creeping Death", "The Call of Ktulu"' },
@@ -1650,7 +1651,6 @@ const data_1980s: Item[] = [
   { title: "Electric", artist: "The Cult", year: 1987, listened: true, genre: "hard-rock", stars: 1 },
   { title: "Document", artist: "R.E.M.", year: 1987 },
   { title: "Trio", artist: "Dolly Parton, Linda Ronstadt & Emmy Lou Harris", year: 1987, listened: true, genre: "country", comment: '"To Know Him is to Love Him"', stars: 1 },
-  { title: "Café Bleu", artist: "The Style Council", year: 1987 },
   { title: "...Nothing Like the Sun", artist: "Sting", year: 1987, listened: true, genre: "pop", comment: '"Englishman in New York", "They Dance Alone", "Fragile"', stars: 1 },
   { title: "Introduce Yourself", artist: "Faith No More", year: 1987 },
   { title: "Criminal Minded", artist: "Boogie Down Productions", year: 1987 },
@@ -1707,7 +1707,7 @@ const data_1980s: Item[] = [
   { title: "Patchanka", artist: "Mano Negra", year: 1988, fr: true },
   { title: "Daydream Nation", artist: "Sonic Youth", year: 1988 },
   { title: "Straight Outta Compton", artist: "N.W.A.", year: 1988, listened: true, genre: "rap", stars: 1 },
-  { title: "...And Justice for All", artist: "Metallica", year: 1988, listened: true, genre: "metal", comment: '"...And Justice for All", "Blackened", "One", "Harvester of Sorrow"', stars: 2, fav: true },
+  { title: "...And Justice for All", artist: "Metallica", year: 1988, listened: true, genre: "metal", comment: '"Blackened", "One", "Harvester of Sorrow"', stars: 2, fav: true },
 
   { title: "Bleu Blanc Vert", artist: "Jean-Louis Aubert", year: 1989, fr: true, perso: true },
   { title: "Bleach", artist: "Nirvana", year: 1989, genre: "grunge" },
@@ -3388,7 +3388,7 @@ const data_2010s: Item[] = [
   { title: "Once Upon a Time in Hollywood OST", artist: "Various Artists", year: 2019 },
   { title: "Our Pathetic Age", artist: "DJ Shadow", year: 2019, listened: true, genre: "rap", comment: "First half meh, second half ok" },
   { title: "Live in Minneapolis", artist: "Cory Wong", year: 2019, live: true },
-  { title: "Motivational Music for the Syncopated Soul", artist: "Cory Wong", year: 2019, comment: '"Frogville"', genre: "funk" },
+  { title: "Motivational Music for the Syncopated Soul", artist: "Cory Wong", year: 2019, comment: `"Frogville", "Today I'm Gonna Get Myself a Real Job"`, genre: "funk", listened: true, stars: 1, fav: true },
   { title: "Norman Fucking Rockwell!", artist: "Lana Del Rey", year: 2019, listened: true, genre: "pop", stars: 1 },
   { title: "Fine Line", artist: "Harry Styles", year: 2019, listened: true, genre: "pop" },
   { title: "Return to Wherever", artist: "TWRP", year: 2019, listened: true, genre: "funk", stars: 1 },
@@ -3529,6 +3529,7 @@ const data_2020s: Item[] = [
   { title: "TEENAGERS", artist: "French 79", year: 2023, fr: true, genre: "electro" },
   { title: "Arising", artist: "The Laszlo Project", year: 2023, genre: "jazz", listened: true, stars: 3, fav: true },
   { title: "Eggs in one Basket", artist: "Tele Novella", year: 2023, genre: "pop", listened: true, comment: "Dwayne's favorite song?", single: true },
+  { title: "The Lucky One", artist: "Cory Wong", year: 2023 },
 ]
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
