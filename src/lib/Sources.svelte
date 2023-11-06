@@ -22,4 +22,5 @@
     <li>Spotify "Instrumental Funk" playlist</li>
     <li>Full (Jazz) Crusaders discography</li>
     <li>Tom Waits top 20 favourite albums of all time</li>
+    <li>Songs sampled in "Ready To Die" LP by The Notorious B.I.G.</li>
 </ul>
