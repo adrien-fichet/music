@@ -216,7 +216,7 @@ const data_1950s: Item[] = [
   { title: "The Genius of Ray Charles", artist: "Ray Charles", year: 1959 },
   { title: "Gunfighter Ballads and Trail Songs", artist: "Marty Robbins", year: 1959 },
   { title: "Ricky Sings Again", artist: "Ricky Nelson", year: 1959 },
-  { title: "Flamingo Serenade", artist: "The Flamingos", year: 1959 },
+  { title: "Flamingo Serenade", artist: "The Flamingos", year: 1959, listened: true, genre: "soul" },
 ]
 
 const data_1960s: Item[] = [
@@ -1307,7 +1307,7 @@ const data_1980s: Item[] = [
   { title: "Iron Maiden", artist: "Iron Maiden", year: 1980 },
   { title: "Sound Affects", artist: "The Jam", year: 1980, listened: true, meh: true, genre: "rock" },
   { title: "Los Angeles", artist: "X", year: 1980 },
-  { title: "Flash Gordon", artist: "Queen", year: 1980 },
+  { title: "Flash Gordon OST", artist: "Queen", year: 1980, listened: true, genre: "rock" },
   { title: "Ace of Spades", artist: "Motörhead", year: 1980 },
   { title: "Scary Monsters (and Super Creeps)", artist: "David Bowie", year: 1980 },
   { title: "Diana", artist: "Diana Ross", year: 1980, listened: true, genre: "disco", comment: `"Upside Down", "I'm Coming Out"`, stars: 1, fav: true },
