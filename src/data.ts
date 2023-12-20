@@ -383,7 +383,7 @@ const data_1960s: Item[] = [
   { title: "Black Monk Time", artist: "Monks", year: 1966 },
   { title: "Fifth Dimension", artist: "The Byrds", year: 1966, listened: true, genre: "folk", meh: true },
   { title: "Face To Face", artist: "The Kinks", year: 1966, listened: true, genre: "rock", fav: true, stars: 2, comment: '"Sunny Afternoon", "Dandy"' },
-  { title: "Up-Tight", artist: "Stevie Wonder", year: 1966 },
+  { title: "Up-Tight", artist: "Stevie Wonder", year: 1966, listened: true, genre: "soul", comment: `"Uptight (Everything's Alright)"`, stars: 1 },
   { title: "Gettin' Ready", artist: "The Temptations", year: 1966, listened: true, genre: "soul", comment: '"Get Ready"' },
   { title: "Dictionary of Soul", artist: "Otis Redding", year: 1966 },
   { title: "Aftermath", artist: "The Rolling Stones", year: 1966, listened: true, genre: "rock", stars: 1, comment: '"Paint It Black", "Under My Thumb"' },
@@ -1747,7 +1747,7 @@ const data_1980s: Item[] = [
   { title: "Straight Outta Compton", artist: "N.W.A.", year: 1988, listened: true, genre: "rap", stars: 1 },
   { title: "...And Justice for All", artist: "Metallica", year: 1988, listened: true, genre: "metal", comment: '"Blackened", "One", "Harvester of Sorrow"', stars: 2, fav: true },
 
-  { title: "Bleu Blanc Vert", artist: "Jean-Louis Aubert", year: 1989, fr: true, perso: true },
+  { title: "Bleu Blanc Vert", artist: "Jean-Louis Aubert", year: 1989, fr: true, perso: true, comment: `"Voilà c'est fini", "Univers", "Le Bout du rouleau"`, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Bleach", artist: "Nirvana", year: 1989, genre: "grunge", listened: true, comment: '"About a Girl"' },
   { title: "Soldier of Fortune", artist: "Loudness", year: 1989, genre: "hard-rock", comment: "Akira Takasaki on guitar" },
   { title: "The Diabolical Biz Markie", artist: "Biz Markie", year: 1989, comment: '"Just a Friend"' },
