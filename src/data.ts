@@ -131,6 +131,7 @@ const data_lt_1950: Item[] = [
   { title: "This Land Is Your Land", artist: "Woody Guthrie", year: 1945 },
   { title: "Stormy Monday (Call It Stormy Monday (But Tuesday is Just as Bad))", artist: "T-Bone Walker", year: 1947, genre: "blues", listened: true, standard: true },
   { title: "Donna Lee", artist: "Miles Davis", year: 1947, genre: "jazz", standard: true },
+  { title: "Nobody Loves Me / Everyday I Have the Blues", artist: "Memphis Slim", year: 1947, genre: "blues", standard: true },
   { title: "The Anthology", artist: "Muddy Waters", year: 1948, comment: "Greatest hits album released in 2001, recorded from 1948 to 1972", genre: "blues" },
 ]
 
@@ -1800,6 +1801,7 @@ const data_1980s: Item[] = [
 const data_1990s: Item[] = [
   { title: "Pornograffiti", artist: "Extreme", year: 1990, perso: true, listened: true, fav: true, stars: 3, genre: "hard-rock", comment: "Médiathèque Mansart" },
   { title: "Passion and Warfare", artist: "Steve Vai", year: 1990, perso: true, listened: true, genre: "hard-rock", stars: 2, fav: true, comment: '"Erotic Nightmares", "The Animal", "For the Love of God"' },
+  { title: "Recycler", artist: "ZZ Top", year: 1990, listened: true, genre: "rock", perso: true, stars: 1, fav: true },
   { title: "Goo", artist: "Sonic Youth", year: 1990, listened: true, genre: "rock" },
   { title: "One For All", artist: "Brand Nubian", year: 1990 },
   { title: "Viva Bertaga", artist: "Bérurier Noir", year: 1990, genre: "punk", live: true, fr: true, perso: true },
@@ -2410,6 +2412,7 @@ const data_2000s: Item[] = [
   { title: "Tony Hawk Pro Skater 2 OST", artist: "Various Artists", year: 2000, listened: true, fav: true, perso: true, stars: 1, genre: "punk" },
   { title: "Mother Earth", artist: "Within Temptation", year: 2000, perso: true },
   { title: "Dawn of Victory", artist: "Rhapsody", year: 2000, listened: true, genre: "metal" },
+  { title: "The Most Relaxing Feel", artist: "Various Artists", year: 2000, perso: true },
   { title: "Opus Incertum", artist: "High Tone", year: 2000, fr: true },
   { title: "Born to Do It", artist: "Craig David", year: 2000 },
   { title: "For the Damaged Coda", artist: "Blonde Redhead", year: 2000, genre: "meme", listened: true },
