@@ -3514,7 +3514,7 @@ const data_2020s: Item[] = [
   { title: "YHLQMDLG", artist: "Bad Bunny", year: 2020, listened: true, genre: "r-n-b", meh: true },
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
-  { title: "The Immediate Family", artist: "The Immediate Family", year: 2021 },
+  { title: "The Immediate Family", artist: "The Immediate Family", year: 2021, comment: 'The Section (Leland Sklar on bass)', listened: true, genre: "hard-rock" },
   { title: "A State Of Trance 1000 - Celebration Mix", artist: "Armin van Buuren", year: 2021, listened: true, stars: 1, genre: "electro", fav: true },
   { title: "Conflicts of Interest", artist: "Ghetts", year: 2021 },
   { title: "Sunday Afternoon", artist: "True Loves", year: 2021, listened: true, genre: "funk", stars: 1 },
