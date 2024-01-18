@@ -2149,7 +2149,7 @@ const data_1990s: Item[] = [
   { title: "Different Class", artist: "Pulp", year: 1995, listened: true, genre: "rock", meh: true },
   { title: "Brown Sugar", artist: "D'Angelo", year: 1995 },
   { title: "Herzeleid", artist: "Rammstein", year: 1995, listened: true, genre: "metal", comment: '"Rammstein", "Asche Zu Asche", "Du riechst so gut"', stars: 1 },
-  { title: "Made In Heaven", artist: "Queen", year: 1995 },
+  { title: "Made In Heaven", artist: "Queen", year: 1995, listened: true, genre: "rock", perso: true, stars: 2, fav: true },
   { title: "California Love", artist: "2Pac, Dr. Dre, Roger Troutman (Zapp)", year: 1995, listened: true, genre: "rap", stars: 1, fav: true, single: true },
   { title: "Jagged Little Pill", artist: "Alanis Morissette", year: 1995 },
   { title: "Mellon Collie and the Infinite Sadness", artist: "The Smashing Pumpkins", year: 1995, listened: true, stars: 1, genre: "rock", comment: 'Double album, "Bullet with Butterfly Wings"' },
@@ -2285,7 +2285,7 @@ const data_1990s: Item[] = [
   { title: "Thubthumper", artist: "Chumbawamba", year: 1997 },
 
   { title: "Symphony of Enchanted Lands", artist: "Rhapsody", year: 1998, fav: true, perso: true, listened: true, stars: 1, genre: "metal", comment: 'CD passé par Antoine au collège avec Cannibal Corpse et Children of Bodom, "Emerald Sword"' },
-  { title: "System Of A Down", artist: "System Of A Down", year: 1998 },
+  { title: "System Of A Down", artist: "System Of A Down", year: 1998, listened: true, genre: "metal", stars: 2, fav: true },
   { title: "Better Off Alone", artist: "Alice Deejay", year: 1998, listened: true, single: true, genre: "electro" },
   { title: "Boom, Boom, Boom, Boom!", artist: "Vengaboys", year: 1998, listened: true, single: true, genre: "electro", perso: true },
   { title: "Equalize It", artist: "EZ3kiel", year: 1998, fr: true },
@@ -3017,7 +3017,7 @@ const data_2000s: Item[] = [
 ]
 
 const data_2010s: Item[] = [
-  { title: "Heligoland", artist: "Massive Attack", year: 2010, perso: true },
+  { title: "Heligoland", artist: "Massive Attack", year: 2010, perso: true, listened: true, genre: "trip-hop", stars: 2, fav: true, comment: '"Atlas Air"' },
   { title: "Rock Dust Light Star", artist: "Jamiroquai", year: 2010, listened: true, stars: 1, genre: "funk" },
   { title: "Illumination", artist: "Miami Horror", year: 2010, perso: true, listened: true, genre: "pop", fav: true, stars: 2, comment: '"I Look to You", "Summersun", "Sometimes", "Echoplex"' },
   { title: "My Beautiful Dark Twisted Fantasy", artist: "Kanye West", year: 2010, listened: true, genre: "rap" },
@@ -3538,6 +3538,7 @@ const data_2020s: Item[] = [
   { title: "A State Of Trance 1000 - Celebration Mix", artist: "Armin van Buuren", year: 2021, listened: true, stars: 1, genre: "electro", fav: true },
   { title: "Conflicts of Interest", artist: "Ghetts", year: 2021, listened: true, genre: "rap", meh: true },
   { title: "Sunday Afternoon", artist: "True Loves", year: 2021, listened: true, genre: "funk", stars: 1 },
+  { title: "This Bitter Earth", artist: "Veronica Swift", year: 2021, listened: true, genre: "jazz", comment: 'Tram T2' },
   { title: "The Exciting Sounds of Menahan Street Band", artist: "Menahan Street Band", year: 2021, listened: true, genre: "funk", stars: 1 },
   { title: "Blue Weekend", artist: "Wolf Alice", year: 2021, listened: true, genre: "rock", comment: "shoegaze" },
   { title: "Funky Times", artist: "Funky Times", year: 2021, ep: true, listened: true, genre: "funk", comment: `"Funky Times 1.0", "Go Ya Movin'", "Sweet Disco Times"`, stars: 1, fav: true },
