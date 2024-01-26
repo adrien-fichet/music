@@ -1957,7 +1957,7 @@ const data_1990s: Item[] = [
   { title: "Angel Dust", artist: "Faith No More", year: 1992, listened: true, genre: "hard-rock", stars: 1, fav: true, comment: '"Jizzlobber" organ sample' },
   { title: "Fear of the Dark", artist: "Iron Maiden", year: 1992, listened: true, genre: "hard-rock", fav: true, stars: 4, comment: `"Be Quick or Be Dead", "From Here to Eternity", "Afraid to Shoot Strangers", "Childhood's End", "Chains of Misery", "Fear of the Dark"` },
   { title: "Kingdom of Desire", artist: "Toto", year: 1992, listened: true, genre: "hard-rock", comment: '"Jack To the Bone", last Toto album with Jeff Porcaro on drums', stars: 1 },
-  { title: "Porco Rosso OST", artist: "Joe Hisaishi", year: 1989 },
+  { title: "Porco Rosso OST", artist: "Joe Hisaishi", year: 1992 },
   { title: "Get Ready!", artist: "2 Unlimited", year: 1992, listened: true, genre: "electro", stars: 1, fav: true },
   { title: "Off the Deep End", artist: '"Weird Al" Yankovic', year: 1992, listened: true, genre: "rock", comment: `"Smells Like Nirvana", "I Can't Watch This", "Polka Your Eyes Out", "When I Was Your Age"`, stars: 1 },
   { title: "Haut de Gamme - Koweit, Rive Gauche", artist: "Koffi Olomide", year: 1992, listened: true, genre: "world" },
