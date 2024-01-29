@@ -1001,12 +1001,12 @@ const data_1970s: Item[] = [
   { title: "The Royal Scam", artist: "Steely Dan", year: 1976, listened: true, fav: true, perso: true, stars: 3, genre: "rock", comment: '"Kid Charlemagne" guitar solo' },
   { title: "Those Southern Knights", artist: "The Crusaders", year: 1976, listened: true, fav: true, stars: 3, genre: "funk", comment: '"Spiral", "Keep That Same Old Feeling"' },
   { title: "Tom Petty & the Heartbreakers", artist: "Tom Petty and the Heartbreakers", year: 1976, listened: true, stars: 1, genre: "rock" },
-  { title: "Spirit", artist: "Earth, Wind & Fire", year: 1976 },
+  { title: "Spirit", artist: "Earth, Wind & Fire", year: 1976, comment: '"Getaway"' },
   { title: "Avalanche", artist: "Avalanche", year: 1976 },
   { title: "Stingray", artist: "Joe Cocker", year: 1976 },
   { title: "Harlem Underground Band", artist: "Harlem Underground Band", year: 1976 },
   { title: "Romantic Warrior", artist: "Return to Forever", year: 1976 },
-  { title: "L'Homme à tête de chou", artist: "Serge Gainsbourg", year: 1976, fr: true },
+  { title: "L'Homme à tête de chou", artist: "Serge Gainsbourg", year: 1976, fr: true, listened: true, genre: "chanson" },
   { title: "Les barbares", artist: "Bernard Lavilliers", year: 1976, fr: true },
   { title: "Alertez les bébés !", artist: "Jacques Higelin", year: 1976, fr: true, listened: true, genre: "rock" },
   { title: "I Love to Love (But My Baby Loves to Dance)", artist: "Tina Charles", year: 1976, single: true, genre: "disco", listened: true, stars: 1 },
@@ -1077,6 +1077,7 @@ const data_1970s: Item[] = [
   { title: "Oh Bondage! Up Yours!", artist: "X-Ray Spex", year: 1977, single: true, listened: true, genre: "punk" },
   { title: "Menagerie", artist: "Bill Withers", year: 1977, comment: '"Lovely Day"' },
   { title: "Body Love", artist: "Klaus Schulze", year: 1977 },
+  { title: "Magic Journey", artist: "The Salsoul Orchestra", year: 1977, genre: "disco", comment: '"Getaway"' },
   { title: "Comin' Through", artist: "Eddie Henderson", year: 1977 },
   { title: "Generation X", artist: "Generation X", year: 1977, genre: "punk" },
   { title: "ABBA: The Album", artist: "ABBA", year: 1977 },
@@ -3653,6 +3654,7 @@ const data_2020s: Item[] = [
 
   { title: "Loss of Life", artist: "MGMT", year: 2024 },
   { title: "These Nuts", artist: "Ninja Sex Party", year: 2024 },
+  { title: "Hyperdrama", artist: "Justice", year: 2024 },
 ]
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"

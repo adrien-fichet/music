@@ -23,5 +23,5 @@
     <li>Full (Jazz) Crusaders discography</li>
     <li>Tom Waits top 20 favourite albums of all time</li>
     <li>Songs sampled in "Ready To Die" LP by The Notorious B.I.G.</li>
-    <li>Ghibli OSTs</li>
+    <li>Ghibli OSTs, mostly by Joe Hisaishi</li>
 </ul>
