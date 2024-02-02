@@ -2703,7 +2703,7 @@ const data_2000s: Item[] = [
   { title: "Droit de réponse", artist: "Francky Vincent", year: 2004, fr: true, genre: "chanson", listened: true, perso: true, comment: "Francky Vincent le restaurant, c'était un rêve à réaliser", single: true },
   { title: "Suddenly I See", artist: "KT Tunstall", year: 2004, single: true, listened: true, genre: "rock" },
   { title: "Kill Bill: Volume 2 OST", artist: "Various Artists", year: 2004 },
-  { title: "Encore", artist: "Eminem", year: 2004, genre: "rap", comment: '"Just Lose It", "Mockingbird", "Like Toy Soldiers"', stars: 1 },
+  { title: "Encore", artist: "Eminem", year: 2004, genre: "rap", comment: '"Just Lose It", "Mockingbird", "Like Toy Soldiers"', stars: 1, listened: true },
   { title: "The Delivery Man", artist: "Elvis Costello and The Imposters", year: 2004 },
   { title: "Automatic Thrill", artist: "Gluecifer", year: 2004 },
   { title: "Team America: World Police OST", artist: "Trey Parker", year: 2004, comment: '"America, Fuck Yeah"' },
