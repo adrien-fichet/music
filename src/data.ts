@@ -3665,6 +3665,7 @@ const data_2020s: Item[] = [
   { title: "Unicorn", artist: "Gunship", year: 2023, listened: true, genre: "electro" },
   { title: "The Ballad of Darren", artist: "Blur", year: 2023, listened: true, genre: "pop" },
 
+  { title: "The Fearless Flyers IV", artist: "The Fearless Flyers", year: 2024, ep: true },
   { title: "Loss of Life", artist: "MGMT", year: 2024 },
   { title: "These Nuts", artist: "Ninja Sex Party", year: 2024 },
   { title: "Hyperdrama", artist: "Justice", year: 2024 },
