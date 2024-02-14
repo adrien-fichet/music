@@ -4,4 +4,7 @@ This is a web app to help me keep track of music I've listened to, as well as mu
 
 It uses Svelte, Vite, Vitest and Typescript.
 
-Run dev server with `npm run dev`, run tests with `npx vitest run`, build with `python3 build.py`
+- Run dev server: `npm run dev`
+- Run tests: `npx vitest run`
+- Build: `python3 build.py`
+- Check npm packages updates: `npx npm-check-updates`
