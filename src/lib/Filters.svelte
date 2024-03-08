@@ -116,6 +116,7 @@ Live:
   <Filter id="genre-electro" onclick={() => set_filter('genre', 'electro')} text={'electro'} />
   <Filter id="genre-rap" onclick={() => set_filter('genre', 'rap')} text={'rap'} />
   <Filter id="genre-chanson" onclick={() => set_filter('genre', 'chanson')} text={'chanson'} />
+  <Filter id="genre-lofi" onclick={() => set_filter('genre', 'lofi')} text={'lofi'} />
   <br />
   <Filter id="genre-piano" onclick={() => set_filter('genre', 'piano')} text={'piano'} />
   <Filter id="genre-meme" onclick={() => set_filter('genre', 'meme')} text={'meme'} />

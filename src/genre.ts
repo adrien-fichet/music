@@ -26,5 +26,6 @@ type Genre =
   | 'new-wave'
   | 'vgm'
   | 'piano'
+  | 'lofi'
 
 export { type Genre }

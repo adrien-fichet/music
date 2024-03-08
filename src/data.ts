@@ -597,6 +597,7 @@ const data_1960s: Item[] = [
   { title: "The Age of Aquarius", artist: "The 5th Dimension", year: 1969 },
   { title: "Zoo", artist: "Zoo", year: 1969, fr: true },
   { title: "I Got Dem Ol' Kozmic Blues Again Mama!", artist: "Janis Joplin", year: 1969, genre: "soul", listened: true, stars: 3, fav: true, comment: '"Try (Just a Little Bit Harder)", "Maybe", "Kozmic Blues", "Little Girl Blue"' },
+  { title: "Nador", artist: "Les Variations", year: 1969, fr: true, genre: "rock" },
 ]
 
 const data_1970s: Item[] = [
@@ -732,6 +733,7 @@ const data_1970s: Item[] = [
   { title: "Exile on Main Street", artist: "The Rolling Stones", year: 1972 },
   { title: "There's a Party Goin' On", artist: "Jodi Miller", year: 1972 },
   { title: "Dollars OST", artist: "Quincy Jones", year: 1972 },
+  { title: "First Base", artist: "Babe Ruth", year: 1972, listened: true, genre: "hard-rock", stars: 2, fav: true },
   { title: "Black Heat", artist: "Black Heat", year: 1972 },
   { title: "Pain", artist: "Ohio Players", year: 1972 },
   { title: "I'll Play the Blues For You", artist: "Albert King", year: 1972, genre: "blues", comment: `Whoo!, "I'll Play the Blues For You (Pts 1 & 2)"`, listened: true, stars: 1, fav: true },
@@ -1005,6 +1007,7 @@ const data_1970s: Item[] = [
   { title: "Tom Petty & the Heartbreakers", artist: "Tom Petty and the Heartbreakers", year: 1976, listened: true, stars: 1, genre: "rock" },
   { title: "Spirit", artist: "Earth, Wind & Fire", year: 1976, comment: '"Getaway"' },
   { title: "Avalanche", artist: "Avalanche", year: 1976 },
+  { title: "Phonography", artist: "R. Stevie Moore", year: 1976 },
   { title: "Stingray", artist: "Joe Cocker", year: 1976 },
   { title: "Harlem Underground Band", artist: "Harlem Underground Band", year: 1976 },
   { title: "Romantic Warrior", artist: "Return to Forever", year: 1976 },
@@ -2680,7 +2683,7 @@ const data_2000s: Item[] = [
   { title: "CAB 4", artist: "CAB", year: 2003 },
   { title: "The Matrix Reloaded OST", artist: "Various Artists", year: 2003, perso: true, comment: '"Mona Lisa Overdrive"' },
   { title: "The Diary of Alicia Keys", artist: "Alicia Keys", year: 2003 },
-  { title: "Ghost of a Rose", artist: "Blackmore's Night", year: 2003 },
+  { title: "Ghost of a Rose", artist: "Blackmore's Night", year: 2003, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Sleeping with Ghosts", artist: "Placebo", year: 2003, perso: true },
   { title: "Reality", artist: "David Bowie", year: 2003, genre: "rock" },
   { title: "Wonderful Rainbow", artist: "Lightning Bolt", year: 2003 },
@@ -3155,6 +3158,8 @@ const data_2010s: Item[] = [
   { title: "Vollmilch", artist: "Vulfpeck", year: 2012, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
   { title: "PANIC", artist: "Caravan Palace", year: 2012, fr: true },
   { title: "Hallelujah", artist: "Igorrr", year: 2012, fr: true },
+  { title: "Mature Themes", artist: "Ariel Pink", year: 2012 },
+  { title: "Ku Klux Glam", artist: "Ariel Pink & R. Stevie Moore", year: 2012 },
   { title: "Howie 61", artist: "Wayne Krantz", year: 2012, genre: "jazz" },
   { title: "Polymorphic Code", artist: "The Algorithm", year: 2012, fr: true },
   { title: "Live in Paris", artist: "Electro Deluxe", year: 2012, fr: true, live: true },
@@ -3528,6 +3533,7 @@ const data_2020s: Item[] = [
   { title: "Press Start", artist: "The Laszlo Project", year: 2020, ep: true, listened: true, genre: "jazz" },
   { title: "The Joy Of Music, The Jobs Of Real Estate", artist: "Vulfpeck", year: 2020, listened: true, genre: "funk" },
   { title: "The Hang", artist: "Redtenbacher's Funkestra", year: 2020, listened: true, genre: "jazz", stars: 2, fav: true },
+  { title: "Way of Life", artist: "Yasumu", year: 2020, listened: true, genre: "lofi", stars: 1, fav: true, ep: true },
   { title: "Timeless", artist: "Thylacine", year: 2020, fr: true, listened: true, genre: "electro", comment: 'Electro arrangements of classical pieces' },
   { title: "Fu Chronicles", artist: "Antibalas", year: 2020, listened: true, genre: "world" },
   { title: "Fetch the Bolt Cutters", artist: "Fiona Apple", year: 2020, listened: true, genre: "pop" },
@@ -3636,6 +3642,7 @@ const data_2020s: Item[] = [
   { title: "SOS", artist: "SZA", year: 2022, listened: true, genre: "r-n-b", meh: true },
   { title: "Butcher Brown Presents Triple Trey", artist: "Butcher Brown", year: 2022, genre: "rap", listened: true, stars: 1 },
   { title: "Ants From Up There", artist: "Black Country, New Road", year: 2022, listened: true, genre: "rock" },
+  { title: "Weightless", artist: "Sling Dilly, Sleepermane", year: 2022, listened: true, genre: "lofi", ep: true },
 
   { title: "Cracker Island", artist: "Gorillaz", year: 2023, listened: true, genre: "pop", stars: 1, fav: true },
   { title: "Mythologies", artist: "Thomas Bangalter", year: 2023, genre: "classical", listened: true },
@@ -3668,9 +3675,13 @@ const data_2020s: Item[] = [
   { title: "Unicorn", artist: "Gunship", year: 2023, listened: true, genre: "electro" },
   { title: "The Ballad of Darren", artist: "Blur", year: 2023, listened: true, genre: "pop" },
   { title: "Out In the Moonlight", artist: "Skyhill", year: 2023, listened: true, genre: "pop", comment: 'Dan Avidan again!' },
+  { title: "Sleepwalking", artist: "xander.", year: 2024, listened: true, genre: "lofi", stars: 1 },
 
   { title: "The Fearless Flyers IV", artist: "The Fearless Flyers", year: 2024, ep: true, listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Loss of Life", artist: "MGMT", year: 2024, listened: true, genre: "pop" },
+  { title: "Nocturnal Reveries", artist: "Tibeauthetraveler", year: 2024, listened: true, genre: "lofi", ep: true },
+  { title: "When All Was Lost", artist: "Cosmic Koala, Lucid Keys", year: 2024, listened: true, genre: "lofi" },
+  { title: "Timeless Melodies", artist: "xander.", year: 2024, listened: true, genre: "lofi", stars: 1 },
   { title: "These Nuts", artist: "Ninja Sex Party", year: 2024 },
   { title: "Hyperdrama", artist: "Justice", year: 2024 },
 ]

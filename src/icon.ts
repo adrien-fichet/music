@@ -32,6 +32,7 @@ class Icon {
             case "electro":
             case "rap":
             case "chanson":
+            case "lofi":
             case "new-wave":
             case "vgm":
                 return "►"
