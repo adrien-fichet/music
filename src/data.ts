@@ -3081,7 +3081,7 @@ const data_2010s: Item[] = [
   { title: "Bed Intruder Song", artist: "Schmoyoho", year: 2010, genre: "meme", listened: true, stars: 1, perso: true },
   { title: "PLAYER", artist: "Capsule", year: 2010, listened: true, genre: "electro" },
   { title: "The Archandroid", artist: "Janelle Monae", year: 2010 },
-  { title: "Arrietty OST", artist: "Cécile Corbel", year: 2010 },
+  { title: "Arrietty OST", artist: "Cécile Corbel", year: 2010, listened: true, genre: "classical", stars: 1 },
   { title: "No Guts. No Glory.", artist: "Airbourne", year: 2010, perso: true, comment: 'Eurockéennes 2010 air solo' },
   { title: "TRON: Legacy OST", artist: "Daft Punk", year: 2010, listened: true, fr: true, stars: 1, genre: "electro" },
   { title: "Sea of Cowards", artist: "The Dead Weather", year: 2010, listened: true, genre: "rock", stars: 1, perso: true, fav: true },
@@ -3514,6 +3514,7 @@ const data_2010s: Item[] = [
   { title: "Titanic Rising", artist: "Weyes Blood", year: 2019 },
   { title: "LEGACY! LEGACY!", artist: "Jamila Woods", year: 2019 },
   { title: "Grey Area", artist: "Little Simz", year: 2019 },
+  { title: "Enfant du vent", artist: "Cécile Corbel", year: 2019, fr: true },
   { title: "Old Town Road", artist: "Lil Nas X", year: 2019, genre: "meme", listened: true },
   { title: "Once Upon a Time in Hollywood OST", artist: "Various Artists", year: 2019 },
   { title: "Our Pathetic Age", artist: "DJ Shadow", year: 2019, listened: true, genre: "trip-hop", comment: "First half meh, second half ok" },
@@ -3684,8 +3685,8 @@ const data_2020s: Item[] = [
   { title: "When All Was Lost", artist: "Cosmic Koala, Lucid Keys", year: 2024, listened: true, genre: "lofi" },
   { title: "Timeless Melodies", artist: "xander.", year: 2024, listened: true, genre: "lofi", stars: 1 },
   { title: "The Otherworld", artist: "Solar Body", year: 2024, listened: true, genre: "lofi" },
-  { title: "Garden of Serenity", artist: "Goson, softy", year: 2024, listened: true, genre: "lofi" },
-  { title: "These Nuts", artist: "Ninja Sex Party", year: 2024 },
+  { title: "Garden of Serenity", artist: "Goson, softy", year: 2024, listened: true, genre: "lofi", stars: 1 },
+  { title: "These Nuts", artist: "Ninja Sex Party", year: 2024, listened: true, genre: "pop", stars: 1 },
   { title: "Hyperdrama", artist: "Justice", year: 2024 },
 ]
 
