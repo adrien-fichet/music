@@ -20,8 +20,9 @@
     <li>Albums from artists cited in "Destroy Rock &amp; Roll" (Mylo)</li>
     <li>Songs sampled in Daft Punk "Discovery"</li>
     <li>Spotify "Instrumental Funk" playlist</li>
-    <li>Full (Jazz) Crusaders discography</li>
+    <li>The (Jazz) Crusaders discography</li>
     <li>Tom Waits top 20 favourite albums of all time</li>
     <li>Songs sampled in "Ready To Die" LP by The Notorious B.I.G.</li>
     <li>Ghibli OSTs, mostly by Joe Hisaishi</li>
+    <li>Deep Purple and Rainbow discography</li>
 </ul>
