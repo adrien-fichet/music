@@ -2685,6 +2685,7 @@ const data_2000s: Item[] = [
   { title: "Elephant", artist: "The White Stripes", year: 2003, listened: true, genre: "rock", perso: true, stars: 2, fav: true, comment: '"Seven Nation Army", "Black Math", "The Hardest Button to Button"' },
   { title: "Elephunk", artist: "Black Eyed Peas", year: 2003, listened: true, genre: "rap", comment: `"Let's Get It Started", "Shut Up", "Where Is the Love?"` },
   { title: "Rounds", artist: "Four Tet", year: 2003 },
+  { title: "Dubidubidu", artist: "Christell", year: 2003, genre: "meme", listened: true, comment: 'Chipi Chipi Chapa Chapa' },
   { title: "100th Window", artist: "Massive Attack", year: 2003 },
   { title: "Let It Be... Naked", artist: "The Beatles", year: 2003, comment: `"Let It Be" album alternate mix initiated by McCartney, "Don't Let Me Down"`, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Rural Renewal", artist: "The Crusaders", year: 2003 },
