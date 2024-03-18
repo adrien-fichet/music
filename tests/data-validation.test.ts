@@ -92,3 +92,11 @@ it('should be marked as listened if it has stars, is fav or meh', () => {
     }
   }
 })
+
+it('should not have the title in comment', () => {
+  for (const item of data) {
+    if (item.comment) {
+      expect(item.comment, msg(item)).not.toContain(`"${item.title}"`)
+    }
+  }
+})
