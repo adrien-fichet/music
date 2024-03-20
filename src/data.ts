@@ -3682,6 +3682,7 @@ const data_2020s: Item[] = [
   { title: "Renaissance", artist: "Beyoncé", year: 2022, listened: true, genre: "r-n-b", meh: true },
   { title: "Supernova", artist: "Nova Twins", year: 2022, listened: true, genre: "hard-rock" },
   { title: "SOS", artist: "SZA", year: 2022, listened: true, genre: "r-n-b", meh: true },
+  { title: "Skylines", artist: "Sebastian Kamae", year: 2022, listened: true, genre: "lofi", ep: true },
   { title: "Butcher Brown Presents Triple Trey", artist: "Butcher Brown", year: 2022, genre: "rap", listened: true, stars: 1 },
   { title: "Ants From Up There", artist: "Black Country, New Road", year: 2022, listened: true, genre: "rock" },
   { title: "Weightless", artist: "Sling Dilly, Sleepermane", year: 2022, listened: true, genre: "lofi", ep: true },
@@ -3717,7 +3718,7 @@ const data_2020s: Item[] = [
   { title: "Unicorn", artist: "Gunship", year: 2023, listened: true, genre: "electro" },
   { title: "The Ballad of Darren", artist: "Blur", year: 2023, listened: true, genre: "pop" },
   { title: "Out In the Moonlight", artist: "Skyhill", year: 2023, listened: true, genre: "pop", comment: 'Dan Avidan again!' },
-  { title: "Sleepwalking", artist: "xander.", year: 2024, listened: true, genre: "lofi", stars: 1 },
+  { title: "Sleepwalking", artist: "xander.", year: 2023, listened: true, genre: "lofi", stars: 1 },
 
   { title: "The Fearless Flyers IV", artist: "The Fearless Flyers", year: 2024, ep: true, listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Loss of Life", artist: "MGMT", year: 2024, listened: true, genre: "pop" },
@@ -3728,6 +3729,7 @@ const data_2020s: Item[] = [
   { title: "Garden of Serenity", artist: "Goson, softy", year: 2024, listened: true, genre: "lofi", stars: 1 },
   { title: "These Nuts", artist: "Ninja Sex Party", year: 2024, listened: true, genre: "pop", stars: 1 },
   { title: "QuietPath Vol.2", artist: "So.Lo, Goson", year: 2024, listened: true, genre: "lofi", stars: 1 },
+  { title: "Is This It?", artist: "Team Astro", year: 2024, listened: true, genre: "lofi" },
   { title: "Hyperdrama", artist: "Justice", year: 2024 },
 ]
 
