@@ -120,7 +120,7 @@ const data_lt_1950: Item[] = [
   { title: "Djangologie Vol. 9 / 1939-1940", artist: "Django Reinhardt", year: 1939, listened: true, genre: "jazz" },
   { title: "The Tradition Masters", artist: "Lead Belly", year: 1939, genre: "blues", comment: '"Where Did You Sleep Last Night"', listened: true },
   { title: "Strange Fruit", artist: "Billie Holliday", year: 1939, single: true, listened: true, genre: "jazz" },
-  { title: "Concierto de Aranjuez", artist: "Joaquín Rodrigo", year: 1939 },
+  { title: "Concierto de Aranjuez", artist: "Joaquín Rodrigo", year: 1939, listened: true, genre: "classical", comment: 'Classical guitar', fav: true },
   { title: "Mbube (The Lion Sleeps Tonight)", artist: "Solomon Linda", year: 1939, single: true, genre: "world", listened: true },
   { title: "Over the Rainbow", artist: "Harold Arlen / Judy Garland", year: 1939, single: true, listened: true, genre: "jazz", comment: 'The Wizard of Oz' },
 
@@ -135,9 +135,9 @@ const data_lt_1950: Item[] = [
   { title: "Stella By Starlight", artist: "Victor Young", year: 1944, genre: "jazz", standard: true, listened: true },
   { title: "I'm Beginning to See the Light", artist: "Duke Ellington, Johny Hodges, Harry James, Don George", year: 1944, genre: "jazz", listened: false, standard: true },
   { title: "Autumn Leaves", artist: "Joseph Kosma", year: 1945, genre: "jazz", listened: true, standard: true },
-  { title: "This Land Is Your Land", artist: "Woody Guthrie", year: 1945 },
+  { title: "This Land Is Your Land", artist: "Woody Guthrie", year: 1945, listened: true, genre: "folk", single: true },
   { title: "Stormy Monday (Call It Stormy Monday (But Tuesday is Just as Bad))", artist: "T-Bone Walker", year: 1947, genre: "blues", listened: true, standard: true },
-  { title: "Donna Lee", artist: "Miles Davis", year: 1947, genre: "jazz", standard: true },
+  { title: "Donna Lee", artist: "Miles Davis", year: 1947, genre: "jazz", standard: true, comment: 'Wrongly attributed to Charlie Parker', listened: true },
   { title: "Nobody Loves Me / Everyday I Have the Blues", artist: "Memphis Slim", year: 1947, genre: "blues", standard: true },
   { title: "The Anthology", artist: "Muddy Waters", year: 1948, comment: "Greatest hits album released in 2001, recorded from 1948 to 1972", genre: "blues" },
 ]
@@ -245,14 +245,14 @@ const data_1960s: Item[] = [
 
   { title: "At Last!", artist: "Etta James", year: 1961, listened: true, stars: 1, genre: "blues" },
   { title: "Together!", artist: "Elvin Jones", year: 1961 },
-  { title: "Runaway", artist: "Del Shannon", year: 1961, single: true, genre: "rock-n-roll" },
+  { title: "Runaway", artist: "Del Shannon", year: 1961, single: true, genre: "rock-n-roll", listened: true, stars: 1, fav: true },
   { title: "Freedom Sound", artist: "The Jazz Crusaders", year: 1961, listened: true, genre: "jazz" },
   { title: "Two Steps from the Blues", artist: "Bobby Bland", year: 1961, comment: `"I'll Take Care of You", "I Pity the Fool"` },
   { title: "The Lion Sleeps Tonight (Wimoweh)", artist: "The Tokens", year: 1961, single: true, genre: "pop", listened: true },
   { title: "Showcase", artist: "Patsy Cline", year: 1961 },
-  { title: "Charles Aznavour (Je m'voyais déjà)", artist: "Charles Aznavour", year: 1961, fr: true },
-  { title: "Green Street", artist: "Grant Green", year: 1961 },
-  { title: "Please Mr. Postman", artist: "The Marvelettes", year: 1961 },
+  { title: "Charles Aznavour (Je m'voyais déjà)", artist: "Charles Aznavour", year: 1961, fr: true, listened: true, genre: "chanson" },
+  { title: "Green Street", artist: "Grant Green", year: 1961, listened: true, genre: "jazz", comment: 'Jazz guitar' },
+  { title: "Please Mr. Postman", artist: "The Marvelettes", year: 1961, listened: true, genre: "soul" },
   { title: "King of the Delta Blues Singers", artist: "Robert Johnson", year: 1961 },
   { title: "Sunday At the Village Vanguard", artist: "Bill Evans Trio Featuring Scott La Faro", year: 1961 },
 
@@ -3086,6 +3086,7 @@ const data_2000s: Item[] = [
 ]
 
 const data_2010s: Item[] = [
+  { title: "All Day", artist: "Girl Talk", year: 2010, listened: true, fav: true, stars: 3, genre: "electro", perso: true },
   { title: "Heligoland", artist: "Massive Attack", year: 2010, perso: true, listened: true, genre: "trip-hop", stars: 2, fav: true, comment: '"Atlas Air"' },
   { title: "Rock Dust Light Star", artist: "Jamiroquai", year: 2010, listened: true, stars: 1, genre: "funk" },
   { title: "Illumination", artist: "Miami Horror", year: 2010, perso: true, listened: true, genre: "pop", fav: true, stars: 2, comment: '"I Look to You", "Summersun", "Sometimes", "Echoplex"' },
@@ -3126,7 +3127,6 @@ const data_2010s: Item[] = [
   { title: "Barbra Streisand", artist: "Duck Sauce", year: 2010, single: true, listened: true, genre: "electro" },
   { title: "The Suburbs", artist: "Arcade Fire", year: 2010, listened: true, genre: "rock", comment: '"Sprawl II", Eurockéennes 2011', stars: 1 },
   { title: "Lovestoned", artist: "Oliver Koletzki, Fran", year: 2010 },
-  { title: "All Day", artist: "Girl Talk", year: 2010, listened: true, fav: true, stars: 1, genre: "electro" },
   { title: "Panty & Stocking with Garterbelt OST", artist: "TCY FORCE, TeddyLoid", year: 2010, listened: true, perso: true, genre: "electro" },
   { title: "The Fall", artist: "Gorillaz", year: 2010, listened: true, meh: true, genre: "pop" },
   { title: "Plastic Beach", artist: "Gorillaz", year: 2010, listened: true, fav: true, stars: 1, genre: "pop" },
@@ -3526,6 +3526,7 @@ const data_2010s: Item[] = [
   { title: "The Fearless Flyers II", artist: "The Fearless Flyers", year: 2019, listened: true, genre: "funk", ep: true, stars: 1 },
   { title: "Chronologic", artist: "Caravan Palace", year: 2019, fr: true },
   { title: "Ghosteen", artist: "Nick Cave & the Bad Seeds", year: 2019 },
+  { title: "Sidi Mansour", artist: "Cheba Yamina, Moving Still", year: 2019, genre: "electro", stars: 1, single: true, listened: true, fav: true },
   { title: "Joshua", artist: "French 79", year: 2019, fr: true, genre: "electro" },
   { title: "The Last Spell OST", artist: "The Algorithm", year: 2019, genre: "vgm", fr: true, listened: true, stars: 1 },
   { title: "Feelings", artist: "Kinga Głyk", year: 2019 },
@@ -3731,6 +3732,7 @@ const data_2020s: Item[] = [
   { title: "These Nuts", artist: "Ninja Sex Party", year: 2024, listened: true, genre: "pop", stars: 1 },
   { title: "QuietPath Vol.2", artist: "So.Lo, Goson", year: 2024, listened: true, genre: "lofi", stars: 1 },
   { title: "Is This It?", artist: "Team Astro", year: 2024, listened: true, genre: "lofi" },
+  { title: "Banja (Moving Still HiNRG Edit)", artist: "Moving Still", year: 2024, listened: true, genre: "electro", stars: 2, fav: true, single: true },
   { title: "Hyperdrama", artist: "Justice", year: 2024 },
 ]
 
