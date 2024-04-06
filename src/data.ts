@@ -632,7 +632,7 @@ const data_1970s: Item[] = [
   { title: "Psychedelic Shack", artist: "The Temptations", year: 1970, comment: '"War"', listened: true, genre: "soul" },
   { title: "Funky Drummer (Part 1 & 2)", artist: "James Brown", year: 1970, listened: true, genre: "funk", stars: 2, fav: true, single: true, comment: "Clyde Stubblefield on drums" },
   { title: "Express Yourself", artist: "Charles Wright & the Watts 103rd Street Rhythm Band", year: 1970, listened: true, genre: "soul" },
-  { title: "Little Green Bag", artist: "George Baker Selection", year: 1970, single: true, genre: "rock", stars: 3, fav: true },
+  { title: "Little Green Bag", artist: "George Baker Selection", year: 1970, single: true, genre: "rock", stars: 3, fav: true, listened: true },
   { title: "Cavatina", artist: "Stanley Myers", year: 1970, listened: true, genre: "classical", comment: "Classical Guitar" },
   { title: "Curtis", artist: "Curtis Mayfield", year: 1970, listened: true, genre: "soul", comment: '"Move On Up"' },
   { title: "War & Peace", artist: "Edwin Starr", year: 1970 },
