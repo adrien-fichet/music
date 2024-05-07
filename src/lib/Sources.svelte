@@ -25,4 +25,5 @@
     <li>Songs sampled in "Ready To Die" LP by The Notorious B.I.G.</li>
     <li>Ghibli OSTs, mostly by Joe Hisaishi</li>
     <li>Deep Purple and Rainbow discography</li>
+    <li>DownBeat albums of the year</li>
 </ul>
