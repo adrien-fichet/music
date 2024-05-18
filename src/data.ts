@@ -986,7 +986,7 @@ const data_1970s: Item[] = [
   { title: "Bundles", artist: "Soft Machine", year: 1975, listened: true, genre: "rock", comment: "Instrumental Jazz Rock" },
   { title: "Sinking of the Titanic", artist: "Gavin Bryers", year: 1975 },
   { title: "Dressed to Kill", artist: "Kiss", year: 1975 },
-  { title: "Gilgamesh", artist: "Gilgamesh", year: 1975, listened: true, genre: "jazz", comment: 'Jazz fusion', comment: '"For Absent Friends"' },
+  { title: "Gilgamesh", artist: "Gilgamesh", year: 1975, listened: true, genre: "jazz", comment: 'Jazz fusion, "For Absent Friends"' },
   { title: "Alleycat", artist: "Nucleus", year: 1975, genre: "jazz" },
   { title: "Heureusement en France on ne se drogue pas", artist: "Alain Kan", year: 1975, fr: true, listened: true, genre: "rock", stars: 1 },
   { title: "Feel Like Makin' Love", artist: "Roberta Flack", year: 1975 },
