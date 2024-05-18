@@ -73,7 +73,7 @@ const data_lt_1950: Item[] = [
   { title: "Schéhérazade, op. 35", artist: "Rimski-Korsakov", year: 1888 },
   { title: "Suite bergamasque", artist: "Debussy", year: 1890, fr: true, listened: true, genre: "piano", comment: '"Clair de Lune"' },
   { title: "Prince Igor", artist: "Borodine", year: 1890, listened: true, genre: "classical" },
-  { title: "Casse-Noisette, op. 71", artist: "Tchaïkovski", year: 1891 },
+  { title: "Casse-Noisette, op. 71", artist: "Tchaïkovski", year: 1892, listened: true, genre: "classical", fav: true },
   { title: "Prélude à l'après-midi d'un faune", artist: "Debussy", year: 1892, fr: true },
   { title: "Asturias (Leyenda)", artist: "Isaac Albéniz", year: 1892 },
   { title: 'Symphonie No. 9 "du Nouveau Monde", op. 95', artist: "Dvorak", year: 1893, fav: true, listened: true, genre: "classical" },
@@ -231,7 +231,8 @@ const data_1950s: Item[] = [
 ]
 
 const data_1960s: Item[] = [
-  { title: "Sketches of Spain", artist: "Miles Davis", year: 1960 },
+  { title: "Sketches of Spain", artist: "Miles Davis", year: 1960, genre: "jazz" },
+  { title: "The Nutcracker Suite", artist: "Duke Ellington", year: 1960, genre: "jazz" },
   { title: "Spoonful", artist: "Howlin' Wolf", year: 1960, listened: true, genre: "blues", standard: true },
   { title: "Tonight's the Night", artist: "The Shirelles", year: 1960 },
   { title: "A Taste of Honey", artist: "Bobby Scott", year: 1960 },
@@ -568,7 +569,7 @@ const data_1960s: Item[] = [
   { title: "Tons of Sobs", artist: "Free", year: 1969 },
   { title: "From Elvis in Memphis", artist: "Elvis Presley", year: 1969 },
   { title: "The Meters", artist: "The Meters", year: 1969 },
-  { title: "Loo-Ka Py Py", artist: "The Meters", year: 1969 },
+  { title: "Look-Ka Py Py", artist: "The Meters", year: 1969, listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Blood, Sweat & Tears", artist: "Blood, Sweat & Tears", year: 1969, listened: true, genre: "rock", comment: `Mix of jazz, blues, classical and rock, "More and More", "And When I Die", "You've Made Me So Very Happy"`, stars: 1 },
   { title: "The Stooges", artist: "The Stooges", year: 1969, comment: '"I Wanna Be Your Dog"' },
   { title: "Trout Mask Replica", artist: "Captain Beefheart & His Magic Band", year: 1969 },
@@ -917,7 +918,7 @@ const data_1970s: Item[] = [
   { title: "Graham Central Station", artist: "Graham Central Station", year: 1974, genre: "funk", comment: '"Hair"', listened: true, stars: 1, fav: true },
   { title: "Hooked on a Feeling", artist: "Blue Swede", year: 1974, single: true, genre: "rock", listened: true, stars: 1, fav: true },
   { title: "I Can't Stand the Rain", artist: "Ann Peebles", year: 1974 },
-  { title: "Burn", artist: "Deep Purple", year: 1974 },
+  { title: "Burn", artist: "Deep Purple", year: 1974, listened: true, genre: "hard-rock", stars: 2, fav: true },
   { title: "Solo Concerts", artist: "Keith Jarrett", year: 1974, genre: "jazz", live: true },
   { title: "Stormbringer", artist: "Deep Purple", year: 1974 },
   { title: "Frolic", artist: "Luciano Michelini", year: 1974, listened: true, genre: "meme" },
@@ -1181,7 +1182,7 @@ const data_1970s: Item[] = [
   { title: "Talking Heads: 77", artist: "Talking Heads", year: 1977 },
   { title: "Out of the Blue", artist: "Electric Light Orchestra", year: 1977, listened: true, stars: 1, genre: "rock", comment: '"Mr. Blue Sky"' },
   { title: "Exodus", artist: "Bob Marley and the Wailers", year: 1977, listened: true, fav: true, stars: 1, genre: "reggae" },
-  { title: "Darkness on the Edge of Town", artist: "Bruce Springsteen", year: 1977 },
+  { title: "Darkness on the Edge of Town", artist: "Bruce Springsteen", year: 1977, listened: true, genre: "rock" },
   { title: "Funkentelechy vs. the Placebo Syndrome", artist: "Parliament", year: 1977, comment: '"Flash Light"' },
   { title: "Commodores", artist: "Commodores", year: 1977, listened: true, genre: "funk", stars: 1, fav: true, comment: '"Brick House", "Easy"' },
 
