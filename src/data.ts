@@ -2271,7 +2271,7 @@ const data_1990s: Item[] = [
   { title: "Fountains of Wayne", artist: "Fountains of Wayne", year: 1996 },
   { title: "Another Level", artist: "Blackstreet", year: 1996 },
   { title: "The X-Files", artist: "Mark Snow", year: 1996, genre: "meme", listened: true, stars: 1 },
-  { title: "Super Mario 64 OST", artist: "Koji Kondo", year: 1996, genre: "vgm" },
+  { title: "Super Mario 64 OST", artist: "Koji Kondo, GMB Sound Team", year: 1996, genre: "vgm", listened: true, perso: true },
   { title: "Dreamland", artist: "Robert Miles", year: 1996 },
   { title: "Space Jam OST", artist: "Various Artists", year: 1996, listened: true, genre: "pop", comment: '"I Believe I Can Fly" (R. Kelly), "Come on and slam, and welcome to Japan"' },
   { title: "Bad Hair Day", artist: '"Weird Al" Yankovic', year: 1996 },
@@ -3791,6 +3791,7 @@ const data_2020s: Item[] = [
   { title: "Schvitz", artist: "Vulfpeck", year: 2022, genre: "funk", listened: true, stars: 1, fav: true },
   { title: "Empire Central", artist: "Snarky Puppy", year: 2022, genre: "funk", stars: 1, listened: true, comment: '"Mean Green", "Trinity"' },
   { title: "Dawn FM", artist: "The Weeknd", year: 2022, listened: true, genre: "pop" },
+  { title: "Kalopsia", artist: "Nuver", year: 2022, listened: true, genre: "lofi" },
   { title: "Motomami", artist: "Rosalía", year: 2022, listened: true, meh: true, genre: "pop" },
   { title: "Renaissance", artist: "Beyoncé", year: 2022, listened: true, genre: "r-n-b", meh: true },
   { title: "Supernova", artist: "Nova Twins", year: 2022, listened: true, genre: "hard-rock" },
@@ -3854,6 +3855,7 @@ const data_2020s: Item[] = [
   { title: "the cliff", artist: "fnonose, morningtime", year: 2024, genre: "lofi", listened: true, stars: 1 },
   { title: "Hyperdrama", artist: "Justice", year: 2024, genre: "electro", listened: true, stars: 1 },
   { title: "Desolation", artist: "Dimension 32, Mondo Loops", year: 2024, genre: "lofi", listened: true },
+  { title: "Blu", artist: "Your Magnolia", year: 2024, genre: "lofi", ep: true, listened: true },
 ]
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
