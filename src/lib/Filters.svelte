@@ -124,7 +124,7 @@ Live:
   <Filter id="genre-vgm" onclick={() => set_filter('genre', 'vgm')} text={'vgm'} />
 </fieldset>
 <fieldset>
-  <legend><b>Year</b> <Filter id="year-all" onclick={() => set_filter('year', 'all')} text={'all'} /></legend>
+  <legend><b>Decade</b> <Filter id="year-all" onclick={() => set_filter('year', 'all')} text={'all'} /></legend>
   <Filter id="year-lt-1950" onclick={() => set_filter('year', 'lt-1950')} text={'< 1950'} />
   <Filter id="year-1950" onclick={() => set_filter('year', '1950')} text={'1950s'} />
   <Filter id="year-1960" onclick={() => set_filter('year', '1960')} text={'1960s'} />
