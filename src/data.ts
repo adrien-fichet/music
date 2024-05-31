@@ -1165,7 +1165,7 @@ const data_1970s: Item[] = [
   { title: "Blondie", artist: "Blondie", year: 1977 },
   { title: "Chic", artist: "Chic", year: 1977 },
   { title: "The Idiot", artist: "Iggy Pop", year: 1977, listened: true, stars: 1, genre: "rock" },
-  { title: "Ask Rufus", artist: "Rufus, Chaka Khan", year: 1977 },
+  { title: "Ask Rufus", artist: "Rufus, Chaka Khan", year: 1977, listened: false, genre: "funk" },
   { title: "Suicide", artist: "Suicide", year: 1977 },
   { title: "Heavy Weather", artist: "Weather Report", year: 1977, listened: true, genre: "jazz", comment: 'Jazz fusion, "Teen Town"', stars: 3, fav: true },
   { title: "Rocket to Russia", artist: "Ramones", year: 1977, listened: true, genre: "rock" },
@@ -1543,7 +1543,7 @@ const data_1980s: Item[] = [
   { title: "Too Low for Zero", artist: "Elton John", year: 1983, comment: `"I'm Still Standing", "I Guess That's Why They Call It the Blues", "Crystal" (intro)`, listened: true, genre: "pop", stars: 1, fav: true },
   { title: '"Weird Al" Yankovic', artist: '"Weird Al" Yankovic', year: 1983, listened: true, genre: "rock", comment: `"Ricky", "I Love Rocky Road", "My Bologna", "Another One Rides the Bus", "I'll Be Mellow When I'm Dead"`, stars: 1 },
   { title: "An Innocent Man", artist: "Billy Joel", year: 1983 },
-  { title: "War", artist: "U2", year: 1983 },
+  { title: "War", artist: "U2", year: 1983, comment: `"Sunday Bloody Sunday", "New Year's Day"`, listened: true, genre: "rock", stars: 1 },
   { title: "Blues Forever", artist: "Muhal Richard Abrams", year: 1983, genre: "jazz" },
   { title: "Get Down Saturday Night", artist: "Oliver Cheatham", year: 1983, listened: true, genre: "disco", single: true },
   { title: "The Stompin' at the Savoy", artist: "Rufus and Chka Khan", year: 1983, comment: `"Ain't Nobody"` },
@@ -3099,7 +3099,7 @@ const data_2000s: Item[] = [
   { title: "The Renaissance", artist: "Q-Tip", year: 2008 },
   { title: "Fleet Foxes", artist: "Fleet Foxes", year: 2008 },
   { title: "Dear Science", artist: "TV On the Radio", year: 2008 },
-  { title: "We Started Nothing", artist: "The Ting Tings", year: 2008, genre: "pop", perso: true, comment: `"That's Not My Name", "Shut Up and Let Me Go"` },
+  { title: "We Started Nothing", artist: "The Ting Tings", year: 2008, genre: "pop", perso: true, comment: `"That's Not My Name", "Shut Up and Let Me Go", "Great DJ", "Fruit Machine"`, listened: true, stars: 2, fav: true },
   { title: "Walking On A Dream", artist: "Empire of the Sun", year: 2008, listened: true, genre: "pop", comment: "Eurockéennes 2010" },
   { title: "Where the Light Is: John Mayer Live in Los Angeles", artist: "John Mayer", year: 2008, live: true },
   { title: "Secret Voyage", artist: "Blackmore's Night", year: 2008 },
@@ -3420,7 +3420,7 @@ const data_2010s: Item[] = [
   { title: "Down to Earth", artist: "Flight Facilities", year: 2014, listened: true, genre: "pop" },
   { title: "Abandon Ship", artist: "Knife Party", year: 2014 },
   { title: "Hiraeth", artist: "猫 シ Corp.", year: 2014, listened: true, genre: "electro", stars: 1, comment: "Vaporwave" },
-  { title: "We Like It Here", artist: "Snarky Puppy", year: 2014, listened: true, fav: true, stars: 3, genre: "funk" },
+  { title: "We Like It Here", artist: "Snarky Puppy", year: 2014, listened: true, fav: true, stars: 3, genre: "funk", perso: true, comment: '"Sleeper"' },
   { title: "Flint", artist: "Bill Laurance", year: 2014, listened: true, genre: "jazz", stars: 1, fav: true },
   { title: "Instant Alpha", artist: "Feadz", year: 2014 },
   { title: "Singes du futur", artist: "Andréas & Nicolas", year: 2014, fr: true },
@@ -3858,6 +3858,7 @@ const data_2020s: Item[] = [
   { title: "Hyperdrama", artist: "Justice", year: 2024, genre: "electro", listened: true, stars: 1 },
   { title: "Desolation", artist: "Dimension 32, Mondo Loops", year: 2024, genre: "lofi", listened: true },
   { title: "Blu", artist: "Your Magnolia", year: 2024, genre: "lofi", ep: true, listened: true },
+  { title: "The Death of Slim Shady (Coup de Grâce)", artist: "Eminem", year: 2024, genre: "rap" },
 ]
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
