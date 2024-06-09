@@ -3539,6 +3539,7 @@ const data_2010s: Item[] = [
   { title: "Mr. Finish Line", artist: "Vulfpeck", year: 2017, listened: false, genre: "funk" },
   { title: "Stup Virus", artist: "Stupeflip", year: 2017, fr: true, genre: "rap", listened: true, comment: "campagne Ulule" },
   { title: "Eternity, in Your Arms", artist: "Creeper", year: 2017 },
+  { title: "Dancin (Krono Extended Remix)", artist: "Aaron Smith, Krono", year: 2017, genre: "meme", comment: "A Hat in Time smug dance", listened: true },
   { title: "America's National Parks", artist: "Wadada Leo Smith", year: 2017, genre: "jazz" },
   { title: "Lifa", artist: "Heilung", year: 2017, live: true },
   { title: "La Peste et le Choléra", artist: "Tagada Jones", year: 2017, fr: true },
