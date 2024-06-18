@@ -2080,7 +2080,7 @@ const data_1990s: Item[] = [
   { title: "Images and Words", artist: "Dream Theater", year: 1992, listened: true, genre: "metal", comment: '"Pull Me Under"' },
 
   { title: "Emergency on Planet Earth", artist: "Jamiroquai", year: 1993, listened: true, genre: "funk", stars: 3, fav: true, perso: true, comment: '"Blow Your Mind", "Revolution 1993", Cabal Online bg music' },
-  { title: "Kamakiriad", artist: "Donald Fagen", year: 1993 },
+  { title: "Kamakiriad", artist: "Donald Fagen", year: 1993, listened: true, genre: "jazz", stars: 1 },
   { title: "Coolin' 'N Groovin' (A Night at On-Air)", artist: "Chuck Rainey, Bernard Purdie", year: 1993 },
   { title: "Bloody Kisses", artist: "Type O Negative", year: 1993, genre: "metal", listened: true },
   { title: "Guitar Riffs for DJs Vol. 1", artist: "Cornell Dupree", year: 1993 },
@@ -2799,7 +2799,7 @@ const data_2000s: Item[] = [
   { title: "The Diary of Alicia Keys", artist: "Alicia Keys", year: 2003 },
   { title: "Ghost of a Rose", artist: "Blackmore's Night", year: 2003, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Sleeping with Ghosts", artist: "Placebo", year: 2003, perso: true },
-  { title: "Reality", artist: "David Bowie", year: 2003, genre: "rock", listened: true },
+  { title: "Reality", artist: "David Bowie", year: 2003, genre: "rock", listened: true, stars: 2, fav: true, comment: '"New Killer Star", "Never Get Old"' },
   { title: "Wonderful Rainbow", artist: "Lightning Bolt", year: 2003 },
   { title: "Boy In Da Corner", artist: "Dizzee Rascal", year: 2003 },
   { title: "Want One", artist: "Rufus Wainwright", year: 2003 },
