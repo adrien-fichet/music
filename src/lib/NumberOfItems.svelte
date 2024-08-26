@@ -2,9 +2,9 @@
   import { items } from '../stores'
   import { percentage } from '../percentage'
 
-  let number_listened: number = $items.filter(item => item.listened == true).length
-  let items_length: number = $items.length
-  let percent: number = percentage(number_listened, items_length, 2)
+  const number_listened: number = $items.filter(item => item.listened == true).length
+  const items_length: number = $items.length
+  const percent: number = percentage(number_listened, items_length, 2)
 </script>
 
 <p>

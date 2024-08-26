@@ -6,7 +6,7 @@
   let item: Item
 
   function get_random_item() {
-    let items_not_listened_yet = $items.filter(item => !item.listened)
+    const items_not_listened_yet = $items.filter(item => !item.listened)
     item = items_not_listened_yet[Math.floor(Math.random() * items_not_listened_yet.length)]
   }
 

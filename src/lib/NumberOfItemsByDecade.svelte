@@ -3,11 +3,11 @@
   import { percentage, percentage_class } from '../percentage'
 
   type ItemsByDecade = { [decade: number]: { listened: number, total: number }}
-  let items_by_decade = {} as ItemsByDecade
+  const items_by_decade = {} as ItemsByDecade
 
   for (const item of $items) {
-    let decade = Math.floor(item.year / 10) * 10
-    let listened = !!item.listened
+    const decade = Math.floor(item.year / 10) * 10
+    const listened = !!item.listened
 
     if (decade >= 1950) {
       if (items_by_decade[decade] === undefined) {

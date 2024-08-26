@@ -9,7 +9,7 @@
   import { onMount } from 'svelte'
 
   onMount(async () => {
-    let loader = document.querySelector('#loader') as HTMLElement
+    const loader = document.querySelector('#loader') as HTMLElement
     loader.style.display = 'none'
   })
 </script>
