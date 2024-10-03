@@ -1053,7 +1053,7 @@ const data_1970s: Item[] = [
   { title: "Avalanche", artist: "Avalanche", year: 1976 },
   { title: "Jaye P. Morgan", artist: "Jaye P. Morgan", year: 1976, listened: true, genre: "disco" },
   { title: "Phonography", artist: "R. Stevie Moore", year: 1976, listened: true, genre: "rock", stars: 1, fav: true },
-  { title: "Stingray", artist: "Joe Cocker", year: 1976 },
+  { title: "Stingray", artist: "Joe Cocker", year: 1976, listened: true, genre: "rock" },
   { title: "Harlem Underground Band", artist: "Harlem Underground Band", year: 1976 },
   { title: "Romantic Warrior", artist: "Return to Forever", year: 1976 },
   { title: "L'Homme à tête de chou", artist: "Serge Gainsbourg", year: 1976, fr: true, listened: true, genre: "chanson" },
@@ -3874,6 +3874,8 @@ const data_2020s: Item[] = [
   { title: "Dot", artist: "Vulfmon", year: 2024, genre: "funk", listened: true, stars: 1, comment: '"Little Thunder", "Disco Snails"', fav: true },
   { title: "Hold Up, Look Back", artist: "Woody and Jeremy", year: 2024 },
   { title: "Starship Syncopation", artist: "Cory Wong, Metropole Orkfest, Jules Buckley", year: 2024 },
+  { title: "Blue Bird", artist: "iamalex, Felty, susan", year: 2024, genre: "lofi", listened: true, ep: true },
+  { title: "Blurred Memories", artist: "softy", year: 2024, genre: "lofi", listened: true },
 ]
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
