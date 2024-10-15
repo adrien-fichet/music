@@ -2280,7 +2280,7 @@ const data_1990s: Item[] = [
   { title: "Super Mario 64 OST", artist: "Koji Kondo, GMB Sound Team", year: 1996, genre: "vgm", listened: true, perso: true },
   { title: "Dreamland", artist: "Robert Miles", year: 1996 },
   { title: "Space Jam OST", artist: "Various Artists", year: 1996, listened: true, genre: "pop", comment: '"I Believe I Can Fly" (R. Kelly), "Come on and slam, and welcome to Japan"' },
-  { title: "Bad Hair Day", artist: '"Weird Al" Yankovic', year: 1996 },
+  { title: "Bad Hair Day", artist: '"Weird Al" Yankovic', year: 1996, listened: true, genre: "pop", comment: '"Amish Paradise"' },
   { title: "Down Every Road 1962-1994", artist: "Merle Haggard", year: 1996 },
   { title: "October Rust", artist: "Type O Negative", year: 1996, genre: "metal" },
   { title: "Leave the Story Untold", artist: "Soulwax", year: 1996 },
@@ -2326,6 +2326,7 @@ const data_1990s: Item[] = [
   { title: "Reasonable Doubt", artist: "Jay-Z", year: 1996, listened: true, genre: "rap" },
 
   { title: "Either/Or", artist: "Elliott Smith", year: 1997 },
+  { title: "Castlevania: Symphony of the Night OST", artist: "Michiru Yamane", year: 1997, genre: "vgm", stars: 3, fav: true, listened: true },
   { title: "Around the Fur", artist: "Deftones", year: 1997 },
   { title: "Live at the Olympia '96", artist: "Deep Purple", year: 1997, live: true },
   { title: "Shelter", artist: "The Brand New Heavies", year: 1997 },
@@ -3718,6 +3719,7 @@ const data_2020s: Item[] = [
   { title: "Dynamite", artist: "BTS", year: 2020, single: true, listened: true, genre: "pop", meh: true },
   { title: "YHLQMDLG", artist: "Bad Bunny", year: 2020, listened: true, genre: "r-n-b", meh: true },
   { title: "Naoko", artist: "Tom Doolie", year: 2020, listened: true, genre: "lofi", ep: true },
+  { title: "Strange Satisfaction", artist: "Woody and Jeremy", year: 2020 },
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
   { title: "Everybody's Going to the Moon", artist: "Jamiroquai", year: 2021, single: true },
@@ -3870,13 +3872,14 @@ const data_2020s: Item[] = [
   { title: "Blu", artist: "Your Magnolia", year: 2024, genre: "lofi", ep: true, listened: true },
   { title: "The Death of Slim Shady (Coup de Grâce)", artist: "Eminem", year: 2024, genre: "rap", listened: true, stars: 1 },
   { title: "Fallen Souls", artist: "Sodi", year: 2024, genre: "lofi", listened: true },
-  { title: "Fantasia - Vol II", artist: "Lucid Keys", year: 2024, genre: "lofi" },
+  { title: "Fantasia - Vol II", artist: "Lucid Keys", year: 2024, genre: "lofi", listened: true },
   { title: "Dot", artist: "Vulfmon", year: 2024, genre: "funk", listened: true, stars: 1, comment: '"Little Thunder", "Disco Snails"', fav: true },
-  { title: "Hold Up, Look Back", artist: "Woody and Jeremy", year: 2024 },
-  { title: "Starship Syncopation", artist: "Cory Wong, Metropole Orkfest, Jules Buckley", year: 2024 },
+  { title: "Hold Up, Look Back", artist: "Woody and Jeremy", year: 2024, listened: true, genre: "funk", stars: 2, fav: true },
+  { title: "Starship Syncopation", artist: "Cory Wong, Metropole Orkest, Jules Buckley", year: 2024, listened: true, genre: "funk", stars: 1 },
   { title: "Blue Bird", artist: "iamalex, Felty, susan", year: 2024, genre: "lofi", listened: true, ep: true },
   { title: "Blurred Memories", artist: "softy", year: 2024, genre: "lofi", listened: true },
   { title: "My Love", artist: "Aisake", year: 2024, genre: "lofi", listened: true, stars: 1 },
+  { title: "Polkamania!", artist: '"Weird Al" Jankovic', year: 2024, genre: "pop", listened: true, single: true, stars: 1 },
 ]
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
