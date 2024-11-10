@@ -1591,6 +1591,7 @@ const data_1980s: Item[] = [
 
   { title: "Purple Rain", artist: "Prince and the Revolution", year: 1984, perso: true },
   { title: "Agent Provocateur", artist: "Foreigner", year: 1984 },
+  { title: "Forever Young", artist: "Alphaville", year: 1984, genre: "new-wave" },
   { title: "Nausicaä of the Valley of the Wind OST", artist: "Joe Hisaishi", year: 1984 },
   { title: "Besoin de rien, envie de toi", artist: "Peter et Sloane", year: 1984, fr: true, single: true, genre: "chanson", listened: true },
   { title: "Live Is Life", artist: "Opus", year: 1984, single: true, listened: true, genre: "pop", comment: "na naa na nana, Schlager autrichien" },
@@ -2155,6 +2156,7 @@ const data_1990s: Item[] = [
   { title: "Wildhoney", artist: "Tiamat", year: 1994, listened: true, genre: "metal", stars: 1, fav: true },
   { title: "Stoner Witch", artist: "The Melvins", year: 1994, listened: true, perso: true, genre: "grunge", stars: 1, comment: '"Revolve", "June Bug"', fav: true },
   { title: "Punk in Drublic", artist: "NOFX", year: 1994, genre: "punk" },
+  { title: "Brinstar", artist: "Kenji Yamamoto, Minako Hamano", year: 1994, genre: "vgm", comment: "Super Metroid", stars: 2, fav: true },
   { title: "Mortal Kombat: The Album", artist: "The Immortals", year: 1994, genre: "vgm" },
   { title: "The Dark Side of the Moog: Wish You Were There", artist: "Klaus Schulze", year: 1994 },
   { title: "Mellow Gold", artist: "Beck", year: 1994, comment: '"Loser"' },
@@ -3014,6 +3016,7 @@ const data_2000s: Item[] = [
   { title: "Favourite Worst Nightmare", artist: "Arctic Monkeys", year: 2007, listened: true, genre: "rock", fav: true, stars: 3, comment: '"Brianstorm", "Teddy Picker", "Fluorescent Adolescent"' },
   { title: "Era Vulgaris", artist: "Queens of the Stone Age", year: 2007, listened: true, genre: "hard-rock", stars: 1, fav: true, perso: true },
   { title: "Life in Cartoon Motion", artist: "Mika", year: 2007 },
+  { title: "Still Alive", artist: "Ellen McLain, Jonathan Coulton", year: 2007, genre: "vgm", comment: 'Portal', stars: 1, fav: true },
   { title: "Attack Delay Sustain Release", artist: "Simian Mobile Disco", year: 2007, listened: true, genre: "electro" },
   { title: "Je vais vite", artist: "Lorie", year: 2007, fr: true, single: true, genre: "pop", listened: true },
   { title: "Shadows of the Sun", artist: "Ulver", year: 2007, listened: true, genre: "rock" },
