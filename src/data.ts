@@ -2156,7 +2156,7 @@ const data_1990s: Item[] = [
   { title: "Wildhoney", artist: "Tiamat", year: 1994, listened: true, genre: "metal", stars: 1, fav: true },
   { title: "Stoner Witch", artist: "The Melvins", year: 1994, listened: true, perso: true, genre: "grunge", stars: 1, comment: '"Revolve", "June Bug"', fav: true },
   { title: "Punk in Drublic", artist: "NOFX", year: 1994, genre: "punk" },
-  { title: "Brinstar", artist: "Kenji Yamamoto, Minako Hamano", year: 1994, genre: "vgm", comment: "Super Metroid", stars: 2, fav: true },
+  { title: "Brinstar", artist: "Kenji Yamamoto, Minako Hamano", year: 1994, genre: "vgm", comment: "Super Metroid", stars: 2, fav: true, listened: true },
   { title: "Mortal Kombat: The Album", artist: "The Immortals", year: 1994, genre: "vgm" },
   { title: "The Dark Side of the Moog: Wish You Were There", artist: "Klaus Schulze", year: 1994 },
   { title: "Mellow Gold", artist: "Beck", year: 1994, comment: '"Loser"' },
@@ -2829,7 +2829,8 @@ const data_2000s: Item[] = [
   { title: "A Reality Tour", artist: "David Bowie", year: 2003, listened: true, fav: true, stars: 3, genre: "rock", live: true, comment: 'Released in 2010' },
 
   { title: "Symphony of Enchanted Lands II (The Dark Secret)", artist: "Rhapsody of Fire", year: 2004, listened: true, perso: true, genre: "metal", stars: 1, comment: '"Unholy Warcry"' },
-  { title: "The College Dropout", artist: "Kanye West", year: 2004 },
+  { title: "The College Dropout", artist: "Kanye West", year: 2004, genre: "rap" },
+  { title: "Mm..Food", artist: "MF Doom", year: 2004, genre: "rap" },
   { title: "Extended Play: Live at Birdland", artist: "Dave Holland Quintet", year: 2004, live: true, genre: "jazz" },
   { title: "Howl's Moving Castle OST", artist: "Joe Hisaishi", year: 2004, listened: true, genre: "classical", stars: 1 },
   { title: "Somewhere Only We Know", artist: "Keane", year: 2004, single: true, genre: "pop", listened: true },
@@ -3016,7 +3017,7 @@ const data_2000s: Item[] = [
   { title: "Favourite Worst Nightmare", artist: "Arctic Monkeys", year: 2007, listened: true, genre: "rock", fav: true, stars: 3, comment: '"Brianstorm", "Teddy Picker", "Fluorescent Adolescent"' },
   { title: "Era Vulgaris", artist: "Queens of the Stone Age", year: 2007, listened: true, genre: "hard-rock", stars: 1, fav: true, perso: true },
   { title: "Life in Cartoon Motion", artist: "Mika", year: 2007 },
-  { title: "Still Alive", artist: "Ellen McLain, Jonathan Coulton", year: 2007, genre: "vgm", comment: 'Portal', stars: 1, fav: true },
+  { title: "Still Alive", artist: "Ellen McLain, Jonathan Coulton", year: 2007, genre: "vgm", comment: 'Portal', stars: 1, fav: true, listened: true },
   { title: "Attack Delay Sustain Release", artist: "Simian Mobile Disco", year: 2007, listened: true, genre: "electro" },
   { title: "Je vais vite", artist: "Lorie", year: 2007, fr: true, single: true, genre: "pop", listened: true },
   { title: "Shadows of the Sun", artist: "Ulver", year: 2007, listened: true, genre: "rock" },
@@ -3693,6 +3694,7 @@ const data_2020s: Item[] = [
   { title: "Way of Life", artist: "Yasumu", year: 2020, listened: true, genre: "lofi", stars: 1, fav: true, ep: true },
   { title: "Timeless", artist: "Thylacine", year: 2020, fr: true, listened: true, genre: "electro", comment: 'Electro arrangements of classical pieces' },
   { title: "Odyssey", artist: "Dontcry, Nokiaa", year: 2020, listened: true, genre: "lofi", ep: true },
+  { title: "Alfredo", artist: "Freddie Gibbs, The Alchemist", year: 2020, genre: "rap" },
   { title: "Fu Chronicles", artist: "Antibalas", year: 2020, listened: true, genre: "world" },
   { title: "Fetch the Bolt Cutters", artist: "Fiona Apple", year: 2020, listened: true, genre: "pop" },
   { title: "Gun Metal Grey", artist: "The Budos Band", year: 2020, single: true, listened: true, genre: "funk", comment: "instrumental" },
@@ -3894,6 +3896,8 @@ const data_2020s: Item[] = [
   { title: "Blurred Memories", artist: "softy", year: 2024, genre: "lofi", listened: true },
   { title: "My Love", artist: "Aisake", year: 2024, genre: "lofi", listened: true, stars: 1 },
   { title: "Polkamania!", artist: '"Weird Al" Jankovic', year: 2024, genre: "pop", listened: true, single: true, stars: 1 },
+  { title: "the search for planet x", artist: "Theo Aabel", year: 2024, genre: "lofi", listened: true, comment: '"nebula"' },
+  { title: "Unreal", artist: "LOST IN THE SAUCE", year: 2024, genre: "lofi", listened: true, stars: 2, fav: true },
 ]
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
