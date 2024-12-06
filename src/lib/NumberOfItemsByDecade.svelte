@@ -21,17 +21,21 @@
 </script>
 
 <table>
-  <tr><th>Decade</th><th>✓</th><th>✗</th><th>Total</th><th>%</th></tr>
-  {#each Object.entries(items_by_decade) as [decade, number_of_items]}
-    <tr>
-      <td class="centered">{ decade }s</td>
-      <td class="align-right">{ number_of_items["listened"] }</td>
-      <td class="align-right">{ number_of_items["total"] - number_of_items["listened"] }</td>
-      <td class="align-right">{ number_of_items["total"] }</td>
-      <td class={ `centered ${percentage_class(number_of_items["listened"], number_of_items["total"])}` }>
-        { percentage(number_of_items["listened"], number_of_items["total"]) }%
-      </td>
-    </tr>
-  {/each}
+  <thead>
+    <tr><th>Decade</th><th>✓</th><th>✗</th><th>Total</th><th>%</th></tr>
+  </thead>
+  <tbody>
+    {#each Object.entries(items_by_decade) as [decade, number_of_items]}
+      <tr>
+        <td class="centered">{ decade }s</td>
+        <td class="align-right">{ number_of_items["listened"] }</td>
+        <td class="align-right">{ number_of_items["total"] - number_of_items["listened"] }</td>
+        <td class="align-right">{ number_of_items["total"] }</td>
+        <td class={ `centered ${percentage_class(number_of_items["listened"], number_of_items["total"])}` }>
+          { percentage(number_of_items["listened"], number_of_items["total"]) }%
+        </td>
+      </tr>
+    {/each}
+  </tbody>
 </table>
 <p></p>
