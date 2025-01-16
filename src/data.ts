@@ -1051,6 +1051,7 @@ const data_1970s: Item[] = [
   { title: "Spirit", artist: "Earth, Wind & Fire", year: 1976, comment: '"Getaway"' },
   { title: "Naked & Warm", artist: "Bill Withers", year: 1976, genre: "soul", listened: true },
   { title: "Avalanche", artist: "Avalanche", year: 1976 },
+  { title: "Juice", artist: "Ryo Kawasaki", year: 1976 },
   { title: "Jaye P. Morgan", artist: "Jaye P. Morgan", year: 1976, listened: true, genre: "disco" },
   { title: "Phonography", artist: "R. Stevie Moore", year: 1976, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Stingray", artist: "Joe Cocker", year: 1976, listened: true, genre: "rock", stars: 1 },
@@ -3695,6 +3696,7 @@ const data_2020s: Item[] = [
   { title: "Timeless", artist: "Thylacine", year: 2020, fr: true, listened: true, genre: "electro", comment: 'Electro arrangements of classical pieces' },
   { title: "Odyssey", artist: "Dontcry, Nokiaa", year: 2020, listened: true, genre: "lofi", ep: true },
   { title: "Alfredo", artist: "Freddie Gibbs, The Alchemist", year: 2020, genre: "rap" },
+  { title: "Until Tomorrow", artist: "Towerz", year: 2020, genre: "lofi", listened: true },
   { title: "Fu Chronicles", artist: "Antibalas", year: 2020, listened: true, genre: "world" },
   { title: "Fetch the Bolt Cutters", artist: "Fiona Apple", year: 2020, listened: true, genre: "pop" },
   { title: "Gun Metal Grey", artist: "The Budos Band", year: 2020, single: true, listened: true, genre: "funk", comment: "instrumental" },
@@ -3785,6 +3787,8 @@ const data_2020s: Item[] = [
   { title: "Red (Taylor's version)", artist: "Taylor Swift", year: 2021, listened: true, genre: "pop", comment: 're-recording of the same album from 2012 + bonus tracks, "weee-eeeh"!' },
   { title: "Winter Love", artist: "Dr. Dundiff", year: 2021, listened: true, genre: "lofi", stars: 1, ep: true },
   { title: "River Glow", artist: "TyLuv.", year: 2021, listened: true, genre: "lofi" },
+  { title: "Scenery", artist: "Tibeauthetraveler, Lawrence Walther", year: 2021, listened: true, genre: "lofi" },
+  { title: "Floating into Serenity", artist: "Lawrence Walther", year: 2021, listened: true, genre: "lofi" },
 
   { title: "The Fearless Flyers III", artist: "The Fearless Flyers", year: 2022, listened: true, stars: 1, genre: "funk", fav: true, ep: true },
   { title: "Return", artist: "Lydian Collective", year: 2022, listened: true, genre: "jazz", stars: 1, fav: true },
@@ -3898,6 +3902,7 @@ const data_2020s: Item[] = [
   { title: "Polkamania!", artist: '"Weird Al" Jankovic', year: 2024, genre: "pop", listened: true, single: true, stars: 1 },
   { title: "the search for planet x", artist: "Theo Aabel", year: 2024, genre: "lofi", listened: true, comment: '"nebula"' },
   { title: "Unreal", artist: "LOST IN THE SAUCE", year: 2024, genre: "lofi", listened: true, stars: 2, fav: true },
+  { title: "Personages", artist: "Nokiaa", year: 2024, genre: "lofi", listened: true },
 ]
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
