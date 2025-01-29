@@ -478,6 +478,7 @@ const data_1960s: Item[] = [
   { title: "Black Magic Woman", artist: "Fleetwood Mac", year: 1968, single: true, listened: true, genre: "rock" },
   { title: "Peter Green's Fleetwood Mac", artist: "Fleetwood Mac", year: 1968, listened: true, genre: "blues", stars: 1, comment: '"Shake Your Moneymaker"' },
   { title: "Mr. Wonderful", artist: "Fleetwood Mac", year: 1968, listened: true, genre: "blues" },
+  { title: "Realization", artist: "Johnny Rivers", year: 1968, comment: '"Positively 4th Street" cover' },
   { title: "The Far East Suite", artist: "Duke Ellington", year: 1968, genre: "jazz" },
   { title: "Don't Change Your Love", artist: "The Five Stairsteps", year: 1968, single: true },
   { title: "'Nuff Said!", artist: "Nina Simone", year: 1968, live: true, listened: true, genre: "soul", comment: `"Ain't Got No - I Got Life", "Mississippi Goddam"`, stars: 1, fav: true },
