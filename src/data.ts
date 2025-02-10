@@ -3386,7 +3386,7 @@ const data_2010s: Item[] = [
   { title: "The Wack Album", artist: "The Lonely Island", year: 2013, comment: '"Spring Break Anthem" (Between Two Ferns with Zach Galifianakis)' },
   { title: "Aleph", artist: "Gesaffelstein", year: 2013, fr: true, listened: true, genre: "electro", stars: 1 },
   { title: "Sunbather", artist: "Deafheaven", year: 2013 },
-  { title: "After", artist: "DSL", year: 2013 },
+  { title: "After", artist: "DSL", year: 2013, fr: true, listened: true, genre: "rap", meh: true },
   { title: "What Does the Fox Say?", artist: "Ylvis", year: 2013, genre: "meme", listened: true },
   { title: "Turn Down For What", artist: "DJ Snake & Lil Jon", year: 2013, genre: "meme", listened: true },
   { title: "Still Busy", artist: "Busy P", year: 2013, fr: true, genre: "electro", ep: true },
