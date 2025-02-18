@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { items } from '../stores'
-  import { percentage, percentage_class } from '../percentage'
+  import { items } from "../stores"
+  import { percentage, percentage_class } from "../percentage"
 
-  type ItemsByDecade = { [decade: number]: { listened: number, total: number }}
+  type ItemsByDecade = { [decade: number]: { listened: number; total: number } }
   const items_by_decade = {} as ItemsByDecade
 
   for (const item of $items) {
@@ -27,12 +27,12 @@
   <tbody>
     {#each Object.entries(items_by_decade) as [decade, number_of_items]}
       <tr>
-        <td class="centered">{ decade }s</td>
-        <td class="align-right">{ number_of_items["listened"] }</td>
-        <td class="align-right">{ number_of_items["total"] - number_of_items["listened"] }</td>
-        <td class="align-right">{ number_of_items["total"] }</td>
-        <td class={ `centered ${percentage_class(number_of_items["listened"], number_of_items["total"])}` }>
-          { percentage(number_of_items["listened"], number_of_items["total"]) }%
+        <td class="centered">{decade}s</td>
+        <td class="align-right">{number_of_items["listened"]}</td>
+        <td class="align-right">{number_of_items["total"] - number_of_items["listened"]}</td>
+        <td class="align-right">{number_of_items["total"]}</td>
+        <td class={`centered ${percentage_class(number_of_items["listened"], number_of_items["total"])}`}>
+          {percentage(number_of_items["listened"], number_of_items["total"])}%
         </td>
       </tr>
     {/each}

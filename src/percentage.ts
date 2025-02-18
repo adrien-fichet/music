@@ -1,5 +1,5 @@
 function percentage(listened: number, total: number, decimals = 0): number {
-  return Math.floor(listened / total * 100 * (10 ** decimals)) / (10 ** decimals)
+  return Math.floor((listened / total) * 100 * 10 ** decimals) / 10 ** decimals
 }
 
 function percentage_class(listened: number, total: number): string {

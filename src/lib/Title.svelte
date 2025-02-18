@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { type Item } from '../item'
+  import { type Item } from "../item"
 
   export let item: Item
 </script>
@@ -8,14 +8,14 @@
   <span class="{item.icon_class} {item.genre}">{item.icon}</span>
 {/if}
 
-{item['title']}
+{item["title"]}
 
 {#if !!item.perso}
   [<span class="heart">♥</span>]
 {/if}
 
 {#if item.stars && item.stars > 0}
-[{#each {length: item.stars} as _}<span class="star">★</span>{/each}]
+  [{#each { length: item.stars } as _}<span class="star">★</span>{/each}]
 {/if}
 
 {#if !!item.standard}♪{/if}

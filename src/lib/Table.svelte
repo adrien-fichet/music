@@ -1,9 +1,9 @@
 <script lang="ts">
-  import Title from './Title.svelte'
-  import Artist from './Artist.svelte'
-  import SpotifyLink from './SpotifyLink.svelte'
-  import spotify from '../assets/spotify.svg'
-  import { current_items, loading } from '../stores'
+  import Title from "./Title.svelte"
+  import Artist from "./Artist.svelte"
+  import SpotifyLink from "./SpotifyLink.svelte"
+  import spotify from "../assets/spotify.svg"
+  import { current_items, loading } from "../stores"
 </script>
 
 <table>
@@ -12,7 +12,7 @@
       <th>Title</th>
       <th>Artist</th>
       <th id="year-th">Year</th>
-      <th id="spotify-th"><img src="{spotify}" alt="spotify" class="spotify" /></th>
+      <th id="spotify-th"><img src={spotify} alt="spotify" class="spotify" /></th>
     </tr>
   </thead>
   <tbody>
@@ -25,7 +25,7 @@
         </tr>
       {:else}
         {#each $current_items as item}
-          <tr class="{item.tr_class}">
+          <tr class={item.tr_class}>
             <td><Title {item} /></td>
             <td><Artist {item} /></td>
             <td class="centered">{item.year}</td>
@@ -38,7 +38,12 @@
         <td colspan="4">
           <div id="loader">
             loading...
-            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+            <div class="lds-ring">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
           </div>
         </td>
       </tr>
