@@ -1,7 +1,11 @@
 <script lang="ts">
-  import { type Item } from "../item"
+  import { type Item } from "../item";
 
-  export let item: Item
+  interface Props {
+    item: Item;
+  }
+
+  let { item }: Props = $props();
 </script>
 
 {#if !!item.genre}

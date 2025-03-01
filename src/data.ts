@@ -1,5 +1,5 @@
-import { type Item } from './item'
-import { Icon } from './icon'
+import { type Item } from "./item";
+import { Icon } from "./icon";
 
 const data_lt_1950: Item[] = [
   // Older than 1600
@@ -143,7 +143,7 @@ const data_lt_1950: Item[] = [
   { title: "Donna Lee", artist: "Miles Davis", year: 1947, genre: "jazz", standard: true, comment: 'Wrongly attributed to Charlie Parker', listened: true },
   { title: "Nobody Loves Me / Everyday I Have the Blues", artist: "Memphis Slim", year: 1947, genre: "blues", standard: true },
   { title: "The Anthology", artist: "Muddy Waters", year: 1948, comment: "Greatest hits album released in 2001, recorded from 1948 to 1972", genre: "blues" },
-]
+];
 
 const data_1950s: Item[] = [
   { title: "Dust My Broom", artist: "Elmore James", year: 1951, genre: "blues", single: true, listened: true },
@@ -229,7 +229,7 @@ const data_1950s: Item[] = [
   { title: "Gunfighter Ballads and Trail Songs", artist: "Marty Robbins", year: 1959 },
   { title: "Ricky Sings Again", artist: "Ricky Nelson", year: 1959, listened: true, genre: "rock-n-roll", comment: '"Lonesome Town"' },
   { title: "Flamingo Serenade", artist: "The Flamingos", year: 1959, listened: true, genre: "soul" },
-]
+];
 
 const data_1960s: Item[] = [
   { title: "Sketches of Spain", artist: "Miles Davis", year: 1960, genre: "jazz" },
@@ -622,7 +622,7 @@ const data_1960s: Item[] = [
   { title: "I Got Dem Ol' Kozmic Blues Again Mama!", artist: "Janis Joplin", year: 1969, genre: "soul", listened: true, stars: 3, fav: true, comment: '"Try (Just a Little Bit Harder)", "Maybe", "Kozmic Blues", "Little Girl Blue"' },
   { title: "Nador", artist: "Les Variations", year: 1969, fr: true, genre: "rock", listened: true, stars: 1 },
   { title: "First Take", artist: "Roberta Flack", year: 1969, listened: true, genre: "soul", stars: 2, fav: true },
-]
+];
 
 const data_1970s: Item[] = [
   { title: "Led Zeppelin III", artist: "Led Zeppelin", year: 1970, listened: true, genre: "hard-rock", stars: 3, fav: true, comment: '"Immigrant Song"' },
@@ -1342,7 +1342,7 @@ const data_1970s: Item[] = [
   { title: "Pink Moon", artist: "Nick Drake", year: 1979, listened: true, genre: "folk" },
   { title: "Damn the Torpedoes", artist: "Tom Petty and the Heartbreakers", year: 1979, listened: true, genre: "rock", comment: '"Refugee"', stars: 1 },
   { title: "Singles Going Steady", artist: "Buzzcocks", year: 1979, listened: true, genre: "punk", comment: `Double compilation album, "Ever Fallen in Love (With Someone You Shouldn'n't've)"`, stars: 1 },
-]
+];
 
 const data_1980s: Item[] = [
   { title: "Heaven and Hell", artist: "Black Sabbath", year: 1980, listened: true, genre: "hard-rock", stars: 3, fav: true, comment: 'Dio on vocals, "Neon Knights" guitar solo, "Children of the Sea" (Look Out!)' },
@@ -1406,7 +1406,7 @@ const data_1980s: Item[] = [
   { title: "Diana", artist: "Diana Ross", year: 1980, listened: true, genre: "disco", comment: `"Upside Down", "I'm Coming Out"`, stars: 1, fav: true },
   { title: "Closer", artist: "Joy Division", year: 1980, listened: true, genre: "new-wave" },
   { title: "Love Will Tear Us Apart", artist: "Joy Division", year: 1980, single: true, listened: true, genre: "new-wave" },
-  { title: "Sandinista!", artist: "The Clash", year: 1980, comment: '"The Magnificent Seven", 3 CDs mix of rock/post-punk/dub/reggae/experimental?', listened: true, genre: "rock" },
+  { title: "Sandinista!", artist: "The Clash", year: 1980, comment: '"The Magnificent Seven", "Police on my Back", 3 CDs mix of rock/post-punk/dub/reggae/experimental?', listened: true, genre: "rock" },
   { title: "Dirty Mind", artist: "Prince", year: 1980 },
   { title: "Pretenders", artist: "The Pretenders", year: 1980, listened: true, genre: "rock", comment: '"Brass in Pocket"' },
   { title: "Making Movies", artist: "Dire Straits", year: 1980, listened: true, fav: true, stars: 2, genre: "rock", comment: '"Tunnel of Love", "Romeo and Juliet", "Skateaway", "Expresso Love", "Solid Rock"' },
@@ -1915,7 +1915,7 @@ const data_1980s: Item[] = [
   { title: "The Healer", artist: "John Lee Hooker", year: 1989, listened: true, genre: "blues", stars: 1 },
   { title: "Let Love Rule", artist: "Lenny Kravitz", year: 1989, listened: true, genre: "rock" },
   { title: "Club Classics Vol. One", artist: "Soul II Soul", year: 1989, listened: true, genre: "r-n-b", comment: '"Back to Life (However Do You Want Me)"' },
-]
+];
 
 const data_1990s: Item[] = [
   { title: "Pornograffiti", artist: "Extreme", year: 1990, perso: true, listened: true, fav: true, stars: 3, genre: "hard-rock", comment: "Médiathèque Mansart" },
@@ -2566,7 +2566,7 @@ const data_1990s: Item[] = [
   { title: "Hello My Name Is", artist: "DJ Falcon", year: 1999, fr: true, genre: "electro" },
   { title: "All Hallows", artist: "AFI", year: 1999, genre: "metal", comment: '"The Boy That Destroyed the World"', ep: true },
   { title: "A2G", artist: "Blackalicious", year: 1999, genre: "rap", ep: true, comment: '"Alphabet Aerobics", Quannum Projects', stars: 2, fav: true, listened: true },
-]
+];
 
 const data_2000s: Item[] = [
   { title: "Tony Hawk Pro Skater 2 OST", artist: "Various Artists", year: 2000, listened: true, fav: true, perso: true, stars: 1, genre: "punk" },
@@ -3098,7 +3098,7 @@ const data_2000s: Item[] = [
   { title: "Crystal Castles", artist: "Crystal Castles", year: 2008, genre: "electro", listened: true, stars: 1, comment: '"Untrust Us", "Black Panther"' },
   { title: "Music Components", artist: "Arnaud Rebotini", year: 2008, fr: true, genre: "electro", listened: true, stars: 1 },
   { title: "The Black Mages III: Darkness and Starlight", artist: "The Black Mages", year: 2008 },
-  { title: "Weezer (the Red Album)", artist: "Weezer", year: 2008 },
+  { title: "Weezer (the Red Album)", artist: "Weezer", year: 2008, listened: true, genre: "rock", comment: '"Pork and Beans"', stars: 1, fav: true },
   { title: "Live From Texas", artist: "ZZ Top", year: 2008, live: true, genre: "blues", listened: true, perso: true, comment: "The blue concert" },
   { title: "Bacano", artist: "Orgone", year: 2008 },
   { title: "I Am...Sasha Fierce", artist: "Beyoncé", year: 2008, listened: true, genre: "r-n-b", comment: 'Double album, "If I Were a Boy", "Halo", "Single Ladies (Put a Ring on It)", "Sweet Dreams"', stars: 1 },
@@ -3201,7 +3201,7 @@ const data_2000s: Item[] = [
   { title: "Red Black & Blue", artist: "DJ Mehdi", year: 2009, fr: true, genre: "electro" },
   { title: "Waking Up", artist: "OneRepublic", year: 2009, listened: true, genre: "pop" },
   { title: "For Lack of a Better Name", artist: "Deadmau5", year: 2009, perso: true, genre: "electro" },
-]
+];
 
 const data_2010s: Item[] = [
   { title: "All Day", artist: "Girl Talk", year: 2010, listened: true, fav: true, stars: 3, genre: "electro", perso: true },
@@ -3708,7 +3708,7 @@ const data_2010s: Item[] = [
   { title: "Dub Tunes", artist: "Tommy Guerrero / Trevor Jackson", year: 2019 },
   { title: "Thirst", artist: "SebastiAn", year: 2019, listened: true, genre: "electro", fr: true, stars: 1 },
   { title: "Doing the Things", artist: "Louis Cole", year: 2019, listened: true, genre: "funk", stars: 1 },
-]
+];
 
 const data_2020s: Item[] = [
   { title: "Press Start", artist: "The Laszlo Project", year: 2020, ep: true, listened: true, genre: "jazz" },
@@ -3766,7 +3766,7 @@ const data_2020s: Item[] = [
   { title: "Golden Hour", artist: "Jhove, fourwalls", year: 2021, listened: true, genre: "lofi", ep: true },
   { title: "At Long Last", artist: "Towerz, edelwize", year: 2021, listened: true, genre: "lofi" },
   { title: "OK Orchestra", artist: "AJR", year: 2021, listened: true, genre: "pop", stars: 1 },
-  { title: "OK Human", artist: "Weezer", year: 2021 },
+  { title: "OK Human", artist: "Weezer", year: 2021, listened: true, genre: "pop" },
   { title: "Van Weezer", artist: "Weezer", year: 2021 },
   { title: "Ballerina", artist: "Epona", year: 2021, listened: true, genre: "lofi", comment: '"Just Another Day"', stars: 1 },
   { title: "The Immediate Family", artist: "The Immediate Family", year: 2021, comment: 'The Section (Leland Sklar on bass)', listened: true, genre: "rock" },
@@ -3834,7 +3834,7 @@ const data_2020s: Item[] = [
   { title: "Shadow Academy", artist: "Shadow Academy", year: 2022, listened: true, genre: "hard-rock", comment: "Jim Roach + Dan Avidan" },
   { title: "Formentera", artist: "Metric", year: 2022, listened: true, genre: "pop" },
   { title: "Leather Terror", artist: "Carpenter Brut", year: 2022, genre: "electro", fr: true, listened: true },
-  { title: "SZNZ: Spring", artist: "Weezer", year: 2022, ep: true },
+  { title: "SZNZ: Spring", artist: "Weezer", year: 2022, ep: true, listened: true, genre: "rock" },
   { title: "SZNZ: Summer", artist: "Weezer", year: 2022, ep: true },
   { title: "SZNZ: Autumn", artist: "Weezer", year: 2022, ep: true },
   { title: "SZNZ: Winter", artist: "Weezer", year: 2022, ep: true },
@@ -3941,36 +3941,36 @@ const data_2020s: Item[] = [
   { title: "Clarity of Cal", artist: "Vulfpeck", year: 2025 },
   { title: "DEG", artist: "Vulfmon", year: 2025 },
   { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2025 },
-]
+];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
 const data: Item[] = [
   ...data_lt_1950, ...data_1950s, ...data_1960s, ...data_1970s, ...data_1980s,
   ...data_1990s, ...data_2000s, ...data_2010s, ...data_2020s
-]
+];
 
 const item_tr_class = (item: Item): string => {
-  let tr_class = ''
+  let tr_class = "";
 
   if (item.listened) {
     if (item.fav) {
-      tr_class = 'fav'
+      tr_class = "fav";
     } else if (item.meh) {
-      tr_class = 'meh'
+      tr_class = "meh";
     }
   } else {
-    tr_class = 'not-listened'
+    tr_class = "not-listened";
   }
 
-  return tr_class
+  return tr_class;
 }
 
 // Compute additional item properties
 data.forEach(item => {
-  item.tr_class = item_tr_class(item)
-  item.icon = Icon.from_genre(item.genre)
-  item.icon_class = Icon.class_from_genre(item.genre)
-  item.spotify_url = `http://open.spotify.com/search/${item.title} - ${item.artist}`
-})
+  item.tr_class = item_tr_class(item);
+  item.icon = Icon.from_genre(item.genre);
+  item.icon_class = Icon.class_from_genre(item.genre);
+  item.spotify_url = `http://open.spotify.com/search/${item.title} - ${item.artist}`;
+});
 
-export { data }
+export { data };

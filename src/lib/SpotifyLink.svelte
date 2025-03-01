@@ -1,8 +1,12 @@
 <script lang="ts">
-  import spotify from "../assets/spotify.svg"
-  import { type Item } from "../item"
+  import spotify from "../assets/spotify.svg";
+  import { type Item } from "../item";
 
-  export let item: Item
+  interface Props {
+    item: Item;
+  }
+
+  let { item }: Props = $props();
 </script>
 
 <a href={item.spotify_url} target="_blank">

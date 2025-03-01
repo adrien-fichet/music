@@ -26,6 +26,6 @@ type Genre =
   | "new-wave"
   | "vgm"
   | "piano"
-  | "lofi"
+  | "lofi";
 
-export { type Genre }
+export { type Genre };

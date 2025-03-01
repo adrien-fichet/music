@@ -1,8 +1,12 @@
 <script lang="ts">
-  import flag_fr from "../assets/flag-fr.svg"
-  import { type Item } from "../item"
+  import flag_fr from "../assets/flag-fr.svg";
+  import { type Item } from "../item";
 
-  export let item: Item
+  interface Props {
+    item: Item;
+  }
+
+  let { item }: Props = $props();
 </script>
 
 {item.artist}

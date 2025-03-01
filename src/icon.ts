@@ -1,10 +1,10 @@
-import { type Genre } from "./genre"
+import { type Genre } from "./genre";
 
 class Icon {
   static from_genre(genre: Genre | string | undefined): string {
     switch (genre) {
       case "piano":
-        return "🎹"
+        return "🎹";
       case "rock":
       case "hard-rock":
       case "rock-n-roll":
@@ -12,22 +12,22 @@ class Icon {
       case "grunge":
       case "metal":
       case "country":
-        return "▲"
+        return "▲";
       case "soul":
       case "trip-hop":
       case "pop":
       case "funk":
-        return "⬣"
+        return "⬣";
       case "jazz":
       case "disco":
       case "reggae":
       case "r-n-b":
-        return "◆"
+        return "◆";
       case "world":
       case "classical":
       case "swing":
       case "blues":
-        return "■"
+        return "■";
       case "folk":
       case "electro":
       case "rap":
@@ -35,22 +35,22 @@ class Icon {
       case "lofi":
       case "new-wave":
       case "vgm":
-        return "►"
+        return "►";
       case "meme":
-        return "( ͡° ͜ʖ ͡°)"
+        return "( ͡° ͜ʖ ͡°)";
       default:
-        return "■"
+        return "■";
     }
   }
 
   static class_from_genre(genre: Genre | string | undefined): string {
     switch (genre) {
       case "piano":
-        return "emoticon"
+        return "emoticon";
       default:
-        return "genre"
+        return "genre";
     }
   }
 }
 
-export { Icon }
+export { Icon };
