@@ -1,12 +1,12 @@
 <script lang="ts">
   import SpotifyLink from "./SpotifyLink.svelte";
   import { type Item } from "../item";
-  import { items } from "../stores";
+  import { data } from "../data";
 
   let item: Item | undefined = $state();
 
   function get_random_item() {
-    const items_not_listened_yet = $items.filter((item) => !item.listened);
+    const items_not_listened_yet = data.filter((item) => !item.listened);
     item = items_not_listened_yet[Math.floor(Math.random() * items_not_listened_yet.length)];
   }
 

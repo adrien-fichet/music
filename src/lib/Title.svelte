@@ -19,7 +19,7 @@
 {/if}
 
 {#if item.stars && item.stars > 0}
-  [{#each { length: item.stars } as _}<span class="star">★</span>{/each}]
+  [{#each { length: item.stars }}<span class="star">★</span>{/each}]
 {/if}
 
 {#if !!item.standard}♪{/if}

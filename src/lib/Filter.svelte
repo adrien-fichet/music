@@ -3,14 +3,14 @@
   import { Icon } from "../icon";
 
   interface Props {
-    id?: string;
+    id: string;
     onclick: MouseEventHandler<HTMLAnchorElement>;
     text: string;
     selected?: boolean;
     class_name?: string;
   }
 
-  let { id = "", onclick, text, selected = false, class_name = "" }: Props = $props();
+  let { id, onclick, text, selected = false, class_name = "" }: Props = $props();
 </script>
 
 [{#if id.startsWith("genre-") && !(text.endsWith("all") || text.endsWith("none"))}

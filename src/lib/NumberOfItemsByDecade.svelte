@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { items } from "../stores";
+  import { data } from "../data";
   import { percentage, percentage_class } from "../percentage";
 
   type ItemsByDecade = { [decade: number]: { listened: number; total: number } };
   const items_by_decade = $state({} as ItemsByDecade);
 
-  for (const item of $items) {
+  for (const item of data) {
     const decade = Math.floor(item.year / 10) * 10;
     const listened = !!item.listened;
 

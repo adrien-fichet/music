@@ -1,15 +1,15 @@
 <script lang="ts">
   import flag_fr from "../assets/flag-fr.svg";
   import Filter from "./Filter.svelte";
-  import { filters, loading } from "../stores";
+  import { filters, loading } from "../states.svelte";
 
   function load(fn: () => void) {
     // https://stackoverflow.com/a/57659500
-    $loading = true;
+    loading.value = true;
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         fn();
-        $loading = false;
+        loading.value = false;
       });
     });
   }
@@ -19,7 +19,7 @@
     document.querySelectorAll(`[id$="-all"]`).forEach((el) => el.classList.add("selected"));
     load(() => {
       // @ts-expect-error: $filters can be empty
-      $filters = {};
+      filters.value = {};
     });
   }
 
@@ -28,14 +28,13 @@
     document.querySelector(`[id="filter-${key}-${value}"]`)?.classList.add("selected");
     load(() => {
       if (value === "all") {
-        if (key in $filters) {
-          delete $filters[key as keyof typeof $filters];
+        if (key in filters.value) {
+          delete filters.value[key as keyof typeof filters.value];
         }
       } else {
         // @ts-expect-error: $filters can be updated with any key
-        $filters[key] = value;
+        filters.value[key] = value;
       }
-      $filters = $filters; // force assignation to update derived stores
     });
   }
 </script>
