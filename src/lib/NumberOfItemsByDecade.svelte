@@ -3,7 +3,7 @@
   import { percentage, percentage_class } from "../percentage";
 
   type ItemsByDecade = { [decade: number]: { listened: number; total: number } };
-  const items_by_decade = $state({} as ItemsByDecade);
+  const items_by_decade = {} as ItemsByDecade;
 
   for (const item of data) {
     const decade = Math.floor(item.year / 10) * 10;
@@ -28,11 +28,11 @@
     {#each Object.entries(items_by_decade) as [decade, number_of_items] (decade)}
       <tr>
         <td class="centered">{decade}s</td>
-        <td class="align-right">{number_of_items["listened"]}</td>
-        <td class="align-right">{number_of_items["total"] - number_of_items["listened"]}</td>
-        <td class="align-right">{number_of_items["total"]}</td>
-        <td class={`centered ${percentage_class(number_of_items["listened"], number_of_items["total"])}`}>
-          {percentage(number_of_items["listened"], number_of_items["total"])}%
+        <td class="align-right">{number_of_items.listened}</td>
+        <td class="align-right">{number_of_items.total - number_of_items.listened}</td>
+        <td class="align-right">{number_of_items.total}</td>
+        <td class={`centered ${percentage_class(number_of_items.listened, number_of_items.total)}`}>
+          {percentage(number_of_items.listened, number_of_items.total)}%
         </td>
       </tr>
     {/each}
