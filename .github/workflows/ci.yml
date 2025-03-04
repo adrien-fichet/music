@@ -59,6 +59,8 @@ jobs:
       - run: bun install
       - run: bun run build
       - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
 
   deploy:
     runs-on: ubuntu-latest
