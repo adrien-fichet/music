@@ -1,0 +1,115 @@
+@use "colors";
+
+.genre {
+  font-weight: normal;
+}
+
+.rock {
+  color: colors.$red;
+}
+
+.hard-rock {
+  color: colors.$black;
+  -webkit-text-stroke: 1px colors.$grey;
+}
+
+.rock-n-roll {
+  color: colors.$yellow;
+}
+
+.punk {
+  color: colors.$orange;
+}
+
+.grunge {
+  color: colors.$purple;
+}
+
+.metal {
+  color: colors.$grey;
+}
+
+.country {
+  color: colors.$teal;
+}
+
+.soul {
+  color: colors.$purple;
+}
+
+.trip-hop {
+  color: colors.$blue;
+}
+
+.pop {
+  color: colors.$pink;
+}
+
+.funk {
+  color: colors.$lime;
+}
+
+.jazz {
+  color: colors.$blue;
+}
+
+.disco {
+  color: colors.$pink;
+}
+
+.reggae {
+  color: colors.$green;
+}
+
+.r-n-b {
+  color: colors.$purple;
+}
+
+.world {
+  color: colors.$yellow;
+}
+
+.classical {
+  color: colors.$green;
+}
+
+.swing {
+  color: colors.$orange;
+}
+
+.blues {
+  color: colors.$blue;
+}
+
+.folk {
+  color: colors.$teal;
+}
+
+.electro {
+  color: colors.$cyan;
+}
+
+.rap {
+  color: colors.$black;
+  -webkit-text-stroke: 1px colors.$grey;
+}
+
+.chanson {
+  color: colors.$pink;
+}
+
+.lofi {
+  color: colors.$purple;
+}
+
+.meme {
+  color: colors.$main-color;
+}
+
+.new-wave {
+  color: colors.$yellow;
+}
+
+.vgm {
+  color: colors.$lime;
+}

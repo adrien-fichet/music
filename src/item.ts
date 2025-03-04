@@ -1,6 +1,6 @@
 import { type Genre } from "./genre";
 
-interface Item {
+export interface Item {
   title: string;
   artist: string;
   year: number;
@@ -23,5 +23,3 @@ interface Item {
   icon_class?: string;
   spotify_url?: string;
 }
-
-export { type Item };

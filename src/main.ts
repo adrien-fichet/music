@@ -1,8 +1,8 @@
-import "./assets/Inter-Light.woff2";
-import "./assets/Inter-LightItalic.woff2";
-import "./assets/Inter-SemiBold.woff2";
+import "./assets/fonts/Inter-Light.woff2";
+import "./assets/fonts/Inter-LightItalic.woff2";
+import "./assets/fonts/Inter-SemiBold.woff2";
 
-import "./assets/app.scss";
+import "./assets/scss/app.scss";
 import { mount } from "svelte";
 import App from "./App.svelte";
 

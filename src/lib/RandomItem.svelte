@@ -3,20 +3,18 @@
   import { type Item } from "../item";
   import { data } from "../data";
 
-  let item: Item | undefined = $state();
-
-  function get_random_item() {
+  function get_random_item(): Item {
     const items_not_listened_yet = data.filter((item) => !item.listened);
-    item = items_not_listened_yet[Math.floor(Math.random() * items_not_listened_yet.length)];
+    return items_not_listened_yet[Math.floor(Math.random() * items_not_listened_yet.length)];
   }
 
-  get_random_item();
+  let item: Item = get_random_item();
 </script>
 
 {#if !!item}
   <p>
-    <a href="#/" onclick={get_random_item}><b>One random item</b> (not yet listened)</a>:
+    <a href="#/" onclick={() => (item = get_random_item())}><b>One random item</b> (not yet listened)</a>:
     <a target="_blank" href={item.spotify_url}>"{item.title}" - {item.artist} ({item.year})</a>
-    <SpotifyLink {item} />
+    <SpotifyLink spotify_url={item.spotify_url} />
   </p>
 {/if}

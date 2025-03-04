@@ -3,7 +3,7 @@
   import Todo from "./lib/Todo.svelte";
   import NumberOfItems from "./lib/NumberOfItems.svelte";
   import RandomItem from "./lib/RandomItem.svelte";
-  import Filters from "./lib/Filters.svelte";
+  import Filters from "./lib/filters/Filters.svelte";
   import NumberOfItemsByDecade from "./lib/NumberOfItemsByDecade.svelte";
   import Table from "./lib/Table.svelte";
   import { onMount } from "svelte";

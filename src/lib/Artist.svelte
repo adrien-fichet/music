@@ -1,16 +1,16 @@
 <script lang="ts">
-  import flag_fr from "../assets/flag-fr.svg";
-  import { type Item } from "../item";
+  import flag_fr from "../assets/svg/flag-fr.svg";
 
   interface Props {
-    item: Item;
+    name: string;
+    fr?: boolean;
   }
 
-  let { item }: Props = $props();
+  let { name, fr }: Props = $props();
 </script>
 
-{item.artist}
+{name}
 
-{#if !!item.fr}
+{#if fr}
   <img class="flag" src={flag_fr} alt="fr" />
 {/if}

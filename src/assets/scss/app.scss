@@ -1,0 +1,127 @@
+@use "colors";
+@use "fonts";
+@use "genre";
+@use "percentage";
+
+body {
+  font-size: fonts.$font-size;
+  font-family: "Inter", sans-serif;
+  margin: 3px;
+  color: colors.$main-color;
+  background-color: colors.$background-color;
+}
+
+a {
+  color: colors.$main-color;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+table:first-of-type {
+  max-width: 1000px;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid colors.$border-color;
+}
+
+th,
+td {
+  padding: 1px 5px;
+}
+
+p {
+  margin-bottom: 0.3em;
+}
+
+ul {
+  margin-top: 0;
+}
+
+fieldset {
+  max-width: 350px;
+  border: 1px solid colors.$border-color;
+  margin-bottom: 5px;
+}
+
+.fav {
+  font-weight: bold;
+}
+
+.fav .comment {
+  font-weight: normal;
+}
+
+.centered {
+  text-align: center;
+}
+
+.not-listened {
+  color: colors.$back-color;
+}
+
+.heart {
+  color: colors.$red;
+}
+
+.star {
+  color: colors.$yellow;
+}
+
+.meh {
+  text-decoration: line-through;
+  color: colors.$back-color;
+}
+
+.comment {
+  font-style: italic;
+  font-size: fonts.$font-size-comment;
+  color: colors.$back-color;
+}
+
+.emoticon {
+  font-size: 9px;
+}
+
+.flag {
+  vertical-align: middle;
+  width: 13px;
+  opacity: 0.8;
+}
+
+.selected {
+  font-weight: bold;
+  color: colors.$front-color;
+}
+
+.spotify {
+  width: 15px;
+  height: 15px;
+  vertical-align: text-top;
+}
+
+#year-th {
+  width: 4em;
+}
+
+#spotify-th {
+  width: 15px;
+}
+
+#filler {
+  height: 1000px;
+  vertical-align: top;
+  text-align: center;
+}
+
+#filler p {
+  margin-top: 30px;
+}
+
+.align-right {
+  text-align: right;
+}

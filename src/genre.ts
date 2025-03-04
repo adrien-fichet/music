@@ -1,4 +1,4 @@
-type Genre =
+export type Genre =
   | "rock"
   | "hard-rock"
   | "rock-n-roll"
@@ -27,5 +27,3 @@ type Genre =
   | "vgm"
   | "piano"
   | "lofi";
-
-export { type Genre };

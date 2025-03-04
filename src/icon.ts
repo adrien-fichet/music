@@ -1,6 +1,6 @@
 import { type Genre } from "./genre";
 
-class Icon {
+export class Icon {
   static from_genre(genre: Genre | string | undefined): string {
     switch (genre) {
       case "piano":
@@ -52,5 +52,3 @@ class Icon {
     }
   }
 }
-
-export { Icon };

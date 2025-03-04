@@ -1,0 +1,21 @@
+@use "colors";
+
+.percent-lt-25 {
+  color: colors.$red;
+}
+
+.percent-lt-50 {
+  color: colors.$orange;
+}
+
+.percent-lt-75 {
+  color: colors.$yellow;
+}
+
+.percent-lt-100 {
+  color: colors.$lime;
+}
+
+.percent-eq-100 {
+  color: colors.$cyan;
+}
