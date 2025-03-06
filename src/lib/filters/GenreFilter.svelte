@@ -10,8 +10,7 @@
   let { genre }: Props = $props();
 </script>
 
-[
-<span class="{genre} {Icon.class_from_genre(genre)}">{Icon.from_genre(genre)} </span>
+[<span class="{genre} {Icon.class_from_genre(genre)}">{Icon.from_genre(genre)}</span>
 <a
   href="#/"
   onclick={() => load(() => (filters.value.genre = genre))}
