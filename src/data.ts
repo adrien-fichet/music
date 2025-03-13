@@ -3899,7 +3899,7 @@ const data_2020s: Item[] = [
   { title: "Cracker Island", artist: "Gorillaz", year: 2023, listened: true, genre: "pop", stars: 1, fav: true },
   { title: "Mythologies", artist: "Thomas Bangalter", year: 2023, genre: "classical", listened: true },
   { title: "The Boy and the Heron OST", artist: "Joe Hisaishi", year: 2023, listened: true, genre: "classical" },
-  { title: "Brûlé", artist: "Contrefaçon", year: 2019, genre: "electro", fr: true, ep: true },
+  { title: "Brûlé", artist: "Contrefaçon", year: 2023, genre: "electro", fr: true, ep: true },
   { title: "72 Seasons", artist: "Metallica", year: 2023, genre: "metal", listened: true },
   { title: "Desire, I Want To Turn Into You", artist: "Caroline Polachek", year: 2023, listened: true, genre: "pop" },
   { title: "False Lankum", artist: "Lankum", year: 2023, listened: true, genre: "folk" },
