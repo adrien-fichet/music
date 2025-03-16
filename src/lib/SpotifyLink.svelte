@@ -9,5 +9,5 @@
 </script>
 
 <a href={spotify_url} target="_blank">
-  <img src={spotify} alt="spotify" class="spotify">
+  <img src={spotify} alt="spotify" class="spotify" />
 </a>
