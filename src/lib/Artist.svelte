@@ -12,5 +12,5 @@
 {name}
 
 {#if fr}
-  <img class="flag" src={flag_fr} alt="fr" />
+  <img class="flag" src={flag_fr} alt="fr">
 {/if}

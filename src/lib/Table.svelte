@@ -90,7 +90,7 @@
       <th>Title</th>
       <th>Artist</th>
       <th id="year-th">Year</th>
-      <th id="spotify-th"><img src={spotify} alt="spotify" class="spotify" /></th>
+      <th id="spotify-th"><img src={spotify} alt="spotify" class="spotify"></th>
     </tr>
   </thead>
   <tbody>

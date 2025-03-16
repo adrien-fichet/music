@@ -33,7 +33,7 @@
   <AllYesNoFilter bind:key={filters.value.perso} value="all" />
   <AllYesNoFilter bind:key={filters.value.perso} value={true} />
   <AllYesNoFilter bind:key={filters.value.perso} value={false} />
-  Fr <img class="flag" src={flag_fr} alt="fr" />:
+  Fr <img class="flag" src={flag_fr} alt="fr">:
   <AllYesNoFilter bind:key={filters.value.fr} value="all" />
   <AllYesNoFilter bind:key={filters.value.fr} value={true} />
   <AllYesNoFilter bind:key={filters.value.fr} value={false} />
