@@ -687,6 +687,7 @@ const data_1970s: Item[] = [
   { title: "In Rock", artist: "Deep Purple", year: 1970, listened: true, genre: "hard-rock", stars: 2, fav: true, comment: '"Speed King", "Child in Time", "Into the Fire", "Black Night"' },
   { title: "Third", artist: "Soft Machine", year: 1970 },
   { title: "Elastic Rock", artist: "Nucleus", year: 1970, genre: "jazz", comment: 'Jazz Fusion', listened: true, stars: 1 },
+  { title: "On the Boards", artist: "Taste", year: 1970 },
 
   { title: "Led Zeppelin IV", artist: "Led Zeppelin", year: 1971, perso: true, genre: "hard-rock", listened: true, stars: 4, fav: true, comment: '"Black Dog", "Rock and Roll", "The Battle of Evermore", "Stairway to Heaven", "Going to California", "When the Levee Breaks"' },
   { title: "Fireball", artist: "Deep Purple", year: 1971 },
@@ -758,6 +759,7 @@ const data_1970s: Item[] = [
   { title: "There's a Riot Goin' On", artist: "Sly and the Family Stone", year: 1971, listened: true, genre: "funk" },
   { title: "Stand By Me (Watcha See Is Whatcha Get)", artist: 'Bernard "Pretty" Purdie and the Playboys', year: 1971, listened: true, genre: "soul", stars: 2, fav: true },
   { title: "Pieces of a Man", artist: "Gil Scott-Heron", year: 1971, listened: true, genre: "soul", stars: 3, fav: true, comment: 'Ron Carter on bass' },
+  { title: "Rory Gallagher", artist: "Rory Gallagher", year: 1971 },
 
   { title: "Exile on Main Street", artist: "The Rolling Stones", year: 1972 },
   { title: "There's a Party Goin' On", artist: "Jodi Miller", year: 1972 },
@@ -901,7 +903,7 @@ const data_1970s: Item[] = [
   { title: "Spain", artist: "Chick Corea", year: 1973, standard: true, genre: "jazz", listened: true },
   { title: "Natural High", artist: "Bloodstone", year: 1973 },
   { title: "Future Days", artist: "Can", year: 1973 },
-  { title: "Virtuoso", artist: "Joe Pass", year: 1973, genre: "jazz" },
+  { title: "Virtuoso", artist: "Joe Pass", year: 1973, genre: "jazz", listened: true, comment: 'Instumental solo guitar', stars: 4, fav: true },
   { title: "Berlin", artist: "Lou Reed", year: 1973, listened: true, genre: "rock" },
   { title: "Selling England By the Pound", artist: "Genesis", year: 1973, listened: true, genre: "rock", stars: 2, fav: true, comment: '"Dancing with the Moonlight Knight", "Firth of Fifth"' },
   { title: "Innervisions", artist: "Stevie Wonder", year: 1973, comment: `"Higher Ground", "Living for the City", "Don't You Worry 'Bout a Thing"` },
@@ -1200,6 +1202,7 @@ const data_1970s: Item[] = [
 
   { title: "Insights", artist: "Toshiko Akiyoshi - Lew Tabackin Big Band", year: 1978, genre: "jazz" },
   { title: "Dancing in Your Head", artist: "Ornette Coleman", year: 1978, genre: "jazz" },
+  { title: "Back on the Streets", artist: "Gary Moore", year: 1978, comment: '"Parisienne Walkways"' },
   { title: "Sophisticated Giant", artist: "Dexter Gordon", year: 1978, genre: "jazz" },
   { title: "Homecoming: Live at the Village Vanguard", artist: "Dexter Gordon", year: 1978, genre: "jazz", live: true },
   { title: "Nonaah", artist: "Roscoe Mitchell", year: 1978, genre: "jazz" },
@@ -1283,6 +1286,7 @@ const data_1970s: Item[] = [
   { title: "More Spell on You", artist: "Eddie Johns", year: 1979, listened: true, genre: "soul", comment: '"More Spell On You"' },
   { title: "Carrie Lucas in Danceland", artist: "Carrie Lucas", year: 1979 },
   { title: "Night of the Living Dregs", artist: "Dixie Dregs", year: 1979 },
+  { title: "Top Priority", artist: "Rory Gallagher", year: 1979 },
   { title: "Master of the Game", artist: "George Duke", year: 1979, listened: true, genre: "funk", comment: '"I Love You More"' },
   { title: "Edwin Birdsong", artist: "Edwin Birdsong", year: 1979 },
   { title: "Champagne et Caviar", artist: "Jacques Higelin", year: 1979, fr: true },
@@ -2669,6 +2673,7 @@ const data_2000s: Item[] = [
 
   { title: "A Funk Odyssey", artist: "Jamiroquai", year: 2001, listened: true, genre: "funk", fav: true, stars: 3 },
   { title: "In Search of...", artist: "N.E.R.D.", year: 2001 },
+  { title: "Swing News", artist: "Joscho Stephan", year: 2001 },
   { title: "Nice", artist: "Rollins Band", year: 2001, comment: `"What's the Matter Man"` },
   { title: "Covered With Ants", artist: "Guttermouth", year: 2001, comment: `"I'm Destroying the World"` },
   { title: "CAB 2", artist: "CAB", year: 2001, listened: true, genre: "jazz", comment: "Jazz Fusion / Instrumental rock", stars: 1, fav: true },
@@ -3182,7 +3187,7 @@ const data_2000s: Item[] = [
   { title: "BLACKsummers'night", artist: "Maxwell", year: 2009 },
   { title: "Road Shows, Vol. 1", artist: "Sonny Rollins", year: 2009, live: true, genre: "jazz" },
   { title: "Moderat", artist: "Moderat", year: 2009 },
-  { title: "Black Clouds & Silver Linings", artist: "Dream Theater", year: 2009, genre: "metal" },
+  { title: "Black Clouds & Silver Linings", artist: "Dream Theater", year: 2009, genre: "metal", listened: true },
   { title: "Scandal", artist: "The Shoes", year: 2009, fr: true },
   { title: "Walk the Line (remix)", artist: "Laurent Wolf", year: 2009, genre: "electro", single: true, fr: true, perso: true, listened: true, comment: "Tignes réveillon 2009 -> 2010" },
   { title: "My Heart Will Go On (ShittyFlute)", artist: "Matt Mulholland [YT]", year: 2009, genre: "meme", listened: true, perso: true },
@@ -3420,6 +3425,7 @@ const data_2010s: Item[] = [
   { title: "Indéfinitivement", artist: "mistermv", year: 2013, fr: true, listened: true, genre: "meme" },
   { title: "Dancing Dad", artist: "Earthbound Papas", year: 2013 },
   { title: "Now What?!", artist: "Deep Purple", year: 2013 },
+  { title: "Unplugged", artist: "Larry Carlton & Robben Ford", year: 2013, listened: true, genre: "blues", live: true },
   { title: "The Wind Rises OST", artist: "Joe Hisaishi", year: 2013, listened: true, genre: "classical", stars: 1, fav: true },
   { title: "The Tale of the Princess Kaguya OST", artist: "Joe Hisaishi", year: 2013 },
   { title: "Kaleo", artist: "Kaleo", year: 2013 },
@@ -3525,6 +3531,7 @@ const data_2010s: Item[] = [
 
   { title: "To Pimp a Butterfly", artist: "Kendrick Lamar", year: 2015, comment: '"King Kunta" w/ Thundercat on bass, "Alright", "i"', genre: "rap", listened: true, stars: 2, fav: true },
   { title: "Carrie & Lowell", artist: "Sufjan Stevens", year: 2015 },
+  { title: "Guitar Heroes", artist: "Joscho Stephan, Tommy Emmanuel, Stochelo Rosenberg, Biréli Lagrène", year: 2015 },
   { title: "Hand. Cannot. Erase.", artist: "Steven Wilson", year: 2015 },
   { title: "The Light of the Dawn", artist: "Asagaya", year: 2015, listened: true, genre: "trip-hop", comment: '"The Nature Creature"', stars: 1 },
   { title: "Transsiberian", artist: "Thylacine", year: 2015, fr: true, listened: true, genre: "electro" },
