@@ -28,4 +28,10 @@
   <li>Ghibli OSTs, mostly by Joe Hisaishi</li>
   <li>Deep Purple and Rainbow discography</li>
   <li>DownBeat albums of the year</li>
+  <li>
+    <a href="https://www.jazzguitar.be/blog/top-100-jazz-guitar-albums/">Top 100 Jazz Guitar Albums</a>
+  </li>
+  <li>
+    <a href="https://www.jazzguitar.be/blog/top-100-jazz-albums/">Top 100 Jazz Albums</a>
+  </li>
 </ul>
