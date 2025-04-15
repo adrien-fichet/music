@@ -779,6 +779,8 @@ const data_1970s: Item[] = [
   { title: "Elastic Rock", artist: "Nucleus", year: 1970, genre: "jazz", comment: 'Jazz Fusion', listened: true, stars: 1 },
   { title: "On the Boards", artist: "Taste", year: 1970 },
   { title: "Small Talk at 125th and Lenox", artist: "Gil Scott-Heron", year: 1970 },
+  { title: "Eric Clapton", artist: "Eric Clapton", year: 1970 },
+  { title: "On Tour with Eric Clapton", artist: "Delaney & Bonnie & Friends", year: 1970, live: true },
 
   { title: "Led Zeppelin IV", artist: "Led Zeppelin", year: 1971, perso: true, genre: "hard-rock", listened: true, stars: 4, fav: true, comment: '"Black Dog", "Rock and Roll", "The Battle of Evermore", "Stairway to Heaven", "Going to California", "When the Levee Breaks"' },
   { title: "Fireball", artist: "Deep Purple", year: 1971 },
@@ -854,6 +856,7 @@ const data_1970s: Item[] = [
   { title: "Rory Gallagher", artist: "Rory Gallagher", year: 1971 },
 
   { title: "Exile on Main Street", artist: "The Rolling Stones", year: 1972 },
+  { title: "Bobby Whitlock", artist: "Bobby Whitlock", year: 1972 },
   { title: "There's a Party Goin' On", artist: "Jodi Miller", year: 1972 },
   { title: "Arthur Verocai", artist: "Arthur Verocai", year: 1972 },
   { title: "I Sing the Body Electric", artist: "Weather Report", year: 1972 },
@@ -1223,8 +1226,10 @@ const data_1970s: Item[] = [
   { title: "Velvet Darkness", artist: "Allan Holdsworth", year: 1976 },
   { title: "The Song Remains the Same", artist: "Led Zeppelin", year: 1976 },
   { title: "Desire", artist: "Bob Dylan", year: 1976, comment: '"Hurricane"', listened: true, genre: "folk", stars: 1 },
+  { title: "No Reason to Cry", artist: "Eric Clapton", year: 1976 },
 
   { title: "Aja", artist: "Steely Dan", year: 1977, listened: true, fav: true, stars: 4, genre: "rock" },
+  { title: "Slowhand", artist: "Eric Clapton", year: 1977, comment: '"Lay Down Sally", "Cocaine"' },
   { title: "Short Trip to Space", artist: "John Tropea", year: 1977 },
   { title: "In Flight", artist: "George Benson", year: 1977 },
   { title: "From Here to Eternity", artist: "Giorgio Moroder", year: 1977, genre: "disco" },
@@ -1378,6 +1383,7 @@ const data_1970s: Item[] = [
   { title: "The Scream", artist: "Siouxsie and the Banshees", year: 1978 },
   { title: "Starmania", artist: "Various Artists", year: 1978, fr: true },
   { title: "Summer Night City", artist: "ABBA", year: 1978, listened: true, genre: "disco", single: true, comment: "in-your-face compression" },
+  { title: "Backless", artist: "Eric Clapton", year: 1978 },
 
   { title: "London Calling", artist: "The Clash", year: 1979, perso: true, listened: true, genre: "rock", comment: `Offert en cadeau (2-CD box set), "Brand New Cadillac", "Hateful", "Rudy Can't Fail", "Clampdown", "The Guns of Brixton", "I'm Not Down", "Train in Vain (Stand By Me)"`, stars: 4, fav: true },
   { title: "The Wall", artist: "Pink Floyd", year: 1979, perso: true, comment: '"Comfortably Numb", "Hey You", "Another Brick in the Wall", "Young Lust", "Mother"', listened: true, genre: "rock", stars: 4, fav: true},
@@ -1655,6 +1661,7 @@ const data_1980s: Item[] = [
 
   { title: "She's So Unusual", artist: "Cyndi Lauper", year: 1983, comment: '"Time After Time", "Girls Just Want to Have Fun"', listened: true, genre: "pop" },
   { title: "Juicy Fruit", artist: "Mtume", year: 1983 },
+  { title: "Money and Cigarettes", artist: "Eric Clapton", year: 1983 },
   { title: "Standards, Vol. 1", artist: "Keith Jarrett", year: 1983, genre: "jazz" },
   { title: "Rush Rush", artist: "Deborah Harry", year: 1983, listened: true, single: true, genre: "new-wave" },
   { title: "Portrait", artist: "Gwen Guthrie", year: 1983 },
@@ -1777,6 +1784,7 @@ const data_1980s: Item[] = [
   { title: "Freaky Styley", artist: "Red Hot Chili Peppers", year: 1985, listened: true, genre: "funk", stars: 1, fav: true },
   { title: "Hounds of Love", artist: "Kate Bush", year: 1985, comment: '"Running Up That Hill"' },
   { title: "Nightshift", artist: "Commodores", year: 1985 },
+  { title: "Behind the Sun", artist: "Eric Clapton", year: 1985, comment: 'co-produced by Phil Collins' },
   { title: "Black Codes (From the Underground)", artist: "Wynton Marsalis", year: 1985, genre: "jazz", listened: true, stars: 2, fav: true },
   { title: "Mistral gagnant", artist: "Renaud", year: 1985, fr: true },
   { title: "Super Mario Bros. theme", artist: "Koji Kondo", year: 1985, genre: "vgm", listened: true },
@@ -2047,6 +2055,7 @@ const data_1980s: Item[] = [
   { title: "The Healer", artist: "John Lee Hooker", year: 1989, listened: true, genre: "blues", stars: 1 },
   { title: "Let Love Rule", artist: "Lenny Kravitz", year: 1989, listened: true, genre: "rock" },
   { title: "Club Classics Vol. One", artist: "Soul II Soul", year: 1989, listened: true, genre: "r-n-b", comment: '"Back to Life (However Do You Want Me)"' },
+  { title: "Journeyman", artist: "Eric Clapton", year: 1989 },
 ];
 
 const data_1990s: Item[] = [
@@ -2151,7 +2160,7 @@ const data_1990s: Item[] = [
   { title: "Cypress Hill", artist: "Cypress Hill", year: 1991, listened: true, genre: "rap", comment: 'Eurockéennes 2012, "How I Could Just Kill a Man", "The Funky Cypress Hill Shit", Scooby doo yo scooby-doo-be-doo yoo' },
   { title: "Leisure", artist: "Blur", year: 1991 },
   { title: "Woodface", artist: "Crowded House", year: 1991 },
-  { title: "Arise", artist: "Sepultura", year: 1991, listened: true, genre: "metal", stars: 1, fav: true },
+  { title: "Arise", artist: "Sepultura", year: 1991, listened: true, genre: "metal", stars: 1 },
   { title: "Spiderland", artist: "Slint", year: 1991 },
   { title: "Out of Time", artist: "R.E.M.", year: 1991 },
   { title: "Bandwagonesque", artist: "Teenage Fanclub", year: 1991 },
@@ -2329,7 +2338,7 @@ const data_1990s: Item[] = [
   { title: "Cracked Rear View", artist: "Hootie & the Blowfish", year: 1994 },
   { title: "Superunknown", artist: "Soundgarden", year: 1994 },
   { title: "The Sun Rises In The East", artist: "Jeru the Damaja", year: 1994 },
-  { title: "From the Cradle", artist: "Eric Clapton", year: 1994, listened: true, genre: "blues" },
+  { title: "From the Cradle", artist: "Eric Clapton", year: 1994, listened: true, genre: "blues", comment: `"I'm Tore Down"` },
   { title: "Emmerdale", artist: "The Cardigans", year: 1994, listened: true, stars: 1, genre: "rock", comment: '"Sick & Tired"' },
   { title: "Parklife", artist: "Blur", year: 1994, listened: true, fav: true, stars: 3, genre: "rock", comment: `"Girls & Boys", "End of a Century", "London Loves"` },
   { title: "Definitely Maybe", artist: "Oasis", year: 1994, listened: true, genre: "rock", fav: true, stars: 1, comment: `"Rock 'n' Roll Star", "Supersonic", "Bring It On Down", "Married With Children"` },
@@ -2997,6 +3006,7 @@ const data_2000s: Item[] = [
   { title: "A Reality Tour", artist: "David Bowie", year: 2003, listened: true, fav: true, stars: 3, genre: "rock", live: true, comment: 'Released in 2010' },
 
   { title: "Symphony of Enchanted Lands II (The Dark Secret)", artist: "Rhapsody of Fire", year: 2004, listened: true, perso: true, genre: "metal", stars: 1, comment: '"Unholy Warcry"' },
+  { title: "Me and Mr. Johnson", artist: "Eric Clapton", year: 2004 },
   { title: "The College Dropout", artist: "Kanye West", year: 2004, genre: "rap" },
   { title: "Mm..Food", artist: "MF Doom", year: 2004, genre: "rap" },
   { title: "Ultravisitor", artist: "Squarepusher", year: 2004, genre: "electro" },
@@ -3133,6 +3143,7 @@ const data_2000s: Item[] = [
   { title: "Octavarium", artist: "Dream Theater", year: 2005, genre: "metal" },
 
   { title: "Back to Black", artist: "Amy Winehouse", year: 2006, listened: true, stars: 1, genre: "soul" },
+  { title: "The Road to Escondido", artist: "Eric Clapton, JJ Cale", year: 2006 },
   { title: "15 Again", artist: "Cassius", year: 2006, listened: true, genre: "electro", fr: true },
   { title: "Exceeder", artist: "Mason", year: 2006, listened: true, genre: "electro", single: true },
   { title: "Erotic Cakes", artist: "Guthrie Govan", year: 2006 },
@@ -3387,6 +3398,7 @@ const data_2010s: Item[] = [
   { title: "Body Talk", artist: "Robyn", year: 2010, listened: true, genre: "pop", comment: "Electropop" },
   { title: "Gaur Plain", artist: "ACE+", year: 2010, listened: true, genre: "vgm", comment: 'Xenoblade Chronicles', stars: 1, fav: true },
   { title: "Scary Monsters and Nice Sprites", artist: "Skrillex", year: 2010, listened: true, genre: "electro", comment: "Dubstep", stars: 1, fav: true, ep: true },
+  { title: "Clapton", artist: "Eric Clapton", year: 2010 },
   { title: "Super chansons", artist: "Andréas & Nicolas", year: 2010, perso: true, fr: true, comment: 'Le Transbordeur, 23 nov 2016 avec Laura et Gougou, "Chacun ses soucis", "Les chaussures de ski"', listened: true, stars: 1, genre: "chanson", fav: true },
   { title: "Immersion", artist: "Pendulum", year: 2010, listened: true, genre: "electro", stars: 1, fav: true, comment: '"The Island", "The Vulture"', perso: true },
   { title: "Teen Dream", artist: "Beach House", year: 2010, listened: true, genre: "rock" },
@@ -4154,6 +4166,7 @@ const data_2020s: Item[] = [
   { title: "Two Star & the Dream Police", artist: "Mk.gee", year: 2024, genre: "pop", listened: true },
   { title: "ROCKMAN", artist: "Mk.gee", year: 2024, single: true, listened: true, genre: "pop" },
   { title: "Not Like Us", artist: "Kendrick Lamar", year: 2024, genre: "rap", listened: true, single: true },
+  { title: "Meanwhile", artist: "Eric Clapton", year: 2024 },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
