@@ -37,7 +37,7 @@
   <br />
   <GenreFilter genre="world" />
   <GenreFilter genre="classical" />
-  <GenreFilter genre="swing" />
+  <GenreFilter genre="fusion" />
   <GenreFilter genre="blues" />
   <br />
   <GenreFilter genre="folk" />

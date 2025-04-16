@@ -25,7 +25,7 @@ export class Icon {
         return "◆";
       case "world":
       case "classical":
-      case "swing":
+      case "fusion":
       case "blues":
         return "■";
       case "folk":

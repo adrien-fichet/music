@@ -16,7 +16,7 @@ export type Genre =
   | "r-n-b"
   | "world"
   | "classical"
-  | "swing"
+  | "fusion"
   | "blues"
   | "folk"
   | "electro"
