@@ -34,4 +34,9 @@
   <li>
     <a href="https://www.jazzguitar.be/blog/top-100-jazz-albums/">Top 100 Jazz Albums</a>
   </li>
+  <li>
+    <a href="https://www.jazzwise.com/features/article/the-100-jazz-albums-that-shook-the-world">
+      The 100 Jazz Albums that shook the world
+    </a>
+  </li>
 </ul>
