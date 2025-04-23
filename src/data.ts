@@ -2281,7 +2281,7 @@ const data_1990s: Item[] = [
   { title: "Strangeitude", artist: "Ozric Tentacles", year: 1991 },
   { title: "Stolen Moments", artist: "Stanley Jordan", year: 1991, genre: "jazz" },
   { title: "No More Tears", artist: "Ozzy Osbourne", year: 1991, genre: "metal" },
-  { title: "24 Nights", artist: "Eric Clapton", year: 1991, live: true, genre: "rock", comment: '"Breaking Point" end solo, "The Definitive 24 nights" 3-CDs set containing rock/blues/orchestral versions', stars: 2, fav: true },
+  { title: "24 Nights", artist: "Eric Clapton", year: 1991, live: true, genre: "rock", comment: '"Breaking Point" end solo, "The Definitive 24 nights" 3-CDs set containing rock/blues/orchestral versions', stars: 2, fav: true, listened: true },
   { title: "The Low End Theory", artist: "A Tribe Called Quest", year: 1991 },
   { title: "Guile's Theme", artist: "Yoko Shimomura / Isao Abe", year: 1991, comment: 'Street Fighter II: The World Warrior', listened: true, genre: "vgm" },
   { title: "Pocket Full of Kryptonite", artist: "Spin Doctors", year: 1991, listened: true, genre: "rock", comment: '"Two Princes"', stars: 1 },
