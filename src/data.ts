@@ -1350,10 +1350,10 @@ const data_1970s: Item[] = [
   { title: "No Reason to Cry", artist: "Eric Clapton", year: 1976 },
 
   { title: "Aja", artist: "Steely Dan", year: 1977, listened: true, fav: true, stars: 4, genre: "rock" },
-  { title: "Elegant Gypsy", artist: "Al Di Meola", year: 1977, genre: "jazz" },
+  { title: "Elegant Gypsy", artist: "Al Di Meola", year: 1977, genre: "fusion", listened: true, stars: 3, fav: true },
   { title: "Watercolors", artist: "Pat Metheny", year: 1977, listened: true, genre: "fusion" },
   { title: "Solo Guitar", artist: "Ted Greene", year: 1977, genre: "jazz" },
-  { title: "Slowhand", artist: "Eric Clapton", year: 1977, comment: '"Lay Down Sally", "Cocaine"' },
+  { title: "Slowhand", artist: "Eric Clapton", year: 1977, comment: '"Lay Down Sally", "Cocaine", "Wonderful Tonight", "Peaches and Diesel", "Alberta"', listened: true, genre: "rock", stars: 2, fav: true },
   { title: "Short Trip to Space", artist: "John Tropea", year: 1977 },
   { title: "In Flight", artist: "George Benson", year: 1977 },
   { title: "Joyous Lake", artist: "Pat Martino", year: 1977, genre: "fusion", listened: true },
@@ -1667,6 +1667,7 @@ const data_1980s: Item[] = [
 
   { title: "Fire of Unknown Origin", artist: "Blue Öyster Cult", year: 1981, listened: true, fav: true, stars: 1, genre: "hard-rock", comment: `"Burnin' For You"` },
   { title: "Word of Mouth", artist: "Jaco Pastorius", year: 1981, genre: "fusion" },
+  { title: "Friday Night in San Francisco", artist: "Al Di Meola, John McLaughlin, Paco de Lucía", year: 1981, genre: "jazz", live: true },
   { title: "The Birthday Concert", artist: "Jaco Pastorius", year: 1981, genre: "fusion", live: true, comment: 'Released in 1995' },
   { title: "Business as Usual", artist: "Men at Work", year: 1981, listened: true, genre: "rock", stars: 1, fav: true, comment: '"Down Under"' },
   { title: "Jean-Jacques Goldman (Démodé / A l'envers)", artist: "Jean-Jacques Goldman", year: 1981, listened: true, genre: "rock", fr: true, comment: `"Il suffira d'un signe"`, stars: 1 },
@@ -2778,6 +2779,7 @@ const data_1990s: Item[] = [
   { title: "Better Off Alone", artist: "Alice Deejay", year: 1998, listened: true, single: true, genre: "electro" },
   { title: "Boom, Boom, Boom, Boom!", artist: "Vengaboys", year: 1998, listened: true, single: true, genre: "electro", perso: true },
   { title: "Equalize It", artist: "EZ3kiel", year: 1998, fr: true },
+  { title: "Concerto Suite for Electric Guitar and Orchestra in E-flat minor, Op. 1", artist: "Yngwie Malmsteen", year: 1998 },
   { title: "Combustication", artist: "Medeski Martin & Wood", year: 1998, genre: "fusion" },
   { title: "Earth Tones", artist: "Peter Bernstein, Larry Goldings, Bill Stewart", year: 1998 },
   { title: "Untouchable", artist: "Danny Gatton", year: 1998, genre: "jazz" },
@@ -4397,6 +4399,7 @@ const data_2020s: Item[] = [
   { title: "ROCKMAN", artist: "Mk.gee", year: 2024, single: true, listened: true, genre: "pop" },
   { title: "Not Like Us", artist: "Kendrick Lamar", year: 2024, genre: "rap", listened: true, single: true },
   { title: "Meanwhile", artist: "Eric Clapton", year: 2024 },
+  { title: "Twentyfour", artist: "Al Di Meola", year: 2024, listened: true, genre: "jazz" },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
