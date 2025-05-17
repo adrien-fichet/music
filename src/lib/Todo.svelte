@@ -17,9 +17,9 @@
   <li><a href="https://en.wikipedia.org/wiki/DJ-Kicks">DJ-KiCKS</a></li>
   <li>More Stax, Chess, Daptone & Motown records</li>
   <li>
-    Songs from the <a href="https://en.wikipedia.org/wiki/National_Recording_Registry">US National Recording Registry</a
-    >
+    Songs from the <a href="https://en.wikipedia.org/wiki/National_Recording_Registry">US National Recording Registry</a>
     and the <a href="https://en.wikipedia.org/wiki/Great_American_Songbook">Great American Songbook</a>
   </li>
   <li>EPs from LoFi records</li>
+  <li>Musical recordings from the <a href="https://en.wikipedia.org/wiki/Grammy_Hall_of_Fame">Grammy Hall of Fame</a></li>
 </ul>
