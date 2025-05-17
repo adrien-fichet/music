@@ -100,6 +100,7 @@ const data_lt_1940: Item[] = [
   { title: "Daphnis et Chloé", artist: "Ravel", year: 1913, fr: true, genre: "classical", listened: true },
   { title: "Le Sacre du printemps", artist: "Stravinsky", year: 1913 },
   { title: "Les Planètes", artist: "Holst", year: 1914, listened: true, genre: "classical" },
+  { title: "Saint Louis Blues", artist: "W. C. Handy", year: 1914, genre: "blues", standard: true },
   { title: "Vocalise, op. 34 No. 14", artist: "Rachmaninov", year: 1915, listened: true, genre: "classical" },
   { title: "Elgar: Cello Concerto, op. 85", artist: "Elgar", year: 1919 },
 
@@ -114,9 +115,11 @@ const data_lt_1940: Item[] = [
   { title: "Boléro", artist: "Ravel", year: 1928, fr: true },
   { title: "An American in Paris", artist: "Gershwin", year: 1928, listened: true, genre: "classical" },
   { title: "I Wanna Be Loved by You", artist: "Herbert Stothart & Harry Ruby", year: 1928, single: true },
+  { title: "St. James Infirmary", artist: "Louis Armstrong / Don Redman", year: 1928, genre: "blues", standard: true },
 
   // 1930 +
   { title: "Mood Indigo", artist: "Duke Ellington and His Famous Orchestra", year: 1930, genre: "jazz", standard: true },
+  { title: "Body and Soul", artist: "Johnny Green", year: 1930, genre: "jazz", standard: true },
   { title: "Rétrospective", artist: "Django Reinhardt", year: 1934, genre: "jazz", comment: 'Compilation recorded between 1934 and 1953' },
 
   { title: "Carmina Burana", artist: "Orff", year: 1935, listened: true, genre: "classical" },
@@ -129,6 +132,7 @@ const data_lt_1940: Item[] = [
   { title: "Caravan", artist: "Juan Tizol / Duke Ellington", year: 1936, listened: true, genre: "jazz", standard: true },
 
   { title: "Cross Road Blues (Crossroads)", artist: "Robert Johnson", year: 1937, genre: "blues", standard: true, listened: true },
+  { title: "My Funny Valentine", artist: "Richard Rodgers", year: 1937, genre: "jazz", standard: true },
 
   { title: "Adagio pour cordes, op. 11", artist: "Barber", year: 1938, listened: true, genre: "classical" },
   { title: "You Go to My Head", artist: "J. Fred Coots", year: 1938, listened: true, genre: "jazz", standard: true },
@@ -136,7 +140,9 @@ const data_lt_1940: Item[] = [
   { title: "Live at Carnegie Hall", artist: "Benny Goodman", year: 1938, genre: "jazz", live: true },
 
   { title: "Djangologie Vol. 9 / 1939-1940", artist: "Django Reinhardt", year: 1939, listened: true, genre: "jazz" },
+  { title: "All the Things You Are", artist: "Jerome Kern", year: 1939, genre: "jazz", standard: true },
   { title: "Body and Soul", artist: "Coleman Hawkins", year: 1939, genre: "jazz", comment: 'Compilation released in 1996, recorded between 1939 and 1956' },
+  { title: "Take the 'A' Train", artist: "Billy Strayhorn", year: 1939, genre: "jazz", standard: true, listened: true },
   { title: "The Tradition Masters", artist: "Lead Belly", year: 1939, genre: "blues", comment: '"Where Did You Sleep Last Night"', listened: true },
   { title: "Strange Fruit", artist: "Billie Holliday", year: 1939, single: true, listened: true, genre: "jazz" },
   { title: "Concierto de Aranjuez", artist: "Joaquín Rodrigo", year: 1939, listened: true, genre: "classical", comment: 'Classical guitar', fav: true },
@@ -1212,6 +1218,7 @@ const data_1970s: Item[] = [
 
   { title: "Physical Graffiti", artist: "Led Zeppelin", year: 1975, comment: '"Kashmir"' },
   { title: "Sweet Hands", artist: "David Liebman", year: 1975, genre: "fusion" },
+  { title: "The Manhattan Transfer", artist: "The Manhattan Transfer", year: 1975, genre: "jazz" },
   { title: "Inseparable", artist: "Natalie Cole", year: 1975, listened: true, genre: "soul", fav: true, stars: 1 },
   { title: "The Legendary Zing Album", artist: "The Trammps", year: 1975, genre: "soul", listened: true, stars: 1, fav: true, comment: '"Rubber Band"' },
   { title: "Young Americans", artist: "David Bowie", year: 1975, listened: true, genre: "rock", stars: 1 },
@@ -1745,6 +1752,7 @@ const data_1980s: Item[] = [
 
   { title: "The Nightfly", artist: "Donald Fagen", year: 1982, listened: true, fav: true, stars: 3, genre: "rock" },
   { title: "I.O.U.", artist: "Allan Holdsworth", year: 1982, genre: "fusion" },
+  { title: "Echoes of an Era", artist: "Chaka Khan et al.", year: 1982, genre: "jazz" },
   { title: "Mystical Adventures", artist: "Jean-Luc Ponty", year: 1982, genre: "jazz", fr: true },
   { title: "Tug of War", artist: "Paul McCartney", year: 1982, listened: true, fav: true, stars: 2, genre: "rock", comment: '"Take It Away", "Ballroom Dancing", "Ebony and Ivory"' },
   { title: "So Excited!", artist: "The Pointer Sisters", year: 1982, perso: true, listened: true, genre: "soul", fav: true, stars: 2 },
