@@ -2098,8 +2098,8 @@ const data_1980s: Item[] = [
   { title: "The Queen Is Dead", artist: "The Smiths", year: 1986 },
   { title: "Graceland", artist: "Paul Simon", year: 1986, listened: true, genre: "world", stars: 2, fav: true },
   { title: "Licensed to Ill", artist: "Beastie Boys", year: 1986 },
-  { title: "Paid in Full", artist: "Eric B. and Rakim", year: 1986 },
 
+  { title: "Paid in Full", artist: "Eric B. & Rakim", year: 1987, genre: "rap" },
   { title: "Marsalis Standard Time, Vol. I", artist: "Wynton Marsalis", year: 1987, genre: "jazz" },
   { title: "Still Life (Talking)", artist: "Pat Metheny Group", year: 1987, genre: "fusion", comment: '"Last Train Home"', listened: true, stars: 1 },
   { title: "Never Gonna Give You Up", artist: "Rick Astley", year: 1987, genre: "meme", listened: true },
@@ -2215,6 +2215,7 @@ const data_1980s: Item[] = [
   { title: "Première bordée", artist: "Soldat Louis", year: 1988, fr: true, genre: "chanson", listened: true, comment: '"Du rhum, des femmes"' },
   { title: "Straight Outta Compton", artist: "N.W.A.", year: 1988, listened: true, genre: "rap", stars: 1 },
   { title: "...And Justice for All", artist: "Metallica", year: 1988, listened: true, genre: "metal", comment: '"Blackened", "One", "Harvester of Sorrow"', stars: 2, fav: true },
+  { title: "Follow the Leader", artist: "Eric B. & Rakim", year: 1988, genre: "rap" },
 
   { title: "Bleu Blanc Vert", artist: "Jean-Louis Aubert", year: 1989, fr: true, perso: true, comment: `"Voilà c'est fini", "Univers", "Le Bout du rouleau"`, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Bleach", artist: "Nirvana", year: 1989, genre: "grunge", listened: true, comment: '"About a Girl"' },
@@ -2332,6 +2333,7 @@ const data_1990s: Item[] = [
   { title: "AmeriKKKa's Most Wanted", artist: "Ice Cube", year: 1990, listened: true, genre: "rap", stars: 1 },
   { title: "Step In The Arena", artist: "Gang Starr", year: 1990 },
   { title: "Frizzle Fry", artist: "Primus", year: 1990 },
+  { title: "Let the Rhythm Hit 'Em", artist: "Eric B. & Rakim", year: 1990, genre: "rap" },
 
   { title: "Innuendo", artist: "Queen", year: 1991, perso: true, listened: true, genre: "rock", stars: 2, fav: true, comment: '"Ride the Wild Wind", "The Show Must Go On"' },
   { title: "13 Strings", artist: "Howard Alden, George Van Eps", year: 1991, genre: "jazz" },
@@ -2465,7 +2467,8 @@ const data_1990s: Item[] = [
   { title: "Tribes Vibes and Scribes", artist: "Incognito", year: 1992, listened: true, genre: "funk" },
   { title: "Notes From the Underground", artist: "Medeski Martin & Wood", year: 1992, listened: true, meh: true, genre: "jazz" },
   { title: "Images and Words", artist: "Dream Theater", year: 1992, listened: true, genre: "metal", comment: '"Pull Me Under"' },
-  { title: "Standards (and Other Songs)", artist: "Mike Stern", year: 1992 },
+  { title: "Standards (and Other Songs)", artist: "Mike Stern", year: 1992, listened: true, genre: "jazz" },
+  { title: "Don't Sweat the Technique", artist: "Eric B. & Rakim", year: 1992, genre: "rap", listened: true, stars: 3, fav: true },
 
   { title: "Emergency on Planet Earth", artist: "Jamiroquai", year: 1993, listened: true, genre: "funk", stars: 3, fav: true, perso: true, comment: '"Blow Your Mind", "Revolution 1993", Cabal Online bg music' },
   { title: "Blue Light 'til Dawn", artist: "Cassandra Wilson", year: 1993, genre: "jazz" },
@@ -2924,8 +2927,8 @@ const data_1990s: Item[] = [
   { title: "We Are! (ウィーアー！)", artist: "Hiroshi Kitadani", year: 1999, listened: true, genre: "pop", comment: "Opening 1 of One Piece", stars: 1, fav: true },
   { title: "Astro Lounge", artist: "Smash Mouth", year: 1999, comment: '"All Star" Shrek, "Then the Morning Comes"', listened: true, genre: "rock" },
   { title: "Antipop", artist: "Primus", year: 1999, listened: true, genre: "metal" },
-  { title: "... And Then There Was X", artist: "DMX", year: 1999 },
-  { title: "Legend of Mana OST", artist: "Yoko Shimomura", year: 1999, genre: "vgm" },
+  { title: "... And Then There Was X", artist: "DMX", year: 1999, comment: '"Party Up (Up in Here)"', listened: true, genre: "rap", stars: 1 },
+  { title: "Legend of Mana OST", artist: "Yoko Shimomura", year: 1999, genre: "vgm", listened: true, comment: '"Song of Mana ~Ending Theme~" feat. Osamu Katsumori', stars: 1, fav: true },
   { title: "New Orleans to London", artist: "Keith Nichols", year: 1999, genre: "jazz", comment: '"Voodoo Nights"' },
   { title: "From Gagarin's Point of View", artist: "Esbjörn Svensson", year: 1999, genre: "jazz" },
   { title: "Contrasts", artist: "Bucky Pizzarelli and John Pizzarelli", year: 1999, genre: "jazz" },
@@ -3140,7 +3143,7 @@ const data_2000s: Item[] = [
   { title: "Melody A.M.", artist: "Röyksopp", year: 2001 },
   { title: "Hot Shots II", artist: "The Beta Band", year: 2001 },
   { title: "La Revancha Del Tango", artist: "Gotan Project", year: 2001 },
-  { title: "Survivor", artist: "Destiny's Child", year: 2001, genre: "r-n-b" },
+  { title: "Survivor", artist: "Destiny's Child", year: 2001, genre: "r-n-b", listened: true, comment: '"Independent Women, Pt. 1"' },
   { title: "Gold", artist: "Ryan Adams", year: 2001 },
   { title: "Infest", artist: "Papa Roach", year: 2001, genre: "metal", comment: '"Blood Brothers"' },
   { title: "Verpertine", artist: "Björk", year: 2001 },
@@ -4290,6 +4293,7 @@ const data_2020s: Item[] = [
   { title: "Strange Satisfaction", artist: "Woody and Jeremy", year: 2020, listened: true, genre: "funk", stars: 1, fav: true },
   { title: "With the Music", artist: "Matt Johnson", year: 2020, listened: true, genre: "funk", stars: 2, fav: true },
   { title: "Deux", artist: "Trioniq", year: 2020, ep: true },
+  { title: "Protect the Land/Genocidal Humanoidz", artist: "System of a Down", year: 2020, single: true, listened: true, genre: "metal" },
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
   { title: "Everybody's Going to the Moon", artist: "Jamiroquai", year: 2021, single: true, listened: true, genre: "funk" },
