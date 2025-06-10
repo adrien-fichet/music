@@ -2039,7 +2039,7 @@ const data_1980s: Item[] = [
   { title: "Live at the Harlem Square Club, 1963", artist: "Sam Cooke", year: 1985, live: true },
   { title: "Whitney Houston", artist: "Whitney Houston", year: 1985 },
   { title: "The New Zapp IV U", artist: "Zapp", year: 1985, listened: true, genre: "funk" },
-  { title: "Brothers in Arms", artist: "Dire Straits", year: 1985, listened: true, fav: true, stars: 2, perso: true, genre: "rock", comment: '"So Far Away", "Money for Nothing", "Walk of Life"' },
+  { title: "Brothers in Arms", artist: "Dire Straits", year: 1985, listened: true, fav: true, stars: 2, perso: true, genre: "rock", comment: '"So Far Away", "Money for Nothing", "Walk of Life", Live in San Antonio (40th aniversary edition)' },
   { title: "Mr. Bad Guy", artist: "Freddie Mercury", year: 1985 },
   { title: "The African Flower", artist: "James Newton", year: 1985, genre: "jazz", listened: true },
 
@@ -2054,9 +2054,9 @@ const data_1980s: Item[] = [
   { title: "Reign In Blood", artist: "Slayer", year: 1986, listened: true, genre: "metal" },
   { title: "The Good and Bad Times", artist: "The Crusaders", year: 1986 },
   { title: "Last Nite", artist: "Larry Carlton", year: 1986, genre: "fusion" },
-  { title: "Wisteria", artist: "Jimmy Raney featuring Tommy Flanagan", year: 1986, genre: "jazz" },
+  { title: "Wisteria", artist: "Jimmy Raney Trio feat. Tommy Flanagan", year: 1986, genre: "jazz", listened: true, stars: 1, fav: true },
   { title: "This is This!", artist: "Weather Report", year: 1986, genre: "fusion" },
-  { title: "Horses & Trees", artist: "Ginger Baker", year: 1986, genre: "fusion" },
+  { title: "Horses & Trees", artist: "Ginger Baker", year: 1986, genre: "fusion", listened: true },
   { title: "The Chick Corea Elektric Band", artist: "Chic Corea", year: 1986, genre: "fusion", comment: `"King Cockroach" Scott Henderson's solo` },
   { title: "Voyage, Voyage", artist: "Desireless", year: 1986, fr: true, single: true, genre: "pop", listened: true },
   { title: "Peace Sells... But Who's Buying?", artist: "Megadeth", year: 1986, listened: true, perso: true, genre: "hard-rock", stars: 1, fav: true, comment: '"Wake Up Dead", "Peace Sells"' },
@@ -2907,7 +2907,7 @@ const data_1990s: Item[] = [
   { title: "Ray of Light", artist: "Madonna", year: 1998, comment: '"Frozen", hmmmm hmmmmm', listened: true, genre: "pop" },
   { title: "Aquemini", artist: "OutKast", year: 1998 },
   { title: "OK", artist: "Talvin Singh", year: 1998, listened: true, genre: "electro" },
-  { title: "Deserter's Songs", artist: "Mercury Rev", year: 1998 },
+  { title: "Deserter's Songs", artist: "Mercury Rev", year: 1998, listened: true, genre: "pop" },
   { title: "Celebrity Skin", artist: "Hole", year: 1998 },
   { title: "Armageddon OST", artist: "Various Artists", year: 1998, listened: true, genre: "rock", comment: `"I Don't Want to Miss a Thing" (Aerosmith)` },
   { title: "Crush", artist: "Jennifer Paige", year: 1998, listened: true, genre: "pop", single: true },
@@ -4057,6 +4057,7 @@ const data_2010s: Item[] = [
   { title: "Monody", artist: "The Fat Rat", year: 2015, listened: true, genre: "electro", stars: 1, fav: true },
   { title: "The Epic", artist: "Kamasi Washington", year: 2015, genre: "jazz", listened: true, stars: 1, comment: '3 CDs' },
   { title: "1", artist: "Trioniq", year: 2015, ep: true },
+  { title: "In the Moment", artist: "Makaya McCraven", year: 2015 },
 
   { title: "The Beautiful Game", artist: "Vulfpeck", year: 2016, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Dean Town", "Cory Wong"' },
   { title: "Points of Interest", artist: "glue70", year: 2016, listened: true, genre: "electro", stars: 1, fav: true, comment: '"Casin", gotta love side chain compression' },
@@ -4311,6 +4312,7 @@ const data_2020s: Item[] = [
   { title: "With the Music", artist: "Matt Johnson", year: 2020, listened: true, genre: "funk", stars: 2, fav: true },
   { title: "Deux", artist: "Trioniq", year: 2020, ep: true, listened: true, genre: "funk" },
   { title: "Protect the Land/Genocidal Humanoidz", artist: "System of a Down", year: 2020, single: true, listened: true, genre: "metal" },
+  { title: "Inside Space", artist: "TABAL", year: 2020, ep: true, listened: true, genre: "lofi" },
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
   { title: "Everybody's Going to the Moon", artist: "Jamiroquai", year: 2021, single: true, listened: true, genre: "funk" },
@@ -4372,7 +4374,8 @@ const data_2020s: Item[] = [
   { title: "River Glow", artist: "TyLuv.", year: 2021, listened: true, genre: "lofi" },
   { title: "Scenery", artist: "Tibeauthetraveler, Lawrence Walther", year: 2021, listened: true, genre: "lofi" },
   { title: "Floating into Serenity", artist: "Lawrence Walther", year: 2021, listened: true, genre: "lofi" },
-  { title: "Deciphering The Message", artist: "Makaya McCraven", year: 2021 },
+  { title: "Deciphering The Message", artist: "Makaya McCraven", year: 2021, listened: true, genre: "jazz", stars: 1 },
+  { title: "Rituals", artist: "Living Room", year: 2021, listened: true, genre: "lofi" },
 
   { title: "The Fearless Flyers III", artist: "The Fearless Flyers", year: 2022, listened: true, stars: 1, genre: "funk", fav: true, ep: true },
   { title: "Return", artist: "Lydian Collective", year: 2022, listened: true, genre: "jazz", stars: 1, fav: true },
@@ -4428,6 +4431,7 @@ const data_2020s: Item[] = [
   { title: "Amaryllis", artist: "Mary Halvorson", year: 2022, genre: "jazz", listened: true },
   { title: "Belladonna", artist: "Mary Halvorson", year: 2022, genre: "jazz" },
   { title: "Riverside Sunset", artist: "TABAL", year: 2022, genre: "lofi", listened: true, ep: true, stars: 1 },
+  { title: "In These Times", artist: "Makaya McCraven", year: 2022 },
 
   { title: "Cracker Island", artist: "Gorillaz", year: 2023, listened: true, genre: "pop", stars: 1, fav: true },
   { title: "Mythologies", artist: "Thomas Bangalter", year: 2023, genre: "classical", listened: true },
@@ -4471,6 +4475,7 @@ const data_2020s: Item[] = [
   { title: "Everything Is Going to Be OK", artist: "GoGo Penguin", year: 2023, genre: "jazz", listened: true },
   { title: "The Dio Album", artist: "Paul Gilbert", year: 2023, genre: "hard-rock", listened: true, meh: true },
   { title: "French Market", artist: "Francisco Becker, Julien Andela", year: 2023, fr: true, comment: '"La joie de vivre"', listened: true, genre: "jazz" },
+  { title: "Life Is For Living", artist: "Hoogway", year: 2023, genre: "lofi", listened: true },
 
   { title: "The Fearless Flyers IV", artist: "The Fearless Flyers", year: 2024, ep: true, listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Loss of Life", artist: "MGMT", year: 2024, listened: true, genre: "pop" },
@@ -4513,6 +4518,7 @@ const data_2020s: Item[] = [
   { title: "Chasing Ghosts", artist: "Slun", year: 2024, single: true, listened: true, genre: "electro", fr: true, stars: 1 },
   { title: "Church", artist: "Cory Henry", year: 2024 },
   { title: "From Zero", artist: "Linkin Park", year: 2024, genre: "metal", listened: true, comment: '"Two Faced"', stars: 1 },
+  { title: "Aqua de Cadaqués", artist: "Dinis", year: 2024, listened: true, genre: "lofi" },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
