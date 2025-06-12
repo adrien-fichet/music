@@ -280,7 +280,7 @@ const data_1950s: Item[] = [
   { title: "Soulville", artist: "Ben Webster", year: 1957, genre: "jazz" },
   { title: "The Poll Winners", artist: "Barney Kessel with Shelly Manne and Ray Brown", year: 1957, genre: "jazz" },
   { title: "Piccolo, Saxo et Compagnie ou la Petite Histoire d'un grand orchestre", artist: "André Popp, Jean Broussolle, François Périer", year: 1957, genre: "classical", fr: true, listened: true },
-  { title: "Passeport pour Piccolo Saxo et Compagnie", artist: "André Popp, Jean Broussolle, François Périer", year: 1957, genre: "classical", fr: true, listened: true },
+  { title: "Passeport pour Piccolo Saxo et Compagnie", artist: "André Popp, Jean Broussolle, François Périer", year: 1957, genre: "world", fr: true, listened: true },
 
   { title: "Piccolo Saxo et le Cirque Jolibois", artist: "André Popp, Jean Broussolle, François Périer", year: 1958, genre: "classical", fr: true, listened: true },
   { title: "Lady in Satin", artist: "Billie Holiday", year: 1958, listened: true, genre: "jazz" },
@@ -1062,7 +1062,7 @@ const data_1970s: Item[] = [
   { title: "The Harder They Come OST", artist: "Jimmy Cliff and Various Artists", year: 1972, comment: '"Pressure Drop"' },
   { title: "The Rise and Fall of Ziggy Stardust and the Spiders from Mars", artist: "David Bowie", year: 1972, listened: true, genre: "rock", comment: '"Moonage Daydream", "Starman", "Star", "Suffragette City"', stars: 4, fav: true },
   { title: "Soul Is... Pretty Purdie", artist: 'Bernard "Pretty" Purdie', year: 1972, listened: true, fav: true, stars: 1, genre: "soul" },
-  { title: "Piccolo et Saxo à Music City", artist: "André Popp, Jean Broussolle, François Périer", year: 1972, genre: "classical", fr: true, listened: true },
+  { title: "Piccolo et Saxo à Music City", artist: "André Popp, Jean Broussolle, François Périer", year: 1972, genre: "rock", fr: true, listened: true },
 
   { title: "The Dark Side of the Moon", artist: "Pink Floyd", year: 1973, listened: true, fav: true, stars: 4, genre: "rock", perso: true, comment: '"Breathe (In the Air)", "Time", "The Great Gig in the Sky" (vocals by Clare Torry), "Money", "Us and Them", "Brain Damage"' },
   { title: "Love Devotion Surrender", artist: "Santana & McLaughlin", year: 1973, genre: "fusion" },
@@ -2413,6 +2413,7 @@ const data_1990s: Item[] = [
   { title: "Tostaky", artist: "Noir Désir", year: 1992, fr: true, genre: "rock", comment: '"Here It Comes Slowly", "Ici Paris", "Oublié" (end drum sample), "One Trip One Noise", "Tostaky (Le continent)", "Marlène", "Lolita nie en bloc"', listened: true, stars: 4, fav: true, perso: true },
   { title: "Reel to Reel", artist: "Grand Puba", year: 1992, listened: true, genre: "rap" },
   { title: "The Antidote", artist: "Ronny Jordan", year: 1992, genre: "jazz" },
+  { title: "But Beautiful", artist: "Jimmy Raney Trio feat. George Mraz and Lewis Nash ", year: 1992, genre: "jazz", listened: true, stars: 1 },
   { title: "When It's Haynes It Roars", artist: "Roy Haynes Quartet", year: 1992, genre: "jazz" },
   { title: "Don Dada", artist: "Super Cat", year: 1992, listened: true, genre: "reggae", comment: 'Dancehall', meh: true },
   { title: "Back to the Light", artist: "Brian May", year: 1992, listened: true, genre: "rock", stars: 1, fav: true },
@@ -2558,6 +2559,7 @@ const data_1990s: Item[] = [
   { title: "Jazzmatazz. Vol. 1", artist: "Guru", year: 1993 },
   { title: "United Future Organization", artist: "United Future Organization", year: 1993 },
   { title: "Hand On The Torch", artist: "Us3", year: 1993 },
+  { title: "Facing Future", artist: "Israel Kamakawiwo'ole", year: 1993, comment: '"Somewhere Over the Rainbow/What a Wonderful World"' },
 
   { title: "The Return of the Space Cowboy", artist: "Jamiroquai", year: 1994, listened: true, genre: "funk", stars: 3, fav: true, perso: true, comment: '"Manifest Destiny", "Mr Moon", "Scam"' },
   { title: "The Suitcase - Live in Köln '94", artist: "Steve Kahn", year: 1994, genre: "fusion", live: true },
