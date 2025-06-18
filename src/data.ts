@@ -2302,7 +2302,7 @@ const data_1990s: Item[] = [
   { title: "The Brand New Heavies", artist: "The Brand New Heavies", year: 1990, listened: true, genre: "funk", stars: 1, fav: true, comment: '"Dream Come True"', perso: true },
   { title: "Social Distortion", artist: "Social Distortion", year: 1990, genre: "punk" },
   { title: "Rust In Peace", artist: "Megadeth", year: 1990, listened: true, comment: '"Holy Wars... The Punishment Due"', genre: "metal", stars: 1 },
-  { title: "Seasons in the Abyss", artist: "Slayer", year: 1990, genre: "metal" },
+  { title: "Seasons in the Abyss", artist: "Slayer", year: 1990, genre: "metal", listened: true },
   { title: "The Power", artist: "Snap!", year: 1990, listened: true, genre: "rap", single: true },
   { title: "Gonna Make You Sweat (Everybody Dance Now)", artist: "C+C Music Factory", year: 1990, single: true, listened: true, genre: "rap" },
   { title: "Ice Ice Baby", artist: "Vanilla Ice", year: 1990, listened: true, genre: "rap", single: true },
@@ -2413,7 +2413,7 @@ const data_1990s: Item[] = [
   { title: "Tostaky", artist: "Noir Désir", year: 1992, fr: true, genre: "rock", comment: '"Here It Comes Slowly", "Ici Paris", "Oublié" (end drum sample), "One Trip One Noise", "Tostaky (Le continent)", "Marlène", "Lolita nie en bloc"', listened: true, stars: 4, fav: true, perso: true },
   { title: "Reel to Reel", artist: "Grand Puba", year: 1992, listened: true, genre: "rap" },
   { title: "The Antidote", artist: "Ronny Jordan", year: 1992, genre: "jazz" },
-  { title: "But Beautiful", artist: "Jimmy Raney Trio feat. George Mraz and Lewis Nash ", year: 1992, genre: "jazz", listened: true, stars: 1 },
+  { title: "But Beautiful", artist: "Jimmy Raney Trio feat. George Mraz and Lewis Nash", year: 1992, genre: "jazz", listened: true },
   { title: "When It's Haynes It Roars", artist: "Roy Haynes Quartet", year: 1992, genre: "jazz" },
   { title: "Don Dada", artist: "Super Cat", year: 1992, listened: true, genre: "reggae", comment: 'Dancehall', meh: true },
   { title: "Back to the Light", artist: "Brian May", year: 1992, listened: true, genre: "rock", stars: 1, fav: true },
@@ -2559,7 +2559,7 @@ const data_1990s: Item[] = [
   { title: "Jazzmatazz. Vol. 1", artist: "Guru", year: 1993 },
   { title: "United Future Organization", artist: "United Future Organization", year: 1993 },
   { title: "Hand On The Torch", artist: "Us3", year: 1993 },
-  { title: "Facing Future", artist: "Israel Kamakawiwo'ole", year: 1993, comment: '"Somewhere Over the Rainbow/What a Wonderful World"' },
+  { title: "Facing Future", artist: "Israel Kamakawiwo'ole", year: 1993, comment: '"Somewhere Over the Rainbow/What a Wonderful World" ukulele', listened: true, genre: "world" },
 
   { title: "The Return of the Space Cowboy", artist: "Jamiroquai", year: 1994, listened: true, genre: "funk", stars: 3, fav: true, perso: true, comment: '"Manifest Destiny", "Mr Moon", "Scam"' },
   { title: "The Suitcase - Live in Köln '94", artist: "Steve Kahn", year: 1994, genre: "fusion", live: true },
@@ -4529,10 +4529,11 @@ const data_2020s: Item[] = [
   { title: "Parasomnia", artist: "Dream Theater", year: 2025, genre: "metal", comment: '"Night Terror"', stars: 1, listened: true },
   { title: "DEG", artist: "Vulfmon", year: 2025 },
   { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2025 },
-  { title: "Warrior Princess", artist: "Matt Johnson", year: 2025 },
+  { title: "Warrior Princess", artist: "Matt Johnson", year: 2025, listened: true, genre: "funk" },
   { title: "Somni", artist: "Snarky Puppy", year: 2025 },
   { title: "Wildfires", artist: "Polly Paulusma", year: 2025, listened: true, genre: "folk", stars: 1 },
   { title: "Echoes Of Memories", artist: "xander.", year: 2025, listened: true, genre: "lofi" },
+  { title: "And Ever", artist: "Warbaby", year: 2025, ep: true, listened: true, genre: "rock" },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
