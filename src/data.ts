@@ -119,6 +119,7 @@ const data_lt_1940: Item[] = [
   { title: "An American in Paris", artist: "Gershwin", year: 1928, listened: true, genre: "classical" },
   { title: "I Wanna Be Loved by You", artist: "Herbert Stothart & Harry Ruby", year: 1928, single: true },
   { title: "St. James Infirmary", artist: "Louis Armstrong / Don Redman", year: 1928, genre: "blues", standard: true },
+  { title: "Nobody Knows You When You're Down and Out", artist: "Jimmie Cox / Bessie Smith", year: 1929, genre: "blues", standard: true },
 
   // 1930 +
   { title: "Mood Indigo", artist: "Duke Ellington and His Famous Orchestra", year: 1930, genre: "jazz", standard: true },
@@ -1233,6 +1234,7 @@ const data_1970s: Item[] = [
   { title: "Heart Like a Wheel", artist: "Linda Ronstadt", year: 1974, listened: true, genre: "country", comment: `"You're No Good"` },
   { title: "You", artist: "Gong", year: 1974 },
   { title: "Native Dancer", artist: "Wayne Shorter", year: 1974, genre: "fusion" },
+  { title: "Adoniran Barbosa", artist: "Adoniran Barbosa", year: 1974 },
 
   { title: "Physical Graffiti", artist: "Led Zeppelin", year: 1975, comment: '"Kashmir"' },
   { title: "Sweet Hands", artist: "David Liebman", year: 1975, genre: "fusion" },
@@ -1290,7 +1292,7 @@ const data_1970s: Item[] = [
   { title: "Tonight's the Night", artist: "Neil Young", year: 1975 },
   { title: "Alive!", artist: "Kiss", year: 1975, listened: true, genre: "hard-rock" },
   { title: "Marcus Garvey", artist: "Burning Spear", year: 1975 },
-  { title: "Face the Music", artist: "Electric Light Orchestra", year: 1975 },
+  { title: "Face the Music", artist: "Electric Light Orchestra", year: 1975, listened: true, genre: "rock" },
   { title: "The Basement Tapes", artist: "Bob Dylan and the Band", year: 1975 },
   { title: "The Hissing of Summer Lawns", artist: "Joni Mitchell", year: 1975 },
   { title: "Wish You Were Here", artist: "Pink Floyd", year: 1975, comment: '"Shine On You Crazy Diamond"', listened: true, genre: "rock", stars: 4, fav: true },
@@ -1388,6 +1390,7 @@ const data_1970s: Item[] = [
   { title: "Imaginary Voyage", artist: "Jean-Luc Ponty", year: 1976, genre: "fusion", fr: true },
   { title: "Aurora", artist: "Jean-Luc Ponty", year: 1976, genre: "fusion", fr: true },
   { title: "Piccolo Saxo et la Symphonie écologique", artist: "André Popp, Jean Broussolle, François Périer", year: 1976, genre: "classical", fr: true },
+  { title: "A New World Record", artist: "Electric Light Orchestra", year: 1976 },
 
   { title: "Aja", artist: "Steely Dan", year: 1977, listened: true, fav: true, stars: 4, genre: "rock" },
   { title: "Elegant Gypsy", artist: "Al Di Meola", year: 1977, genre: "fusion", listened: true, stars: 3, fav: true },
@@ -1711,6 +1714,7 @@ const data_1980s: Item[] = [
   { title: "Pretenders", artist: "The Pretenders", year: 1980, listened: true, genre: "rock", comment: '"Brass in Pocket"' },
   { title: "Making Movies", artist: "Dire Straits", year: 1980, listened: true, fav: true, stars: 2, genre: "rock", comment: '"Tunnel of Love", "Romeo and Juliet", "Skateaway", "Expresso Love", "Solid Rock"' },
   { title: "Back in Black", artist: "AC/DC", year: 1980, listened: true, genre: "hard-rock", stars: 1, fav: true, comment: '"Hells Bells", "Shoot to Thrill", "You Shook Me All Night Long"' },
+  { title: "La Boum OST", artist: "Vladimir Cosma", year: 1980 },
 
   { title: "Fire of Unknown Origin", artist: "Blue Öyster Cult", year: 1981, listened: true, fav: true, stars: 1, genre: "hard-rock", comment: `"Burnin' For You"` },
   { title: "Word of Mouth", artist: "Jaco Pastorius", year: 1981, genre: "fusion" },
@@ -4523,6 +4527,7 @@ const data_2020s: Item[] = [
   { title: "Church", artist: "Cory Henry", year: 2024 },
   { title: "From Zero", artist: "Linkin Park", year: 2024, genre: "metal", listened: true, comment: '"Two Faced"', stars: 1 },
   { title: "Aqua de Cadaqués", artist: "Dinis", year: 2024, listened: true, genre: "lofi" },
+  { title: "Obsessed", artist: "Sophie Powers feat. Ashley Sienna", year: 2024, listened: true, genre: "electro", single: true },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
