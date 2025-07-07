@@ -1473,6 +1473,7 @@ const data_1970s: Item[] = [
   { title: "Commodores", artist: "Commodores", year: 1977, listened: true, genre: "funk", stars: 1, fav: true, comment: '"Brick House", "Easy"' },
   { title: "Cantus in Memoriam Benjamin Britten", artist: "Arvo Pärt", year: 1977, genre: "classical", listened: true },
   { title: "Jazz Guitar Virtuoso", artist: "Eddie Lang", year: 1977, genre: "jazz" },
+  { title: "Don't Let Me Be Misunderstood", artist: "Santa Esmeralda", year: 1977 },
 
   { title: "Insights", artist: "Toshiko Akiyoshi - Lew Tabackin Big Band", year: 1978, genre: "jazz" },
   { title: "Feels Good to Me", artist: "Bruford", year: 1978, genre: "fusion" },
@@ -1568,7 +1569,7 @@ const data_1970s: Item[] = [
   { title: "The Wall", artist: "Pink Floyd", year: 1979, perso: true, comment: '"Comfortably Numb", "Hey You", "Another Brick in the Wall", "Young Lust", "Mother"', listened: true, genre: "rock", stars: 4, fav: true},
   { title: "Don't Hold Back", artist: "Chanson", year: 1979, single: true, listened: true, genre: "funk" },
   { title: "Back to the Egg", artist: "Wings", year: 1979, listened: true, genre: "rock" },
-  { title: "More Spell on You", artist: "Eddie Johns", year: 1979, listened: true, genre: "soul", comment: '"More Spell On You"' },
+  { title: "More Spell on You", artist: "Eddie Johns", year: 1979, listened: true, genre: "soul" },
   { title: "Carrie Lucas in Danceland", artist: "Carrie Lucas", year: 1979 },
   { title: "African Marketplace", artist: "Dollar Brand (Abdullah Ibrahim)", year: 1979, genre: "jazz" },
   { title: "Night of the Living Dregs", artist: "Dixie Dregs", year: 1979 },
@@ -2049,7 +2050,7 @@ const data_1980s: Item[] = [
   { title: "Mr. Bad Guy", artist: "Freddie Mercury", year: 1985 },
   { title: "The African Flower", artist: "James Newton", year: 1985, genre: "jazz", listened: true },
 
-  { title: "Master Of Puppets", artist: "Metallica", year: 1986, listened: true, fav: true, stars: 2, genre: "metal", comment: '"Battery", "Master of Puppets", "Welcome Home (Sanitarium)"' },
+  { title: "Master Of Puppets", artist: "Metallica", year: 1986, listened: true, fav: true, stars: 2, genre: "metal", comment: '"Battery", "Welcome Home (Sanitarium)"' },
   { title: "Song X", artist: "Pat Metheny and Ornette Coleman", year: 1986, genre: "jazz" },
   { title: "Trilogy", artist: "Yngwie Malmsteen", year: 1986, genre: "metal" },
   { title: "Mind's Eye", artist: "Vinnie Moore", year: 1986 },
@@ -3107,6 +3108,7 @@ const data_2000s: Item[] = [
   { title: "Evening Moods", artist: "RatDog", year: 2000 },
   { title: "Both Sides of the Brain", artist: "Del the Funky Homosapien", year: 2000, genre: "rap", comment: '"If you Must"' },
   { title: "Tourist", artist: "St Germain", year: 2000 },
+  { title: "Battle Without Honor or Humanity", artist: "Tomoyasu Hotei", year: 2000, single: true },
 
   { title: "A Funk Odyssey", artist: "Jamiroquai", year: 2001, listened: true, genre: "funk", fav: true, stars: 3 },
   { title: "In Search of...", artist: "N.E.R.D.", year: 2001 },
@@ -3438,7 +3440,7 @@ const data_2000s: Item[] = [
   { title: "Network", artist: "Global Deejays", year: 2005, genre: "electro" },
   { title: "Lullabies To Paralyze", artist: "Queens of the Stone Age", year: 2005, perso: true, listened: true, comment: `"Medication", "Everybody Knows That You're Insane", "Burn the Witch", "In My Head", "Little Sister"`, genre: "hard-rock", stars: 2, fav: true },
   { title: "Human After All", artist: "Daft Punk", year: 2005, fr: true, genre: "electro" },
-  { title: "Demon days", artist: "Gorillaz", year: 2005, fav: true , listened: true, perso: true, stars: 4, genre: "rock", comment: `Médiathèque Henri Vincenot, "Last Living Souls", "Kids With Guns", "Dirty Harry", "Feel Good Inc.", "El Mañana", "Dare", "Fire Coming Out of the Monkey Head", "Don't Get Lost In Heaven", "Demon Days"` },
+  { title: "Demon Days", artist: "Gorillaz", year: 2005, fav: true , listened: true, perso: true, stars: 4, genre: "rock", comment: `Médiathèque Henri Vincenot, "Last Living Souls", "Kids With Guns", "Dirty Harry", "Feel Good Inc.", "El Mañana", "Dare", "Fire Coming Out of the Monkey Head", "Don't Get Lost In Heaven"` },
   { title: "Takk...", artist: "Sigur Rós", year: 2005, listened: true, genre: "rock", comment: "Post-rock" },
   { title: "Silent Alarm", artist: "Bloc Party", year: 2005, listened: true, genre: "rock", comment: '"Banquet", "Helicopter"', stars: 1 },
   { title: "Birdy Nam Nam", artist: "Birdy Nam Nam", year: 2005, listened: true, fr: true, genre: "electro", comment: '"Abesses"' },
