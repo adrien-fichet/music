@@ -1138,8 +1138,7 @@ const data_1970s: Item[] = [
   { title: "Catch a Fire", artist: "Bob Marley and the Wailers", year: 1973, listened: true, genre: "reggae", stars: 3, fav: true, comment: '"Stir It Up", "High Tide or Low Tide", "Kinky Reggae"' },
   { title: "Space Ritual", artist: "Hawkwind", year: 1973 },
   { title: "Paris 1919", artist: "John Cale", year: 1973, listened: true, genre: "pop" },
-  { title: "Light as a Feather", artist: "Return to Forever", year: 1973 },
-  { title: "Spain", artist: "Chick Corea", year: 1973, standard: true, genre: "jazz", listened: true },
+  { title: "Light as a Feather", artist: "Chick Corea and Return to Forever", year: 1973, listened: true, genre: "jazz", comment: '"Spain"', stars: 3, fav: true, standard: true },
   { title: "Natural High", artist: "Bloodstone", year: 1973 },
   { title: "Future Days", artist: "Can", year: 1973 },
   { title: "Virtuoso", artist: "Joe Pass", year: 1973, genre: "jazz", listened: true, comment: 'Instumental solo guitar', stars: 4, fav: true },
@@ -1197,7 +1196,7 @@ const data_1970s: Item[] = [
   { title: "Grievous Angel", artist: "Gram Parsons", year: 1974, listened: true, genre: "country" },
   { title: "Good Old Boys", artist: "Randy Newman", year: 1974 },
   { title: "Natty Dread", artist: "Bob Marley and the Wailers", year: 1974, comment: '"No Woman No Cry"', genre: "reggae", listened: true, stars: 2, fav: true },
-  { title: "Rock Bottom", artist: "Robert Wyatt", year: 1974 },
+  { title: "Rock Bottom", artist: "Robert Wyatt", year: 1974, listened: true, genre: "rock" },
   { title: "Body Heat", artist: "Quincy Jones", year: 1974, listened: true, genre: "soul" },
   { title: "Country Life", artist: "Roxy Music", year: 1974 },
   { title: "Machine Gun", artist: "Commodores", year: 1974, listened: true, genre: "funk", stars: 1, fav: true },
@@ -3466,6 +3465,7 @@ const data_2000s: Item[] = [
   { title: "Arular", artist: "M.I.A.", year: 2005 },
   { title: "Chacarron Macarron", artist: "El Chombo", year: 2005, genre: "meme", listened: true },
   { title: "Octavarium", artist: "Dream Theater", year: 2005, genre: "metal" },
+  { title: "Avant que l'ombre...", artist: "Mylène Farmer", year: 2005, fr: true, comment: `"L'amour n'est rien..."` },
 
   { title: "Back to Black", artist: "Amy Winehouse", year: 2006, listened: true, stars: 1, genre: "soul" },
   { title: "Displaced", artist: "Neil Cowley Trio", year: 2006 },
@@ -3655,6 +3655,7 @@ const data_2000s: Item[] = [
   { title: "Invasion", artist: "Joachim Garraud", year: 2008, listened: true, genre: "electro", fr: true, meh: true },
   { title: "Make the Road By Walking", artist: "Menahan Street Band", year: 2008 },
   { title: "Fame", artist: "Lady Gaga", year: 2008 },
+  { title: "Sexuality", artist: "Sébastien Tellier", year: 2008, fr: true },
 
   { title: "The Fame Monster", artist: "Lady Gaga", year: 2009, ep: true, comment: '"Bad Romance"'},
   { title: "BLACKsummers'night", artist: "Maxwell", year: 2009 },
@@ -4263,8 +4264,9 @@ const data_2010s: Item[] = [
   { title: "Thirst", artist: "SebastiAn", year: 2019, listened: true, genre: "electro", fr: true, stars: 1 },
   { title: "Doing the Things", artist: "Louis Cole", year: 2019, listened: true, genre: "funk", stars: 1 },
   { title: "Waiting Game", artist: "Terri Lyne Carrington & Social Science", year: 2019, genre: "jazz" },
-  { title: "Mydriaze", artist: "Contrefaçon", year: 2019, genre: "electro", fr: true },
-  { title: "Ancilla Domini", artist: "Contrefaçon", year: 2019, genre: "electro", fr: true, single: true },
+  { title: "Mydriaze", artist: "Contrefaçon", year: 2019, genre: "electro", fr: true, listened: true },
+  { title: "Ancilla Domini", artist: "Contrefaçon", year: 2019, genre: "electro", fr: true, single: true, listened: true },
+  { title: "A.O.P.", artist: "Camembert Au Lait Crew", year: 2019, genre: "electro", fr: true },
 ];
 
 const data_2020s: Item[] = [
@@ -4446,7 +4448,7 @@ const data_2020s: Item[] = [
   { title: "Cracker Island", artist: "Gorillaz", year: 2023, listened: true, genre: "pop", stars: 1, fav: true },
   { title: "Mythologies", artist: "Thomas Bangalter", year: 2023, genre: "classical", listened: true },
   { title: "The Boy and the Heron OST", artist: "Joe Hisaishi", year: 2023, listened: true, genre: "classical" },
-  { title: "Brûlé", artist: "Contrefaçon", year: 2023, genre: "electro", fr: true, ep: true },
+  { title: "Brûlé", artist: "Contrefaçon", year: 2023, genre: "electro", fr: true, ep: true, listened: true },
   { title: "72 Seasons", artist: "Metallica", year: 2023, genre: "metal", listened: true },
   { title: "Stank Face", artist: "Scary Pockets", year: 2023 },
   { title: "Desire, I Want To Turn Into You", artist: "Caroline Polachek", year: 2023, listened: true, genre: "pop" },
@@ -4543,6 +4545,7 @@ const data_2020s: Item[] = [
   { title: "Wildfires", artist: "Polly Paulusma", year: 2025, listened: true, genre: "folk", stars: 1 },
   { title: "Echoes Of Memories", artist: "xander.", year: 2025, listened: true, genre: "lofi" },
   { title: "And Ever", artist: "Warbaby", year: 2025, ep: true, listened: true, genre: "rock" },
+  { title: "Beyond Signals", artist: "softy", year: 2025, listened: true, genre: "lofi" },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
