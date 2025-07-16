@@ -985,6 +985,7 @@ const data_1970s: Item[] = [
   { title: "Stand By Me (Watcha See Is Whatcha Get)", artist: 'Bernard "Pretty" Purdie and the Playboys', year: 1971, listened: true, genre: "soul", stars: 2, fav: true },
   { title: "Pieces of a Man", artist: "Gil Scott-Heron", year: 1971, listened: true, genre: "soul", stars: 3, fav: true, comment: 'Ron Carter on bass' },
   { title: "Rory Gallagher", artist: "Rory Gallagher", year: 1971 },
+  { title: "I Gotcha", artist: "Joe Tex", year: 1971, single: true, listened: true, genre: "funk" },
 
   { title: "Exile on Main Street", artist: "The Rolling Stones", year: 1972, genre: "rock" },
   { title: "Ethiopian Knights", artist: "Donald Byrd", year: 1972, genre: "fusion" },
@@ -1016,7 +1017,6 @@ const data_1970s: Item[] = [
   { title: "Across 110th Street OST", artist: "Bobby Womack and J. J. Johnson", year: 1972 },
   { title: "Hollywood", artist: "The Crusaders", year: 1972 },
   { title: "Crusaders 1", artist: "The Crusaders", year: 1972 },
-  { title: "I Gotcha", artist: "Joe Tex", year: 1972 },
   { title: "Good Times", artist: "Kool and the Gang", year: 1972, listened: true, genre: "funk", stars: 1, fav: true },
   { title: "Music is the Message", artist: "Kool and the Gang", year: 1972, listened: true, genre: "funk", comment: "Ice cube album cover", stars: 1, fav: true },
   { title: "Raspberries", artist: "Raspberries", year: 1972 },
@@ -1066,6 +1066,7 @@ const data_1970s: Item[] = [
   { title: "The Rise and Fall of Ziggy Stardust and the Spiders from Mars", artist: "David Bowie", year: 1972, listened: true, genre: "rock", comment: '"Moonage Daydream", "Starman", "Star", "Suffragette City"', stars: 4, fav: true },
   { title: "Soul Is... Pretty Purdie", artist: 'Bernard "Pretty" Purdie', year: 1972, listened: true, fav: true, stars: 1, genre: "soul" },
   { title: "Piccolo et Saxo à Music City", artist: "André Popp, Jean Broussolle, François Périer", year: 1972, genre: "rock", fr: true, listened: true },
+  { title: "Candi Staton", artist: "Candi Staton", year: 1972, listened: true, genre: "soul", stars: 2, fav: true },
 
   { title: "The Dark Side of the Moon", artist: "Pink Floyd", year: 1973, listened: true, fav: true, stars: 4, genre: "rock", perso: true, comment: '"Breathe (In the Air)", "Time", "The Great Gig in the Sky" (vocals by Clare Torry), "Money", "Us and Them", "Brain Damage"' },
   { title: "Love Devotion Surrender", artist: "Santana & McLaughlin", year: 1973, genre: "fusion" },
@@ -1390,6 +1391,7 @@ const data_1970s: Item[] = [
   { title: "Aurora", artist: "Jean-Luc Ponty", year: 1976, genre: "fusion", fr: true },
   { title: "Piccolo Saxo et la Symphonie écologique", artist: "André Popp, Jean Broussolle, François Périer", year: 1976, genre: "classical", fr: true },
   { title: "A New World Record", artist: "Electric Light Orchestra", year: 1976 },
+  { title: "Young Hearts Run Free", artist: "Candi Staton", year: 1976, listened: true, genre: "disco", stars: 1 },
 
   { title: "Aja", artist: "Steely Dan", year: 1977, listened: true, fav: true, stars: 4, genre: "rock" },
   { title: "Elegant Gypsy", artist: "Al Di Meola", year: 1977, genre: "fusion", listened: true, stars: 3, fav: true },
@@ -1473,6 +1475,7 @@ const data_1970s: Item[] = [
   { title: "Cantus in Memoriam Benjamin Britten", artist: "Arvo Pärt", year: 1977, genre: "classical", listened: true },
   { title: "Jazz Guitar Virtuoso", artist: "Eddie Lang", year: 1977, genre: "jazz" },
   { title: "Don't Let Me Be Misunderstood", artist: "Santa Esmeralda", year: 1977 },
+  { title: "Music Speaks Louder than Words", artist: "Candi Staton", year: 1977, listened: true, genre: "soul", stars: 1 },
 
   { title: "Insights", artist: "Toshiko Akiyoshi - Lew Tabackin Big Band", year: 1978, genre: "jazz" },
   { title: "Feels Good to Me", artist: "Bruford", year: 1978, genre: "fusion" },
@@ -2700,6 +2703,7 @@ const data_1990s: Item[] = [
   { title: "Jagged Little Pill", artist: "Alanis Morissette", year: 1995 },
   { title: "Mellon Collie and the Infinite Sadness", artist: "The Smashing Pumpkins", year: 1995, listened: true, stars: 1, genre: "rock", comment: 'Double album, "Bullet with Butterfly Wings"' },
   { title: "A Change of Seasons", artist: "Dream Theater", year: 1995, genre: "metal", ep: true },
+  { title: "Anamorphosée", artist: "Mylène Farmer", year: 1995, fr: true, comment: '"California"' },
 
   { title: "Travelling Without Moving", artist: "Jamiroquai", year: 1996, perso: true, listened: true, genre: "funk", stars: 4, fav: true, comment: '"Virtual Insanity", "Cosmic Girl", "Use the Force", "Everyday", "Alright", "High Times"' },
   { title: "Below the Bassline", artist: "Ernest Ranglin", year: 1996, genre: "jazz" },
@@ -3347,7 +3351,6 @@ const data_2000s: Item[] = [
   { title: "R&G (Rhythm & Gangsta): The Masterpiece", artist: "Snoop Dogg", year: 2004 },
   { title: "It's My Life", artist: "No Doubt", year: 2004, single: true, comment: "Talk Talk cover", listened: true, genre: "rock", stars: 1 },
   { title: "HoboSapiens", artist: "John Cale", year: 2004 },
-  { title: "Candi Staton", artist: "Candi Staton", year: 2004 },
   { title: "Ding Dong Song", artist: "Günther", year: 2004, listened: true, genre: "meme" },
   { title: "Limit Ed", artist: "Busy P", year: 2004, fr: true, genre: "electro", ep: true },
   { title: "Dragostea din tei (Numa Numa)", artist: "O-Zone / Gman250", year: 2004, genre: "meme", listened: true },
@@ -4018,7 +4021,7 @@ const data_2010s: Item[] = [
   { title: "v2.0", artist: "GoGo Penguin", year: 2014, genre: "jazz", listened: true, stars: 1, fav: true },
 
   { title: "To Pimp a Butterfly", artist: "Kendrick Lamar", year: 2015, comment: '"King Kunta" w/ Thundercat on bass, "Alright", "i"', genre: "rap", listened: true, stars: 2, fav: true },
-  { title: "Carrie & Lowell", artist: "Sufjan Stevens", year: 2015 },
+  { title: "Carrie & Lowell", artist: "Sufjan Stevens", year: 2015, genre: "folk", listened: true, stars: 1, fav: true },
   { title: "Guitar Heroes", artist: "Joscho Stephan, Tommy Emmanuel, Stochelo Rosenberg, Biréli Lagrène", year: 2015 },
   { title: "Hand. Cannot. Erase.", artist: "Steven Wilson", year: 2015 },
   { title: "The Light of the Dawn", artist: "Asagaya", year: 2015, listened: true, genre: "trip-hop", comment: '"The Nature Creature"', stars: 1 },
