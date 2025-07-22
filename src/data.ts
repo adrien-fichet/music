@@ -702,8 +702,8 @@ const data_1960s: Item[] = [
   { title: 'The Beatles ("The White Album")', artist: "The Beatles", year: 1968, listened: true, fav: true, stars: 3, genre: "rock", comment: '"Back in the U.S.S.R.", "Dear Prudence", "Glass Onion", "Ob-La-Di, Ob-La-Da", "While My Guitar Gently Weeps", "Blackbird", "Sexy Sadie"' },
   { title: "Music From Big Pink", artist: "The Band", year: 1968, listened: true, genre: "rock" },
   { title: "Truth", artist: "Jeff Beck", year: 1968 },
-  { title: "Waiting for the Sun", artist: "The Doors", year: 1968 },
-  { title: "Gris-Gris", artist: "Dr. John, The Night Tripper", year: 1968 },
+  { title: "Waiting for the Sun", artist: "The Doors", year: 1968, listened: true, genre: "rock", stars: 3, fav: true, comment: '"Spanish Caravan"' },
+  { title: "GRIS-gris", artist: "Dr. John, the Night Tripper", year: 1968, listened: true, genre: "rock", stars: 1 },
   { title: "In-A-Gadda-Da-Vida", artist: "Iron Butterfly", year: 1968, listened: true, genre: "rock", comment: 'Psychedelic rock, 17-minute title track (riff = Sunshine of Your Love?), "Most Anything You Want" = Light My Fire?', stars: 1 },
   { title: "S.F. Sorrow", artist: "Pretty Things", year: 1968 },
   { title: "Bookends", artist: "Simon & Garfunkel", year: 1968, comment: '"Mrs. Robinson"' },
@@ -825,6 +825,7 @@ const data_1960s: Item[] = [
   { title: "Nador", artist: "Les Variations", year: 1969, fr: true, genre: "rock", listened: true, stars: 1 },
   { title: "First Take", artist: "Roberta Flack", year: 1969, listened: true, genre: "soul", stars: 2, fav: true },
   { title: "Streetnoise", artist: "Brian Auger and the Trinity", year: 1969, genre: "fusion" },
+  { title: "Babylon", artist: "Dr. John", year: 1969 },
 ];
 
 const data_1970s: Item[] = [
@@ -905,6 +906,7 @@ const data_1970s: Item[] = [
   { title: "Eric Clapton", artist: "Eric Clapton", year: 1970 },
   { title: "On Tour with Eric Clapton", artist: "Delaney & Bonnie & Friends", year: 1970, live: true },
   { title: "Moog Indigo", artist: "Jean-Jacques Perrey", year: 1970, fr: true },
+  { title: "Remedies", artist: "Dr. John", year: 1970 },
 
   { title: "Led Zeppelin IV", artist: "Led Zeppelin", year: 1971, perso: true, genre: "hard-rock", listened: true, stars: 4, fav: true, comment: '"Black Dog", "Rock and Roll", "The Battle of Evermore", "Stairway to Heaven", "Going to California", "When the Levee Breaks"' },
   { title: "Energy", artist: "Jeremy Steig", year: 1971, genre: "fusion" },
@@ -986,6 +988,7 @@ const data_1970s: Item[] = [
   { title: "Pieces of a Man", artist: "Gil Scott-Heron", year: 1971, listened: true, genre: "soul", stars: 3, fav: true, comment: 'Ron Carter on bass' },
   { title: "Rory Gallagher", artist: "Rory Gallagher", year: 1971 },
   { title: "I Gotcha", artist: "Joe Tex", year: 1971, single: true, listened: true, genre: "funk" },
+  { title: "The Sun, Moon & Herbs", artist: "Dr. John", year: 1971 },
 
   { title: "Exile on Main Street", artist: "The Rolling Stones", year: 1972, genre: "rock" },
   { title: "Ethiopian Knights", artist: "Donald Byrd", year: 1972, genre: "fusion" },
@@ -1067,6 +1070,7 @@ const data_1970s: Item[] = [
   { title: "Soul Is... Pretty Purdie", artist: 'Bernard "Pretty" Purdie', year: 1972, listened: true, fav: true, stars: 1, genre: "soul" },
   { title: "Piccolo et Saxo à Music City", artist: "André Popp, Jean Broussolle, François Périer", year: 1972, genre: "rock", fr: true, listened: true },
   { title: "Candi Staton", artist: "Candi Staton", year: 1972, listened: true, genre: "soul", stars: 2, fav: true },
+  { title: "Dr. John's Gumbo", artist: "Dr. John", year: 1972 },
 
   { title: "The Dark Side of the Moon", artist: "Pink Floyd", year: 1973, listened: true, fav: true, stars: 4, genre: "rock", perso: true, comment: '"Breathe (In the Air)", "Time", "The Great Gig in the Sky" (vocals by Clare Torry), "Money", "Us and Them", "Brain Damage"' },
   { title: "Love Devotion Surrender", artist: "Santana & McLaughlin", year: 1973, genre: "fusion" },
@@ -1153,6 +1157,7 @@ const data_1970s: Item[] = [
   { title: "Live at Carnegie Hall", artist: "Bill Withers", year: 1973, live: true, genre: "soul" },
   { title: "Black Byrd", artist: "Donald Byrd", year: 1973, genre: "fusion" },
   { title: "Black and Blues", artist: "Bobbi Humphrey", year: 1973 },
+  { title: "In the Right Place", artist: "Dr. John", year: 1973 },
 
   { title: "Pretzel Logic", artist: "Steely Dan", year: 1974, listened: true, fav: true, stars: 1, genre: "rock", comment: `"Rikki Don't Lose That Number", "Night By Night", "Any Major Dude Will Tell You"` },
   { title: "Red", artist: "King Crimson", year: 1974, listened: true, genre: "rock" },
@@ -1333,7 +1338,7 @@ const data_1970s: Item[] = [
   { title: "Sur la route de Memphis", artist: "Eddy Mitchell", year: 1976, fr: true },
   { title: "Ain't That a Bitch", artist: 'Johny "Guitar" Watson', year: 1976, comment: '"Superman Lover"' },
   { title: "King Tubbys Meets Rockers Uptown", artist: "Augustus Pablo", year: 1976 },
-  { title: "Jailbreak", artist: "Thin Lizzy", year: 1976 },
+  { title: "Jailbreak", artist: "Thin Lizzy", year: 1976, listened: true, genre: "hard-rock", stars: 1 },
   { title: "Oscar Peterson and Dizzy Gillespie", artist: "Oscar Peterson, Dizzy Gillespie", year: 1976, genre: "jazz" },
   { title: "Night Moves", artist: "Bob Seger", year: 1976 },
   { title: "Rising", artist: "Rainbow", year: 1976 },
@@ -1861,6 +1866,7 @@ const data_1980s: Item[] = [
   { title: "Zapp II", artist: "Zapp", year: 1982 },
   { title: "Toto IV", artist: "Toto", year: 1982, listened: true, fav: true, stars: 1, genre: "rock", comment: '"Africa"' },
   { title: "Thriller", artist: "Michael Jackson", year: 1982, listened: true, perso: true, stars: 2, fav: true, genre: "pop", comment: 'Produced by Quincy Jones, "Beat It", "Billie Jean"' },
+  { title: "Rhythm of Youth", artist: "Men Without Hats", year: 1982, genre: "new-wave", comment: '"The Safety Dance"' },
 
   { title: "She's So Unusual", artist: "Cyndi Lauper", year: 1983, comment: '"Time After Time", "Girls Just Want to Have Fun"', listened: true, genre: "pop" },
   { title: "Metal Health", artist: "Quiet Riot", year: 1983 },
@@ -1931,6 +1937,7 @@ const data_1980s: Item[] = [
   { title: "Melissa", artist: "Mercyful Fate", year: 1983, listened: true, genre: "metal" },
   { title: "Success", artist: "The Weather Girls", year: 1983, comment: `"It's Raining Men"`, listened: true, genre: "disco", stars: 1, fav: true },
   { title: "Eliminator", artist: "ZZ Top", year: 1983, perso: true, genre: "hard-rock", listened: true, stars: 3, fav: true, comment: `"Gimme All Your Lovin'", "Got Me Under Pressure", "Sharp Dressed Man", "I Need You Tonight", "Legs"` },
+  { title: "Confrontation", artist: "Bob Marley and the Wailers", year: 1983, genre: "reggae" },
 
   { title: "Purple Rain", artist: "Prince and the Revolution", year: 1984, perso: true },
   { title: "Agent Provocateur", artist: "Foreigner", year: 1984, listened: true, genre: "rock", comment: '"I Wanna Know What Love Is"' },
@@ -1974,7 +1981,7 @@ const data_1980s: Item[] = [
   { title: "Rattlesnakes", artist: "Lloyd Cole and the Commotions", year: 1984 },
   { title: "Hot House Flowers", artist: "Wynton Marsalis", year: 1984, genre: "jazz" },
   { title: "Ocean Rain", artist: "Echo & the Bunnymen", year: 1984 },
-  { title: '"Weird Al" Yankovic in 3-D', artist: '"Weird Al" Yankovic', year: 1984 },
+  { title: '"Weird Al" Yankovic in 3-D', artist: '"Weird Al" Yankovic', year: 1984, listened: true, stars: 1, fav: true, comment: '"Eat It", "I Lost on Jeopardy", "Polkas on 45"', genre: "rock" },
   { title: "Private Dancer", artist: "Tina Turner", year: 1984, comment: `"What's Love Got to Do With It", "Let's Stay Together"`, listened: true, genre: "pop", stars: 1, fav: true },
   { title: "Treasure", artist: "Cocteau Twins", year: 1984 },
   { title: "Positif", artist: "Jean-Jacques Goldman", year: 1984, fr: true, listened: true, genre: "rock", comment: '"Envole-moi", "Encore un matin"', stars: 1, fav: true },
@@ -3861,7 +3868,7 @@ const data_2010s: Item[] = [
   { title: "Scratch My Itch", artist: "The Soul Snatchers", year: 2012 },
   { title: "ill Manors OST", artist: "Plan B", year: 2012, listened: true, genre: "rap" },
   { title: "The Money Store", artist: "Death Grips", year: 2012 },
-  { title: "> album title goes here <", artist: "Deadmau5", year: 2012, genre: "electro" },
+  { title: "> album title goes here <", artist: "Deadmau5", year: 2012, genre: "electro", listened: true, comment: '"Maths"', perso: true },
   { title: "Tetr4", artist: "C2C", year: 2012, fr: true, genre: "electro", listened: true, comment: '"Down the Road", "The Beat"', stars: 2, fav: true },
   { title: "Oh My Dayum", artist: "Schmoyoho", year: 2012, genre: "meme", listened: true },
   { title: "Call Me Maybe", artist: "Carly Rae Jepsen", year: 2012, single: true, genre: "pop", listened: true },
@@ -3901,6 +3908,7 @@ const data_2010s: Item[] = [
   { title: "Blunderbuss", artist: "Jack White", year: 2012 },
   { title: "Hotline Miami OST", artist: "Various Artists", year: 2012, genre: "vgm" },
   { title: "EP I", artist: "Carpenter Brut", year: 2012, fr: true, genre: "electro", ep: true },
+  { title: "Locked Down", artist: "Dr. John", year: 2012, listened: true, genre: "rock", comment: '"Getaway"', stars: 2, fav: true },
 
   { title: "My First Car", artist: "Vulpeck", year: 2013, listened: true, genre: "funk", fav: true, stars: 1, ep: true, comment: '"The Speedwalker"' },
   { title: "Level Five Stage One", artist: "The Laszlo Project", year: 2013 },
