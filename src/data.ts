@@ -1938,6 +1938,7 @@ const data_1980s: Item[] = [
   { title: "Success", artist: "The Weather Girls", year: 1983, comment: `"It's Raining Men"`, listened: true, genre: "disco", stars: 1, fav: true },
   { title: "Eliminator", artist: "ZZ Top", year: 1983, perso: true, genre: "hard-rock", listened: true, stars: 3, fav: true, comment: `"Gimme All Your Lovin'", "Got Me Under Pressure", "Sharp Dressed Man", "I Need You Tonight", "Legs"` },
   { title: "Confrontation", artist: "Bob Marley and the Wailers", year: 1983, genre: "reggae" },
+  { title: "Kihnspiracy", artist: "The Greg Kihn Band", year: 1983, comment: '"Jeopardy"' },
 
   { title: "Purple Rain", artist: "Prince and the Revolution", year: 1984, perso: true },
   { title: "Agent Provocateur", artist: "Foreigner", year: 1984, listened: true, genre: "rock", comment: '"I Wanna Know What Love Is"' },
@@ -3312,7 +3313,7 @@ const data_2000s: Item[] = [
   { title: "The Matrix Reloaded OST", artist: "Various Artists", year: 2003, perso: true, comment: '"Mona Lisa Overdrive"' },
   { title: "The Diary of Alicia Keys", artist: "Alicia Keys", year: 2003 },
   { title: "Ghost of a Rose", artist: "Blackmore's Night", year: 2003, listened: true, genre: "rock", stars: 1, fav: true },
-  { title: "Sleeping with Ghosts", artist: "Placebo", year: 2003, perso: true },
+  { title: "Sleeping with Ghosts", artist: "Placebo", year: 2003, perso: true, listened: true, genre: "rock", stars: 1, fav: true, comment: '"This Picture", "The Bitter End"' },
   { title: "Reality", artist: "David Bowie", year: 2003, genre: "rock", listened: true, stars: 2, fav: true, comment: '"New Killer Star", "Never Get Old"' },
   { title: "Wonderful Rainbow", artist: "Lightning Bolt", year: 2003 },
   { title: "Boy In Da Corner", artist: "Dizzee Rascal", year: 2003 },
