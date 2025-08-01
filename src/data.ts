@@ -1649,6 +1649,7 @@ const data_1970s: Item[] = [
   { title: "Pink Moon", artist: "Nick Drake", year: 1979, listened: true, genre: "folk" },
   { title: "Damn the Torpedoes", artist: "Tom Petty and the Heartbreakers", year: 1979, listened: true, genre: "rock", comment: '"Refugee"', stars: 1 },
   { title: "Singles Going Steady", artist: "Buzzcocks", year: 1979, listened: true, genre: "punk", comment: `Double compilation album, "Ever Fallen in Love (With Someone You Shouldn'n't've)"`, stars: 1 },
+  { title: "Kylyn", artist: "Kazumi Watanabe", year: 1979, genre: "fusion", listened: true },
 ];
 
 const data_1980s: Item[] = [
@@ -2230,7 +2231,7 @@ const data_1980s: Item[] = [
   { title: "Vivid", artist: "Living Colour", year: 1988 },
   { title: "Idlewild", artist: "Everything But The Girl", year: 1988, listened: true, genre: "pop" },
   { title: "Truth and Soul", artist: "Fishbone", year: 1988 },
-  { title: "Fisherman's Blues", artist: "The Waterboys", year: 1988 },
+  { title: "Fisherman's Blues", artist: "The Waterboys", year: 1988, listened: true, genre: "folk" },
   { title: "I'm your Man", artist: "Leonard Cohen", year: 1988 },
   { title: "Immigrés / Bitim Rew", artist: "Youssou Ndour & Le Super Etoile de Dakar", year: 1988 },
   { title: "Seventh Son of a Seventh Son", artist: "Iron Maiden", year: 1988, listened: true, genre: "hard-rock", stars: 2, fav: true },
@@ -2697,7 +2698,7 @@ const data_1990s: Item[] = [
   { title: "Alien Lanes", artist: "Guided By Voices", year: 1995, listened: true, genre: "rock", comment: "Lo-Fi", meh: true },
   { title: "Elastica", artist: "Elastica", year: 1995 },
   { title: "I Should Coco", artist: "Supergrass", year: 1995 },
-  { title: "Me Against the World", artist: "2Pac", year: 1995 },
+  { title: "Me Against the World", artist: "2Pac", year: 1995, listened: true, genre: "rap", stars: 1, comment: '"Dear Mama"' },
   { title: "Exit Planet Dust", artist: "The Chemical Brothers", year: 1995 },
   { title: "Scream, Dracula, Scream!", artist: "Rocket From the Crypt", year: 1995, listened: true, genre: "punk" },
   { title: "Maxinquaye", artist: "Tricky", year: 1995 },
@@ -4254,7 +4255,7 @@ const data_2010s: Item[] = [
   { title: "S3NS", artist: "Ibrahim Maalouf", year: 2019, listened: true, genre: "jazz", comment: '"Happy Face"', stars: 2, fav: true },
   { title: "Kiwanuka", artist: "Michael Kiwanuka", year: 2019, listened: true, genre: "soul", stars: 2, fav: true },
   { title: "Psychodrama", artist: "Dave", year: 2019 },
-  { title: "Gold & Grey", artist: "Baroness", year: 2019 },
+  { title: "Gold & Grey", artist: "Baroness", year: 2019, listened: true, genre: "metal" },
   { title: "Jimmy Lee", artist: "Raphael Saadiq", year: 2019, listened: true, genre: "r-n-b" },
   { title: "Lettre infinie", artist: "-M-", year: 2019, fr: true, listened: true, genre: "pop" },
   { title: "Spooky Scary Skeletons - Undead Tombstone Remix", artist: "Andrew Gold", year: 2019, listened: true, genre: "meme" },
