@@ -155,6 +155,7 @@ const data_lt_1940: Item[] = [
   { title: "Over the Rainbow", artist: "Harold Arlen / Judy Garland", year: 1939, single: true, listened: true, genre: "jazz", comment: 'The Wizard of Oz' },
   { title: "Solo Flight: The Genius of Charlie Christian", artist: "Charlie Christian", year: 1939, genre: "jazz", comment: 'Double album released in 1972' },
   { title: "The Genius of the Electric Guitar", artist: "Charlie Christian", year: 1939, genre: "jazz", comment: '1939-1941 recordings' },
+  { title: "In the Mood", artist: "Glenn Miller and his Orchestra", year: 1939, genre: "jazz", standard: true },
 ];
 
 const data_1940s: Item[] = [
@@ -2715,6 +2716,7 @@ const data_1990s: Item[] = [
   { title: "Mellon Collie and the Infinite Sadness", artist: "The Smashing Pumpkins", year: 1995, listened: true, stars: 1, genre: "rock", comment: 'Double album, "Bullet with Butterfly Wings"' },
   { title: "A Change of Seasons", artist: "Dream Theater", year: 1995, genre: "metal", ep: true },
   { title: "Anamorphosée", artist: "Mylène Farmer", year: 1995, fr: true, comment: '"California"' },
+  { title: "Saved My Life", artist: "Todd Edwards", year: 1995, genre: "electro", single: true },
 
   { title: "Travelling Without Moving", artist: "Jamiroquai", year: 1996, perso: true, listened: true, genre: "funk", stars: 4, fav: true, comment: '"Virtual Insanity", "Cosmic Girl", "Use the Force", "Everyday", "Alright", "High Times"' },
   { title: "Below the Bassline", artist: "Ernest Ranglin", year: 1996, genre: "jazz" },
@@ -3042,6 +3044,7 @@ const data_1990s: Item[] = [
   { title: "Hello My Name Is", artist: "DJ Falcon", year: 1999, fr: true, genre: "electro" },
   { title: "All Hallows", artist: "AFI", year: 1999, genre: "metal", comment: '"The Boy That Destroyed the World"', ep: true },
   { title: "A2G", artist: "Blackalicious", year: 1999, genre: "rap", ep: true, comment: '"Alphabet Aerobics", Quannum Projects', stars: 2, fav: true, listened: true },
+  { title: "Get Get Down", artist: "Paul Johnson", year: 1999, genre: "electro", single: true, listened: true },
 ];
 
 const data_2000s: Item[] = [
