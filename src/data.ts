@@ -591,7 +591,7 @@ const data_1960s: Item[] = [
   { title: "I Had Too Much To Dream (Last Night)", artist: "The Electric Prunes", year: 1966 },
   { title: "Blues Breakers", artist: "John Mayall & the Bluesbreakers", year: 1966, comment: 'The Beano Album, "All Your Love"', listened: true, genre: "blues", stars: 2, fav: true },
   { title: "The Spirit of '67", artist: "Paul Revere & the Raiders", year: 1966, comment: '"Good Thing"', genre: "rock" },
-  { title: "Flowers on the Wall", artist: "The Statler Brothers", year: 1966 },
+  { title: "Flowers on the Wall", artist: "The Statler Brothers", year: 1966, listened: true, genre: "country", comment: `Bruce Willis Pulp Fiction's low-voiced "Kangaroo"` },
   { title: "Dream Weaver", artist: "Charles Lloyd", year: 1966, genre: "jazz" },
   { title: "Intermodulation", artist: "Jim Hall, Bill Evans", year: 1966, genre: "jazz" },
 
@@ -3895,7 +3895,7 @@ const data_2010s: Item[] = [
   { title: "Comme un aigle", artist: "Michel Vedette", year: 2012, fr: true, listened: true, genre: "meme" },
   { title: "Django Unchained OST", artist: "Various Artists", year: 2012 },
   { title: "Army of Mushrooms", artist: "Infected Mushroom", year: 2012, listened: true, genre: "electro", stars: 1, fav: true },
-  { title: "The Noise in the Sky", artist: "Krazy Baldhead", year: 2012, genre: "electro", fr: true },
+  { title: "The Noise in the Sky", artist: "Krazy Baldhead", year: 2012, genre: "electro", fr: true, listened: true },
   { title: "DJ-KiCKS: Digitalism", artist: "Various Artists", year: 2012, listened: true, genre: "electro", perso: true, stars: 1, fav: true, comment: '"Travellers", "Falling", !K7 Records' },
   { title: "HELLHOUND", artist: "Truxton [LAPFOX TRAX]", year: 2012 },
   { title: "Panic Protocol", artist: "Truxton [LAPFOX TRAX]", year: 2012, listened: true, genre: "electro", fav: true, stars: 1 },
@@ -4509,6 +4509,7 @@ const data_2020s: Item[] = [
   { title: "The Dio Album", artist: "Paul Gilbert", year: 2023, genre: "hard-rock", listened: true, meh: true },
   { title: "French Market", artist: "Francisco Becker, Julien Andela", year: 2023, fr: true, comment: '"La joie de vivre"', listened: true, genre: "jazz" },
   { title: "Life Is For Living", artist: "Hoogway", year: 2023, genre: "lofi", listened: true },
+  { title: "Arcadia", artist: "Goson, Dreamfield", year: 2023, genre: "lofi", listened: true, ep: true },
 
   { title: "The Fearless Flyers IV", artist: "The Fearless Flyers", year: 2024, ep: true, listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Loss of Life", artist: "MGMT", year: 2024, listened: true, genre: "pop" },
