@@ -632,7 +632,7 @@ const data_1960s: Item[] = [
   { title: "Magical Mystery Tour", artist: "The Beatles", year: 1967 },
   { title: "Moby Grape", artist: "Moby Grape", year: 1967 },
   { title: "United", artist: "Marvin Gaye and Tammi Terrell", year: 1967, listened: true, stars: 1, genre: "soul", comment: `"Ain't No Mountain High Enough"` },
-  { title: "The Who Sell Out", artist: "The Who", year: 1967 },
+  { title: "The Who Sell Out", artist: "The Who", year: 1967, listened: true, genre: "rock", comment: '"I Can See For Miles"' },
   { title: "Wild Honey", artist: "The Beach Boys", year: 1967, listened: true, genre: "rock" },
   { title: "Days of Future Passed", artist: "The Moody Blues", year: 1967, comment: 'Orchestral Rock concept album, "Nights in White Satin"', listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Surrealistic Pillow", artist: "Jefferson Airplane", year: 1967, comment: '"White Rabbit"' },
@@ -3857,6 +3857,7 @@ const data_2010s: Item[] = [
   { title: "Take Care", artist: "Drake", year: 2011, listened: true, genre: "rap" },
   { title: "Stade 2", artist: "Mr. Oizo", year: 2011, fr: true, genre: "electro", listened: true, comment: '"Druide"' },
   { title: "And the Time-Axis Manipulation Corporation", artist: "Mickey Moonlight", year: 2011 },
+  { title: "Mosaik", artist: "Siriusmo", year: 2011, genre: "electro", listened: true, stars: 1, comment: '"Feromonikon"' },
 
   { title: "Vollmilch", artist: "Vulfpeck", year: 2012, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
   { title: "PANIC", artist: "Caravan Palace", year: 2012, fr: true },
@@ -3973,7 +3974,7 @@ const data_2010s: Item[] = [
   { title: "Modern Vampires of the City", artist: "Vampire Weekend", year: 2013 },
   { title: "AM", artist: "Arctic Monkeys", year: 2013, listened: true, genre: "rock", stars: 1 },
   { title: "Yeezus", artist: "Kanye West", year: 2013, genre: "rap" },
-  { title: "The Bones of What You Believe", artist: "Chvrches", year: 2013 },
+  { title: "The Bones of What You Believe", artist: "Chvrches", year: 2013, listened: true, genre: "pop" },
   { title: "Random Access Memories", artist: "Daft Punk", year: 2013, listened: true, fav: true, perso: true, stars: 3, genre: "electro", fr: true, comment: 'Bus -> univ' },
   { title: "GAS GAS GAS", artist: "Manuel", year: 2013, listened: true, fav: true, stars: 1, genre: "meme" },
   { title: "Blizzard", artist: "Fauve", year: 2013, fr: true, ep: true, listened: true, genre: "chanson", stars: 1, fav: true },
@@ -4550,7 +4551,7 @@ const data_2020s: Item[] = [
   { title: "Meanwhile", artist: "Eric Clapton", year: 2024, comment: '"Moon River" feat. Jeff Beck', listened: true, genre: "blues" },
   { title: "Twentyfour", artist: "Al Di Meola", year: 2024, listened: true, genre: "jazz" },
   { title: "Chasing Ghosts", artist: "Slun", year: 2024, single: true, listened: true, genre: "electro", fr: true, stars: 1 },
-  { title: "Church", artist: "Cory Henry", year: 2024 },
+  { title: "Church", artist: "Cory Henry", year: 2024, listened: true, genre: "soul" },
   { title: "From Zero", artist: "Linkin Park", year: 2024, genre: "metal", listened: true, comment: '"Two Faced"', stars: 1 },
   { title: "Aqua de Cadaqués", artist: "Dinis", year: 2024, listened: true, genre: "lofi" },
   { title: "Obsessed", artist: "Sophie Powers feat. Ashley Sienna", year: 2024, listened: true, genre: "electro", single: true },
@@ -4568,6 +4569,8 @@ const data_2020s: Item[] = [
   { title: "Echoes Of Memories", artist: "xander.", year: 2025, listened: true, genre: "lofi" },
   { title: "And Ever", artist: "Warbaby", year: 2025, ep: true, listened: true, genre: "rock" },
   { title: "Beyond Signals", artist: "softy", year: 2025, listened: true, genre: "lofi" },
+  { title: "The Fearless Flyers V", artist: "The Fearless Flyers", year: 2025, listened: true, genre: "funk", stars: 2, fav: true },
+  { title: "Divine Time", artist: "Cory Henry", year: 2025 },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
