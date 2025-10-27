@@ -2925,7 +2925,7 @@ const data_1990s: Item[] = [
   { title: "Mezzanine", artist: "Massive Attack", year: 1998, listened: true, stars: 1, genre: "trip-hop" },
   { title: "Pilgrim", artist: "Eric Clapton", year: 1998, listened: true, genre: "rock" },
   { title: "Follow the Leader", artist: "Korn", year: 1998, genre: "metal" },
-  { title: "A Go Go", artist: "John Scofield", year: 1998, genre: "jazz" },
+  { title: "A Go Go", artist: "John Scofield", year: 1998, genre: "jazz", listened: true, stars: 2, fav: true },
   { title: "Gran Turismo", artist: "The Cardigans", year: 1998, listened: true, genre: "rock", fav: true, perso: true, stars: 2, comment: '"My Favourite Game"' },
   { title: "Dònde Estàn los Ladrones", artist: "Shakira", year: 1998 },
   { title: "Hellbilly Deluxe", artist: "Rob Zombie", year: 1998, genre: "metal" },
@@ -3801,6 +3801,7 @@ const data_2010s: Item[] = [
   { title: "The Way of the World", artist: "Mose Allison", year: 2010, genre: "jazz" },
   { title: "Donso", artist: "Donso", year: 2010 },
   { title: "Fuzz Universe", artist: "Paul Gilbert", year: 2010 },
+  { title: "PUDDI PUDDI", artist: "Takara Tomy", year: 2010, genre: "meme", listened: true },
 
   { title: "Mit Peck", artist: "Vulfpeck", year: 2011, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
   { title: "Pop Culture", artist: "Madeon [YT]", year: 2011, listened: true, genre: "electro", stars: 1, single: true, fav: true },
@@ -3921,6 +3922,7 @@ const data_2010s: Item[] = [
   { title: "Hotline Miami OST", artist: "Various Artists", year: 2012, genre: "vgm" },
   { title: "EP I", artist: "Carpenter Brut", year: 2012, fr: true, genre: "electro", ep: true },
   { title: "Locked Down", artist: "Dr. John", year: 2012, listened: true, genre: "rock", comment: '"Getaway"', stars: 2, fav: true },
+  { title: "Nikouli Makouli", artist: "E-DON!", year: 2012, genre: "meme", fav: true, stars: 1, listened: true },
 
   { title: "My First Car", artist: "Vulpeck", year: 2013, listened: true, genre: "funk", fav: true, stars: 1, ep: true, comment: '"The Speedwalker"' },
   { title: "Level Five Stage One", artist: "The Laszlo Project", year: 2013 },
