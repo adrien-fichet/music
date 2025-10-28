@@ -1045,7 +1045,7 @@ const data_1970s: Item[] = [
   { title: "Honky Château", artist: "Elton John", year: 1972, listened: true, genre: "pop", comment: '"Rocket Man"' },
   { title: "Sail Away", artist: "Randy Newman", year: 1972, listened: true, genre: "pop", comment: '"You Can Leave Your Hat On"' },
   { title: "Eagles", artist: "Eagles", year: 1972, listened: true, genre: "rock", comment: '"Take It Easy"', stars: 1 },
-  { title: "Soul Makossa", artist: "Manu Dibango", year: 1972 },
+  { title: "Soul Makossa", artist: "Manu Dibango", year: 1972, single: true, listened: true, genre: "world" },
   { title: "Manassas", artist: "Stephen Stills and Manassas", year: 1972 },
   { title: "Amoureuse", artist: "Véronique Sanson", year: 1972, fr: true },
   { title: "The Slider", artist: "T. Rex", year: 1972 },
@@ -3799,7 +3799,7 @@ const data_2010s: Item[] = [
   { title: "LP4", artist: "Ratatat", year: 2010, listened: true, fav: true, stars: 1, genre: "rock" },
   { title: "Nyanyanyanyanyanyanya!", artist: "daniwell", year: 2010, listened: true, genre: "meme", comment: "Nyan Cat" },
   { title: "The Way of the World", artist: "Mose Allison", year: 2010, genre: "jazz" },
-  { title: "Donso", artist: "Donso", year: 2010 },
+  { title: "Donso", artist: "Donso", year: 2010, listened: true, genre: "world", comment: 'Krazy Baldhead' },
   { title: "Fuzz Universe", artist: "Paul Gilbert", year: 2010 },
   { title: "PUDDI PUDDI", artist: "Takara Tomy", year: 2010, genre: "meme", listened: true },
 
@@ -3983,6 +3983,7 @@ const data_2010s: Item[] = [
   { title: "Random Access Memories", artist: "Daft Punk", year: 2013, listened: true, fav: true, perso: true, stars: 3, genre: "electro", fr: true, comment: 'Bus -> univ' },
   { title: "GAS GAS GAS", artist: "Manuel", year: 2013, listened: true, fav: true, stars: 1, genre: "meme" },
   { title: "Blizzard", artist: "Fauve", year: 2013, fr: true, ep: true, listened: true, genre: "chanson", stars: 1, fav: true },
+  { title: "Überjam Deux", artist: "John Scofield", year: 2013, genre: "jazz", comment: '"Scotown"' },
 
   { title: "Fugue State", artist: "Vulpeck", year: 2014, ep: true, listened: true, genre: "funk", stars: 3, fav: true, comment: '"1612"' },
   { title: "Corazón", artist: "Santana", year: 2014, comment: 'Latin rock, "Iron Lion Zion"', listened: true, genre: "rock" },
