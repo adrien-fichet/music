@@ -5,5 +5,5 @@ This is a web app to help me keep track of music I've listened to, as well as mu
 It uses Svelte, Vite, Vitest, Bun and Typescript.
 
 - Run dev server: `bun run dev`
-- Run tests: `bunx vitest run`
-- Check packages updates: `bunx ncu`
+- Run tests: `bun vitest run`
+- Check packages updates: `bun ncu`
