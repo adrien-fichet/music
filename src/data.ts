@@ -3989,6 +3989,7 @@ const data_2010s: Item[] = [
   { title: "GAS GAS GAS", artist: "Manuel", year: 2013, listened: true, fav: true, stars: 1, genre: "meme" },
   { title: "Blizzard", artist: "Fauve", year: 2013, fr: true, ep: true, listened: true, genre: "chanson", stars: 1, fav: true },
   { title: "Überjam Deux", artist: "John Scofield", year: 2013, genre: "jazz", comment: '"Scotown"' },
+  { title: "Birds Requiem", artist: "Dhafer Youssef", year: 2013, genre: "world" },
 
   { title: "Fugue State", artist: "Vulpeck", year: 2014, ep: true, listened: true, genre: "funk", stars: 3, fav: true, comment: '"1612"' },
   { title: "Corazón", artist: "Santana", year: 2014, comment: 'Latin rock, "Iron Lion Zion"', listened: true, genre: "rock" },
@@ -4010,7 +4011,7 @@ const data_2010s: Item[] = [
   { title: "Style Meets Substance", artist: "Marcus Anderson", year: 2014 },
   { title: "Gotcha Rhythm Right Here", artist: "John Tropea", year: 2014, listened: true, genre: "jazz", comment: 'Instrumental guitar jazz funk, "Chili Wa Man"', stars: 1 },
   { title: "Wiggle", artist: "Jason Derulo feat. Snoop Dogg", year: 2014, genre: "meme", listened: true },
-  { title: "Another Time", artist: "Nate Wood", year: 2014 },
+  { title: "Another Time", artist: "Nate Wood", year: 2014, listened: true, genre: "pop" },
   { title: "Black Moon Rising", artist: "TeddyLoid", year: 2014, listened: true, genre: "electro", meh: true },
   { title: "Lazaretto", artist: "Jack White", year: 2014, listened: true, genre: "rock", stars: 1 },
   { title: "The New Classic", artist: "Iggy Azalea", year: 2014, comment: '"Fancy"', listened: true, genre: "rap", meh: true },
@@ -4187,7 +4188,7 @@ const data_2010s: Item[] = [
   { title: "Villains", artist: "Queens of the Stone Age", year: 2017, listened: true, genre: "hard-rock", stars: 1 },
   { title: "From Deewee", artist: "Soulwax", year: 2017, listened: true, genre: "electro", meh: true },
   { title: "Drunk", artist: "Thundercat", year: 2017, listened: true, stars: 1, genre: "funk" },
-  { title: "DAMN.", artist: "Kendrick Lamar", year: 2017, genre: "rap" },
+  { title: "DAMN.", artist: "Kendrick Lamar", year: 2017, genre: "rap", listened: true },
   { title: "La fête est finie", artist: "Orelsan", year: 2017, fr: true, genre: "rap", listened: true, stars: 1 },
   { title: "Golden Hour", artist: "Kacey Musgraves", year: 2017, listened: true, genre: "pop", stars: 1 },
   { title: "Ctrl", artist: "SZA", year: 2017 },
@@ -4583,6 +4584,7 @@ const data_2020s: Item[] = [
   { title: "Beyond Signals", artist: "softy", year: 2025, listened: true, genre: "lofi" },
   { title: "The Fearless Flyers V", artist: "The Fearless Flyers", year: 2025, listened: true, genre: "funk", stars: 2, fav: true },
   { title: "Divine Time", artist: "Cory Henry", year: 2025 },
+  { title: "Shiraz", artist: "Dhafer Youssef", year: 2025, listened: true, genre: "world", stars: 1, fav: true, comment: '"Eyeblink and Eternity (Pt. 2)"' },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
