@@ -77,7 +77,7 @@ const data_lt_1940: Item[] = [
   { title: "Danses slaves, op. 72", artist: "Dvorak", year: 1888 },
   { title: "Peer Gynt", artist: "Grieg", year: 1888, listened: true, genre: "classical", comment: '"Au matin"' },
   { title: "Schéhérazade, op. 35", artist: "Rimski-Korsakov", year: 1888 },
-  { title: "Gnossiennes", artist: "Satie", year: 1889, fr: true, genre: "piano" },
+  { title: "Gnossiennes", artist: "Satie", year: 1889, fr: true, genre: "piano", listened: true },
   { title: "Suite bergamasque", artist: "Debussy", year: 1890, fr: true, listened: true, genre: "piano", comment: '"Clair de Lune"' },
   { title: "Prince Igor", artist: "Borodine", year: 1890, listened: true, genre: "classical" },
   { title: "Casse-Noisette, op. 71", artist: "Tchaïkovski", year: 1892, listened: true, genre: "classical", fav: true },
@@ -463,7 +463,7 @@ const data_1960s: Item[] = [
   { title: "The Sidewinder", artist: "Lee Morgan", year: 1964, genre: "jazz", listened: true, comment: '(standard = album title track)', standard: true },
   { title: "You Really Got Me", artist: "The Kinks", year: 1964, single: true, listened: true, genre: "rock", stars: 1 },
   { title: "Up On the Roof", artist: "The Drifters", year: 1964, single: true, listened: true, genre: "soul" },
-  { title: "The Animals", artist: "The Animals", year: 1964, comment: '"House of the Rising Sun", US version' },
+  { title: "The Animals", artist: "The Animals", year: 1964, comment: '(US album) "House of the Rising Sun"' },
   { title: "Ella Fitzgerald Sings the Johnny Mercer Song Book", artist: "Ella Fitzgerald", year: 1964, genre: "jazz" },
   { title: "Getz / Gilberto", artist: "Stan Getz & Joao Gilberto", year: 1964, genre: "jazz", comment: 'Bossa nova, "The Girl from Ipanema"' },
   { title: "Presenting the Fabulous Ronettes", artist: "The Ronettes", year: 1964 },
@@ -1889,7 +1889,7 @@ const data_1980s: Item[] = [
   { title: "Standards, Vol. 1", artist: "Keith Jarrett", year: 1983, genre: "jazz" },
   { title: "Rush Rush", artist: "Deborah Harry", year: 1983, listened: true, single: true, genre: "new-wave" },
   { title: "Portrait", artist: "Gwen Guthrie", year: 1983 },
-  { title: "In a Special Way", artist: "DeBarge", year: 1983 },
+  { title: "In a Special Way", artist: "DeBarge", year: 1983, listened: true, genre: "soul" },
   { title: "Between the Sheets", artist: "The Isley Brothers", year: 1983 },
   { title: "Future Shock", artist: "Herbie Hancock", year: 1983, comment: '"Rockit"' },
   { title: "Paris Latino", artist: "Bandolero", year: 1983, single: true, fr: true, genre: "disco", listened: true },
@@ -2064,7 +2064,7 @@ const data_1980s: Item[] = [
   { title: "Whitney Houston", artist: "Whitney Houston", year: 1985 },
   { title: "The New Zapp IV U", artist: "Zapp", year: 1985, listened: true, genre: "funk" },
   { title: "Brothers in Arms", artist: "Dire Straits", year: 1985, listened: true, fav: true, stars: 2, perso: true, genre: "rock", comment: '"So Far Away", "Money for Nothing", "Walk of Life", Live in San Antonio (40th aniversary edition)' },
-  { title: "Mr. Bad Guy", artist: "Freddie Mercury", year: 1985 },
+  { title: "Mr. Bad Guy", artist: "Freddie Mercury", year: 1985, listened: true, genre: "disco" },
   { title: "The African Flower", artist: "James Newton", year: 1985, genre: "jazz", listened: true },
   { title: "Cock Robin", artist: "Cock Robin", year: 1985, comment: '"The Promise You Made"' },
 
@@ -3601,7 +3601,7 @@ const data_2000s: Item[] = [
   { title: "Death Proof OST", artist: "Various Artists", year: 2007 },
   { title: "From Here We Go Sublime", artist: "The Field", year: 2007 },
   { title: "Grow Up and Blow Away", artist: "Metric", year: 2007, genre: "pop", listened: true, stars: 3, fav: true },
-  { title: "Pop Up", artist: "Yelle", year: 2007, fr: true },
+  { title: "Pop Up", artist: "Yelle", year: 2007, fr: true, listened: true, genre: "pop", comment: '"A cause des garçons", "Je veux te voir"', meh: true },
   { title: "Caetano Veloso", artist: "Caetano Veloso", year: 2007 },
   { title: "Sarah Vaughan At Mister Kelly's", artist: "Sarah Vaughan and Her Trio", year: 2007 },
   { title: "The Black and White Album", artist: "The Hives", year: 2007, perso: true, listened: true, stars: 1, genre: "rock", comment: '"Tick Tick Boom", Eurockéennes 2010' },
@@ -3752,7 +3752,7 @@ const data_2010s: Item[] = [
   { title: "All Day", artist: "Girl Talk", year: 2010, listened: true, fav: true, stars: 3, genre: "electro", perso: true },
   { title: "Heligoland", artist: "Massive Attack", year: 2010, perso: true, listened: true, genre: "trip-hop", stars: 2, fav: true, comment: '"Atlas Air"' },
   { title: "Rock Dust Light Star", artist: "Jamiroquai", year: 2010, listened: true, stars: 1, genre: "funk" },
-  { title: "Trademark Ribbons of Gold", artist: "VHS Head", year: 2010, genre: "electro" },
+  { title: "Trademark Ribbons of Gold", artist: "VHS Head", year: 2010, genre: "electro", listened: true, stars: 1 },
   { title: "Illumination", artist: "Miami Horror", year: 2010, perso: true, listened: true, genre: "pop", fav: true, stars: 2, comment: '"I Look to You", "Summersun", "Sometimes", "Echoplex"' },
   { title: "My Beautiful Dark Twisted Fantasy", artist: "Kanye West", year: 2010, listened: true, genre: "rap" },
   { title: "Body Talk", artist: "Robyn", year: 2010, listened: true, genre: "pop", comment: "Electropop" },
@@ -4050,6 +4050,7 @@ const data_2010s: Item[] = [
   { title: "Shantae and the Pirate's Curse OST", artist: "virt - Jake Kaufman", year: 2014, genre: "vgm" },
   { title: "Clap Your Hands", artist: "Parov Stelar", year: 2014, comment: '"The Sun"', perso: true, listened: true, genre: "electro", ep: true, stars: 1 },
   { title: "v2.0", artist: "GoGo Penguin", year: 2014, genre: "jazz", listened: true, stars: 1, fav: true },
+  { title: "Persistence of Vision", artist: "VHS Head", year: 2014, genre: "electro" },
 
   { title: "To Pimp a Butterfly", artist: "Kendrick Lamar", year: 2015, comment: '"King Kunta" w/ Thundercat on bass, "Alright", "i"', genre: "rap", listened: true, stars: 2, fav: true },
   { title: "Carrie & Lowell", artist: "Sufjan Stevens", year: 2015, genre: "folk", listened: true, stars: 1, fav: true },
@@ -4525,6 +4526,8 @@ const data_2020s: Item[] = [
   { title: "French Market", artist: "Francisco Becker, Julien Andela", year: 2023, fr: true, comment: '"La joie de vivre"', listened: true, genre: "jazz" },
   { title: "Life Is For Living", artist: "Hoogway", year: 2023, genre: "lofi", listened: true },
   { title: "Arcadia", artist: "Goson, Dreamfield", year: 2023, genre: "lofi", listened: true, ep: true },
+  { title: "Phocus", artist: "VHS Head", year: 2023, genre: "electro" },
+  { title: "Stories From Another World", artist: "Nadav Cohen", year: 2023, genre: "lofi", listened: true, stars: 1 },
 
   { title: "The Fearless Flyers IV", artist: "The Fearless Flyers", year: 2024, ep: true, listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Loss of Life", artist: "MGMT", year: 2024, listened: true, genre: "pop" },
@@ -4589,6 +4592,7 @@ const data_2020s: Item[] = [
   { title: "Shiraz", artist: "Dhafer Youssef", year: 2025, listened: true, genre: "world", stars: 1, fav: true, comment: '"Eyeblink and Eternity (Pt. 2)"' },
   { title: "How Far I've Come", artist: "Laffey", year: 2025, listened: true, genre: "lofi" },
   { title: "Psy Fi", artist: "BluntOne, dmtbeatz", year: 2025, listened: true, genre: "lofi" },
+  { title: "Baby", artist: "Dijon", year: 2025, listened: true, genre: "r-n-b" },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
