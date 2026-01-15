@@ -2566,7 +2566,7 @@ const data_1990s: Item[] = [
   { title: "Undertow", artist: "Tool", year: 1993, listened: true, genre: "metal" },
   { title: "Modern Life Is Rubbish", artist: "Blur", year: 1993 },
   { title: "Very", artist: "Pet Shop Boys", year: 1993 },
-  { title: "Gentlemen", artist: "The Afghan Whigs", year: 1993 },
+  { title: "Gentlemen", artist: "The Afghan Whigs", year: 1993, listened: true, genre: "rock", meh: true },
   { title: "It's a Shame About Ray", artist: "Lemonheads", year: 1993 },
   { title: "Enter the Wu-Tang (36 Chambers)", artist: "Wu-Tang Clan", year: 1993, listened: true, genre: "rap", stars: 1, comment: '"C.R.E.A.M."' },
   { title: "C'est déjà ça", artist: "Alain Souchon", year: 1993, fr: true, listened: true, genre: "chanson", comment: `"Foule sentimentale", "L'amour à la machine", "Sous les jupes des filles"`, stars: 1, fav: true },
