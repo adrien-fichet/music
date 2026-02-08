@@ -11,14 +11,16 @@ const data_lt_1940: Item[] = [
   { title: "Concerto de Noël, op. 6 No. 8", artist: "Corelli", year: 1690, listened: true, genre: "classical" },
 
   // 1700s (XVIIIe siècle)
+  { title: "Toccata et fugue en ré mineur, BWV 565", artist: "Bach", year: 1703, listened: true, genre: "classical", comment: 'Organ' },
   { title: "Bourrée en mi mineur, BWV 996", artist: "Bach", year: 1708, listened: true, genre: "classical", comment: 'Arr. for guitar' },
   { title: "Air sur la corde de sol, BWV 1068", artist: "Bach", year: 1720, listened: true, genre: "classical" },
   { title: "Concerto brandebourgeois No. 3, BWV 1048", artist: "Bach", year: 1721, listened: true, genre: "classical" },
-  { title: "Le Clavier bien tempéré", artist: "Bach", year: 1722, listened: true, genre: "piano" },
+  { title: "Le Clavier bien tempéré (livre 1), BWV 846-869", artist: "Bach", year: 1722, listened: true, genre: "piano" },
   { title: "Les Quatre Saisons", artist: "Vivaldi", year: 1723, listened: true, genre: "classical" },
   { title: "Concerto pour 2 violons en ré mineur, BWV 1043", artist: "Bach", year: 1730, listened: true, genre: "classical" },
   { title: "Les Indes galantes", artist: "Rousseau", year: 1735, listened: true, genre: "classical" },
   { title: "Messiah, HWV 56", artist: "Handel", year: 1741, listened: true, genre: "classical" },
+  { title: "Le Clavier bien tempéré (livre 2), BWV 870-893", artist: "Bach", year: 1744, genre: "piano" },
   { title: "Quintette à cordes avec deux violoncelles en mi majeur, op. 11 No. 5", artist: "Boccherini", year: 1771, listened: true, genre: "classical" },
   { title: "Sonate pour piano No. 11 en la majeur (Marche turque)", artist: "Mozart", year: 1783, listened: true, genre: "piano" },
   { title: "Concerto pour piano No. 21", artist: "Mozart", year: 1785, listened: true, genre: "classical" },
@@ -64,7 +66,7 @@ const data_lt_1940: Item[] = [
   { title: "Carmen", artist: "Bizet", year: 1875, listened: true, genre: "classical" },
   { title: "Danse Macabre, op. 40", artist: "Saint-Saëns", year: 1875, listened: true, fr: true, genre: "classical" },
   { title: "Samson et Dalila, op. 47 (Danse bacchanale)", artist: "Saint-Saëns", year: 1877, listened: true, fr: true, genre: "classical" },
-  { title: "Concerto pour violon en ré majeur, op. 35", artist: "Tchaïkovski", year: 1878 },
+  { title: "Concerto pour violon en ré majeur, op. 35", artist: "Tchaïkovski", year: 1878, listened: true, genre: "classical", fav: true },
   { title: "La Moldau", artist: "Smetana", year: 1879, listened: true, genre: "classical" },
   { title: "Marche funèbre d'une marionnette", artist: "Gounod", year: 1879, listened: true, genre: "classical", fr: true },
   { title: "1812 Overture", artist: "Tchaïkovski", year: 1880, listened: true, genre: "classical" },
@@ -215,6 +217,7 @@ const data_1950s: Item[] = [
   { title: "Hound Dog", artist: "Big Mama Thornton", year: 1953, single: true, listened: true, genre: "blues" },
   { title: "Your Cheatin' Heart", artist: "Hank Williams", year: 1953, single: true, listened: true, genre: "country" },
   { title: "The Genius of Art Tatum", artist: "Art Tatum", year: 1953, genre: "jazz", comment: 'Collection of solo albums recorded between 1953 and 1954' },
+  { title: "Metastaseis", artist: "Iannis Xenakis", year: 1953 },
 
   { title: "Le Vent", artist: "Georges Brassens", year: 1954, fr: true, listened: true, genre: "chanson" },
   { title: "Oscar Moore Trio", artist: "Oscar Moore", year: 1954 },
@@ -909,6 +912,7 @@ const data_1970s: Item[] = [
   { title: "On Tour with Eric Clapton", artist: "Delaney & Bonnie & Friends", year: 1970, live: true },
   { title: "Moog Indigo", artist: "Jean-Jacques Perrey", year: 1970, fr: true },
   { title: "Remedies", artist: "Dr. John", year: 1970 },
+  { title: "Drumming", artist: "Steve Reich", year: 1970 },
 
   { title: "Led Zeppelin IV", artist: "Led Zeppelin", year: 1971, perso: true, genre: "hard-rock", listened: true, stars: 4, fav: true, comment: '"Black Dog", "Rock and Roll", "The Battle of Evermore", "Stairway to Heaven", "Going to California", "When the Levee Breaks"' },
   { title: "Energy", artist: "Jeremy Steig", year: 1971, genre: "fusion" },
@@ -961,7 +965,7 @@ const data_1970s: Item[] = [
   { title: "Songs Of Love and Hate", artist: "Leonard Cohen", year: 1971, listened: true, genre: "folk" },
   { title: "Live!", artist: "Fela Ransome-Kuti and the Africa '70 with Ginger Baker", year: 1971, live: true },
   { title: "If I Could Only Remember My Name", artist: "David Crosby", year: 1971 },
-  { title: "A Nod's as Good as a Wink... To a Blind Horse", artist: "Faces", year: 1971 },
+  { title: "A Nod's as Good as a Wink... To a Blind Horse", artist: "Faces", year: 1971, listened: true, genre: "rock", comment: 'Rod Stewart on vocals' },
   { title: "Imagine", artist: "John Lennon", year: 1971, listened: true, genre: "rock", fav: true, stars: 3, comment: '"Jealous Guy", "How Do You Sleep?", "Oh, Yoko!"' },
   { title: "Master of Reality", artist: "Black Sabbath", year: 1971, listened: true, genre: "hard-rock", stars: 1, comment: '"Orchid", "Into the Void"' },
   { title: "Tarkus", artist: "Emerson, Lake & Palmer", year: 1971, listened: true, genre: "fusion", comment: 'Experimental' },
@@ -1400,6 +1404,7 @@ const data_1970s: Item[] = [
   { title: "Piccolo Saxo et la Symphonie écologique", artist: "André Popp, Jean Broussolle, François Périer", year: 1976, genre: "classical", fr: true },
   { title: "A New World Record", artist: "Electric Light Orchestra", year: 1976 },
   { title: "Young Hearts Run Free", artist: "Candi Staton", year: 1976, listened: true, genre: "disco", stars: 1 },
+  { title: "Music for 18 Musicians", artist: "Steve Reich", year: 1976 },
 
   { title: "Aja", artist: "Steely Dan", year: 1977, listened: true, fav: true, stars: 4, genre: "rock" },
   { title: "Elegant Gypsy", artist: "Al Di Meola", year: 1977, genre: "fusion", listened: true, stars: 3, fav: true },
@@ -1653,6 +1658,7 @@ const data_1970s: Item[] = [
   { title: "Damn the Torpedoes", artist: "Tom Petty and the Heartbreakers", year: 1979, listened: true, genre: "rock", comment: '"Refugee"', stars: 1 },
   { title: "Singles Going Steady", artist: "Buzzcocks", year: 1979, listened: true, genre: "punk", comment: `Double compilation album, "Ever Fallen in Love (With Someone You Shouldn'n't've)"`, stars: 1 },
   { title: "Kylyn", artist: "Kazumi Watanabe", year: 1979, genre: "fusion", listened: true },
+  { title: "Pléïades", artist: "Iannis Xenakis", year: 1979 },
 ];
 
 const data_1980s: Item[] = [
@@ -3746,7 +3752,7 @@ const data_2000s: Item[] = [
   { title: "Red Black & Blue", artist: "DJ Mehdi", year: 2009, fr: true, genre: "electro" },
   { title: "Waking Up", artist: "OneRepublic", year: 2009, listened: true, genre: "pop" },
   { title: "For Lack of a Better Name", artist: "Deadmau5", year: 2009, perso: true, genre: "electro" },
-  { title: "Wintermusik", artist: "Nils Frahm", year: 2009, ep: true },
+  { title: "Wintermusik", artist: "Nils Frahm", year: 2009, ep: true, listened: true, genre: "piano" },
 ];
 
 const data_2010s: Item[] = [
@@ -4105,6 +4111,7 @@ const data_2010s: Item[] = [
   { title: "The Epic", artist: "Kamasi Washington", year: 2015, genre: "jazz", listened: true, stars: 1, comment: '3 CDs' },
   { title: "1", artist: "Trioniq", year: 2015, ep: true },
   { title: "In the Moment", artist: "Makaya McCraven", year: 2015 },
+  { title: "Sleep", artist: "Max Richter", year: 2015 },
 
   { title: "The Beautiful Game", artist: "Vulfpeck", year: 2016, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Dean Town", "Cory Wong"' },
   { title: "Points of Interest", artist: "glue70", year: 2016, listened: true, genre: "electro", stars: 1, fav: true, comment: '"Casin", gotta love side chain compression' },
