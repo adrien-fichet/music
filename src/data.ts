@@ -205,6 +205,7 @@ const data_1950s: Item[] = [
 
   { title: "Dust My Broom", artist: "Elmore James", year: 1951, genre: "blues", single: true, listened: true },
   { title: "Django Reinhardt and the Hot Club Quintet", artist: "Django Reinhardt", year: 1951, genre: "jazz" },
+  { title: "Music of Changes", artist: "John Cage", year: 1951, genre: "piano" },
 
   { title: "Lullaby of Birdland", artist: "George Shearing", year: 1952, genre: "jazz", standard: true, listened: true },
   { title: "Moonlight in Vermont", artist: "Johnny Smith with Stan Getz", year: 1952, genre: "jazz", comment: 'Compilation released in 1956, recorded between 1952 and 1953' },
@@ -2596,7 +2597,7 @@ const data_1990s: Item[] = [
   { title: "The Suitcase - Live in Köln '94", artist: "Steve Kahn", year: 1994, genre: "fusion", live: true },
   { title: "All My Tomorrows", artist: "Grover Washington Jr.", year: 1994, genre: "jazz" },
   { title: "Spirit of Django", artist: "Martin Taylor", year: 1994, genre: "jazz" },
-  { title: "After the Storm", artist: "Norman Brown", year: 1994, genre: "jazz" },
+  { title: "After the Storm", artist: "Norman Brown", year: 1994, genre: "jazz", listened: true, stars: 1 },
   { title: "Caravan", artist: "Rosenberg Trio", year: 1994, genre: "jazz" },
   { title: "East Coast West Coast", artist: "Toots Thielemans", year: 1994, genre: "jazz" },
   { title: "Wildhoney", artist: "Tiamat", year: 1994, listened: true, genre: "metal", stars: 1, fav: true },
@@ -3289,6 +3290,7 @@ const data_2000s: Item[] = [
   { title: "Steal This Album!", artist: "System Of A Down", year: 2002, perso: true, listened: true, genre: "metal", fav: true, stars: 3 },
   { title: "REAИIMATIOИ", artist: "Linkin Park", year: 2002, genre: "metal", comment: 'remixes' },
   { title: "Power In Numbers", artist: "Jurassic 5", year: 2002, listened: true, genre: "rap", stars: 3, fav: true },
+  { title: "Just Chillin'", artist: "Norman Brown", year: 2002, genre: "jazz" },
 
   { title: "De-Loused in the Comatorium", artist: "The Mars Volta", year: 2003, listened: true, genre: "rock", comment: '"Roulette Dares (The Haunt Of)"' },
   { title: "Qui de nous deux ?", artist: "-M-", year: 2003, listened: true, genre: "pop", fr: true, stars: 2, fav: true },
@@ -3813,7 +3815,7 @@ const data_2010s: Item[] = [
   { title: "LP4", artist: "Ratatat", year: 2010, listened: true, fav: true, stars: 1, genre: "rock" },
   { title: "Nyanyanyanyanyanyanya!", artist: "daniwell", year: 2010, listened: true, genre: "meme", comment: "Nyan Cat" },
   { title: "The Way of the World", artist: "Mose Allison", year: 2010, genre: "jazz" },
-  { title: "Donso", artist: "Donso", year: 2010, listened: true, genre: "world", comment: 'Krazy Baldhead' },
+  { title: "Donso", artist: "Donso", year: 2010, listened: true, genre: "world", comment: 'with Krazy Baldhead' },
   { title: "Fuzz Universe", artist: "Paul Gilbert", year: 2010 },
   { title: "PUDDI PUDDI", artist: "Takara Tomy", year: 2010, genre: "meme", listened: true },
 
