@@ -320,6 +320,7 @@ const data_1950s: Item[] = [
   { title: "All Your Love (I Miss Loving)", artist: "Otis Rush", year: 1958, standard: true, genre: "blues" },
   { title: "Back to Mono (1958-1969)", artist: "Phil Spector and Various Artists", year: 1958, comment: 'released in 1991' },
   { title: "At the Pershing: But Not for Me", artist: "Ahmad Jamal", year: 1958, genre: "jazz", live: true },
+  { title: "Rumble", artist: "Link Wray", year: 1958, genre: "rock", single: true, listened: true },
 
   { title: "Here's Little Richard", artist: "Little Richard", year: 1959, listened: true, genre: "rock-n-roll", stars: 1, comment: '"Tutti-Frutti"' },
   { title: "Ella Fitzgerald Sings the George and Ira Gershwin Song Book", artist: "Ella Fitzgerald", year: 1959, listened: true, genre: "jazz", comment: `"Let's Call the Whole Thing Off", "Slap That Bass"`, stars: 1 },
@@ -599,6 +600,7 @@ const data_1960s: Item[] = [
   { title: "Flowers on the Wall", artist: "The Statler Brothers", year: 1966, listened: true, genre: "country", comment: `Bruce Willis Pulp Fiction's low-voiced "Kangaroo"` },
   { title: "Dream Weaver", artist: "Charles Lloyd", year: 1966, genre: "jazz" },
   { title: "Intermodulation", artist: "Jim Hall, Bill Evans", year: 1966, genre: "jazz" },
+  { title: "Follow Me...", artist: "Crispian St. Peters", year: 1966, genre: "folk", comment: '"The Pied Piper" (of Hamelin)' },
 
   { title: "I Never Loved a Man the Way I Love You", artist: "Aretha Franklin", year: 1967, listened: true, genre: "soul", stars: 1, fav: true },
   { title: "Wave", artist: "Antônio Carlos Jobim", year: 1967, genre: "jazz", listened: true, comment: 'bossa nova' },
@@ -1803,9 +1805,10 @@ const data_1980s: Item[] = [
   { title: "Too Fast For Love", artist: "Mötley Crüe", year: 1981 },
   { title: "Beauty and the Beat", artist: "The Go-Go's", year: 1981, listened: true, genre: "new-wave", comment: '"Our Lips Are Sealed"' },
   { title: "Never Too Much", artist: "Luther Vandross", year: 1981 },
-  { title: "Turn Back", artist: "Toto", year: 1981 },
+  { title: "Turn Back", artist: "Toto", year: 1981, listened: true, genre: "rock" },
   { title: "Adolescents", artist: "Adolescents", year: 1981, genre: "punk", comment: '"Amoeba"' },
   { title: "Escape", artist: "Journey", year: 1981, listened: true, stars: 1, genre: "rock", comment: `"Don't Stop Believin'"` },
+  { title: "La Folie", artist: "The Stranglers", year: 1981, comment: '"Golden Brown"', listened: true, genre: "rock", stars: 1 },
 
   { title: "The Nightfly", artist: "Donald Fagen", year: 1982, listened: true, fav: true, stars: 3, genre: "rock" },
   { title: "I.O.U.", artist: "Allan Holdsworth", year: 1982, genre: "fusion" },
@@ -1913,7 +1916,7 @@ const data_1980s: Item[] = [
   { title: "War", artist: "U2", year: 1983, comment: `"Sunday Bloody Sunday", "New Year's Day"`, listened: true, genre: "rock", stars: 1 },
   { title: "Blues Forever", artist: "Muhal Richard Abrams", year: 1983, genre: "jazz" },
   { title: "Get Down Saturday Night", artist: "Oliver Cheatham", year: 1983, listened: true, genre: "disco", single: true },
-  { title: "Stompin' at the Savoy", artist: "Rufus and Chaka Khan", year: 1983, comment: `"Ain't Nobody"`, live: true, listened: true, genre: "r-n-b", stars: 2, fav: true },
+  { title: "Stompin' at the Savoy", artist: "Rufus and Chaka Khan", year: 1983, comment: `"Ain't Nobody"`, live: true, listened: true, genre: "soul", stars: 2, fav: true },
   { title: "Jarreau", artist: "Al Jarreau", year: 1983, listened: true, genre: "soul", comment: '"Boogie Down"', stars: 1, fav: true },
   { title: "Can't Slow Down", artist: "Lionel Richie", year: 1983, listened: true, genre: "soul" },
   { title: "Le péril jaune", artist: "Indochine", year: 1983, fr: true, listened: true, genre: "rock", comment: '"Miss Paramount", "Kao-Bang"' },
@@ -2757,7 +2760,7 @@ const data_1990s: Item[] = [
   { title: "All Eyez on Me", artist: "2Pac", year: 1996, listened: true, genre: "rap", stars: 1, fav: true },
   { title: "Falling Into You", artist: "Céline Dion", year: 1996 },
   { title: "Odelay", artist: "Beck", year: 1996 },
-  { title: "Pansoul", artist: "Motorbass", year: 1996, fr: true },
+  { title: "Pansoul", artist: "Motorbass", year: 1996, fr: true, listened: true, genre: "electro" },
   { title: "Sacrebleu", artist: "Dimitri from Paris", year: 1996 },
   { title: "1977", artist: "Ash", year: 1996, listened: true, genre: "rock" },
   { title: "Antichrist Superstar", artist: "Marilyn Manson", year: 1996, listened: true, genre: "metal", comment: '"The Beautiful People"' },
@@ -2798,6 +2801,7 @@ const data_1990s: Item[] = [
   { title: "Ænima", artist: "Tool", year: 1996 },
   { title: "Reasonable Doubt", artist: "Jay-Z", year: 1996, listened: true, genre: "rap" },
   { title: "Silence radio", artist: "Serge Teyssot-Gay", year: 1996, fr: true },
+  { title: "Pokémon Red/Blue/Yellow OST", artist: "Junichi Masuda", year: 1996, genre: "vgm", listened: true, perso: true, stars: 3, fav: true },
 
   { title: "The Desmond Project", artist: "The John Basile Quartet", year: 1997, genre: "jazz" },
   { title: "Beyond the Missouri Sky (Short Stories)", artist: "Pat Metheny and Charlie Haden", year: 1997, genre: "jazz" },
@@ -3285,7 +3289,7 @@ const data_2000s: Item[] = [
   { title: "The Last Broadcast", artist: "Doves", year: 2002, listened: true, genre: "rock" },
   { title: "Yoshimi Battles The Pink Robots", artist: "The Flaming Lips", year: 2002, listened: true, genre: "rock", fav: true, stars: 1, comment: '"Yoshimi Battles the Pink Robots, Pt. 2"' },
   { title: "American IV: The Man Comes Around", artist: "Johny Cash", year: 2002, listened: true, genre: "folk", comment: '"Hurt" and other covers' },
-  { title: "Let Go", artist: "Avril Lavigne", year: 2002, listened: true, genre: "pop", comment: '"Complicated", "Sk8er boi"' },
+  { title: "Let Go", artist: "Avril Lavigne", year: 2002, listened: true, genre: "pop", comment: '"Complicated", "Sk8er boi" (produced by the Matrix)' },
   { title: "Does This Look Infected?", artist: "Sum 41", year: 2002, listened: true, genre: "punk", comment: '"The Hell Song", "Over My Head (Better Off Dead)", "Still Waiting"', perso: true, stars: 3, fav: true },
   { title: "Steal This Album!", artist: "System Of A Down", year: 2002, perso: true, listened: true, genre: "metal", fav: true, stars: 3 },
   { title: "REAИIMATIOИ", artist: "Linkin Park", year: 2002, genre: "metal", comment: 'remixes' },
@@ -3755,6 +3759,7 @@ const data_2000s: Item[] = [
   { title: "Waking Up", artist: "OneRepublic", year: 2009, listened: true, genre: "pop" },
   { title: "For Lack of a Better Name", artist: "Deadmau5", year: 2009, perso: true, genre: "electro" },
   { title: "Wintermusik", artist: "Nils Frahm", year: 2009, ep: true, listened: true, genre: "piano" },
+  { title: "The Matrix", artist: "The Matrix", year: 2009 },
 ];
 
 const data_2010s: Item[] = [
@@ -3892,7 +3897,7 @@ const data_2010s: Item[] = [
   { title: "Can Be Late", artist: "Skip the Use", year: 2012, fr: true, comment: '"Ghost"', genre: "rock" },
   { title: "Rage Valley", artist: "Knife Party", year: 2012, ep: true, genre: "electro", listened: true, stars: 3, fav: true, comment: '"Centipede", "Bonfire"' },
   { title: "Born to Die", artist: "Lana Del Rey", year: 2012, comment: '"Summertime Sadness"', listened: true, stars: 1, genre: "pop" },
-  { title: "The Fox", artist: "The Filthy Six", year: 2012 },
+  { title: "The Fox", artist: "The Filthy Six", year: 2012, listened: true, genre: "funk" },
   { title: "Rocket Juice & the Moon", artist: "Rocket Juice & the Moon", year: 2012, comment: "Damon Albarn, Flea, Tony Allen" },
   { title: "Scratch My Itch", artist: "The Soul Snatchers", year: 2012 },
   { title: "ill Manors OST", artist: "Plan B", year: 2012, listened: true, genre: "rap" },
@@ -4044,7 +4049,7 @@ const data_2010s: Item[] = [
   { title: "Down to Earth", artist: "Flight Facilities", year: 2014, listened: true, genre: "pop" },
   { title: "Abandon Ship", artist: "Knife Party", year: 2014, listened: true, genre: "electro" },
   { title: "Hiraeth", artist: "猫 シ Corp.", year: 2014, listened: true, genre: "electro", stars: 1, comment: "Vaporwave" },
-  { title: "We Like It Here", artist: "Snarky Puppy", year: 2014, listened: true, fav: true, stars: 3, genre: "funk", perso: true, comment: '"Sleeper"' },
+  { title: "We Like It Here", artist: "Snarky Puppy", year: 2014, listened: true, fav: true, stars: 3, genre: "funk", perso: true, comment: '"Sleeper", "Lingus" Cory Henry solo + Larnell Lewis on drums' },
   { title: "Flint", artist: "Bill Laurance", year: 2014, listened: true, genre: "jazz", stars: 1, fav: true },
   { title: "Instant Alpha", artist: "Feadz", year: 2014 },
   { title: "Singes du futur", artist: "Andréas & Nicolas", year: 2014, fr: true },
@@ -4114,6 +4119,7 @@ const data_2010s: Item[] = [
   { title: "1", artist: "Trioniq", year: 2015, ep: true },
   { title: "In the Moment", artist: "Makaya McCraven", year: 2015 },
   { title: "Sleep", artist: "Max Richter", year: 2015 },
+  { title: "Fortified", artist: "Ghost-Note", year: 2015 },
 
   { title: "The Beautiful Game", artist: "Vulfpeck", year: 2016, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Dean Town", "Cory Wong"' },
   { title: "Points of Interest", artist: "glue70", year: 2016, listened: true, genre: "electro", stars: 1, fav: true, comment: '"Casin", gotta love side chain compression' },
@@ -4256,6 +4262,8 @@ const data_2010s: Item[] = [
   { title: "Holy Hell", artist: "Architects", year: 2018 },
   { title: "Toilet", artist: "Clown Core", year: 2018 },
   { title: "The Optimist", artist: "Cory Wong", year: 2018, genre: "funk", listened: true },
+  { title: "In the Moment", artist: "Larnell Lewis", year: 2018, genre: "funk", listened: true, stars: 1 },
+  { title: "Swagism", artist: "Ghost-Note", year: 2018 },
 
   { title: "The Fearless Flyers II", artist: "The Fearless Flyers", year: 2019, listened: true, genre: "funk", ep: true, stars: 1 },
   { title: "Chronologic", artist: "Caravan Palace", year: 2019, fr: true },
@@ -4374,12 +4382,12 @@ const data_2020s: Item[] = [
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
   { title: "Everybody's Going to the Moon", artist: "Jamiroquai", year: 2021, single: true, listened: true, genre: "funk" },
-  { title: "Best of Me", artist: "Cory Henry", year: 2021 },
+  { title: "Best of Me", artist: "Cory Henry", year: 2021, listened: true, genre: "soul" },
   { title: "Golden Hour", artist: "Jhove, fourwalls", year: 2021, listened: true, genre: "lofi", ep: true },
   { title: "At Long Last", artist: "Towerz, edelwize", year: 2021, listened: true, genre: "lofi" },
   { title: "OK Orchestra", artist: "AJR", year: 2021, listened: true, genre: "pop", stars: 1 },
   { title: "OK Human", artist: "Weezer", year: 2021, listened: true, genre: "pop" },
-  { title: "Van Weezer", artist: "Weezer", year: 2021 },
+  { title: "Van Weezer", artist: "Weezer", year: 2021, listened: true, genre: "rock" },
   { title: "beyond the pines", artist: "steezy prime", year: 2021, genre: "lofi", listened: true },
   { title: "Steppin' Out", artist: "Rogério Maudonnet", year: 2021, genre: "funk", comment: '"Double Shot of Funk"' },
   { title: "Hall of Mirrors", artist: "Neil Cowley", year: 2021 },
@@ -4539,6 +4547,7 @@ const data_2020s: Item[] = [
   { title: "Arcadia", artist: "Goson, Dreamfield", year: 2023, genre: "lofi", listened: true, ep: true },
   { title: "Phocus", artist: "VHS Head", year: 2023, genre: "electro" },
   { title: "Stories From Another World", artist: "Nadav Cohen", year: 2023, genre: "lofi", listened: true, stars: 1 },
+  { title: "Miaou", artist: "Mathieu Fiset, Antoine Dufour, Larnell Lewis", year: 2023, single: true, listened: true, genre: "jazz" },
 
   { title: "The Fearless Flyers IV", artist: "The Fearless Flyers", year: 2024, ep: true, listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Loss of Life", artist: "MGMT", year: 2024, listened: true, genre: "pop" },
@@ -4584,6 +4593,8 @@ const data_2020s: Item[] = [
   { title: "Aqua de Cadaqués", artist: "Dinis", year: 2024, listened: true, genre: "lofi" },
   { title: "Obsessed", artist: "Sophie Powers feat. Ashley Sienna", year: 2024, listened: true, genre: "electro", single: true },
   { title: "When Demigods Go...", artist: "Evangeline", year: 2024, listened: true, genre: "pop", ep: true },
+  { title: "Slice of Life", artist: "Larnell Lewis", year: 2024, listened: true, genre: "jazz", stars: 1 },
+  { title: "Mustard n'Onions", artist: "Ghost-Note", year: 2024 },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
@@ -4604,7 +4615,10 @@ const data_2020s: Item[] = [
   { title: "Baby", artist: "Dijon", year: 2025, listened: true, genre: "r-n-b" },
   { title: "MSG II", artist: "Vulpeck", year: 2025, genre: "funk", live: true },
   { title: "Divine Time", artist: "Cory Henry", year: 2025 },
+  { title: "Deadbeat", artist: "Tame Impala", year: 2025 },
+  { title: "LIVE-ACTION", artist: "Nate Smith", year: 2025 },
 
+  { title: "This Dirt Loves Me More Than You!", artist: "MonoNeon", year: 2026 },
   { title: "The Mountain", artist: "Gorillaz", year: 2026 },
   { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2026 },
 ];
