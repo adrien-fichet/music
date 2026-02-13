@@ -59,7 +59,7 @@ const data_lt_1940: Item[] = [
   { title: "La Valkyrie", artist: "Wagner", year: 1870, listened: true, genre: "classical" },
   { title: "Pizzicato Polka", artist: "Johann Strauss II", year: 1870, listened: true, genre: "classical" },
   { title: 'Fantaisie sur "Lucia di Lammermoor"', artist: "Bottesini", year: 1870, genre: "classical", comment: "Rinat Ibragimov on double bass", listened: true },
-  { title: "L'Arlésienne", artist: "Bizet", year: 1872, fr: true },
+  { title: "L'Arlésienne", artist: "Bizet", year: 1872, fr: true, listened: true, genre: "classical" },
   { title: "Requiem", artist: "Verdi", year: 1874 },
   { title: "Pictures at an Exhibition", artist: "Mussorgsky", year: 1874, genre: "piano" },
   { title: "Le lac des cygnes, op. 20", artist: "Tchaïkovski", year: 1875, listened: true, genre: "classical" },
@@ -126,7 +126,7 @@ const data_lt_1940: Item[] = [
 
   // 1930 +
   { title: "Mood Indigo", artist: "Duke Ellington and His Famous Orchestra", year: 1930, genre: "jazz", standard: true },
-  { title: "Body and Soul", artist: "Johnny Green", year: 1930, genre: "jazz", standard: true },
+  { title: "Body and Soul", artist: "Johnny Green", year: 1930, genre: "jazz", standard: true, listened: true },
   { title: "Rétrospective", artist: "Django Reinhardt", year: 1934, genre: "jazz", comment: 'Compilation recorded between 1934 and 1953' },
 
   { title: "Carmina Burana", artist: "Orff", year: 1935, listened: true, genre: "classical" },
@@ -1673,7 +1673,7 @@ const data_1980s: Item[] = [
   { title: "Winelight", artist: "Grover Washington, Jr.", year: 1980, listened: true, genre: "jazz", stars: 1, fav: true, comment: '"Just the Two of Us" feat. Bill Withers' },
   { title: "New Clear Days", artist: "The Vapors", year: 1980, comment: '"Turning Japanese" (covered by Kirsten Dunst in 2009)' },
   { title: "Répression", artist: "Trust", year: 1980, fr: true, comment: '"Antisocial"', genre: "rock", listened: true },
-  { title: "Rhapsody and Blues", artist: "The Crusaders", year: 1980 },
+  { title: "Rhapsody and Blues", artist: "The Crusaders", year: 1980, listened: true, genre: "jazz", comment: 'feat. Bill Withers' },
   { title: "The Tale of the Tape", artist: "Billy Squier", year: 1980, comment: '"The Big Beat" (sample)', listened: true, genre: "rock" },
   { title: "I Am What I Am", artist: "George Jones", year: 1980 },
   { title: "Blizzard of Ozz", artist: "Ozzy Osbourne", year: 1980, comment: 'Randy Rhoads on guitar' },
@@ -2090,7 +2090,7 @@ const data_1980s: Item[] = [
   { title: "The Good and Bad Times", artist: "The Crusaders", year: 1986 },
   { title: "Last Nite", artist: "Larry Carlton", year: 1986, genre: "fusion" },
   { title: "Wisteria", artist: "Jimmy Raney Trio feat. Tommy Flanagan", year: 1986, genre: "jazz", listened: true, stars: 1, fav: true },
-  { title: "This is This!", artist: "Weather Report", year: 1986, genre: "fusion" },
+  { title: "This is This!", artist: "Weather Report", year: 1986, genre: "fusion", listened: true },
   { title: "Horses & Trees", artist: "Ginger Baker", year: 1986, genre: "fusion", listened: true },
   { title: "The Chick Corea Elektric Band", artist: "Chic Corea", year: 1986, genre: "fusion", comment: `"King Cockroach" Scott Henderson's solo` },
   { title: "Voyage, Voyage", artist: "Desireless", year: 1986, fr: true, single: true, genre: "pop", listened: true },
@@ -2777,7 +2777,7 @@ const data_1990s: Item[] = [
   { title: "Oedipus Schmoedipus", artist: "Barry Adamson", year: 1996 },
   { title: "Roots", artist: "Sepultura", year: 1996 },
   { title: "Being There", artist: "Wilco", year: 1996 },
-  { title: "Tidal", artist: "Fiona Apple", year: 1996 },
+  { title: "Tidal", artist: "Fiona Apple", year: 1996, listened: true, genre: "pop" },
   { title: "Caravan of Dreams", artist: "Peter White", year: 1996, genre: "jazz" },
   { title: "Casanova", artist: "The Divine Comedy", year: 1996 },
   { title: "Beautiful Freak", artist: "Eels", year: 1996, listened: true, genre: "rock" },
@@ -3760,6 +3760,7 @@ const data_2000s: Item[] = [
   { title: "For Lack of a Better Name", artist: "Deadmau5", year: 2009, perso: true, genre: "electro" },
   { title: "Wintermusik", artist: "Nils Frahm", year: 2009, ep: true, listened: true, genre: "piano" },
   { title: "The Matrix", artist: "The Matrix", year: 2009 },
+  { title: "The Fray", artist: "The Fray", year: 2009, comment: '"You Found Me"' },
 ];
 
 const data_2010s: Item[] = [
@@ -4506,7 +4507,7 @@ const data_2020s: Item[] = [
   { title: "The Boy and the Heron OST", artist: "Joe Hisaishi", year: 2023, listened: true, genre: "classical" },
   { title: "Brûlé", artist: "Contrefaçon", year: 2023, genre: "electro", fr: true, ep: true, listened: true },
   { title: "72 Seasons", artist: "Metallica", year: 2023, genre: "metal", listened: true },
-  { title: "Stank Face", artist: "Scary Pockets", year: 2023 },
+  { title: "Stank Face", artist: "Scary Pockets", year: 2023, listened: true, genre: "funk" },
   { title: "Desire, I Want To Turn Into You", artist: "Caroline Polachek", year: 2023, listened: true, genre: "pop" },
   { title: "False Lankum", artist: "Lankum", year: 2023, listened: true, genre: "folk" },
   { title: "High Loon!", artist: "Woody Goss", year: 2023, listened: true, genre: "funk", fav: true, stars: 2 },
