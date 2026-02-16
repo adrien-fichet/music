@@ -21,7 +21,7 @@
   <GenreFilter genre="rock-n-roll" />
   <br />
   <GenreFilter genre="punk" />
-  <GenreFilter genre="grunge" />
+  <GenreFilter genre="synth" />
   <GenreFilter genre="metal" />
   <GenreFilter genre="country" />
   <br />
@@ -29,6 +29,7 @@
   <GenreFilter genre="trip-hop" />
   <GenreFilter genre="pop" />
   <GenreFilter genre="funk" />
+  <GenreFilter genre="grunge" />
   <br />
   <GenreFilter genre="jazz" />
   <GenreFilter genre="disco" />

@@ -9,7 +9,7 @@ export class Icon {
       case "hard-rock":
       case "rock-n-roll":
       case "punk":
-      case "grunge":
+      case "synth":
       case "metal":
       case "country":
         return "▲";
@@ -17,6 +17,7 @@ export class Icon {
       case "trip-hop":
       case "pop":
       case "funk":
+      case "grunge":
         return "⬣";
       case "jazz":
       case "disco":
