@@ -25,4 +25,5 @@
     Musical recordings from the <a href="https://en.wikipedia.org/wiki/Grammy_Hall_of_Fame">Grammy Hall of Fame</a>
   </li>
   <li>Artists cited in Daft Punk's "Teachers", Soulwax's "Teachers" remix, LCD Soundsystem's "Losing My Edge"</li>
+  <li>More songs/artists from Aztec/RetroSynth Records</li>
 </ul>

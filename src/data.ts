@@ -4631,11 +4631,15 @@ const data_2020s: Item[] = [
   { title: "Divine Time", artist: "Cory Henry", year: 2025 },
   { title: "Deadbeat", artist: "Tame Impala", year: 2025 },
   { title: "LIVE-ACTION", artist: "Nate Smith", year: 2025 },
+  { title: "Out of Time - Instrumental", artist: "Leo Golo", year: 2025, listened: true, genre: "synth", single: true },
+  { title: "Back In Time - Instrumental", artist: "XIII Nights", year: 2025, listened: true, genre: "synth", single: true },
 
   { title: "This Dirt Loves Me More Than You!", artist: "MonoNeon", year: 2026 },
+  { title: "Tempus Ruinae", artist: "XIII Nights", year: 2026, single: true, genre: "synth", listened: true },
+  { title: "Don't Call Me", artist: "Lyst, Neon Shards", year: 2026, single: true, genre: "synth", listened: true },
   { title: "The Mountain", artist: "Gorillaz", year: 2026 },
-  { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2026 },
   { title: "Route 96", artist: "Matteo Mancuso", year: 2026 },
+  { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2026 },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
