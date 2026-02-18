@@ -458,6 +458,7 @@ const data_1960s: Item[] = [
   { title: "Surf Rider!", artist: "The Lively Ones", year: 1963, listened: true, genre: "rock-n-roll", comment: 'Instrumental surf rock, "Surf Rider"', perso: true, stars: 1 },
   { title: "Conversations with Myself", artist: "Bill Evans", year: 1963, genre: "jazz", comment: 'overdubbing' },
   { title: "Boss Guitar", artist: "Wes Montgomery", year: 1963, genre: "jazz" },
+  { title: "The Pink Panther OST", artist: "Henri Mancini", year: 1963, genre: "jazz", listened: true },
 
   { title: "A Hard Day's Night", artist: "The Beatles", year: 1964, listened: true, genre: "pop", stars: 2, fav: true, comment: `"And I Love Her", "Can't Buy Me Love"` },
   { title: "D'autres filles", artist: "Michel Berger", year: 1964, fr: true, listened: true, genre: "chanson", meh: true },
@@ -1771,7 +1772,7 @@ const data_1980s: Item[] = [
   { title: "Pizza", artist: "Alain Bashung", year: 1981, fr: true },
   { title: "Ongaku Kai - Live in Japan", artist: "The Crusaders", year: 1981, live: true, listened: true, genre: "jazz", fav: true, stars: 2 },
   { title: "Dogatana", artist: "Kazumi Watanabe", year: 1981, genre: "fusion", listened: true },
-  { title: "Standing Tall", artist: "The Crusaders", year: 1981 },
+  { title: "Standing Tall", artist: "The Crusaders", year: 1981, listened: true, genre: "funk", stars: 1, fav: true },
   { title: "Computer World", artist: "Kraftwerk", year: 1981, listened: true, genre: "synth", stars: 1, comment: '"Computer Love"' },
   { title: "Street Songs", artist: "Rick James", year: 1981, comment: '"Super Freak"' },
   { title: "Bella Donna", artist: "Stevie Nicks", year: 1981 },
@@ -2856,7 +2857,7 @@ const data_1990s: Item[] = [
   { title: "Princess Mononoke OST", artist: "Joe Hisaishi", year: 1997 },
   { title: "Urban Hymns", artist: "The Verve", year: 1997, listened: true, genre: "rock", comment: '"Bitter Sweet Symphony"' },
   { title: "New Forms", artist: "Roni Size & Reprazent", year: 1997, listened: true, genre: "electro", comment: 'Drum and Bass' },
-  { title: "Time Out Of My Mind", artist: "Bob Dylan", year: 1997 },
+  { title: "Time Out Of Mind", artist: "Bob Dylan", year: 1997, genre: "blues" },
   { title: "In It For The Money", artist: "Supergrass", year: 1997 },
   { title: "Butterfly", artist: "Mariah Carey", year: 1997, listened: true, genre: "r-n-b" },
   { title: "Life Through a Lens", artist: "Robbie Williams", year: 1997 },
@@ -3709,6 +3710,7 @@ const data_2000s: Item[] = [
   { title: "Make the Road By Walking", artist: "Menahan Street Band", year: 2008 },
   { title: "Fame", artist: "Lady Gaga", year: 2008 },
   { title: "Sexuality", artist: "Sébastien Tellier", year: 2008, fr: true },
+  { title: "Enfantillages", artist: "Aldebert", year: 2008, fr: true, genre: "chanson", comment: '"Pépette"' },
 
   { title: "The Fame Monster", artist: "Lady Gaga", year: 2009, ep: true, comment: '"Bad Romance"'},
   { title: "BLACKsummers'night", artist: "Maxwell", year: 2009 },
