@@ -298,7 +298,7 @@ const data_1950s: Item[] = [
 
   { title: "Piccolo Saxo et le Cirque Jolibois", artist: "André Popp, Jean Broussolle, François Périer", year: 1958, genre: "classical", fr: true, listened: true },
   { title: "Lady in Satin", artist: "Billie Holiday", year: 1958, listened: true, genre: "jazz" },
-  { title: "Moanin'", artist: "Art Blakey and the Jazz Messengers", year: 1958, genre: "jazz" },
+  { title: "Moanin'", artist: "Art Blakey and the Jazz Messengers", year: 1958, genre: "jazz", listened: true },
   { title: "Frank Sinatra Sings for Only the Lonely", artist: "Frank Sinatra", year: 1958 },
   { title: "Something Else!!!!", artist: "Ornette Coleman", year: 1958, genre: "jazz" },
   { title: "Somethin' Else", artist: "Cannonball Adderley", year: 1958, genre: "jazz" },
@@ -557,7 +557,7 @@ const data_1960s: Item[] = [
   { title: "Astigmatic", artist: "Krzysztof Komeda", year: 1966, genre: "jazz" },
   { title: "Recorded Live at the Monterey Jazz Festival", artist: "John Handy", year: 1966, genre: "jazz", live: true },
   { title: "Ascension", artist: "John Coltrane", year: 1966, genre: "jazz" },
-  { title: "Strangers in the Night", artist: "Frank Sinatra", year: 1966, genre: "jazz" },
+  { title: "Strangers in the Night", artist: "Frank Sinatra", year: 1966, genre: "jazz", listened: true },
   { title: "Pet Sounds", artist: "The Beach Boys", year: 1966, listened: true, stars: 1, genre: "rock", comment: `"Wouldn't It Be Nice", "God Only Knows"` },
   { title: "If You Can Believe Your Eyes and Ears", artist: "The Mama's and the Papa's", year: 1966, listened: true, genre: "pop", comment: `"California Dreamin'"` },
   { title: "Where Were You When I Needed You", artist: "The Grass Roots", year: 1966, listened: true, genre: "pop" },
@@ -2805,7 +2805,7 @@ const data_1990s: Item[] = [
   { title: "Sheryl Crow", artist: "Sheryl Crow", year: 1996, listened: true, genre: "rock", stars: 1, comment: '"If It Makes You Happy", "Everyday is a Winding Road"' },
   { title: "If You're Feeling Sinister", artist: "Belle and Sebastian", year: 1996 },
   { title: "666.667 Club", artist: "Noir Désir", year: 1996, fr: true, listened: true, genre: "rock", stars: 2, fav: true, comment: `"Fin de siècle", "Un jour en France", "A ton étoile", "Comme elle vient", "L'homme pressé"` },
-  { title: "The Score", artist: "Fugees", year: 1996, comment: '"Killing Me Softly"' },
+  { title: "The Score", artist: "Fugees", year: 1996, comment: '"Killing Me Softly", "The Mask"', listened: true, genre: "rap", stars: 1 },
   { title: "Evil Empire", artist: "Rage Against the Machine", year: 1996 },
   { title: "Load", artist: "Metallica", year: 1996, listened: true, genre: "hard-rock", stars: 2, fav: true },
   { title: "One in a Million", artist: "Aaliyah", year: 1996 },
@@ -2857,7 +2857,7 @@ const data_1990s: Item[] = [
   { title: "Princess Mononoke OST", artist: "Joe Hisaishi", year: 1997 },
   { title: "Urban Hymns", artist: "The Verve", year: 1997, listened: true, genre: "rock", comment: '"Bitter Sweet Symphony"' },
   { title: "New Forms", artist: "Roni Size & Reprazent", year: 1997, listened: true, genre: "electro", comment: 'Drum and Bass' },
-  { title: "Time Out Of Mind", artist: "Bob Dylan", year: 1997, genre: "blues" },
+  { title: "Time Out Of Mind", artist: "Bob Dylan", year: 1997, genre: "blues", listened: true, comment: `"Tryin' to Get to Heaven"` },
   { title: "In It For The Money", artist: "Supergrass", year: 1997 },
   { title: "Butterfly", artist: "Mariah Carey", year: 1997, listened: true, genre: "r-n-b" },
   { title: "Life Through a Lens", artist: "Robbie Williams", year: 1997 },
@@ -3710,7 +3710,7 @@ const data_2000s: Item[] = [
   { title: "Make the Road By Walking", artist: "Menahan Street Band", year: 2008 },
   { title: "Fame", artist: "Lady Gaga", year: 2008 },
   { title: "Sexuality", artist: "Sébastien Tellier", year: 2008, fr: true },
-  { title: "Enfantillages", artist: "Aldebert", year: 2008, fr: true, genre: "chanson", comment: '"Pépette"' },
+  { title: "Enfantillages", artist: "Aldebert", year: 2008, fr: true, genre: "chanson", comment: '"Pépette"', listened: true, stars: 2, fav: true },
 
   { title: "The Fame Monster", artist: "Lady Gaga", year: 2009, ep: true, comment: '"Bad Romance"'},
   { title: "BLACKsummers'night", artist: "Maxwell", year: 2009 },
@@ -4337,7 +4337,7 @@ const data_2010s: Item[] = [
   { title: "Waiting Game", artist: "Terri Lyne Carrington & Social Science", year: 2019, genre: "jazz" },
   { title: "Mydriaze", artist: "Contrefaçon", year: 2019, genre: "electro", fr: true, listened: true },
   { title: "Ancilla Domini", artist: "Contrefaçon", year: 2019, genre: "electro", fr: true, single: true, listened: true },
-  { title: "A.O.P.", artist: "Camembert Au Lait Crew", year: 2019, genre: "electro", fr: true },
+  { title: "A.O.P.", artist: "Camembert Au Lait Crew", year: 2019, genre: "electro", fr: true, listened: true, meh: true },
 ];
 
 const data_2020s: Item[] = [
