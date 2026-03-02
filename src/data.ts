@@ -2,12 +2,12 @@ import { type Item } from "./item";
 import { Icon } from "./icon";
 
 const data_lt_1940: Item[] = [
-  // Older than 1600
+  // < 1600: antiquité, moyen-age, renaissance
   { title: "Seikilos epitaph", artist: "-", year: 128, genre: "world", listened: true },
   { title: "Lauda Sion", artist: "Saint Thomas d'Aquin", year: 1264 },
   { title: "The Frog Galliard", artist: "John Dowland", year: 1597, listened: true, genre: "classical" },
 
-  // 1600s (XVIIe siècle)
+  // baroque: 1600 -> 1750
   { title: "Orphée, fable en musique, SV 318", artist: "Monteverdi", year: 1607 },
   { title: "Psalmen Davids", artist: "Schütz", year: 1619 },
   { title: "Fleurs musicales", artist: "Frescobaldi", year: 1635 },
@@ -18,8 +18,6 @@ const data_lt_1940: Item[] = [
   { title: "Concerto pour la nuit de Noël, op. 6 n° 8", artist: "Corelli", year: 1690, listened: true, genre: "classical" },
   { title: "Te Deum, H.146", artist: "Charpentier", year: 1690, fr: true },
   { title: "Passacaille en ré mineur, BuxWV 161", artist: "Buxtehude", year: 1690 },
-
-  // 1700s (XVIIIe siècle)
   { title: "La Santissima Annunziata", artist: "Scarlatti", year: 1700 },
   { title: "Toccata et fugue en ré mineur, BWV 565", artist: "Bach", year: 1703, listened: true, genre: "classical", comment: 'Organ' },
   { title: "Bourrée en mi mineur, BWV 996", artist: "Bach", year: 1708, listened: true, genre: "classical", comment: 'Arr. for guitar' },
@@ -35,6 +33,9 @@ const data_lt_1940: Item[] = [
   { title: "Messiah, HWV 56", artist: "Haendel", year: 1741, listened: true, genre: "classical" },
   { title: "Goldberg Variations, BWV 988", artist: "Bach", year: 1741, listened: true, genre: "piano", comment: 'played by András Schiff, 2017' },
   { title: "Le Clavier bien tempéré (livre 2), BWV 870-893", artist: "Bach", year: 1744, genre: "piano" },
+  { title: "L'Art de la fugue, BWV 1080", artist: "Bach", year: 1750 },
+
+  // classique: 1750 -> 1800
   { title: "Symphonie n° 49 en fa mineur, Hob. I:49", artist: "Haydn", year: 1768, comment: '"La Passione"' },
   { title: "Bastien et Bastienne, K. 50", artist: "Mozart", year: 1768 },
   { title: "Quintette à cordes avec deux violoncelles en mi majeur, op. 11 n° 5", artist: "Boccherini", year: 1771, listened: true, genre: "classical" },
@@ -51,13 +52,14 @@ const data_lt_1940: Item[] = [
   { title: "Messe de Requiem en ré mineur, KV 626", artist: "Mozart", year: 1791, listened: true, genre: "classical" },
   { title: "La Flûte enchantée, K. 620", artist: "Mozart", year: 1791, comment: '"La reine de la nuit"' },
 
-  // 1800s (XIXe siècle)
+  // romantique: 1800 -> 1900
   { title: 'Sonate n° 14, op. 27 n° 2, "Sonate au Clair de Lune"', artist: "Beethoven", year: 1801, listened: true, genre: "piano" },
   { title: "24 caprices pour violon, op. 1 MS 25", artist: "Paganini", year: 1802, listened: true, genre: "classical" },
   { title: 'Symphonie n° 5, op. 67, "Symphonie du destin"', artist: "Beethoven", year: 1804, listened: true, genre: "classical", comment: "tin tin tin tiiin" },
   { title: 'Symphonie n° 6 en fa majeur, op. 68, "Pastorale"', artist: "Beethoven", year: 1805, genre: "classical" },
   { title: "Egmont, op. 84", artist: "Beethoven", year: 1809, listened: true, genre: "classical" },
   { title: 'Bagatelle en la mineur, "La Lettre à Elise"', artist: "Beethoven", year: 1810, listened: true, genre: "piano" },
+  { title: "Sonate pour piano n° 25 en sol majeur, op. 79", artist: "Beethoven", year: 1810, listened: true, genre: "piano", perso: true, comment: "Vivace (3ème mouvement)" },
   { title: "Symphonie n° 7, op. 92", artist: "Beethoven", year: 1811 },
   { title: "Le Barbier de Séville", artist: "Rossini", year: 1816, listened: true, genre: "classical" },
   { title: "La Truite", artist: "Schubert", year: 1819 },
@@ -127,7 +129,7 @@ const data_lt_1940: Item[] = [
   { title: "Le Vol du bourdon", artist: "Rimski-Korsakov", year: 1899, listened: true, genre: "classical" },
   { title: "La Nuit transfigurée, op. 4", artist: "Arnold Schönberg", year: 1899 },
 
-  // 1900s (XXe siècle)
+  // moderne (1ère partie du XXe siècle)
   { title: "Es war einmal", artist: "Zemlinsky", year: 1900 },
   { title: "Pomp and Circumstance Military Marches, op. 39", artist: "Elgar", year: 1901, listened: true, genre: "classical" },
   { title: "Symphonie n° 5 en do dièse mineur", artist: "Mahler", year: 1901 },
@@ -244,6 +246,7 @@ const data_1940s: Item[] = [
 
   { title: "Birth of the Cool", artist: "Miles Davis", year: 1949, genre: "jazz", comment: 'Compilation released in 1957, recorded between 1949 and 1950' },
   { title: "Djangology", artist: "Django Reinhardt", year: 1949, genre: "jazz", comment: 'Compilation released in 1961, recorded in 1949' },
+  { title: "Symphonie pour un homme seul", artist: "Pierre Schaeffer, Pierre Henry", year: 1949, fr: true },
 ];
 
 const data_1950s: Item[] = [
@@ -312,6 +315,7 @@ const data_1950s: Item[] = [
   { title: "Ella Fitzgerald Sings the Rodgers & Hart Song Book", artist: "Ella Fitzgerald", year: 1956, genre: "jazz" },
   { title: "Django", artist: "Modern Jazz Quartet", year: 1956, genre: "jazz" },
   { title: "A New Sound... A New Star...", artist: "Jimmy Smith", year: 1956, genre: "jazz" },
+  { title: "Klavierstück XI", artist: "Stockhausen", year: 1956, comment: 'aleatoric' },
 
   { title: "Kenya", artist: "Machito", year: 1957, comment: "Afro-Cuban Jazz, Big Band", listened: true, genre: "jazz" },
   { title: "Mellow Guitar", artist: "George Van Eps", year: 1957, genre: "jazz" },
@@ -368,6 +372,7 @@ const data_1950s: Item[] = [
   { title: "Back to Mono (1958-1969)", artist: "Phil Spector and Various Artists", year: 1958, comment: 'released in 1991' },
   { title: "At the Pershing: But Not for Me", artist: "Ahmad Jamal", year: 1958, genre: "jazz", live: true },
   { title: "Rumble", artist: "Link Wray", year: 1958, genre: "rock", single: true, listened: true },
+  { title: "Gruppen", artist: "Stockhausen", year: 1958 },
 
   { title: "Here's Little Richard", artist: "Little Richard", year: 1959, listened: true, genre: "rock-n-roll", stars: 1, comment: '"Tutti-Frutti"' },
   { title: "Ella Fitzgerald Sings the George and Ira Gershwin Song Book", artist: "Ella Fitzgerald", year: 1959, listened: true, genre: "jazz", comment: `"Let's Call the Whole Thing Off", "Slap That Bass"`, stars: 1 },
@@ -464,6 +469,7 @@ const data_1960s: Item[] = [
   { title: "Jazz Samba", artist: "Stan Getz / Charlie Byrd", year: 1962, listened: true, genre: "jazz", stars: 1, fav: true },
   { title: "Undercurrent", artist: "Jim Hall, Bill Evans", year: 1962, genre: "jazz" },
   { title: "The Bridge", artist: "Sonny Rollins", year: 1962, genre: "jazz" },
+  { title: "Poème symphonique", artist: "Ligeti", year: 1962, comment: '100 metronomes' },
 
   { title: "Ella and Basie!", artist: "Ella Fitzgerald, Count Basie", year: 1963, listened: true, genre: "jazz", stars: 1, comment: `"Tea for Two", "Dream a Little Dream of Me", "I'm Beginning to See the Light", arrangements by Quincy Jones` },
   { title: "Let Freedom Ring", artist: "Jackie McLean", year: 1963, genre: "jazz" },
@@ -788,6 +794,8 @@ const data_1960s: Item[] = [
   { title: "Journey Thru an Electric Tube", artist: "Mike Mainieri", year: 1968, genre: "fusion" },
   { title: "Do the Reggay", artist: "The Maytals", year: 1968, single: true, genre: "reggae", listened: true },
   { title: "Afro-Harping", artist: "Dorothy Ashby", year: 1968 },
+  { title: "Sinfonia", artist: "Berio", year: 1968 },
+  { title: "Stimmung", artist: "Stockhausen", year: 1968 },
 
   { title: "In the Court of the Crimson King", artist: "King Crimson", year: 1969 },
   { title: "A Jackson in Your House", artist: "Art Ensemble of Chicago", year: 1969, genre: "jazz", listened: true, meh: true },
@@ -1301,6 +1309,7 @@ const data_1970s: Item[] = [
   { title: "You", artist: "Gong", year: 1974 },
   { title: "Native Dancer", artist: "Wayne Shorter", year: 1974, genre: "fusion" },
   { title: "Adoniran Barbosa", artist: "Adoniran Barbosa", year: 1974 },
+  { title: "Music in Twelve Parts", artist: "Philip Glass", year: 1974 },
 
   { title: "Physical Graffiti", artist: "Led Zeppelin", year: 1975, comment: '"Kashmir"' },
   { title: "Sweet Hands", artist: "David Liebman", year: 1975, genre: "fusion" },
@@ -1737,7 +1746,7 @@ const data_1980s: Item[] = [
   { title: "Aretha", artist: "Aretha Franklin", year: 1980, comment: `"I Can't Turn You Loose", "Love Me Forever"`, listened: true, genre: "soul", fav: true, stars: 1 },
   { title: "Faces", artist: "Earth, Wind and Fire", year: 1980, listened: true, genre: "funk", stars: 1 },
   { title: "Love Uprising", artist: "Tavares", year: 1980 },
-  { title: "Uprising", artist: "Bob Marley and the Wailers", year: 1980, comment: '"Could You Be Loved"', genre: "reggae" },
+  { title: "Uprising", artist: "Bob Marley and the Wailers", year: 1980, comment: '"Could You Be Loved", "Redemption Song"', genre: "reggae", listened: true, stars: 1, fav: true },
   { title: "A Brazilian Love Affair", artist: "George Duke", year: 1980 },
   { title: "Middle Man", artist: "Boz Scaggs", year: 1980 },
   { title: "Gradually Going Tornado", artist: "Bruford", year: 1980, genre: "fusion" },
@@ -1863,6 +1872,7 @@ const data_1980s: Item[] = [
   { title: "Escape", artist: "Journey", year: 1981, listened: true, stars: 1, genre: "rock", comment: `"Don't Stop Believin'"` },
   { title: "La Folie", artist: "The Stranglers", year: 1981, comment: '"Golden Brown"', listened: true, genre: "rock", stars: 1 },
   { title: "Chariots of Fire OST", artist: "Vangelis", year: 1981 },
+  { title: "Répons", artist: "Boulez", year: 1981 },
 
   { title: "The Nightfly", artist: "Donald Fagen", year: 1982, listened: true, fav: true, stars: 3, genre: "rock" },
   { title: "I.O.U.", artist: "Allan Holdsworth", year: 1982, genre: "fusion" },
@@ -2571,6 +2581,7 @@ const data_1990s: Item[] = [
   { title: "Images and Words", artist: "Dream Theater", year: 1992, listened: true, genre: "metal", comment: '"Pull Me Under"' },
   { title: "Standards (and Other Songs)", artist: "Mike Stern", year: 1992, listened: true, genre: "jazz" },
   { title: "Don't Sweat the Technique", artist: "Eric B. & Rakim", year: 1992, genre: "rap", listened: true, stars: 3, fav: true },
+  { title: "Medeamaterial", artist: "Dusapin", year: 1992, fr: true },
 
   { title: "Emergency on Planet Earth", artist: "Jamiroquai", year: 1993, listened: true, genre: "funk", stars: 3, fav: true, perso: true, comment: '"Blow Your Mind", "Revolution 1993", Cabal Online bg music' },
   { title: "Blue Light 'til Dawn", artist: "Cassandra Wilson", year: 1993, genre: "jazz" },
