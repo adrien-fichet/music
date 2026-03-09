@@ -1,15 +1,15 @@
 <p>Todo:</p>
 <ul>
   <li>More Video Games BGMs from <a href="https://vipvgm.net">VIP Aersia.net</a></li>
-  <li>John Williams OSTs</li>
+  <li>More John Williams / Hans Zimmer OSTs</li>
   <li>
-    Jazz Standards
+    More Jazz Standards
     <ul>
       <li><a href="https://ronhackettmusic.com/data/searchRB.php">The Real Book</a></li>
       <li><a href="https://en.wikipedia.org/wiki/Jazz_standard">Wikipedia</a></li>
     </ul>
   </li>
-  <li>Blues Standards</li>
+  <li>More Blues Standards</li>
   <li>Albums of songs I play(ed) on bass / guitar</li>
   <li>Spotify playlists (pop-rock, electro 2000, rock 70s / 80s), etc.</li>
   <li>Chansons françaises de la collection Diapason Rouge</li>
@@ -20,10 +20,11 @@
     Songs from the <a href="https://en.wikipedia.org/wiki/National_Recording_Registry">US National Recording Registry</a>
     and the <a href="https://en.wikipedia.org/wiki/Great_American_Songbook">Great American Songbook</a>
   </li>
-  <li>EPs from LoFi records</li>
+  <li>More EPs from LoFi records</li>
   <li>
     Musical recordings from the <a href="https://en.wikipedia.org/wiki/Grammy_Hall_of_Fame">Grammy Hall of Fame</a>
   </li>
-  <li>Artists cited in Daft Punk's "Teachers", Soulwax's "Teachers" remix, LCD Soundsystem's "Losing My Edge"</li>
+  <li>Artists cited in Soulwax's "Teachers" remix, LCD Soundsystem's "Losing My Edge"</li>
   <li>More songs/artists from Aztec/RetroSynth Records</li>
+  <li>Rone "100 Favourites" playlist</li>
 </ul>
