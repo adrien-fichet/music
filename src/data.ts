@@ -171,7 +171,7 @@ const data_lt_1940: Item[] = [
   { title: "Ma Rainey's Black Bottom", artist: "Ma Rainey", year: 1927, standard: true, genre: "blues", listened: true },
   { title: "Boléro", artist: "Ravel", year: 1928, fr: true, listened: true, genre: "classical" },
   { title: "An American in Paris", artist: "Gershwin", year: 1928, listened: true, genre: "classical" },
-  { title: "I Wanna Be Loved by You", artist: "Herbert Stothart & Harry Ruby", year: 1928, single: true, listened: true },
+  { title: "I Wanna Be Loved by You", artist: "Herbert Stothart & Harry Ruby", year: 1928, single: true, listened: true, genre: "jazz" },
   { title: "St. James Infirmary", artist: "Louis Armstrong / Don Redman", year: 1928, genre: "blues", standard: true, listened: true },
   { title: "Nobody Knows You When You're Down and Out", artist: "Jimmie Cox / Bessie Smith", year: 1929, genre: "blues", standard: true, listened: true },
 
@@ -180,6 +180,7 @@ const data_lt_1940: Item[] = [
   { title: "Mood Indigo", artist: "Duke Ellington and His Famous Orchestra", year: 1930, genre: "jazz", standard: true, listened: true },
   { title: "Body and Soul", artist: "Johnny Green", year: 1930, genre: "jazz", standard: true, listened: true },
   { title: "Georgia on My Mind", artist: "Hoagy Carmichael and his Orchestra", year: 1930, genre: "jazz", standard: true, listened: true },
+  { title: "It Don't Mean a Thing (If It Ain't Got That Swing)", artist: "Duke Ellington", year: 1932, genre: "jazz", standard: true, listened: true, stars: 1, fav: true },
   { title: "Rétrospective", artist: "Django Reinhardt", year: 1934, genre: "jazz", comment: 'Compilation recorded between 1934 and 1953' },
   { title: "Symphony: Mathis der Maler", artist: "Paul Hindemith", year: 1934 },
 
@@ -199,13 +200,13 @@ const data_lt_1940: Item[] = [
 
   { title: "Adagio pour cordes, op. 11", artist: "Barber", year: 1938, listened: true, genre: "classical" },
   { title: "You Go to My Head", artist: "J. Fred Coots", year: 1938, listened: true, genre: "jazz", standard: true },
-  { title: "I Let a Song Go Out Of My Heart", artist: "Duke Ellington", year: 1938, genre: "jazz", standard: true },
+  { title: "I Let a Song Go Out Of My Heart", artist: "Duke Ellington", year: 1938, genre: "jazz", standard: true, listened: true },
   { title: "Live at Carnegie Hall", artist: "Benny Goodman", year: 1938, genre: "jazz", live: true },
   { title: "Heart and Soul", artist: "Hoagy Carmichael, Larry Clinton and his Orchestra", year: 1938, genre: "jazz", standard: true, listened: true, comment: `'the '50s progression (Stand By Me)` },
 
   { title: "Djangologie Vol. 9 / 1939-1940", artist: "Django Reinhardt", year: 1939, listened: true, genre: "jazz" },
   { title: "All the Things You Are", artist: "Jerome Kern", year: 1939, genre: "jazz", standard: true, listened: true },
-  { title: "Harlem Nocturne", artist: "Earle Hagen", year: 1939, genre: "jazz", standard: true },
+  { title: "Harlem Nocturne", artist: "Earle Hagen", year: 1939, genre: "jazz", standard: true, listened: true },
   { title: "Body and Soul", artist: "Coleman Hawkins", year: 1939, genre: "jazz", comment: 'Compilation released in 1996, recorded between 1939 and 1956' },
   { title: "Take the 'A' Train", artist: "Billy Strayhorn", year: 1939, genre: "jazz", standard: true, listened: true },
   { title: "The Tradition Masters", artist: "Lead Belly", year: 1939, genre: "blues", comment: '"Where Did You Sleep Last Night"', listened: true },
@@ -215,13 +216,13 @@ const data_lt_1940: Item[] = [
   { title: "Over the Rainbow", artist: "Harold Arlen / Judy Garland", year: 1939, single: true, listened: true, genre: "jazz", comment: 'The Wizard of Oz' },
   { title: "Solo Flight: The Genius of Charlie Christian", artist: "Charlie Christian", year: 1939, genre: "jazz", comment: 'Double album released in 1972' },
   { title: "The Genius of the Electric Guitar", artist: "Charlie Christian", year: 1939, genre: "jazz", comment: '1939-1941 recordings' },
-  { title: "In the Mood", artist: "Glenn Miller and his Orchestra", year: 1939, genre: "jazz", standard: true },
+  { title: "In the Mood", artist: "Glenn Miller and his Orchestra", year: 1939, genre: "jazz", standard: true, listened: true, stars: 1, fav: true },
 ];
 
 const data_1940s: Item[] = [
   { title: "Prelude n° 1", artist: "Heitor Villa-Lobos", year: 1940 },
   { title: "The Blanton-Webster Band", artist: "Duke Ellington", year: 1940, genre: "jazz", comment: "Compilation released in 1986, recorded between 1940 and 1942" },
-  { title: "Cotton Tail", artist: "Duke Ellington", year: 1940, genre: "jazz", listened: false, standard: true },
+  { title: "Cotton Tail", artist: "Duke Ellington", year: 1940, genre: "jazz", listened: true, standard: true },
   { title: "Quatuor pour la fin du Temps", artist: "Messiaen", year: 1940, fr: true },
   { title: "The Nearness of You", artist: "Hoagy Carmichael, Glenn Miller", year: 1940, standard: true, genre: "jazz", listened: true },
 
@@ -229,20 +230,20 @@ const data_1940s: Item[] = [
   { title: "I'm So Lonesome I Could Cry", artist: "Hank Williams and His Drifting Cowboys", year: 1941, single: true, listened: true, genre: "country" },
 
   { title: "'Round Midnight", artist: "Thelonious Monk", year: 1944, genre: "jazz", listened: true, standard: true },
-  { title: "Midnight Symphony", artist: "Lester Young", year: 1944, genre: "jazz", standard: true },
+  { title: "Midnight Symphony", artist: "Lester Young", year: 1944, genre: "jazz", standard: true, listened: true },
   { title: "The King Cole Trio", artist: "Nat King Cole", year: 1944, genre: "jazz" },
   { title: "The Complete Savoy and Dial Studio Recordings 1944-1948", artist: "Charlie Parker", year: 1944, genre: "jazz" },
-  { title: "The Boy Next Door", artist: "Hugh Martin & Ralph Blane", year: 1944, genre: "jazz", standard: true },
+  { title: "The Boy Next Door", artist: "Hugh Martin & Ralph Blane", year: 1944, genre: "jazz", standard: true, listened: true },
   { title: "Stella By Starlight", artist: "Victor Young", year: 1944, genre: "jazz", standard: true, listened: true },
   { title: "The Complete Savoy Recordings", artist: "Lester Young", year: 1944, genre: "jazz", comment: 'Compilation, recorded between 1944 and 1950' },
-  { title: "I'm Beginning to See the Light", artist: "Duke Ellington, Johny Hodges, Harry James, Don George", year: 1944, genre: "jazz", listened: false, standard: true },
+  { title: "I'm Beginning to See the Light", artist: "Duke Ellington, Johny Hodges, Harry James, Don George", year: 1944, genre: "jazz", listened: true, standard: true },
 
-  { title: "Autumn Leaves", artist: "Joseph Kosma", year: 1945, genre: "jazz", listened: true, standard: true },
+  { title: "Autumn Leaves", artist: "Joseph Kosma", year: 1945, genre: "jazz", listened: true, standard: true, stars: 1, fav: true },
   { title: "The Thundering Herds", artist: "Woody Herman", year: 1945, genre: "jazz", comment: 'Recorded between 1945 and 1947' },
   { title: "This Land Is Your Land", artist: "Woody Guthrie", year: 1945, listened: true, genre: "folk", single: true },
   { title: "Shaw 'Nuff", artist: "Dizzie Gillespie and his sextets and orchestra", year: 1945, genre: "jazz", comment: 'Compilation released in 1992, recorded in 1945 and 1946' },
 
-  { title: "Yardbird Suite", artist: "Charlie Parker", year: 1946, genre: "jazz", standard: true },
+  { title: "Yardbird Suite", artist: "Charlie Parker", year: 1946, genre: "jazz", standard: true, listened: true },
   { title: "The Lester Young Buddy Rich Trio", artist: "Lester Young, Buddy Rich, Nat King Cole", year: 1946, genre: "jazz", comment: 'Released in 1955, recorded in 1946' },
   { title: "Unforgettable", artist: "Nat King Cole", year: 1946, genre: "jazz", comment: 'Compilation re-released in 1954, recorded between 1946 and 1954' },
   { title: "Stormy Monday (Call It Stormy Monday (But Tuesday is Just as Bad))", artist: "T-Bone Walker", year: 1947, genre: "blues", listened: true, standard: true },
@@ -388,7 +389,7 @@ const data_1950s: Item[] = [
   { title: "Here's Little Richard", artist: "Little Richard", year: 1959, listened: true, genre: "rock-n-roll", stars: 1, comment: '"Tutti-Frutti"' },
   { title: "Ella Fitzgerald Sings the George and Ira Gershwin Song Book", artist: "Ella Fitzgerald", year: 1959, listened: true, genre: "jazz", comment: `"Let's Call the Whole Thing Off", "Slap That Bass"`, stars: 1 },
   { title: "Time Out", artist: "The Dave Brubeck Quartet", year: 1959, genre: "jazz", listened: true, stars: 1 },
-  { title: "Take Five", artist: "Paul Desmond", year: 1959, genre: "jazz", listened: true, standard: true },
+  { title: "Take Five", artist: "Paul Desmond", year: 1959, genre: "jazz", listened: true, standard: true, stars: 1, fav: true },
   { title: "The Shape of Jazz to Come", artist: "Ornette Coleman", year: 1959 },
   { title: "Solo in Rio 1959", artist: "Luiz Bonfà", year: 1959, genre: "jazz", live: true },
   { title: "Sonny Side Up", artist: "Dizzy Gillespie, Sonny Stitt and Sonny Rollins", year: 1959, genre: "jazz" },
@@ -408,6 +409,7 @@ const data_1950s: Item[] = [
   { title: "Flamingo Serenade", artist: "The Flamingos", year: 1959, listened: true, genre: "soul" },
   { title: "At the Gate of the Horn", artist: "Memphis Slim", year: 1959, comment: `"Steppin' Out"` },
   { title: "Gloria, FP 177", artist: "Poulenc", year: 1959 },
+  { title: "Little Girl Blue", artist: "Nina Simone", year: 1959, comment: '"I loves you, Porgy"' },
 ];
 
 const data_1960s: Item[] = [
@@ -452,10 +454,12 @@ const data_1960s: Item[] = [
   { title: "Charles Aznavour (Je m'voyais déjà)", artist: "Charles Aznavour", year: 1961, fr: true, listened: true, genre: "chanson" },
   { title: "Green Street", artist: "Grant Green", year: 1961, listened: true, genre: "jazz", comment: 'Jazz guitar' },
   { title: "Please Mr. Postman", artist: "The Marvelettes", year: 1961, listened: true, genre: "soul" },
-  { title: "Sunday at the Village Vanguard", artist: "Bill Evans Trio feat. Scott La Faro", year: 1961, live: true, genre: "jazz" },
+  { title: "Sunday at the Village Vanguard", artist: "Bill Evans Trio feat. Scott LaFaro", year: 1961, live: true, genre: "jazz" },
   { title: "Eastern Sounds", artist: "Yusef Lateef", year: 1961, genre: "jazz" },
   { title: "The Complete Quartets with Sonny Clark", artist: "Grant Green, Sonny Clark", year: 1961, genre: "jazz", comment: 'Compilation released in 1997' },
   { title: "Jazz Winds from a New Direction", artist: "Hank Garland", year: 1961, genre: "jazz" },
+  { title: "Explorations", artist: "Bill Evans Trio", year: 1961, genre: "jazz" },
+  { title: "The Great Summit: The Master Takes", artist: "Louis Armstrong, Duke Ellington", year: 1961, genre: "jazz", comment: 'reissue of "Together For The First Time" and "The Great Reunion"' },
 
   { title: "Modern Sounds in Country and Western Music", artist: "Ray Charles", year: 1962, listened: true, stars: 1, genre: "soul" },
   { title: "N°4", artist: "Serge Gainsbourg", year: 1962, listened: true, genre: "chanson", comment: '"Les goémons"', fr: true },
@@ -482,6 +486,7 @@ const data_1960s: Item[] = [
   { title: "The Bridge", artist: "Sonny Rollins", year: 1962, genre: "jazz" },
   { title: "Poème symphonique", artist: "Ligeti", year: 1962, comment: '100 metronomes' },
   { title: "It's Time", artist: "Max Roach", year: 1962, genre: "jazz" },
+  { title: "James Bond Theme", artist: "Monty Norman", year: 1962, genre: "jazz", comment: 'arranged by John Barry', listened: true, single: true },
 
   { title: "Ella and Basie!", artist: "Ella Fitzgerald, Count Basie", year: 1963, listened: true, genre: "jazz", stars: 1, comment: `"Tea for Two", "Dream a Little Dream of Me", "I'm Beginning to See the Light", arrangements by Quincy Jones` },
   { title: "Let Freedom Ring", artist: "Jackie McLean", year: 1963, genre: "jazz" },
@@ -811,7 +816,7 @@ const data_1960s: Item[] = [
   { title: "Stimmung", artist: "Stockhausen", year: 1968 },
   { title: "Three Dog Night", artist: "Three Dog Night", year: 1968 },
   { title: "Speak Like a Child", artist: "Herbie Hancock", year: 1968 },
-  { title: "Suspicious Minds", artist: "Mark James", year: 1968, single: true },
+  { title: "Suspicious Minds", artist: "Mark James", year: 1968, single: true, listened: true, genre: "pop" },
   { title: "Switched-On Bach", artist: "Wendy Carlos", year: 1968, comment: 'Moog', genre: "synth" },
 
   { title: "In the Court of the Crimson King", artist: "King Crimson", year: 1969 },
@@ -856,7 +861,7 @@ const data_1960s: Item[] = [
   { title: "Goodbye", artist: "Cream", year: 1969, listened: true, stars: 1, genre: "rock", comment: `"I'm So Glad", "Badge"` },
   { title: "On Her Majesty's Secret Service OST", artist: "John Barry performed by Louis Armstrong", year: 1969 },
   { title: "Tons of Sobs", artist: "Free", year: 1969 },
-  { title: "From Elvis in Memphis", artist: "Elvis Presley", year: 1969 },
+  { title: "From Elvis in Memphis", artist: "Elvis Presley", year: 1969, comment: '"Suspicious Minds"' },
   { title: "The Meters", artist: "The Meters", year: 1969 },
   { title: "Look-Ka Py Py", artist: "The Meters", year: 1969, listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Blood, Sweat & Tears", artist: "Blood, Sweat & Tears", year: 1969, listened: true, genre: "rock", comment: `Mix of jazz, blues, classical and rock, "More and More", "And When I Die", "You've Made Me So Very Happy"`, stars: 1 },
@@ -908,7 +913,6 @@ const data_1960s: Item[] = [
   { title: "First Take", artist: "Roberta Flack", year: 1969, listened: true, genre: "soul", stars: 2, fav: true },
   { title: "Streetnoise", artist: "Brian Auger and the Trinity", year: 1969, genre: "fusion" },
   { title: "Babylon", artist: "Dr. John", year: 1969 },
-  { title: "Suspicious Minds", artist: "Elvis Presley", year: 1969, single: true },
 ];
 
 const data_1970s: Item[] = [
@@ -997,7 +1001,7 @@ const data_1970s: Item[] = [
   { title: "Led Zeppelin IV", artist: "Led Zeppelin", year: 1971, perso: true, genre: "hard-rock", listened: true, stars: 4, fav: true, comment: '"Black Dog", "Rock and Roll", "The Battle of Evermore", "Stairway to Heaven", "Going to California", "When the Levee Breaks"' },
   { title: "Energy", artist: "Jeremy Steig", year: 1971, genre: "fusion" },
   { title: "Ego", artist: "The Tony Williams Lifetime", year: 1971, genre: "fusion" },
-  { title: "Fireball", artist: "Deep Purple", year: 1971, listened: true, genre: "rock", comment: `"Demon's Eye"`, stars: 2, fav: true },
+  { title: "Fireball", artist: "Deep Purple", year: 1971, listened: false, genre: "hard-rock", comment: `"Demon's Eye", "Strange Kind of Woman", "Fools"`, stars: 3, fav: true },
   { title: "For Alto", artist: "Anthony Braxton", year: 1971, genre: "jazz", listened: true, meh: true },
   { title: "Tales Of The Algonquin", artist: "John Surman, John Warren", year: 1971, genre: "jazz" },
   { title: "Afric Pepperbird", artist: "Jan Garbarek Quartet", year: 1971, genre: "jazz" },
@@ -1925,7 +1929,7 @@ const data_1980s: Item[] = [
   { title: "Skyy Line", artist: "Skyy", year: 1981, comment: '"Call Me"' },
   { title: "Miracles", artist: "Change", year: 1981 },
   { title: "Klaus Nomi", artist: "Klaus Nomi", year: 1981 },
-  { title: "J'aime regarder les filles", artist: "Patrick Coutin", year: 1981, fr: true, genre: "chanson", single: true },
+  { title: "J'aime regarder les filles", artist: "Patrick Coutin", year: 1981, fr: true, genre: "chanson", single: true, listened: true },
 
   { title: "The Nightfly", artist: "Donald Fagen", year: 1982, listened: true, fav: true, stars: 3, genre: "rock" },
   { title: "I.O.U.", artist: "Allan Holdsworth", year: 1982, genre: "fusion" },
@@ -2962,7 +2966,7 @@ const data_1990s: Item[] = [
   { title: "Silence radio", artist: "Serge Teyssot-Gay", year: 1996, fr: true },
   { title: "Pokémon Red/Blue/Yellow OST", artist: "Junichi Masuda", year: 1996, genre: "vgm", listened: true, perso: true, stars: 3, fav: true },
   { title: "Golden Heart", artist: "Mark Knopfler", year: 1996 },
-  { title: "Hi Scores", artist: "Boards of Canada", year: 1996, ep: true, comment: 'Nlogax' },
+  { title: "Hi Scores", artist: "Boards of Canada", year: 1996, ep: true, comment: 'Nlogax', listened: false, genre: "electro" },
   { title: "Flawless Victory", artist: "K-Alexi", year: 1996 },
   { title: "One World, One Future", artist: "Armando", year: 1996 },
   { title: "Freak Like Me", artist: "DJ Deeon", year: 1996, ep: true },
@@ -3137,7 +3141,7 @@ const data_1990s: Item[] = [
   { title: "One Trip/One Noise", artist: "Noir Désir", year: 1998, perso: true, fr: true },
   { title: "Moon Safari", artist: "Air", year: 1998, listened: true, fav: true, perso: true, stars: 2, genre: "pop", fr: true, comment: `"La femme d'argent", "Talisman"` },
   { title: "In the Aeroplane Over The Sea", artist: "Neutral Milk Hotel", year: 1998, listened: true, genre: "rock" },
-  { title: "Music Has the Right To Children", artist: "Boards of Canada", year: 1998, listened: true, comment: '"Olson"', genre: "synth" },
+  { title: "Music Has the Right To Children", artist: "Boards of Canada", year: 1998, listened: true, comment: '"Olson"', genre: "electro" },
   { title: "When the Pawn...", artist: "Fiona Apple", year: 1998 },
   { title: "Devil Without a Cause", artist: "Kid Rock", year: 1998 },
   { title: "I See a Darkness", artist: "Bonnie 'Prince' Billy", year: 1998 },
@@ -3153,6 +3157,7 @@ const data_1990s: Item[] = [
   { title: "Motherfucking Bass", artist: "DJ Rush", year: 1998, genre: "electro", single: true, listened: true, meh: true },
   { title: "Munich Machine", artist: "DJ Hell", year: 1998, genre: "electro" },
   { title: "Pictured Within", artist: "Jon Lord", year: 1998 },
+  { title: "Aquarius", artist: "Boards of Canada", year: 1998, ep: true },
 
   { title: "Synkronized", artist: "Jamiroquai", year: 1999, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Canned Heat", "Black Capicorn Day", "Soul Education", "Supersonic", "King For A Day", "Deeper Underground"' },
   { title: "We Are! (ウィーアー！)", artist: "Hiroshi Kitadani", year: 1999, listened: true, genre: "pop", comment: "Opening 1 of One Piece", stars: 1, fav: true },
@@ -3427,7 +3432,7 @@ const data_2000s: Item[] = [
   { title: "Live in Paris", artist: "Diana Krall", year: 2002, live: true, genre: "jazz" },
   { title: "The Last DJ", artist: "Tom Petty and the Heartbreakers", year: 2002, genre: "rock" },
   { title: "Yankee Hotel Foxtrot", artist: "Wilco", year: 2002 },
-  { title: "Audioslave", artist: "Audioslave", year: 2002 },
+  { title: "Audioslave", artist: "Audioslave", year: 2002, comment: '"Gasoline" intro jump scare' },
   { title: "All the Things She Said", artist: "t.A.T.u.", year: 2002, listened: true, genre: "rock", single: true },
   { title: "8 Mile OST", artist: "Eminem & Various Artists", year: 2002, comment: '"Lose Yourself"' },
   { title: "Alice", artist: "Tom Waits", year: 2002 },
@@ -3493,6 +3498,7 @@ const data_2000s: Item[] = [
   { title: "Live at the Quick", artist: "Béla Fleck and the Flecktones", year: 2002, live: true },
   { title: "Work", artist: "Masters At Work", year: 2002 },
   { title: "Arrhythmia", artist: "Antipop Consortium", year: 2002, genre: "rap" },
+  { title: "Geogaddi", artist: "Boards of Canada", year: 2002 },
 
   { title: "De-Loused in the Comatorium", artist: "The Mars Volta", year: 2003, listened: true, genre: "rock", comment: '"Roulette Dares (The Haunt Of)"' },
   { title: "Qui de nous deux ?", artist: "-M-", year: 2003, listened: true, genre: "pop", fr: true, stars: 2, fav: true },
@@ -3713,6 +3719,7 @@ const data_2000s: Item[] = [
   { title: "The Trawlerman's Song", artist: "Mark Knopfler", year: 2005, ep: true },
   { title: "Everything Ecstatic", artist: "Four Tet", year: 2005 },
   { title: "A Certain Trigger", artist: "Maxïmo Park", year: 2005 },
+  { title: "The Campfire Headphase", artist: "Boards of Canada", year: 2005 },
 
   { title: "Back to Black", artist: "Amy Winehouse", year: 2006, listened: true, stars: 1, genre: "soul" },
   { title: "Displaced", artist: "Neil Cowley Trio", year: 2006 },
@@ -4271,6 +4278,7 @@ const data_2010s: Item[] = [
   { title: "Under the Influence", artist: "Straight No Chaser", year: 2013 },
   { title: "Dragon Under", artist: "Neil Landstrumm", year: 2013 },
   { title: "The Art of Sampling", artist: "Parov Stelar", year: 2013 },
+  { title: "Tomorrow's Harvest", artist: "Boards of Canada", year: 2013 },
 
   { title: "Fugue State", artist: "Vulpeck", year: 2014, ep: true, listened: true, genre: "funk", stars: 3, fav: true, comment: '"1612"' },
   { title: "Corazón", artist: "Santana", year: 2014, comment: 'Latin rock, "Iron Lion Zion"', listened: true, genre: "rock" },
@@ -4868,6 +4876,7 @@ const data_2020s: Item[] = [
   { title: "Miaou", artist: "Mathieu Fiset, Antoine Dufour, Larnell Lewis", year: 2023, single: true, listened: true, genre: "jazz" },
   { title: "Carnaval", artist: "Lucie Antunes, Léonie Pernet", year: 2023, fr: true },
   { title: "L(oo)ping", artist: "Rone", year: 2023, fr: true, genre: "electro", live: true, comment: `avec l'Orchestre National de Lyon`, listened: true },
+  { title: "Aether", artist: "Virtua, Akraa", year: 2023, genre: "synth", listened: true },
 
   { title: "The Fearless Flyers IV", artist: "The Fearless Flyers", year: 2024, ep: true, listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Loss of Life", artist: "MGMT", year: 2024, listened: true, genre: "pop" },
@@ -4917,6 +4926,8 @@ const data_2020s: Item[] = [
   { title: "Mustard n'Onions", artist: "Ghost-Note", year: 2024 },
   { title: "One Deep River", artist: "Mark Knopfler", year: 2024 },
   { title: "A Dos", artist: "Lau Noah", year: 2024 },
+  { title: "=1", artist: "Deep Purple", year: 2024 },
+  { title: "Color Within Everything", artist: "cxlt., amies", year: 2024, listened: true, genre: "lofi" },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
@@ -4957,7 +4968,7 @@ const data_2020s: Item[] = [
   { title: "To Whom This May Concern", artist: "Jill Scott", year: 2026 },
   { title: "The Mountain", artist: "Gorillaz", year: 2026 },
   { title: "Route 96", artist: "Matteo Mancuso", year: 2026 },
-  { title: "Gourou OST", artist: "Chloé", year: 2026 },
+  { title: "Gourou OST", artist: "Chloé", year: 2026, fr: true },
   { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2026 },
 ];
 
