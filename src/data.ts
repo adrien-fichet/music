@@ -2407,6 +2407,7 @@ const data_1980s: Item[] = [
   { title: "Straight Outta Compton", artist: "N.W.A.", year: 1988, listened: true, genre: "rap", stars: 1 },
   { title: "...And Justice for All", artist: "Metallica", year: 1988, listened: true, genre: "metal", comment: '"Blackened", "One", "Harvester of Sorrow"', stars: 2, fav: true },
   { title: "Follow the Leader", artist: "Eric B. & Rakim", year: 1988, genre: "rap" },
+  { title: "Different Trains", artist: "Steve Reich", year: 1988 },
 
   { title: "Bleu Blanc Vert", artist: "Jean-Louis Aubert", year: 1989, fr: true, perso: true, comment: `"Voilà c'est fini", "Univers", "Le Bout du rouleau"`, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Bleach", artist: "Nirvana", year: 1989, genre: "grunge", listened: true, comment: '"About a Girl"' },
@@ -2762,6 +2763,7 @@ const data_1990s: Item[] = [
   { title: "Trainspotting OST", artist: "Various Artists", year: 1993 },
   { title: "Mon manège à moi", artist: "Etienne Daho", year: 1993, fr: true },
   { title: "Incunabula", artist: "Autechre", year: 1993, genre: "electro" },
+  { title: "TB Resuscitation", artist: "Hardfloor", year: 1993, genre: "electro", comment: '"Acperience 1"' },
 
   { title: "The Return of the Space Cowboy", artist: "Jamiroquai", year: 1994, listened: true, genre: "funk", stars: 3, fav: true, perso: true, comment: '"Manifest Destiny", "Mr Moon", "Scam"' },
   { title: "The Suitcase - Live in Köln '94", artist: "Steve Kahn", year: 1994, genre: "fusion", live: true },
@@ -3579,6 +3581,7 @@ const data_2000s: Item[] = [
   { title: "Pirates of the Caribbean: The Curse of the Black Pearl OST", artist: "Klaus Badelt, Hans Zimmer", year: 2003 },
   { title: "Doo Wap", artist: "Paul Johnson feat. Chynna", year: 2003, single: true, listened: true, genre: "electro" },
   { title: "Are You Ready for Love", artist: "Ashley Beedle", year: 2003, single: true, comment: 'Elton John remix', listened: true, genre: "electro" },
+  { title: "w/ The Artists", artist: "Rhythm & Sound", year: 2003, genre: "electro", comment: 'dub techno' },
 
   { title: "Symphony of Enchanted Lands II (The Dark Secret)", artist: "Rhapsody of Fire", year: 2004, listened: true, perso: true, genre: "metal", stars: 1, comment: '"Unholy Warcry"' },
   { title: "Bill's Break", artist: "Krazy Baldhead", year: 2004, ep: true, fr: true, genre: "electro" },
@@ -4153,6 +4156,8 @@ const data_2010s: Item[] = [
   { title: "The Unspeakable Chilly Gonzales", artist: "Chilly Gonzales", year: 2011 },
   { title: "Ravedeath, 1972", artist: "Tim Hecker", year: 2011 },
   { title: "100 chansons et comptines à l'école maternelle", artist: "Gérard Dalton", year: 2011, fr: true, genre: "chanson", comment: '"La sorcière Grabouilla"' },
+  { title: "Fleur", artist: "Sepalcure", year: 2011, ep: true, genre: "electro" },
+  { title: "Nothing but the Beat", artist: "David Guetta", year: 2011, comment: '"Titanium" sidechain to zero' },
 
   { title: "Vollmilch", artist: "Vulfpeck", year: 2012, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
   { title: "PANIC", artist: "Caravan Palace", year: 2012, fr: true },
@@ -4225,6 +4230,7 @@ const data_2010s: Item[] = [
   { title: "Lonerism", artist: "Tame Impala", year: 2012 },
   { title: "R.I.P.", artist: "Actress", year: 2012, genre: "electro" },
   { title: "Shields", artist: "Grizzly Bear", year: 2012 },
+  { title: "Tenderly / Flow", artist: "Disclosure", year: 2012, single: true, genre: "electro" },
 
   { title: "My First Car", artist: "Vulpeck", year: 2013, listened: true, genre: "funk", fav: true, stars: 1, ep: true, comment: '"The Speedwalker"' },
   { title: "Level Five Stage One", artist: "The Laszlo Project", year: 2013, listened: true, genre: "synth" },
@@ -4297,6 +4303,8 @@ const data_2010s: Item[] = [
   { title: "Dragon Under", artist: "Neil Landstrumm", year: 2013 },
   { title: "The Art of Sampling", artist: "Parov Stelar", year: 2013 },
   { title: "Tomorrow's Harvest", artist: "Boards of Canada", year: 2013 },
+  { title: "Vapor City", artist: "Machinedrum", year: 2013, genre: "electro" },
+  { title: "Double Cup", artist: "DJ Rashad", year: 2013, genre: "electro", comment: '"Leavin"' },
 
   { title: "Fugue State", artist: "Vulpeck", year: 2014, ep: true, listened: true, genre: "funk", stars: 3, fav: true, comment: '"1612"' },
   { title: "Corazón", artist: "Santana", year: 2014, comment: 'Latin rock, "Iron Lion Zion"', listened: true, genre: "rock" },
@@ -4363,6 +4371,7 @@ const data_2010s: Item[] = [
   { title: "Justified Replacement of Lulu", artist: "Dave Seaman", year: 2014, single: true, listened: true, genre: "electro" },
   { title: "Morning Phase", artist: "Beck", year: 2014 },
   { title: "Kiasmos", artist: "Kiasmos", year: 2014 },
+  { title: "Gold Skies", artist: "Martin Garrix", year: 2014, comment: '"Animals"', ep: true, genre: "electro" },
 
   { title: "To Pimp a Butterfly", artist: "Kendrick Lamar", year: 2015, comment: '"King Kunta" w/ Thundercat on bass, "Alright", "i"', genre: "rap", listened: true, stars: 2, fav: true },
   { title: "Carrie & Lowell", artist: "Sufjan Stevens", year: 2015, genre: "folk", listened: true, stars: 2, fav: true, comment: '"Should Have Known Better"' },
@@ -4406,7 +4415,7 @@ const data_2010s: Item[] = [
   { title: "Dodge and Burn", artist: "The Dead Weather", year: 2015, listened: true, genre: "hard-rock", stars: 1 },
   { title: "Organ Freeman", artist: "Organ Freeman", year: 2015, listened: true, genre: "funk", fav: true, stars: 2 },
   { title: "Beauty Behind the Madness", artist: "The Weeknd", year: 2015 },
-  { title: "60° 43' Nord", artist: "Molecule", year: 2015, fr: true },
+  { title: "60° 43' Nord", artist: "Molécule", year: 2015, fr: true },
   { title: "If You're Reading This It's Too Late", artist: "Drake", year: 2015 },
   { title: "Hotline Bling", artist: "Drake", year: 2015, genre: "meme", listened: true },
   { title: "Vieux Frères - Partie 2", artist: "FAUVE", year: 2015, fr: true },
@@ -4426,6 +4435,7 @@ const data_2010s: Item[] = [
   { title: "Opening", artist: "Superpoze", year: 2015, fr: true },
   { title: "A Dream in Static", artist: "Earthside", year: 2015 },
   { title: "The Demon Diaries", artist: "Parov Stelar", year: 2015 },
+  { title: "Dr Hypenstein", artist: "Redtenbacher's Funkestra", year: 2015 },
 
   { title: "The Beautiful Game", artist: "Vulfpeck", year: 2016, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Dean Town", "Cory Wong"' },
   { title: "Points of Interest", artist: "glue70", year: 2016, listened: true, genre: "electro", stars: 1, fav: true, comment: '"Casin", gotta love side chain compression' },
@@ -4588,6 +4598,7 @@ const data_2010s: Item[] = [
   { title: "Live at La Philharmonie de Paris", artist: "Rone", year: 2018, fr: true, genre: "electro", live: true, listened: true, stars: 2, fav: true, comment: '"Bye Bye Macadam" alternate version' },
   { title: "Enfant lune", artist: "Gringe", year: 2018, fr: true },
   { title: "Valdevaqueros", artist: "Fred Nevché", year: 2018, fr: true },
+  { title: "-22.7°C", artist: "Molécule", year: 2018, fr: true, listened: true, genre: "electro" },
 
   { title: "The Fearless Flyers II", artist: "The Fearless Flyers", year: 2019, listened: true, genre: "funk", ep: true, stars: 1 },
   { title: "Chronologic", artist: "Caravan Palace", year: 2019, fr: true },
@@ -4722,7 +4733,7 @@ const data_2020s: Item[] = [
   { title: "Van Weezer", artist: "Weezer", year: 2021, listened: true, genre: "rock" },
   { title: "beyond the pines", artist: "steezy prime", year: 2021, genre: "lofi", listened: true },
   { title: "Steppin' Out", artist: "Rogério Maudonnet", year: 2021, genre: "funk", comment: '"Double Shot of Funk"' },
-  { title: "Hall of Mirrors", artist: "Neil Cowley", year: 2021 },
+  { title: "Hall of Mirrors", artist: "Neil Cowley", year: 2021, listened: true, genre: "piano" },
   { title: "Absolutely", artist: "Dijon", year: 2021, listened: true, genre: "pop" },
   { title: "Graz", artist: "Nils Frahm", year: 2021 },
   { title: "Old Friends New Friends", artist: "Nils Frahm", year: 2021 },
@@ -4951,6 +4962,7 @@ const data_2020s: Item[] = [
   { title: "Viva Tu", artist: "Manu Chao", year: 2024, fr: true },
   { title: "Décadanse Générale", artist: "La Poison", year: 2024, fr: true },
   { title: "Keeping Company", artist: "Bill Laurance, Michael League", year: 2024 },
+  { title: "Telos", artist: "Zedd", year: 2024, comment: '"Out of Time"' },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
@@ -4971,7 +4983,7 @@ const data_2020s: Item[] = [
   { title: "Baby", artist: "Dijon", year: 2025, listened: true, genre: "r-n-b" },
   { title: "MSG II", artist: "Vulpeck", year: 2025, genre: "funk", live: true },
   { title: "Divine Time", artist: "Cory Henry", year: 2025 },
-  { title: "Deadbeat", artist: "Tame Impala", year: 2025 },
+  { title: "Deadbeat", artist: "Tame Impala", year: 2025, listened: true, genre: "pop", meh: true },
   { title: "LIVE-ACTION", artist: "Nate Smith", year: 2025 },
   { title: "Out of Time - Instrumental", artist: "Leo Golo", year: 2025, listened: true, genre: "synth", single: true },
   { title: "Back In Time - Instrumental", artist: "XIII Nights", year: 2025, listened: true, genre: "synth", single: true },
@@ -4985,6 +4997,8 @@ const data_2020s: Item[] = [
   { title: "10 ans révolus", artist: "Various Artists (Astropolis Records), Rone", year: 2025, fr: true, genre: "electro" },
   { title: "Artifact", artist: "Parov Stelar", year: 2025, listened: true, genre: "electro", meh: true },
   { title: "Lumen", artist: "Bill Laurance", year: 2025 },
+  { title: "Wokel Haus", artist: "Atom TM", year: 2025 },
+  { title: "Live in Italy", artist: "The Fearless Flyers", year: 2025, genre: "funk", live: true },
 
   { title: "This Dirt Loves Me More Than You!", artist: "MonoNeon", year: 2026 },
   { title: "Tempus Ruinae", artist: "XIII Nights", year: 2026, single: true, genre: "synth", listened: true },
