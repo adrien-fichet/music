@@ -12,7 +12,7 @@ const data_lt_1940: Item[] = [
   { title: "Psalmen Davids", artist: "Schütz", year: 1619 },
   { title: "Fleurs musicales", artist: "Frescobaldi", year: 1635 },
   { title: "Canon en ré", artist: "Pachelbel", year: 1680, listened: true, genre: "classical" },
-  { title: "Armide, LWV 71", artist: "Lully", year: 1686, fr: true },
+  { title: "Armide, LWV 71", artist: "Lully", year: 1686, fr: true, listened: true, genre: "classical" },
   { title: "Premier livre de pièces à une et à deux violes", artist: "Marin Marais", year: 1686, fr: true },
   { title: "Dido and Æneas, Z. 626", artist: "Purcell", year: 1689 },
   { title: "Concerto pour la nuit de Noël, op. 6 n° 8", artist: "Corelli", year: 1690, listened: true, genre: "classical" },
@@ -55,6 +55,7 @@ const data_lt_1940: Item[] = [
   { title: "Auld Lang Syne", artist: "Robert Burns", year: 1788, listened: true, genre: "classical", comment: "New Year's fireworks" },
   { title: "La Flûte enchantée, K. 620", artist: "Mozart", year: 1791, comment: '"La reine de la nuit"' },
   { title: "Messe de Requiem en ré mineur, KV 626", artist: "Mozart", year: 1791, listened: true, genre: "classical" },
+  { title: 'Sonate pour piano n° 8 en do mineur, "Pathétique", op. 13', artist: "Beethoven", year: 1799, genre: "piano" },
 
   // romantique: 1800 -> 1900
   { title: 'Sonate n° 14, op. 27 n° 2, "Sonate au Clair de Lune"', artist: "Beethoven", year: 1801, listened: true, genre: "piano" },
@@ -76,6 +77,7 @@ const data_lt_1940: Item[] = [
   { title: "Guillaume Tell", artist: "Rossini", year: 1829, genre: "classical" },
   { title: "Symphonie Fantastique", artist: "Berlioz", year: 1830, fr: true },
   { title: "Nocturnes, op. 9", artist: "Chopin", year: 1832, listened: true, genre: "piano" },
+  { title: "Sonate pour piano n° 2 en si bémol mineur, op. 35", artist: "Chopin", year: 1839, genre: "piano", comment: '"Marche funèbre"' },
   { title: "Nabuchodonosor", artist: "Verdi", year: 1842, listened: true, genre: "classical" },
   { title: "La Marche de Radetzky", artist: "Johann Strauss I", year: 1848, listened: true, genre: "classical", comment: 'Neujahrskonzert in Wien' },
   { title: "Album pour la jeunesse, op. 68", artist: "Robert Schumann", year: 1848, listened: true, genre: "piano" },
@@ -84,6 +86,7 @@ const data_lt_1940: Item[] = [
   { title: "Fantaisie-Impromptu, op. posthume 66", artist: "Chopin", year: 1855, listened: true, genre: "piano" },
   { title: "Ave Maria", artist: "Gounod", year: 1859, fr: true, listened: true, genre: "classical" },
   { title: "Le beau Danube bleu", artist: "Johann Strauss II", year: 1866, listened: true, genre: "classical" },
+  { title: "Concerto pour piano en la mineur, op. 16", artist: "Grieg", year: 1868, genre: "piano" },
   { title: "Danses Hongroises", artist: "Brahms", year: 1867, listened: true, genre: "classical" },
   { title: "Une nuit sur le mont Chauve", artist: "Moussorgski", year: 1867, listened: true, genre: "classical" },
   { title: "Boris Godounov", artist: "Moussorgski", year: 1869, listened: false, genre: "classical" },
@@ -122,6 +125,7 @@ const data_lt_1940: Item[] = [
   { title: "Casse-Noisette, op. 71", artist: "Tchaïkovski", year: 1892, listened: true, genre: "classical", fav: true },
   { title: "Prélude à l'après-midi d'un faune", artist: "Debussy", year: 1892, fr: true },
   { title: "Asturias (Leyenda)", artist: "Isaac Albéniz", year: 1892, listened: true, genre: "classical", comment: 'Guitar' },
+  { title: "Prélude en do dièse mineur op. 3 n° 2", artist: "Rachmaninoff", year: 1892, genre: "piano" },
   { title: 'Symphonie n° 9 "du Nouveau Monde", op. 95', artist: "Dvorak", year: 1893, fav: true, listened: true, genre: "classical" },
   { title: "Dolly, op. 56", artist: "Fauré", year: 1893, fr: true },
   { title: "Méditation de Thaïs", artist: "Massenet", year: 1894, fr: true, listened: true, genre: "classical" },
@@ -1005,6 +1009,7 @@ const data_1970s: Item[] = [
   { title: "Drumming", artist: "Steve Reich", year: 1970 },
   { title: "Live at the Isle of Wight Festival", artist: "The Who", year: 1970, live: true, perso: true },
   { title: "Introducing the Whatnauts", artist: "The Whatnauts", year: 1970 },
+  { title: "...Very 'Eavy ...Very 'Umble", artist: "Uriah Heep", year: 1970 },
 
   { title: "Led Zeppelin IV", artist: "Led Zeppelin", year: 1971, perso: true, genre: "hard-rock", listened: true, stars: 4, fav: true, comment: '"Black Dog", "Rock and Roll", "The Battle of Evermore", "Stairway to Heaven", "Going to California", "When the Levee Breaks"' },
   { title: "Energy", artist: "Jeremy Steig", year: 1971, genre: "fusion" },
@@ -1091,6 +1096,7 @@ const data_1970s: Item[] = [
   { title: "Second Album", artist: "Curved Air", year: 1971 },
   { title: "I Wrote a Simple Song", artist: "Billy Preston", year: 1971 },
   { title: "Moving Waves", artist: "Focus", year: 1971 },
+  { title: "Poems, Prayers & Promises", artist: "John Denver", year: 1971, comment: '"Take Me Home, Country Roads"', genre: "folk" },
 
   { title: "Exile on Main Street", artist: "The Rolling Stones", year: 1972, genre: "rock" },
   { title: "Ethiopian Knights", artist: "Donald Byrd", year: 1972, genre: "fusion" },
@@ -1177,6 +1183,8 @@ const data_1970s: Item[] = [
   { title: "Cymande", artist: "Cymande", year: 1972 },
   { title: "Music Is My Life", artist: "Billy Preston", year: 1972, listened: true, genre: "soul", stars: 3, fav: true, comment: 'George and Louis Johnson on guitar/bass' },
   { title: "Root Down", artist: "Jimmy Smith", year: 1972, live: true },
+  { title: "They Only Come Out at Night", artist: "Edgar Winter Group", year: 1972, comment: '"Frankenstein"' },
+  { title: "Demons and Wizards", artist: "Uriah Heep", year: 1972, comment: `"Easy Leavin'"` },
 
   { title: "The Dark Side of the Moon", artist: "Pink Floyd", year: 1973, listened: true, fav: true, stars: 4, genre: "rock", perso: true, comment: '"Breathe (In the Air)", "Time", "The Great Gig in the Sky" (vocals by Clare Torry), "Money", "Us and Them", "Brain Damage"' },
   { title: "Love Devotion Surrender", artist: "Santana & McLaughlin", year: 1973, genre: "fusion" },
@@ -1522,6 +1530,7 @@ const data_1970s: Item[] = [
   { title: "Black Ivory", artist: "Black Ivory", year: 1976, comment: '"White Wind"' },
   { title: "Black and Blue", artist: "The Rolling Stones", year: 1976 },
   { title: "Sarabande", artist: "Jon Lord", year: 1976 },
+  { title: "A Trick of the Tail", artist: "Genesis", year: 1976 },
 
   { title: "Aja", artist: "Steely Dan", year: 1977, listened: true, fav: true, stars: 4, genre: "rock", comment: 'engineered by Roger Nichols, Bill Schnee, Elliott Scheiner, Al Schmitt. Mastered by Bernie Grundman' },
   { title: "Elegant Gypsy", artist: "Al Di Meola", year: 1977, genre: "fusion", listened: true, stars: 3, fav: true },
@@ -1783,6 +1792,7 @@ const data_1970s: Item[] = [
   { title: "Pléïades", artist: "Iannis Xenakis", year: 1979 },
   { title: "The Roches", artist: "The Roches", year: 1979, comment: '"Hammond Song"' },
   { title: "Lovehunter", artist: "Whitesnake", year: 1979, comment: 'Jon Lord on keyboards' },
+  { title: "Breakfast in America", artist: "Supertramp", year: 1979 },
 ];
 
 const data_1980s: Item[] = [
@@ -4231,6 +4241,7 @@ const data_2010s: Item[] = [
   { title: "R.I.P.", artist: "Actress", year: 2012, genre: "electro" },
   { title: "Shields", artist: "Grizzly Bear", year: 2012 },
   { title: "Tenderly / Flow", artist: "Disclosure", year: 2012, single: true, genre: "electro" },
+  { title: "Opus at the End of Everything", artist: "The Flashbulb", year: 2012, ep: true },
 
   { title: "My First Car", artist: "Vulpeck", year: 2013, listened: true, genre: "funk", fav: true, stars: 1, ep: true, comment: '"The Speedwalker"' },
   { title: "Level Five Stage One", artist: "The Laszlo Project", year: 2013, listened: true, genre: "synth" },
@@ -4372,6 +4383,7 @@ const data_2010s: Item[] = [
   { title: "Morning Phase", artist: "Beck", year: 2014 },
   { title: "Kiasmos", artist: "Kiasmos", year: 2014 },
   { title: "Gold Skies", artist: "Martin Garrix", year: 2014, comment: '"Animals"', ep: true, genre: "electro" },
+  { title: "Syro", artist: "Aphex Twin", year: 2014, genre: "electro" },
 
   { title: "To Pimp a Butterfly", artist: "Kendrick Lamar", year: 2015, comment: '"King Kunta" w/ Thundercat on bass, "Alright", "i"', genre: "rap", listened: true, stars: 2, fav: true },
   { title: "Carrie & Lowell", artist: "Sufjan Stevens", year: 2015, genre: "folk", listened: true, stars: 2, fav: true, comment: '"Should Have Known Better"' },
@@ -4484,7 +4496,7 @@ const data_2010s: Item[] = [
   { title: "I Still Do", artist: "Eric Clapton", year: 2016, genre: "blues", listened: true, stars: 1, comment: '"Spiral"' },
   { title: "Skeleton Tree", artist: "Nick Cave & the Bad Seeds", year: 2016 },
   { title: "Blackstar", artist: "David Bowie", year: 2016, listened: true, genre: "rock", stars: 1, comment: '"Lazarus"' },
-  { title: "The Weight of These Wings", artist: "Miranda Lambert", year: 2016 },
+  { title: "The Weight of These Wings", artist: "Miranda Lambert", year: 2016, listened: true, genre: "country" },
   { title: "A Seat at the Table", artist: "Solange", year: 2016, comment: '"Cranes in the Sky"' },
   { title: "Hollow Bones", artist: "Rival Sons", year: 2016, listened: true, genre: "hard-rock", comment: `It's just like the Dead Weather!` },
   { title: "Anti", artist: "Rihanna", year: 2016 },
@@ -4722,6 +4734,7 @@ const data_2020s: Item[] = [
   { title: "O", artist: "LAAKE", year: 2020, fr: true },
   { title: "La Nuit venue OST", artist: "Rone", year: 2020, fr: true },
   { title: "Kings & Queens", artist: "Ava Max", year: 2020, single: true, listened: true, genre: "pop", comment: 'clipping ear exercise' },
+  { title: "Blue Moon", artist: "Skinny Hightower", year: 2020 },
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
   { title: "Everybody's Going to the Moon", artist: "Jamiroquai", year: 2021, single: true, listened: true, genre: "funk" },
@@ -4793,6 +4806,7 @@ const data_2020s: Item[] = [
   { title: "enargeia", artist: "Emily D'Angelo", year: 2021 },
   { title: "The Unreal Story of Lou Reed", artist: "Fred Nevché, French 79", year: 2021, fr: true },
   { title: "Mars 500", artist: "Chloé", year: 2021, ep: true, fr: true, genre: "electro" },
+  { title: "Nature's Light", artist: "Blackmore's Night", year: 2021 },
 
   { title: "The Fearless Flyers III", artist: "The Fearless Flyers", year: 2022, listened: true, stars: 1, genre: "funk", fav: true, ep: true },
   { title: "Return", artist: "Lydian Collective", year: 2022, listened: true, genre: "jazz", stars: 1, fav: true },
@@ -4999,6 +5013,7 @@ const data_2020s: Item[] = [
   { title: "Lumen", artist: "Bill Laurance", year: 2025 },
   { title: "Wokel Haus", artist: "Atom TM", year: 2025 },
   { title: "Live in Italy", artist: "The Fearless Flyers", year: 2025, genre: "funk", live: true },
+  { title: "ANALOG THEORY", artist: "Skinny Hightower, Tyler Gauldin", year: 2025 },
 
   { title: "This Dirt Loves Me More Than You!", artist: "MonoNeon", year: 2026 },
   { title: "Tempus Ruinae", artist: "XIII Nights", year: 2026, single: true, genre: "synth", listened: true },
@@ -5008,6 +5023,7 @@ const data_2020s: Item[] = [
   { title: "Route 96", artist: "Matteo Mancuso", year: 2026 },
   { title: "Gourou OST", artist: "Chloé", year: 2026, fr: true },
   { title: "Elipsis", artist: "Elipsis, Michael League, Pedrito Martinez, Antonio Sánchez", year: 2026 },
+  { title: "Devotion", artist: "Skinny Hightower", year: 2026, single: true, listened: true, genre: "funk", stars: 1 },
   { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2026 },
 ];
 

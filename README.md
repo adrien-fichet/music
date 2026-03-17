@@ -6,4 +6,4 @@ It uses Svelte, Vite, Vitest, Bun and Typescript.
 
 - Run dev server: `bun run dev`
 - Run tests: `bun vitest run`
-- Check packages updates: `bun ncu`
+- Update packages to their latest version: `bun update --latest`
