@@ -86,9 +86,9 @@ const data_lt_1940: Item[] = [
   { title: "Fantaisie-Impromptu, op. posthume 66", artist: "Chopin", year: 1855, listened: true, genre: "piano" },
   { title: "Ave Maria", artist: "Gounod", year: 1859, fr: true, listened: true, genre: "classical" },
   { title: "Le beau Danube bleu", artist: "Johann Strauss II", year: 1866, listened: true, genre: "classical" },
-  { title: "Concerto pour piano en la mineur, op. 16", artist: "Grieg", year: 1868, genre: "piano" },
   { title: "Danses Hongroises", artist: "Brahms", year: 1867, listened: true, genre: "classical" },
   { title: "Une nuit sur le mont Chauve", artist: "Moussorgski", year: 1867, listened: true, genre: "classical" },
+  { title: "Concerto pour piano en la mineur, op. 16", artist: "Grieg", year: 1868, genre: "piano" },
   { title: "Boris Godounov", artist: "Moussorgski", year: 1869, listened: false, genre: "classical" },
   { title: "La Valkyrie", artist: "Wagner", year: 1870, listened: true, genre: "classical" },
   { title: "Pizzicato Polka", artist: "Johann Strauss II", year: 1870, listened: true, genre: "classical" },
@@ -250,6 +250,7 @@ const data_1940s: Item[] = [
   { title: "Shaw 'Nuff", artist: "Dizzie Gillespie and his sextets and orchestra", year: 1945, genre: "jazz", comment: 'Compilation released in 1992, recorded in 1945 and 1946' },
 
   { title: "Yardbird Suite", artist: "Charlie Parker", year: 1946, genre: "jazz", standard: true, listened: true },
+  { title: "Sonate pour piano n° 1", artist: "Pierre Boulez", year: 1946, genre: "classical", fr: true },
   { title: "The Lester Young Buddy Rich Trio", artist: "Lester Young, Buddy Rich, Nat King Cole", year: 1946, genre: "jazz", comment: 'Released in 1955, recorded in 1946' },
   { title: "Unforgettable", artist: "Nat King Cole", year: 1946, genre: "jazz", comment: 'Compilation re-released in 1954, recorded between 1946 and 1954' },
   { title: "Stormy Monday (Call It Stormy Monday (But Tuesday is Just as Bad))", artist: "T-Bone Walker", year: 1947, genre: "blues", listened: true, standard: true },
@@ -257,6 +258,7 @@ const data_1940s: Item[] = [
   { title: "Donna Lee", artist: "Miles Davis", year: 1947, genre: "jazz", standard: true, comment: 'Wrongly attributed to Charlie Parker', listened: true },
   { title: "Genius of Modern Music, Vol. 1", artist: "Thelonious Monk", year: 1947, genre: "jazz", comment: 'Compilation released in 1956, recorded in 1947' },
   { title: "Nobody Loves Me / Everyday I Have the Blues", artist: "Memphis Slim", year: 1947, genre: "blues", standard: true, listened: true },
+  { title: "Sonate pour piano n° 2", artist: "Pierre Boulez", year: 1947, genre: "classical", fr: true },
   { title: "Charlie Parker with Strings", artist: "Charlie Parker", year: 1947, genre: "jazz", comment: 'Compilation released in 1995, recorded between 1947 and 1952' },
 
   { title: "The Anthology", artist: "Muddy Waters", year: 1948, comment: "Greatest hits album released in 2001, recorded from 1948 to 1972", genre: "blues" },
@@ -295,6 +297,7 @@ const data_1950s: Item[] = [
   { title: "Clifford Brown & Max Roach", artist: "Clifford Brown and Max Roach Quintet", year: 1954, genre: "jazz" },
   { title: "Les Sabots d'Hélène", artist: "Georges Brassens", year: 1954, fr: true, listened: true, genre: "chanson" },
   { title: "Blue Monk", artist: "Thelonious Monk", year: 1954, genre: "jazz", standard: true, listened: true },
+  { title: "Le marteau sans maître", artist: "Pierre Boulez", year: 1954, genre: "classical", fr: true },
 
   { title: "In the Wee Small Hours", artist: "Frank Sinatra", year: 1955, listened: true, stars: 1, genre: "jazz" },
   { title: "Study in Brown", artist: "Clifford Brown and Max Roach", year: 1955, genre: "jazz" },
@@ -333,6 +336,7 @@ const data_1950s: Item[] = [
   { title: "Django", artist: "Modern Jazz Quartet", year: 1956, genre: "jazz" },
   { title: "A New Sound... A New Star...", artist: "Jimmy Smith", year: 1956, genre: "jazz" },
   { title: "Klavierstück XI", artist: "Stockhausen", year: 1956, comment: 'aleatoric' },
+  { title: "Love Is Strange", artist: "Mickey & Sylvia", year: 1956, single: true },
 
   { title: "Kenya", artist: "Machito", year: 1957, comment: "Afro-Cuban Jazz, Big Band", listened: true, genre: "jazz" },
   { title: "Mellow Guitar", artist: "George Van Eps", year: 1957, genre: "jazz" },
@@ -568,6 +572,7 @@ const data_1960s: Item[] = [
   { title: '"Live" At the Star-Club Hamburg', artist: "Jerry Lee Lewis and the Nashville Teens", year: 1964, live: true },
   { title: "Make Way for Dionne Warwick", artist: "Dionne Warwick", year: 1964, comment: '"Walk On By"' },
   { title: "The Crying Game", artist: "Dave Berry", year: 1964, genre: "pop", comment: `wah-wah (Big Jim Sullivan's DeArmond Tone and Volume pedal)`, single: true, listened: true },
+  { title: "In C", artist: "Terry Riley", year: 1964, listened: true, genre: "classical", comment: '53 melodic fragments, the pulse, Bang on a Can version recorded in 2001', stars: 1 },
 
   { title: "A Love Supreme", artist: "John Coltrane", year: 1965, listened: true, genre: "jazz", stars: 1, comment: 'engineered and mastered by Rudy Van Gelder' },
   { title: "The Heliocentric Worlds of Sun Ra, Volume One", artist: "Sun Ra", year: 1965, genre: "jazz" },
@@ -830,6 +835,7 @@ const data_1960s: Item[] = [
   { title: "Switched-On Bach", artist: "Wendy Carlos", year: 1968, comment: 'Moog', genre: "synth" },
   { title: "Wonderwall Music (OST)", artist: "George Harrison", year: 1968 },
   { title: "No Introduction Necessary", artist: " Jimmy Page, Nicky Hopkins, John Paul Jones, Albert Lee, Chris Hughes, Keith David De Groot, Clem Cattini, Big Jim Sullivan", year: 1968 },
+  { title: "Pendulum Music", artist: "Steve Reich", year: 1968 },
 
   { title: "In the Court of the Crimson King", artist: "King Crimson", year: 1969 },
   { title: "A Jackson in Your House", artist: "Art Ensemble of Chicago", year: 1969, genre: "jazz", listened: true, meh: true },
@@ -1275,6 +1281,7 @@ const data_1970s: Item[] = [
   { title: "Ringo", artist: "Ringo Starr", year: 1973 },
   { title: "The Monster", artist: "Buddy Rich", year: 1973 },
   { title: "Still and Moving Lines of Silence in Families of Hyperbolas", artist: "Alvin Lucier", year: 1973 },
+  { title: "Pillow Talk", artist: "Sylvia", year: 1973 },
 
   { title: "Pretzel Logic", artist: "Steely Dan", year: 1974, listened: true, fav: true, stars: 1, genre: "rock", comment: `"Rikki Don't Lose That Number", "Night By Night", "Any Major Dude Will Tell You"` },
   { title: "Red", artist: "King Crimson", year: 1974, listened: true, genre: "rock" },
@@ -2294,6 +2301,7 @@ const data_1980s: Item[] = [
   { title: "OutRun OST", artist: "Hiroshi Kawaguchi", year: 1986, genre: "vgm" },
   { title: "Paryż - Moskwa 17:15 / Odmiana przez osoby", artist: "Obywatel G.C.", year: 1986, single: true, listened: true, genre: "rock" },
   { title: "Jazz from Hell", artist: "Frank Zappa", year: 1986 },
+  { title: "Washing Machine", artist: "Mr. Fingers", year: 1986, comment: '"Can You Feel It"' },
 
   { title: "Paid in Full", artist: "Eric B. & Rakim", year: 1987, genre: "rap" },
   { title: "Marsalis Standard Time, Vol. I", artist: "Wynton Marsalis", year: 1987, genre: "jazz" },
@@ -2418,6 +2426,7 @@ const data_1980s: Item[] = [
   { title: "...And Justice for All", artist: "Metallica", year: 1988, listened: true, genre: "metal", comment: '"Blackened", "One", "Harvester of Sorrow"', stars: 2, fav: true },
   { title: "Follow the Leader", artist: "Eric B. & Rakim", year: 1988, genre: "rap" },
   { title: "Different Trains", artist: "Steve Reich", year: 1988 },
+  { title: "Newbuild", artist: "808 State", year: 1988, genre: "electro" },
 
   { title: "Bleu Blanc Vert", artist: "Jean-Louis Aubert", year: 1989, fr: true, perso: true, comment: `"Voilà c'est fini", "Univers", "Le Bout du rouleau"`, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Bleach", artist: "Nirvana", year: 1989, genre: "grunge", listened: true, comment: '"About a Girl"' },
@@ -2851,6 +2860,7 @@ const data_1990s: Item[] = [
   { title: "Selected Ambient Works II", artist: "Aphex Twin", year: 1994 },
   { title: "Lifeforms", artist: "The Future Sound of London", year: 1994, comment: '"Cerebral"' },
   { title: "From Within", artist: "Pete Namlook, Richie Hawtin", year: 1994, comment: '"Sad Alliance"' },
+  { title: "Patashnik", artist: "Biosphere", year: 1994, genre: "electro", comment: `"Novelty Waves" (Michel Gondry's Levi's commercial)` },
 
   { title: "Life", artist: "The Cardigans", year: 1995, listened: true, genre: "pop", comment: '"Carnival"', meh: true },
   { title: "Bing, Bing, Bing!", artist: "Charlie Hunter", year: 1995, genre: "jazz" },
@@ -3093,6 +3103,7 @@ const data_1990s: Item[] = [
   { title: "Dancing Galaxy", artist: "Astral Projection", year: 1997, genre: "electro" },
   { title: "M-Series", artist: "Maurizio", year: 1997 },
   { title: "Blue Funk Files", artist: "DJ Sneak", year: 1997 },
+  { title: "Come to Daddy", artist: "Aphex Twin", year: 1997, ep: true, genre: "electro", listened: true },
 
   { title: "Symphony of Enchanted Lands", artist: "Rhapsody", year: 1998, fav: true, perso: true, listened: true, stars: 1, genre: "metal", comment: 'CD passé par Antoine au collège avec Cannibal Corpse et Children of Bodom, "Emerald Sword"' },
   { title: "System Of A Down", artist: "System Of A Down", year: 1998, listened: true, genre: "metal", stars: 2, fav: true },
@@ -3272,7 +3283,7 @@ const data_1990s: Item[] = [
   { title: "A2G", artist: "Blackalicious", year: 1999, genre: "rap", ep: true, comment: '"Alphabet Aerobics", Quannum Projects', stars: 2, fav: true, listened: true },
   { title: "Get Get Down", artist: "Paul Johnson", year: 1999, genre: "electro", single: true, listened: true },
   { title: "Duo", artist: "Charlie Hunter, Leon Parker", year: 1999 },
-  { title: "Windowlicker / Formula / Nannou", artist: "Aphex Twin", year: 1999, single: true, genre: "electro", listened: true, comment: 'spiral spectogram (Metasynth)' },
+  { title: "Windowlicker / Formula / Nannou", artist: "Aphex Twin", year: 1999, single: true, genre: "electro", listened: true, comment: 'spiral+face spectograms (MetaSynth)' },
   { title: "There Is Nothing Left to Lose", artist: "Foo Fighters", year: 1999, comment: '"Learn to Fly"' },
   { title: "Famous Monsters", artist: "Misfits", year: 1999 },
   { title: "Booty House Anthems", artist: "DJ Funk", year: 1999 },
@@ -3576,7 +3587,7 @@ const data_2000s: Item[] = [
   { title: "Reality", artist: "David Bowie", year: 2003, genre: "rock", listened: true, stars: 2, fav: true, comment: '"New Killer Star", "Never Get Old"' },
   { title: "Wonderful Rainbow", artist: "Lightning Bolt", year: 2003 },
   { title: "Boy In Da Corner", artist: "Dizzee Rascal", year: 2003 },
-  { title: "Want One", artist: "Rufus Wainwright", year: 2003 },
+  { title: "Want One", artist: "Rufus Wainwright", year: 2003, listened: true, genre: "pop", meh: true },
   { title: "Fever to Tell", artist: "Yeah Yeah Yeahs", year: 2003 },
   { title: "The Best of the Classic Years", artist: "King Sunny Adé", year: 2003 },
   { title: "Speakerboxxx/The Love Below", artist: "OutKast", year: 2003, comment: '"Hey Ya!"' },
@@ -4031,7 +4042,7 @@ const data_2000s: Item[] = [
   { title: "A Real Hero", artist: "College", year: 2009, fr: true, genre: "synth", ep: true, listened: true },
   { title: "Get Lucky", artist: "Mark Knopfler", year: 2009 },
   { title: "Léman", artist: "Blick Bassy", year: 2009 },
-  { title: "Spanish Breakfast", artist: "Rone", year: 2009, fr: true },
+  { title: "Spanish Breakfast", artist: "Rone", year: 2009, fr: true, listened: true, genre: "electro" },
   { title: "La Dame Blanche", artist: "Rone", year: 2009, fr: true, ep: true },
   { title: "Miike Snow", artist: "Miike Snow", year: 2009 },
 ];
@@ -4102,6 +4113,7 @@ const data_2010s: Item[] = [
   { title: "The Creatures in the Garden of Lady Walton", artist: "Clogs", year: 2010, comment: '"The Owl of Love"' },
   { title: "The Lady Killer", artist: "CeeLo Green", year: 2010 },
   { title: "There Is Love in You", artist: "Four Tet", year: 2010 },
+  { title: "Live From the Dude", artist: "Groove Spoon", year: 2010, ep: true, comment: 'feat. Jack Stratton' },
 
   { title: "Mit Peck", artist: "Vulfpeck", year: 2011, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
   { title: "Pop Culture", artist: "Madeon [YT]", year: 2011, listened: true, genre: "electro", stars: 1, single: true, fav: true },
@@ -4183,7 +4195,7 @@ const data_2010s: Item[] = [
   { title: "Rage Valley", artist: "Knife Party", year: 2012, ep: true, genre: "electro", listened: true, stars: 3, fav: true, comment: '"Centipede", "Bonfire"' },
   { title: "Born to Die", artist: "Lana Del Rey", year: 2012, comment: '"Summertime Sadness"', listened: true, stars: 1, genre: "pop" },
   { title: "The Fox", artist: "The Filthy Six", year: 2012, listened: true, genre: "funk" },
-  { title: "Rocket Juice & the Moon", artist: "Rocket Juice & the Moon", year: 2012, comment: "Damon Albarn, Flea, Tony Allen" },
+  { title: "Rocket Juice & the Moon", artist: "Rocket Juice & the Moon", year: 2012, comment: "Damon Albarn, Flea, Tony Allen", listened: true, genre: "world" },
   { title: "Scratch My Itch", artist: "The Soul Snatchers", year: 2012 },
   { title: "ill Manors OST", artist: "Plan B", year: 2012, listened: true, genre: "rap" },
   { title: "The Money Store", artist: "Death Grips", year: 2012 },
@@ -4316,6 +4328,7 @@ const data_2010s: Item[] = [
   { title: "Tomorrow's Harvest", artist: "Boards of Canada", year: 2013 },
   { title: "Vapor City", artist: "Machinedrum", year: 2013, genre: "electro" },
   { title: "Double Cup", artist: "DJ Rashad", year: 2013, genre: "electro", comment: '"Leavin"' },
+  { title: "Outsides", artist: "John Frusciante", year: 2013, genre: "electro", listened: true, ep: true },
 
   { title: "Fugue State", artist: "Vulpeck", year: 2014, ep: true, listened: true, genre: "funk", stars: 3, fav: true, comment: '"1612"' },
   { title: "Corazón", artist: "Santana", year: 2014, comment: 'Latin rock, "Iron Lion Zion"', listened: true, genre: "rock" },
@@ -4383,7 +4396,7 @@ const data_2010s: Item[] = [
   { title: "Morning Phase", artist: "Beck", year: 2014 },
   { title: "Kiasmos", artist: "Kiasmos", year: 2014 },
   { title: "Gold Skies", artist: "Martin Garrix", year: 2014, comment: '"Animals"', ep: true, genre: "electro" },
-  { title: "Syro", artist: "Aphex Twin", year: 2014, genre: "electro" },
+  { title: "Syro", artist: "Aphex Twin", year: 2014, genre: "electro", listened: true, stars: 1 },
 
   { title: "To Pimp a Butterfly", artist: "Kendrick Lamar", year: 2015, comment: '"King Kunta" w/ Thundercat on bass, "Alright", "i"', genre: "rap", listened: true, stars: 2, fav: true },
   { title: "Carrie & Lowell", artist: "Sufjan Stevens", year: 2015, genre: "folk", listened: true, stars: 2, fav: true, comment: '"Should Have Known Better"' },
@@ -4440,7 +4453,7 @@ const data_2010s: Item[] = [
   { title: "Sleep", artist: "Max Richter", year: 2015 },
   { title: "Fortified", artist: "Ghost-Note", year: 2015 },
   { title: "Tracker", artist: "Mark Knopfler", year: 2015 },
-  { title: "Creatures", artist: "Rone", year: 2015, fr: true },
+  { title: "Creatures", artist: "Rone", year: 2015, fr: true, listened: true, genre: "electro", stars: 1 },
   { title: "Ya balad", artist: "Bachar Mar-Khalifé", year: 2015, fr: true },
   { title: "Corpo Inferno", artist: "Mansfield.TYA", year: 2015, fr: true },
   { title: "NQNT 2", artist: "Vald", year: 2015, fr: true, genre: "rap", comment: '"Bonjour"' },
@@ -4509,6 +4522,7 @@ const data_2010s: Item[] = [
   { title: "Electronica 2: The Heart of Noise", artist: "Jean-Michel Jarre", year: 2016, fr: true },
   { title: "Vood(oo)", artist: "Rone", year: 2016, fr: true, ep: true },
   { title: "Dim", artist: "Aparde", year: 2016, ep: true },
+  { title: "After Laughter", artist: "Paramore", year: 2016, comment: '"Caught in the Middle"' },
 
   { title: "Mr. Finish Line", artist: "Vulfpeck", year: 2017, listened: false, genre: "funk" },
   { title: "Stup Virus", artist: "Stupeflip", year: 2017, fr: true, genre: "rap", listened: true, comment: "campagne Ulule" },
@@ -4554,7 +4568,8 @@ const data_2010s: Item[] = [
   { title: "The Burning Spider", artist: "Parov Stelar", year: 2017, listened: true, fav: true, perso: true, stars: 1, genre: "electro" },
   { title: "Automaton", artist: "Jamiroquai", year: 2017, listened: true, stars: 1, genre: "funk" },
   { title: "Klabb", artist: "Deena Abdelwahed", year: 2017 },
-  { title: "Mirapolis", artist: "Rone", year: 2017, fr: true },
+  { title: "Mirapolis", artist: "Rone", year: 2017, fr: true, genre: "electro", listened: true, stars: 1 },
+  { title: "Live at La Philharmonie de Paris", artist: "Rone", year: 2017, fr: true, genre: "electro", live: true, listened: true, stars: 2, fav: true, comment: '"Bye Bye Macadam" alternate version' },
   { title: "It's Okay to Cry", artist: "SOPHIE", year: 2017, single: true, genre: "pop", listened: true },
   { title: "Planetarium", artist: "Sufjan Stevens, Bryce Dessner, Nico Muhly, James McAlister", year: 2017 },
   { title: "Turn Up the Quiet", artist: "Diana Krall", year: 2017 },
@@ -4607,10 +4622,11 @@ const data_2010s: Item[] = [
   { title: "Swagism", artist: "Ghost-Note", year: 2018 },
   { title: "Down the Road Wherever", artist: "Mark Knopfler", year: 2018 },
   { title: "All Melody", artist: "Nils Frahm", year: 2018 },
-  { title: "Live at La Philharmonie de Paris", artist: "Rone", year: 2018, fr: true, genre: "electro", live: true, listened: true, stars: 2, fav: true, comment: '"Bye Bye Macadam" alternate version' },
   { title: "Enfant lune", artist: "Gringe", year: 2018, fr: true },
   { title: "Valdevaqueros", artist: "Fred Nevché", year: 2018, fr: true },
   { title: "-22.7°C", artist: "Molécule", year: 2018, fr: true, listened: true, genre: "electro" },
+  { title: "Head Over Heels", artist: "Chromeo", year: 2018 },
+  { title: "Wave", artist: "Rone", year: 2018, ep: true, listened: true, genre: "electro", fr: true },
 
   { title: "The Fearless Flyers II", artist: "The Fearless Flyers", year: 2019, listened: true, genre: "funk", ep: true, stars: 1 },
   { title: "Chronologic", artist: "Caravan Palace", year: 2019, fr: true },
@@ -4730,11 +4746,13 @@ const data_2020s: Item[] = [
   { title: "Protect the Land/Genocidal Humanoidz", artist: "System of a Down", year: 2020, single: true, listened: true, genre: "metal" },
   { title: "Inside Space", artist: "TABAL", year: 2020, ep: true, listened: true, genre: "lofi" },
   { title: "2 Phút Hơn (Kaiz Remix)", artist: "Pháo, Kaiz", year: 2020, genre: "meme", listened: true },
-  { title: "Room With a View", artist: "Rone", year: 2020, fr: true },
+  { title: "Room With a View", artist: "Rone", year: 2020, fr: true, listened: true, genre: "electro", stars: 2, fav: true, comment: '"Ginkgo Biloba"' },
+  { title: "Views of a Room", artist: "Rone", year: 2020, fr: true, listened: true, genre: "electro" },
   { title: "O", artist: "LAAKE", year: 2020, fr: true },
   { title: "La Nuit venue OST", artist: "Rone", year: 2020, fr: true },
   { title: "Kings & Queens", artist: "Ava Max", year: 2020, single: true, listened: true, genre: "pop", comment: 'clipping ear exercise' },
   { title: "Blue Moon", artist: "Skinny Hightower", year: 2020 },
+  { title: "Quarantine Casanova", artist: "Chromeo", year: 2020 },
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
   { title: "Everybody's Going to the Moon", artist: "Jamiroquai", year: 2021, single: true, listened: true, genre: "funk" },
@@ -4801,8 +4819,8 @@ const data_2020s: Item[] = [
   { title: "Nagoya Moon", artist: "The Laszlo Project", year: 2021, listened: true, genre: "jazz", stars: 1, single: true },
   { title: "Voiceless Mass", artist: "Raven Chacon", year: 2021 },
   { title: "Tancade", artist: "Gaspar Claus", year: 2021, fr: true },
-  { title: "Rone and Friends", artist: "Rone", year: 2021, fr: true },
-  { title: "Les Olympiades OST", artist: "Rone", year: 2021, fr: true },
+  { title: "Rone and Friends", artist: "Rone", year: 2021, fr: true, listened: true, genre: "electro" },
+  { title: "Les Olympiades OST", artist: "Rone", year: 2021, fr: true, listened: true, genre: "electro", stars: 1 },
   { title: "enargeia", artist: "Emily D'Angelo", year: 2021 },
   { title: "The Unreal Story of Lou Reed", artist: "Fred Nevché, French 79", year: 2021, fr: true },
   { title: "Mars 500", artist: "Chloé", year: 2021, ep: true, fr: true, genre: "electro" },
@@ -4920,6 +4938,7 @@ const data_2020s: Item[] = [
   { title: "Miaou", artist: "Mathieu Fiset, Antoine Dufour, Larnell Lewis", year: 2023, single: true, listened: true, genre: "jazz" },
   { title: "Carnaval", artist: "Lucie Antunes, Léonie Pernet", year: 2023, fr: true },
   { title: "L(oo)ping", artist: "Rone", year: 2023, fr: true, genre: "electro", live: true, comment: `avec l'Orchestre National de Lyon`, listened: true },
+  { title: "D'argent et de sang OST", artist: "Rone", year: 2023, fr: true, genre: "electro", comment: '"Power" (Tikkoun variation)', listened: true, stars: 1 },
   { title: "Aether", artist: "Virtua, Akraa", year: 2023, genre: "synth", listened: true },
   { title: "Where You Wish You Were", artist: "Bill Laurance, Michael League", year: 2023 },
 
@@ -4977,6 +4996,8 @@ const data_2020s: Item[] = [
   { title: "Décadanse Générale", artist: "La Poison", year: 2024, fr: true },
   { title: "Keeping Company", artist: "Bill Laurance, Michael League", year: 2024 },
   { title: "Telos", artist: "Zedd", year: 2024, comment: '"Out of Time"' },
+  { title: "Adult Contemporary", artist: "Chromeo", year: 2024 },
+  { title: "Le Mohican OST", artist: "Rone", year: 2024, fr: true },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
@@ -5008,7 +5029,7 @@ const data_2020s: Item[] = [
   { title: "Addicted to the Violence", artist: "Scars on Broadway", year: 2025 },
   { title: "La fuite en avant", artist: "Orelsan", year: 2025, genre: "rap", fr: true },
   { title: "Back to Me", artist: "The Marías", year: 2025, single: true, listened: true, genre: "pop" },
-  { title: "10 ans révolus", artist: "Various Artists (Astropolis Records), Rone", year: 2025, fr: true, genre: "electro" },
+  { title: "The Dolphin Ambassador", artist: "Rone", year: 2025, fr: true, genre: "electro", listened: true },
   { title: "Artifact", artist: "Parov Stelar", year: 2025, listened: true, genre: "electro", meh: true },
   { title: "Lumen", artist: "Bill Laurance", year: 2025 },
   { title: "Wokel Haus", artist: "Atom TM", year: 2025 },
@@ -5025,6 +5046,8 @@ const data_2020s: Item[] = [
   { title: "Elipsis", artist: "Elipsis, Michael League, Pedrito Martinez, Antonio Sánchez", year: 2026 },
   { title: "Devotion", artist: "Skinny Hightower", year: 2026, single: true, listened: true, genre: "funk", stars: 1 },
   { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2026 },
+  { title: "Dott", artist: "Vulfmon", year: 2026 },
+  { title: "Kiss the Beast", artist: "Sébastien Tellier", year: 2026, fr: true },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
