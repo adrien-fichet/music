@@ -40,7 +40,7 @@
     </a>
   </li>
   <li>Songs from the <a href="https://www.youtube.com/watch?v=dMH0bHeiRNg">Evolution of Dance</a></li>
-  <li>Some albums/singles from most artists cited in Daft Punk "Teachers"</li>
+  <li>Some albums/singles from artists cited in Daft Punk "Teachers"</li>
   <li>
     <a href="https://www.discogs.com/lists/The-Wonky-Angles-Top-100-Electronic-Albums-Of-All-Time/322999">
       The Wonky Angle top 100 electronic albums

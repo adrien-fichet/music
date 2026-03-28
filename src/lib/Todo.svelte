@@ -7,6 +7,7 @@
     <ul>
       <li><a href="https://ronhackettmusic.com/data/searchRB.php">The Real Book</a></li>
       <li><a href="https://en.wikipedia.org/wiki/Jazz_standard">Wikipedia</a></li>
+      <li><a href="https://www.tomhull.com/ocston/nm/notes/pjazz-core.php">Penguin Guide to Jazz: Core Collection List</a></li>
     </ul>
   </li>
   <li>More Blues Standards</li>
@@ -17,7 +18,7 @@
   <li><a href="https://en.wikipedia.org/wiki/DJ-Kicks">DJ-KiCKS</a></li>
   <li>More Stax, Chess, Daptone & Motown records</li>
   <li>
-    Songs from the <a href="https://en.wikipedia.org/wiki/National_Recording_Registry">US National Recording Registry</a>
+    Recordings from the <a href="https://en.wikipedia.org/wiki/National_Recording_Registry">US National Recording Registry</a>
     and the <a href="https://en.wikipedia.org/wiki/Great_American_Songbook">Great American Songbook</a>
   </li>
   <li>More EPs from LoFi records</li>
