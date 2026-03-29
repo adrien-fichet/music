@@ -89,7 +89,7 @@ it('should not be marked as "single" if it is a standard, meme or vgm', () => {
 });
 
 it("items should be ordered by years in chronological order", () => {
-  let previous_year = 0;
+  let previous_year = -Infinity;
   for (const item of data) {
     expect(item.year, msg(item)).toBeGreaterThanOrEqual(previous_year);
     previous_year = item.year;

@@ -3,11 +3,14 @@ import { Icon } from "./icon";
 
 const data_lt_1940: Item[] = [
   // < 1600: antiquité, moyen-age, renaissance
+  { title: "Hurrian Hymn to Nikkal", artist: "-", year: -1400, genre: "world" },
   { title: "Seikilos epitaph", artist: "-", year: 128, genre: "world", listened: true },
   { title: "Lauda Sion", artist: "Saint Thomas d'Aquin", year: 1264 },
+  { title: "Messe de Notre Dame", artist: "Guillaume de Machaut", year: 1360, fr: true },
   { title: "The Frog Galliard", artist: "John Dowland", year: 1597, listened: true, genre: "classical" },
 
   // baroque: 1600 -> 1750
+  { title: "L'Euridice", artist: "Jacopo Peri", year: 1600 },
   { title: "Orphée, fable en musique, SV 318", artist: "Monteverdi", year: 1607 },
   { title: "Psalmen Davids", artist: "Schütz", year: 1619 },
   { title: "Fleurs musicales", artist: "Frescobaldi", year: 1635 },
@@ -30,6 +33,7 @@ const data_lt_1940: Item[] = [
   { title: "Pièces de clavecin avec une méthode pour la mécanique des doigts", artist: "Rameau", year: 1724 },
   { title: "Concerto pour 2 violons en ré mineur, BWV 1043", artist: "Bach", year: 1730, listened: true, genre: "classical" },
   { title: "Tafelmusik", artist: "Telemann", year: 1733 },
+  { title: "La serva padrona", artist: "iovanni Battista Pergolesi", year: 1733 },
   { title: "Les Indes galantes", artist: "Rousseau", year: 1735, listened: true, genre: "classical" },
   { title: "Messiah, HWV 56", artist: "Haendel", year: 1741, listened: true, genre: "classical" },
   { title: "Goldberg Variations, BWV 988", artist: "Bach", year: 1741, listened: true, genre: "piano", comment: 'played by András Schiff, 2017' },
@@ -47,6 +51,7 @@ const data_lt_1940: Item[] = [
   { title: "Sonate pour piano et violon n° 21 en mi mineur, K. 304/300c", artist: "Mozart", year: 1778 },
   { title: "Concerto pour flûte et harpe en ut majeur, KV 299/297c", artist: "Mozart", year: 1778 },
   { title: 'Douze variations en do majeur pour piano sur "Ah ! vous dirai-je maman", KV 265/300e', artist: "Mozart", year: 1781 },
+  { title: "Fantaisie n° 3 en ré mineur, K. 397/385g", artist: "Mozart", year: 1782, genre: "piano" },
   { title: "Sonate pour piano n° 11 en la majeur (Marche turque), K. 331/300i", artist: "Mozart", year: 1783, listened: true, genre: "piano" },
   { title: "Plaisir d'amour", artist: "Jean-Paul-Égide Martini", year: 1784, fr: true },
   { title: "Concerto pour piano n° 21", artist: "Mozart", year: 1785, listened: true, genre: "classical" },
@@ -78,13 +83,15 @@ const data_lt_1940: Item[] = [
   { title: "Symphonie Fantastique", artist: "Berlioz", year: 1830, fr: true },
   { title: "Nocturnes, op. 9", artist: "Chopin", year: 1832, listened: true, genre: "piano" },
   { title: "Sonate pour piano n° 2 en si bémol mineur, op. 35", artist: "Chopin", year: 1839, genre: "piano", comment: '"Marche funèbre"' },
-  { title: "Nabuchodonosor", artist: "Verdi", year: 1842, listened: true, genre: "classical" },
+  { title: "Nabucco (Nabuchodonosor)", artist: "Verdi", year: 1842, listened: true, genre: "classical", comment: '"Choeur des esclaves hébreux"' },
   { title: "La Marche de Radetzky", artist: "Johann Strauss I", year: 1848, listened: true, genre: "classical", comment: 'Neujahrskonzert in Wien' },
   { title: "Album pour la jeunesse, op. 68", artist: "Robert Schumann", year: 1848, listened: true, genre: "piano" },
   { title: "Camptown Races", artist: "Stephen Foster", year: 1850, listened: true, genre: "folk", comment: 'Doo-dah! doo-dah!', perso: true },
   { title: "Liebestraum n° 3", artist: "Liszt", year: 1850, listened: true, genre: "piano" },
   { title: "Fantaisie-Impromptu, op. posthume 66", artist: "Chopin", year: 1855, listened: true, genre: "piano" },
   { title: "Ave Maria", artist: "Gounod", year: 1859, fr: true, listened: true, genre: "classical" },
+  { title: "Faust", artist: "Gounod", year: 1859, fr: true },
+  { title: "Tristan und Isolde", artist: "Wagner", year: 1865 },
   { title: "Le beau Danube bleu", artist: "Johann Strauss II", year: 1866, listened: true, genre: "classical" },
   { title: "Danses Hongroises", artist: "Brahms", year: 1867, listened: true, genre: "classical" },
   { title: "Une nuit sur le mont Chauve", artist: "Moussorgski", year: 1867, listened: true, genre: "classical" },
@@ -130,6 +137,7 @@ const data_lt_1940: Item[] = [
   { title: "Dolly, op. 56", artist: "Fauré", year: 1893, fr: true },
   { title: "Méditation de Thaïs", artist: "Massenet", year: 1894, fr: true, listened: true, genre: "classical" },
   { title: "Concerto pour violoncelle, op. 104", artist: "Dvorak", year: 1895 },
+  { title: "Symphonie n° 2 en ut mineur, Résurrection", artist: "Mahler", year: 1895 },
   { title: "Also sprach Zarathustra, op. 30", artist: "Richard Strauss", year: 1896 },
   { title: "Der Corregidor", artist: "Hugo Wolf", year: 1896 },
   { title: "L'apprenti sorcier", artist: "Dukas", year: 1897, fr: true, listened: true, genre: "classical" },
@@ -145,6 +153,8 @@ const data_lt_1940: Item[] = [
   { title: "Pomp and Circumstance Military Marches, op. 39", artist: "Elgar", year: 1901, listened: true, genre: "classical" },
   { title: "Symphonie n° 5 en do dièse mineur", artist: "Mahler", year: 1901 },
   { title: "Gran Vals", artist: "Francisco Tàrrega", year: 1902, listened: true, genre: "classical", comment: 'Guitar (Nokia)' },
+  { title: "The Ragtime Dance", artist: "Scott Joplin", year: 1902, single: true },
+  { title: "The Entertainer", artist: "Scott Joplin", year: 1902, single: true },
   { title: "Trois morceaux en forme de poire", artist: "Satie", year: 1903, fr: true, genre: "piano" },
   { title: "La Mer, trois esquisses symphoniques pour orchestre, CD 111", artist: "Debussy", year: 1905, fr: true },
   { title: "Miroirs", artist: "Ravel", year: 1906, fr: true },
@@ -158,9 +168,12 @@ const data_lt_1940: Item[] = [
   { title: "Daphnis et Chloé", artist: "Ravel", year: 1913, fr: true, genre: "classical", listened: true },
   { title: "Le Sacre du printemps", artist: "Stravinsky", year: 1913 },
   { title: "Les Planètes", artist: "Holst", year: 1914, listened: true, genre: "classical" },
+  { title: "A London Symphony (Symphony n° 2)", artist: "Vaughan Williams", year: 1914, genre: "classical" },
   { title: "Saint Louis Blues", artist: "W. C. Handy", year: 1914, genre: "blues", standard: true, listened: true },
   { title: "Vocalise, op. 34 n° 14", artist: "Sergei Rachmaninoff", year: 1915, listened: true, genre: "classical" },
   { title: "Tapisserie en fer forgé", artist: "Satie", year: 1917, listened: true, genre: "classical", comment: 'furniture music' },
+  { title: "Livery Stable Blues", artist: "Original Dixieland Jass Band", year: 1917, genre: "jazz", single: true },
+  { title: "Tiger Rag", artist: "Original Dixieland Jass Band", year: 1917, genre: "jazz", standard: true },
   { title: "Cello Concerto in E minor, op. 85", artist: "Elgar", year: 1919, listened: true, genre: "classical", fav: true },
 
   // 1920 +
@@ -186,9 +199,11 @@ const data_lt_1940: Item[] = [
   { title: "Mood Indigo", artist: "Duke Ellington and His Famous Orchestra", year: 1930, genre: "jazz", standard: true, listened: true },
   { title: "Body and Soul", artist: "Johnny Green", year: 1930, genre: "jazz", standard: true, listened: true },
   { title: "Georgia on My Mind", artist: "Hoagy Carmichael and his Orchestra", year: 1930, genre: "jazz", standard: true, listened: true },
+  { title: "El manisero (the Peanut Vendor)", artist: "Moisés Simons", year: 1930, single: true },
   { title: "It Don't Mean a Thing (If It Ain't Got That Swing)", artist: "Duke Ellington", year: 1932, genre: "jazz", standard: true, listened: true, stars: 1, fav: true },
   { title: "Rétrospective", artist: "Django Reinhardt", year: 1934, genre: "jazz", comment: 'Compilation recorded between 1934 and 1953' },
   { title: "Symphony: Mathis der Maler", artist: "Paul Hindemith", year: 1934 },
+  { title: "Cambalache", artist: "Enrique Santos Discépolo", year: 1934, comment: 'tango', single: true },
 
   { title: "Carmina Burana", artist: "Orff", year: 1935, listened: true, genre: "classical" },
   { title: "Summertime", artist: "Gershwin", year: 1935, genre: "jazz", listened: true, standard: true },
@@ -237,6 +252,8 @@ const data_1940s: Item[] = [
   { title: 'Take the "A" Train', artist: "Billy Strayhorn / Duke Ellington", year: 1941, genre: "jazz", listened: true, standard: true },
   { title: "I'm So Lonesome I Could Cry", artist: "Hank Williams and His Drifting Cowboys", year: 1941, single: true, listened: true, genre: "country" },
 
+  { title: "A Night in Tunisia", artist: "Dizzie Gillespie", year: 1942, standard: true, genre: "jazz" },
+
   { title: "'Round Midnight", artist: "Thelonious Monk", year: 1944, genre: "jazz", listened: true, standard: true },
   { title: "Midnight Symphony", artist: "Lester Young", year: 1944, genre: "jazz", standard: true, listened: true },
   { title: "The King Cole Trio", artist: "Nat King Cole", year: 1944, genre: "jazz" },
@@ -277,6 +294,7 @@ const data_1950s: Item[] = [
   { title: "Dust My Broom", artist: "Elmore James", year: 1951, genre: "blues", single: true, listened: true },
   { title: "Django Reinhardt and the Hot Club Quintet", artist: "Django Reinhardt", year: 1951, genre: "jazz" },
   { title: "Music of Changes", artist: "John Cage", year: 1951, genre: "piano" },
+  { title: "Rocket 88", artist: "Jackie Brenston and his Delta Cats", year: 1951, genre: "rock-n-roll", single: true },
 
   { title: "Lullaby of Birdland", artist: "George Shearing", year: 1952, genre: "jazz", standard: true, listened: true },
   { title: "Moonlight in Vermont", artist: "Johnny Smith with Stan Getz", year: 1952, genre: "jazz", comment: 'Compilation released in 1956, recorded between 1952 and 1953' },
@@ -397,6 +415,7 @@ const data_1950s: Item[] = [
   { title: "At the Pershing: But Not for Me", artist: "Ahmad Jamal", year: 1958, genre: "jazz", live: true },
   { title: "Rumble", artist: "Link Wray", year: 1958, genre: "rock", single: true, listened: true },
   { title: "Gruppen", artist: "Stockhausen", year: 1958 },
+  { title: "Canção do Amor Demais", artist: "Elizete Cardoso", year: 1958, comment: '"Chega de Saudade", João Gilberto on guitar' },
 
   { title: "Here's Little Richard", artist: "Little Richard", year: 1959, listened: true, genre: "rock-n-roll", stars: 1, comment: '"Tutti-Frutti"' },
   { title: "Ella Fitzgerald Sings the George and Ira Gershwin Song Book", artist: "Ella Fitzgerald", year: 1959, listened: true, genre: "jazz", comment: `"Let's Call the Whole Thing Off", "Slap That Bass"`, stars: 1 },
@@ -421,7 +440,7 @@ const data_1950s: Item[] = [
   { title: "Flamingo Serenade", artist: "The Flamingos", year: 1959, listened: true, genre: "soul" },
   { title: "At the Gate of the Horn", artist: "Memphis Slim", year: 1959, comment: `"Steppin' Out"` },
   { title: "Gloria, FP 177", artist: "Poulenc", year: 1959 },
-  { title: "Little Girl Blue", artist: "Nina Simone", year: 1959, comment: '"I loves you, Porgy"' },
+  { title: "Little Girl Blue", artist: "Nina Simone", year: 1959, comment: '"I loves you, Porgy", "My Baby Just Cares For Me"' },
 ];
 
 const data_1960s: Item[] = [
@@ -439,7 +458,7 @@ const data_1960s: Item[] = [
   { title: "Oscar Peterson Plays the Duke Ellington Song Book", artist: "Oscar Peterson", year: 1960 },
   { title: "Apache", artist: "The Shadows", year: 1960, listened: true, stars: 1, genre: "rock", fav: true, single: true },
   { title: "Elvis Is Back!", artist: "Elvis Presley", year: 1960, listened: true, genre: "rock-n-roll", comment: '"Fever"' },
-  { title: "Miriam Makeba", artist: "Miriam Makeba", year: 1960, listened: true, genre: "world" },
+  { title: "Miriam Makeba", artist: "Miriam Makeba", year: 1960, listened: true, genre: "world", comment: '"Qongqothwane" (the Click song)' },
   { title: "Giant Steps", artist: "John Coltrane", year: 1960, listened: true, genre: "jazz", stars: 1 },
   { title: "Joan Baez", artist: "Joan Baez", year: 1960, listened: true, stars: 1, genre: "folk" },
   { title: "It's Everly Time / A Date With The Everly Brothers", artist: "Everly Brothers", year: 1960 },
@@ -746,7 +765,7 @@ const data_1960s: Item[] = [
   { title: "Forever Changes", artist: "Love", year: 1967, perso: true },
   { title: "Purple Haze / The Wind Cries Mary", artist: "The Jimi Hendrix Experience", year: 1967, single: true, listened: true, genre: "rock", stars: 3, fav: true },
   { title: "Are You Experienced", artist: "The Jimi Hendrix Experience", year: 1967, listened: true, genre: "rock", stars: 4, fav: true, comment: '"Foxy Lady", "Red House", "Can You See Me"' },
-  { title: "Axis: Bold as Love", artist: "The Jimi Hendrix Experience", year: 1967, comment: '"Little Wing"', listened: true, stars: 4, fav: true, genre: "rock" },
+  { title: "Axis: Bold as Love", artist: "The Jimi Hendrix Experience", year: 1967, comment: '"Little Wing", "Castles Made Of Sand"', listened: true, stars: 4, fav: true, genre: "rock" },
   { title: "The Doors", artist: "The Doors", year: 1967, listened: true, genre: "rock", stars: 4, fav: true, comment: '"Break On Through", "Alabama Song (Whisky Bar)", "Light My Fire", "Back Door Man", "Take It As It Comes", "The End"' },
   { title: "Strange Days", artist: "The Doors", year: 1967, listened: true, genre: "rock", fav: true, stars: 4, comment: `"You're Lost Little Girl", "Love Me Two Times", "Moonlight Drive", "People are Strange", "My Eyes Have Seen You", "When the Music's Over"` },
   { title: "The Velvet Underground and Nico", artist: "The Velvet Underground", year: 1967, perso: true, comment: 'The banana album, "Sunday Morning"' },
@@ -1195,6 +1214,7 @@ const data_1970s: Item[] = [
   { title: "Root Down", artist: "Jimmy Smith", year: 1972, live: true },
   { title: "They Only Come Out at Night", artist: "Edgar Winter Group", year: 1972, comment: '"Frankenstein"' },
   { title: "Demons and Wizards", artist: "Uriah Heep", year: 1972, comment: `"Easy Leavin'"` },
+  { title: "Turenas", artist: "John Chowning", year: 1972, comment: 'FM synthesis' },
 
   { title: "The Dark Side of the Moon", artist: "Pink Floyd", year: 1973, listened: true, fav: true, stars: 4, genre: "rock", perso: true, comment: '"Breathe (In the Air)", "Time", "The Great Gig in the Sky" (vocals by Clare Torry), "Money", "Us and Them", "Brain Damage"' },
   { title: "Love Devotion Surrender", artist: "Santana & McLaughlin", year: 1973, genre: "fusion" },
@@ -1542,6 +1562,8 @@ const data_1970s: Item[] = [
   { title: "Black and Blue", artist: "The Rolling Stones", year: 1976 },
   { title: "Sarabande", artist: "Jon Lord", year: 1976 },
   { title: "A Trick of the Tail", artist: "Genesis", year: 1976 },
+  { title: "Transformation (The Speed of Love)", artist: "David Sancious and Tone", year: 1976, genre: "fusion" },
+  { title: "Rastaman Vibration", artist: "Bob Marley and the Wailers", year: 1976, genre: "reggae" },
 
   { title: "Aja", artist: "Steely Dan", year: 1977, listened: true, fav: true, stars: 4, genre: "rock", comment: 'engineered by Roger Nichols, Bill Schnee, Elliott Scheiner, Al Schmitt. Mastered by Bernie Grundman' },
   { title: "Elegant Gypsy", artist: "Al Di Meola", year: 1977, genre: "fusion", listened: true, stars: 3, fav: true },
@@ -2436,6 +2458,7 @@ const data_1980s: Item[] = [
   { title: "Follow the Leader", artist: "Eric B. & Rakim", year: 1988, genre: "rap" },
   { title: "Different Trains", artist: "Steve Reich", year: 1988 },
   { title: "Newbuild", artist: "808 State", year: 1988, genre: "electro" },
+  { title: "Time of the Gypsies OST", artist: "Goran Bregović", year: 1988, comment: '"Ederlezi"' },
 
   { title: "Bleu Blanc Vert", artist: "Jean-Louis Aubert", year: 1989, fr: true, perso: true, comment: `"Voilà c'est fini", "Univers", "Le Bout du rouleau"`, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Bleach", artist: "Nirvana", year: 1989, genre: "grunge", listened: true, comment: '"About a Girl"' },
@@ -3364,6 +3387,7 @@ const data_1990s: Item[] = [
   { title: "Neurophonie", artist: "Micropoint", year: 1999, fr: true, genre: "electro" },
   { title: "Flat Beat", artist: "Mr. Oizo", year: 1999, fr: true, genre: "electro", ep: true },
   { title: "Installation Sonore", artist: "Rinôçérôse", year: 1999, fr: true, genre: "electro" },
+  { title: "I Am...", artist: "Nas", year: 1999, genre: "rap" },
 ];
 
 const data_2000s: Item[] = [
@@ -4287,6 +4311,7 @@ const data_2010s: Item[] = [
   { title: "These Hopeful Machines", artist: "BT", year: 2010, genre: "electro" },
   { title: "Disappear Here", artist: "Hybrid", year: 2010, genre: "electro" },
   { title: "Puzzled", artist: "Lowkey, Kardinal", year: 2010, genre: "electro", fr: true, comment: '"Mamoth"' },
+  { title: "Ali and Toumani", artist: "Ali Farka Touré, Toumani Diabaté", year: 2010 },
 
   { title: "Mit Peck", artist: "Vulfpeck", year: 2011, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
   { title: "Pop Culture", artist: "Madeon [YT]", year: 2011, listened: true, genre: "electro", stars: 1, single: true, fav: true, fr: true },
@@ -4529,6 +4554,7 @@ const data_2010s: Item[] = [
   { title: "Autumn Of Communion 2", artist: "Autumn Of Communion", year: 2013, genre: "electro" },
   { title: "Exai", artist: "Autechre", year: 2013, genre: "electro" },
   { title: "Glow", artist: "Jackson and His Computer Band", year: 2013, genre: "electro", fr: true },
+  { title: "Horizons", artist: "Détroit", year: 2013, fr: true },
 
   { title: "Fugue State", artist: "Vulpeck", year: 2014, ep: true, listened: true, genre: "funk", stars: 3, fav: true, comment: '"1612"' },
   { title: "Corazón", artist: "Santana", year: 2014, comment: 'Latin rock, "Iron Lion Zion"', listened: true, genre: "rock" },
@@ -4671,6 +4697,7 @@ const data_2010s: Item[] = [
   { title: "Adventure", artist: "Madeon", year: 2015, fr: true, genre: "electro" },
   { title: "Tout est magnifique", artist: "Jacques", year: 2015, fr: true, genre: "electro" },
   { title: "Resilience", artist: "Maxime Dangles", year: 2015, fr: true, genre: "electro" },
+  { title: "Big Sun", artist: "Christophe Chassol", year: 2015, fr: true },
 
   { title: "The Beautiful Game", artist: "Vulfpeck", year: 2016, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Dean Town", "Cory Wong"' },
   { title: "Points of Interest", artist: "glue70", year: 2016, listened: true, genre: "electro", stars: 1, fav: true, comment: '"Casin", gotta love side chain compression' },
