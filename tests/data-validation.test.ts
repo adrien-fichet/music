@@ -1,13 +1,13 @@
 import { expect, it } from "vitest";
 import { data } from "../src/data";
 import { open } from "node:fs/promises";
-import { type Item } from "../src/item";
+import { type MusicalPiece } from "../src/musical-piece";
 
-const msg = (item: Item): string => `Error on item: ${JSON.stringify(item)}`;
+const msg = (musical_piece: MusicalPiece): string => `Error on musical piece: ${JSON.stringify(musical_piece)}`;
 
 it("should not use fields with single or double quotes", async () => {
   const data_file = await open("./src/data.ts");
-  const item_fields = [
+  const musical_piece_fields = [
     "title",
     "artist",
     "year",
@@ -25,7 +25,7 @@ it("should not use fields with single or double quotes", async () => {
     "live"
   ];
   for await (const line of data_file.readLines()) {
-    for (const field of item_fields) {
+    for (const field of musical_piece_fields) {
       expect(line).not.toContain(`"${field}":`);
       expect(line).not.toContain(`'${field}':`);
     }
@@ -33,81 +33,85 @@ it("should not use fields with single or double quotes", async () => {
 });
 
 it("fav should be true if stars >= 2", () => {
-  for (const item of data) {
-    if (!!item.stars && item.stars >= 2) {
-      expect(item.fav, msg(item)).toBe(true);
+  for (const musical_piece of data) {
+    if (!!musical_piece.stars && musical_piece.stars >= 2) {
+      expect(musical_piece.fav, msg(musical_piece)).toBe(true);
     }
   }
 });
 
 it("should have a genre if listened", () => {
-  for (const item of data) {
-    if (item.listened) {
-      expect(item.genre, msg(item)).toBeDefined();
+  for (const musical_piece of data) {
+    if (musical_piece.listened) {
+      expect(musical_piece.genre, msg(musical_piece)).toBeDefined();
     }
   }
 });
 
-it("should not have item duplicates", () => {
-  const titles_and_artists = data.map(function (item: Item): string {
-    return `${item.title.toLowerCase()} - ${item.artist.toLowerCase()}`;
+it("should not have musical pieces duplicates", () => {
+  const titles_and_artists = data.map(function (musical_piece: MusicalPiece): string {
+    return `${musical_piece.title.toLowerCase()} - ${musical_piece.artist.toLowerCase()}`;
   });
   const seen = {};
-  for (const item of titles_and_artists) {
-    if (item in seen) {
-      throw new Error(`Found duplicate: ${item}`);
+  for (const musical_piece of titles_and_artists) {
+    if (musical_piece in seen) {
+      throw new Error(`Found duplicate: ${musical_piece}`);
     } else {
-      seen[item] = true;
+      seen[musical_piece] = true;
     }
   }
 });
 
 it("should have at least one star if favorited", () => {
-  for (const item of data) {
-    if (item.genre === "classical") {
-      continue; // classical items are not starred, skip them
+  for (const musical_piece of data) {
+    if (musical_piece.genre === "classical") {
+      continue; // classical musical_pieces are not starred, skip them
     }
-    if (item.fav) {
-      expect(item.stars, msg(item)).toBeDefined();
-      expect(item.stars, msg(item)).toBeGreaterThan(0);
+    if (musical_piece.fav) {
+      expect(musical_piece.stars, msg(musical_piece)).toBeDefined();
+      expect(musical_piece.stars, msg(musical_piece)).toBeGreaterThan(0);
     }
   }
 });
 
 it.runIf(process.env.DEBUG === "true")("print singles and standards not yet listened", () => {
-  for (const item of data.filter((item) => (!!item.single || !!item.standard) && !item.listened)) {
-    console.log(`${item.title} - ${item.artist} (${item.year})`);
+  for (const musical_piece of data.filter(
+    (musical_piece) => (!!musical_piece.single || !!musical_piece.standard) && !musical_piece.listened
+  )) {
+    console.log(`${musical_piece.title} - ${musical_piece.artist} (${musical_piece.year})`);
   }
 });
 
 it('should not be marked as "single" if it is a standard, meme or vgm', () => {
-  for (const item of data) {
-    if (!!item.standard || item.genre === "vgm" || item.genre === "meme") {
-      expect(item.single, msg(item)).toBeUndefined();
+  for (const musical_piece of data) {
+    if (!!musical_piece.standard || musical_piece.genre === "vgm" || musical_piece.genre === "meme") {
+      expect(musical_piece.single, msg(musical_piece)).toBeUndefined();
     }
   }
 });
 
-it("items should be ordered by years in chronological order", () => {
+it("musical pieces should be ordered by years in chronological order", () => {
   let previous_year = -Infinity;
-  for (const item of data) {
-    expect(item.year, msg(item)).toBeGreaterThanOrEqual(previous_year);
-    previous_year = item.year;
+  for (const musical_piece of data) {
+    expect(musical_piece.year, msg(musical_piece)).toBeGreaterThanOrEqual(previous_year);
+    previous_year = musical_piece.year;
   }
 });
 
 it("should be marked as listened if it has stars, is fav or meh", () => {
-  for (const item of data) {
-    if (!!item.stars || !!item.fav || !!item.meh) {
-      expect(item.listened, msg(item)).toBeTruthy();
+  for (const musical_piece of data) {
+    if (!!musical_piece.stars || !!musical_piece.fav || !!musical_piece.meh) {
+      expect(musical_piece.listened, msg(musical_piece)).toBeTruthy();
     }
   }
 });
 
 it("should not have the title in comment", () => {
-  for (const item of data) {
-    if (item.comment) {
-      expect(item.comment.toLowerCase(), msg(item)).not.toContain(`"${item.title}"`.toLowerCase());
+  for (const musical_piece of data) {
+    if (musical_piece.comment) {
+      expect(musical_piece.comment.toLowerCase(), msg(musical_piece)).not.toContain(
+        `"${musical_piece.title}"`.toLowerCase()
+      );
     }
   }
 });

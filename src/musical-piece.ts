@@ -1,6 +1,6 @@
 import { type Genre } from "./genre";
 
-export interface Item {
+export interface MusicalPiece {
   title: string;
   artist: string;
   year: number;

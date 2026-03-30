@@ -1,7 +1,7 @@
-import { type Item } from "./item";
+import { type MusicalPiece } from "./musical-piece";
 import { Icon } from "./icon";
 
-const data_lt_1940: Item[] = [
+const data_lt_1940: MusicalPiece[] = [
   // < 1600: antiquité, moyen-age, renaissance
   { title: "Hurrian Hymn to Nikkal", artist: "-", year: -1400, genre: "world" },
   { title: "Seikilos epitaph", artist: "-", year: 128, genre: "world", listened: true },
@@ -241,7 +241,7 @@ const data_lt_1940: Item[] = [
   { title: "In the Mood", artist: "Glenn Miller and his Orchestra", year: 1939, genre: "jazz", standard: true, listened: true, stars: 1, fav: true },
 ];
 
-const data_1940s: Item[] = [
+const data_1940s: MusicalPiece[] = [
   { title: "Prelude n° 1", artist: "Heitor Villa-Lobos", year: 1940 },
   { title: "The Blanton-Webster Band", artist: "Duke Ellington", year: 1940, genre: "jazz", comment: "Compilation released in 1986, recorded between 1940 and 1942" },
   { title: "Cotton Tail", artist: "Duke Ellington", year: 1940, genre: "jazz", listened: true, standard: true },
@@ -287,7 +287,7 @@ const data_1940s: Item[] = [
   { title: "Symphonie pour un homme seul", artist: "Pierre Schaeffer, Pierre Henry", year: 1949, fr: true },
 ];
 
-const data_1950s: Item[] = [
+const data_1950s: MusicalPiece[] = [
   { title: "Jazz Giant", artist: "Bud Powell", year: 1950, genre: "jazz" },
   { title: "The Genius of Bud Powell / Bud Powell's Moods", artist: "Bud Powell", year: 1950, genre: "jazz", comment: 'Originally released in 1956, recorded in 1950 and 1951' },
 
@@ -443,7 +443,7 @@ const data_1950s: Item[] = [
   { title: "Little Girl Blue", artist: "Nina Simone", year: 1959, comment: '"I loves you, Porgy", "My Baby Just Cares For Me"' },
 ];
 
-const data_1960s: Item[] = [
+const data_1960s: MusicalPiece[] = [
   { title: "Sketches of Spain", artist: "Miles Davis", year: 1960, genre: "jazz" },
   { title: "Change of the Century", artist: "Ornette Coleman", year: 1960, genre: "jazz" },
   { title: "Twist with Chubby Checker", artist: "Chubby Checker", year: 1960, genre: "rock-n-roll", comment: '"The Twist"' },
@@ -956,7 +956,7 @@ const data_1960s: Item[] = [
   { title: "Babylon", artist: "Dr. John", year: 1969 },
 ];
 
-const data_1970s: Item[] = [
+const data_1970s: MusicalPiece[] = [
   { title: "Led Zeppelin III", artist: "Led Zeppelin", year: 1970, listened: true, genre: "hard-rock", stars: 3, fav: true, comment: '"Immigrant Song"' },
   { title: "Liberation Music Orchestra", artist: "Charlie Haden", year: 1970, genre: "jazz", listened: true },
   { title: "The Delfonics", artist: "The Delfonics", year: 1970, listened: true, genre: "soul", stars: 1, comment: `"Didn't I (Blow Your Mind This Time)"` },
@@ -1039,6 +1039,7 @@ const data_1970s: Item[] = [
   { title: "Live at the Isle of Wight Festival", artist: "The Who", year: 1970, live: true, perso: true },
   { title: "Introducing the Whatnauts", artist: "The Whatnauts", year: 1970 },
   { title: "...Very 'Eavy ...Very 'Umble", artist: "Uriah Heep", year: 1970 },
+  { title: "Gentle Giant", artist: "Gentle Giant", year: 1970 },
 
   { title: "Led Zeppelin IV", artist: "Led Zeppelin", year: 1971, perso: true, genre: "hard-rock", listened: true, stars: 4, fav: true, comment: '"Black Dog", "Rock and Roll", "The Battle of Evermore", "Stairway to Heaven", "Going to California", "When the Levee Breaks"' },
   { title: "Energy", artist: "Jeremy Steig", year: 1971, genre: "fusion" },
@@ -1391,6 +1392,7 @@ const data_1970s: Item[] = [
   { title: "Music in Twelve Parts", artist: "Philip Glass", year: 1974 },
   { title: "Total Eclipse", artist: "Billy Cobham", year: 1974, genre: "fusion" },
   { title: "Belonging", artist: "Keith Jarrett", year: 1974, genre: "jazz", comment: `"Long as You Know You're Living Yours"` },
+  { title: "The Power and the Glory", artist: "Gentle Giant", year: 1974 },
 
   { title: "Physical Graffiti", artist: "Led Zeppelin", year: 1975, comment: '"Kashmir"' },
   { title: "Sweet Hands", artist: "David Liebman", year: 1975, genre: "fusion" },
@@ -1829,7 +1831,7 @@ const data_1970s: Item[] = [
   { title: "Breakfast in America", artist: "Supertramp", year: 1979 },
 ];
 
-const data_1980s: Item[] = [
+const data_1980s: MusicalPiece[] = [
   { title: "Heaven and Hell", artist: "Black Sabbath", year: 1980, listened: true, genre: "hard-rock", stars: 3, fav: true, comment: 'Dio on vocals, "Neon Knights" guitar solo, "Children of the Sea" (Look Out!)' },
   { title: "To Chi Ka", artist: "Kazumi Watanabe", year: 1980, genre: "fusion" },
   { title: "Dregs of the Earth", artist: "Dixie Dregs", year: 1980 },
@@ -2523,7 +2525,7 @@ const data_1980s: Item[] = [
   { title: "Original Soundtrack", artist: "S'Express", year: 1989 },
 ];
 
-const data_1990s: Item[] = [
+const data_1990s: MusicalPiece[] = [
   { title: "Pornograffiti", artist: "Extreme", year: 1990, perso: true, listened: true, fav: true, stars: 3, genre: "hard-rock", comment: "Médiathèque Mansart" },
   { title: "Passion and Warfare", artist: "Steve Vai", year: 1990, perso: true, listened: true, genre: "hard-rock", stars: 2, fav: true, comment: '"Erotic Nightmares", "The Animal", "For the Love of God"' },
   { title: "Thunder from Down Under", artist: "Frank Gambale", year: 1990, genre: "fusion", comment: '"Leave Ozone Alone"' },
@@ -3390,7 +3392,7 @@ const data_1990s: Item[] = [
   { title: "I Am...", artist: "Nas", year: 1999, genre: "rap" },
 ];
 
-const data_2000s: Item[] = [
+const data_2000s: MusicalPiece[] = [
   { title: "Tony Hawk Pro Skater 2 OST", artist: "Various Artists", year: 2000, listened: true, fav: true, perso: true, stars: 1, genre: "punk" },
   { title: "Mother Earth", artist: "Within Temptation", year: 2000, perso: true, listened: true, genre: "metal", comment: '"Ice Queen"', stars: 1 },
   { title: "Dawn of Victory", artist: "Rhapsody", year: 2000, listened: true, genre: "metal" },
@@ -4239,7 +4241,7 @@ const data_2000s: Item[] = [
   { title: "Mécaniques remontées / Too Shy", artist: "Sweet Light", year: 2009, genre: "electro", fr: true, single: true },
 ];
 
-const data_2010s: Item[] = [
+const data_2010s: MusicalPiece[] = [
   { title: "All Day", artist: "Girl Talk", year: 2010, listened: true, fav: true, stars: 3, genre: "electro", perso: true },
   { title: "Heligoland", artist: "Massive Attack", year: 2010, perso: true, listened: true, genre: "trip-hop", stars: 2, fav: true, comment: '"Atlas Air"' },
   { title: "Rock Dust Light Star", artist: "Jamiroquai", year: 2010, listened: true, stars: 1, genre: "funk" },
@@ -4956,7 +4958,7 @@ const data_2010s: Item[] = [
   { title: "ROADS - Vol. 1", artist: "Thylacine", year: 2019, genre: "electro", fr: true },
 ];
 
-const data_2020s: Item[] = [
+const data_2020s: MusicalPiece[] = [
   { title: "Press Start", artist: "The Laszlo Project", year: 2020, ep: true, listened: true, genre: "jazz" },
   { title: "GoGo Penguin", artist: "GoGo Penguin", year: 2020, genre: "jazz", listened: true, stars: 1, comment: '"Atomised" ending' },
   { title: "The Joy Of Music, The Jobs Of Real Estate", artist: "Vulfpeck", year: 2020, listened: true, genre: "funk" },
@@ -5272,6 +5274,7 @@ const data_2020s: Item[] = [
   { title: "Adult Contemporary", artist: "Chromeo", year: 2024 },
   { title: "Le Mohican OST", artist: "Rone", year: 2024, fr: true },
   { title: "Unshadow", artist: "Agoria", year: 2024, genre: "electro", fr: true },
+  { title: "Angine De Poitrine Vol. 1", artist: "Angine de Poitrine", year: 2024 },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
@@ -5316,6 +5319,7 @@ const data_2020s: Item[] = [
   { title: "WARM UP", artist: "Etienne de Crécy", year: 2025, genre: "electro", fr: true },
   { title: "Nebula", artist: "Rumpistol", year: 2025, genre: "electro" },
   { title: "Bloom [In Loving Memory]", artist: "Factor B", year: 2025, genre: "electro", listened: true },
+  { title: "Live on KEXP", artist: "Angine de Poitrine", year: 2025, live: true, listened: true, genre: "rock", stars: 1, comment: '"Fabienk"', fav: true },
 
   { title: "Tempus Ruinae", artist: "XIII Nights", year: 2026, single: true, genre: "synth", listened: true },
   { title: "Don't Call Me", artist: "Lyst, Neon Shards", year: 2026, single: true, genre: "synth", listened: true },
@@ -5329,22 +5333,23 @@ const data_2020s: Item[] = [
   { title: "The Boys of Dungeon Lane", artist: "Paul McCartney", year: 2026 },
   { title: "Route 96", artist: "Matteo Mancuso", year: 2026 },
   { title: "Dott", artist: "Vulfmon", year: 2026 },
+  { title: "Angine De Poitrine Vol. 2", artist: "Angine de Poitrine", year: 2026 },
   { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2026 },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
-const data: Item[] = [
+const data: MusicalPiece[] = [
   ...data_lt_1940, ...data_1940s, ...data_1950s, ...data_1960s, ...data_1970s,
   ...data_1980s, ...data_1990s, ...data_2000s, ...data_2010s, ...data_2020s
 ];
 
-const item_tr_class = (item: Item): string => {
+const musical_piece_tr_class = (musical_piece: MusicalPiece): string => {
   let tr_class = "";
 
-  if (item.listened) {
-    if (item.fav) {
+  if (musical_piece.listened) {
+    if (musical_piece.fav) {
       tr_class = "fav";
-    } else if (item.meh) {
+    } else if (musical_piece.meh) {
       tr_class = "meh";
     }
   } else {
@@ -5354,12 +5359,12 @@ const item_tr_class = (item: Item): string => {
   return tr_class;
 }
 
-// Compute additional item properties
-data.forEach(item => {
-  item.tr_class = item_tr_class(item);
-  item.icon = Icon.from_genre(item.genre);
-  item.icon_class = Icon.class_from_genre(item.genre);
-  item.spotify_url = `http://open.spotify.com/search/${item.title} - ${item.artist}`;
+// Compute additional musical_piece properties
+data.forEach(musical_piece => {
+  musical_piece.tr_class = musical_piece_tr_class(musical_piece);
+  musical_piece.icon = Icon.from_genre(musical_piece.genre);
+  musical_piece.icon_class = Icon.class_from_genre(musical_piece.genre);
+  musical_piece.spotify_url = `http://open.spotify.com/search/${musical_piece.title} - ${musical_piece.artist}`;
 });
 
 export { data };

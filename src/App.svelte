@@ -1,10 +1,10 @@
 <script lang="ts">
   import Sources from "./lib/Sources.svelte";
   import Todo from "./lib/Todo.svelte";
-  import NumberOfItems from "./lib/NumberOfItems.svelte";
-  import RandomItem from "./lib/RandomItem.svelte";
+  import NumberOfMusicalPieces from "./lib/NumberOfMusicalPieces.svelte";
+  import RandomMusicalPiece from "./lib/RandomMusicalPiece.svelte";
   import Filters from "./lib/filters/Filters.svelte";
-  import NumberOfItemsByDecade from "./lib/NumberOfItemsByDecade.svelte";
+  import NumberOfMusicalPiecesByDecade from "./lib/NumberOfMusicalPiecesByDecade.svelte";
   import Table from "./lib/Table.svelte";
   import { onMount } from "svelte";
 
@@ -15,13 +15,13 @@
 </script>
 
 <main>
-  <NumberOfItems />
-  <RandomItem />
+  <NumberOfMusicalPieces />
+  <RandomMusicalPiece />
   <p></p>
   <Filters />
   <p></p>
   <Table />
   <Sources />
   <Todo />
-  <NumberOfItemsByDecade />
+  <NumberOfMusicalPiecesByDecade />
 </main>
