@@ -164,9 +164,10 @@ const data_lt_1940: MusicalPiece[] = [
   { title: "Elektra, op. 58", artist: "Richard Strauss", year: 1909 },
 
   // 1910 +
+  { title: "L'Oiseau de feu", artist: "Stravinsky", year: 1910, genre: "classical" },
   { title: "Symphonie n° 9 en ré majeur", artist: "Mahler", year: 1912, genre: "classical", listened: true, comment: "4th movement" },
   { title: "Daphnis et Chloé", artist: "Ravel", year: 1913, fr: true, genre: "classical", listened: true },
-  { title: "Le Sacre du printemps", artist: "Stravinsky", year: 1913 },
+  { title: "Le Sacre du printemps", artist: "Stravinsky", year: 1913, listened: true, genre: "classical" },
   { title: "Les Planètes", artist: "Holst", year: 1914, listened: true, genre: "classical" },
   { title: "A London Symphony (Symphony n° 2)", artist: "Vaughan Williams", year: 1914, genre: "classical" },
   { title: "Saint Louis Blues", artist: "W. C. Handy", year: 1914, genre: "blues", standard: true, listened: true },
@@ -860,7 +861,7 @@ const data_1960s: MusicalPiece[] = [
   { title: "No Introduction Necessary", artist: " Jimmy Page, Nicky Hopkins, John Paul Jones, Albert Lee, Chris Hughes, Keith David De Groot, Clem Cattini, Big Jim Sullivan", year: 1968 },
   { title: "Pendulum Music", artist: "Steve Reich", year: 1968 },
 
-  { title: "In the Court of the Crimson King", artist: "King Crimson", year: 1969 },
+  { title: "In the Court of the Crimson King", artist: "King Crimson", year: 1969, genre: "rock", comment: '"21st Century Schizoid Man"' },
   { title: "A Jackson in Your House", artist: "Art Ensemble of Chicago", year: 1969, genre: "jazz", listened: true, meh: true },
   { title: "Emergency!", artist: "The Tony Williams Lifetime", year: 1969, genre: "fusion" },
   { title: "Extrapolation", artist: "John McLaughlin", year: 1969, genre: "jazz", listened: true },
@@ -1040,6 +1041,8 @@ const data_1970s: MusicalPiece[] = [
   { title: "Introducing the Whatnauts", artist: "The Whatnauts", year: 1970 },
   { title: "...Very 'Eavy ...Very 'Umble", artist: "Uriah Heep", year: 1970 },
   { title: "Gentle Giant", artist: "Gentle Giant", year: 1970 },
+  { title: "L.A. Getaway", artist: "L.A. Getaway", year: 1970, comment: 'Joel Scott Hill' },
+  { title: "Back in the USA", artist: "MC5", year: 1970, perso: true, comment: `"Shakin' Street"` },
 
   { title: "Led Zeppelin IV", artist: "Led Zeppelin", year: 1971, perso: true, genre: "hard-rock", listened: true, stars: 4, fav: true, comment: '"Black Dog", "Rock and Roll", "The Battle of Evermore", "Stairway to Heaven", "Going to California", "When the Levee Breaks"' },
   { title: "Energy", artist: "Jeremy Steig", year: 1971, genre: "fusion" },
@@ -1070,7 +1073,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Naturally", artist: "J.J. Cale", year: 1971, listened: true, stars: 1, genre: "rock-n-roll" },
   { title: "America", artist: "America", year: 1971, listened: true, stars: 1, genre: "rock", comment: '"A Horse with No Name"' },
   { title: "Purdie Good!", artist: 'Bernard "Pretty" Purdie', year: 1971, listened: true, fav: true, stars: 1, genre: "soul" },
-  { title: "Journey in Satchidanada", artist: "Alice Coltrane", year: 1971 },
+  { title: "Journey in Satchidanada", artist: "Alice Coltrane", year: 1971, listened: true, genre: "jazz", stars: 1, comment: 'Cecil McBee and Charlie Haden on double bass' },
   { title: "Ram", artist: "Paul and Linda McCartney", year: 1971 },
   { title: "Sky's the Limit", artist: "The Temptations", year: 1971, listened: true, genre: "soul", comment: '"Just My Imagination (Running Away With Me)"', stars: 1 },
   { title: "White Light", artist: "Gene Clark", year: 1971, listened: false, genre: "folk" },
@@ -1100,7 +1103,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Maggot Brain", artist: "Funkadelic", year: 1971, listened: true, genre: "funk", perso: true, comment: '"Hit It and Quit It"', stars: 3, fav: true },
   { title: "John Prine", artist: "John Prine", year: 1971, listened: true, genre: "folk", stars: 1, comment: '"Pretty Good"' },
   { title: "Surf's Up", artist: "The Beach Boys", year: 1971, listened: true, meh: true, genre: "rock" },
-  { title: "Fragile", artist: "Yes", year: 1971, comment: '"Roundabout"' },
+  { title: "Fragile", artist: "Yes", year: 1971, comment: '"Roundabout", "Five per Cent for Nothing", "Heart of the Sunrise"' },
   { title: "Tago Mago", artist: "Can", year: 1971 },
   { title: "Madman Across the Water", artist: "Elton John", year: 1971, listened: true, genre: "rock", comment: '"Tiny Dancer"' },
   { title: "Gene Clark", artist: "Gene Clark", year: 1971 },
@@ -1127,6 +1130,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "I Wrote a Simple Song", artist: "Billy Preston", year: 1971 },
   { title: "Moving Waves", artist: "Focus", year: 1971 },
   { title: "Poems, Prayers & Promises", artist: "John Denver", year: 1971, comment: '"Take Me Home, Country Roads"', genre: "folk" },
+  { title: "Sabelithe", artist: "John Chowning", year: 1971, listened: true, genre: "synth", single: true },
 
   { title: "Exile on Main Street", artist: "The Rolling Stones", year: 1972, genre: "rock" },
   { title: "Ethiopian Knights", artist: "Donald Byrd", year: 1972, genre: "fusion" },
@@ -1215,7 +1219,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Root Down", artist: "Jimmy Smith", year: 1972, live: true },
   { title: "They Only Come Out at Night", artist: "Edgar Winter Group", year: 1972, comment: '"Frankenstein"' },
   { title: "Demons and Wizards", artist: "Uriah Heep", year: 1972, comment: `"Easy Leavin'"` },
-  { title: "Turenas", artist: "John Chowning", year: 1972, comment: 'FM synthesis' },
+  { title: "Turenas", artist: "John Chowning", year: 1972, comment: 'FM synthesis 360°', listened: true, genre: "synth", single: true, stars: 1 },
 
   { title: "The Dark Side of the Moon", artist: "Pink Floyd", year: 1973, listened: true, fav: true, stars: 4, genre: "rock", perso: true, comment: '"Breathe (In the Air)", "Time", "The Great Gig in the Sky" (vocals by Clare Torry), "Money", "Us and Them", "Brain Damage"' },
   { title: "Love Devotion Surrender", artist: "Santana & McLaughlin", year: 1973, genre: "fusion" },
@@ -1426,7 +1430,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Chain Reaction", artist: "The Crusaders", year: 1975, listened: true, genre: "funk", stars: 1, fav: true },
   { title: "The Art of Tea", artist: "Michael Franks", year: 1975, genre: "soul", comment: "Joe Sample on keyboards", listened: true, stars: 2, fav: true },
   { title: "Making Music", artist: "Bill Withers", year: 1975, genre: "soul", listened: true, stars: 1, fav: true },
-  { title: "The Köln Concert", artist: "Keith Jarrett", year: 1975, live: true, genre: "piano", listened: false },
+  { title: "The Köln Concert", artist: "Keith Jarrett", year: 1975, live: true, genre: "piano", listened: true, fav: true, stars: 4 },
   { title: "Toys In the Attic", artist: "Aerosmith", year: 1975, listened: true, genre: "hard-rock", stars: 2, fav: true, comment: '"Walk This Way", "Sweet Emotion"' },
   { title: "Shalimar / College Girl", artist: "R.D. Burman / Bappi Lahiri", year: 1975 },
   { title: "Trammps", artist: "The Trammps", year: 1975, listened: true, genre: "disco" },
@@ -1439,7 +1443,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Upon the Wings of Music", artist: "Jean-Luc Ponty", year: 1975, genre: "fusion", fr: true },
   { title: "I Love Rock 'n' Roll", artist: "Arrows", year: 1975 },
   { title: "Go Girl Crazy!", artist: "The Dictators", year: 1975 },
-  { title: "Ritchie Blackmore's Rainbow", artist: "Rainbow", year: 1975, listened: true, genre: "hard-rock", stars: 4, fav: true, comment: `"Man on the Silver Mountain", "Black Sheep of the Family", "Still I'm Sad", "Catch the Rainbow"`, perso: true },
+  { title: "Ritchie Blackmore's Rainbow", artist: "Rainbow", year: 1975, listened: true, genre: "hard-rock", stars: 4, fav: true, comment: `Dio on vocals, "Man on the Silver Mountain", "Black Sheep of the Family", "Still I'm Sad", "Catch the Rainbow"`, perso: true },
   { title: "Forest of Feelings", artist: "David Sancious", year: 1975, listened: true, fav: true, stars: 1, genre: "funk" },
   { title: "Mister Magic", artist: "Grover Washington, Jr.", year: 1975, listened: true, genre: "jazz" },
   { title: "Diamonds & Rust", artist: "Joan Baez", year: 1975, listened: true, genre: "folk", stars: 2, fav: true },
@@ -1653,6 +1657,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Feels So Good", artist: "Chuck Mangione", year: 1977, listened: true, genre: "jazz" },
   { title: "Galaxy", artist: "War", year: 1977 },
   { title: "I Robot", artist: "the Alan Parsons Project", year: 1977 },
+  { title: "Stria", artist: "John Chowning", year: 1977, listened: true, genre: "synth", single: true },
 
   { title: "Insights", artist: "Toshiko Akiyoshi - Lew Tabackin Big Band", year: 1978, genre: "jazz" },
   { title: "Feels Good to Me", artist: "Bruford", year: 1978, genre: "fusion" },
@@ -1910,6 +1915,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Peter Gabriel (Peter Gabriel 3: Melt)", artist: "Peter Gabriel", year: 1980, comment: 'no cymbals, gated reverb ("Intruder")' },
   { title: "The Michael Schenker Group", artist: "Michael Schenker Group", year: 1980, comment: '"Into the Arena"' },
   { title: "Snowbird Fantasy", artist: "Bob James", year: 1980, single: true },
+  { title: "Phoné", artist: "John Chowning", year: 1980, listened: true, genre: "synth", single: true },
 
   { title: "Fire of Unknown Origin", artist: "Blue Öyster Cult", year: 1981, listened: true, fav: true, stars: 1, genre: "hard-rock", comment: `"Burnin' For You"` },
   { title: "Word of Mouth", artist: "Jaco Pastorius", year: 1981, genre: "fusion" },
@@ -1988,6 +1994,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Miracles", artist: "Change", year: 1981 },
   { title: "Klaus Nomi", artist: "Klaus Nomi", year: 1981 },
   { title: "J'aime regarder les filles", artist: "Patrick Coutin", year: 1981, fr: true, genre: "chanson", single: true, listened: true },
+  { title: "Discipline", artist: "King Crimson", year: 1981 },
 
   { title: "The Nightfly", artist: "Donald Fagen", year: 1982, listened: true, fav: true, stars: 3, genre: "rock" },
   { title: "I.O.U.", artist: "Allan Holdsworth", year: 1982, genre: "fusion" },
@@ -2034,7 +2041,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "The Number of the Beast", artist: "Iron Maiden", year: 1982, genre: "hard-rock", listened: true, stars: 3, fav: true },
   { title: "Combat Rock", artist: "The Clash", year: 1982, genre: "punk", listened: true, stars: 1, fav: true, comment: '"Should I Stay or Should I Go", "Rock the Casbah", "Straight to Hell"' },
   { title: "1999", artist: "Prince and the Revolution", year: 1982, listened: true, genre: "pop" },
-  { title: "Eye in the Sky", artist: "the Alan Parsons Project", year: 1982 },
+  { title: "Eye in the Sky", artist: "the Alan Parsons Project", year: 1982, listened: true, genre: "rock", comment: '"Sirius", "Silence and I"', stars: 2, fav: true },
   { title: "Rio", artist: "Duran Duran", year: 1982, listened: true, genre: "new-wave", stars: 2, fav: true },
   { title: "Sulk", artist: "Associates", year: 1982 },
   { title: "Jean-Jacques Goldman (Minoritaire / Quand la musique est bonne)", artist: "Jean-Jacques Goldman", year: 1982, fr: true, listened: true, genre: "rock", comment: '"Au bout de mes rêves", "Comme Toi", "Quand la musique est bonne" / "Quand la bouteille est vide"', stars: 1 },
@@ -2207,6 +2214,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "How Will the Wolf Survive?", artist: "Los Lobos", year: 1984 },
   { title: "Legend", artist: "Bob Marley and the Wailers", year: 1984, genre: "reggae" },
   { title: "Zoolook", artist: "Jean-Michel Jarre", year: 1984, genre: "synth", fr: true },
+  { title: "My War", artist: "Black Flag", year: 1984 },
 
   { title: "Freaky Styley", artist: "Red Hot Chili Peppers", year: 1985, listened: true, genre: "funk", stars: 1, fav: true },
   { title: "Hounds of Love", artist: "Kate Bush", year: 1985, comment: '"Running Up That Hill"' },
@@ -2523,6 +2531,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "From the Mind of Lil Louis", artist: "Lil Louis", year: 1989, comment: '"French Kiss"' },
   { title: "Toni et Vagabond", artist: "Henri Dès", year: 1989, fr: true, perso: true, genre: "chanson", listened: true },
   { title: "Original Soundtrack", artist: "S'Express", year: 1989 },
+  { title: "Wrong", artist: "Nomeansno", year: 1989 },
 ];
 
 const data_1990s: MusicalPiece[] = [
@@ -2828,6 +2837,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Tango n' Vectif", artist: "µ-Ziq", year: 1993, genre: "electro" },
   { title: "Ginger", artist: "Speedy J", year: 1993, genre: "electro" },
   { title: "Positivity", artist: "Incognito", year: 1993 },
+  { title: "Souvlaki", artist: "Slowdive", year: 1993 },
 
   { title: "The Return of the Space Cowboy", artist: "Jamiroquai", year: 1994, listened: true, genre: "funk", stars: 3, fav: true, perso: true, comment: '"Manifest Destiny", "Mr Moon", "Scam"' },
   { title: "The Suitcase - Live in Köln '94", artist: "Steve Kahn", year: 1994, genre: "fusion", live: true },
@@ -2987,6 +2997,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Flagman Ahead", artist: "Tab Two", year: 1995 },
   { title: "Underground Vibes", artist: "DJ Cam", year: 1995, fr: true, genre: "electro" },
   { title: "Get Funky Get Down (Daft Punk Remix)", artist: "The Micronauts, Daft Punk", year: 1995, fr: true, genre: "electro", single: true },
+  { title: "Symbolic", artist: "Death", year: 1995, genre: "metal" },
 
   { title: "Travelling Without Moving", artist: "Jamiroquai", year: 1996, perso: true, listened: true, genre: "funk", stars: 4, fav: true, comment: '"Virtual Insanity", "Cosmic Girl", "Use the Force", "Everyday", "Alright", "High Times"' },
   { title: "Below the Bassline", artist: "Ernest Ranglin", year: 1996, genre: "jazz" },
@@ -3072,6 +3083,8 @@ const data_1990s: MusicalPiece[] = [
   { title: "Substances", artist: "DJ Cam", year: 1996, genre: "electro", fr: true },
   { title: "Venus (Sunshine People)", artist: "Cheek", year: 1996, genre: "electro", fr: true, single: true },
   { title: "Chroma", artist: "Scan X", year: 1996, genre: "electro", fr: true },
+  { title: "Long Season", artist: "Fishmans", year: 1996 },
+  { title: "Soundtracks for the Blind", artist: "Swans", year: 1996 },
 
   { title: "The Desmond Project", artist: "The John Basile Quartet", year: 1997, genre: "jazz" },
   { title: "Beyond the Missouri Sky (Short Stories)", artist: "Pat Metheny and Charlie Haden", year: 1997, genre: "jazz" },
@@ -3390,6 +3403,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Flat Beat", artist: "Mr. Oizo", year: 1999, fr: true, genre: "electro", ep: true },
   { title: "Installation Sonore", artist: "Rinôçérôse", year: 1999, fr: true, genre: "electro" },
   { title: "I Am...", artist: "Nas", year: 1999, genre: "rap" },
+  { title: "98.12.28 Otokotachi no Wakare", artist: "Fishmans", year: 1999, live: true },
 ];
 
 const data_2000s: MusicalPiece[] = [
@@ -3552,7 +3566,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Survivor", artist: "Destiny's Child", year: 2001, genre: "r-n-b", listened: true, comment: '"Independent Women, Pt. 1"' },
   { title: "Gold", artist: "Ryan Adams", year: 2001 },
   { title: "Infest", artist: "Papa Roach", year: 2001, genre: "metal", comment: '"Blood Brothers"' },
-  { title: "Verpertine", artist: "Björk", year: 2001 },
+  { title: "Vespertine", artist: "Björk", year: 2001 },
   { title: "Bright Flight", artist: "Silver Jews", year: 2001 },
   { title: "Amnesia", artist: "Radiohead", year: 2001 },
   { title: "Reptile", artist: "Eric Clapton", year: 2001, listened: true, genre: "rock", comment: `"Got You On My Mind", "Travelin' Light"`, stars: 1, fav: true },
@@ -3587,6 +3601,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Kill Your Darlings", artist: "Kid Loco", year: 2001, genre: "electro", fr: true },
   { title: "Le Surboomer", artist: "Grand Tourism", year: 2001, genre: "electro", fr: true },
   { title: "Les enfants du Bled", artist: "Soha, Africanism", year: 2001, genre: "electro", fr: true, single: true },
+  { title: "The Glow Pt. 2", artist: "The Microphones", year: 2001 },
 
   { title: "Purple Onion", artist: "Colonel Les Claypool's Fearless Flying Frog Brigade", year: 2002 },
   { title: "Trio Sud", artist: "Sylvain Luc", year: 2002, fr: true, genre: "jazz" },
@@ -3756,6 +3771,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Outrage", artist: "Thomas Bangalter", year: 2003, genre: "electro", fr: true, ep: true },
   { title: "Suite", artist: "Martin Solveig", year: 2003, genre: "electro", fr: true },
   { title: "Waves II", artist: "Various Artists", year: 2003, genre: "electro", fr: true, comment: 'Crydamoure compilation' },
+  { title: "Velocity : Design : Comfort", artist: "Sweet Trip", year: 2003 },
 
   { title: "Symphony of Enchanted Lands II (The Dark Secret)", artist: "Rhapsody of Fire", year: 2004, listened: true, perso: true, genre: "metal", stars: 1, comment: '"Unholy Warcry"' },
   { title: "Bill's Break", artist: "Krazy Baldhead", year: 2004, ep: true, fr: true, genre: "electro" },
@@ -4010,6 +4026,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "I Choose Noise", artist: "Hybrid", year: 2006, genre: "electro" },
   { title: "The Green Armchair", artist: "Agoria", year: 2006, genre: "electro", fr: true, comment: '"Les Violons Ivres"' },
   { title: "Vexillology", artist: "Deadmau5", year: 2006, genre: "electro" },
+  { title: "This is the Hook", artist: "BSOD", year: 2006, genre: "electro", ep: true },
 
   { title: "Favourite Worst Nightmare", artist: "Arctic Monkeys", year: 2007, listened: true, genre: "rock", fav: true, stars: 3, comment: '"Brianstorm", "Teddy Picker", "Fluorescent Adolescent"' },
   { title: "Era Vulgaris", artist: "Queens of the Stone Age", year: 2007, listened: true, genre: "hard-rock", stars: 1, fav: true, perso: true },
@@ -4160,6 +4177,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Motherfucking Bass (Popof remix #1)", artist: "DJ Rush, Popof", year: 2008, genre: "electro", single: true, listened: true, stars: 1, comment: 'T:Classixx' },
   { title: "Next of Kin", artist: "Surkin", year: 2008, ep: true, genre: "electro", fr: true },
   { title: "Tonight", artist: "Yuksek", year: 2008, single: true, genre: "electro", fr: true },
+  { title: "Deathconsciousness", artist: "Have a Nice Life", year: 2008 },
 
   { title: "The Fame Monster", artist: "Lady Gaga", year: 2009, ep: true, comment: '"Bad Romance"'},
   { title: "BLACKsummers'night", artist: "Maxwell", year: 2009 },
@@ -4556,7 +4574,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Autumn Of Communion 2", artist: "Autumn Of Communion", year: 2013, genre: "electro" },
   { title: "Exai", artist: "Autechre", year: 2013, genre: "electro" },
   { title: "Glow", artist: "Jackson and His Computer Band", year: 2013, genre: "electro", fr: true },
-  { title: "Horizons", artist: "Détroit", year: 2013, fr: true },
+  { title: "Horizons", artist: "Détroit", year: 2013, fr: true, listened: true, genre: "rock" },
 
   { title: "Fugue State", artist: "Vulpeck", year: 2014, ep: true, listened: true, genre: "funk", stars: 3, fav: true, comment: '"1612"' },
   { title: "Corazón", artist: "Santana", year: 2014, comment: 'Latin rock, "Iron Lion Zion"', listened: true, genre: "rock" },
@@ -4566,7 +4584,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Second Nature", artist: "Flying Colors", year: 2014 },
   { title: "The Church", artist: "Mr. Oizo", year: 2014, genre: "electro", fr: true },
   { title: "With Julia", artist: "Kid Francescoli", year: 2014, fr: true },
-  { title: "Octopus4", artist: "The Algorithm", year: 2014, fr: true },
+  { title: "Octopus4", artist: "The Algorithm", year: 2014, fr: true, genre: "electro" },
   { title: "195", artist: "OGRE Sound", year: 2014, listened: true, genre: "electro", stars: 1 },
   { title: "Motifs", artist: "20syl", year: 2014, ep: true, fr: true, listened: true, genre: "electro", stars: 1 },
   { title: "Four Foot Shack", artist: "Duo de Twang", year: 2014, listened: true, genre: "rock", stars: 3, fav: true },
@@ -4587,7 +4605,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "The Satanist", artist: "Behemoth", year: 2014 },
   { title: "We Are Number One", artist: "LazyTown", year: 2014, genre: "meme", listened: true },
   { title: "Recess", artist: "Skrillex", year: 2014, genre: "electro", comment: "Dubstep, Eurockéennes 2014" },
-  { title: "Run the Jewels 2", artist: "Run the Jewels", year: 2014 },
+  { title: "Run the Jewels 2", artist: "Run the Jewels", year: 2014, genre: "rap" },
   { title: "Sunset on the Golden Age", artist: "Alestorm", year: 2014, genre: "metal", listened: true, stars: 1, fav: true, comment: '"Magnetic North", "1741 (The Battle of Cartagena)", "Hangover"' },
   { title: "Music to Delight", artist: "Kevin MacLeod", year: 2014 },
   { title: "Mystery", artist: "Kevin MacLeod", year: 2014 },
@@ -4700,6 +4718,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Tout est magnifique", artist: "Jacques", year: 2015, fr: true, genre: "electro" },
   { title: "Resilience", artist: "Maxime Dangles", year: 2015, fr: true, genre: "electro" },
   { title: "Big Sun", artist: "Christophe Chassol", year: 2015, fr: true },
+  { title: "Elaenia", artist: "Floating Points (Sam Shepherd)", year: 2015 },
 
   { title: "The Beautiful Game", artist: "Vulfpeck", year: 2016, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Dean Town", "Cory Wong"' },
   { title: "Points of Interest", artist: "glue70", year: 2016, listened: true, genre: "electro", stars: 1, fav: true, comment: '"Casin", gotta love side chain compression' },
@@ -4767,6 +4786,8 @@ const data_2010s: MusicalPiece[] = [
   { title: "Musique de France", artist: "Acid Arab", year: 2016, genre: "electro", fr: true, comment: '"La Hafla"' },
   { title: "Recto Verso", artist: "Paradis", year: 2016, genre: "electro", fr: true },
   { title: "W:/2016Album/", artist: "Deadmau5", year: 2016, genre: "electro" },
+  { title: "Atrocity Exhibition", artist: "Danny Brown", year: 2016, genre: "rap" },
+  { title: "Natural Causes", artist: "Skylar Grey", year: 2016 },
 
   { title: "Mr. Finish Line", artist: "Vulfpeck", year: 2017, listened: false, genre: "funk" },
   { title: "Stup Virus", artist: "Stupeflip", year: 2017, fr: true, genre: "rap", listened: true, comment: "campagne Ulule" },
@@ -4956,6 +4977,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Drift", artist: "Agoria", year: 2019, genre: "electro", fr: true },
   { title: "Road to Nowhere", artist: "KAS:ST", year: 2019, genre: "electro", fr: true },
   { title: "ROADS - Vol. 1", artist: "Thylacine", year: 2019, genre: "electro", fr: true },
+  { title: "IGOR", artist: "Tyler, the Creator", year: 2019 },
 ];
 
 const data_2020s: MusicalPiece[] = [
@@ -5026,6 +5048,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "After the Flood", artist: "Rumpistol", year: 2020, genre: "electro" },
   { title: "Le Virage", artist: "Boombass", year: 2020, genre: "electro", fr: true, ep: true, comment: '"Pour que tu"' },
   { title: "Tolérance", artist: "Deepside Ludovic Navarre", year: 2020, genre: "electro", fr: true, ep: true, comment: '"French"' },
+  { title: "No Way, Get Real", artist: "BSOD", year: 2020, genre: "electro", ep: true },
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
   { title: "Everybody's Going to the Moon", artist: "Jamiroquai", year: 2021, single: true, listened: true, genre: "funk" },
@@ -5099,6 +5122,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "Mars 500", artist: "Chloé", year: 2021, ep: true, fr: true, genre: "electro" },
   { title: "Nature's Light", artist: "Blackmore's Night", year: 2021 },
   { title: ".dev", artist: "Agoria", year: 2021, genre: "electro", fr: true },
+  { title: "Promises", artist: "Floating Points, Pharoah Sanders & The London Symphony Orchestra", year: 2021, listened: true, genre: "jazz" },
 
   { title: "The Fearless Flyers III", artist: "The Fearless Flyers", year: 2022, listened: true, stars: 1, genre: "funk", fav: true, ep: true },
   { title: "Return", artist: "Lydian Collective", year: 2022, listened: true, genre: "jazz", stars: 1, fav: true },
@@ -5163,6 +5187,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "V", artist: "Vald", year: 2022, fr: true, genre: "rap" },
   { title: "Everything I Know About Love", artist: "Laufey", year: 2022 },
   { title: "Fragments", artist: "Bonobo", year: 2022 },
+  { title: "My Heart Has Teeth", artist: "Deadmau5, Skylar Grey", year: 2022, single: true, genre: "electro", listened: true, stars: 1 },
 
   { title: "Cracker Island", artist: "Gorillaz", year: 2023, listened: true, genre: "pop", stars: 1, fav: true },
   { title: "Mythologies", artist: "Thomas Bangalter", year: 2023, genre: "classical", listened: true, fr: true },
@@ -5270,11 +5295,14 @@ const data_2020s: MusicalPiece[] = [
   { title: "Viva Tu", artist: "Manu Chao", year: 2024, fr: true },
   { title: "Décadanse Générale", artist: "La Poison", year: 2024, fr: true },
   { title: "Keeping Company", artist: "Bill Laurance, Michael League", year: 2024 },
-  { title: "Telos", artist: "Zedd", year: 2024, comment: '"Out of Time"' },
+  { title: "Telos", artist: "Zedd", year: 2024, comment: '"Out of Time"', listened: true, genre: "electro" },
   { title: "Adult Contemporary", artist: "Chromeo", year: 2024 },
   { title: "Le Mohican OST", artist: "Rone", year: 2024, fr: true },
   { title: "Unshadow", artist: "Agoria", year: 2024, genre: "electro", fr: true },
-  { title: "Angine De Poitrine Vol. 1", artist: "Angine de Poitrine", year: 2024 },
+  { title: "Vol. 1", artist: "Angine de Poitrine", year: 2024, listened: true, genre: "rock", stars: 1 },
+  { title: "some ep", artist: "Deadmau5", year: 2024, ep: true, genre: "electro" },
+  { title: "L'angle", artist: "Détroit", year: 2024, fr: true },
+  { title: "Live at Wembley Stadium", artist: "Blur", year: 2024, live: true },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
@@ -5320,11 +5348,13 @@ const data_2020s: MusicalPiece[] = [
   { title: "Nebula", artist: "Rumpistol", year: 2025, genre: "electro" },
   { title: "Bloom [In Loving Memory]", artist: "Factor B", year: 2025, genre: "electro", listened: true },
   { title: "Live on KEXP", artist: "Angine de Poitrine", year: 2025, live: true, listened: true, genre: "rock", stars: 1, comment: '"Fabienk"', fav: true },
+  { title: "Error5", artist: "Deadmau5", year: 2025, ep: true, genre: "electro", listened: true },
 
   { title: "Tempus Ruinae", artist: "XIII Nights", year: 2026, single: true, genre: "synth", listened: true },
   { title: "Don't Call Me", artist: "Lyst, Neon Shards", year: 2026, single: true, genre: "synth", listened: true },
   { title: "Devotion", artist: "Skinny Hightower", year: 2026, single: true, listened: true, genre: "funk", stars: 1 },
   { title: "Kiss the Beast", artist: "Sébastien Tellier", year: 2026, fr: true, listened: true, genre: "pop" },
+  { title: "Love Is Not Enough", artist: "Converge", year: 2026, genre: "metal", listened: true },
   { title: "This Dirt Loves Me More Than You!", artist: "MonoNeon", year: 2026 },
   { title: "To Whom This May Concern", artist: "Jill Scott", year: 2026 },
   { title: "The Mountain", artist: "Gorillaz", year: 2026 },
@@ -5333,7 +5363,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "The Boys of Dungeon Lane", artist: "Paul McCartney", year: 2026 },
   { title: "Route 96", artist: "Matteo Mancuso", year: 2026 },
   { title: "Dott", artist: "Vulfmon", year: 2026 },
-  { title: "Angine De Poitrine Vol. 2", artist: "Angine de Poitrine", year: 2026 },
+  { title: "Vol. II", artist: "Angine de Poitrine", year: 2026 },
   { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2026 },
 ];
 

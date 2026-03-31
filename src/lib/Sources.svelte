@@ -46,4 +46,5 @@
       The Wonky Angle top 100 electronic albums
     </a>
   </li>
+  <li><a href="https://rateyourmusic.com/charts/top/album/all-time/">Rate your music top albums of all time</a></li>
 </ul>
