@@ -1047,6 +1047,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Gentle Giant", artist: "Gentle Giant", year: 1970 },
   { title: "L.A. Getaway", artist: "L.A. Getaway", year: 1970, comment: 'Joel Scott Hill' },
   { title: "Back in the USA", artist: "MC5", year: 1970, perso: true, comment: `"Shakin' Street"` },
+  { title: "The Aristocats OST", artist: "George Bruns, Various Artists", year: 1970, comment: `"Ev'rybody Wants to Be a Cat"` },
 
   { title: "Led Zeppelin IV", artist: "Led Zeppelin", year: 1971, perso: true, genre: "hard-rock", listened: true, stars: 4, fav: true, comment: '"Black Dog", "Rock and Roll", "The Battle of Evermore", "Stairway to Heaven", "Going to California", "When the Levee Breaks"' },
   { title: "Energy", artist: "Jeremy Steig", year: 1971, genre: "fusion" },
@@ -2281,6 +2282,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Mr. Bad Guy", artist: "Freddie Mercury", year: 1985, listened: true, genre: "disco" },
   { title: "The African Flower", artist: "James Newton", year: 1985, genre: "jazz", listened: true },
   { title: "Cock Robin", artist: "Cock Robin", year: 1985, comment: '"The Promise You Made"' },
+  { title: "Around the World in a Day", artist: "Prince and the Revolution", year: 1985, comment: '"Raspberry Beret"' },
 
   { title: "Master Of Puppets", artist: "Metallica", year: 1986, listened: true, fav: true, stars: 2, genre: "metal", comment: '"Battery", "Welcome Home (Sanitarium)"' },
   { title: "Song X", artist: "Pat Metheny and Ornette Coleman", year: 1986, genre: "jazz" },
@@ -3005,6 +3007,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Get Funky Get Down (Daft Punk Remix)", artist: "The Micronauts, Daft Punk", year: 1995, fr: true, genre: "electro", single: true, listened: true },
   { title: "Symbolic", artist: "Death", year: 1995, genre: "metal" },
   { title: "Here Comes the Hotstepper", artist: "Ini Kamoze", year: 1995, genre: "reggae" },
+  { title: "Renegade Master", artist: "Wildchild", year: 1995, genre: "electro", single: true },
 
   { title: "Travelling Without Moving", artist: "Jamiroquai", year: 1996, perso: true, listened: true, genre: "funk", stars: 4, fav: true, comment: '"Virtual Insanity", "Cosmic Girl", "Use the Force", "Everyday", "Alright", "High Times"' },
   { title: "Below the Bassline", artist: "Ernest Ranglin", year: 1996, genre: "jazz" },
@@ -3705,6 +3708,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "That Horse Must Be Starving", artist: "Avril", year: 2002, genre: "electro", fr: true },
   { title: "Soulshine", artist: "DJ Cam", year: 2002, genre: "electro", fr: true },
   { title: "(The Story of) Espion", artist: "DJ Mehdi", year: 2002, genre: "electro", fr: true },
+  { title: "Furious Angels", artist: "Rob Dougan", year: 2002, genre: "electro", comment: '"Clubbed to Death"' },
 
   { title: "De-Loused in the Comatorium", artist: "The Mars Volta", year: 2003, listened: true, genre: "rock", comment: '"Roulette Dares (The Haunt Of)"' },
   { title: "Qui de nous deux ?", artist: "-M-", year: 2003, listened: true, genre: "pop", fr: true, stars: 2, fav: true },
@@ -4240,7 +4244,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Love 2", artist: "Air", year: 2009, fr: true, comment: '"Love"', perso: true, listened: true, genre: "pop", stars: 1, fav: true },
   { title: "Live from Madison Square Garden", artist: "Eric Clapton, Steve Winwood", year: 2009, live: true },
   { title: "Man on the Moon: The End of the Day", artist: "Kid Cudi", year: 2009 },
-  { title: "Merriweather Post Pavillion", artist: "Animal Collective", year: 2009, listened: true, genre: "pop", meh: true },
+  { title: "Merriweather Post Pavillion", artist: "Animal Collective", year: 2009, listened: true, genre: "pop", meh: true, comment: '"My Girls"' },
   { title: "xx", artist: "The xx", year: 2009, listened: true, genre: "pop" },
   { title: "Liebe ist für alle da", artist: "Rammstein", year: 2009, listened: true, genre: "metal", stars: 1 },
   { title: "Two Dancers", artist: "Wild Beasts", year: 2009 },
@@ -5373,6 +5377,8 @@ const data_2020s: MusicalPiece[] = [
   { title: "Kiss the Beast", artist: "Sébastien Tellier", year: 2026, fr: true, listened: true, genre: "pop" },
   { title: "Love Is Not Enough", artist: "Converge", year: 2026, genre: "metal", listened: true },
   { title: "Kai Dao / Call to the Void", artist: "Gogo Penguin", year: 2026, genre: "jazz", listened: true, single: true },
+  { title: "USB002, Alexandra Palace, London 27 February 2026", artist: "Fred Again... & Thomas Bangalter", year: 2026, genre: "electro", listened: true, live: true, stars: 1 },
+  { title: "Vol. II", artist: "Angine de Poitrine", year: 2026, listened: true, genre: "rock", stars: 1 },
   { title: "This Dirt Loves Me More Than You!", artist: "MonoNeon", year: 2026 },
   { title: "To Whom This May Concern", artist: "Jill Scott", year: 2026 },
   { title: "The Mountain", artist: "Gorillaz", year: 2026 },
@@ -5381,7 +5387,6 @@ const data_2020s: MusicalPiece[] = [
   { title: "The Boys of Dungeon Lane", artist: "Paul McCartney", year: 2026 },
   { title: "Route 96", artist: "Matteo Mancuso", year: 2026 },
   { title: "Dott", artist: "Vulfmon", year: 2026 },
-  { title: "Vol. II", artist: "Angine de Poitrine", year: 2026 },
   { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2026 },
 ];
 
