@@ -2,7 +2,7 @@
   import Sources from "./lib/Sources.svelte";
   import Todo from "./lib/Todo.svelte";
   import NumberOfMusicalPieces from "./lib/NumberOfMusicalPieces.svelte";
-  import RandomMusicalPiece from "./lib/RandomMusicalPiece.svelte";
+  import RandomMusicalPieces from "./lib/RandomMusicalPieces.svelte";
   import Filters from "./lib/filters/Filters.svelte";
   import NumberOfMusicalPiecesByDecade from "./lib/NumberOfMusicalPiecesByDecade.svelte";
   import Table from "./lib/Table.svelte";
@@ -16,7 +16,7 @@
 
 <main>
   <NumberOfMusicalPieces />
-  <RandomMusicalPiece />
+  <RandomMusicalPieces />
   <p></p>
   <Filters />
   <p></p>
