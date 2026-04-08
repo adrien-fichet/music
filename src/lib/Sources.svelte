@@ -47,4 +47,5 @@
     </a>
   </li>
   <li><a href="https://rateyourmusic.com/charts/top/album/all-time/">Rate your music top albums of all time</a></li>
+  <li>Rone "100 Favourites" playlist</li>
 </ul>
