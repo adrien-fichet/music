@@ -292,7 +292,7 @@ const data_1940s: MusicalPiece[] = [
 
   { title: "Birth of the Cool", artist: "Miles Davis", year: 1949, genre: "jazz", comment: 'Compilation released in 1957, recorded between 1949 and 1950' },
   { title: "Djangology", artist: "Django Reinhardt", year: 1949, genre: "jazz", comment: 'Compilation released in 1961, recorded in 1949' },
-  { title: "Symphonie pour un homme seul", artist: "Pierre Schaeffer, Pierre Henry", year: 1949, fr: true },
+  { title: "Symphonie pour un homme seul", artist: "Pierre Schaeffer, Pierre Henry", year: 1949, fr: true, listened: true, genre: "classical", comment: 'musique concrète' },
 ];
 
 const data_1950s: MusicalPiece[] = [
@@ -793,6 +793,7 @@ const data_1960s: MusicalPiece[] = [
   { title: "As Long As I've Got You", artist: "The Charmels", year: 1967, single: true },
   { title: "We Love You / Dandelion", artist: "The Rolling Stones", year: 1967, single: true },
   { title: "Hole in My Shoe / Smiling Phases", artist: "Traffic", year: 1967, single: true },
+  { title: "Les Jerks électroniques de la Messe pour le temps présent et musiques concrètes pour Maurice Béjart", artist: "Pierre Henry, Michel Colombier", year: 1967, fr: true },
 
   { title: "Lady Soul", artist: "Aretha Franklin", year: 1968, listened: true, stars: 1, genre: "soul", comment: '"Chain of Fools", "Groovin", "(You Make Me Feel Like) A Natural Woman"' },
   { title: "New York Is Now!", artist: "Ornette Coleman", year: 1968, genre: "jazz" },
@@ -948,7 +949,7 @@ const data_1960s: MusicalPiece[] = [
   { title: "Happy Trails", artist: "Quicksilver Messenger Service", year: 1969, live: true },
   { title: "Elephant Mountain", artist: "The Youngbloods", year: 1969 },
   { title: "Songs From A Room", artist: "Leonard Cohen", year: 1969 },
-  { title: "Chicago Transit Authority", artist: "Chicago", year: 1969 },
+  { title: "Chicago Transit Authority", artist: "Chicago Transit Authority", year: 1969, listened: true, genre: "rock", comment: `drums/bongo/bass/guitar samples, "I'm a Man", "Listen"`, stars: 1, fav: true },
   { title: "Happy Sad", artist: "Tim Buckley", year: 1969, listened: true, genre: "folk", meh: true },
   { title: "Unhalfbricking", artist: "Fairport Convention", year: 1969, listened: true, genre: "folk", comment: `"Who Knows Where the Time Goes?", "Percy's Song"`, stars: 1 },
   { title: "Scott 4", artist: "Scott Walker", year: 1969, listened: true, genre: "folk" },
@@ -1714,7 +1715,6 @@ const data_1970s: MusicalPiece[] = [
   { title: "Born to Be Alive", artist: "Patrick Hernandez", year: 1978, fr: true, listened: true, genre: "disco", stars: 1, single: true },
   { title: "Chase", artist: "Giorgio Moroder", year: 1978, listened: true, genre: "synth", single: true, comment: 'Midnight Express OST' },
   { title: "Cosmic Messenger", artist: "Jean-Luc Ponty", year: 1978, listened: true, genre: "fusion", fr: true, comment: "Electric violin" },
-  { title: "Dschinghis Khan", artist: "Dschinghis Khan", year: 1978, comment: '"Moskau"' },
   { title: "But Seriously, Folks...", artist: "Joe Walsh", year: 1978, listened: true, genre: "rock", stars: 1, comment: `"Life's Been Good"` },
   { title: "Macho Man", artist: "Village People", year: 1978 },
   { title: "Cruisin'", artist: "Village People", year: 1978, comment: '"Y.M.C.A."' },
@@ -1856,6 +1856,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Lovehunter", artist: "Whitesnake", year: 1979, comment: 'Jon Lord on keyboards' },
   { title: "Breakfast in America", artist: "Supertramp", year: 1979 },
   { title: "Dream Baby Dream", artist: "Suicide", year: 1979, single: true },
+  { title: "Moskau", artist: "Dschinghis Khan", year: 1979, genre: "meme", listened: true },
 ];
 
 const data_1980s: MusicalPiece[] = [
@@ -2238,6 +2239,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Legend", artist: "Bob Marley and the Wailers", year: 1984, genre: "reggae" },
   { title: "Zoolook", artist: "Jean-Michel Jarre", year: 1984, genre: "synth", fr: true },
   { title: "My War", artist: "Black Flag", year: 1984 },
+  { title: "It's Yours", artist: "T La Rock", year: 1984, single: true },
 
   { title: "Freaky Styley", artist: "Red Hot Chili Peppers", year: 1985, listened: true, genre: "funk", stars: 1, fav: true },
   { title: "Hounds of Love", artist: "Kate Bush", year: 1985, comment: '"Running Up That Hill"' },
@@ -2866,6 +2868,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Positivity", artist: "Incognito", year: 1993 },
   { title: "Souvlaki", artist: "Slowdive", year: 1993 },
   { title: "On", artist: "Aphex Twin", year: 1993, ep: true, genre: "electro" },
+  { title: "Return of the Boom Bap", artist: "KRS-One", year: 1993 },
 
   { title: "The Return of the Space Cowboy", artist: "Jamiroquai", year: 1994, listened: true, genre: "funk", stars: 3, fav: true, perso: true, comment: '"Manifest Destiny", "Mr Moon", "Scam"' },
   { title: "The Suitcase - Live in Köln '94", artist: "Steve Kahn", year: 1994, genre: "fusion", live: true },
@@ -3030,6 +3033,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Here Comes the Hotstepper", artist: "Ini Kamoze", year: 1995, genre: "reggae" },
   { title: "Renegade Master", artist: "Wildchild", year: 1995, genre: "electro", single: true },
   { title: "Relish", artist: "Joan Osborne", year: 1995, comment: '"One Of Us"' },
+  { title: "DJ-KiCKS: C.J. Bolland", artist: "Various Artists", year: 1995 },
 
   { title: "Travelling Without Moving", artist: "Jamiroquai", year: 1996, perso: true, listened: true, genre: "funk", stars: 4, fav: true, comment: '"Virtual Insanity", "Cosmic Girl", "Use the Force", "Everyday", "Alright", "High Times"' },
   { title: "Below the Bassline", artist: "Ernest Ranglin", year: 1996, genre: "jazz" },
@@ -3119,6 +3123,9 @@ const data_1990s: MusicalPiece[] = [
   { title: "Soundtracks for the Blind", artist: "Swans", year: 1996 },
   { title: "We See the Same Sun", artist: "Mr. President", year: 1996, comment: '"Coco Jamboo"' },
   { title: "Rue des cascades", artist: "Yann Tiersen", year: 1996, fr: true },
+  { title: "DJ-KiCKS: Carl Craig", artist: "Various Artists", year: 1996 },
+  { title: "DJ-KiCKS: Claude Young", artist: "Various Artists", year: 1996 },
+  { title: "DJ-KiCKS: Stacey Pullen", artist: "Various Artists", year: 1996 },
 
   { title: "The Desmond Project", artist: "The John Basile Quartet", year: 1997, genre: "jazz" },
   { title: "Beyond the Missouri Sky (Short Stories)", artist: "Pat Metheny and Charlie Haden", year: 1997, genre: "jazz" },
@@ -3203,7 +3210,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Come on Over", artist: "Shania Twain", year: 1997, listened: true, stars: 1, genre: "pop", comment: `"That Don't Impress Me Much"` },
   { title: "Dig Me Out", artist: "Sleater-Kinney", year: 1997 },
   { title: "Angels Fall First", artist: "Nightwish", year: 1997 },
-  { title: "Buena Vista Social Club", artist: "Buena Vista Social Club", year: 1997, listened: true, genre: "world", fav: true, stars: 1, comment: "Son Cubano" },
+  { title: "Buena Vista Social Club", artist: "Buena Vista Social Club", year: 1997, listened: true, genre: "world", fav: true, stars: 1, comment: 'Son Cubano' },
   { title: "White On Blonde", artist: "Texas", year: 1997, listened: true, genre: "pop", fav: true, stars: 1, comment: '"Say What You Want", "Halo", "Black Eyed Boy"' },
   { title: "Everybody (Backstreet's Back)", artist: "Backstreet Boys", year: 1997, listened: true, genre: "meme", stars: 1, comment: 'moymoypalaboy/anime lipsync [YT]' },
   { title: "Thubthumper", artist: "Chumbawamba", year: 1997, comment: '"Tubthumping" (I get knocked down, but I get up again)' },
@@ -3215,7 +3222,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Dancing Galaxy", artist: "Astral Projection", year: 1997, genre: "electro" },
   { title: "M-Series", artist: "Maurizio", year: 1997 },
   { title: "Blue Funk Files", artist: "DJ Sneak", year: 1997, genre: "electro" },
-  { title: "Come to Daddy", artist: "Aphex Twin", year: 1997, ep: true, genre: "electro", listened: true },
+  { title: "Come to Daddy", artist: "Aphex Twin", year: 1997, ep: true, genre: "electro", listened: true, comment: '"Flim"' },
   { title: "Substrata", artist: "Biosphere", year: 1997, genre: "electro" },
   { title: "Hard Normal Daddy", artist: "Squarepusher", year: 1997, genre: "electro" },
   { title: "Not For Threes", artist: "Plaid", year: 1997, genre: "electro" },
@@ -3229,6 +3236,9 @@ const data_1990s: MusicalPiece[] = [
   { title: "Alive 1997", artist: "Daft Punk", year: 1997, genre: "electro", fr: true, live: true, comment: 'released in 2001' },
   { title: "Premiers symptômes", artist: "Air", year: 1997, fr: true, ep: true },
   { title: "Circlesongs", artist: "Bobby McFerrin", year: 1997 },
+  { title: "DJ-KiCKS: Nicolette", artist: "Various Artists", year: 1997 },
+  { title: "DJ-KiCKS: Rockers Hi-Fi (The Black Album)", artist: "Various Artists", year: 1997 },
+  { title: "DJ-KiCKS: DJ Cam", artist: "Various Artists", year: 1997, fr: true },
 
   { title: "Symphony of Enchanted Lands", artist: "Rhapsody", year: 1998, fav: true, perso: true, listened: true, stars: 1, genre: "metal", comment: 'CD passé par Antoine au collège avec Cannibal Corpse et Children of Bodom, "Emerald Sword"' },
   { title: "System Of A Down", artist: "System Of A Down", year: 1998, listened: true, genre: "metal", stars: 2, fav: true },
@@ -3330,6 +3340,9 @@ const data_1990s: MusicalPiece[] = [
   { title: "Synthèse", artist: "Pépé Bradock", year: 1998, genre: "electro", fr: true },
   { title: "Synthetic", artist: "Laurent Hô", year: 1998, genre: "electro", fr: true },
   { title: "The Beat Assasinated", artist: "DJ Cam", year: 1998, genre: "electro", fr: true },
+  { title: "DJ-KiCKS: Terranova", artist: "Various Artists", year: 1998 },
+  { title: "DJ-KiCKS: Smith & Mighty", artist: "Various Artists", year: 1998 },
+  { title: "DJ-KiCKS: Andrea Parker", artist: "Various Artists", year: 1998 },
 
   { title: "Synkronized", artist: "Jamiroquai", year: 1999, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Canned Heat", "Black Capicorn Day", "Soul Education", "Supersonic", "King For A Day", "Deeper Underground"' },
   { title: "We Are! (ウィーアー！)", artist: "Hiroshi Kitadani", year: 1999, listened: true, genre: "pop", comment: "Opening 1 of One Piece", stars: 1, fav: true },
@@ -3444,6 +3457,9 @@ const data_1990s: MusicalPiece[] = [
   { title: "Beaucoup Fish", artist: "Underworld", year: 1999 },
   { title: "Nurture - Surgeon Mix", artist: "LFO, Surgeon", year: 1999, single: true },
   { title: "Budakhan Mindphone", artist: "Squarepusher", year: 1999 },
+  { title: "DJ-KiCKS: Kemistry & Storm", artist: "Various Artists", year: 1999 },
+  { title: "DJ-KiCKS: Thievery Corporation", artist: "Various Artists", year: 1999 },
+  { title: "DJ-KiCKS: Kid Loco", artist: "Various Artists", year: 1999 },
 ];
 
 const data_2000s: MusicalPiece[] = [
@@ -3551,6 +3567,8 @@ const data_2000s: MusicalPiece[] = [
   { title: "One Two Three (No Gravity)", artist: "Closer Musik", year: 2000, single: true },
   { title: "vingt a trente mille jours", artist: "Françoiz Breut", year: 2000, fr: true },
   { title: "In A Beautiful Place Out In The Country", artist: "Boards of Canada", year: 2000, ep: true },
+  { title: "DJ-KiCKS: Stereo MCs", artist: "Various Artists", year: 2000 },
+  { title: "DJ-KiCKS: Nightmares on Wax", artist: "Various Artists", year: 2000 },
 
   { title: "A Funk Odyssey", artist: "Jamiroquai", year: 2001, listened: true, genre: "funk", fav: true, stars: 3 },
   { title: "In Search of...", artist: "N.E.R.D.", year: 2001 },
@@ -3646,6 +3664,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Le Surboomer", artist: "Grand Tourism", year: 2001, genre: "electro", fr: true },
   { title: "Les enfants du Bled", artist: "Soha, Africanism", year: 2001, genre: "electro", fr: true, single: true },
   { title: "The Glow Pt. 2", artist: "The Microphones", year: 2001 },
+  { title: "DJ-KiCKS: Trüby Trio", artist: "Various Artists", year: 2001 },
 
   { title: "Purple Onion", artist: "Colonel Les Claypool's Fearless Flying Frog Brigade", year: 2002 },
   { title: "Trio Sud", artist: "Sylvain Luc", year: 2002, fr: true, genre: "jazz" },
@@ -3740,6 +3759,10 @@ const data_2000s: MusicalPiece[] = [
   { title: "(The Story of) Espion", artist: "DJ Mehdi", year: 2002, genre: "electro", fr: true },
   { title: "Furious Angels", artist: "Rob Dougan", year: 2002, genre: "electro", comment: '"Clubbed to Death"' },
   { title: "Iron City", artist: "Lusine", year: 2002 },
+  { title: "The Headphone Masterpiece", artist: "Cody Chesnutt", year: 2002 },
+  { title: "DJ-KiCKS: Vikter Duplaix", artist: "Various Artists", year: 2002 },
+  { title: "DJ-KiCKS: Playgroup", artist: "Various Artists", year: 2002 },
+  { title: "DJ-KiCKS: Tiga", artist: "Various Artists", year: 2002 },
 
   { title: "De-Loused in the Comatorium", artist: "The Mars Volta", year: 2003, listened: true, genre: "rock", comment: '"Roulette Dares (The Haunt Of)"' },
   { title: "Qui de nous deux ?", artist: "-M-", year: 2003, listened: true, genre: "pop", fr: true, stars: 2, fav: true },
@@ -3820,6 +3843,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Velocity : Design : Comfort", artist: "Sweet Trip", year: 2003 },
   { title: "Keep On Your Mean Side", artist: "The Kills", year: 2003, listened: true, genre: "rock", comment: '"Fried My Little Brains", "Monkey 23"' },
   { title: "The Cold Nose", artist: "Department of Eagles", year: 2003 },
+  { title: "DJ-KiCKS: Chicken Lips", artist: "Various Artists", year: 2003 },
 
   { title: "Symphony of Enchanted Lands II (The Dark Secret)", artist: "Rhapsody of Fire", year: 2004, listened: true, perso: true, genre: "metal", stars: 1, comment: '"Unholy Warcry"' },
   { title: "Bill's Break", artist: "Krazy Baldhead", year: 2004, ep: true, fr: true, genre: "electro" },
@@ -3909,6 +3933,8 @@ const data_2000s: MusicalPiece[] = [
   { title: "Rubicon", artist: "Alan Braxe, Fred Falke", year: 2004, fr: true, genre: "electro", single: true },
   { title: "Super Discount 2", artist: "Etienne de Crécy", year: 2004, fr: true, genre: "electro" },
   { title: "The Graffiti Artist", artist: "Kid Loco", year: 2004, genre: "electro", fr: true },
+  { title: "DJ-KiCKS: Erlend Øye", artist: "Various Artists", year: 2004 },
+  { title: "DJ-KiCKS: Daddy G", artist: "Various Artists", year: 2004 },
 
   { title: "Dynamite", artist: "Jamiroquai", year: 2005, listened: true, fav: true, stars: 2, genre: "funk" },
   { title: "Mezmerize", artist: "System Of A Down", year: 2005, perso: true, listened: true, genre: "metal", fav: true, stars: 2 },
@@ -3998,6 +4024,8 @@ const data_2000s: MusicalPiece[] = [
   { title: "Staring Into Space", artist: "Silicone Soul", year: 2005, genre: "electro", fr: true },
   { title: "The Cloud Making Machine", artist: "Laurent Garnier", year: 2005, genre: "electro", fr: true },
   { title: "Get Scraped", artist: "Deadmau5", year: 2005, genre: "electro" },
+  { title: "DJ-KiCKS: The Glimmers", artist: "Various Artists", year: 2005 },
+  { title: "DJ-KiCKS: Annie", artist: "Various Artists", year: 2005 },
 
   { title: "Back to Black", artist: "Amy Winehouse", year: 2006, listened: true, stars: 1, genre: "soul" },
   { title: "Displaced", artist: "Neil Cowley Trio", year: 2006 },
@@ -4075,6 +4103,9 @@ const data_2000s: MusicalPiece[] = [
   { title: "The Green Armchair", artist: "Agoria", year: 2006, genre: "electro", fr: true, comment: '"Les Violons Ivres"' },
   { title: "Vexillology", artist: "Deadmau5", year: 2006, genre: "electro" },
   { title: "This is the Hook", artist: "BSOD", year: 2006, genre: "electro", ep: true },
+  { title: "DJ-KiCKS: The Exclusives", artist: "Various Artists", year: 2006 },
+  { title: "DJ-KiCKS: Four Tet", artist: "Various Artists", year: 2006 },
+  { title: "DJ-KiCKS: Henrik Schwarz", artist: "Various Artists", year: 2006 },
 
   { title: "Favourite Worst Nightmare", artist: "Arctic Monkeys", year: 2007, listened: true, genre: "rock", fav: true, stars: 3, comment: '"Brianstorm", "Teddy Picker", "Fluorescent Adolescent"' },
   { title: "Era Vulgaris", artist: "Queens of the Stone Age", year: 2007, listened: true, genre: "hard-rock", stars: 1, fav: true, perso: true },
@@ -4157,6 +4188,8 @@ const data_2000s: MusicalPiece[] = [
   { title: "Traces (Music for Films and Documentaries)", artist: "Michel Banabila", year: 2007 },
   { title: "Melody Day (Four Tet Remix)", artist: "Caribou, Four Tet", year: 2007, single: true, listened: true, genre: "folk" },
   { title: "This Fool Can Die Now", artist: "Scout Niblett", year: 2007 },
+  { title: "DJ-KiCKS: Hot Chip", artist: "Various Artists", year: 2007 },
+  { title: "DJ-KiCKS: Booka Shade", artist: "Various Artists", year: 2007 },
 
   { title: "A Cross the Universe", artist: "Justice", year: 2008, listened: true, genre: "electro", fr: true, fav: true, stars: 2, live: true },
   { title: "Remixes / A Fine Selection of Remixes", artist: "SebastiAn", year: 2008, fr: true, genre: "electro", listened: true },
@@ -4308,6 +4341,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Cosmic Race", artist: "Château Flight", year: 2009, genre: "electro", fr: true, single: true, listened: true },
   { title: "Yes Is More", artist: "Danton Eeprom", year: 2009, genre: "electro", fr: true },
   { title: "Mécaniques remontées / Too Shy", artist: "Sweet Light", year: 2009, genre: "electro", fr: true, single: true },
+  { title: "DJ-KiCKS: Chromeo", artist: "Various Artists", year: 2009 },
 ];
 
 const data_2010s: MusicalPiece[] = [
@@ -4387,6 +4421,10 @@ const data_2010s: MusicalPiece[] = [
   { title: "A Sufi and a Killer", artist: "Gonjasufi", year: 2010 },
   { title: "Holkham Drones", artist: "Luke Abbott", year: 2010 },
   { title: "Black Noise", artist: "Pantha Du Prince", year: 2010 },
+  { title: "DJ-KiCKS: Juan Maclean", artist: "Various Artists", year: 2010 },
+  { title: "DJ-KiCKS: James Holden", artist: "Various Artists", year: 2010 },
+  { title: "DJ-KiCKS: Kode9", artist: "Various Artists", year: 2010 },
+  { title: "DJ-KiCKS: Apparat", artist: "Various Artists", year: 2010 },
 
   { title: "Mit Peck", artist: "Vulfpeck", year: 2011, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
   { title: "Pop Culture", artist: "Madeon [YT]", year: 2011, listened: true, genre: "electro", stars: 1, single: true, fav: true, fr: true },
@@ -4404,7 +4442,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Room With View", artist: "Joris Delacroix", year: 2011, fr: true, genre: "electro", comment: '"Air France"' },
   { title: "Torches", artist: "Foster the People", year: 2011, listened: true, genre: "pop", comment: '"Helena Beat", "Pumped Up Kicks", "Waste" == MGMT?' },
   { title: "Radial Nerve", artist: "The Laszlo Project", year: 2011, listened: true, genre: "jazz" },
-  { title: "No Time For Dreaming", artist: "Charles Bradley", year: 2011 },
+  { title: "No Time For Dreaming", artist: "Charles Bradley", year: 2011, genre: "soul", listened: true, comment: '"The World (Is Going Up in Flames)"', stars: 1, fav: true },
   { title: "Welcome Reality", artist: "Nero", year: 2011, listened: true, genre: "electro", comment: 'Dubstep, "Must Be the Feeling" ("Time to Move" sample)' },
   { title: "Angles", artist: "The Strokes", year: 2011, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Part IV", artist: "Fred Falke", year: 2011, fr: true, genre: "electro", listened: true, stars: 2, fav: true },
@@ -4468,6 +4506,10 @@ const data_2010s: MusicalPiece[] = [
   { title: "A I A: Alien Observer", artist: "Grouper", year: 2011 },
   { title: "Families", artist: "John Talabot", year: 2011, ep: true },
   { title: "4 Chords", artist: "Axis of Awesome", year: 2011, genre: "meme", listened: true },
+  { title: "DJ-KiCKS: Wolf + Lamb vs Soul Clap", artist: "Various Artists", year: 2011 },
+  { title: "DJ-KiCKS: Motor City Drum Ensemble", artist: "Various Artists", year: 2011 },
+  { title: "DJ-KiCKS: Scuba", artist: "Various Artists", year: 2011 },
+  { title: "DJ-KiCKS: Gold Panda", artist: "Various Artists", year: 2011 },
 
   { title: "Vollmilch", artist: "Vulfpeck", year: 2012, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
   { title: "PANIC", artist: "Caravan Palace", year: 2012, fr: true },
@@ -4552,6 +4594,10 @@ const data_2010s: MusicalPiece[] = [
   { title: "Timeless", artist: "Laurent Garnier", year: 2012, fr: true, genre: "electro", ep: true, comment: '"Jacques in the Box"' },
   { title: "Les Plus Beaux / Ready To Dive", artist: "Frànçois & The Atlas Mountains", year: 2012, single: true },
   { title: "Vers les lueurs", artist: "Dominique A", year: 2012, fr: true },
+  { title: "DJ-KiCKS: The Exclusives Vol. II", artist: "Various Artists", year: 2012 },
+  { title: "DJ-KiCKS: Photek", artist: "Various Artists", year: 2012 },
+  { title: "DJ-KiCKS: Maya Jane Coles", artist: "Various Artists", year: 2012 },
+  { title: "DJ-KiCKS: Hercules and Love Affair", artist: "Various Artists", year: 2012 },
 
   { title: "My First Car", artist: "Vulpeck", year: 2013, listened: true, genre: "funk", fav: true, stars: 1, ep: true, comment: '"The Speedwalker"' },
   { title: "Level Five Stage One", artist: "The Laszlo Project", year: 2013, listened: true, genre: "synth" },
@@ -4644,6 +4690,9 @@ const data_2010s: MusicalPiece[] = [
   { title: "Trouble Will Find Me", artist: "The National", year: 2013 },
   { title: "Reflektor", artist: "Arcade Fire", year: 2013 },
   { title: "The Inheritors", artist: "James Holden", year: 2013 },
+  { title: "DJ-KiCKS: Maceo Plex", artist: "Various Artists", year: 2013 },
+  { title: "DJ-KiCKS: John Talabot", artist: "Various Artists", year: 2013 },
+  { title: "DJ-KiCKS: Breach", artist: "Various Artists", year: 2013 },
 
   { title: "Fugue State", artist: "Vulpeck", year: 2014, ep: true, listened: true, genre: "funk", stars: 3, fav: true, comment: '"1612"' },
   { title: "Corazón", artist: "Santana", year: 2014, comment: 'Latin rock, "Iron Lion Zion"', listened: true, genre: "rock" },
@@ -4720,6 +4769,8 @@ const data_2010s: MusicalPiece[] = [
   { title: "Ctrl 3", artist: "Ingler, Liza'n.Eliaz", year: 2014, genre: "electro", single: true, fr: true, listened: true, meh: true },
   { title: "While(1<2)", artist: "Deadmau5", year: 2014, genre: "electro" },
   { title: "Divide and Exit", artist: "Sleaford Mods", year: 2014 },
+  { title: "DJ-KiCKS: Brandt Brauer Frick", artist: "Various Artists", year: 2014 },
+  { title: "DJ-KiCKS: Will Saul", artist: "Various Artists", year: 2014 },
 
   { title: "To Pimp a Butterfly", artist: "Kendrick Lamar", year: 2015, comment: '"King Kunta" w/ Thundercat on bass, "Alright", "i"', genre: "rap", listened: true, stars: 2, fav: true },
   { title: "Carrie & Lowell", artist: "Sufjan Stevens", year: 2015, genre: "folk", listened: true, stars: 2, fav: true, comment: '"Should Have Known Better"' },
@@ -4796,6 +4847,10 @@ const data_2010s: MusicalPiece[] = [
   { title: "Love Songs For Robots", artist: "Patrick Watson", year: 2015 },
   { title: "Éléor", artist: "Dominique A", year: 2015, fr: true },
   { title: "Morning/Evening", artist: "Four Tet", year: 2015, fr: true },
+  { title: "DJ-KiCKS: Nina Kraviz", artist: "Various Artists", year: 2015 },
+  { title: "DJ-KiCKS: Actress", artist: "Various Artists", year: 2015 },
+  { title: "DJ-KiCKS: DJ Koze", artist: "Various Artists", year: 2015 },
+  { title: "DJ-KiCKS: Seth Troxler", artist: "Various Artists", year: 2015 },
 
   { title: "The Beautiful Game", artist: "Vulfpeck", year: 2016, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Dean Town", "Cory Wong"' },
   { title: "Points of Interest", artist: "glue70", year: 2016, listened: true, genre: "electro", stars: 1, fav: true, comment: '"Casin", gotta love side chain compression' },
@@ -4868,6 +4923,11 @@ const data_2010s: MusicalPiece[] = [
   { title: "Sad Alron", artist: "Mark Pritchard", year: 2016, single: true },
   { title: "EARS", artist: "Kaitlyn Aurelia Smith", year: 2016 },
   { title: "A New Sound of an Old Instrument", artist: "Moondog", year: 2016 },
+  { title: "DJ-KiCKS: Moodymann", artist: "Various Artists", year: 2016 },
+  { title: "DJ-KiCKS: Dâm-Funk", artist: "Various Artists", year: 2016 },
+  { title: "DJ-KiCKS: Jackmaster", artist: "Various Artists", year: 2016 },
+  { title: "DJ-KiCKS: Marcel Dettmann", artist: "Various Artists", year: 2016 },
+  { title: "DJ-KiCKS: Daniel Avery", artist: "Various Artists", year: 2016 },
 
   { title: "Mr. Finish Line", artist: "Vulfpeck", year: 2017, listened: false, genre: "funk" },
   { title: "Stup Virus", artist: "Stupeflip", year: 2017, fr: true, genre: "rap", listened: true, comment: "campagne Ulule" },
@@ -4933,6 +4993,13 @@ const data_2010s: MusicalPiece[] = [
   { title: "Domino", artist: "Oxia", year: 2017, fr: true, genre: "electro", single: true, listened: true },
   { title: "The Point G Experience", artist: "point G", year: 2017, fr: true, genre: "electro" },
   { title: "Misericordia", artist: "W.LV.S", year: 2017, fr: true, genre: "electro", single: true, listened: true },
+  { title: "Saw You For the First Time", artist: "Laurence Guy", year: 2017, genre: "electro" },
+  { title: "DJ-KiCKS: Matthew Dear", artist: "Various Artists", year: 2017 },
+  { title: "DJ-KiCKS: Michael Mayer", artist: "Various Artists", year: 2017 },
+  { title: "DJ-KiCKS: The Exclusives Vol. III", artist: "Various Artists", year: 2017 },
+  { title: "DJ-KiCKS: DJ Tennis", artist: "Various Artists", year: 2017 },
+  { title: "DJ-KiCKS: Lone", artist: "Various Artists", year: 2017 },
+  { title: "DJ-KiCKS: Kerri Chandler", artist: "Various Artists", year: 2017 },
 
   { title: "Hill Climber", artist: "Vulfpeck", year: 2018, genre: "funk", listened: true, fav: true, stars: 2, comment: '"Darwin Derby", "It Gets Funkier IV", "Lost My Treble Long Ago"' },
   { title: "10th Anniversary Bad Apple!! feat.nomico PHASE3", artist: "Alstroemeria Records", year: 2018, perso: true, listened: true, genre: "metal" },
@@ -4993,6 +5060,11 @@ const data_2010s: MusicalPiece[] = [
   { title: "Circle", artist: "Roman Poncet", year: 2018, fr: true, genre: "electro", single: true, listened: true },
   { title: "Garden of Love", artist: "Scratch Massive", year: 2018, fr: true, genre: "electro" },
   { title: "2012-2017", artist: "Against All Logic", year: 2018, genre: "electro" },
+  { title: "DJ-KiCKS: Deetron", artist: "Various Artists", year: 2018 },
+  { title: "DJ-KiCKS: Forest Swords", artist: "Various Artists", year: 2018 },
+  { title: "DJ-KiCKS: DJ Seinfeld", artist: "Various Artists", year: 2018 },
+  { title: "DJ-KiCKS: Mount Kimbie", artist: "Various Artists", year: 2018 },
+  { title: "DJ-KiCKS: Robert Hood", artist: "Various Artists", year: 2018 },
 
   { title: "The Fearless Flyers II", artist: "The Fearless Flyers", year: 2019, listened: true, genre: "funk", ep: true, stars: 1 },
   { title: "Chronologic", artist: "Caravan Palace", year: 2019, fr: true },
@@ -5060,6 +5132,10 @@ const data_2010s: MusicalPiece[] = [
   { title: "ROADS - Vol. 1", artist: "Thylacine", year: 2019, genre: "electro", fr: true },
   { title: "IGOR", artist: "Tyler, the Creator", year: 2019 },
   { title: "Giscard d'Estaing", artist: "Dombrance", year: 2019, fr: true, genre: "electro", single: true, listened: true },
+  { title: "DJ-KiCKS: Leon Vynehall", artist: "Various Artists", year: 2019 },
+  { title: "DJ-KiCKS: Laurel Halo", artist: "Various Artists", year: 2019 },
+  { title: "DJ-KiCKS: Peggy Gou", artist: "Various Artists", year: 2019 },
+  { title: "DJ-KiCKS: Kamaal Williams", artist: "Various Artists", year: 2019 },
 ];
 
 const data_2020s: MusicalPiece[] = [
@@ -5133,6 +5209,8 @@ const data_2020s: MusicalPiece[] = [
   { title: "No Way, Get Real", artist: "BSOD", year: 2020, genre: "electro", ep: true },
   { title: "Lyon", artist: "Billy Boy", year: 2020, genre: "rap", single: true, listened: true, fr: true },
   { title: "Symphony for the Apocalypse - New Age Revolution", artist: "Mathew Jonson", year: 2020, single: true },
+  { title: "DJ-KiCKS: Mr. Scruff", artist: "Various Artists", year: 2020 },
+  { title: "DJ-KiCKS: Avalon Emerson", artist: "Various Artists", year: 2020 },
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
   { title: "Everybody's Going to the Moon", artist: "Jamiroquai", year: 2021, single: true, listened: true, genre: "funk" },
@@ -5208,6 +5286,11 @@ const data_2020s: MusicalPiece[] = [
   { title: ".dev", artist: "Agoria", year: 2021, genre: "electro", fr: true },
   { title: "Promises", artist: "Floating Points, Pharoah Sanders & The London Symphony Orchestra", year: 2021, listened: true, genre: "jazz" },
   { title: "Actual Life (April 14 - December 17 2020)", artist: "Fred Again...", year: 2021, genre: "electro", comment: `"Marea (We've Lost Dancing)"` },
+  { title: "Music For Psychedelic Therapy", artist: "Jon Hopkins", year: 2021 },
+  { title: "DJ-KiCKS: Special Request", artist: "Various Artists", year: 2021 },
+  { title: "DJ-KiCKS: Jayda G", artist: "Various Artists", year: 2021 },
+  { title: "DJ-KiCKS: Disclosure", artist: "Various Artists", year: 2021 },
+  { title: "DJ-KiCKS: Jessy Lanza", artist: "Various Artists", year: 2021 },
 
   { title: "The Fearless Flyers III", artist: "The Fearless Flyers", year: 2022, listened: true, stars: 1, genre: "funk", fav: true, ep: true },
   { title: "Return", artist: "Lydian Collective", year: 2022, listened: true, genre: "jazz", stars: 1, fav: true },
@@ -5274,6 +5357,9 @@ const data_2020s: MusicalPiece[] = [
   { title: "Fragments", artist: "Bonobo", year: 2022 },
   { title: "My Heart Has Teeth", artist: "Deadmau5, Skylar Grey", year: 2022, single: true, genre: "electro", listened: true, stars: 1 },
   { title: "L(oo)ping", artist: "Rone", year: 2022, fr: true, genre: "electro", live: true, comment: `avec l'Orchestre National de Lyon`, listened: true },
+  { title: "DJ-KiCKS: Cinthie", artist: "Various Artists", year: 2022 },
+  { title: "DJ-KiCKS: Theo Parrish", artist: "Various Artists", year: 2022 },
+  { title: "Diamond in the Desert", artist: "Sidibe", year: 2022, comment: `"Tellin' U" feat. MonoNeon` },
 
   { title: "Cracker Island", artist: "Gorillaz", year: 2023, listened: true, genre: "pop", stars: 1, fav: true },
   { title: "Mythologies", artist: "Thomas Bangalter", year: 2023, genre: "classical", listened: true, fr: true },
@@ -5326,6 +5412,10 @@ const data_2020s: MusicalPiece[] = [
   { title: "D'argent et de sang OST", artist: "Rone", year: 2023, fr: true, genre: "electro", comment: '"Power" (Tikkoun variation)', listened: true, stars: 1 },
   { title: "Aether", artist: "Virtua, Akraa", year: 2023, genre: "synth", listened: true },
   { title: "Where You Wish You Were", artist: "Bill Laurance, Michael League", year: 2023 },
+  { title: "DJ-KiCKS: Elkka", artist: "Various Artists", year: 2023 },
+  { title: "DJ-KiCKS: The Exclusives Vol. 4", artist: "Various Artists", year: 2023 },
+  { title: "DJ-KiCKS: HAAi", artist: "Various Artists", year: 2023 },
+  { title: "Madres", artist: "Sofia Kourtesis", year: 2023 },
 
   { title: "The Fearless Flyers IV", artist: "The Fearless Flyers", year: 2024, ep: true, listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Loss of Life", artist: "MGMT", year: 2024, listened: true, genre: "pop" },
@@ -5388,6 +5478,11 @@ const data_2020s: MusicalPiece[] = [
   { title: "some ep", artist: "Deadmau5", year: 2024, ep: true, genre: "electro" },
   { title: "L'angle", artist: "Détroit", year: 2024, fr: true },
   { title: "Live at Wembley Stadium", artist: "Blur", year: 2024, live: true },
+  { title: "DJ-KiCKS: DJ BORING", artist: "Various Artists", year: 2024 },
+  { title: "DJ-KiCKS: Honey Dijon", artist: "Various Artists", year: 2024 },
+  { title: "DJ-KiCKS: Steven Julien", artist: "Various Artists", year: 2024 },
+  { title: "Mother", artist: "Logic1000", year: 2024 },
+  { title: "CHIROPTERA / CHIROPTERA MATIERE PREMIERE", artist: "Thomas Bangalter", year: 2024, fr: true, genre: "electro", single: true, listened: true },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
@@ -5435,7 +5530,12 @@ const data_2020s: MusicalPiece[] = [
   { title: "Live on KEXP", artist: "Angine de Poitrine", year: 2025, live: true, listened: true, genre: "rock", stars: 1, comment: '"Fabienk"', fav: true },
   { title: "Error5", artist: "Deadmau5", year: 2025, ep: true, genre: "electro", listened: true },
   { title: "Necessary Fictions", artist: "GoGo Penguin", year: 2025, genre: "jazz" },
+  { title: "DJ-KiCKS: Logic1000", artist: "Various Artists", year: 2025 },
+  { title: "DJ-KiCKS: Quantic", artist: "Various Artists", year: 2025 },
+  { title: "DJ-KiCKS: Modeselektor", artist: "Various Artists", year: 2025 },
+  { title: "DJ-KiCKS: Eris Drew", artist: "Various Artists", year: 2025 },
   { title: "Tiny Desk Concert", artist: "Air", year: 2025, genre: "pop", listened: true, stars: 1, live: true },
+  { title: "industry plant", artist: "miki", year: 2025, genre: "pop", fr: true },
 
   { title: "Tempus Ruinae", artist: "XIII Nights", year: 2026, single: true, genre: "synth", listened: true },
   { title: "Don't Call Me", artist: "Lyst, Neon Shards", year: 2026, single: true, genre: "synth", listened: true },
@@ -5445,6 +5545,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "Kai Dao / Call to the Void", artist: "Gogo Penguin", year: 2026, genre: "jazz", listened: true, single: true },
   { title: "USB002, Alexandra Palace, London 27 February 2026", artist: "Fred Again... & Thomas Bangalter", year: 2026, genre: "electro", listened: true, live: true, stars: 1 },
   { title: "Vol. II", artist: "Angine de Poitrine", year: 2026, listened: true, genre: "rock", stars: 1 },
+  { title: "DJ-KiCKS: Sofia Kourtesis", artist: "Various Artists", year: 2026, listened: true, genre: "electro", stars: 1, comment: '"Home Station" (Jon Hopkins), "Santa Teresa" (DJ GTi)', fav: true },
   { title: "This Dirt Loves Me More Than You!", artist: "MonoNeon", year: 2026 },
   { title: "To Whom This May Concern", artist: "Jill Scott", year: 2026 },
   { title: "The Mountain", artist: "Gorillaz", year: 2026 },

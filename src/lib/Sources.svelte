@@ -3,7 +3,7 @@
   <li>Personal favorites</li>
   <li>RollingStone.com - The 500 Greatest Albums & Songs of All Time</li>
   <li>1001 Albums You Must Hear Before You Die - Robert Dimery</li>
-  <li>Reddit /r/music recommandations</li>
+  <li>/mu and /r/music recommandations</li>
   <li>Motown 1's, James Jamerson bass lines</li>
   <li>Albums on Bandcamp (virt, LAPFOX, etc.)</li>
   <li>Guardians of the Galaxy tapes</li>
@@ -48,4 +48,5 @@
   </li>
   <li><a href="https://rateyourmusic.com/charts/top/album/all-time/">Rate your music top albums of all time</a></li>
   <li>Rone "100 Favourites" playlist</li>
+  <li><a href="https://en.wikipedia.org/wiki/DJ-Kicks">DJ-KiCKS</a></li>
 </ul>
