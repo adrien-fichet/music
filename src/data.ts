@@ -664,6 +664,7 @@ const data_1960s: MusicalPiece[] = [
   { title: "Yes, I'm Ready", artist: "Barbara Mason", year: 1965, listened: true, genre: "soul" },
   { title: "Rubber Soul", artist: "The Beatles", year: 1965, listened: true, fav: true, perso: true, stars: 3, genre: "rock", comment: '"Norvegian Wood (This Bird Has Flown)", "Michelle", "In My Life"' },
   { title: "Help!", artist: "The Beatles", year: 1965, comment: `"Ticket To Ride", "Yesterday", "I've Just Seen a Face"`, listened: true, stars: 3, fav: true, genre: "rock" },
+  { title: "Maiden Voyage", artist: "Herbie Hancock", year: 1965, genre: "jazz", listened: true, comment: '"Dolphin Dance", Ron Carter/Tony Williams on bass/drums, recorded by Rudy Van Gelder', stars: 2, fav: true },
 
   { title: "At the Golden Circle, Vol. 1", artist: "Ornette Coleman Trio", year: 1966, genre: "jazz", live: true },
   { title: "Unity", artist: "Larry Young", year: 1966, genre: "jazz" },
@@ -678,7 +679,6 @@ const data_1960s: MusicalPiece[] = [
   { title: "Where Were You When I Needed You", artist: "The Grass Roots", year: 1966, listened: true, genre: "pop" },
   { title: "A' Go-Go", artist: "The Supremes", year: 1966, comment: `"You Can't Hurry Love"` },
   { title: "Speak No Evil", artist: "Wayne Shorter", year: 1966, genre: "jazz" },
-  { title: "Maiden Voyage", artist: "Herbie Hancock", year: 1966, genre: "jazz" },
   { title: "Moods of Marvin Gaye", artist: "Marvin Gaye", year: 1966, listened: true, genre: "soul" },
   { title: "Enregistrement public", artist: "Léo Ferré", year: 1966, fr: true },
   { title: "La génération perdue", artist: "Johnny Hallyday", year: 1966, fr: true },
@@ -704,7 +704,7 @@ const data_1960s: MusicalPiece[] = [
   { title: "Face To Face", artist: "The Kinks", year: 1966, listened: true, genre: "rock", fav: true, stars: 2, comment: '"Sunny Afternoon", "Dandy"' },
   { title: "Up-Tight", artist: "Stevie Wonder", year: 1966, listened: true, genre: "soul", comment: `"Uptight (Everything's Alright)"`, stars: 1 },
   { title: "Gettin' Ready", artist: "The Temptations", year: 1966, listened: true, genre: "soul", comment: '"Get Ready"' },
-  { title: "Dictionary of Soul", artist: "Otis Redding", year: 1966 },
+  { title: "Complete & Unbelievable: The Otis Redding Dictionary of Soul", artist: "Otis Redding", year: 1966, listened: true, genre: "soul" },
   { title: "Aftermath", artist: "The Rolling Stones", year: 1966, listened: true, genre: "rock", stars: 1, comment: '"Paint It Black", "Under My Thumb"' },
   { title: "Parsley, Sage, Rosemary and Thyme", artist: "Simon and Garfunkel", year: 1966, listened: true, genre: "folk", stars: 4, fav: true },
   { title: "The Psychedelic Sounds of the 13th Floor Elevators", artist: "The 13th Floor Elevators", year: 1966, listened: true, genre: "rock" },
@@ -3126,6 +3126,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Carl Craig", artist: "Various Artists", year: 1996 },
   { title: "DJ-KiCKS: Claude Young", artist: "Various Artists", year: 1996 },
   { title: "DJ-KiCKS: Stacey Pullen", artist: "Various Artists", year: 1996 },
+  { title: "Repetition", artist: "Unwound", year: 1996, genre: "punk" },
 
   { title: "The Desmond Project", artist: "The John Basile Quartet", year: 1997, genre: "jazz" },
   { title: "Beyond the Missouri Sky (Short Stories)", artist: "Pat Metheny and Charlie Haden", year: 1997, genre: "jazz" },
@@ -5359,7 +5360,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "L(oo)ping", artist: "Rone", year: 2022, fr: true, genre: "electro", live: true, comment: `avec l'Orchestre National de Lyon`, listened: true },
   { title: "DJ-KiCKS: Cinthie", artist: "Various Artists", year: 2022 },
   { title: "DJ-KiCKS: Theo Parrish", artist: "Various Artists", year: 2022 },
-  { title: "Diamond in the Desert", artist: "Sidibe", year: 2022, comment: `"Tellin' U" feat. MonoNeon` },
+  { title: "Diamond in the Desert", artist: "Sidibe", year: 2022, comment: `"Tellin' U" feat. MonoNeon`, listened: true, genre: "r-n-b" },
 
   { title: "Cracker Island", artist: "Gorillaz", year: 2023, listened: true, genre: "pop", stars: 1, fav: true },
   { title: "Mythologies", artist: "Thomas Bangalter", year: 2023, genre: "classical", listened: true, fr: true },
@@ -5536,6 +5537,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Eris Drew", artist: "Various Artists", year: 2025 },
   { title: "Tiny Desk Concert", artist: "Air", year: 2025, genre: "pop", listened: true, stars: 1, live: true },
   { title: "industry plant", artist: "miki", year: 2025, genre: "pop", fr: true },
+  { title: "Cabin in the Sky", artist: "De La Soul", year: 2025, genre: "rap" },
 
   { title: "Tempus Ruinae", artist: "XIII Nights", year: 2026, single: true, genre: "synth", listened: true },
   { title: "Don't Call Me", artist: "Lyst, Neon Shards", year: 2026, single: true, genre: "synth", listened: true },
@@ -5551,9 +5553,11 @@ const data_2020s: MusicalPiece[] = [
   { title: "The Mountain", artist: "Gorillaz", year: 2026 },
   { title: "Gourou OST", artist: "Chloé", year: 2026, fr: true },
   { title: "Elipsis", artist: "Elipsis, Michael League, Pedrito Martinez, Antonio Sánchez", year: 2026 },
+  { title: "Distracted", artist: "Thundercat", year: 2026 },
   { title: "The Boys of Dungeon Lane", artist: "Paul McCartney", year: 2026 },
   { title: "Route 96", artist: "Matteo Mancuso", year: 2026 },
   { title: "Dott", artist: "Vulfmon", year: 2026 },
+  { title: "The Great Parrot-Ox and the Golden Egg of Empathy", artist: "The Claypool Lennon Delirium", year: 2026 },
   { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2026 },
 ];
 
