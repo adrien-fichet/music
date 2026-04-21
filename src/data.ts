@@ -159,7 +159,7 @@ const data_lt_1940: MusicalPiece[] = [
 
   // moderne (1ère partie du XXe siècle)
   { title: "Es war einmal", artist: "Zemlinsky", year: 1900 },
-  { title: "Concerto pour piano n° 2 en do mineur, op. 18", artist: "Rachmaninov", year: 1900 },
+  { title: "Concerto pour piano n° 2 en do mineur, op. 18", artist: "Rachmaninoff", year: 1900 },
   { title: "Pomp and Circumstance Military Marches, op. 39", artist: "Elgar", year: 1901, listened: true, genre: "classical" },
   { title: "Symphonie n° 5 en do dièse mineur", artist: "Mahler", year: 1901 },
   { title: "Gran Vals", artist: "Francisco Tàrrega", year: 1902, listened: true, genre: "classical", comment: 'Guitar (Nokia)' },
@@ -181,7 +181,8 @@ const data_lt_1940: MusicalPiece[] = [
   { title: "Les Planètes", artist: "Holst", year: 1914, listened: true, genre: "classical" },
   { title: "A London Symphony (Symphony n° 2)", artist: "Vaughan Williams", year: 1914, genre: "classical" },
   { title: "Saint Louis Blues", artist: "W. C. Handy", year: 1914, genre: "blues", standard: true, listened: true },
-  { title: "Vocalise, op. 34 n° 14", artist: "Sergei Rachmaninoff", year: 1915, listened: true, genre: "classical" },
+  { title: "Vocalise, op. 34 n° 14", artist: "Rachmaninoff", year: 1915, listened: true, genre: "classical" },
+  { title: "Études pour piano, CD 143", artist: "Debussy", year: 1915, fr: true },
   { title: "Six Danses populaires roumaines, Sz. 56, BB 68", artist: "Béla Bartók", year: 1915, genre: "classical" },
   { title: "Tapisserie en fer forgé", artist: "Satie", year: 1917, listened: true, genre: "classical", comment: 'furniture music' },
   { title: "Livery Stable Blues", artist: "Original Dixieland Jass Band", year: 1917, genre: "jazz", single: true, listened: true },
@@ -2336,6 +2337,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "White City: A Novel", artist: "Pete Townshend", year: 1985 },
   { title: "Promise", artist: "Sade", year: 1985 },
   { title: "Unis vers l'uni", artist: "Michel Jonasz", year: 1985, fr: true },
+  { title: "Études pour piano, Livre 1", artist: "Ligeti", year: 1985 },
 
   { title: "Master Of Puppets", artist: "Metallica", year: 1986, listened: true, fav: true, stars: 2, genre: "metal", comment: '"Battery", "Welcome Home (Sanitarium)"' },
   { title: "Song X", artist: "Pat Metheny and Ornette Coleman", year: 1986, genre: "jazz" },
@@ -2986,6 +2988,8 @@ const data_1990s: MusicalPiece[] = [
   { title: "The Milky Way", artist: "Aurora Borealis", year: 1994, genre: "electro", fr: true, single: true, listened: true },
   { title: "Acid Phase / This is a ... ?", artist: "Emmanuel Top", year: 1994, genre: "electro", fr: true, single: true },
   { title: "Minimal Nation", artist: "Robert Hood", year: 1994, genre: "electro", comment: '"Ride"' },
+  { title: "Etudes for Solo Piano, Book 1: n° 1-10", artist: "Philip Glass", year: 1994 },
+  { title: "Études pour piano, Livre 2", artist: "Ligeti", year: 1994 },
 
   { title: "Life", artist: "The Cardigans", year: 1995, listened: true, genre: "pop", comment: '"Carnival"', meh: true },
   { title: "Bing, Bing, Bing!", artist: "Charlie Hunter", year: 1995, genre: "jazz" },
@@ -3378,6 +3382,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Terranova", artist: "Various Artists", year: 1998 },
   { title: "DJ-KiCKS: Smith & Mighty", artist: "Various Artists", year: 1998 },
   { title: "DJ-KiCKS: Andrea Parker", artist: "Various Artists", year: 1998 },
+  { title: "The Truman Show OST", artist: "Burkhard Dallwitz, Philip Glass, Wojciech Kilar", year: 1998, comment: '"Truman Sleeps" by Philip Glass' },
 
   { title: "Synkronized", artist: "Jamiroquai", year: 1999, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Canned Heat", "Black Capicorn Day", "Soul Education", "Supersonic", "King For A Day", "Deeper Underground"' },
   { title: "We Are! (ウィーアー！)", artist: "Hiroshi Kitadani", year: 1999, listened: true, genre: "pop", comment: "Opening 1 of One Piece", stars: 1, fav: true },
@@ -3700,6 +3705,8 @@ const data_2000s: MusicalPiece[] = [
   { title: "Les enfants du Bled", artist: "Soha, Africanism", year: 2001, genre: "electro", fr: true, single: true },
   { title: "The Glow Pt. 2", artist: "The Microphones", year: 2001 },
   { title: "DJ-KiCKS: Trüby Trio", artist: "Various Artists", year: 2001 },
+  { title: "Études pour piano, Livre 3", artist: "Ligeti", year: 2001 },
+  { title: "Sept Études", artist: "Dusapin", year: 2001, fr: true },
 
   { title: "Purple Onion", artist: "Colonel Les Claypool's Fearless Flying Frog Brigade", year: 2002 },
   { title: "Trio Sud", artist: "Sylvain Luc", year: 2002, fr: true, genre: "jazz" },
@@ -4638,6 +4645,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Photek", artist: "Various Artists", year: 2012 },
   { title: "DJ-KiCKS: Maya Jane Coles", artist: "Various Artists", year: 2012 },
   { title: "DJ-KiCKS: Hercules and Love Affair", artist: "Various Artists", year: 2012 },
+  { title: "Etudes for Solo Piano, Book 2: n° 11-20", artist: "Philip Glass", year: 2012, genre: "piano", comment: '"Etude n° 20"' },
 
   { title: "My First Car", artist: "Vulpeck", year: 2013, listened: true, genre: "funk", fav: true, stars: 1, ep: true, comment: '"The Speedwalker"' },
   { title: "Level Five Stage One", artist: "The Laszlo Project", year: 2013, listened: true, genre: "synth" },
@@ -5163,7 +5171,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Ancilla Domini", artist: "Contrefaçon", year: 2019, genre: "electro", fr: true, single: true, listened: true },
   { title: "A.O.P.", artist: "Camembert Au Lait Crew", year: 2019, genre: "electro", fr: true, listened: true, meh: true },
   { title: "Love, Death & Robots OST", artist: "Various Artists", year: 2019, comment: '"OX1" (Tommy Four Seven)' },
-  { title: "Motion", artist: "Rone, Vanessa Wagner", year: 2019, ep: true, fr: true, perso: true },
+  { title: "Motion", artist: "Rone, Les Siècles Orchestra, Vanessa Wagner", year: 2019, ep: true, fr: true, perso: true, listened: true, genre: "electro", stars: 2, fav: true },
   { title: "LP5", artist: "Apparat", year: 2019 },
   { title: "Endless Cultural Turnover", artist: "Jacques, Superpoze", year: 2019, ep: true },
   { title: "Good Faith", artist: "Madeon", year: 2019, fr: true },
@@ -5525,6 +5533,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Steven Julien", artist: "Various Artists", year: 2024 },
   { title: "Mother", artist: "Logic1000", year: 2024 },
   { title: "CHIROPTERA / CHIROPTERA MATIERE PREMIERE", artist: "Thomas Bangalter", year: 2024, fr: true, genre: "electro", single: true, listened: true },
+  { title: "Luck and Strange", artist: "David Gilmour", year: 2024, comment: '"Between Two Points" (with Romany Gilmour)' },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
@@ -5602,7 +5611,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "The Great Parrot-Ox and the Golden Egg of Empathy", artist: "The Claypool Lennon Delirium", year: 2026 },
   { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2026 },
   { title: "Megaptera", artist: "Rone", year: 2026, fr: true },
-  { title: "Figures of Glass", artist: "Vanessa Wagner", year: 2026, fr: true },
+  { title: "Figures of Glass", artist: "Vanessa Wagner, Philip Glass", year: 2026, fr: true },
   { title: "Kammerkonzert", artist: "Squarepusher", year: 2026 },
 ];
 
