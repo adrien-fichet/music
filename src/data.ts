@@ -236,6 +236,7 @@ const data_lt_1940: MusicalPiece[] = [
 
   { title: "Cross Road Blues (Crossroads)", artist: "Robert Johnson", year: 1937, genre: "blues", standard: true, listened: true },
   { title: "My Funny Valentine", artist: "Richard Rodgers", year: 1937, genre: "jazz", standard: true, listened: true },
+  { title: "Variations sur un thème de Frank Bridge, op. 10", artist: "Benjamin Britten", year: 1937 },
 
   { title: "Adagio pour cordes, op. 11", artist: "Barber", year: 1938, listened: true, genre: "classical" },
   { title: "You Go to My Head", artist: "J. Fred Coots", year: 1938, listened: true, genre: "jazz", standard: true },
@@ -279,6 +280,7 @@ const data_1940s: MusicalPiece[] = [
   { title: "Stella By Starlight", artist: "Victor Young", year: 1944, genre: "jazz", standard: true, listened: true },
   { title: "The Complete Savoy Recordings", artist: "Lester Young", year: 1944, genre: "jazz", comment: 'Compilation, recorded between 1944 and 1950' },
   { title: "I'm Beginning to See the Light", artist: "Duke Ellington, Johny Hodges, Harry James, Don George", year: 1944, genre: "jazz", listened: true, standard: true },
+  { title: "Appalachian Spring", artist: "Aaron Copland", year: 1944 },
 
   { title: "Autumn Leaves", artist: "Joseph Kosma", year: 1945, genre: "jazz", listened: true, standard: true, stars: 1, fav: true },
   { title: "The Thundering Herds", artist: "Woody Herman", year: 1945, genre: "jazz", comment: 'Recorded between 1945 and 1947' },
@@ -402,6 +404,7 @@ const data_1950s: MusicalPiece[] = [
   { title: "Piccolo, Saxo et Compagnie ou la Petite Histoire d'un grand orchestre", artist: "André Popp, Jean Broussolle, François Périer", year: 1957, genre: "classical", fr: true, listened: true },
   { title: "Passeport pour Piccolo Saxo et Compagnie", artist: "André Popp, Jean Broussolle, François Périer", year: 1957, genre: "world", fr: true, listened: true },
   { title: "Ascenseur pour l'échafaud OST", artist: "Miles Davis", year: 1957 },
+  { title: "Bag's Groove", artist: "Miles Davis", year: 1957 },
 
   { title: "Piccolo Saxo et le Cirque Jolibois", artist: "André Popp, Jean Broussolle, François Périer", year: 1958, genre: "classical", fr: true, listened: true },
   { title: "Lady in Satin", artist: "Billie Holiday", year: 1958, listened: true, genre: "jazz" },
@@ -546,7 +549,7 @@ const data_1960s: MusicalPiece[] = [
   { title: "Ella and Basie!", artist: "Ella Fitzgerald, Count Basie", year: 1963, listened: true, genre: "jazz", stars: 1, comment: `"Tea for Two", "Dream a Little Dream of Me", "I'm Beginning to See the Light", arrangements by Quincy Jones` },
   { title: "Let Freedom Ring", artist: "Jackie McLean", year: 1963, genre: "jazz" },
   { title: "The Kingsmen in Person", artist: "The Kingsmen", year: 1963, comment: '"Louie Louie"' },
-  { title: "Night Train", artist: "Oscar Peterson Trio", year: 1963, genre: "jazz", comment: '"Hymn to Freedom"' },
+  { title: "Night Train", artist: "Oscar Peterson Trio", year: 1963, genre: "jazz", comment: `"Hymn to Freedom", "Bag's Groove"` },
   { title: "Yakety Sax!", artist: "Boots Randolph", year: 1963, genre: "meme", comment: 'Benny Hill', listened: true },
   { title: "Da Doo Ron Ron", artist: "The Crystals", year: 1963, single: true, listened: true, genre: "pop" },
   { title: "Live at the Apollo", artist: "James Brown", year: 1963, live: true },
@@ -3170,7 +3173,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Beyond the Missouri Sky (Short Stories)", artist: "Pat Metheny and Charlie Haden", year: 1997, genre: "jazz" },
   { title: "Tore Down House", artist: "Scott Henderson", year: 1997, genre: "fusion" },
   { title: "Either/Or", artist: "Elliott Smith", year: 1997, listened: true, genre: "folk" },
-  { title: "Stories", artist: "Woody Mann", year: 1997 },
+  { title: "Stories", artist: "Woody Mann", year: 1997, listened: true, genre: "folk", comment: 'solo voice/guitar', stars: 2, fav: true },
   { title: "Love Scenes", artist: "Diana Krall", year: 1997, genre: "jazz" },
   { title: "Tiger Walk", artist: "Robben Ford", year: 1997, genre: "blues" },
   { title: "Imaginary Day", artist: "Pat Metheny Group", year: 1997, genre: "fusion" },
@@ -3686,8 +3689,8 @@ const data_2000s: MusicalPiece[] = [
   { title: "Fires at Midnight", artist: "Blackmore's Night", year: 2001, genre: "folk", listened: true },
   { title: "Live Frogs Set 1 & 2", artist: "Colonel Les Claypool's Fearless Flying Frog Brigade", year: 2001, live: true, listened: true, genre: "rock", comment: '"Shine On You Crazy Diamond" + "Animals" covers', stars: 1 },
   { title: "Lateralus", artist: "Tool", year: 2001 },
-  { title: "Deep in the Hole", artist: "Masters of Reality", year: 2001 },
-  { title: "Kittenz and Thee Glitz", artist: "Felix da Housecat", year: 2001 },
+  { title: "Deep in the Hole", artist: "Masters of Reality", year: 2001, listened: true, genre: "hard-rock" },
+  { title: "Kittenz and Thee Glitz", artist: "Felix da Housecat", year: 2001, listened: true, genre: "electro", comment: '"Silver Screen (Shower Scene)" feat. Miss Kittin' },
   { title: "Clarence Park", artist: "Chris Clark", year: 2001, genre: "electro" },
   { title: "I Giorni", artist: "Ludovico Einaudi", year: 2001 },
   { title: "Gator / Chérie d'Amoure", artist: "Le Knight Club", year: 2001, fr: true, genre: "electro", single: true, listened: true, stars: 1 },
@@ -3707,6 +3710,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Trüby Trio", artist: "Various Artists", year: 2001 },
   { title: "Études pour piano, Livre 3", artist: "Ligeti", year: 2001 },
   { title: "Sept Études", artist: "Dusapin", year: 2001, fr: true },
+  { title: "Bag's Groove", artist: "Nicholas Payton with the Ray Brown Trio", year: 2001, live: true, single: true, comment: 'Live at Bern Jazz Fest' },
 
   { title: "Purple Onion", artist: "Colonel Les Claypool's Fearless Flying Frog Brigade", year: 2002 },
   { title: "Trio Sud", artist: "Sylvain Luc", year: 2002, fr: true, genre: "jazz" },
@@ -5114,6 +5118,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "DJ-KiCKS: DJ Seinfeld", artist: "Various Artists", year: 2018 },
   { title: "DJ-KiCKS: Mount Kimbie", artist: "Various Artists", year: 2018 },
   { title: "DJ-KiCKS: Robert Hood", artist: "Various Artists", year: 2018 },
+  { title: "Celeste OST", artist: "Lena Raine", year: 2018, genre: "vgm" },
 
   { title: "The Fearless Flyers II", artist: "The Fearless Flyers", year: 2019, listened: true, genre: "funk", ep: true, stars: 1 },
   { title: "Chronologic", artist: "Caravan Palace", year: 2019, fr: true },
@@ -5260,6 +5265,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "Symphony for the Apocalypse - New Age Revolution", artist: "Mathew Jonson", year: 2020, single: true },
   { title: "DJ-KiCKS: Mr. Scruff", artist: "Various Artists", year: 2020 },
   { title: "DJ-KiCKS: Avalon Emerson", artist: "Various Artists", year: 2020 },
+  { title: "Reknowing", artist: "Lena Raine, Various Artists", year: 2020, listened: true, genre: "electro" },
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
   { title: "Everybody's Going to the Moon", artist: "Jamiroquai", year: 2021, single: true, listened: true, genre: "funk" },
@@ -5613,6 +5619,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "Megaptera", artist: "Rone", year: 2026, fr: true },
   { title: "Figures of Glass", artist: "Vanessa Wagner, Philip Glass", year: 2026, fr: true },
   { title: "Kammerkonzert", artist: "Squarepusher", year: 2026 },
+  { title: "My Waterfall", artist: "Jake Kaufman", year: 2026, ep: true, genre: "pop", listened: true, comment: 'SynthV Mai 2 vocals' },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
