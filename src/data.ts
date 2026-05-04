@@ -4884,7 +4884,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Corpo Inferno", artist: "Mansfield.TYA", year: 2015, fr: true },
   { title: "NQNT 2", artist: "Vald", year: 2015, fr: true, genre: "rap", comment: '"Bonjour"' },
   { title: "Opening", artist: "Superpoze", year: 2015, fr: true, genre: "electro" },
-  { title: "A Dream in Static", artist: "Earthside", year: 2015 },
+  { title: "A Dream in Static", artist: "Earthside", year: 2015, listened: true, genre: "metal" },
   { title: "The Demon Diaries", artist: "Parov Stelar", year: 2015 },
   { title: "Dr Hypenstein", artist: "Redtenbacher's Funkestra", year: 2015, genre: "funk" },
   { title: "Adventure", artist: "Madeon", year: 2015, fr: true, genre: "electro" },
@@ -4903,6 +4903,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Actress", artist: "Various Artists", year: 2015 },
   { title: "DJ-KiCKS: DJ Koze", artist: "Various Artists", year: 2015 },
   { title: "DJ-KiCKS: Seth Troxler", artist: "Various Artists", year: 2015 },
+  { title: "Surf Rider", artist: "Il Est Vilaine", year: 2015, ep: true, fr: true, listened: true, genre: "electro" },
 
   { title: "The Beautiful Game", artist: "Vulfpeck", year: 2016, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Dean Town", "Cory Wong"' },
   { title: "Points of Interest", artist: "glue70", year: 2016, listened: true, genre: "electro", stars: 1, fav: true, comment: '"Casin", gotta love side chain compression' },
@@ -5034,8 +5035,8 @@ const data_2010s: MusicalPiece[] = [
   { title: "Muance", artist: "Chapelier Fou", year: 2017, fr: true },
   { title: "Open", artist: "Grandbrothers", year: 2017, fr: true },
   { title: "Pleasure", artist: "Feist", year: 2017 },
-  { title: "The Swimmer", artist: "Phil France", year: 2017 },
-  { title: "Migration", artist: "Bonobo", year: 2017 },
+  { title: "The Swimmer", artist: "Phil France", year: 2017, listened: true, genre: "electro", stars: 1 },
+  { title: "Migration", artist: "Bonobo", year: 2017, listened: true, genre: "electro" },
   { title: "New Energy", artist: "Four Tet", year: 2017 },
   { title: "Acid Train", artist: "Anetha", year: 2017, genre: "electro", fr: true, single: true, listened: true },
   { title: "Endless Revisions", artist: "Chloé", year: 2017, fr: true, genre: "electro" },
@@ -5620,6 +5621,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "Figures of Glass", artist: "Vanessa Wagner, Philip Glass", year: 2026, fr: true },
   { title: "Kammerkonzert", artist: "Squarepusher", year: 2026 },
   { title: "My Waterfall", artist: "Jake Kaufman", year: 2026, ep: true, genre: "pop", listened: true, comment: 'SynthV Mai 2 vocals' },
+  { title: "Just Like Fire", artist: "E.VAX, Ratatat", year: 2026 },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
