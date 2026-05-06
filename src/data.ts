@@ -933,7 +933,7 @@ const data_1960s: MusicalPiece[] = [
   { title: "The Soft Parade", artist: "The Doors", year: 1969, listened: true, genre: "rock", stars: 1, fav: true, comment: '"Touch Me"' },
   { title: "Songs for a Tailor", artist: "Jack Bruce", year: 1969 },
   { title: "Goodbye", artist: "Cream", year: 1969, listened: true, stars: 1, genre: "rock", comment: `"I'm So Glad", "Badge"` },
-  { title: "On Her Majesty's Secret Service OST", artist: "John Barry performed by Louis Armstrong", year: 1969 },
+  { title: "On Her Majesty's Secret Service OST", artist: "John Barry performed by Louis Armstrong", year: 1969, comment: '"We Have All the Time in the World"' },
   { title: "Tons of Sobs", artist: "Free", year: 1969 },
   { title: "From Elvis in Memphis", artist: "Elvis Presley", year: 1969, comment: '"Suspicious Minds"' },
   { title: "The Meters", artist: "The Meters", year: 1969 },
@@ -3073,7 +3073,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Symbolic", artist: "Death", year: 1995, genre: "metal" },
   { title: "Here Comes the Hotstepper", artist: "Ini Kamoze", year: 1995, genre: "reggae" },
   { title: "Renegade Master", artist: "Wildchild", year: 1995, genre: "electro", single: true },
-  { title: "Relish", artist: "Joan Osborne", year: 1995, comment: '"One Of Us"' },
+  { title: "Relish", artist: "Joan Osborne", year: 1995, comment: '"One Of Us"', perso: true },
   { title: "DJ-KiCKS: C.J. Bolland", artist: "Various Artists", year: 1995 },
 
   { title: "Travelling Without Moving", artist: "Jamiroquai", year: 1996, perso: true, listened: true, genre: "funk", stars: 4, fav: true, comment: '"Virtual Insanity", "Cosmic Girl", "Use the Force", "Everyday", "Alright", "High Times"' },
@@ -3117,7 +3117,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Walking Wounded", artist: "Everything But The Girl", year: 1996, listened: true, genre: "pop" },
   { title: "Everything Must Go", artist: "Manic Street Preachers", year: 1996, listened: true, genre: "rock" },
   { title: "Maxwell's Urban Hang Suite", artist: "Maxwell", year: 1996, listened: true, genre: "r-n-b" },
-  { title: "Come Find Yourself", artist: "Fun Lovin' Criminals", year: 1996 },
+  { title: "Come Find Yourself", artist: "Fun Lovin' Criminals", year: 1996, listened: true, genre: "rap", comment: `rap 'n' roll?`, stars: 1, fav: true },
   { title: "Oedipus Schmoedipus", artist: "Barry Adamson", year: 1996 },
   { title: "Roots", artist: "Sepultura", year: 1996 },
   { title: "Being There", artist: "Wilco", year: 1996 },
@@ -3126,7 +3126,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Casanova", artist: "The Divine Comedy", year: 1996 },
   { title: "Beautiful Freak", artist: "Eels", year: 1996, listened: true, genre: "rock" },
   { title: "Tigermilk", artist: "Belle and Sebastian", year: 1996, listened: true, genre: "rock" },
-  { title: "Millions Now Living Will Never Die", artist: "Tortoise", year: 1996 },
+  { title: "Millions Now Living Will Never Die", artist: "Tortoise", year: 1996, listened: true, genre: "rock", comment: 'post-rock' },
   { title: "Emperor Tomato Ketchup", artist: "Stereolab", year: 1996 },
   { title: "Dr. Octagon", artist: "Dr. Octagon", year: 1996 },
   { title: "At the Speed of Life", artist: "Xzibit", year: 1996, comment: '"Paparazzi"', genre: "rap" },
@@ -4375,7 +4375,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Waking Up", artist: "OneRepublic", year: 2009, listened: true, genre: "pop" },
   { title: "For Lack of a Better Name", artist: "Deadmau5", year: 2009, perso: true, genre: "electro", comment: `"Strobe", "Ghosts 'n' Stuff"` },
   { title: "Wintermusik", artist: "Nils Frahm", year: 2009, ep: true, listened: true, genre: "piano" },
-  { title: "The Bells", artist: "Nils Frahm", year: 2009 },
+  { title: "The Bells", artist: "Nils Frahm", year: 2009, listened: true, genre: "piano", comment: `"Over There, It's Raining"` },
   { title: "The Matrix", artist: "The Matrix", year: 2009 },
   { title: "The Fray", artist: "The Fray", year: 2009, comment: '"You Found Me"' },
   { title: "Desire", artist: "Desire", year: 2009 },
@@ -4561,6 +4561,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Motor City Drum Ensemble", artist: "Various Artists", year: 2011 },
   { title: "DJ-KiCKS: Scuba", artist: "Various Artists", year: 2011 },
   { title: "DJ-KiCKS: Gold Panda", artist: "Various Artists", year: 2011 },
+  { title: "Felt", artist: "Nils Frahm", year: 2011 },
 
   { title: "Vollmilch", artist: "Vulfpeck", year: 2012, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
   { title: "PANIC", artist: "Caravan Palace", year: 2012, fr: true },
@@ -5622,6 +5623,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "Kammerkonzert", artist: "Squarepusher", year: 2026 },
   { title: "My Waterfall", artist: "Jake Kaufman", year: 2026, ep: true, genre: "pop", listened: true, comment: 'SynthV Mai 2 vocals' },
   { title: "Just Like Fire", artist: "E.VAX, Ratatat", year: 2026 },
+  { title: "T'es mon gourou", artist: "Pierre Niney, Loris Giuliano", year: 2026, genre: "meme", listened: true, fr: true },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
