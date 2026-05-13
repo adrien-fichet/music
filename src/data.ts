@@ -1077,6 +1077,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Back in the USA", artist: "MC5", year: 1970, perso: true, comment: `"Shakin' Street"` },
   { title: "The Aristocats OST", artist: "George Bruns, Various Artists", year: 1970, comment: `"Ev'rybody Wants to Be a Cat"` },
   { title: "ABC", artist: "The Jackson 5", year: 1970, comment: 'cf The Corporation', genre: "pop", listened: true },
+  { title: "Everything Is Everything", artist: "Donny Hathaway", year: 1970, comment: '"The Ghetto"' },
 
   { title: "Led Zeppelin IV", artist: "Led Zeppelin", year: 1971, perso: true, genre: "hard-rock", listened: true, stars: 4, fav: true, comment: '"Black Dog", "Rock and Roll", "The Battle of Evermore", "Stairway to Heaven", "Going to California", "When the Levee Breaks"' },
   { title: "Energy", artist: "Jeremy Steig", year: 1971, genre: "fusion" },
@@ -1146,7 +1147,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Hunky Dory", artist: "David Bowie", year: 1971, listened: true, genre: "rock", stars: 1, fav: true, comment: 'Tch-ch-ch-ch "Changes", "Life on Mars?", "Andy Warhol"' },
   { title: "What's Going On", artist: "Marvin Gaye", year: 1971, listened: true, genre: "soul", stars: 2, fav: true },
   { title: "Tapestry", artist: "Carole King", year: 1971 },
-  { title: "Smash Your Head Against the Wall", artist: "John Entwistle", year: 1971 },
+  { title: "Smash Your Head Against the Wall", artist: "John Entwistle", year: 1971, listened: true, genre: "hard-rock", stars: 1, fav: true, comment: `"What Kind of People Are They?", engineered by Roy Thomas Baker` },
   { title: "Sittin' In", artist: "Loggins and Messina", year: 1971, listened: true, genre: "folk", stars: 2, fav: true },
   { title: "Earth, Wind & Fire", artist: "Earth, Wind & Fire", year: 1971 },
   { title: "The Need of Love", artist: "Earth, Wind & Fire", year: 1971 },
@@ -3157,7 +3158,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Don Solaris", artist: "808 State", year: 1996, genre: "electro" },
   { title: "Underworld", artist: "Second Toughest In The Infants", year: 1996, genre: "electro" },
   { title: "Spinal Scratch", artist: "Thomas Bangalter", year: 1996, genre: "electro", ep: true, fr: true },
-  { title: "Substances", artist: "DJ Cam", year: 1996, genre: "electro", fr: true },
+  { title: "Substances", artist: "DJ Cam", year: 1996, genre: "trip-hop", fr: true, listened: true },
   { title: "Venus (Sunshine People)", artist: "Cheek", year: 1996, genre: "electro", fr: true, single: true, listened: true },
   { title: "Chroma", artist: "Scan X", year: 1996, genre: "electro", fr: true },
   { title: "Long Season", artist: "Fishmans", year: 1996 },
@@ -3272,15 +3273,16 @@ const data_1990s: MusicalPiece[] = [
   { title: "Vegas", artist: "The Crystal Method", year: 1997, genre: "electro" },
   { title: "A Grand Love Story", artist: "Kid Loco", year: 1997, genre: "electro", fr: true },
   { title: "Gordini Mix", artist: "Alex Gopher", year: 1997, fr: true, genre: "electro" },
-  { title: "Picnic Attack", artist: "I:Cube", year: 1997, fr: true, genre: "electro" },
+  { title: "Picnic Attack", artist: "I:Cube", year: 1997, fr: true, genre: "electro", listened: true },
   { title: "The Man in the Shadow", artist: "Snooze", year: 1997, fr: true, genre: "electro" },
   { title: "Vertigo", artist: "Alan Braxe", year: 1997, fr: true, genre: "electro", single: true },
   { title: "Alive 1997", artist: "Daft Punk", year: 1997, genre: "electro", fr: true, live: true, comment: 'released in 2001' },
-  { title: "Premiers symptômes", artist: "Air", year: 1997, fr: true, ep: true },
+  { title: "Premiers symptômes", artist: "Air", year: 1997, fr: true, ep: true, listened: true, genre: "pop", comment: '"Le soleil est près de moi"', stars: 1 },
   { title: "Circlesongs", artist: "Bobby McFerrin", year: 1997 },
   { title: "DJ-KiCKS: Nicolette", artist: "Various Artists", year: 1997 },
   { title: "DJ-KiCKS: Rockers Hi-Fi (The Black Album)", artist: "Various Artists", year: 1997 },
   { title: "DJ-KiCKS: DJ Cam", artist: "Various Artists", year: 1997, fr: true },
+  { title: "Flying Away", artist: "Smoke City", year: 1997, genre: "trip-hop", listened: true },
 
   { title: "Symphony of Enchanted Lands", artist: "Rhapsody", year: 1998, fav: true, perso: true, listened: true, stars: 1, genre: "metal", comment: 'CD passé par Antoine au collège avec Cannibal Corpse et Children of Bodom, "Emerald Sword"' },
   { title: "System Of A Down", artist: "System Of A Down", year: 1998, listened: true, genre: "metal", stars: 2, fav: true },
@@ -4562,6 +4564,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Scuba", artist: "Various Artists", year: 2011 },
   { title: "DJ-KiCKS: Gold Panda", artist: "Various Artists", year: 2011 },
   { title: "Felt", artist: "Nils Frahm", year: 2011 },
+  { title: "Intouchables OST", artist: "Ludovico Einaudi", year: 2011, genre: "piano", listened: true },
 
   { title: "Vollmilch", artist: "Vulfpeck", year: 2012, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
   { title: "PANIC", artist: "Caravan Palace", year: 2012, fr: true },
@@ -4905,6 +4908,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "DJ-KiCKS: DJ Koze", artist: "Various Artists", year: 2015 },
   { title: "DJ-KiCKS: Seth Troxler", artist: "Various Artists", year: 2015 },
   { title: "Surf Rider", artist: "Il Est Vilaine", year: 2015, ep: true, fr: true, listened: true, genre: "electro" },
+  { title: "Contrepoint", artist: "Nicolas Godin", year: 2015, fr: true },
 
   { title: "The Beautiful Game", artist: "Vulfpeck", year: 2016, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Dean Town", "Cory Wong"' },
   { title: "Points of Interest", artist: "glue70", year: 2016, listened: true, genre: "electro", stars: 1, fav: true, comment: '"Casin", gotta love side chain compression' },
@@ -5268,6 +5272,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Mr. Scruff", artist: "Various Artists", year: 2020 },
   { title: "DJ-KiCKS: Avalon Emerson", artist: "Various Artists", year: 2020 },
   { title: "Reknowing", artist: "Lena Raine, Various Artists", year: 2020, listened: true, genre: "electro" },
+  { title: "Concrete and Glass", artist: "Nicolas Godin", year: 2020, fr: true },
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
   { title: "Everybody's Going to the Moon", artist: "Jamiroquai", year: 2021, single: true, listened: true, genre: "funk" },
@@ -5624,6 +5629,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "My Waterfall", artist: "Jake Kaufman", year: 2026, ep: true, genre: "pop", listened: true, comment: 'SynthV Mai 2 vocals' },
   { title: "Just Like Fire", artist: "E.VAX, Ratatat", year: 2026 },
   { title: "T'es mon gourou", artist: "Pierre Niney, Loris Giuliano", year: 2026, genre: "meme", listened: true, fr: true },
+  { title: "Splat!", artist: "Deep Purple", year: 2026 },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
