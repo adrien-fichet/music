@@ -584,6 +584,7 @@ const data_1960s: MusicalPiece[] = [
   { title: "Boss Guitar", artist: "Wes Montgomery", year: 1963, genre: "jazz" },
   { title: "The Pink Panther OST", artist: "Henri Mancini", year: 1963, genre: "jazz", listened: true },
   { title: "Le Mépris OST", artist: "Georges Delerue", year: 1963 },
+  { title: "Harlem Shuffle / I'll Keep Running Back", artist: "Bob & Earl", year: 1963, single: true, listened: true, genre: "soul" },
 
   { title: "A Hard Day's Night", artist: "The Beatles", year: 1964, listened: true, genre: "pop", stars: 2, fav: true, comment: `"And I Love Her", "Can't Buy Me Love"` },
   { title: "D'autres filles", artist: "Michel Berger", year: 1964, fr: true, listened: true, genre: "chanson", meh: true },
@@ -2079,7 +2080,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Jah Glory!", artist: "Alpha Blondy", year: 1982, genre: "reggae" },
   { title: "Eye of the Tiger", artist: "Survivor", year: 1982, genre: "rock" },
   { title: "H2O", artist: "Hall & Oates", year: 1982, listened: true, genre: "pop", comment: '"Maneater" Ooh ooh here she comes' },
-  { title: "...Famous Last Words...", artist: "Supertramp", year: 1982 },
+  { title: "...Famous Last Words...", artist: "Supertramp", year: 1982, listened: true, comment: `"It's Raining Again"`, genre: "rock", stars: 1 },
   { title: "Royal Jam", artist: "The Crusaders feat. B.B. King", year: 1982, live: true },
   { title: "Straight Between the Eyes", artist: "Rainbow", year: 1982, listened: true, genre: "hard-rock" },
   { title: "Abracadabra", artist: "Steve Miller Band", year: 1982 },
@@ -2749,7 +2750,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Mecca and the Soul Brother", artist: "Pete Rock & CL Smooth", year: 1992, listened: true, genre: "rap", stars: 1, comment: '"They Reminisce Over You (T.R.O.Y.)"' },
   { title: "Standards", artist: "Biréli Lagrène", year: 1992, fr: true, genre: "jazz", listened: true, comment: "Jazz Guitar" },
   { title: "Las Vegas", artist: "Barry Leitch", year: 1992, genre: "vgm", listened: true, comment: "Top Gear" },
-  { title: "Jump Around", artist: "House of Pain", year: 1992, single: true, genre: "rap", listened: true },
+  { title: "Jump Around", artist: "House of Pain", year: 1992, single: true, genre: "rap", listened: true, comment: '"Harlem Shuffle" intro sample' },
   { title: "Mack Daddy", artist: "Sir Mix-A-Lot", year: 1992, genre: "rap", comment: '"Baby Got Back"' },
   { title: "Chic-ism", artist: "Chic", year: 1992, listened: true, genre: "disco", comment: '"Chic Mystique"' },
   { title: "UFO Tofu", artist: "Béla Fleck and the Flecktones", year: 1992, genre: "jazz", listened: true, comment: "Victor Wooten on bass", stars: 1, fav: true },
@@ -2981,7 +2982,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Music For the Jilted Generation", artist: "Prodigy", year: 1994, genre: "electro" },
   { title: "Happy Again", artist: "The Jazz Crusaders", year: 1994 },
   { title: "Grace", artist: "Jeff Buckley", year: 1994, listened: true, stars: 1, genre: "rock", fav: true },
-  { title: "Same As It Ever Was", artist: "House of Pain", year: 1994, genre: "rap", comment: `"I'm A Swing It"` },
+  { title: "Same As It Ever Was", artist: "House of Pain", year: 1994, genre: "rap", comment: `"I'm A Swing It"`, listened: true, stars: 2, fav: true },
   { title: "Extrapolation", artist: "John Scofield", year: 1994, genre: "jazz" },
   { title: "Selected Ambient Works II", artist: "Aphex Twin", year: 1994, genre: "electro" },
   { title: "Lifeforms", artist: "The Future Sound of London", year: 1994, comment: '"Cerebral"' },
@@ -3388,6 +3389,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Smith & Mighty", artist: "Various Artists", year: 1998 },
   { title: "DJ-KiCKS: Andrea Parker", artist: "Various Artists", year: 1998 },
   { title: "The Truman Show OST", artist: "Burkhard Dallwitz, Philip Glass, Wojciech Kilar", year: 1998, comment: '"Truman Sleeps" by Philip Glass' },
+  { title: "Whitey Ford Sings the Blues", artist: "Everlast", year: 1998 },
 
   { title: "Synkronized", artist: "Jamiroquai", year: 1999, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Canned Heat", "Black Capicorn Day", "Soul Education", "Supersonic", "King For A Day", "Deeper Underground"' },
   { title: "We Are! (ウィーアー！)", artist: "Hiroshi Kitadani", year: 1999, listened: true, genre: "pop", comment: "Opening 1 of One Piece", stars: 1, fav: true },
@@ -4892,7 +4894,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "The Demon Diaries", artist: "Parov Stelar", year: 2015 },
   { title: "Dr Hypenstein", artist: "Redtenbacher's Funkestra", year: 2015, genre: "funk" },
   { title: "Adventure", artist: "Madeon", year: 2015, fr: true, genre: "electro" },
-  { title: "Tout est magnifique", artist: "Jacques", year: 2015, fr: true, genre: "electro" },
+  { title: "Tout est magnifique", artist: "Jacques", year: 2015, fr: true, genre: "electro", listened: true, stars: 1 },
   { title: "Resilience", artist: "Maxime Dangles", year: 2015, fr: true, genre: "electro" },
   { title: "Big Sun", artist: "Christophe Chassol", year: 2015, fr: true },
   { title: "Elaenia", artist: "Floating Points (Sam Shepherd)", year: 2015 },
@@ -5630,6 +5632,8 @@ const data_2020s: MusicalPiece[] = [
   { title: "Just Like Fire", artist: "E.VAX, Ratatat", year: 2026 },
   { title: "T'es mon gourou", artist: "Pierre Niney, Loris Giuliano", year: 2026, genre: "meme", listened: true, fr: true },
   { title: "Splat!", artist: "Deep Purple", year: 2026 },
+  { title: "Inferno", artist: "Boards of Canada", year: 2026 },
+  { title: "Romanticize the Dive", artist: "Metric", year: 2026, listened: true, genre: "pop", stars: 1 },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
