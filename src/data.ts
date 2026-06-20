@@ -1443,6 +1443,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Zuckerzeit", artist: "Cluster", year: 1974 },
   { title: "Les Valseuses OST", artist: "Stéphane Grappelli", year: 1974, fr: true },
   { title: "But Beautiful", artist: "Stan Getz, Bill Evans", year: 1974, live: true, genre: "jazz", comment: 'recorded in 1974, released in 1996' },
+  { title: "Illuminations", artist: "Carlos Santana, Alice Coltrane", year: 1974, genre: "jazz", listened: true },
 
   { title: "Physical Graffiti", artist: "Led Zeppelin", year: 1975, comment: '"Kashmir"' },
   { title: "Sweet Hands", artist: "David Liebman", year: 1975, genre: "fusion" },
@@ -3859,7 +3860,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Footprints Live!", artist: "Wayne Shorter Quartet", year: 2003, genre: "jazz", live: true },
   { title: "Badger Badger Badger", artist: "MrWeebl", year: 2003, genre: "meme", listened: true },
   { title: "Neon Golden", artist: "The Notwist", year: 2003 },
-  { title: "Blink-182", artist: "Blink-182", year: 2003, genre: "punk", comment: '"Miss You"' },
+  { title: "Blink-182", artist: "Blink-182", year: 2003, genre: "punk", comment: '"Miss You", "Always"', listened: true, stars: 1 },
   { title: "Strings of the Storm", artist: "Elliott Murphy", year: 2003, perso: true, comment: '"Green River", Festival Binic 2004 w/ Buddy Guy' },
   { title: "Touhou: Perfect Cherry Blossom OST", artist: "ZUN", year: 2003, genre: "vgm" },
   { title: "Fallen", artist: "Evanescence", year: 2003, perso: true },
@@ -5633,6 +5634,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "Tiny Desk Concert", artist: "Air", year: 2025, genre: "pop", listened: true, stars: 1, live: true, fr: true },
   { title: "industry plant", artist: "miki", year: 2025, genre: "pop", fr: true, listened: true, comment: '"ça pik un peu quand même"' },
   { title: "Cabin in the Sky", artist: "De La Soul", year: 2025, genre: "rap" },
+  { title: "My Ouai", artist: "Ouai Stéphane", year: 2025, genre: "electro", fr: true, listened: true, stars: 1, comment: '"Risset"', fav: true },
 
   { title: "Tempus Ruinae", artist: "XIII Nights", year: 2026, single: true, genre: "synth", listened: true },
   { title: "Don't Call Me", artist: "Lyst, Neon Shards", year: 2026, single: true, genre: "synth", listened: true },
@@ -5655,6 +5657,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "The Boys of Dungeon Lane", artist: "Paul McCartney", year: 2026, listened: true, genre: "rock", stars: 2, fav: true, comment: '"Come Inside"' },
   { title: "To Whom This May Concern", artist: "Jill Scott", year: 2026, listened: true, genre: "soul" },
   { title: "Figures of Glass", artist: "Vanessa Wagner, Philip Glass", year: 2026, fr: true, listened: true, genre: "piano" },
+  { title: "Unbound", artist: "Prince 85, Mike Dean", year: 2026, single: true, genre: "electro", fr: true, listened: true },
   { title: "This Dirt Loves Me More Than You!", artist: "MonoNeon", year: 2026 },
   { title: "Elipsis", artist: "Elipsis, Michael League, Pedrito Martinez, Antonio Sánchez", year: 2026 },
   { title: "Distracted", artist: "Thundercat", year: 2026 },
