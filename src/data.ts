@@ -5155,7 +5155,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Mount Kimbie", artist: "Various Artists", year: 2018 },
   { title: "DJ-KiCKS: Robert Hood", artist: "Various Artists", year: 2018 },
   { title: "Celeste OST", artist: "Lena Raine", year: 2018, genre: "vgm" },
-  { title: "Emanon", artist: "Wayne Shorter", year: 2018 },
+  { title: "Emanon", artist: "Wayne Shorter", year: 2018, genre: "jazz" },
 
   { title: "The Fearless Flyers II", artist: "The Fearless Flyers", year: 2019, listened: true, genre: "funk", ep: true, stars: 1 },
   { title: "Chronologic", artist: "Caravan Palace", year: 2019, fr: true },
@@ -5178,7 +5178,6 @@ const data_2010s: MusicalPiece[] = [
   { title: "Weezer (the Teal Album)", artist: "Weezer", year: 2019 },
   { title: "Weezer (the Black Album)", artist: "Weezer", year: 2019 },
   { title: "So Much Fun", artist: "Young Thug", year: 2019 },
-  { title: "Emanon", artist: "Wayne Shorter", year: 2019, genre: "jazz" },
   { title: "thank u, next", artist: "Ariana Grande", year: 2019, listened: true, genre: "r-n-b", meh: true },
   { title: "Eve", artist: "Rapsody", year: 2019 },
   { title: "S3NS", artist: "Ibrahim Maalouf", year: 2019, listened: true, genre: "jazz", comment: '"Happy Face"', stars: 2, fav: true },
