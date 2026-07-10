@@ -2549,6 +2549,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Joy Rider", artist: "Wayne Shorter", year: 1988, genre: "jazz" },
   { title: "Live from Austin, TX", artist: "Eric Johnson", year: 1988, live: true, listened: true, genre: "hard-rock", comment: '"Trail of Tears" = "Circles" by Satriani?, "Cliffs of Dover" (influenced Matteo Mancuso)' },
   { title: "Perpetual Burn", artist: "Jason Becker", year: 1988 },
+  { title: "Critical Beatdown", artist: "Ultramagnetic MCs", year: 1988 },
 
   { title: "Bleu Blanc Vert", artist: "Jean-Louis Aubert", year: 1989, fr: true, perso: true, comment: `"Voilà c'est fini", "Univers", "Le Bout du rouleau"`, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Bleach", artist: "Nirvana", year: 1989, genre: "grunge", listened: true, comment: '"About a Girl"' },
@@ -3408,6 +3409,8 @@ const data_1990s: MusicalPiece[] = [
   { title: "The Truman Show OST", artist: "Burkhard Dallwitz, Philip Glass, Wojciech Kilar", year: 1998, comment: '"Truman Sleeps" by Philip Glass' },
   { title: "Whitey Ford Sings the Blues", artist: "Everlast", year: 1998 },
   { title: "The Christmas Attic", artist: "Trans-Siberian Orchestra", year: 1998 },
+  { title: "Les Fabulettes Volume 4 - La ville aux enfants", artist: "Anne Sylvestre", year: 1998, fr: true, genre: "chanson" },
+  { title: "The Race of a Thousand Camels (Twilight)", artist: "Bôa", year: 1998, comment: '"Duvet"' },
 
   { title: "Synkronized", artist: "Jamiroquai", year: 1999, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Canned Heat", "Black Capicorn Day", "Soul Education", "Supersonic", "King For A Day", "Deeper Underground"' },
   { title: "We Are! (ウィーアー！)", artist: "Hiroshi Kitadani", year: 1999, listened: true, genre: "pop", comment: "Opening 1 of One Piece", stars: 1, fav: true },
@@ -3636,6 +3639,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Stereo MCs", artist: "Various Artists", year: 2000 },
   { title: "DJ-KiCKS: Nightmares on Wax", artist: "Various Artists", year: 2000 },
   { title: "Follow the Reaper", artist: "Children of Bodom", year: 2000, genre: "metal" },
+  { title: "Since I Left You", artist: "The Avalanches", year: 2000, listened: true, genre: "funk" },
 
   { title: "A Funk Odyssey", artist: "Jamiroquai", year: 2001, listened: true, genre: "funk", fav: true, stars: 3 },
   { title: "In Search of...", artist: "N.E.R.D.", year: 2001, listened: true, genre: "rap", comment: 'rap-rock' },
@@ -3706,7 +3710,6 @@ const data_2000s: MusicalPiece[] = [
   { title: "Love and Theft", artist: "Bob Dylan", year: 2001 },
   { title: "Time (The Revelator)", artist: "Gillian Welch", year: 2001, listened: true, genre: "folk" },
   { title: "Des visages des figures", artist: "Noir Désir", year: 2001, perso: true, fr: true, listened: true, genre: "rock", stars: 1, fav: true, comment: `"A l'envers à l'endroit"` },
-  { title: "Since I Left You", artist: "The Avalanches", year: 2001, listened: true, genre: "funk" },
   { title: "The Blueprint", artist: "Jay-Z", year: 2001, listened: true, genre: "rap", stars: 1 },
   { title: "White Blood Cells", artist: "The White Stripes", year: 2001, genre: "rock" },
   { title: "Get Rich or Die Tryin'", artist: "50 Cent", year: 2001, genre: "rap" },
@@ -5016,6 +5019,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Marcel Dettmann", artist: "Various Artists", year: 2016 },
   { title: "DJ-KiCKS: Daniel Avery", artist: "Various Artists", year: 2016 },
   { title: "Nonagon Infinity", artist: "King Gizzard & the Lizard Wizard", year: 2016 },
+  { title: "Wildflower", artist: "The Avalanches", year: 2016 },
 
   { title: "Mr. Finish Line", artist: "Vulfpeck", year: 2017, listened: false, genre: "funk" },
   { title: "Stup Virus", artist: "Stupeflip", year: 2017, fr: true, genre: "rap", listened: true, comment: "campagne Ulule" },
