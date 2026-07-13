@@ -1620,7 +1620,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Transformation (The Speed of Love)", artist: "David Sancious and Tone", year: 1976, genre: "fusion" },
   { title: "Rastaman Vibration", artist: "Bob Marley and the Wailers", year: 1976, genre: "reggae" },
   { title: "Never Gonna Let You Go", artist: "Vicki Sue Robinson", year: 1976, comment: '"Turn the Beat Around"' },
-  { title: "Wild Cherry", artist: "Wild Cherry", year: 1976, comment: '"Play That Funky Music"' },
+  { title: "Wild Cherry", artist: "Wild Cherry", year: 1976, comment: '"Play That Funky Music"', listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Glow", artist: "Al Jarreau", year: 1976 },
   { title: "Troubadour", artist: "JJ Cale", year: 1976 },
 
@@ -1714,6 +1714,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Rejoice", artist: "The Emotions", year: 1977, comment: '"Best of My Love"' },
   { title: "Just a Story From America", artist: "Elliott Murphy", year: 1977 },
   { title: "Chansons pour...", artist: "Anne Sylvestre", year: 1977, fr: true, genre: "chanson", listened: true },
+  { title: "Electrified Funk", artist: "Wild Cherry", year: 1977 },
 
   { title: "Insights", artist: "Toshiko Akiyoshi - Lew Tabackin Big Band", year: 1978, genre: "jazz" },
   { title: "Feels Good to Me", artist: "Bruford", year: 1978, genre: "fusion" },
@@ -1806,6 +1807,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "FM (No Static at All)", artist: "Steely Dan", year: 1978, genre: "rock", listened: true, single: true },
   { title: "City to City", artist: "Gerry Rafferty", year: 1978, genre: "rock", comment: '"Baker Street"' },
   { title: "Quiet Riot", artist: "Quiet Riot", year: 1978, comment: 'Randy Rhoads on guitar' },
+  { title: "I Love My Music", artist: "Wild Cherry", year: 1978 },
 
   { title: "London Calling", artist: "The Clash", year: 1979, perso: true, listened: true, genre: "rock", comment: `Offert en cadeau (2-CD box set), "Brand New Cadillac", "Hateful", "Rudy Can't Fail", "Clampdown", "The Guns of Brixton", "I'm Not Down", "Train in Vain (Stand By Me)"`, stars: 4, fav: true },
   { title: "One on One", artist: "Bob James and Earl Klugh", year: 1979, genre: "jazz" },
@@ -1893,6 +1895,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Dream Baby Dream", artist: "Suicide", year: 1979, single: true },
   { title: "Moskau", artist: "Dschinghis Khan", year: 1979, genre: "meme", listened: true },
   { title: "La Rue, l'Ecole, le Square", artist: "Anne Sylvestre", year: 1979, fr: true, genre: "chanson", listened: true },
+  { title: "Only the Wild Survive", artist: "Wild Cherry", year: 1979 },
 ];
 
 const data_1980s: MusicalPiece[] = [
@@ -3947,7 +3950,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "The Delivery Man", artist: "Elvis Costello and The Imposters", year: 2004 },
   { title: "Automatic Thrill", artist: "Gluecifer", year: 2004 },
   { title: "Team America: World Police OST", artist: "Trey Parker", year: 2004, comment: '"America, Fuck Yeah"' },
-  { title: "More Adventurous", artist: "Rilo Kiley", year: 2004 },
+  { title: "More Adventurous", artist: "Rilo Kiley", year: 2004, listened: true, genre: "pop", comment: '"Portions for Foxes"' },
   { title: "End of the World Party (Just In Case)", artist: "Medeski, Martin & Wood", year: 2004 },
   { title: "Touhou: Imperishable Night OST", artist: "ZUN", year: 2004, genre: "vgm" },
   { title: "2 Days or Die", artist: "Atlas Plug", year: 2004, genre: "electro", comment: '"Truth Be Known" (Dota 2)', listened: true },
@@ -4345,7 +4348,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Next of Kin", artist: "Surkin", year: 2008, ep: true, genre: "electro", fr: true },
   { title: "Tonight", artist: "Yuksek", year: 2008, single: true, genre: "electro", fr: true },
   { title: "Deathconsciousness", artist: "Have a Nice Life", year: 2008 },
-  { title: "Shine", artist: "Estelle", year: 2008, comment: `"American Boy"` },
+  { title: "Shine", artist: "Estelle", year: 2008, comment: `"American Boy"`, listened: true, genre: "r-n-b" },
 
   { title: "The Fame Monster", artist: "Lady Gaga", year: 2009, ep: true, comment: '"Bad Romance"'},
   { title: "BLACKsummers'night", artist: "Maxwell", year: 2009 },
@@ -4426,6 +4429,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Yes Is More", artist: "Danton Eeprom", year: 2009, genre: "electro", fr: true },
   { title: "Mécaniques remontées / Too Shy", artist: "Sweet Light", year: 2009, genre: "electro", fr: true, single: true },
   { title: "DJ-KiCKS: Chromeo", artist: "Various Artists", year: 2009 },
+  { title: "Historicity", artist: "Vijay Iyer", year: 2009, genre: "jazz", listened: true },
 ];
 
 const data_2010s: MusicalPiece[] = [
@@ -4469,7 +4473,6 @@ const data_2010s: MusicalPiece[] = [
   { title: "TRON: Legacy OST", artist: "Daft Punk", year: 2010, listened: true, fr: true, stars: 1, genre: "electro" },
   { title: "Sea of Cowards", artist: "The Dead Weather", year: 2010, listened: true, genre: "rock", stars: 1, perso: true, fav: true },
   { title: "Business Casual", artist: "Chromeo", year: 2010 },
-  { title: "Historicity", artist: "Vijay Iyer", year: 2010, genre: "jazz" },
   { title: "Poised to Dominate", artist: "TWRP", year: 2010 },
   { title: "Super Meat Boy! OST", artist: "Danny Baranowsky", year: 2010, genre: "vgm", listened: true, comment: '"McLarty Party People"', fav: true, stars: 2 },
   { title: "Barbra Streisand", artist: "Duck Sauce", year: 2010, single: true, listened: true, genre: "electro" },
