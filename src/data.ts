@@ -4418,7 +4418,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "The Fray", artist: "The Fray", year: 2009, comment: '"You Found Me"' },
   { title: "Desire", artist: "Desire", year: 2009, listened: true, genre: "pop" },
   { title: "A Real Hero", artist: "College", year: 2009, fr: true, genre: "synth", ep: true, listened: true },
-  { title: "Get Lucky", artist: "Mark Knopfler", year: 2009 },
+  { title: "Get Lucky", artist: "Mark Knopfler", year: 2009, listened: true, genre: "rock", stars: 1 },
   { title: "Léman", artist: "Blick Bassy", year: 2009 },
   { title: "Spanish Breakfast", artist: "Rone", year: 2009, fr: true, listened: true, genre: "electro" },
   { title: "La Dame Blanche", artist: "Rone", year: 2009, fr: true, ep: true },
