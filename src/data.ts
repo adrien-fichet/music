@@ -2620,6 +2620,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Original Soundtrack", artist: "S'Express", year: 1989 },
   { title: "Wrong", artist: "Nomeansno", year: 1989 },
   { title: "Paradise (Big Fun)", artist: "Inner City", year: 1989, comment: '"Good Life"' },
+  { title: "Le Grand Bleu OST", artist: "Eric Serra", year: 1989, fr: true },
 ];
 
 const data_1990s: MusicalPiece[] = [
@@ -3945,7 +3946,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Howl's Moving Castle OST", artist: "Joe Hisaishi", year: 2004, listened: true, genre: "classical", stars: 1 },
   { title: "Somewhere Only We Know", artist: "Keane", year: 2004, single: true, genre: "pop", listened: true },
   { title: "Droit de réponse", artist: "Francky Vincent", year: 2004, fr: true, genre: "chanson", listened: true, perso: true, comment: "Francky Vincent le restaurant, c'était un rêve à réaliser", single: true },
-  { title: "Talkie Walkie", artist: "Air", year: 2004, fr: true },
+  { title: "Talkie Walkie", artist: "Air", year: 2004, fr: true, listened: true, genre: "pop", stars: 2, fav: true },
   { title: "Suddenly I See", artist: "KT Tunstall", year: 2004, single: true, listened: true, genre: "rock" },
   { title: "Kill Bill: Volume 2 OST", artist: "Various Artists", year: 2004, listened: true, genre: "world" },
   { title: "Encore", artist: "Eminem", year: 2004, genre: "rap", comment: '"Just Lose It", "Mockingbird", "Like Toy Soldiers"', stars: 1, listened: true },
@@ -4351,6 +4352,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Tonight", artist: "Yuksek", year: 2008, single: true, genre: "electro", fr: true },
   { title: "Deathconsciousness", artist: "Have a Nice Life", year: 2008, listened: true, genre: "rock", meh: true },
   { title: "Shine", artist: "Estelle", year: 2008, comment: `"American Boy"`, listened: true, genre: "r-n-b" },
+  { title: "Objectif: Thunes", artist: "Ultra Vomit", year: 2008, genre: "metal", fr: true },
 
   { title: "The Fame Monster", artist: "Lady Gaga", year: 2009, ep: true, comment: '"Bad Romance", "Telephone", "Alejandro"', listened: true, genre: "pop" },
   { title: "BLACKsummers'night", artist: "Maxwell", year: 2009 },
@@ -5099,6 +5101,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "DJ-KiCKS: DJ Tennis", artist: "Various Artists", year: 2017 },
   { title: "DJ-KiCKS: Lone", artist: "Various Artists", year: 2017 },
   { title: "DJ-KiCKS: Kerri Chandler", artist: "Various Artists", year: 2017 },
+  { title: "Panzer Surprise !", artist: "Ultra Vomit", year: 2017, genre: "metal", fr: true },
 
   { title: "Hill Climber", artist: "Vulfpeck", year: 2018, genre: "funk", listened: true, fav: true, stars: 2, comment: '"Darwin Derby", "It Gets Funkier IV", "Lost My Treble Long Ago"' },
   { title: "10th Anniversary Bad Apple!! feat.nomico PHASE3", artist: "Alstroemeria Records", year: 2018, perso: true, listened: true, genre: "metal" },
@@ -5238,6 +5241,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Kamaal Williams", artist: "Various Artists", year: 2019 },
   { title: "Ouai", artist: "Ouai Stéphane", year: 2019, fr: true, genre: "electro", ep: true, listened: true },
   { title: "Ouai Ouai", artist: "Ouai Stéphane", year: 2019, fr: true, genre: "electro", ep: true, listened: true },
+  { title: "L'Olymputaindepia", artist: "Ultra Vomit", year: 2019, genre: "metal", fr: true, live: true },
 ];
 
 const data_2020s: MusicalPiece[] = [
@@ -5592,6 +5596,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "Mother", artist: "Logic1000", year: 2024 },
   { title: "CHIROPTERA / CHIROPTERA MATIERE PREMIERE", artist: "Thomas Bangalter", year: 2024, fr: true, genre: "electro", single: true, listened: true },
   { title: "Luck and Strange", artist: "David Gilmour", year: 2024, comment: '"Between Two Points" (with Romany Gilmour)' },
+  { title: "Ultra Vomit et le Pouvoir de la Puissance", artist: "Ultra Vomit", year: 2024, genre: "metal", fr: true },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
