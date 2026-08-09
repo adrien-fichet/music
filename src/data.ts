@@ -2043,7 +2043,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Kollaps", artist: "Einstürzende Neubauten", year: 1981 },
   { title: "Killers", artist: "Iron Maiden", year: 1981, listened: true, genre: "hard-rock", stars: 2, fav: true, comment: `Paul Di'Anno on vocals instead of Bruce Dickinson, "Wrathchild", "Murders in the Rue Morgue", "Prodigal Son"` },
   { title: "Moving Pictures", artist: "Rush", year: 1981, listened: true, genre: "hard-rock", comment: '"Tom Sawyer", "YYZ"', stars: 1 },
-  { title: "Damaged", artist: "Black Flag", year: 1981 },
+  { title: "Damaged", artist: "Black Flag", year: 1981, comment: '"Rise Above"' },
   { title: "Too Fast For Love", artist: "Mötley Crüe", year: 1981 },
   { title: "Beauty and the Beat", artist: "The Go-Go's", year: 1981, listened: true, genre: "new-wave", comment: '"Our Lips Are Sealed"' },
   { title: "Never Too Much", artist: "Luther Vandross", year: 1981 },

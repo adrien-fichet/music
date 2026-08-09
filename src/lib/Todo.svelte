@@ -29,4 +29,6 @@
   </li>
   <li>Artists cited in Soulwax's "Teachers" remix, LCD Soundsystem's "Losing My Edge"</li>
   <li>More songs/artists from Aztec/RetroSynth Records</li>
+  <li>Similar artists research using <a href="https://www.music-map.com/">Music-map</a></li>
+  <li>New genres and artists research using <a href="https://everynoise.com/">Every Noise At Once</a></li>
 </ul>
