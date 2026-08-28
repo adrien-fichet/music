@@ -313,7 +313,7 @@ const data_1950s: MusicalPiece[] = [
 
   { title: "Dust My Broom", artist: "Elmore James", year: 1951, genre: "blues", single: true, listened: true },
   { title: "Django Reinhardt and the Hot Club Quintet", artist: "Django Reinhardt", year: 1951, genre: "jazz" },
-  { title: "Music of Changes", artist: "John Cage", year: 1951, genre: "piano" },
+  { title: "Music of Changes", artist: "John Cage", year: 1951, genre: "piano", listened: true },
   { title: "Rocket 88", artist: "Jackie Brenston and his Delta Cats", year: 1951, genre: "rock-n-roll", single: true, listened: true },
   { title: "Three O'Clock Blues", artist: "B.B. King", year: 1951, genre: "blues", single: true },
 
@@ -3837,7 +3837,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Amorphous Androgynous", artist: "The Isness", year: 2002, genre: "electro" },
   { title: "18", artist: "Moby", year: 2002, genre: "electro" },
   { title: "The Soul of My Love", artist: "Lifelike", year: 2002, genre: "electro", fr: true, single: true, listened: true },
-  { title: "Au rêve", artist: "Cassius", year: 2002, genre: "electro", fr: true },
+  { title: "Au rêve", artist: "Cassius", year: 2002, genre: "electro", fr: true, listened: true },
   { title: "Fighting Spirit", artist: "Manu le Malin", year: 2002, genre: "electro", fr: true },
   { title: "Galleon", artist: "Galleon", year: 2002, genre: "electro", fr: true },
   { title: "King Size", artist: "Sébastien Léger", year: 2002, genre: "electro", fr: true },
