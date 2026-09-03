@@ -1367,7 +1367,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "The Colours of Chloë", artist: "Eberhard Weber", year: 1974, genre: "fusion" },
   { title: "Seven, Come Eleven", artist: "Herb Ellis, Joe Pass", year: 1974, live: true, genre: "jazz" },
   { title: "Two For the Road", artist: "Herb Ellis, Joe Pass", year: 1974, genre: "jazz" },
-  { title: "Hell", artist: "James Brown", year: 1974 },
+  { title: "Hell", artist: "James Brown", year: 1974, listened: true, genre: "funk" },
   { title: "Libertango", artist: "Astor Piazzolla", year: 1974 },
   { title: "Euphrates River", artist: "The Main Ingredient", year: 1974, listened: true, genre: "soul" },
   { title: "Fire", artist: "Ohio Players", year: 1974, listened: true, genre: "funk" },
@@ -1976,7 +1976,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "La Boum OST", artist: "Vladimir Cosma", year: 1980, fr: true },
   { title: "Permanent Waves", artist: "Rush", year: 1980, genre: "rock" },
   { title: "The Gap Band III", artist: "The Gap Band", year: 1980, comment: `"Humpin'"` },
-  { title: "Peter Gabriel (Peter Gabriel 3: Melt)", artist: "Peter Gabriel", year: 1980, comment: 'no cymbals, gated reverb ("Intruder")' },
+  { title: "Peter Gabriel (Peter Gabriel 3: Melt)", artist: "Peter Gabriel", year: 1980, comment: 'no cymbals, gated reverb ("Intruder")', listened: true, genre: "rock" },
   { title: "The Michael Schenker Group", artist: "Michael Schenker Group", year: 1980, comment: '"Into the Arena"' },
   { title: "Snowbird Fantasy", artist: "Bob James", year: 1980, single: true },
   { title: "Phoné", artist: "John Chowning", year: 1980, listened: true, genre: "synth", single: true },
@@ -2871,7 +2871,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Pork Soda", artist: "Primus", year: 1993 },
   { title: "I Like to Move It", artist: "Reel 2 Real (Erik Morillo)", year: 1993, single: true, genre: "rap", listened: true },
   { title: "Mystic Mile", artist: "Robben Ford", year: 1993, comment: 'Ninkasi Gerland 2018' },
-  { title: "Ring", artist: "The Connells", year: 1993 },
+  { title: "Ring", artist: "The Connells", year: 1993, listened: true, genre: "rock", comment: `"'74-'75`, stars: 1 },
   { title: "Coverdale • Page", artist: "David Coverdale & Jimmy Page", year: 1993 },
   { title: "August and Everything After", artist: "Counting Crows", year: 1993, listened: true, genre: "rock", comment: '"Mr. Jones"' },
   { title: "Get a Grip", artist: "Aerosmith", year: 1993, perso: true, listened: true, genre: "hard-rock", stars: 1 },
@@ -4583,7 +4583,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Stade 2", artist: "Mr. Oizo", year: 2011, fr: true, genre: "electro", listened: true, comment: '"Druide"' },
   { title: "And the Time-Axis Manipulation Corporation", artist: "Mickey Moonlight", year: 2011 },
   { title: "Mosaik", artist: "Siriusmo", year: 2011, genre: "synth", listened: true, stars: 1, comment: '"Feromonikon"' },
-  { title: "So So So", artist: "Rone", year: 2011, fr: true, ep: true },
+  { title: "So So So", artist: "Rone", year: 2011, fr: true, ep: true, listened: true, genre: "electro", comment: '"Nakt"' },
   { title: "The Unspeakable Chilly Gonzales", artist: "Chilly Gonzales", year: 2011 },
   { title: "Ravedeath, 1972", artist: "Tim Hecker", year: 2011 },
   { title: "100 chansons et comptines à l'école maternelle", artist: "Gérard Dalton", year: 2011, fr: true, genre: "chanson", comment: '"La sorcière Grabouilla"', listened: true },
@@ -5000,7 +5000,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Run the Jewels 3", artist: "Run the Jewels", year: 2016 },
   { title: "The Getaway", artist: "Red Hot Chili Peppers", year: 2016, listened: true, genre: "pop", comment: '"Dark Necessities"' },
   { title: "150.900", artist: "FAUVE", year: 2016, fr: true, live: true, listened: true, genre: "chanson" },
-  { title: "Monolith of Phobos", artist: "The Claypool Lennon Delirium", year: 2016 },
+  { title: "Monolith of Phobos", artist: "The Claypool Lennon Delirium", year: 2016, genre: "rock" },
   { title: "I Still Do", artist: "Eric Clapton", year: 2016, genre: "blues", listened: true, stars: 1, comment: '"Spiral"' },
   { title: "Skeleton Tree", artist: "Nick Cave & the Bad Seeds", year: 2016 },
   { title: "Blackstar", artist: "David Bowie", year: 2016, listened: true, genre: "rock", stars: 1, comment: '"Lazarus"' },
@@ -5248,6 +5248,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Ouai", artist: "Ouai Stéphane", year: 2019, fr: true, genre: "electro", ep: true, listened: true },
   { title: "Ouai Ouai", artist: "Ouai Stéphane", year: 2019, fr: true, genre: "electro", ep: true, listened: true },
   { title: "L'Olymputaindepia", artist: "Ultra Vomit", year: 2019, genre: "metal", fr: true, live: true },
+  { title: "South Of Reality", artist: "The Claypool Lennon Delirium", year: 2019, genre: "rock" },
 ];
 
 const data_2020s: MusicalPiece[] = [
@@ -5688,11 +5689,12 @@ const data_2020s: MusicalPiece[] = [
   { title: "Foreign Tongues", artist: "The Rolling Stones", year: 2026, listened: true, genre: "rock" },
   { title: "Frozen Charlotte", artist: "Jack White", year: 2026, listened: true, genre: "rock" },
   { title: "Elipsis", artist: "Elipsis, Michael League, Pedrito Martinez, Antonio Sánchez", year: 2026, listened: true, genre: "world" },
+  { title: "The Great Parrot-Ox and the Golden Egg of Empathy", artist: "The Claypool Lennon Delirium", year: 2026, listened: true, genre: "rock", stars: 1, comment: '"WAP (What a Predicament)"', fav: true },
   { title: "Distracted", artist: "Thundercat", year: 2026 },
-  { title: "The Great Parrot-Ox and the Golden Egg of Empathy", artist: "The Claypool Lennon Delirium", year: 2026 },
   { title: "Kammerkonzert", artist: "Squarepusher", year: 2026 },
   { title: "Dott", artist: "Vulfmon", year: 2026 },
-  { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2026 },
+
+  { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2027 },
 ];
 
 // Concatenation of arrays instead of one big array to avoid the error "expression produces a union type that is too complex to represent"
