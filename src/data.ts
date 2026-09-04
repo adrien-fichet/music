@@ -5583,7 +5583,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "When Demigods Go...", artist: "Evangeline", year: 2024, listened: true, genre: "pop", ep: true },
   { title: "Slice of Life", artist: "Larnell Lewis", year: 2024, listened: true, genre: "jazz", stars: 1 },
   { title: "Mustard n'Onions", artist: "Ghost-Note", year: 2024 },
-  { title: "One Deep River", artist: "Mark Knopfler", year: 2024 },
+  { title: "One Deep River", artist: "Mark Knopfler", year: 2024, listened: true, genre: "rock" },
   { title: "A Dos", artist: "Lau Noah", year: 2024 },
   { title: "=1", artist: "Deep Purple", year: 2024 },
   { title: "Color Within Everything", artist: "cxlt., amies", year: 2024, listened: true, genre: "lofi" },
