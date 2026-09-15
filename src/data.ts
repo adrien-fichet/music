@@ -188,6 +188,7 @@ const data_lt_1940: MusicalPiece[] = [
   { title: "Livery Stable Blues", artist: "Original Dixieland Jass Band", year: 1917, genre: "jazz", single: true, listened: true },
   { title: "Tiger Rag", artist: "Original Dixieland Jass Band", year: 1917, genre: "jazz", standard: true, listened: true },
   { title: "Cello Concerto in E minor, op. 85", artist: "Elgar", year: 1919, listened: true, genre: "classical", fav: true },
+  { title: "Le Tombeau de Couperin", artist: "Ravel", year: 1919, listened: true, genre: "piano", fr: true },
 
   // 1920 +
   { title: "Album des 6", artist: "Le groupe des six (Auric, Durey, Honegger, Milhaud, Poulenc, Tailleferre)", year: 1920, fr: true },
@@ -220,6 +221,7 @@ const data_lt_1940: MusicalPiece[] = [
   { title: "Rétrospective", artist: "Django Reinhardt", year: 1934, genre: "jazz", comment: 'Compilation recorded between 1934 and 1953' },
   { title: "Symphony: Mathis der Maler", artist: "Paul Hindemith", year: 1934 },
   { title: "Cambalache", artist: "Enrique Santos Discépolo", year: 1934, comment: 'tango', single: true },
+  { title: "Avec le Quintette du Hot Club de France", artist: "Django Reinhardt, Stéphane Grappelli", year: 1934, genre: "jazz" },
 
   { title: "Carmina Burana", artist: "Orff", year: 1935, listened: true, genre: "classical" },
   { title: "Summertime", artist: "Gershwin", year: 1935, genre: "jazz", listened: true, standard: true },
@@ -243,6 +245,7 @@ const data_lt_1940: MusicalPiece[] = [
   { title: "I Let a Song Go Out Of My Heart", artist: "Duke Ellington", year: 1938, genre: "jazz", standard: true, listened: true },
   { title: "Live at Carnegie Hall", artist: "Benny Goodman", year: 1938, genre: "jazz", live: true },
   { title: "Heart and Soul", artist: "Hoagy Carmichael, Larry Clinton and his Orchestra", year: 1938, genre: "jazz", standard: true, listened: true, comment: `'the '50s progression (Stand By Me)` },
+  { title: "When the Saints Go Marching In", artist: "Louis Armstrong", year: 1938, genre: "jazz", standard: true, listened: true },
 
   { title: "Djangologie Vol. 9 / 1939-1940", artist: "Django Reinhardt", year: 1939, listened: true, genre: "jazz" },
   { title: "All the Things You Are", artist: "Jerome Kern", year: 1939, genre: "jazz", standard: true, listened: true },
@@ -306,17 +309,17 @@ const data_1940s: MusicalPiece[] = [
   { title: "Birth of the Cool", artist: "Miles Davis", year: 1949, genre: "jazz", comment: 'Compilation released in 1957, recorded between 1949 and 1950', listened: true },
   { title: "Djangology", artist: "Django Reinhardt", year: 1949, genre: "jazz", comment: 'Compilation released in 1961, recorded in 1949' },
   { title: "Symphonie pour un homme seul", artist: "Pierre Schaeffer, Pierre Henry", year: 1949, fr: true, listened: true, genre: "classical", comment: 'musique concrète' },
+  { title: "That Lucky Old Sun (Just Rolls Around Heaven All Day)", artist: "Frankie Laine, Beasley Smith, Haven Gillespie", year: 1949, single: true, listened: true, genre: "folk" },
 ];
 
 const data_1950s: MusicalPiece[] = [
   { title: "Jazz Giant", artist: "Bud Powell", year: 1950, genre: "jazz", listened: true },
-  { title: "The Genius of Bud Powell / Bud Powell's Moods", artist: "Bud Powell", year: 1950, genre: "jazz", comment: 'Originally released in 1956, recorded in 1950 and 1951' },
+  { title: "The Genius of Bud Powell (reissue of Bud Powell's Moods)", artist: "Bud Powell", year: 1950, genre: "jazz", comment: 'Originally released in 1956, recorded in 1950 and 1951', listened: true },
 
   { title: "Dust My Broom", artist: "Elmore James", year: 1951, genre: "blues", single: true, listened: true },
-  { title: "Django Reinhardt and the Hot Club Quintet", artist: "Django Reinhardt", year: 1951, genre: "jazz" },
   { title: "Music of Changes", artist: "John Cage", year: 1951, genre: "piano", listened: true },
   { title: "Rocket 88", artist: "Jackie Brenston and his Delta Cats", year: 1951, genre: "rock-n-roll", single: true, listened: true },
-  { title: "Three O'Clock Blues", artist: "B.B. King", year: 1951, genre: "blues", single: true },
+  { title: "Singin' the Blues", artist: "B.B. King", year: 1951, genre: "blues", listened: true, comment: `compilation released in 1957, recorded from 1951 to 1956, "3 O'Clock Blues", "Woke Up This Morning", "Everyday I Have the Blues", "Sweet Little Angel"` },
 
   { title: "Lullaby of Birdland", artist: "George Shearing", year: 1952, genre: "jazz", standard: true, listened: true },
   { title: "Moonlight in Vermont", artist: "Johnny Smith with Stan Getz", year: 1952, genre: "jazz", comment: 'Compilation released in 1956, recorded between 1952 and 1953' },
@@ -387,7 +390,7 @@ const data_1950s: MusicalPiece[] = [
   { title: "April in Paris: The Genius of Charlie Parker #2", artist: "Charlie Parker", year: 1957, listened: true, genre: "jazz" },
   { title: "Jailhouse Rock", artist: "Elvis Presley", year: 1957, ep: true },
   { title: "Louie Louie", artist: "Richard Berry", year: 1957, listened: true, genre: "rock-n-roll", single: true, comment: 'riff from "El Loco Cha Cha"' },
-  { title: "Brilliant Corners", artist: "Thelonious Monk", year: 1957, genre: "jazz" },
+  { title: "Brilliant Corners", artist: "Thelonious Monk", year: 1957, genre: "jazz", listened: true, stars: 2, fav: true },
   { title: "Johnny Cash with His Hot and Blue Guitar!", artist: "Johnny Cash", year: 1957, comment: '"Rock Island Line", "I Walk the Line", "Folsom Prison Blues"', listened: true, genre: "folk", stars: 1 },
   { title: 'The "Chirping Crickets"', artist: "The Crickets (w/ Buddy Holly)", year: 1957, listened: true, genre: "rock-n-roll", comment: `"That'll Be the Day"` },
   { title: "Earthy", artist: "Kenny Burrell", year: 1957, genre: "jazz" },
@@ -454,16 +457,16 @@ const data_1950s: MusicalPiece[] = [
   { title: "Chet", artist: "Chet Baker", year: 1959, genre: "jazz" },
   { title: "Mongo", artist: "Mongo Santamaria", year: 1959, genre: "world", comment: 'Bongo, "Afro Blue"', listened: true },
   { title: "La Valse à mille temps", artist: "Jacques Brel", year: 1959, listened: true, genre: "chanson", stars: 1 },
-  { title: "Shout!", artist: "The Isley Brothers", year: 1959 },
+  { title: "Shout!", artist: "The Isley Brothers", year: 1959, listened: true, genre: "rock-n-roll", comment: '"Respectable"' },
   { title: "Go Bo Diddley", artist: "Bo Diddley", year: 1959, listened: true, genre: "rock-n-roll", comment: '"Say Man"' },
   { title: "Back in the U.S.A.", artist: "Chuck Berry", year: 1959, single: true, listened: true, genre: "rock-n-roll" },
   { title: "Howling in the Moonlight", artist: "Howlin' Wolf", year: 1959, listened: true, genre: "blues" },
   { title: "Kind of Blue", artist: "Miles Davis", year: 1959, listened: true, genre: "jazz", comment: '"So What", "Freddie Freeloader", "All Blues"', stars: 1 },
   { title: "The Genius of Ray Charles", artist: "Ray Charles", year: 1959, listened: true, genre: "soul" },
-  { title: "Gunfighter Ballads and Trail Songs", artist: "Marty Robbins", year: 1959 },
+  { title: "Gunfighter Ballads and Trail Songs", artist: "Marty Robbins", year: 1959, listened: true, genre: "country", comment: '"El Paso", "Big Iron"' },
   { title: "Ricky Sings Again", artist: "Ricky Nelson", year: 1959, listened: true, genre: "rock-n-roll", comment: '"Lonesome Town"' },
   { title: "Flamingo Serenade", artist: "The Flamingos", year: 1959, listened: true, genre: "soul" },
-  { title: "At the Gate of the Horn", artist: "Memphis Slim", year: 1959, comment: `"Steppin' Out"`, listened: true, genre: "blues" },
+  { title: "At the Gate of the Horn", artist: "Memphis Slim", year: 1959, comment: `"Steppin' Out"`, listened: true, genre: "blues", stars: 1, fav: true },
   { title: "Little Girl Blue", artist: "Nina Simone", year: 1959, comment: '"I loves you, Porgy", "My Baby Just Cares For Me"', listened: true, genre: "jazz", stars: 1 },
   { title: "Berry Is On Top", artist: "Chuck Berry", year: 1959, comment: '"Carol"', genre: "rock-n-roll", listened: true },
 ];
@@ -491,6 +494,7 @@ const data_1960s: MusicalPiece[] = [
   { title: "The Guitar Artistry of Charlie Byrd", artist: "Charlie Byrd", year: 1960, genre: "jazz" },
   { title: "Guitar Groove", artist: "Rene Thomas Quintet", year: 1960, genre: "jazz", listened: true },
   { title: "The Incredible Jazz Guitar of Wes Montgomery", artist: "Wes Montgomery", year: 1960, genre: "jazz" },
+  { title: "Muddy Waters At Newport 1960", artist: "Muddy Waters", year: 1960, live: true, genre: "blues", listened: true, stars: 1 },
 
   { title: "At Last!", artist: "Etta James", year: 1961, listened: true, stars: 1, genre: "blues" },
   { title: "Out of the Cool", artist: "The Gil Evans Orchestra", year: 1961, genre: "jazz" },
@@ -663,7 +667,6 @@ const data_1960s: MusicalPiece[] = [
   { title: "People Get Ready", artist: "The Impressions", year: 1965, listened: true, genre: "soul", comment: 'Curtis Mayfield on vocals' },
   { title: "Treat Her Right", artist: "Roy Head and the Traits", year: 1965 },
   { title: "I've Got a Tiger By the Tail", artist: "Buck Owens and His Buckaroos", year: 1965 },
-  { title: "Muddy Waters At Newport 1960", artist: "Muddy Waters", year: 1965 },
   { title: "More Hits By The Supremes", artist: "The Supremes", year: 1965 },
   { title: "Shotgun", artist: "Jr. Walker & the All Stars", year: 1965, listened: true, genre: "soul" },
   { title: "The Temptations Sing Smokey", artist: "The Temptations", year: 1965, comment: '"My Girl"', listened: true, genre: "soul", fav: true, stars: 2 },
@@ -1607,7 +1610,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Leftoverture", artist: "Kansas", year: 1976, listened: true, genre: "rock", comment: `"Carry On Wayward Son", "What's on My Mind"`, stars: 3, fav: true },
   { title: "Bright Size Life", artist: "Pat Metheny", year: 1976, listened: true, genre: "fusion", comment: 'Jaco Pastorius on bass' },
   { title: "Velvet Darkness", artist: "Allan Holdsworth", year: 1976, listened: true, genre: "fusion" },
-  { title: "The Song Remains the Same", artist: "Led Zeppelin", year: 1976 },
+  { title: "The Song Remains the Same", artist: "Led Zeppelin", year: 1976, live: true },
   { title: "Desire", artist: "Bob Dylan", year: 1976, comment: '"Hurricane"', listened: true, genre: "folk", stars: 1 },
   { title: "No Reason to Cry", artist: "Eric Clapton", year: 1976 },
   { title: "Imaginary Voyage", artist: "Jean-Luc Ponty", year: 1976, genre: "fusion", fr: true },
@@ -2425,7 +2428,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "The Queen Is Dead", artist: "The Smiths", year: 1986 },
   { title: "Graceland", artist: "Paul Simon", year: 1986, listened: true, genre: "world", stars: 2, fav: true },
   { title: "Licensed to Ill", artist: "Beastie Boys", year: 1986 },
-  { title: "OutRun OST", artist: "Hiroshi Kawaguchi", year: 1986, genre: "vgm" },
+  { title: "OutRun OST", artist: "Hiroshi Kawaguchi", year: 1986, genre: "vgm", listened: true },
   { title: "Paryż - Moskwa 17:15 / Odmiana przez osoby", artist: "Obywatel G.C.", year: 1986, single: true, listened: true, genre: "rock" },
   { title: "Jazz from Hell", artist: "Frank Zappa", year: 1986 },
   { title: "Washing Machine", artist: "Mr. Fingers", year: 1986, comment: '"Can You Feel It"' },
@@ -2561,7 +2564,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Live from Austin, TX", artist: "Eric Johnson", year: 1988, live: true, listened: true, genre: "hard-rock", comment: '"Trail of Tears" = "Circles" by Satriani?, "Cliffs of Dover" (influenced Matteo Mancuso)' },
   { title: "Perpetual Burn", artist: "Jason Becker", year: 1988 },
   { title: "Critical Beatdown", artist: "Ultramagnetic MCs", year: 1988 },
-  { title: "If I Should Fall from Grace with God", artist: "The Pogues", year: 1988 },
+  { title: "If I Should Fall from Grace with God", artist: "The Pogues", year: 1988, listened: true, genre: "folk" },
 
   { title: "Bleu Blanc Vert", artist: "Jean-Louis Aubert", year: 1989, fr: true, perso: true, comment: `"Voilà c'est fini", "Univers", "Le Bout du rouleau"`, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Bleach", artist: "Nirvana", year: 1989, genre: "grunge", listened: true, comment: '"About a Girl"' },
@@ -2679,7 +2682,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "En-Tact", artist: "The Shamen", year: 1990, listened: true, genre: "electro" },
   { title: "Ritual De Lo Habitual", artist: "Jane's Addiction", year: 1990, listened: true, genre: "rock", meh: true },
   { title: "No Fences", artist: "Garth Brooks", year: 1990 },
-  { title: "Sentinelles", artist: "Axel Bauer", year: 1990, fr: true },
+  { title: "Sentinelles", artist: "Axel Bauer", year: 1990, fr: true, listened: true, genre: "rock", meh: true, comment: '"Eteins la lumière"' },
   { title: "Heaven or Las Vegas", artist: "Cocteau Twins", year: 1990 },
   { title: "No Prayer for the Dying", artist: "Iron Maiden", year: 1990, listened: true, genre: "hard-rock", meh: true },
   { title: "I Do Not Want What I Haven't Got", artist: "Sinéad O'Connor", year: 1990 },
@@ -3658,6 +3661,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Nightmares on Wax", artist: "Various Artists", year: 2000 },
   { title: "Follow the Reaper", artist: "Children of Bodom", year: 2000, genre: "metal" },
   { title: "Since I Left You", artist: "The Avalanches", year: 2000, listened: true, genre: "funk" },
+  { title: "Frankenstein Girls Will Seem Strangely Sexy", artist: "Mindless Self Indulgence", year: 2000, genre: "punk", comment: '"Bitches", "Dicks Are For My Friends"', listened: true },
 
   { title: "A Funk Odyssey", artist: "Jamiroquai", year: 2001, listened: true, genre: "funk", fav: true, stars: 3 },
   { title: "In Search of...", artist: "N.E.R.D.", year: 2001, listened: true, genre: "rap", comment: 'rap-rock' },
@@ -4035,6 +4039,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Daddy G", artist: "Various Artists", year: 2004 },
   { title: "Le Language Oublié", artist: "Gérard Manset", year: 2004, fr: true },
   { title: "El Ten Eleven", artist: "El Ten Eleven", year: 2004, listened: true, genre: "rock" },
+  { title: "Debout les yeux ouverts", artist: "Sinsémilia", year: 2004, fr: true },
 
   { title: "Dynamite", artist: "Jamiroquai", year: 2005, listened: true, fav: true, stars: 2, genre: "funk" },
   { title: "Mezmerize", artist: "System Of A Down", year: 2005, perso: true, listened: true, genre: "metal", fav: true, stars: 2 },
@@ -4126,6 +4131,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Get Scraped", artist: "Deadmau5", year: 2005, genre: "electro" },
   { title: "DJ-KiCKS: The Glimmers", artist: "Various Artists", year: 2005 },
   { title: "DJ-KiCKS: Annie", artist: "Various Artists", year: 2005 },
+  { title: "You'll Rebel to Anything", artist: "Mindless Self Indulgence", year: 2005, genre: "punk", comment: '"Shut Me Up"' },
 
   { title: "Back to Black", artist: "Amy Winehouse", year: 2006, listened: true, stars: 1, genre: "soul" },
   { title: "Displaced", artist: "Neil Cowley Trio", year: 2006 },
@@ -5334,6 +5340,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "Reknowing", artist: "Lena Raine, Various Artists", year: 2020, listened: true, genre: "electro" },
   { title: "Concrete and Glass", artist: "Nicolas Godin", year: 2020, fr: true },
   { title: "Future Was Like", artist: "Malcolm, Ouai Stéphane, Slowglide", year: 2020, genre: "electro", listened: true, ep: true },
+  { title: "Fuktronic", artist: "Jimmy Urine, Serj Tankian", year: 2020 },
 
   { title: "Zeal", artist: "Bill Laurance", year: 2021, listened: true, stars: 1, genre: "jazz" },
   { title: "Everybody's Going to the Moon", artist: "Jamiroquai", year: 2021, single: true, listened: true, genre: "funk" },
