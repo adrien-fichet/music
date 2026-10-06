@@ -49,4 +49,5 @@
   <li><a href="https://rateyourmusic.com/charts/top/album/all-time/">Rate your music top albums of all time</a></li>
   <li>Rone "100 Favourites" playlist</li>
   <li><a href="https://en.wikipedia.org/wiki/DJ-Kicks">DJ-KiCKS</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Danger_Mouse_discography">Danger Mouse discography/produced albums</a></li>
 </ul>
