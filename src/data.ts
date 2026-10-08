@@ -3368,7 +3368,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Another World", artist: "Brian May", year: 1998, listened: true, genre: "hard-rock" },
   { title: "Witch Doctor", artist: "Cartoons", year: 1998, single: true, listened: true, genre: "pop", comment: "Oo ee Oo aa aa, ting tang, walla walla bing bang", perso: true },
   { title: "Break'n Da Rulz!", artist: "The Jazz Crusaders", year: 1998 },
-  { title: "Panique celtique", artist: "Manau", year: 1998, perso: true, fr: true, genre: "rap", comment: 'Rap celtique, "La Tribu de Dana", "Mais qui est la belette ?"' },
+  { title: "Panique celtique", artist: "Manau", year: 1998, perso: true, fr: true, genre: "rap", comment: 'Rap celtique, "La Tribu de Dana", "Mais qui est la belette ?"', listened: true, stars: 2, fav: true },
   { title: "Flying Dog", artist: "Paul Gilbert", year: 1998, listened: true, genre: "pop", comment: 'Power pop, "Down to Mexico"' },
   { title: "Big Calm", artist: "Morcheeba", year: 1998, listened: true, genre: "trip-hop", stars: 2, fav: true, perso: true },
   { title: "Fantaisie Militaire", artist: "Alain Bashung", year: 1998, listened: true, fr: true, genre: "rock", comment: '"La nuit je mens", "Mes prisons"', stars: 1, fav: true },
@@ -4661,7 +4661,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Intouchables OST", artist: "Ludovico Einaudi", year: 2011, genre: "piano", listened: true },
   { title: "Calcutta (TaxiTaxiTaxi)", artist: "Dr Bombay", year: 2011, genre: "meme", listened: true },
   { title: "Meyrin Fields", artist: "Broken Bells", year: 2011, ep: true },
-  { title: "Rome", artist: "Danger Mouse, Daniele Luppi", year: 2011 },
+  { title: "Rome", artist: "Danger Mouse, Daniele Luppi, Norah Jones, Jack White", year: 2011, listened: true, genre: "soul" },
 
   { title: "Vollmilch", artist: "Vulfpeck", year: 2012, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
   { title: "PANIC", artist: "Caravan Palace", year: 2012, fr: true },
@@ -5322,6 +5322,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "South Of Reality", artist: "The Claypool Lennon Delirium", year: 2019, genre: "rock" },
   { title: "Lux Prima", artist: "Danger Mouse, Karen O", year: 2019 },
   { title: "The Future's Still Ringing In My Ears", artist: "Sam Cohen", year: 2019 },
+  { title: "Nouvelle vague", artist: "Manau", year: 2019, fr: true, genre: "rap", listened: true },
 ];
 
 const data_2020s: MusicalPiece[] = [
