@@ -1,7 +1,6 @@
 <p>Todo:</p>
 <ul>
   <li>More Video Games BGMs from <a href="https://vipvgm.net">VIP Aersia.net</a></li>
-  <li>More John Williams / Hans Zimmer OSTs</li>
   <li>
     More Jazz Standards
     <ul>

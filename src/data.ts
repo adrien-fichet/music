@@ -1543,6 +1543,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Fish Out of Water", artist: "Chris Squire", year: 1975 },
   { title: "Chapter Four: Alive in New York", artist: "Gato Barbieri", year: 1975, live: true },
   { title: "Barry Lyndon OST", artist: "Leonard Rosenman (arrangement), Various Artists", year: 1975 },
+  { title: "Jaws OST", artist: "John Williams", year: 1975 },
 
   { title: "The Royal Scam", artist: "Steely Dan", year: 1976, listened: true, fav: true, perso: true, stars: 3, genre: "rock", comment: '"Kid Charlemagne" guitar solo' },
   { title: "Those Southern Knights", artist: "The Crusaders", year: 1976, listened: true, fav: true, stars: 3, genre: "funk", comment: '"Spiral", "Keep That Same Old Feeling"' },
@@ -1730,6 +1731,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Electrified Funk", artist: "Wild Cherry", year: 1977 },
   { title: "Big Bisou", artist: "Carlos", year: 1977, fr: true, single: true, genre: "chanson" },
   { title: "Hope", artist: "Klaatu", year: 1977, listened: true, genre: "rock", stars: 1, fav: true },
+  { title: "Star Wars OST", artist: "John Williams", year: 1977 },
 
   { title: "Insights", artist: "Toshiko Akiyoshi - Lew Tabackin Big Band", year: 1978, genre: "jazz" },
   { title: "Feels Good to Me", artist: "Bruford", year: 1978, genre: "fusion" },
@@ -1998,6 +2000,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "The River", artist: "Bruce Springsteen", year: 1980 },
   { title: "O Gringo", artist: "Bernard Lavilliers", year: 1980, fr: true, listened: true, genre: "rock", comment: 'rock/salsa/reggae, "Stand the Ghetto", "Kingston"' },
   { title: "I Just Can't Stop It", artist: "The Beat", year: 1980 },
+  { title: "Star Wars V: The Empire Strikes Back OST", artist: "John Williams", year: 1980 },
 
   { title: "Fire of Unknown Origin", artist: "Blue Öyster Cult", year: 1981, listened: true, fav: true, stars: 1, genre: "hard-rock", comment: `"Burnin' For You"` },
   { title: "Word of Mouth", artist: "Jaco Pastorius", year: 1981, genre: "fusion" },
@@ -2079,6 +2082,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Live: Flight Time", artist: "Billy Cobham", year: 1981, live: true },
   { title: "Fabienne Thibeault", artist: "Fabienne Thibeault", year: 1981 },
   { title: "Red Mecca", artist: "Cabaret Voltaire", year: 1981 },
+  { title: "Raiders of the Lost Ark OST", artist: "John Williams", year: 1981 },
 
   { title: "The Nightfly", artist: "Donald Fagen", year: 1982, listened: true, fav: true, stars: 3, genre: "rock" },
   { title: "I.O.U.", artist: "Allan Holdsworth", year: 1982, genre: "fusion" },
@@ -2161,6 +2165,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Observations &", artist: "Billy Cobham's Glass Menagerie", year: 1982 },
   { title: "I Love My Lady", artist: "Johnny Mathis", year: 1982, listened: true, genre: "soul" },
   { title: "Invitation", artist: "Jaco Pastorius", year: 1982, genre: "fusion", live: true, listened: true },
+  { title: "E.T. The Extra-Terrestrial OST", artist: "John Williams", year: 1982 },
 
   { title: "She's So Unusual", artist: "Cyndi Lauper", year: 1983, comment: '"Time After Time", "Girls Just Want to Have Fun"', listened: true, genre: "pop" },
   { title: "Metal Health", artist: "Quiet Riot", year: 1983 },
@@ -2239,6 +2244,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Struggle for Pleasure", artist: "Wim Mertens", year: 1983 },
   { title: "The Ballad of the Fallen", artist: "Charlie Haden", year: 1983, genre: "jazz", listened: true },
   { title: "Balls to the Wall", artist: "Accept", year: 1983, genre: "metal" },
+  { title: "The Big Chill OST", artist: "Various Artists", year: 1983 },
 
   { title: "Purple Rain", artist: "Prince and the Revolution", year: 1984, perso: true },
   { title: "Agent Provocateur", artist: "Foreigner", year: 1984, listened: true, genre: "rock", comment: '"I Wanna Know What Love Is"' },
@@ -2578,6 +2584,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Critical Beatdown", artist: "Ultramagnetic MCs", year: 1988 },
   { title: "If I Should Fall from Grace with God", artist: "The Pogues", year: 1988, listened: true, genre: "folk" },
   { title: "Blue Bell Knoll", artist: "Cocteau Twins", year: 1988 },
+  { title: "Rain Man OST", artist: "Hans Zimmer", year: 1988 },
 
   { title: "Bleu Blanc Vert", artist: "Jean-Louis Aubert", year: 1989, fr: true, perso: true, comment: `"Voilà c'est fini", "Univers", "Le Bout du rouleau"`, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Bleach", artist: "Nirvana", year: 1989, genre: "grunge", listened: true, comment: '"About a Girl"' },
@@ -2859,6 +2866,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Experience", artist: "Prodigy", year: 1992, genre: "electro" },
   { title: "Accelerator", artist: "The Future Sound of London", year: 1992, genre: "electro" },
   { title: "Fous à lier", artist: "Les innocents", year: 1992, fr: true, comment: `"L'Autre Finistère"` },
+  { title: "Singles OST", artist: "Various Artists", year: 1992 },
 
   { title: "Emergency on Planet Earth", artist: "Jamiroquai", year: 1993, listened: true, genre: "funk", stars: 3, fav: true, perso: true, comment: '"Blow Your Mind", "Revolution 1993", Cabal Online bg music' },
   { title: "Blue Light 'til Dawn", artist: "Cassandra Wilson", year: 1993, genre: "jazz" },
@@ -3793,6 +3801,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "The Battle of the Ivory Plains", artist: "Dragonland", year: 2001, genre: "metal" },
   { title: "Run Come Save Me", artist: "Roots Manuva", year: 2001, genre: "rap", comment: '"Witness (1 Hope)" / "Witness the Fitness"' },
   { title: "The Argument", artist: "Fugazi", year: 2001, listened: true, genre: "punk", comment: "Zzz x3" },
+  { title: "Harry Potter and the Philosopher's Stone OST", artist: "John Williams", year: 2001 },
 
   { title: "Purple Onion", artist: "Colonel Les Claypool's Fearless Flying Frog Brigade", year: 2002 },
   { title: "Trio Sud", artist: "Sylvain Luc", year: 2002, fr: true, genre: "jazz" },
@@ -4948,6 +4957,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "After the Disco", artist: "Broken Bells", year: 2014, listened: true, genre: "pop", stars: 1 },
   { title: "Turn Blue", artist: "The Black Keys", year: 2014 },
   { title: "Songs Of Innocence", artist: "U2", year: 2014 },
+  { title: "Interstellar OST", artist: "Hans Zimmer", year: 2014 },
 
   { title: "To Pimp a Butterfly", artist: "Kendrick Lamar", year: 2015, comment: '"King Kunta" w/ Thundercat on bass, "Alright", "i"', genre: "rap", listened: true, stars: 2, fav: true },
   { title: "Carrie & Lowell", artist: "Sufjan Stevens", year: 2015, genre: "folk", listened: true, stars: 2, fav: true, comment: '"Should Have Known Better"' },
@@ -5503,6 +5513,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Disclosure", artist: "Various Artists", year: 2021 },
   { title: "DJ-KiCKS: Jessy Lanza", artist: "Various Artists", year: 2021 },
   { title: "Iphigenia", artist: "Wayne Shorter, Esperanza Spalding", year: 2021 },
+  { title: "Dune OST", artist: "Hans Zimmer", year: 2021 },
 
   { title: "The Fearless Flyers III", artist: "The Fearless Flyers", year: 2022, listened: true, stars: 1, genre: "funk", fav: true, ep: true },
   { title: "Return", artist: "Lydian Collective", year: 2022, listened: true, genre: "jazz", stars: 1, fav: true },
