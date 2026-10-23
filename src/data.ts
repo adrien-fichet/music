@@ -1365,6 +1365,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Still and Moving Lines of Silence in Families of Hyperbolas", artist: "Alvin Lucier", year: 1973 },
   { title: "Pillow Talk", artist: "Sylvia", year: 1973 },
   { title: "Under The Influence of...", artist: "Love Unlimited", year: 1973, comment: `"Love's Theme"` },
+  { title: "Glitter", artist: "Gary Glitter", year: 1973 },
 
   { title: "Pretzel Logic", artist: "Steely Dan", year: 1974, listened: true, fav: true, stars: 1, genre: "rock", comment: `"Rikki Don't Lose That Number", "Night By Night", "Any Major Dude Will Tell You"` },
   { title: "Red", artist: "King Crimson", year: 1974, listened: true, genre: "rock" },
@@ -2767,9 +2768,9 @@ const data_1990s: MusicalPiece[] = [
   { title: "Woodface", artist: "Crowded House", year: 1991 },
   { title: "Arise", artist: "Sepultura", year: 1991, listened: true, genre: "metal", stars: 1 },
   { title: "Spiderland", artist: "Slint", year: 1991 },
-  { title: "Out of Time", artist: "R.E.M.", year: 1991, comment: '"Losing My Religion"' },
+  { title: "Out of Time", artist: "R.E.M.", year: 1991, comment: '"Radio Song", "Losing My Religion", "Shiny Happy People", "Texarkana" bass line', genre: "rock", listened: true, stars: 2, fav: true },
   { title: "Bandwagonesque", artist: "Teenage Fanclub", year: 1991 },
-  { title: "The White Room", artist: "The KLF", year: 1991 },
+  { title: "The White Room", artist: "The KLF", year: 1991, listened: true, genre: "electro", stars: 1, comment: '"What Time Is Love?"' },
   { title: "Apocalypse 91... The Enemy Strikes Black", artist: "Public Enemy", year: 1991, comment: '"Bring tha Noize" (feat. Anthrax)' },
   { title: "Every Good Boy Deserves Fudge", artist: "Mudhoney", year: 1991, listened: true, genre: "grunge" },
   { title: "Rising Above Bedlam", artist: "Jah Wobble's Invaders of the Heart", year: 1991 },
@@ -3227,7 +3228,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Repetition", artist: "Unwound", year: 1996, genre: "punk" },
   { title: "The Divine Wings of Tragedy", artist: "Symphony X", year: 1996, genre: "metal" },
   { title: "Advance", artist: "LFO", year: 1996, genre: "electro" },
-  { title: "Book of Shadows", artist: "Zakk Wylde", year: 1996, genre: "metal" },
+  { title: "Book of Shadows", artist: "Zakk Wylde", year: 1996, genre: "rock", listened: true },
 
   { title: "The Desmond Project", artist: "The John Basile Quartet", year: 1997, genre: "jazz" },
   { title: "Beyond the Missouri Sky (Short Stories)", artist: "Pat Metheny and Charlie Haden", year: 1997, genre: "jazz" },
@@ -3454,8 +3455,8 @@ const data_1990s: MusicalPiece[] = [
   { title: "The Race of a Thousand Camels (Twilight)", artist: "Bôa", year: 1998, comment: '"Duvet"' },
   { title: "The Legend of Zelda: Ocarina of Time OST", artist: "Koji Kondo", year: 1998, genre: "vgm", listened: true, stars: 1, fav: true, comment: '"Gerudo Valley"' },
   { title: "Wormhole", artist: "Ed Rush & Optical", year: 1998, genre: "electro", comment: 'neurofunk' },
-  { title: "Sonic Brew", artist: "Black Label Society", year: 1998, genre: "metal" },
-  { title: "Mechanical Animals", artist: "Marilyn Manson", year: 1998, genre: "metal" },
+  { title: "Sonic Brew", artist: "Black Label Society", year: 1998, genre: "hard-rock", listened: true },
+  { title: "Mechanical Animals", artist: "Marilyn Manson", year: 1998, genre: "metal", listened: true, comment: `"Rock Is Dead" (David Blaine's Street Magic)` },
 
   { title: "Synkronized", artist: "Jamiroquai", year: 1999, listened: true, genre: "funk", stars: 3, fav: true, comment: '"Canned Heat", "Black Capicorn Day", "Soul Education", "Supersonic", "King For A Day", "Deeper Underground"' },
   { title: "We Are! (ウィーアー！)", artist: "Hiroshi Kitadani", year: 1999, listened: true, genre: "pop", comment: "Opening 1 of One Piece", stars: 1, fav: true },
@@ -5716,6 +5717,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "Songs of a Lost World", artist: "The Cure", year: 2024 },
   { title: "Brat", artist: "Charli xcx", year: 2024 },
   { title: "Hit Me Hard and Soft", artist: "Billie Eilish", year: 2024 },
+  { title: "The Last Descent", artist: "Virtua", year: 2024, listened: true, genre: "lofi" },
 
   { title: "In Your Eyes", artist: "Tom Doolie", year: 2025, genre: "lofi", listened: true },
   { title: "holding space", artist: "azayaka", year: 2025, genre: "lofi", listened: true },
