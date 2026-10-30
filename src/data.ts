@@ -399,7 +399,7 @@ const data_1950s: MusicalPiece[] = [
   { title: "Earthy", artist: "Kenny Burrell", year: 1957, genre: "jazz" },
   { title: "Palo Congo", artist: "Sabu", year: 1957 },
   { title: "Art Pepper Meets the Rhythm Section", artist: "Art Pepper", year: 1957, genre: "jazz" },
-  { title: "Funky", artist: "Gene Ammons", year: 1957 },
+  { title: "Funky", artist: "Gene Ammons", year: 1957, listened: true, genre: "jazz", stars: 1 },
   { title: "The Jazz Workshop", artist: "George Russell", year: 1957, genre: "jazz" },
   { title: "Afternoon in Paris", artist: "John Lewis & Sacha Distel", year: 1957, genre: "jazz" },
   { title: "Saxophone Colossus", artist: "Sonny Rollins", year: 1957, genre: "jazz" },
@@ -1093,6 +1093,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "The Aristocats OST", artist: "George Bruns, Various Artists", year: 1970, comment: `"Ev'rybody Wants to Be a Cat"` },
   { title: "ABC", artist: "The Jackson 5", year: 1970, comment: 'cf The Corporation', genre: "pop", listened: true },
   { title: "Everything Is Everything", artist: "Donny Hathaway", year: 1970, comment: '"The Ghetto"' },
+  { title: "The Aristocats OST", artist: "George Bruns, Terry Gilkyson, the Sherman Brothers", year: 1970, genre: "jazz", listened: true },
 
   { title: "Led Zeppelin IV", artist: "Led Zeppelin", year: 1971, perso: true, genre: "hard-rock", listened: true, stars: 4, fav: true, comment: '"Black Dog", "Rock and Roll", "The Battle of Evermore", "Stairway to Heaven", "Going to California", "When the Levee Breaks"' },
   { title: "Energy", artist: "Jeremy Steig", year: 1971, genre: "fusion" },
@@ -1285,7 +1286,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Sahara", artist: "McCoy Tyner", year: 1973, genre: "jazz" },
   { title: "Alone Together", artist: "Jim Hall, Ron Carter", year: 1973, genre: "jazz", live: true },
   { title: "Spectrum", artist: "Billy Cobham", year: 1973, genre: "fusion" },
-  { title: "Message personnel", artist: "Françoise Hardy", year: 1973, genre: "chanson", fr: true },
+  { title: "Message personnel", artist: "Françoise Hardy", year: 1973, genre: "chanson", fr: true, listened: true, comment: '"Première rencontre" / title track composed/produced by Michel Berger', stars: 2, fav: true },
   { title: "Les Paradis perdus", artist: "Christophe", year: 1973, fr: true },
   { title: "Insolitudes", artist: "Johnny Hallyday", year: 1973, fr: true },
   { title: "Mekanïk Destruktïw Kommandöh", artist: "Magma", year: 1973, fr: true, listened: true, genre: "rock" },
@@ -1914,6 +1915,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Moskau", artist: "Dschinghis Khan", year: 1979, genre: "meme", listened: true },
   { title: "La Rue, l'Ecole, le Square", artist: "Anne Sylvestre", year: 1979, fr: true, genre: "chanson", listened: true },
   { title: "Only the Wild Survive", artist: "Wild Cherry", year: 1979 },
+  { title: "20 Jazz Funk Greats", artist: "Throbbing Gristle", year: 1979, comment: 'Beachy Head album cover' },
 ];
 
 const data_1980s: MusicalPiece[] = [
@@ -2315,6 +2317,8 @@ const data_1980s: MusicalPiece[] = [
   { title: "You, Me and He", artist: "Mtume", year: 1984, listened: true, genre: "funk" },
   { title: "Run-D.M.C.", artist: "Run-D.M.C.", year: 1984, listened: true, genre: "rap", comment: `"It's Like That"` },
   { title: "Tubes à boum", artist: "Carlos", year: 1984, fr: true, genre: "chanson", comment: '"Papayou"' },
+  { title: "Against All Odds OST", artist: "Various Artists", year: 1984, comment: '"Against All Odds (Take a Look at Me Now)" by Phil Collins' },
+  { title: "Scatology", artist: "Coil", year: 1984 },
 
   { title: "Freaky Styley", artist: "Red Hot Chili Peppers", year: 1985, listened: true, genre: "funk", stars: 1, fav: true },
   { title: "Hounds of Love", artist: "Kate Bush", year: 1985, comment: '"Running Up That Hill"' },
@@ -2468,7 +2472,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Tango in the Night", artist: "Fleetwood Mac", year: 1987, comment: 'Todd Howard "Little Lies"', listened: true, genre: "rock" },
   { title: "Kick", artist: "INXS", year: 1987, listened: true, stars: 1, genre: "pop", comment: '"Need You Tonight"' },
   { title: "Sign O' the Times", artist: "Prince", year: 1987, listened: true, genre: "pop", comment: 'Double album, "Housequake" --> "Shut up already, damn" sample' },
-  { title: "Hysteria", artist: "Def Leppard", year: 1987 },
+  { title: "Hysteria", artist: "Def Leppard", year: 1987, comment: '"Love Bites"' },
   { title: "Tribute", artist: "Ozzy Osbourne", year: 1987, live: true, genre: "hard-rock", comment: '(tribute to Randy Rhoads) "Flying High Again", "Dee"', listened: true, stars: 1 },
   { title: "Among The Living", artist: "Anthrax", year: 1987, listened: true, genre: "metal" },
   { title: "Diesel and Dust", artist: "Midnight Oil", year: 1987 },
@@ -4807,7 +4811,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Etudes for Solo Piano, Book 2: n° 11-20", artist: "Philip Glass", year: 2012, genre: "piano", comment: '"Etude n° 20"' },
   { title: "Mondo", artist: "Electric Guest", year: 2012 },
   { title: "Little Broken Hearts", artist: "Norah Jones", year: 2012 },
-  { title: "Rapattitude", artist: "Various Artists", year: 2012, fr: true, genre: "rap", comment: 'Réédition augmentée de la compilation de 1990' },
+  { title: "Rapattitude (2)", artist: "Various Artists", year: 2012, fr: true, genre: "rap", comment: 'Réédition augmentée de la compilation de 1990' },
   { title: "Pluto", artist: "Future", year: 2012 },
 
   { title: "My First Car", artist: "Vulfpeck", year: 2013, listened: true, genre: "funk", fav: true, stars: 1, ep: true, comment: '"The Speedwalker"' },
@@ -4992,6 +4996,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Interstellar OST", artist: "Hans Zimmer", year: 2014 },
   { title: "L'Art raffiné de l'ecchymose", artist: "Lucio Bukowski, Nestor Kéa", year: 2014, genre: "rap", fr: true },
   { title: "Under Pressure", artist: "Logic", year: 2014, genre: "rap" },
+  { title: "Odyssey", artist: "Home", year: 2014, genre: "electro", listened: true },
 
   { title: "To Pimp a Butterfly", artist: "Kendrick Lamar", year: 2015, comment: '"King Kunta" w/ Thundercat on bass, "Alright", "i"', genre: "rap", listened: true, stars: 2, fav: true },
   { title: "Carrie & Lowell", artist: "Sufjan Stevens", year: 2015, genre: "folk", listened: true, stars: 2, fav: true, comment: '"Should Have Known Better"' },
@@ -5079,7 +5084,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "All We Need", artist: "Raury", year: 2015 },
   { title: "25", artist: "Adele", year: 2015 },
   { title: "Que la famille", artist: "PNL", year: 2015, fr: true, genre: "rap", ep: true, listened: true, stars: 1, comment: `"J'comprends pas"` },
-  { title: "Le Monde Chico", artist: "PNL", year: 2015, fr: true, genre: "rap", listened: true, stars: 1, fav: true },
+  { title: "Le Monde Chico", artist: "PNL", year: 2015, fr: true, genre: "rap", listened: true, stars: 1 },
   { title: "Bleu Noir", artist: "Georgio", year: 2015, fr: true, genre: "rap" },
   { title: "Feu", artist: "Nekfeu", year: 2015, fr: true, genre: "rap" },
   { title: "Bikrav Tour (La compilation)", artist: "Juicy P", year: 2015, fr: true, genre: "rap" },
@@ -5165,7 +5170,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Wildflower", artist: "The Avalanches", year: 2016 },
   { title: "The Divine Feminine", artist: "Mac Miller", year: 2016, genre: "rap" },
   { title: "Love & Hate", artist: "Michael Kiwanuka", year: 2016 },
-  { title: "Dans la légende", artist: "PNL", year: 2016, fr: true, genre: "rap" },
+  { title: "Dans la légende", artist: "PNL", year: 2016, fr: true, genre: "rap", listened: true },
   { title: "444 Nuits", artist: "Nepal", year: 2016, fr: true, genre: "rap", ep: true },
   { title: "Cyborg", artist: "Nekfeu", year: 2016, fr: true, genre: "rap" },
 
@@ -5397,7 +5402,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Lux Prima", artist: "Danger Mouse, Karen O", year: 2019 },
   { title: "The Future's Still Ringing In My Ears", artist: "Sam Cohen", year: 2019 },
   { title: "Nouvelle vague", artist: "Manau", year: 2019, fr: true, genre: "rap", listened: true },
-  { title: "Deux frères", artist: "PNL", year: 2019, fr: true, genre: "rap" },
+  { title: "Deux frères", artist: "PNL", year: 2019, fr: true, genre: "rap", listened: true, comment: '"Chang"' },
 ];
 
 const data_2020s: MusicalPiece[] = [
@@ -5699,6 +5704,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "Born Again", artist: "Danger Mouse, Gemini", year: 2023 },
   { title: "Hackney Diamonds", artist: "The Rolling Stones", year: 2023 },
   { title: "For That Beautiful Feeling", artist: "The Chemical Brothers", year: 2023 },
+  { title: "Gaza", artist: "PNL", year: 2023, single: true, fr: true, genre: "rap", listened: true },
 
   { title: "The Fearless Flyers IV", artist: "The Fearless Flyers", year: 2024, ep: true, listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Loss of Life", artist: "MGMT", year: 2024, listened: true, genre: "pop" },
@@ -5878,10 +5884,12 @@ const data_2020s: MusicalPiece[] = [
   { title: "Wuthering Heights", artist: "Charlie xcx", year: 2026 },
   { title: "Kammerkonzert", artist: "Squarepusher", year: 2026 },
   { title: "Lost In the Wonder", artist: "Cory Wong", year: 2026 },
+  { title: "Denshattack! OST", artist: "Various Artists", year: 2026, genre: "vgm" },
   { title: "Dott", artist: "Vulfmon", year: 2026 },
   { title: "GTA 6: the Album", artist: "Various Artists", year: 2026 },
   { title: "GTA 6 OST", artist: "Justice", year: 2026, fr: true },
   { title: "Close to the Giants", artist: "French 79", year: 2026, fr: true },
+  { title: "Close to Home", artist: "Bill Laurance, Michael League", year: 2026 },
 
   { title: "The Heels of Steel (?)", artist: "Jamiroquai", year: 2027 },
 ];
