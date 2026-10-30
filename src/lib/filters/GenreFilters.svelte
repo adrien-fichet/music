@@ -22,13 +22,13 @@
   <br />
   <GenreFilter genre="punk" />
   <GenreFilter genre="metal" />
+  <GenreFilter genre="grunge" />
   <GenreFilter genre="country" />
   <br />
   <GenreFilter genre="soul" />
   <GenreFilter genre="trip-hop" />
   <GenreFilter genre="pop" />
   <GenreFilter genre="funk" />
-  <GenreFilter genre="grunge" />
   <br />
   <GenreFilter genre="jazz" />
   <GenreFilter genre="disco" />

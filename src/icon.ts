@@ -10,13 +10,13 @@ export class Icon {
       case "rock-n-roll":
       case "punk":
       case "metal":
+      case "grunge":
       case "country":
         return "▲";
       case "soul":
       case "trip-hop":
       case "pop":
       case "funk":
-      case "grunge":
         return "⬣";
       case "jazz":
       case "disco":
