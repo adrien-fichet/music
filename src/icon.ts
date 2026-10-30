@@ -9,7 +9,6 @@ export class Icon {
       case "hard-rock":
       case "rock-n-roll":
       case "punk":
-      case "synth":
       case "metal":
       case "country":
         return "▲";

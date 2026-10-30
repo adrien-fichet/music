@@ -21,7 +21,6 @@
   <GenreFilter genre="rock-n-roll" />
   <br />
   <GenreFilter genre="punk" />
-  <GenreFilter genre="synth" />
   <GenreFilter genre="metal" />
   <GenreFilter genre="country" />
   <br />

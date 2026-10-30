@@ -3,7 +3,6 @@ export type Genre =
   | "hard-rock"
   | "rock-n-roll"
   | "punk"
-  | "synth"
   | "metal"
   | "country"
   | "soul"
