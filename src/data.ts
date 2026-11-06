@@ -3607,6 +3607,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Ecliptica", artist: "Sonata Arctica", year: 1999, genre: "metal" },
   { title: "The Chilling Effect Original Motion Picture Score", artist: "Pelican City", year: 1999 },
   { title: "La Cliqua", artist: "La Cliqua", year: 1999, fr: true, genre: "rap" },
+  { title: "Operation: Doomsday", artist: "MF Doom", year: 1999, genre: "rap" },
 ];
 
 const data_2000s: MusicalPiece[] = [
@@ -4018,6 +4019,8 @@ const data_2000s: MusicalPiece[] = [
   { title: "Gravé dans la roche", artist: "Sniper", year: 2003, genre: "rap", fr: true },
   { title: "Ghetto Pop Life", artist: "Danger Mouse, Gemini", year: 2003 },
   { title: "The Golden Age of Grotesque", artist: "Marilyn Manson", year: 2003, genre: "metal", perso: true },
+  { title: "Take Me to Your Leader", artist: "King Geedorah (MF Doom)", year: 2003, genre: "rap" },
+  { title: "Vaudeville Villain", artist: "Viktor Vaughn (MF Doom)", year: 2003, genre: "rap" },
 
   { title: "Symphony of Enchanted Lands II (The Dark Secret)", artist: "Rhapsody of Fire", year: 2004, listened: true, perso: true, genre: "metal", stars: 1, comment: '"Unholy Warcry"' },
   { title: "Bill's Break", artist: "Krazy Baldhead", year: 2004, ep: true, fr: true, genre: "electro" },
@@ -4027,6 +4030,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Scissors in My Pocket", artist: "Polly Paulusma", year: 2004 },
   { title: "True Story", artist: "Terror Squad", year: 2004, genre: "rap", comment: '"Lean Back"' },
   { title: "The College Dropout", artist: "Kanye West", year: 2004, genre: "rap" },
+  { title: "VV:2", artist: "Viktor Vaughn (MF Doom)", year: 2004, genre: "rap" },
   { title: "Mm..Food", artist: "MF Doom", year: 2004, genre: "rap" },
   { title: "Ultravisitor", artist: "Squarepusher", year: 2004, genre: "electro" },
   { title: "Mexican Spaghetti Western", artist: "Chigon", year: 2004, comment: '"Malagueña Salerosa"' },
@@ -4090,7 +4094,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Back to Bedlam", artist: "James Blunt", year: 2004 },
   { title: "Once", artist: "Nightwish", year: 2004 },
   { title: "Barrio Fino", artist: "Daddy Yankee", year: 2004, listened: true, genre: "rap", meh: true, comment: '"Gasolina"' },
-  { title: "Madvillainy", artist: "Madvillain", year: 2004, listened: true, genre: "rap", stars: 1 },
+  { title: "Madvillainy", artist: "Madvillain (Madlib, MF Doom)", year: 2004, listened: true, genre: "rap", stars: 1 },
   { title: "Funeral", artist: "Arcade Fire", year: 2004 },
   { title: "American Idiot", artist: "Green Day", year: 2004, listened: true, perso: true, genre: "punk", stars: 1, fav: true },
   { title: "The Grey Album", artist: "Danger Mouse", year: 2004 },
@@ -4207,7 +4211,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Annie", artist: "Various Artists", year: 2005 },
   { title: "You'll Rebel to Anything", artist: "Mindless Self Indulgence", year: 2005, genre: "punk", comment: '"Shut Me Up"' },
   { title: "Multiplicity", artist: "Dave Weckl Band", year: 2005 },
-  { title: "The Mouse and the Mask", artist: "Danger Doom", year: 2005 },
+  { title: "The Mouse and the Mask", artist: "Danger Doom (Danger Mouse, MF Doom)", year: 2005, genre: "rap" },
   { title: "Fear of a Black Tangent", artist: "Busdriver", year: 2005 },
   { title: "Out of Exile", artist: "Audioslave", year: 2005 },
 
@@ -4550,6 +4554,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "DJ-KiCKS: Chromeo", artist: "Various Artists", year: 2009 },
   { title: "Historicity", artist: "Vijay Iyer", year: 2009, genre: "jazz", listened: true },
   { title: "The Last Laugh", artist: "Joker's Daughter", year: 2009, listened: true, genre: "folk" },
+  { title: "Born Like This", artist: "Doom (MF Doom)", year: 2009, genre: "rap" },
 ];
 
 const data_2010s: MusicalPiece[] = [
