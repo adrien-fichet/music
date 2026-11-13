@@ -213,6 +213,7 @@ const data_lt_1940: MusicalPiece[] = [
   { title: "I Wanna Be Loved by You", artist: "Herbert Stothart & Harry Ruby", year: 1928, single: true, listened: true, genre: "jazz" },
   { title: "St. James Infirmary", artist: "Louis Armstrong / Don Redman", year: 1928, genre: "blues", standard: true, listened: true },
   { title: "Nobody Knows You When You're Down and Out", artist: "Jimmie Cox / Bessie Smith", year: 1929, genre: "blues", standard: true, listened: true },
+  { title: "Rollin' and Tumblin' (Roll and Tumble Blues)", artist: "Hambone Willie Newbern", year: 1929, genre: "blues", standard: true },
 
   // 1930 +
   { title: 'Symphonie n° 2 en ré bémol majeur, "Romantique", op. 30, W45', artist: "Howard Hanson", year: 1930 },
@@ -907,6 +908,7 @@ const data_1960s: MusicalPiece[] = [
   { title: "Pendulum Music", artist: "Steve Reich", year: 1968 },
   { title: "The Champ", artist: "The Mohawks", year: 1968 },
   { title: "The Blue Yusef Lateef", artist: "Yusef Lateef", year: 1968 },
+  { title: "The Progressive Blues Experiment", artist: "Johnny Winter", year: 1968, genre: "blues" },
 
   { title: "In the Court of the Crimson King", artist: "King Crimson", year: 1969, genre: "rock", comment: '"21st Century Schizoid Man"' },
   { title: "A Jackson in Your House", artist: "Art Ensemble of Chicago", year: 1969, genre: "jazz", listened: true, meh: true },
@@ -1639,6 +1641,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Glow", artist: "Al Jarreau", year: 1976 },
   { title: "Troubadour", artist: "JJ Cale", year: 1976 },
   { title: "3:47 EST", artist: "Klaatu", year: 1976, listened: true, genre: "rock", stars: 1, fav: true },
+  { title: "Year of the Cat", artist: "Al Stewart", year: 1976 },
 
   { title: "Aja", artist: "Steely Dan", year: 1977, listened: true, fav: true, stars: 4, genre: "rock", comment: 'engineered by Roger Nichols, Bill Schnee, Elliott Scheiner, Al Schmitt. Mastered by Bernie Grundman' },
   { title: "Elegant Gypsy", artist: "Al Di Meola", year: 1977, genre: "fusion", listened: true, stars: 3, fav: true },
@@ -2004,6 +2007,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "O Gringo", artist: "Bernard Lavilliers", year: 1980, fr: true, listened: true, genre: "rock", comment: 'rock/salsa/reggae, "Stand the Ghetto", "Kingston"' },
   { title: "I Just Can't Stop It", artist: "The Beat", year: 1980 },
   { title: "Star Wars V: The Empire Strikes Back OST", artist: "John Williams", year: 1980 },
+  { title: "The Turn of a Friendly Card", artist: "The Alan Parsons Project", year: 1980 },
 
   { title: "Fire of Unknown Origin", artist: "Blue Öyster Cult", year: 1981, listened: true, fav: true, stars: 1, genre: "hard-rock", comment: `"Burnin' For You"` },
   { title: "Word of Mouth", artist: "Jaco Pastorius", year: 1981, genre: "fusion" },
@@ -2320,6 +2324,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Tubes à boum", artist: "Carlos", year: 1984, fr: true, genre: "chanson", comment: '"Papayou"' },
   { title: "Against All Odds OST", artist: "Various Artists", year: 1984, comment: '"Against All Odds (Take a Look at Me Now)" by Phil Collins' },
   { title: "Scatology", artist: "Coil", year: 1984 },
+  { title: "Body and Soul", artist: "Joe Jackson", year: 1984 },
 
   { title: "Freaky Styley", artist: "Red Hot Chili Peppers", year: 1985, listened: true, genre: "funk", stars: 1, fav: true },
   { title: "Hounds of Love", artist: "Kate Bush", year: 1985, comment: '"Running Up That Hill"' },
@@ -2386,6 +2391,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Promise", artist: "Sade", year: 1985 },
   { title: "Unis vers l'uni", artist: "Michel Jonasz", year: 1985, fr: true },
   { title: "Études pour piano, Livre 1", artist: "Ligeti", year: 1985, genre: "piano" },
+  { title: "Slave to the Rhythm", artist: "Grace Jones", year: 1985 },
 
   { title: "Master Of Puppets", artist: "Metallica", year: 1986, listened: true, fav: true, stars: 2, genre: "metal", comment: '"Battery", "Welcome Home (Sanitarium)"' },
   { title: "Song X", artist: "Pat Metheny and Ornette Coleman", year: 1986, genre: "jazz" },
@@ -2590,6 +2596,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "If I Should Fall from Grace with God", artist: "The Pogues", year: 1988, listened: true, genre: "folk" },
   { title: "Blue Bell Knoll", artist: "Cocteau Twins", year: 1988 },
   { title: "Rain Man OST", artist: "Hans Zimmer", year: 1988 },
+  { title: "Spirit of Eden", artist: "Talk Talk", year: 1988 },
 
   { title: "Bleu Blanc Vert", artist: "Jean-Louis Aubert", year: 1989, fr: true, perso: true, comment: `"Voilà c'est fini", "Univers", "Le Bout du rouleau"`, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Bleach", artist: "Nirvana", year: 1989, genre: "grunge", listened: true, comment: '"About a Girl"' },
@@ -2655,6 +2662,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "Wrong", artist: "Nomeansno", year: 1989 },
   { title: "Paradise (Big Fun)", artist: "Inner City", year: 1989, comment: '"Good Life"' },
   { title: "Le Grand Bleu OST", artist: "Eric Serra", year: 1989, fr: true, listened: true, genre: "pop" },
+  { title: "The Seeds of Love", artist: "Tears for Fears", year: 1989 },
 ];
 
 const data_1990s: MusicalPiece[] = [
@@ -2874,6 +2882,7 @@ const data_1990s: MusicalPiece[] = [
   { title: "Fous à lier", artist: "Les innocents", year: 1992, fr: true, comment: `"L'Autre Finistère"` },
   { title: "Singles OST", artist: "Various Artists", year: 1992 },
   { title: "Pieces of Africa", artist: "Kronos Quartet", year: 1992 },
+  { title: "Amused to Death", artist: "Roger Waters", year: 1992 },
 
   { title: "Emergency on Planet Earth", artist: "Jamiroquai", year: 1993, listened: true, genre: "funk", stars: 3, fav: true, perso: true, comment: '"Blow Your Mind", "Revolution 1993", Cabal Online bg music' },
   { title: "Blue Light 'til Dawn", artist: "Cassandra Wilson", year: 1993, genre: "jazz" },
@@ -3662,7 +3671,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Figure 8", artist: "Elliott Smith", year: 2000, listened: true, genre: "rock", stars: 1 },
   { title: "All That You Can't Leave Behind", artist: "U2", year: 2000, listened: true, genre: "pop", comment: '"Beautiful Day"' },
   { title: "Chocolate Starfish and the Hot Dog Flavored Water", artist: "Limp Bizkit", year: 2000 },
-  { title: "Red Dirt Girl", artist: "Emmylou Harris", year: 2000 },
+  { title: "Red Dirt Girl", artist: "Emmylou Harris", year: 2000, listened: true, genre: "country" },
   { title: "Sincere", artist: "MJ Cole", year: 2000, listened: true, genre: "electro" },
   { title: "Tanto Tempo", artist: "Bebel Gilberto", year: 2000, listened: true, genre: "jazz", comment: "Brazilian bossa nova", stars: 1 },
   { title: "Lost Souls", artist: "Doves", year: 2000, listened: true, meh: true, genre: "rock" },
@@ -3866,7 +3875,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Simply Deep", artist: "Kelly Rowland", year: 2002, genre: "r-n-b" },
   { title: "So Much Love To Give", artist: "Together (DJ Falcon & Thomas Bangalter)", year: 2002, fr: true, single: true, listened: true, genre: "electro" },
   { title: "This Is Me... Then", artist: "Jennifer Lopez", year: 2002, comment: '"Jenny From the Block"', genre: "r-n-b" },
-  { title: "Justified", artist: "Justin Timberlake", year: 2002, genre: "r-n-b", comment: '"Rock Your Body"' },
+  { title: "Justified", artist: "Justin Timberlake", year: 2002, genre: "r-n-b", comment: '"Rock Your Body", "Cry Me a River"', listened: true },
   { title: "Maladroit", artist: "Weezer", year: 2002 },
   { title: "Songs About Jane", artist: "Maroon 5", year: 2002, listened: true, genre: "rock", meh: true },
   { title: "Stripped", artist: "Christina Aguilera", year: 2002, listened: true, genre: "r-n-b", meh: true },
@@ -4025,7 +4034,7 @@ const data_2000s: MusicalPiece[] = [
 
   { title: "Symphony of Enchanted Lands II (The Dark Secret)", artist: "Rhapsody of Fire", year: 2004, listened: true, perso: true, genre: "metal", stars: 1, comment: '"Unholy Warcry"' },
   { title: "Bill's Break", artist: "Krazy Baldhead", year: 2004, ep: true, fr: true, genre: "electro" },
-  { title: "Me and Mr. Johnson", artist: "Eric Clapton", year: 2004 },
+  { title: "Me and Mr. Johnson", artist: "Eric Clapton", year: 2004, listened: true, genre: "blues", comment: `covers of songs by Robert Johnson, "If I Had Possession Over Judgement Day" (Rollin' and Tumblin')` },
   { title: "Collision Course", artist: "Jay-Z, Linkin Park", year: 2004, comment: 'mashup', ep: true },
   { title: "You Are Here", artist: "UFO", year: 2004, comment: 'Vinnie Moore on guitar', genre: "hard-rock" },
   { title: "Scissors in My Pocket", artist: "Polly Paulusma", year: 2004 },
@@ -4464,7 +4473,7 @@ const data_2000s: MusicalPiece[] = [
   { title: "Scars on Broadway", artist: "Scars on Broadway", year: 2008 },
   { title: "Motherfucking Bass (Popof remix #1)", artist: "DJ Rush, Popof", year: 2008, genre: "electro", single: true, listened: true, stars: 1, comment: 'T:Classixx' },
   { title: "Next of Kin", artist: "Surkin", year: 2008, ep: true, genre: "electro", fr: true, listened: true },
-  { title: "Tonight", artist: "Yuksek", year: 2008, single: true, genre: "electro", fr: true },
+  { title: "Tonight", artist: "Yuksek", year: 2008, ep: true, genre: "electro", fr: true, listened: true },
   { title: "Deathconsciousness", artist: "Have a Nice Life", year: 2008, listened: true, genre: "rock", meh: true },
   { title: "Shine", artist: "Estelle", year: 2008, comment: `"American Boy"`, listened: true, genre: "r-n-b" },
   { title: "Objectif: Thunes", artist: "Ultra Vomit", year: 2008, genre: "metal", fr: true },
@@ -5009,7 +5018,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "After the Disco", artist: "Broken Bells", year: 2014, listened: true, genre: "pop", stars: 1 },
   { title: "Turn Blue", artist: "The Black Keys", year: 2014 },
   { title: "Songs Of Innocence", artist: "U2", year: 2014 },
-  { title: "Interstellar OST", artist: "Hans Zimmer", year: 2014 },
+  { title: "Interstellar OST", artist: "Hans Zimmer", year: 2014, listened: true, genre: "classical" },
   { title: "L'Art raffiné de l'ecchymose", artist: "Lucio Bukowski, Nestor Kéa", year: 2014, genre: "rap", fr: true },
   { title: "Under Pressure", artist: "Logic", year: 2014, genre: "rap" },
   { title: "Odyssey", artist: "HOME", year: 2014, genre: "electro", listened: true, comment: '"Resonance"' },
