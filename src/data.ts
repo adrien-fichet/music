@@ -5758,7 +5758,7 @@ const data_2020s: MusicalPiece[] = [
   { title: "Hackney Diamonds", artist: "The Rolling Stones", year: 2023 },
   { title: "For That Beautiful Feeling", artist: "The Chemical Brothers", year: 2023 },
   { title: "Gaza", artist: "PNL", year: 2023, single: true, fr: true, genre: "rap", listened: true },
-  { title: "Formentera II", artist: "Metric", year: 2023, listened: true },
+  { title: "Formentera II", artist: "Metric", year: 2023 },
 
   { title: "The Fearless Flyers IV", artist: "The Fearless Flyers", year: 2024, ep: true, listened: true, genre: "funk", stars: 3, fav: true },
   { title: "Loss of Life", artist: "MGMT", year: 2024, listened: true, genre: "pop" },
