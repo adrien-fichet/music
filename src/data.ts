@@ -1089,7 +1089,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Live at the Isle of Wight Festival", artist: "The Who", year: 1970, live: true, perso: true },
   { title: "Introducing the Whatnauts", artist: "The Whatnauts", year: 1970 },
   { title: "...Very 'Eavy ...Very 'Umble", artist: "Uriah Heep", year: 1970 },
-  { title: "Gentle Giant", artist: "Gentle Giant", year: 1970 },
+  { title: "Gentle Giant", artist: "Gentle Giant", year: 1970, listened: true, genre: "rock", stars: 2, fav: true, comment: '"Why Not?"' },
   { title: "L.A. Getaway", artist: "L.A. Getaway", year: 1970, comment: 'Joel Scott Hill' },
   { title: "Back in the USA", artist: "MC5", year: 1970, perso: true, comment: `"Shakin' Street"` },
   { title: "ABC", artist: "The Jackson 5", year: 1970, comment: 'cf The Corporation', genre: "pop", listened: true },
@@ -1185,6 +1185,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Poems, Prayers & Promises", artist: "John Denver", year: 1971, comment: '"Take Me Home, Country Roads"', genre: "folk" },
   { title: "Sabelithe", artist: "John Chowning", year: 1971, listened: true, genre: "electro", single: true },
   { title: "Un été 42 OST", artist: "Michel Legrand", year: 1971, fr: true },
+  { title: "Acquiring the Taste", artist: "Gentle Giant", year: 1971, listened: true, genre: "rock", stars: 1 },
 
   { title: "Exile on Main Street", artist: "The Rolling Stones", year: 1972, genre: "rock" },
   { title: "Ethiopian Knights", artist: "Donald Byrd", year: 1972, genre: "fusion" },
@@ -1277,6 +1278,8 @@ const data_1970s: MusicalPiece[] = [
   { title: "Think (About It)", artist: "Lyn Collins", year: 1972, comment: 'the "Think break" (Jabo Starks)' },
   { title: "Fugain et le Big Bazar", artist: "Michel Fugain et le Big Bazar", year: 1972, fr: true, genre: "chanson" },
   { title: "Eat a Peach", artist: "The Allman Brothers Band", year: 1972, listened: true, fav: true, stars: 2, genre: "rock", comment: '"Les Brers in A Minor", "One Way Out" (live), 	"Trouble No More" (live)' },
+  { title: "Three Friends", artist: "Gentle Giant", year: 1972, listened: true, genre: "rock", stars: 1, comment: 'title track' },
+  { title: "Octopus", artist: "Gentle Giant", year: 1972 },
 
   { title: "The Dark Side of the Moon", artist: "Pink Floyd", year: 1973, listened: true, fav: true, stars: 4, genre: "rock", perso: true, comment: '"Breathe (In the Air)", "Time", "The Great Gig in the Sky" (vocals by Clare Torry), "Money", "Us and Them", "Brain Damage"' },
   { title: "Love Devotion Surrender", artist: "Santana & McLaughlin", year: 1973, genre: "fusion" },
@@ -1370,6 +1373,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Pillow Talk", artist: "Sylvia", year: 1973 },
   { title: "Under The Influence of...", artist: "Love Unlimited", year: 1973, comment: `"Love's Theme"` },
   { title: "Glitter", artist: "Gary Glitter", year: 1973 },
+  { title: "In a Glass House", artist: "Gentle Giant", year: 1973 },
 
   { title: "Pretzel Logic", artist: "Steely Dan", year: 1974, listened: true, fav: true, stars: 1, genre: "rock", comment: `"Rikki Don't Lose That Number", "Night By Night", "Any Major Dude Will Tell You"` },
   { title: "Red", artist: "King Crimson", year: 1974, listened: true, genre: "rock" },
@@ -1455,7 +1459,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Music in Twelve Parts", artist: "Philip Glass", year: 1974 },
   { title: "Total Eclipse", artist: "Billy Cobham", year: 1974, genre: "fusion", listened: true, stars: 1, fav: true },
   { title: "Belonging", artist: "Keith Jarrett", year: 1974, genre: "jazz", comment: `"Long as You Know You're Living Yours"` },
-  { title: "The Power and the Glory", artist: "Gentle Giant", year: 1974 },
+  { title: "The Power and the Glory", artist: "Gentle Giant", year: 1974, listened: true, genre: "rock", stars: 2, fav: true, comment: '"Proclamation" keyboard riff' },
   { title: "Zuckerzeit", artist: "Cluster", year: 1974 },
   { title: "Les Valseuses OST", artist: "Stéphane Grappelli", year: 1974, fr: true },
   { title: "But Beautiful", artist: "Stan Getz, Bill Evans", year: 1974, live: true, genre: "jazz", comment: 'recorded in 1974, released in 1996' },
@@ -1548,6 +1552,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Chapter Four: Alive in New York", artist: "Gato Barbieri", year: 1975, live: true },
   { title: "Barry Lyndon OST", artist: "Leonard Rosenman (arrangement), Various Artists", year: 1975 },
   { title: "Jaws OST", artist: "John Williams", year: 1975 },
+  { title: "Free Hand", artist: "Gentle Giant", year: 1975 },
 
   { title: "The Royal Scam", artist: "Steely Dan", year: 1976, listened: true, fav: true, perso: true, stars: 3, genre: "rock", comment: '"Kid Charlemagne" guitar solo' },
   { title: "Those Southern Knights", artist: "The Crusaders", year: 1976, listened: true, fav: true, stars: 3, genre: "funk", comment: '"Spiral", "Keep That Same Old Feeling"' },
@@ -1642,6 +1647,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Troubadour", artist: "JJ Cale", year: 1976 },
   { title: "3:47 EST", artist: "Klaatu", year: 1976, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Year of the Cat", artist: "Al Stewart", year: 1976 },
+  { title: "Interview", artist: "Gentle Giant", year: 1976 },
 
   { title: "Aja", artist: "Steely Dan", year: 1977, listened: true, fav: true, stars: 4, genre: "rock", comment: 'engineered by Roger Nichols, Bill Schnee, Elliott Scheiner, Al Schmitt. Mastered by Bernie Grundman' },
   { title: "Elegant Gypsy", artist: "Al Di Meola", year: 1977, genre: "fusion", listened: true, stars: 3, fav: true },
@@ -1737,6 +1743,8 @@ const data_1970s: MusicalPiece[] = [
   { title: "Big Bisou", artist: "Carlos", year: 1977, fr: true, single: true, genre: "chanson" },
   { title: "Hope", artist: "Klaatu", year: 1977, listened: true, genre: "rock", stars: 1, fav: true },
   { title: "Star Wars OST", artist: "John Williams", year: 1977 },
+  { title: "The Missing Piece", artist: "Gentle Giant", year: 1977 },
+  { title: "Playing the Fool - the Official Live", artist: "Gentle Giant", year: 1977, live: true },
 
   { title: "Insights", artist: "Toshiko Akiyoshi - Lew Tabackin Big Band", year: 1978, genre: "jazz" },
   { title: "Feels Good to Me", artist: "Bruford", year: 1978, genre: "fusion" },
@@ -1831,6 +1839,7 @@ const data_1970s: MusicalPiece[] = [
   { title: "Quiet Riot", artist: "Quiet Riot", year: 1978, comment: 'Randy Rhoads on guitar' },
   { title: "I Love My Music", artist: "Wild Cherry", year: 1978 },
   { title: "Sir Army Suit", artist: "Klaatu", year: 1978, listened: true, genre: "rock" },
+  { title: "Giant For a Day!", artist: "Gentle Giant", year: 1978 },
 
   { title: "London Calling", artist: "The Clash", year: 1979, perso: true, listened: true, genre: "rock", comment: `Offert en cadeau (2-CD box set), "Brand New Cadillac", "Hateful", "Rudy Can't Fail", "Clampdown", "The Guns of Brixton", "I'm Not Down", "Train in Vain (Stand By Me)"`, stars: 4, fav: true },
   { title: "One on One", artist: "Bob James and Earl Klugh", year: 1979, genre: "jazz" },
@@ -2008,6 +2017,7 @@ const data_1980s: MusicalPiece[] = [
   { title: "I Just Can't Stop It", artist: "The Beat", year: 1980 },
   { title: "Star Wars V: The Empire Strikes Back OST", artist: "John Williams", year: 1980 },
   { title: "The Turn of a Friendly Card", artist: "The Alan Parsons Project", year: 1980 },
+  { title: "Civilian", artist: "Gentle Giant", year: 1980 },
 
   { title: "Fire of Unknown Origin", artist: "Blue Öyster Cult", year: 1981, listened: true, fav: true, stars: 1, genre: "hard-rock", comment: `"Burnin' For You"` },
   { title: "Word of Mouth", artist: "Jaco Pastorius", year: 1981, genre: "fusion" },
@@ -4748,6 +4758,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Scarlattitude", artist: "Nubi", year: 2011, genre: "rap", fr: true },
   { title: "Minecraft - Volume Alpha", artist: "C418", year: 2011, genre: "vgm", listened: true },
   { title: "Galactic Melt", artist: "Com Truise", year: 2011, genre: "electro", listened: true },
+  { title: "Goblin", artist: "Tyler, the Creator", year: 2011, comment: '"Yonkers"' },
 
   { title: "Vollmilch", artist: "Vulfpeck", year: 2012, listened: true, genre: "funk", stars: 1, fav: true, ep: true },
   { title: "PANIC", artist: "Caravan Palace", year: 2012, fr: true },
@@ -5430,7 +5441,7 @@ const data_2010s: MusicalPiece[] = [
   { title: "Drift", artist: "Agoria", year: 2019, genre: "electro", fr: true },
   { title: "Road to Nowhere", artist: "KAS:ST", year: 2019, genre: "electro", fr: true },
   { title: "ROADS - Vol. 1", artist: "Thylacine", year: 2019, genre: "electro", fr: true },
-  { title: "IGOR", artist: "Tyler, the Creator", year: 2019, listened: true, genre: "r-n-b", stars: 1 },
+  { title: "IGOR", artist: "Tyler, the Creator", year: 2019, listened: true, genre: "rap", stars: 1 },
   { title: "Giscard d'Estaing", artist: "Dombrance", year: 2019, fr: true, genre: "electro", single: true, listened: true },
   { title: "DJ-KiCKS: Leon Vynehall", artist: "Various Artists", year: 2019 },
   { title: "DJ-KiCKS: Laurel Halo", artist: "Various Artists", year: 2019 },
